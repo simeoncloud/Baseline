@@ -1,0 +1,42 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices - Physical"
+      }
+    }
+  ],
+  "description": "Disables hybrid sleep by setting hibernate timeout settings to 0. Hiberfile is not generated with these settings.",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "description": "If you set this policy setting to 0, a hiberfile is not generated when the system transitions to sleep",
+      "displayName": "TurnOffHybridSleepOnBattery",
+      "isReadOnly": false,
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Power/TurnOffHybridSleepOnBattery",
+      "value": 0
+    },
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "description": "If you set this policy setting to 0, a hiberfile is not generated when the system transitions to sleep",
+      "displayName": "TurnOffHybridSleepPluggedIn",
+      "isReadOnly": false,
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Power/TurnOffHybridSleepPluggedIn",
+      "value": 0
+    },
+    {
+      "@odata.type": "#microsoft.graph.omaSettingString",
+      "displayName": "HibernateTimeoutOnBattery",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Power/HibernateTimeoutOnBattery",
+      "value": "<enabled/><data id=\"EnterDCHibernateTimeOut\" value=\"0\"/>"
+    },
+    {
+      "@odata.type": "#microsoft.graph.omaSettingString",
+      "displayName": "HibernateTimeoutPluggedIn",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Power/HibernateTimeoutPluggedIn",
+      "value": "<enabled/><data id=\"EnterACHibernateTimeOut\" value=\"0\"/>"
+    }
+  ]
+}

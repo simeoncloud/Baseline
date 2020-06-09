@@ -1,0 +1,25 @@
+{
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Autopilot Devices - User Driven"
+      }
+    }
+  ],
+  "description": "User Driven Autopilot profile for virtual corporate devices that do not have TPM 2.0.\n\nSelf Deploying mode is not supported on VMs even if they have a virtual TPM, so there is a separate policy for virtual corporate devices.\n\nConverts all targeted devices to use Autopilot. This allows leveraging Autopilot functionality like Autopilot Reset and Fresh Start even if the device was not originally deployed through Autopilot.",
+  "deviceNameTemplate": "",
+  "deviceType": "windowsPc",
+  "enableWhiteGlove": false,
+  "extractHardwareHash": true,
+  "language": "os-default",
+  "outOfBoxExperienceSettings": {
+    "deviceUsageType": "singleUser",
+    "hideEscapeLink": true,
+    "hideEULA": true,
+    "hidePrivacySettings": true,
+    "skipKeyboardSelectionPage": false,
+    "userType": "standard"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "assignedLicenses": [],
+  "description": "Contains all corporate devices, except those explicitly tagged as 'Autopilot-SelfDeploying'. Not yet enrolled devices eligible for autopilot are identified as those having a 'ZTDId' marker.",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "mailEnabled": false,
+  "membershipRule": "(device.devicePhysicalIDs -all (_ -ne \"[OrderID]:Autopilot-SelfDeploying\")) -and ((device.devicePhysicalIDs -any (_ -contains \"[ZTDId]\")) -or (device.deviceOwnership -eq \"Company\"))",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

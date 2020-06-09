@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices - Physical"
+      }
+    }
+  ],
+  "description": "When the power button is pressed, put the machine to sleep. When the lid is closed on a laptop while plugged in to a power source, the device will not go to sleep.  When the lid for a laptop is closed, and the laptop is not connected to a power source, put the laptop to sleep.\"",
+  "powerButtonActionOnBattery": "sleep",
+  "powerButtonActionPluggedIn": "sleep",
+  "powerLidCloseActionOnBattery": "sleep",
+  "powerLidCloseActionPluggedIn": "noAction",
+  "powerSleepButtonActionOnBattery": "sleep",
+  "powerSleepButtonActionPluggedIn": "sleep"
+}

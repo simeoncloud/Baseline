@@ -1,0 +1,6 @@
+{
+  "allowInvitations": true,
+  "limitedAccessCanAddExternalUsers": false,
+  "restrictDirectoryAccess": true,
+  "usersCanAddExternalUsers": false
+}

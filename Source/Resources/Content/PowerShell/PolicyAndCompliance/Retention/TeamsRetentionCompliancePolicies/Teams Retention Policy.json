@@ -1,0 +1,22 @@
+{
+  "comment": "Microsoft Teams retention policies must be created and managed independently. This policy defines an indefinite retention policy for all Microsoft Teams content.",
+  "enabled": true,
+  "restrictiveRetention": false,
+  "rules": [
+    {
+      "excludedItemClasses": [],
+      "name": "Teams Retention Policy",
+      "retentionComplianceAction": "Keep",
+      "retentionDuration": "Unlimited",
+      "retentionDurationDisplayHint": "Days"
+    }
+  ],
+  "teamsChannelLocation": [
+    "All"
+  ],
+  "teamsChannelLocationException": [],
+  "teamsChatLocation": [
+    "All"
+  ],
+  "teamsChatLocationException": []
+}

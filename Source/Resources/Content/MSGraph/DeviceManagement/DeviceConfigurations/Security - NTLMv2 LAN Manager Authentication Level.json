@@ -1,0 +1,13 @@
+{
+  "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Configures the LAN Manager Authentication Level to NTLMv2.",
+  "lanManagerAuthenticationLevel": "lmNtlmV2AndNotLm"
+}

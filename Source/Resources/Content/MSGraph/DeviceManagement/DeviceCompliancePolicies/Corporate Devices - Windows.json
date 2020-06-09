@@ -1,0 +1,45 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "activeFirewallRequired": false,
+  "antiSpywareRequired": false,
+  "antivirusRequired": false,
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "bitLockerEnabled": false,
+  "codeIntegrityEnabled": false,
+  "configurationManagerComplianceRequired": false,
+  "defenderEnabled": true,
+  "description": "This is the default compliance policy for Windows Corporate Devices. Assignment is based on the Corporate Devices Azure AD group.\n\nNote: It is not necessary to have a separate group of just Windows corporate devices because this policy will be considered as Non Applicable Corporate Devices members that aren't Windows.\n\nNote: If there are not any compliance policies that apply to a device, the Built-in Device Compliance Policy will generate an error. If there is an assigned, policy, but that policy has no settings defined, it will be considered as Not Applicable, so the built-in policy will still show an error.",
+  "deviceThreatProtectionEnabled": false,
+  "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+  "earlyLaunchAntiMalwareDriverEnabled": false,
+  "passwordBlockSimple": false,
+  "passwordRequired": false,
+  "passwordRequiredToUnlockFromIdle": false,
+  "passwordRequiredType": "deviceDefault",
+  "requireHealthyDeviceReport": false,
+  "rtpEnabled": false,
+  "scheduledActionsForRule": [
+    {
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 24,
+          "notificationMessageCCList": [],
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ],
+  "secureBootEnabled": false,
+  "signatureOutOfDate": false,
+  "storageRequireEncryption": false,
+  "tpmRequired": false,
+  "validOperatingSystemBuildRanges": []
+}

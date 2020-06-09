@@ -1,0 +1,12 @@
+{
+  "assignedLicenses": [],
+  "description": "This group includes all Physical End User Corporate Devices, i.e. those that represent physical machines as opposed to virtual desktops.",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "mailEnabled": false,
+  "membershipRule": "((device.devicePhysicalIDs -any (_ -contains \"[ZTDId]\")) -or (device.deviceOwnership -eq \"Company\")) and (device.deviceManufacturer -notstartswith \"VMWare\") and (device.deviceManufacturer -notstartswith \"Parallels\") and (device.deviceModel -ne \"Virtual Machine\")",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

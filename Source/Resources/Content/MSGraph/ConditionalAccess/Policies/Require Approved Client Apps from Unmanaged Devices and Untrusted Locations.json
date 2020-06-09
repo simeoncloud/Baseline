@@ -1,0 +1,67 @@
+{
+  "conditions": {
+    "applications": {
+      "excludeApplications": {
+        "$ref": "ResourceContext:AppsAllowedFromUntrustedLocations"
+      },
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "browser",
+      "modern"
+    ],
+    "devices": {
+      "excludeDeviceStates": [
+        "Compliant",
+        "DomainJoined"
+      ],
+      "includeDeviceStates": [
+        "All"
+      ]
+    },
+    "locations": {
+      "excludeLocations": [
+        "AllTrusted"
+      ],
+      "includeLocations": [
+        "All"
+      ]
+    },
+    "platforms": {
+      "excludePlatforms": [],
+      "includePlatforms": [
+        "android",
+        "iOS"
+      ]
+    },
+    "signInRiskLevels": [],
+    "users": {
+      "excludeGroups": [
+        "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+      ],
+      "excludeRoles": [
+        "Company Administrator",
+        "Directory Synchronization Accounts"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "description": "Allows only content protected and whitelisted mobile (iOS and Android) apps from off-network.",
+  "grantControls": {
+    "builtInControls": [
+      "approvedApplication"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

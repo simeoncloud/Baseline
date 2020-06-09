@@ -1,0 +1,25 @@
+{
+  "customHelpdeskEmailOrUrl": "",
+  "customizeHelpdeskLink": false,
+  "emailOptionEnabled": false,
+  "enablementType": 1,
+  "mobileAppCodeEnabled": true,
+  "mobileAppNotificationEnabled": false,
+  "mobilePhoneOptionEnabled": true,
+  "notifyOnAdminPasswordReset": false,
+  "notifyUsersOnPasswordReset": true,
+  "numberOfAuthenticationMethodsRequired": 1,
+  "numberOfQuestionsToRegister": 5,
+  "numberOfQuestionsToReset": 3,
+  "officePhoneOptionEnabled": false,
+  "passwordResetEnabledGroupIds": [
+    "BUILTIN - Microsoft 365 Users"
+  ],
+  "passwordResetEnabledGroupName": "",
+  "registrationReconfirmIntevalInDays": 180,
+  "registrationRequiredOnSignIn": true,
+  "securityQuestions": [],
+  "securityQuestionsOptionEnabled": false,
+  "skipRegistrationAllowed": true,
+  "skipRegistrationMaxAllowedDays": 7
+}

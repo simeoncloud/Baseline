@@ -1,0 +1,66 @@
+{
+  "$manifest": {},
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "applicableArchitectures": "x86, x64",
+  "assignments": [
+    {
+      "intent": "required",
+      "settings": {
+        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+        "deliveryOptimizationPriority": "notConfigured",
+        "notifications": "showAll"
+      },
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Microsoft Windows Virtual Desktop Client",
+  "detectionRules": [],
+  "developer": "",
+  "enableFileNameBasedDetection": true,
+  "fileName": "019",
+  "installCommandLine": "powershell -ExecutionPolicy Bypass -NoProfile -NonInteractive -File ./Install.ps1",
+  "installExperience": {
+    "deviceRestartBehavior": "basedOnReturnCode",
+    "runAsAccount": "system"
+  },
+  "isFeatured": false,
+  "minimumSupportedOperatingSystem": {
+    "v10_1607": true,
+    "v10_1703": false,
+    "v10_1709": false,
+    "v10_1803": false,
+    "v10_1809": false,
+    "v10_1903": false
+  },
+  "notes": "",
+  "owner": "",
+  "publisher": "Microsoft",
+  "relationships": [],
+  "requirementRules": [],
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    }
+  ],
+  "uninstallCommandLine": "start /wait MsiExec.exe /X{84EAFC3C-807B-4E05-9479-4BD14EBA7F00} /q"
+}

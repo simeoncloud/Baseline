@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Configures Outlook to disable prompt to setup Outlook on mobile device.",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingString",
+      "description": "Sets registry to remove hyperlink in Outlook to setup Outlook on mobile device.",
+      "displayName": "L_DisableOutlookMobileHyperlink",
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/Outlook16~Policy~L_MicrosoftOfficeOutlook~L_OutlookOptions~L_Other/L_DisableOutlookMobileHyperlink",
+      "value": "<enabled/>"
+    }
+  ]
+}

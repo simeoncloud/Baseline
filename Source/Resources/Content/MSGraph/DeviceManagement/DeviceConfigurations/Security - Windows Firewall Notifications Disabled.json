@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Suppresses Windows Firewall alerts to the end user. This is applied so that users are not warned that the Domain and Private network firewall profiles allow inbound traffic by default, which is intentional.",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "displayName": "DisableNotifications",
+      "isReadOnly": false,
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableNotifications",
+      "value": 1
+    }
+  ]
+}

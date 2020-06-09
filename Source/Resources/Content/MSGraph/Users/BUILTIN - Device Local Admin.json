@@ -1,0 +1,22 @@
+{
+  "accountEnabled": true,
+  "assignedLicenses": {
+    "$ref": "ResourceContext:M365Licenses"
+  },
+  "businessPhones": [],
+  "department": "BUILTIN",
+  "isDeviceEnrollmentManager": true,
+  "jobTitle": "Account added to local Administrators group on MDM enrolled devices",
+  "mailNickname": "devicelocaladmin",
+  "memberOf": [
+    {
+      "@odata.type": "#microsoft.graph.directoryRole",
+      "displayName": "Device Administrators"
+    }
+  ],
+  "passwordPolicies": "DisablePasswordExpiration",
+  "preferredLanguage": "en-US",
+  "usageLocation": "US",
+  "userPrincipalName": "devicelocaladmin",
+  "userType": "Member"
+}

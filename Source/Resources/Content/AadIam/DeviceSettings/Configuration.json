@@ -1,0 +1,26 @@
+{
+  "additionalAdminsForDevicesIsAdminConfigurable": true,
+  "additionalAdminsForDevicesSelectedUsers": [
+    {
+      "id": "BUILTIN - Device Local Admin"
+    }
+  ],
+  "additionalAdminsForDevicesSetting": 1,
+  "deviceJoinAzureADIsAdminConfigurable": true,
+  "deviceJoinAzureADSelectedUsers": [
+    {
+      "id": "BUILTIN - Device Enrollers",
+      "type": "2"
+    },
+    {
+      "id": "BUILTIN - Microsoft 365 Users",
+      "type": "2"
+    }
+  ],
+  "deviceJoinAzureADSetting": 1,
+  "deviceRegisterAzureADIsAdminConfigurable": false,
+  "deviceRegisterAzureADSetting": 0,
+  "isEnabled": true,
+  "maxDeviceNumberPerUserSetting": 100,
+  "requireMfaSetting": true
+}

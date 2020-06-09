@@ -1,0 +1,17 @@
+{
+  "appData": {
+    "complianceUrl": "https://portal.manage.microsoft.com/?portalAction",
+    "enrollmentUrl": "https://enrollment.manage.microsoft.com/enrollmentserver/discovery.svc",
+    "mamComplianceUrl": "",
+    "mamEnrollmentUrl": "",
+    "mamTermsOfUseUrl": "",
+    "termsOfUseUrl": "https://portal.manage.microsoft.com/TermsofUse.aspx"
+  },
+  "appId": "d4ebce55-015a-49b5-a083-c84d1797ae8c",
+  "isOnPrem": false,
+  "logoUrl": null,
+  "mamAppliesTo": 0,
+  "mamAppliesToGroups": [],
+  "mdmAppliesTo": 0,
+  "mdmAppliesToGroups": []
+}

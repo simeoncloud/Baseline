@@ -1,0 +1,13 @@
+{
+  "@odata.type": "#microsoft.graph.windowsIdentityProtectionConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "This policy disables Windows Hello. Windows Hello is enabled by default on any Azure AD Joined devices. This will prompt any Azure AD user to create a PIN at logon and is undesirable.",
+  "windowsHelloForBusinessBlocked": true
+}

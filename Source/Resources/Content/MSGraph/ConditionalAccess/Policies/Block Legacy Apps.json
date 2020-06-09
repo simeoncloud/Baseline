@@ -1,0 +1,40 @@
+{
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "other"
+    ],
+    "signInRiskLevels": [],
+    "users": {
+      "excludeGroups": [
+        "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+      ],
+      "excludeRoles": [
+        "Company Administrator",
+        "Directory Synchronization Accounts"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "description": "Blocks apps trying to connect using legacy protocols (not Modern Authentication).", 
+  "grantControls": {
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

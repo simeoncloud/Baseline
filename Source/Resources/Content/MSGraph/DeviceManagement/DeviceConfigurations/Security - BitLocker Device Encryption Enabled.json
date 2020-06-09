@@ -1,0 +1,50 @@
+{
+  "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices - Physical"
+      }
+    }
+  ],
+  "bitLockerAllowStandardUserEncryption": true,
+  "bitLockerDisableWarningForOtherDiskEncryption": true,
+  "bitLockerEnableStorageCardEncryptionOnMobile": true,
+  "bitLockerEncryptDevice": true,
+  "bitLockerFixedDrivePolicy": {
+    "recoveryOptions": {
+      "blockDataRecoveryAgent": false,
+      "enableBitLockerAfterRecoveryInformationToStore": true,
+      "enableRecoveryInformationSaveToStore": true,
+      "hideRecoveryOptions": true,
+      "recoveryInformationToStore": "passwordAndKey",
+      "recoveryKeyUsage": "allowed",
+      "recoveryPasswordUsage": "allowed"
+    },
+    "requireEncryptionForWriteAccess": true
+  },
+  "bitLockerRemovableDrivePolicy": {
+    "blockCrossOrganizationWriteAccess": false,
+    "requireEncryptionForWriteAccess": true
+  },
+  "bitLockerSystemDrivePolicy": {
+    "prebootRecoveryEnableMessageAndUrl": true,
+    "recoveryOptions": {
+      "blockDataRecoveryAgent": false,
+      "enableBitLockerAfterRecoveryInformationToStore": true,
+      "enableRecoveryInformationSaveToStore": true,
+      "hideRecoveryOptions": true,
+      "recoveryInformationToStore": "passwordAndKey",
+      "recoveryKeyUsage": "allowed",
+      "recoveryPasswordUsage": "allowed"
+    },
+    "startupAuthenticationBlockWithoutTpmChip": true,
+    "startupAuthenticationRequired": true,
+    "startupAuthenticationTpmKeyUsage": "blocked",
+    "startupAuthenticationTpmPinAndKeyUsage": "blocked",
+    "startupAuthenticationTpmPinUsage": "allowed",
+    "startupAuthenticationTpmUsage": "allowed"
+  },
+  "description": "Enables and configures BitLocker device encryption"
+}

@@ -1,0 +1,69 @@
+{
+  "conditions": {
+    "applications": {
+      "excludeApplications": {
+        "$ref": "ResourceContext:AppsAllowedFromUntrustedLocations"
+      },
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "browser",
+      "modern"
+    ],
+    "devices": {
+      "excludeDeviceStates": [
+        "Compliant",
+        "DomainJoined"
+      ],
+      "includeDeviceStates": [
+        "All"
+      ]
+    },
+    "locations": {
+      "excludeLocations": [
+        "AllTrusted"
+      ],
+      "includeLocations": [
+        "All"
+      ]
+    },
+    "platforms": {
+      "excludePlatforms": [
+        "android",
+        "iOS"
+      ],
+      "includePlatforms": [
+        "all"
+      ]
+    },
+    "signInRiskLevels": [],
+    "users": {
+      "excludeGroups": [
+        "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+      ],
+      "excludeRoles": [
+        "Company Administrator",
+        "Directory Synchronization Accounts"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "description": "Blocks platforms other than iOS and Android from authenticating from off-network.",
+  "grantControls": {
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

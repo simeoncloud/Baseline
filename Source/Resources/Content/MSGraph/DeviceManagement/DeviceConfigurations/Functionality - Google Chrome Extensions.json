@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Installs required Chrome Extensions",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingString",
+      "description": "Specifies required extensions list:\nppnbnpeolgkicgegkbkbjmhlideopiji: Windows 10 Accounts",
+      "displayName": "ExtensionInstallForcelist",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist",
+      "value": "<enabled/>\n<data id=\"ExtensionInstallForcelistDesc\" value=\"1&#xF000;ppnbnpeolgkicgegkbkbjmhlideopiji;https://clients2.google.com/service/update2/crx\"/>"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "convergedUXV2FeatureValue": 1,
+  "convergedUXV2GroupId": "BUILTIN - Microsoft 365 Users",
+  "myAppsFeatureValue": 1,
+  "myAppsGroupId": "BUILTIN - Microsoft 365 Users - Insiders",
+  "myGroupsFeatureValue": 0,
+  "myGroupsGroupId": null,
+  "myStaffFeatureValue": 0,
+  "myStaffGroupId": null,
+  "registeredAuthMethodFeatureValue": 0,
+  "registeredAuthMethodGroupId": "",
+  "userActivityReportsFeatureValue": 0,
+  "userActivityReportsGroupId": null
+}

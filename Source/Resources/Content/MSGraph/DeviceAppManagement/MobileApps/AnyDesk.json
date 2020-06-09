@@ -1,0 +1,77 @@
+{
+  "$manifest": {
+    "AnyDesk.msi": "${ResourceContext:MSGraph:DeviceAppManagement:MobileApps:AnyDesk:Url}"
+  }, 
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "applicableArchitectures": "x86, x64",
+  "assignments": [
+    {
+      "intent": "required",
+      "settings": {
+        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+        "deliveryOptimizationPriority": "notConfigured",
+        "notifications": "showAll"
+      },
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "AnyDesk remote access for remote administration.",
+  "detectionRules": [
+    {
+      "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
+      "check32BitOn64System": true,
+      "detectionType": "exists",
+      "fileOrFolderName": "AnyDesk AnyDesk",
+      "operator": "notConfigured",
+      "path": "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs"
+    }
+  ],
+  "developer": "",
+  "enableFileNameBasedDetection": true,
+  "fileName": "019",
+  "installCommandLine": "powershell -ExecutionPolicy Bypass -NoProfile -NonInteractive -File ./Install.ps1",
+  "installExperience": {
+    "deviceRestartBehavior": "basedOnReturnCode",
+    "runAsAccount": "system"
+  },
+  "isFeatured": false,
+  "minimumSupportedOperatingSystem": {
+    "v10_1607": true,
+    "v10_1703": false,
+    "v10_1709": false,
+    "v10_1803": false,
+    "v10_1809": false,
+    "v10_1903": false
+  },
+  "notes": "",
+  "owner": "",
+  "publisher": "AnyDesk",
+  "relationships": [],
+  "requirementRules": [],
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    }
+  ],
+  "uninstallCommandLine": "powershell -ExecutionPolicy Bypass -NoProfile -NonInteractive -File \"%ProgramData%\\AnyDesk\\Uninstall.ps1\""
+}

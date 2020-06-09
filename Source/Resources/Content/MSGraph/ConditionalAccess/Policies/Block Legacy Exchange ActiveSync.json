@@ -1,0 +1,44 @@
+{
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "Office 365 Exchange Online"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "easUnsupported"
+    ],
+    "platforms": {
+      "excludePlatforms": [],
+      "includePlatforms": [
+        "android",
+        "iOS"
+      ]
+    },
+    "signInRiskLevels": [],
+    "users": {
+      "excludeGroups": [
+        "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+      ],
+      "excludeRoles": [],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "description": "Blocks Exchange ActiveSync (disabling native iOS mail client).",
+  "grantControls": {
+    "builtInControls": [
+      "approvedApplication"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "eventHubAuthorizationRuleId": null,
+    "eventHubName": null,
+    "logAnalyticsDestinationType": null,
+    "logs": [
+      {
+        "category": "AuditLogs",
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
+        "category": "SignInLogs",
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      }
+    ],
+    "metrics": [],
+    "serviceBusRuleId": null,
+    "storageAccountId": "${ResourceContext:LogStorageAccountId}",
+    "workspaceId": "${ResourceContext:LogAnalyticsWorkspaceId}"
+  }
+}

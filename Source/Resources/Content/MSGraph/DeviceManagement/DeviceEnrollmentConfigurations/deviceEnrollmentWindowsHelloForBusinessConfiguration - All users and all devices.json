@@ -1,0 +1,25 @@
+{
+  "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
+      }
+    }
+  ],
+  "description": "This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership.",
+  "enhancedBiometricsState": "enabled",
+  "pinExpirationInDays": 41,
+  "pinLowercaseCharactersUsage": "disallowed",
+  "pinMaximumLength": 127,
+  "pinMinimumLength": 6,
+  "pinPreviousBlockCount": 5,
+  "pinSpecialCharactersUsage": "disallowed",
+  "pinUppercaseCharactersUsage": "disallowed",
+  "priority": 0,
+  "remotePassportEnabled": true,
+  "securityDeviceRequired": true,
+  "securityKeyForSignIn": "notConfigured",
+  "state": "disabled",
+  "unlockWithBiometricsEnabled": true
+}

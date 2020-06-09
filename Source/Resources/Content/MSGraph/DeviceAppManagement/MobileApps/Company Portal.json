@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.microsoftStoreForBusinessApp",
+  "assignments": [
+    {
+      "intent": "required",
+      "settings": {
+        "@odata.type": "#microsoft.graph.microsoftStoreForBusinessAppAssignmentSettings",
+        "useDeviceContext": false
+      },
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "productKey": "9WZDNCRFJ3PZ/0016",
+  "relationships": []
+}

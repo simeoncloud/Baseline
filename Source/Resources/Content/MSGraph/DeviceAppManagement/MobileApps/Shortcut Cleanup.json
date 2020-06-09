@@ -1,0 +1,66 @@
+{
+  "$manifest": {},
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "applicableArchitectures": "x86, x64",
+  "assignments": [
+    {
+      "intent": "required",
+      "settings": {
+        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+        "deliveryOptimizationPriority": "notConfigured",
+        "notifications": "showAll"
+      },
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Cleans up duplicate desktop shortcuts (ending with - Copy.lnk).",
+  "detectionRules": [],
+  "developer": "",
+  "enableFileNameBasedDetection": true,
+  "fileName": "007",
+  "installCommandLine": "powershell -ExecutionPolicy Bypass -NoProfile -NonInteractive -File ./Install.ps1",
+  "installExperience": {
+    "deviceRestartBehavior": "basedOnReturnCode",
+    "runAsAccount": "system"
+  },
+  "isFeatured": false,
+  "minimumSupportedOperatingSystem": {
+    "v10_1607": true,
+    "v10_1703": false,
+    "v10_1709": false,
+    "v10_1803": false,
+    "v10_1809": false,
+    "v10_1903": false
+  },
+  "notes": "",
+  "owner": "",
+  "publisher": "M365",
+  "relationships": [],
+  "requirementRules": [],
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    }
+  ],
+  "uninstallCommandLine": "powershell -ExecutionPolicy Bypass -NoProfile -NonInteractive -Command 'Unregister-ScheduledTask -TaskName Remove-DuplicateShortcuts -TaskPath \\ManagementScripts\\ -Confirm:$false -EA SilentlyContinue'"
+}

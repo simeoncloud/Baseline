@@ -1,0 +1,13 @@
+{
+  "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Disables the addition of personal Microsoft accounts to the device to ensure DLP.",
+  "microsoftAccountBlocked": true
+}

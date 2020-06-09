@@ -1,0 +1,33 @@
+{
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "definitionValues": [
+    {
+      "configurationType": "policy",
+      "definition": {
+        "categoryPath": "\\OneDrive",
+        "classType": "machine",
+        "displayName": "Silently sign in users to the OneDrive sync client with their Windows credentials"
+      },
+      "enabled": true,
+      "presentationValues": []
+    },
+    {
+      "configurationType": "policy",
+      "definition": {
+        "categoryPath": "\\OneDrive",
+        "classType": "machine",
+        "displayName": "Use OneDrive Files On-Demand"
+      },
+      "enabled": true,
+      "presentationValues": []
+    }
+  ],
+  "description": "Silently configures OneDrive for use with the primary Windows user and Files On Demand (FOD)."
+}

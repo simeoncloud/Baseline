@@ -1,0 +1,11 @@
+{
+  "bannerLogoUrl": "",
+  "hideKeepMeSignedIn": false,
+  "illustrationUrl": "",
+  "locale": "0",
+  "signInBackColor": "",
+  "signInPageText": "${ResourceContext:SigninPageText}",
+  "signInUserIdLabel": "user",
+  "squareLogoDarkUrl": "",
+  "tileLogoUrl": ""
+}

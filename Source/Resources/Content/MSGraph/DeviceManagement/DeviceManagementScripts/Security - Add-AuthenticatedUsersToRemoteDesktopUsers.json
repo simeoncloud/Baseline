@@ -1,0 +1,14 @@
+{
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices - Physical"
+      }
+    }
+  ],
+  "description": "Adds the Authenticated Users local group to the local Remote Desktop Users group so that any authenticated user may connected via Remote Desktop. By default, only Administrators can connect.",
+  "enforceSignatureCheck": false,
+  "runAs32Bit": true,
+  "runAsAccount": "system"
+}

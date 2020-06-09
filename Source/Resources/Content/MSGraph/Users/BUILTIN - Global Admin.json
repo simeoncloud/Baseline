@@ -1,0 +1,24 @@
+{
+  "accountEnabled": true,
+  "assignedLicenses": {
+    "$ref": "ResourceContext:M365Licenses"
+  },
+  "businessPhones": [],
+  "country": "US",
+  "department": "BUILTIN",
+  "givenName": "-",
+  "isDeviceEnrollmentManager": false,
+  "jobTitle": "AAD Global Admin account",
+  "mailNickname": "globaladmin",
+  "memberOf": [
+    {
+      "@odata.type": "#microsoft.graph.directoryRole",
+      "displayName": "Company Administrator"
+    }
+  ],
+  "passwordPolicies": "DisablePasswordExpiration",
+  "preferredLanguage": "en-US",
+  "usageLocation": "US",
+  "userPrincipalName": "globaladmin",
+  "userType": "Member"
+}

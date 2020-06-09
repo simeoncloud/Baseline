@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Disables Windows Spotlight, a consumer oriented feature that provides tips and suggestions on the lock screen (including third party app recommendations).",
+  "windowsSpotlightBlocked": true,
+  "windowsSpotlightBlockOnActionCenter": true,
+  "windowsSpotlightBlockTailoredExperiences": true,
+  "windowsSpotlightBlockThirdPartyNotifications": true,
+  "windowsSpotlightBlockWelcomeExperience": true,
+  "windowsSpotlightBlockWindowsTips": true
+}

@@ -1,0 +1,14 @@
+{
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices - Physical"
+      }
+    }
+  ],
+  "description": "Configures the IntuneManagementExtension.\n\nDisables the recycleScripts setting so that the Content and Policies directories under C:\\Program Files (x86)\\Microsoft Intune Management Extension do not get automatically cleaned out by the extension.",
+  "enforceSignatureCheck": false,
+  "runAs32Bit": true,
+  "runAsAccount": "system"
+}

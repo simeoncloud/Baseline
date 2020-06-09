@@ -1,0 +1,10 @@
+{
+  "@odata.type": "#microsoft.graph.editionUpgradeConfiguration",
+  "assignments": [],
+  "description": "WARNING: read this entire description before assigning this policy!\n\nUpgrades applicable Corporate Devices to Windows 10 Enterprise.\n\nThe key used is a generic (well known) KMS key for Windows 10 Enterprise (https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys). \n\nThe currently logged in user is used for activation and therefore must have an EMS license assigned that includes Windows 10 Enterprise. This is not assigned to any groups because Subscription Based Licensing should auto-upgrade from Windows 10 Pro to Enterprise anyway. This policy would only be useful for upgrading consumer (e.g. Home) editions of Windows 10 to Enterprise or for applying a new KMS key to use.",
+  "license": "",
+  "licenseType": "productKey",
+  "productKey": "NPPR9-FWDCX-D2C8J-H872K-2YT43",
+  "targetEdition": "windows10Enterprise",
+  "windowsSMode": "noRestriction"
+}

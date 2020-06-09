@@ -1,0 +1,3 @@
+### Developer notes
+
+- The fileName property of mobileApps is used to record a unique identifier for the current version of the package. That property is then used to determine if the mobileApp's content  (e.g. msi or intunewin file) is up to date. This means that for any change to a mobileApp content file to be deployed, the fileName must be changed in the json. This seems to be the only reliable way to identify changes in the binary content of an app.

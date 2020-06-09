@@ -1,0 +1,79 @@
+{
+  "$manifest": {
+    "Install.bat": "${ResourceContext:MSGraph:DeviceAppManagement:MobileApps:Install.bat}",
+    "Setup.exe": "https://az764295.vo.msecnd.net/stable/f359dd69833dd8800b54d458f6d37ab7c78df520/VSCodeSetup-ia32-1.40.2.exe",
+    "Setup-x64.exe": "https://az764295.vo.msecnd.net/stable/f359dd69833dd8800b54d458f6d37ab7c78df520/VSCodeSetup-x64-1.40.2.exe"
+  },
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "applicableArchitectures": "x86, x64",
+  "assignments": [
+    {
+      "intent": "required",
+      "settings": {
+        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+        "deliveryOptimizationPriority": "notConfigured",
+        "notifications": "showAll"
+      },
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. This software is also usable as an advanced text editor.",
+  "detectionRules": [
+    {
+      "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
+      "check32BitOn64System": false,
+      "detectionType": "version",
+      "detectionValue": "1.40.2",
+      "fileOrFolderName": "Code.exe",
+      "operator": "greaterThanOrEqual",
+      "path": "%ProgramFiles%\\Microsoft VS Code"
+    }
+  ],
+  "developer": "",
+  "fileName": "012",
+  "installCommandLine": "Install.bat /VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath",
+  "installExperience": {
+    "deviceRestartBehavior": "basedOnReturnCode",
+    "runAsAccount": "system"
+  },
+  "isFeatured": false,
+  "minimumSupportedOperatingSystem": {
+    "v10_1607": true,
+    "v10_1703": false,
+    "v10_1709": false,
+    "v10_1803": false,
+    "v10_1809": false,
+    "v10_1903": false
+  },
+  "notes": "Install command line was derived from https://github.com/Microsoft/vscode/blob/master/build/win32/code.iss#L68-L81",
+  "owner": "",
+  "publisher": "Microsoft",
+  "relationships": [],
+  "requirementRules": [],
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    }
+  ],
+  "uninstallCommandLine": "\"%ProgramFiles%\\Microsoft VS Code\\unins000.exe\" /verysilent"
+}

@@ -1,0 +1,20 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "description": "Add AzureAD URL for Kerberos ticket forwarding to the browser's Intranet zone.",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingString",
+      "displayName": "AllowSiteToZoneAssignmentList",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSiteToZoneAssignmentList",
+      "value": { "$ref": "ResourceContext:AllowSiteToZoneAssignmentList" }
+    }
+  ]
+}

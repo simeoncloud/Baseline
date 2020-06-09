@@ -1,0 +1,14 @@
+{
+  "assignedLicenses": {
+    "$ref": "ResourceContext:M365Licenses"
+  },
+  "description": "This dynamic group is used to assign Microsoft 365 licenses to users for EMS and O365 functionality.",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "mailEnabled": false,
+  "membershipRule": "(user.department -ne null) and (user.department -ne \"\")",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

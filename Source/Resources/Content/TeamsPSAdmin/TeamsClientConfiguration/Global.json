@@ -1,0 +1,16 @@
+{
+  "allowBox": false,
+  "allowDropBox": false,
+  "allowEmailIntoChannel": true,
+  "allowGoogleDrive": false,
+  "allowGuestUser": false,
+  "allowOrganizationTab": true,
+  "allowPrivateTeamsDiscovery": null,
+  "allowResourceAccountSendMessage": true,
+  "allowScopedPeopleSearchandAccess": false,
+  "allowShareFile": false,
+  "allowShareLocation": null,
+  "contentPin": "RequiredOutsideScheduleMeeting",
+  "resourceAccountContentAccess": "NoAccess",
+  "restrictedSenderList": null
+}

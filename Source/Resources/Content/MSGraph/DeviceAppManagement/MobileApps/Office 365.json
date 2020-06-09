@@ -1,0 +1,44 @@
+{
+  "@odata.type": "#microsoft.graph.officeSuiteApp",
+  "assignments": [
+    {
+      "intent": "required",
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "autoAcceptEula": true,
+  "description": "Office 365",
+  "excludedApps": {
+    "access": false,
+    "excel": false,
+    "groove": true,
+    "infoPath": true,
+    "lync": false,
+    "oneDrive": false,
+    "oneNote": true,
+    "outlook": false,
+    "powerPoint": false,
+    "publisher": false,
+    "sharePointDesigner": true,
+    "teams": false,
+    "visio": false,
+    "word": false
+  },
+  "installProgressDisplayLevel": "none",
+  "isFeatured": true,
+  "localesToInstall": [],
+  "notes": "",
+  "officePlatformArchitecture": "x64",
+  "productIds": [
+    "o365ProPlusRetail"
+  ],
+  "relationships": [],
+  "shouldUninstallOlderVersionsOfOffice": true,
+  "targetVersion": "",
+  "updateChannel": "current",
+  "updateVersion": "",
+  "useSharedComputerActivation": false
+}

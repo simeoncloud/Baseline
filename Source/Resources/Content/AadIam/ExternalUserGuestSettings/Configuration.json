@@ -1,0 +1,8 @@
+{
+  "adminConsentedForUsersIntoTenantIds": [],
+  "hasListEntries": false,
+  "isAllowlist": true,
+  "noAADConsentForUsersFromTenantsIds": [],
+  "otpEnabled": false,
+  "targetedDomains": []
+}

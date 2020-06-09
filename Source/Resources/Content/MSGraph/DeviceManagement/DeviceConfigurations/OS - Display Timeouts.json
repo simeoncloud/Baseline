@@ -1,0 +1,26 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices - Physical"
+      }
+    }
+  ],
+  "description": "Turn off display after 10 minutes when on battery and 20 minutes when plugged in.",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingString",
+      "displayName": "DisplayOffTimeoutOnBattery",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Power/DisplayOffTimeoutOnBattery",
+      "value": "<enabled/><data id=\"EnterVideoDCPowerDownTimeOut\" value=\"600\"/>"
+    },
+    {
+      "@odata.type": "#microsoft.graph.omaSettingString",
+      "displayName": "DisplayOffTimeoutPluggedIn",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Power/DisplayOffTimeoutPluggedIn",
+      "value": "<enabled/><data id=\"EnterVideoACPowerDownTimeOut\" value=\"1200\"/>"
+    }
+  ]
+}

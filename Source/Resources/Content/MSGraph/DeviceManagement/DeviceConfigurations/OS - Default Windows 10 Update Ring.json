@@ -1,0 +1,44 @@
+{
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices - Insiders"
+      }
+    },
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices - Preview"
+      }
+    },
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "automaticUpdateMode": "autoInstallAndRebootAtMaintenanceTime",
+  "businessReadyUpdatesOnly": "businessReadyOnly",
+  "deadlineForFeatureUpdatesInDays": 5,
+  "deadlineForQualityUpdatesInDays": 3,
+  "deadlineGracePeriodInDays": 1,
+  "description": "Default Windows Update configuration for devices.",
+  "engagedRestartDeadlineInDays": null,
+  "engagedRestartSnoozeScheduleInDays": null,
+  "engagedRestartTransitionScheduleInDays": null,
+  "featureUpdatesDeferralPeriodInDays": 30,
+  "featureUpdatesRollbackWindowInDays": 60,
+  "installationSchedule": {
+    "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall",
+    "activeHoursEnd": "22:00:00",
+    "activeHoursStart": "05:00:00"
+  },
+  "microsoftUpdateServiceAllowed": true,
+  "qualityUpdatesDeferralPeriodInDays": 14,
+  "scheduleImminentRestartWarningInMinutes": 60,
+  "scheduleRestartWarningInHours": 8,
+  "updateWeeks": "everyWeek"
+}

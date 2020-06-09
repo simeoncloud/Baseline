@@ -1,0 +1,18 @@
+{
+  "assignedLicenses": {
+    "$ref": "ResourceContext:M365Licenses"
+  },
+  "description": "This manual group is used to assign Microsoft 365 licenses to preview only users for EMS and O365 functionality.",
+  "groupTypes": [],
+  "mailEnabled": false,
+  "members": [
+    {
+      "@odata.type": "#microsoft.graph.group",
+      "displayName": "BUILTIN - Microsoft 365 Users - Insiders"
+    }
+  ],
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true,
+  "visibility": "Public"
+}

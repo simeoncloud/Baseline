@@ -1,0 +1,61 @@
+{
+  "templateId": "62375ab9-6b52-47ed-826b-58e47e0e304b",
+  "values": [
+    {
+      "name": "AllowGuestsToAccessGroups",
+      "value": "True"
+    },
+    {
+      "name": "AllowGuestsToBeGroupOwner",
+      "value": "False"
+    },
+    {
+      "name": "AllowToAddGuests",
+      "value": "True"
+    },
+    {
+      "name": "ClassificationDescriptions",
+      "value": ""
+    },
+    {
+      "name": "ClassificationList",
+      "value": ""
+    },
+    {
+      "name": "CustomBlockedWordsList",
+      "value": ""
+    },
+    {
+      "name": "DefaultClassification",
+      "value": ""
+    },
+    {
+      "name": "EnableGroupCreation",
+      "value": "False"
+    },
+    {
+      "name": "EnableMIPLabels",
+      "value": "False"
+    },
+    {
+      "name": "EnableMSStandardBlockedWords",
+      "value": "False"
+    },
+    {
+      "name": "GroupCreationAllowedGroupId",
+      "value": "BUILTIN - Group Creators"
+    },
+    {
+      "name": "GuestUsageGuidelinesUrl",
+      "value": ""
+    },
+    {
+      "name": "PrefixSuffixNamingRequirement",
+      "value": ""
+    },
+    {
+      "name": "UsageGuidelinesUrl",
+      "value": ""
+    }
+  ]
+}

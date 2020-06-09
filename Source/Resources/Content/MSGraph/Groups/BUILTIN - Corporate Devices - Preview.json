@@ -1,0 +1,10 @@
+{
+  "assignedLicenses": [],
+  "description": "Used to assign preview policies and applications",
+  "groupTypes": [],
+  "mailEnabled": false,
+  "members": [],
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

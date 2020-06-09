@@ -1,0 +1,46 @@
+{
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "browser",
+      "modern"
+    ],
+    "signInRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [
+        "Directory Synchronization Accounts"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [
+        "Billing Administrator",
+        "Company Administrator",
+        "Conditional Access Administrator",
+        "Exchange Service Administrator",
+        "Helpdesk Administrator",
+        "Password Administrator",
+        "Security Administrator",
+        "SharePoint Service Administrator",
+        "User Account Administrator"
+      ],
+      "includeUsers": []
+    }
+  },
+  "description": "Requires that privileged administrator roles authenticate using MFA.",
+  "grantControls": {
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

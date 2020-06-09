@@ -1,0 +1,13 @@
+{
+  "assignedLicenses": {
+    "$ref": "ResourceContext:M365Licenses"
+  },
+  "description": "This manual group is used to define users in the insiders update ring.",
+  "groupTypes": [],
+  "mailEnabled": false,
+  "members": [],
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true,
+  "visibility": "Public"
+}

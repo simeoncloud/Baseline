@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.microsoftStoreForBusinessApp",
+  "assignments": [
+    {
+      "intent": "uninstall",
+      "settings": {
+        "@odata.type": "#microsoft.graph.microsoftStoreForBusinessAppAssignmentSettings",
+        "useDeviceContext": false
+      },
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "BUILTIN - Corporate Devices"
+      }
+    }
+  ],
+  "productKey": "9WZDNCRFJBD8/0016",
+  "relationships": []
+}

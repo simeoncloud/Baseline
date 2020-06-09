@@ -1,0 +1,57 @@
+{
+  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
+  "androidForWorkRestriction": {
+    "blockedManufacturers": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": true
+  },
+  "androidRestriction": {
+    "blockedManufacturers": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": true,
+    "platformBlocked": false
+  },
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
+      }
+    }
+  ],
+  "description": "This is the default Device Type Restriction applied with the lowest priority to all users regardless of group membership.",
+  "iosRestriction": {
+    "blockedManufacturers": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": true,
+    "platformBlocked": false
+  },
+  "macOSRestriction": {
+    "blockedManufacturers": [],
+    "personalDeviceEnrollmentBlocked": true,
+    "platformBlocked": false
+  },
+  "macRestriction": {
+    "blockedManufacturers": [],
+    "personalDeviceEnrollmentBlocked": true,
+    "platformBlocked": false
+  },
+  "priority": 0,
+  "windowsMobileRestriction": {
+    "blockedManufacturers": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": true,
+    "platformBlocked": false
+  },
+  "windowsRestriction": {
+    "blockedManufacturers": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": true,
+    "platformBlocked": false
+  }
+}
