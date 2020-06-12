@@ -8,7 +8,7 @@
       "includeUserActions": []
     },
     "clientAppTypes": [
-      "easUnsupported"
+      "exchangeActiveSync"
     ],
     "platforms": {
       "excludePlatforms": [],

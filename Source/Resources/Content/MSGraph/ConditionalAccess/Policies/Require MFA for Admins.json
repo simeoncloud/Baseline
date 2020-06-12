@@ -9,7 +9,7 @@
     },
     "clientAppTypes": [
       "browser",
-      "modern"
+      "mobileAppsAndDesktopClients"
     ],
     "signInRiskLevels": [],
     "users": {
