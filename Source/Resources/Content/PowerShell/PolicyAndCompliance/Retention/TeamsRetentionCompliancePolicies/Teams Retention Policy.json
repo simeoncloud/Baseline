@@ -7,7 +7,7 @@
       "excludedItemClasses": [],
       "name": "Teams Retention Policy",
       "retentionComplianceAction": "Keep",
-      "retentionDuration": "Unlimited",
+      "retentionDuration": "365",
       "retentionDurationDisplayHint": "Days"
     }
   ],

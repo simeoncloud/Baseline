@@ -22,7 +22,7 @@
       "excludedItemClasses": [],
       "name": "Default Retention Policy",
       "retentionComplianceAction": "Keep",
-      "retentionDuration": "Unlimited",
+      "retentionDuration": "365",
       "retentionDurationDisplayHint": "Days"
     }
   ],
