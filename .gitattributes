@@ -3,7 +3,6 @@
 
 *.ps1 text eol=crlf
 
-
 ## GRAPHICS
 *.ai	binary
 *.bmp	binary
