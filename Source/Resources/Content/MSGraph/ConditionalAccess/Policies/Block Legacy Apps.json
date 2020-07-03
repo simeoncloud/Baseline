@@ -11,6 +11,7 @@
       "other"
     ],
     "signInRiskLevels": [],
+    "userRiskLevels": [],
     "users": {
       "excludeGroups": [
         "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
@@ -27,7 +28,7 @@
       ]
     }
   },
-  "description": "Blocks apps trying to connect using legacy protocols (not Modern Authentication).", 
+  "description": "Blocks apps trying to connect using legacy protocols (not Modern Authentication).",
   "grantControls": {
     "builtInControls": [
       "block"

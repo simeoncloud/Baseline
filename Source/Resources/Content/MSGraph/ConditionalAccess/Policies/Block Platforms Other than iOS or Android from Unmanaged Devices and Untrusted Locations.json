@@ -40,6 +40,7 @@
       ]
     },
     "signInRiskLevels": [],
+    "userRiskLevels": [],
     "users": {
       "excludeGroups": [
         "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"

@@ -31,6 +31,7 @@
       ]
     },
     "signInRiskLevels": [],
+    "userRiskLevels": [],
     "users": {
       "excludeGroups": [
         "BUILTIN - Device Enrollers",

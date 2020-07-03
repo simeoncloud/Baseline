@@ -12,6 +12,7 @@
       "mobileAppsAndDesktopClients"
     ],
     "signInRiskLevels": [],
+    "userRiskLevels": [],
     "users": {
       "excludeGroups": [],
       "excludeRoles": [
