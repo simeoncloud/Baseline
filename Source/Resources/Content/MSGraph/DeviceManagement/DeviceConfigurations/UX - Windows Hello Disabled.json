@@ -3,8 +3,7 @@
   "assignments": [
     {
       "target": {
-        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "BUILTIN - Corporate Devices"
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
       }
     }
   ],
