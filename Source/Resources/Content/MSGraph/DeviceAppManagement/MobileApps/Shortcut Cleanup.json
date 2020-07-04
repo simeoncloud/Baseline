@@ -20,7 +20,7 @@
   "detectionRules": [],
   "developer": "",
   "enableFileNameBasedDetection": true,
-  "fileName": "007",
+  "fileName": "008",
   "installCommandLine": "powershell -ExecutionPolicy Bypass -NoProfile -NonInteractive -File ./Install.ps1",
   "installExperience": {
     "deviceRestartBehavior": "basedOnReturnCode",

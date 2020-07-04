@@ -11,6 +11,11 @@ $block = {
         $_ | Remove-Item -Force
     }
 
+    gci $desktop -Filter "*-$($env:COMPUTERNAME).lnk" |? { Test-Path ($_.FullName -replace "-$($env:COMPUTERNAME).lnk", '.lnk') } |% { 
+        Write-Host "Removing $_."
+        $_ | Remove-Item -Force
+    }   
+
 	Stop-Transcript
 }
 
