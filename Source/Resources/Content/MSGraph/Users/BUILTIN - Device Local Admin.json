@@ -5,7 +5,7 @@
   },
   "businessPhones": [],
   "department": "BUILTIN",
-  "isDeviceEnrollmentManager": false,
+  "isDeviceEnrollmentManager": true,
   "jobTitle": "Account added to local Administrators group on MDM enrolled devices",
   "mailNickname": "devicelocaladmin",
   "memberOf": [
