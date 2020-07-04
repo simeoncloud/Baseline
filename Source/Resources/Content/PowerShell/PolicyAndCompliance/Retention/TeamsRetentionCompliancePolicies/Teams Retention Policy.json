@@ -4,11 +4,9 @@
   "restrictiveRetention": false,
   "rules": [
     {
-      "excludedItemClasses": [],
       "name": "Teams Retention Policy",
       "retentionComplianceAction": "Keep",
-      "retentionDuration": "365",
-      "retentionDurationDisplayHint": "Days"
+      "retentionDuration": "365"
     }
   ],
   "teamsChannelLocation": [
