@@ -13,6 +13,30 @@
         }
       },
       {
+        "category": "ManagedIdentitySignInLogs",
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
+        "category": "NonInteractiveUserSignInLogs",
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
+        "category": "ServicePrincipalSignInLogs",
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
         "category": "SignInLogs",
         "enabled": true,
         "retentionPolicy": {
