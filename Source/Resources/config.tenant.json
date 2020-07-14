@@ -1,6 +1,6 @@
 ﻿{
   "ResourceContext": {
-    "AppsAllowedFromUntrustedLocations": "[ 'Windows Virtual Desktop', 'Windows Virtual Desktop Client' ]",
+    "AppsAllowedFromUntrustedLocations": "[ '5a0aa725-4958-4b0c-80a9-34562e23f3b7', 'fa4345a4-a730-4230-84a8-7d9651b86739' ]", // Windows Virtual Desktop (AME) and Windows Virtual Desktop Client
     "AllowSiteToZoneAssignmentList": "<Enabled/><Data id=\"IZ_ZonemapPrompt\"\nValue=\"https://autologon.microsoftazuread-sso.com&#xF000;1&#xF000;https://*.blob.core.windows.net&#xF000;2&#xF000;http://*.${ResourceContext:TenantDomainName}&#xF000;1&#xF000;https://*.microsoft.com&#xF000;2&#xF000;https://*.windows.net&#xF000;2&#xF000;https://*.office365.com&#xF000;2&#xF000;https://*.${ResourceContext:TenantDomainName}&#xF000;1&#xF000;&#xF000;\"/>",
     "DefaultDeviceEnrollmentLimit": 5,
     "SigninPageText": "",
