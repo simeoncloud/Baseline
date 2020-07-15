@@ -11,7 +11,7 @@
         "Basic",
         "Standard"
       ],
-      "defaultValue": "Standard",
+      "defaultValue": "Basic",
       "metadata": {
         "description": "Specifies the messaging tier for service bus namespace."
       },
