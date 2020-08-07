@@ -14,7 +14,7 @@
       "@odata.type": "#microsoft.graph.omaSettingString",
       "displayName": "AllowSiteToZoneAssignmentList",
       "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSiteToZoneAssignmentList",
-      "value": { "$ref": "ResourceContext:AllowSiteToZoneAssignmentList" }
+      "value": "<Enabled/><Data id=\"IZ_ZonemapPrompt\"\nValue=\"${ResourceContext:AllowSiteToZoneAssignmentList}&#xF000;\"/>"
     }
   ]
 }

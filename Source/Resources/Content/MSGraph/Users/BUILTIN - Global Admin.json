@@ -1,8 +1,5 @@
 {
   "accountEnabled": true,
-  "assignedLicenses": {
-    "$ref": "ResourceContext:M365Licenses"
-  },
   "businessPhones": [],
   "country": "US",
   "department": "BUILTIN",

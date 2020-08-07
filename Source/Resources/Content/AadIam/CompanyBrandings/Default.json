@@ -4,7 +4,7 @@
   "illustrationUrl": "",
   "locale": "0",
   "signInBackColor": "",
-  "signInPageText": "${ResourceContext:SigninPageText}",
+  "signInPageText": "",
   "signInUserIdLabel": "user",
   "squareLogoDarkUrl": "",
   "tileLogoUrl": ""

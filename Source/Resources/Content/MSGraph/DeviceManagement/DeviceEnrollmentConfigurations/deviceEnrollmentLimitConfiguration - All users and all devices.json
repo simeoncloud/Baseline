@@ -8,6 +8,6 @@
     }
   ],
   "description": "This is the default Device Limit Restriction applied with the lowest priority to all users regardless of group membership.",
-  "limit": { "$ref": "ResourceContext:DefaultDeviceEnrollmentLimit" },
+  "limit": 5,
   "priority": 0
 }

@@ -1,11 +1,4 @@
 {
-  "additionalAdminsForDevicesIsAdminConfigurable": true,
-  "additionalAdminsForDevicesSelectedUsers": [
-    {
-      "id": "BUILTIN - Device Local Admin"
-    }
-  ],
-  "additionalAdminsForDevicesSetting": 1,
   "deviceJoinAzureADIsAdminConfigurable": true,
   "deviceJoinAzureADSelectedUsers": [
     {
