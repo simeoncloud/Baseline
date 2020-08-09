@@ -1,8 +1,8 @@
 {
   "assignedLicenses": [],
   "description": "This group is used to assign users that should be added as local administrators on Azure AD joined devices.",
-  "isAssignableToRole": true,
   "groupTypes": [],
+  "isAssignableToRole": true,
   "mailEnabled": false,
   "memberOf": [
     {

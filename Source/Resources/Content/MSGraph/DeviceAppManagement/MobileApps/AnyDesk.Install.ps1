@@ -12,6 +12,7 @@ $scriptName = "Set-AnyDeskConfiguration"
 $taskPath = "\ManagementScripts\"
 
 Write-Host "Writing files to ProgramData." 
+md $programData -EA SilentlyContinue | Out-Null
 sc "$programData\$scriptName.ps1.default.dat" (ConvertTo-SecureString "@nyD3sk" -AsPlainText -Force | ConvertFrom-SecureString) -NoNewline
 Copy-Item $PSScriptRoot/$scriptName.ps1 $programData -Force | Out-Null
 Copy-Item $PSScriptRoot/Uninstall.ps1 $programData -Force | Out-Null
