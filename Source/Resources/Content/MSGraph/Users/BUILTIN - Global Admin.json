@@ -2,7 +2,7 @@
   "accountEnabled": true,
   "businessPhones": [],
   "country": "US",
-  "department": "",
+  "department": null,
   "givenName": "-",
   "isDeviceEnrollmentManager": false,
   "jobTitle": "AAD Global Admin account",
