@@ -3,6 +3,7 @@
   "description": "Members are excluded from conditional access policies that restrict access from unmanaged devices And untrusted locations.",
   "groupTypes": [],
   "mailEnabled": false,
+  "memberOf": [],
   "members": [
     {
       "@odata.type": "#microsoft.graph.user",

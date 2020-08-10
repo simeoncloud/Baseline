@@ -3,6 +3,7 @@
   "description": "This group is used to identify users that may enroll a non-Autopilot Windows device into Intune MDM. If a user is not a member of this group, the device must first be registered for Autopilot in order for the user to enroll.",
   "groupTypes": [],
   "mailEnabled": false,
+  "memberOf": [],
   "members": [
     {
       "@odata.type": "#microsoft.graph.user",

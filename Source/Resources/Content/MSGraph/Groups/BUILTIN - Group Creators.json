@@ -3,6 +3,7 @@
   "description": "Restrict Office 365 Group Creation to just users in this group.",
   "groupTypes": [],
   "mailEnabled": false,
+  "memberOf": [],
   "members": [
     {
       "@odata.type": "#microsoft.graph.user",

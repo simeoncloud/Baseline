@@ -5,6 +5,7 @@
   "description": "This manual group is used to define users in the insiders update ring.",
   "groupTypes": [],
   "mailEnabled": false,
+  "memberOf": [],
   "members": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],

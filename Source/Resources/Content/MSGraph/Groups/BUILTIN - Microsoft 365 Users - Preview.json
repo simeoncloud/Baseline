@@ -5,6 +5,7 @@
   "description": "This manual group is used to assign Microsoft 365 licenses to preview only users for EMS and O365 functionality.",
   "groupTypes": [],
   "mailEnabled": false,
+  "memberOf": [],
   "members": [
     {
       "@odata.type": "#microsoft.graph.group",

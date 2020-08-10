@@ -3,6 +3,7 @@
   "description": "Used to assign preview policies and applications",
   "groupTypes": [],
   "mailEnabled": false,
+  "memberOf": [],
   "members": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
