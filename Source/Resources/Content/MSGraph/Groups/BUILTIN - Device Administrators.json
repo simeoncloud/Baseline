@@ -18,5 +18,6 @@
   ],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true
+  "securityEnabled": true,
+  "visibility": "Public"
 }
