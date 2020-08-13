@@ -44,8 +44,8 @@
     "blockedManufacturers": [],
     "osMaximumVersion": "",
     "osMinimumVersion": "",
-    "personalDeviceEnrollmentBlocked": true,
-    "platformBlocked": false
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": true
   },
   "windowsRestriction": {
     "blockedManufacturers": [],
