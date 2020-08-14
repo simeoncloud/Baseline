@@ -4,6 +4,5 @@
   "globalCatalogApps": [],
   "globalCatalogAppsType": "BlockedAppList",
   "privateCatalogApps": [],
-  "privateCatalogAppsType": "BlockedAppList",
-  "scopeClass": "Global"
+  "privateCatalogAppsType": "BlockedAppList"
 }
