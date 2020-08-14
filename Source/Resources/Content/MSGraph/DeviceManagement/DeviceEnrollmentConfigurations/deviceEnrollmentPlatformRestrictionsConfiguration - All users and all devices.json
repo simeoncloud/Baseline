@@ -40,13 +40,6 @@
     "platformBlocked": false
   },
   "priority": 0,
-  "windowsMobileRestriction": {
-    "blockedManufacturers": [],
-    "osMaximumVersion": "",
-    "osMinimumVersion": "",
-    "personalDeviceEnrollmentBlocked": false,
-    "platformBlocked": true
-  },
   "windowsRestriction": {
     "blockedManufacturers": [],
     "osMaximumVersion": "",
