@@ -22,16 +22,16 @@
   "detectionRules": [
     {
       "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
-      "check32BitOn64System": true,
+      "check32BitOn64System": false,
       "detectionType": "exists",
-      "fileOrFolderName": "AnyDesk AnyDesk",
+      "fileOrFolderName": "AnyDesk",
       "operator": "notConfigured",
-      "path": "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs"
+      "path": "%ProgramData%"
     }
   ],
   "developer": "",
   "enableFileNameBasedDetection": true,
-  "fileName": "019",
+  "fileName": "020",
   "installCommandLine": "powershell -ExecutionPolicy Bypass -NoProfile -NonInteractive -File ./Install.ps1",
   "installExperience": {
     "deviceRestartBehavior": "basedOnReturnCode",
