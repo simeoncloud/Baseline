@@ -1,6 +1,7 @@
 {
   "customHelpdeskEmailOrUrl": "",
   "customizeHelpdeskLink": false,
+  "description":"What is it: Defines Azure’s password reset policy and which Azure AD groups it applies to. \n Simeon Notes: This allows users to reset their password or unlock their Azure account. Simeon’s baseline applies the password reset policy to members of the group ‘BUILTIN - Microsoft 365 Users’. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks",
   "emailOptionEnabled": false,
   "enablementType": 1,
   "mobileAppCodeEnabled": true,

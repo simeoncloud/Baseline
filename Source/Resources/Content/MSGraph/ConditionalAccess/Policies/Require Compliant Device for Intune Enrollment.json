@@ -49,7 +49,7 @@
       ]
     }
   },
-  "description": "Requires that a device be registered for Autopilot in order to enroll in Intune. The BUILTIN - Device Enrollers group is excluded and can enroll devices without Autopilot.",
+  "description": "What is it: Requires that a device be registered in Autopilot before enrolling in Intune.\n Simeon Notes: Prevent unauthorized devices from being enrolled into your tenant. In order to enroll a device a hardware hash must be uploaded to Intune or the user enrolling the device must be a member of the Azure AD group ‘BUILTIN - Device Enrollers’. Simeon’s baseline allows members of the Azure AD group ‘BUILTIN - Device Enrollers’ or 'BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations' to enroll devices without being registered. Note, that a device that has been registered in Intune is considered compliant, even if it is not yet enrolled.\n Learn More: https://www.lieben.nu/liebensraum/2019/10/hidden-exceptions-to-conditional-access-mfa/",
   "grantControls": {
     "builtInControls": [
       "compliantDevice"

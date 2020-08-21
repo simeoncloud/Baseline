@@ -1,5 +1,6 @@
 {
   "adminConsentedForUsersIntoTenantIds": [],
+  "description":"What is it: Further defines guests that are allowed to join the tenant by specifying allowed domains. \n Simeon Notes: Allows you to enable specific third parties access into your tenant. This feature is disabled in Simeon’s baseline.  Learn More: https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations#to-configure-external-collaboration-settings",
   "hasListEntries": false,
   "isAllowlist": true,
   "noAADConsentForUsersFromTenantsIds": [],

@@ -1,6 +1,7 @@
 {
   "convergedUXV2FeatureValue": 2,
   "convergedUXV2GroupId": null,
+  "description":"What is it: Allows Azure updates to be applied first to a specified group of users before being applied to all users in the tenant. ",
   "myAppsFeatureValue": 2,
   "myAppsGroupId": null,
   "myGroupsFeatureValue": 0,

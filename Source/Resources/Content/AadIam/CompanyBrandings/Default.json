@@ -1,5 +1,6 @@
 {
   "bannerLogoUrl": "",
+  "description":"What is it: Defines the text and logos shown to users on Azure login screens. \n Simeon Notes: Provide your users with a personalized login screen for added security and familiarity. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/customize-branding",
   "hideKeepMeSignedIn": false,
   "illustrationUrl": "",
   "locale": "0",
