@@ -46,5 +46,5 @@
     "startupAuthenticationTpmPinUsage": "allowed",
     "startupAuthenticationTpmUsage": "allowed"
   },
-  "description": "Enables and configures BitLocker device encryption"
+  "description": "What is it: Enables and configures BitLocker device encryption for physical devices. \n Simeon Notes: Device encryption is essential to protecting data on physical devices. Note that BitLocker requires a machine to have TPM 1.2 or later, which excludes older hardware and virtual machines. \n Learn More: https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10"
 }

@@ -13,7 +13,7 @@
   "deadlineForFeatureUpdatesInDays": 5,
   "deadlineForQualityUpdatesInDays": 3,
   "deadlineGracePeriodInDays": 1,
-  "description": "Insiders Windows Update configuration for devices.",
+  "description": "What is it: Creates a Windows Update configuration for Intune managed devices that gets updates before any other device in your tenant. \n Simeon Notes: A Windows update ring is the best way to ensure Windows updates are compatible in your environment. The insider ring is meant for users that are technical enough to understand when an update is applied and to let you know if that update caused problems. Simeon’s baseline delays feature and quality updates to Insiders for 3 days after released by Microsoft. Once the deferral period has expired for the device, users have 3 days to restart (if required). Also, unattended updates are only be applied outside the working hours of 5am to 10pm. Applies to users in the Azure AD group ‘BUILTIN - Corporate Devices – Insiders’. \n Learn More: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979",
   "engagedRestartDeadlineInDays": null,
   "engagedRestartSnoozeScheduleInDays": null,
   "engagedRestartTransitionScheduleInDays": null,

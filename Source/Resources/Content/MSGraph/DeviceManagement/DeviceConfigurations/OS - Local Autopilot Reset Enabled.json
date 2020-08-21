@@ -8,6 +8,6 @@
       }
     }
   ],
-  "description": "Enables local Autopilot Reset functionality on Windows 10 and higher. Remote Autopilot reset is supported only on newer versions of Windows 10, so this allows for resetting devices that haven't yet been updated. All newly connected corporate devices should be reset before use to remove any user or OEM installed software.\n\nhttps://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/windows-autopilot-reset-local",
+  "description": "What is it: Enables local Autopilot Reset functionality on Windows 10. \n Simeon Notes: Remote Autopilot reset is supported only on newer versions of Windows 10, local Autopilot reset allows for resetting devices that haven't yet been updated. All newly connected corporate devices should be reset before use to remove any user or OEM installed software. \n Learn More: https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/windows-autopilot-reset-local",
   "enableAutomaticRedeployment": true
 }

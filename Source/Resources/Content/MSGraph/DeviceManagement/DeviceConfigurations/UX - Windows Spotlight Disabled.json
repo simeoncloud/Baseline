@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Disables Windows Spotlight, a consumer oriented feature that provides tips and suggestions on the lock screen (including third party app recommendations).",
+  "description": "What is it: Disables Windows Spotlight, a consumer oriented feature that provides tips and suggestions on the lock screen, including third party app recommendations. \n Learn More: https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight",
   "windowsSpotlightBlocked": true,
   "windowsSpotlightBlockOnActionCenter": true,
   "windowsSpotlightBlockTailoredExperiences": true,

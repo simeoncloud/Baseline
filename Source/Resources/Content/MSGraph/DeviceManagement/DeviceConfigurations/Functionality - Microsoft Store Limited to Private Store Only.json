@@ -8,6 +8,6 @@
       }
     }
   ],
-  "description": "Limit Microsoft Store To private store only (per https://support.microsoft.com/en-us/help/4339074/removing-uninstalling-reinstalling-microsoft-store-app-not-supported, the store should not be un-installed altogether, so we're instead limiting it to the private store only)",
+  "description": "What is it: Limits Microsoft Store to a private store only. \n Simeon Notes: Simeon has found that very few apps in the Microsoft store are worth installing. This policy allows you to restrict your users to only apps that you deem necessary. \n Learn More: https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store",
   "windowsStoreEnablePrivateStoreOnly": true
 }

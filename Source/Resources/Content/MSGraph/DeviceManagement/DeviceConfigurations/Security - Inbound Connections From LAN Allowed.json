@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Allows inbound connections from the Windows Firewall from the Domain and Private network profiles. Allows services like RDP, file sharing, etc. to work.\n\nNote: This policy may show as not applicable on some Windows 10 devices, but it has in fact been applied successfully. It appears to be a bug in the reporting.",
+  "description": "What is it: Allows inbound connections for the Windows Firewall from the Domain and Private network profiles. Allows services like RDP, file sharing, etc. to work. \n Simeon Notes: This policy may show as not applicable on some Windows 10 devices, but it has in fact been applied successfully due to a bug in reporting.",
   "firewallProfileDomain": {
     "firewallEnabled": "allowed",
     "inboundConnectionsRequired": true,

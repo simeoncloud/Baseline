@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Suppresses Windows Firewall alerts to the end user. This is applied so that users are not warned that the Domain and Private network firewall profiles allow inbound traffic by default, which is intentional.",
+  "description": "What is it: Suppresses Windows Firewall alerts to the end user for Domain and Private network firewalls. \n Simeon Notes: This policy improves user experience by suppressing warnings that the Domain and Private network firewall profiles allow inbound traffic by default.",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingInteger",

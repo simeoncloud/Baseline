@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Turns off Microsoft consumer specific experiences, such as Start suggestions, membership notifications, post-OOBE app install and redirect tiles.",
+  "description": "What is it: Turns off Microsoft consumer specific experiences, such as start suggestions, membership notifications, post-OOBE app install and redirect tiles. \n Simeon Notes: Improves the user enrollment experience. \n Learn More: https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsconsumerfeatures",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingInteger",

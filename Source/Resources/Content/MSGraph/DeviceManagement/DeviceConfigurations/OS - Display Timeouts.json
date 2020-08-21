@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Turn off display after 10 minutes when on battery and 20 minutes when plugged in.",
+  "description": "What is it: Turns off the display after 10 minutes when on battery and 20 minutes when plugged in.",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingString",

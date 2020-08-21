@@ -8,6 +8,6 @@
       }
     }
   ],
-  "description": "Disables the addition of personal Microsoft accounts to the device to ensure DLP.",
+  "description": "What is it: Disables the addition of personal Microsoft accounts to the device to ensure DLP. Learn More: https://docs.microsoft.com/en-us/mem/intune/configuration/device-restrictions-windows-10#cloud-and-storage",
   "microsoftAccountBlocked": true
 }

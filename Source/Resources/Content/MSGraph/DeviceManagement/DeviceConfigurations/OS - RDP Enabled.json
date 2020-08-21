@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Enables RDP access to the device via CSP.",
+  "description": "What is it: Enables RDP access to the device for user that have remote access permissions.",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingString",

@@ -15,7 +15,7 @@
   "codeIntegrityEnabled": false,
   "configurationManagerComplianceRequired": false,
   "defenderEnabled": true,
-  "description": "This is the default compliance policy for Windows Corporate Devices. Assignment is based on the Corporate Devices Azure AD group.\n\nNote: It is not necessary to have a separate group of just Windows corporate devices because this policy will be considered as Non Applicable Corporate Devices members that aren't Windows.\n\nNote: If there are not any compliance policies that apply to a device, the Built-in Device Compliance Policy will generate an error. If there is an assigned, policy, but that policy has no settings defined, it will be considered as Not Applicable, so the built-in policy will still show an error.",
+  "description": "What is it: Defines the required state that a device (both physical and virtual) must be in to be considered compliant and before it can access tenant data. \n Simeon Notes: This policy provides an additional layer of data protection for your Intune managed devices and applies to all devices both physical and virtual. Simeon’s baseline requires that a device have Microsoft Defender Antimalware configured. Policy applies to all devices via the Azure AD group ‘BUILTIN - Corporate Devices’. \n Learn More: https://docs.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started",
   "deviceThreatProtectionEnabled": false,
   "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
   "earlyLaunchAntiMalwareDriverEnabled": false,

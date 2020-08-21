@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Add AzureAD URL for Kerberos ticket forwarding to the browser's Intranet zone.",
+  "description": "What is it: Adds Azure AD URL for Kerberos ticket forwarding to the browser's Intranet zone. \n Simeon Notes: Improves your users’ browser experience by auto logging into sites on the local intranet. To add or remove sites update the config variable ‘AllowSiteToZoneAssignmentList’. \n Learn More: https://support.microsoft.com/en-us/help/182569/internet-explorer-security-zones-registry-entries-for-advanced-users",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingString",

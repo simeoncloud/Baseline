@@ -12,6 +12,6 @@
       }
     }
   ],
-  "description": "This policy disables Windows Hello. Windows Hello is enabled by default on any Azure AD Joined devices. This will prompt any Azure AD user to create a PIN at logon and is undesirable.",
+  "description": "What is it: Disables Windows Hello. \n Simeon Notes: Windows Hello is enabled by default on any Azure AD Joined devices. One of the effects of having Windows Hello is the users is prompted to create a PIN at logon, Simeon’s experience has found that the majority of business do not want this option turned on.",
   "windowsHelloForBusinessBlocked": true
 }

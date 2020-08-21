@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership.",
+  "description": "What is it: The default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership. \n Simeon Notes: Simeon’s baseline disables Hello For Business including the option to set a PIN on enrollment. Simeon’s experience has found that the majority of business do not want this option turned on. \n Learn More: https://docs.microsoft.com/en-us/mem/intune/protect/identity-protection-windows-settings",
   "enhancedBiometricsState": "enabled",
   "pinExpirationInDays": 41,
   "pinLowercaseCharactersUsage": "disallowed",

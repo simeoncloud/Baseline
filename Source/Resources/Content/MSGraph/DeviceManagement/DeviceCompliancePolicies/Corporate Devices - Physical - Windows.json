@@ -15,7 +15,7 @@
   "codeIntegrityEnabled": false,
   "configurationManagerComplianceRequired": false,
   "defenderEnabled": true,
-  "description": "End User device compliance",
+  "description": "What is it: Defines the required state that a physical device must be in to be considered compliant and before it can access tenant data. This policy applies only to physical devices since some requirements such as BitLocker are not supported on virtual devices. \n Simeon Notes: Provides an additional layer of data protection for your Intune managed devices. Simeon’s baseline requires that a physical device has a number of security controls configured including BitLocker encryption turned on and a Microsoft Defender ATP risk score of Medium or less. Assignment is based on the Azure AD group ‘BUILTIN - Corporate Devices – Physical’. \n Learn More: https://docs.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started",
   "deviceThreatProtectionEnabled": true,
   "deviceThreatProtectionRequiredSecurityLevel": "medium",
   "earlyLaunchAntiMalwareDriverEnabled": false,

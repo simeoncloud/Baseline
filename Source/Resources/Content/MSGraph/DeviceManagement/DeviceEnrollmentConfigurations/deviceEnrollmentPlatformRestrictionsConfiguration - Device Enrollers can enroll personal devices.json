@@ -18,7 +18,7 @@
       }
     }
   ],
-  "description": "Allows a device enroller to enroll any Windows device, including personal devices. A device without an autopilot profile is considered personal until it is enrolled.",
+  "description": "What is it: Allows a device enroller to enroll any Windows device, devices without an autopilot profile. \n Simeon Notes: This policy allows you to specify users that have the ability to enroll devices into your environment. Applies to users in the Azure AD group ‘Builtin – Device Enrollers’. \n Learn More: https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set",
   "iosRestriction": {
     "blockedManufacturers": [],
     "personalDeviceEnrollmentBlocked": true,

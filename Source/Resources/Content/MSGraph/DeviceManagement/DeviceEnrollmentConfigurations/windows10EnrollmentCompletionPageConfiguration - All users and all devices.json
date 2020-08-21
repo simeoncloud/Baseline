@@ -12,7 +12,7 @@
   ],
   "blockDeviceSetupRetryByUser": true,
   "customErrorMessage": "",
-  "description": "This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership.",
+  "description": "What is it: The default Intune enrollment status page configuration applied with the lowest priority to all users and all devices regardless of group membership. \n Simeon Notes: The enrollment status page is a visual queue to users of the device enrollment progress. Simeon’s baseline allows the user to select the ‘Continue Anyway’ option as soon as it is available and times out after 40 minutes. \n Learn More: https://docs.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-status",
   "disableUserStatusTrackingAfterFirstUser": false,
   "installProgressTimeoutInMinutes": 40,
   "priority": 0,

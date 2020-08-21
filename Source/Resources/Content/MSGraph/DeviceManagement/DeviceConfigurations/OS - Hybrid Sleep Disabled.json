@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Disables hybrid sleep by setting hibernate timeout settings to 0. Hiberfile is not generated with these settings.",
+  "description": "What is it: Disables hybrid sleep by setting hibernate timeout settings to 0. Hiberfile is not generated with these settings. ",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingInteger",

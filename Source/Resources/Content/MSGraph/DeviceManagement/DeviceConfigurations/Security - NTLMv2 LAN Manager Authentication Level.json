@@ -8,6 +8,6 @@
       }
     }
   ],
-  "description": "Configures the LAN Manager Authentication Level to NTLMv2.",
+  "description": "What is it: Configures the LAN Manager Authentication Level to NTLMv2. \n Learn More: https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level",
   "lanManagerAuthenticationLevel": "lmNtlmV2AndNotLm"
 }
