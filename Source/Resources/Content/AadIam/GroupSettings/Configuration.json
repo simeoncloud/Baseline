@@ -1,6 +1,6 @@
 {
   "allUsersGroupEnabled": false,
-  "description":"What is it: Configures group membership management options e.g., the ability for group owners to approve requests to join groups, restrictions for users to see group membership, and the ability for users to create security groups. \n Simeon Notes: Simeon’s baseline does not allow group owners to approve requests and does not allow security group creation. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-self-service-management",
+  "description":"What is it: Configures group membership management options e.g., the ability for group owners to approve requests to join groups, restrictions for users to see group membership, and the ability for users to create security groups. \n Simeon Notes: Simeon's baseline does not allow group owners to approve requests and does not allow security group creation. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-self-service-management",
   "groupsInAccessPanelEnabled": true,
   "office365GroupsEnabled": false,
   "scopingGroupIdForManagingOfficeGroups": null,

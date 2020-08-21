@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "Self Deploying Autopilot profile for physical corporate devices that have TPM 2.0.\n\nSelf Deploying mode is not supported on VMs even if they have a virtual TPM, so there is a separate policy for virtual corporate devices.\n\nConverts all targeted devices to use Autopilot. This allows leveraging Autopilot functionality like Autopilot Reset and Fresh Start even if the device was not originally deployed through Autopilot.",
+  "description": "What is it: Creates an Intune autopilot profile for enrolling machines using the Self-Deploying method. \n Simeon Notes: Autopilot Self-Deployment mode enables a device to be enrolled into your environment with little to no user interaction, you plug the device in and it enrolls. This is most useful for devices that will be shared or used as a kiosk. Self-deployment mode comes with restrictions including: the device must have TPM 2.0, it is not supported on VMs even if they have a virtual TPM, and if this device is going to be used by a single user it is best to use User-driven method. Devices in the Azure AD group 'BUILTIN - Autopilot Devices - Self Deploying' will be assigned this profile. \n Learn More: https://docs.microsoft.com/en-us/mem/autopilot/self-deploying",
   "deviceNameTemplate": "",
   "deviceType": "windowsPc",
   "enableWhiteGlove": false,

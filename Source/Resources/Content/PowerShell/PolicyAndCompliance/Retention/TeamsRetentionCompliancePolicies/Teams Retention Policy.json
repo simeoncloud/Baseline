@@ -1,5 +1,6 @@
 {
   "comment": "Microsoft Teams retention policies must be created and managed independently. This policy defines an indefinite retention policy for all Microsoft Teams content.",
+  "description":"What is it: Sets default Teams policy to retain content for one year. \n Learn More: https://docs.microsoft.com/en-us/microsoftteams/retention-policies",
   "enabled": true,
   "restrictiveRetention": false,
   "rules": [

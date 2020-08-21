@@ -1,5 +1,5 @@
 {
-  "description":"What is it: Defines users allowed to join a device in Azure AD along with the security controls involved in process. \n Simeon Notes: This setting does not control Intune device enrollment, but users are required to have this permission to complete the Intune user-driven autopilot process. Simeon’s baseline allows members of the Azure AD groups: ‘BUILTIN - Device Enrollers’ and ‘BUILTIN - Microsoft 365 Users’ to Azure AD join up to 100 devices per user, requiring MFA for each join. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/devices/overview",
+  "description":"What is it: Defines users allowed to join a device in Azure AD along with the security controls involved in process. \n Simeon Notes: This setting does not control Intune device enrollment, but users are required to have this permission to complete the Intune user-driven autopilot process. Simeon's baseline allows members of the Azure AD groups: 'BUILTIN - Device Enrollers' and 'BUILTIN - Microsoft 365 Users' to Azure AD join up to 100 devices per user, requiring MFA for each join. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/devices/overview",
   "deviceJoinAzureADIsAdminConfigurable": true,
   "deviceJoinAzureADSelectedUsers": [
     {

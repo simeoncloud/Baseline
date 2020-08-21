@@ -1,4 +1,5 @@
 {
+  "description":"What is it: Teams tenant configurations. \n Simeon Notes: Simeon's baseline turns on Teams apps. \n Learn More: https://docs.microsoft.com/en-us/microsoftteams/enable-features-office-365",
   "isAppsEnabled": true,
   "isExternalAppsEnabledByDefault": true,
   "isSideloadedAppsInteractionEnabled": false

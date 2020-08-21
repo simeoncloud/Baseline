@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "Used to assign insiders policies and applications",
+  "description": "What is it: A manual device group for managing insider policies and applications. \n Simeon Notes: A good use case for this group is to test application installs and compatibility with a small number of devices.  Devices in this group will be assigned to the Insiders Windows Update ring.",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],

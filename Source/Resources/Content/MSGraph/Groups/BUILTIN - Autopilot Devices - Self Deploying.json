@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "Contains corporate devices tagged with 'Autopilot-SelfDeploying'. The tag is added by uploading the hardware hash including the column OrderId or by adding a Group Tag in the devices page of the Azure console. Not yet enrolled devices eligible for autopilot are identified as those having a 'ZTDId' marker.",
+  "description": "What is it: A dynamic device group that is used for assigning the Self-Deploying Intune Autopilot profile to devices. \n Simeon Notes: This group contains corporate physical devices with the tag: 'Autopilot-SelfDeploying'. Devices can be tagged from the Intune portal or via an automated hardware hash upload. To tag in Intune: Devices > Windows Enrollment > Devices, select the required device and add to the 'Group Tag' field. To tag via automated hardware hash included with column OrderId. \n Learn More: https://docs.microsoft.com/en-us/mem/autopilot/self-deploying",
   "groupTypes": [
     "DynamicMembership"
   ],

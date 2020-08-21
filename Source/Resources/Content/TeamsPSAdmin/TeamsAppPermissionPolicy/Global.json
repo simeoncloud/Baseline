@@ -1,6 +1,7 @@
 {
   "defaultCatalogApps": [],
   "defaultCatalogAppsType": "BlockedAppList",
+  "description":"What is it: Defines application policies for Teams. \n Learn More: https://docs.microsoft.com/en-us/microsoftteams/enable-features-office-365",
   "globalCatalogApps": [],
   "globalCatalogAppsType": "BlockedAppList",
   "privateCatalogApps": [],

@@ -23,5 +23,5 @@
       "presentationValues": []
     }
   ],
-  "description": "Turned on in tenants by default, disable showing LinkedIn features in Office applications"
+  "description": "What is it: Turns off the Office LinkedIn features. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/linkedin-integration"
 }

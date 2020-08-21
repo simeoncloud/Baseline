@@ -2,7 +2,7 @@
   "assignedLicenses": {
     "$ref": "ResourceContext:M365Licenses"
   },
-  "description": "This manual group is used to assign Microsoft 365 licenses to preview only users for EMS and O365 functionality.",
+  "description": "What is it: A manual group of users that are in the preview ring. \n Simeon Notes: This group can be used to apply a user policy to a subset of users before deploying to all users.",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],

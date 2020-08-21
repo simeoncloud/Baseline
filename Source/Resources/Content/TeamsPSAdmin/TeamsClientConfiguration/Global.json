@@ -11,6 +11,7 @@
   "allowShareFile": false,
   "allowShareLocation": null,
   "contentPin": "RequiredOutsideScheduleMeeting",
+  "description":"What is it: Defines the Teams user settings. \n Simeon Notes: Simeon's baseline blocks third party file sharing sites e.g., Box, DropBox, and Google Drive. \n Learn More: https://techcommunity.microsoft.com/t5/microsoft-teams/disable-additional-cloud-storage-dropbox-box-and-google-drive/m-p/253335",
   "resourceAccountContentAccess": "NoAccess",
   "restrictedSenderList": null
 }

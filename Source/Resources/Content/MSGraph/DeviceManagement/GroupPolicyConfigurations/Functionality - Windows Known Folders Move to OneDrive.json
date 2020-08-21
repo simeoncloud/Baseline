@@ -62,5 +62,5 @@
       ]
     }
   ],
-  "description": "Configures Windows Known Folders Move to OneDrive and disable opt out of that feature. Also enables silent move of known folders to OneDrive."
+  "description": "What is it: Configures Windows Known Folders Move to OneDrive and disables the option to opt out the feature. \n Learn More: https://docs.microsoft.com/en-us/onedrive/redirect-known-folders"
 }

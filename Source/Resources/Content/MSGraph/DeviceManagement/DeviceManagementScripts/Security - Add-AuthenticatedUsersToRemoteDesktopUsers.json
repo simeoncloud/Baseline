@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "Adds the Authenticated Users local group to the local Remote Desktop Users group so that any authenticated user may connected via Remote Desktop. By default, only Administrators can connect.",
+  "description": "What is it: Adds the Authenticated Users local group to the local Remote Desktop Users group so that any authenticated user may connected via Remote Desktop. \n Simeon Notes: Allows users to access their computers via Remote Desktop.",
   "enforceSignatureCheck": false,
   "runAs32Bit": true,
   "runAsAccount": "system"

@@ -91,5 +91,5 @@
       "presentationValues": []
     }
   ],
-  "description": ""
+  "description": "What is it: Configures Microsoft Edge for all devices to sign into the browser and use Google as the default search engine. \n Simeon Notes: The Chromium version of Edge is surprisingly a good browser. This helps make it even better by allowing users to have their history and passwords tied to their account."
 }

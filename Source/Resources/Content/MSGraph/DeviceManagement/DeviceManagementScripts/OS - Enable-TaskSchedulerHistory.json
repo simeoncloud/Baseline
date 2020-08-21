@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "Enables the Windows Task Scheduler to display history of task runs. It is disabled by default in Windows. This can help troubleshooting scheduled tasks.",
+  "description": "What is it: Enables the Windows Task Scheduler to display history of task runs. \n Simeon Notes: This setting is disabled by default in Windows.",
   "enforceSignatureCheck": false,
   "runAs32Bit": true,
   "runAsAccount": "system"

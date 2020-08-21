@@ -32,7 +32,7 @@
       ]
     }
   },
-  "description": "What is it: Blocks Exchange ActiveSync, which disables native iOS and Android mail clients. \n Simeon Notes: Microsoft recommends disabling native mail apps since they do not provide the same level of security and functionality as Microsoft Outlook. Simeon’s baseline blocks Exchange Active sync for all users except those in the Azure AD group ‘BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations’. \n Learn More: https://docs.microsoft.com/en-us/microsoft-365/enterprise/secure-email-recommended-policies?view=o365-worldwide",
+  "description": "What is it: Blocks Exchange ActiveSync, which disables native iOS and Android mail clients. \n Simeon Notes: Microsoft recommends disabling native mail apps since they do not provide the same level of security and functionality as Microsoft Outlook. Simeon's baseline blocks Exchange Active sync for all users except those in the Azure AD group 'BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations'. \n Learn More: https://docs.microsoft.com/en-us/microsoft-365/enterprise/secure-email-recommended-policies?view=o365-worldwide",
   "grantControls": {
     "builtInControls": [
       "approvedApplication"

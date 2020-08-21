@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "Contains all corporate devices, except those explicitly tagged as 'Autopilot-SelfDeploying'. Not yet enrolled devices eligible for autopilot are identified as those having a 'ZTDId' marker.",
+  "description": "What is it: A dynamic device group that is used for assigning the User-Driven Intune Autopilot profile to devices. \n Simeon Notes: Includes all devices that are not in the Azure AD group, 'BUILTIN - Autopilot Devices - Self Deploying'. \n Learn More: https://docs.microsoft.com/en-us/mem/autopilot/user-driven",
   "groupTypes": [
     "DynamicMembership"
   ],

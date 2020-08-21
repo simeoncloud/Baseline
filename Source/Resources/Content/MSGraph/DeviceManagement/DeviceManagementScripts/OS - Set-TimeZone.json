@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "Configures time zone to be set automatically.",
+  "description": "What is it: Configures time zone to be set automatically. \n Simeon Notes: Some computers have issues using Auto Time Zone Updater because of ISP or network restrictions; this script sets the default time zone just in case.",
   "enforceSignatureCheck": false,
   "runAs32Bit": false,
   "runAsAccount": "system"

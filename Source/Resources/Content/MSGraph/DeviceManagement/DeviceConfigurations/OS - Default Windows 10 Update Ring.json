@@ -25,7 +25,7 @@
   "deadlineForFeatureUpdatesInDays": 5,
   "deadlineForQualityUpdatesInDays": 3,
   "deadlineGracePeriodInDays": 1,
-  "description": "What is it: Defines the default Windows Update configuration for Intune managed devices. Applies to all corporate devices except those in the Insiders or Preview update rings. \n Simeon Notes: This is the catch all Windows Update Ring that includes all devices not included in other rings. Simeon’s baseline delays feature updates for 30 days and quality updates for 14 days after released by Microsoft. Once the deferral period has expired for the device, users have 3 days to restart (if required). Also, unattended updates are only be applied outside the working hours of 5am to 10pm. \n Learn More: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979",
+  "description": "What is it: Defines the default Windows Update configuration for Intune managed devices. Applies to all corporate devices except those in the Insiders or Preview update rings. \n Simeon Notes: This is the catch all Windows Update Ring that includes all devices not included in other rings. Simeon's baseline delays feature updates for 30 days and quality updates for 14 days after released by Microsoft. Once the deferral period has expired for the device, users have 3 days to restart (if required). Also, unattended updates are only be applied outside the working hours of 5am to 10pm. \n Learn More: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979",
   "engagedRestartDeadlineInDays": null,
   "engagedRestartSnoozeScheduleInDays": null,
   "engagedRestartTransitionScheduleInDays": null,

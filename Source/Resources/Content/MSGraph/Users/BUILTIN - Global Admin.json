@@ -3,6 +3,7 @@
   "assignedLicenses": [],
   "businessPhones": [],
   "country": "US",
+  "description":"What is it: A global administrator user account for the tenant. \n Simeon Notes: This account does not require a M365 license and the password can be set using another user with correct permissions. \n Learn More:  https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator",
   "givenName": "-",
   "isDeviceEnrollmentManager": false,
   "jobTitle": "AAD Global Admin account",

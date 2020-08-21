@@ -2,7 +2,7 @@
   "assignedLicenses": {
     "$ref": "ResourceContext:M365Licenses"
   },
-  "description": "This manual group is used to define users in the insiders update ring.",
+  "description": "What is it: A manual group of users that are in the insiders ring. \n Simeon Notes: This group can be used to apply and test user directed polices.",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],

@@ -25,6 +25,7 @@
   "defaultPublicFolderMaxItemSize": "Unlimited",
   "defaultPublicFolderMovedItemRetention": "7.00:00:00",
   "defaultPublicFolderProhibitPostQuota": "2 GB (2,147,483,648 bytes)",
+  "description":"What is it: Defines various Exchange settings. \n Simeon Notes: Microsoft changes these setting frequently as features are added and removed. \n Learn More: https://docs.microsoft.com/en-us/powershell/module/exchange/set-organizationconfig?view=exchange-ps",
   "directReportsGroupAutoCreationEnabled": false,
   "distributionGroupNameBlockedWordsList": [],
   "distributionGroupNamingPolicy": "",

@@ -45,5 +45,5 @@
       ]
     }
   ],
-  "description": "Sets the system sleep timeout for devices to never when plugged in and to 20 minutes when on battery."
+  "description": "What is it: Sets the system sleep timeout for devices to never when plugged in and to 20 minutes when on battery."
 }

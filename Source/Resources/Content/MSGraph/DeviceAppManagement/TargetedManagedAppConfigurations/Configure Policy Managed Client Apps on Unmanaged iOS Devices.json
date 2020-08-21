@@ -297,5 +297,5 @@
       "value": "true"
     }
   ],
-  "description": "What is it: Configures default the behavior for application settings of managed apps on unmanaged iOS devices. \n Simeon Notes: Improve your users’ iOS mobile experience by expanding the list of applications that are protected by Intune and data loss protection policies. See the Intune portal for the full list of apps included in Simeon’s baseline. \n Learn More: https://docs.microsoft.com/en-us/mem/intune/apps/app-configuration-policies-use-ios"
+  "description": "What is it: Configures default the behavior for application settings of managed apps on unmanaged iOS devices. \n Simeon Notes: Improve your users' iOS mobile experience by expanding the list of applications that are protected by Intune and data loss protection policies. See the Intune portal for the full list of apps included in Simeon's baseline. \n Learn More: https://docs.microsoft.com/en-us/mem/intune/apps/app-configuration-policies-use-ios"
 }

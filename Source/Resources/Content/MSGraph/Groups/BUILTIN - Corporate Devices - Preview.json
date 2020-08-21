@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "Used to assign preview policies and applications",
+  "description": "What is it: A manual device group for managing preview policies and applications. \n Simeon Notes: A good use case for this group is to test application installs and compatibility with a subset of devices in your environment. Devices in this group will be assigned to the Preview Windows Update ring.",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],

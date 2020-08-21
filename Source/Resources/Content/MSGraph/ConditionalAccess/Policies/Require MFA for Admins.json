@@ -34,7 +34,7 @@
       "includeUsers": []
     }
   },
-  "description": "What is it: Requires that privileged administrator roles authenticate using MFA. \n Simeon Notes: Protect your tenant, require MFA for accounts that have privileged access. Simeon’s baseline includes all applications and users except those with the Azure AD role, ‘Directory Synchronization Accounts’. \n Learn More: https://docs.microsoft.com/en-us/office365/enterprise/protect-your-global-administrator-accounts",
+  "description": "What is it: Requires that privileged administrator roles authenticate using MFA. \n Simeon Notes: Protect your tenant, require MFA for accounts that have privileged access. Simeon's baseline includes all applications and users except those with the Azure AD role, 'Directory Synchronization Accounts'. \n Learn More: https://docs.microsoft.com/en-us/office365/enterprise/protect-your-global-administrator-accounts",
   "grantControls": {
     "builtInControls": [
       "mfa"

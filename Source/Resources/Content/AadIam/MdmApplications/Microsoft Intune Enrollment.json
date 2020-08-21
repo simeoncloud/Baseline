@@ -8,7 +8,7 @@
     "termsOfUseUrl": "https://portal.manage.microsoft.com/TermsofUse.aspx"
   },
   "appId": "d4ebce55-015a-49b5-a083-c84d1797ae8c",
-  "description":"What is it: Legacy version of ‘Microsoft Intune’, required in some tenants for Intune management. \n Learn More: https://github.com/MicrosoftDocs/azure-docs/issues/27017",
+  "description":"What is it: Legacy version of 'Microsoft Intune', required in some tenants for Intune management. \n Learn More: https://github.com/MicrosoftDocs/azure-docs/issues/27017",
   "isOnPrem": false,
   "logoUrl": null,
   "mamAppliesTo": 0,

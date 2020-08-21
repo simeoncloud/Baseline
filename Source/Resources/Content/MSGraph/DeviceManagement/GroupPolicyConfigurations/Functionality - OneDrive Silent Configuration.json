@@ -29,5 +29,5 @@
       "presentationValues": []
     }
   ],
-  "description": "Silently configures OneDrive for use with the primary Windows user and Files On Demand (FOD)."
+  "description": "What is it: Silently configures OneDrive for use with the primary Windows user and Files On Demand (FOD). \n Simeon Notes: Files on demand allows users to store files in the cloud and have them immediately downloaded when accessed. \n Learn More: https://support.microsoft.com/en-us/office/sync-files-with-onedrive-files-on-demand-62e8d748-7877-420f-b600-24b56562aa70"
 }

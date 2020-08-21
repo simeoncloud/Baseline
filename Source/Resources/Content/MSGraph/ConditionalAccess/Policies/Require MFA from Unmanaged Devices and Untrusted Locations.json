@@ -44,7 +44,7 @@
       ]
     }
   },
-  "description": "What is it: Requires MFA when authenticating from a non-compliant device from off-network. \n Simeon Notes: Protects your data by ensuring a device connecting to your network is compliant. Simeon’s baseline includes all applications and users except those users with the Azure AD role ‘Directory Synchronization Accounts’. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/untrusted-networks",
+  "description": "What is it: Requires MFA when authenticating from a non-compliant device from off-network. \n Simeon Notes: Protects your data by ensuring a device connecting to your network is compliant. Simeon's baseline includes all applications and users except those users with the Azure AD role 'Directory Synchronization Accounts'. \n Learn More: https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/untrusted-networks",
   "grantControls": {
     "builtInControls": [
       "mfa"

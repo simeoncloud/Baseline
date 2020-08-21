@@ -15,7 +15,7 @@
   ],
   "azureRightsManagementServicesAllowed": false,
   "daysWithoutContactBeforeUnenroll": 90,
-  "description": "What is it: Configures default behavior for managed client apps on unmanaged Windows devices. Hardens security for managed apps and blocks egress of organization data. \n Simeon Notes: Protect your data on users’ personal Windows devices. This policy allows data to flow between approved apps, but does not allow users to copy or save data outside of the app. Simeon’s baseline applies this policy to all users except those in the Azure AD group, ‘BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations’ \n Learn More: https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy",
+  "description": "What is it: Configures default behavior for managed client apps on unmanaged Windows devices. Hardens security for managed apps and blocks egress of organization data. \n Simeon Notes: Protect your data on users' personal Windows devices. This policy allows data to flow between approved apps, but does not allow users to copy or save data outside of the app. Simeon's baseline applies this policy to all users except those in the Azure AD group, 'BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations' \n Learn More: https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy",
   "enforcementLevel": "encryptAuditAndBlock",
   "enterpriseInternalProxyServers": [],
   "enterpriseIPRanges": [],

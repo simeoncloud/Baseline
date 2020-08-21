@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "Configures the IntuneManagementExtension.\n\nDisables the recycleScripts setting so that the Content and Policies directories under C:\\Program Files (x86)\\Microsoft Intune Management Extension do not get automatically cleaned out by the extension.",
+  "description": "What is it: Configures the IntuneManagementExtension. Disables the recycleScripts setting so that the Content and Policies directories under 'C:\\Program Files (x86)\\Microsoft Intune Management Extension' do not get automatically cleaned out by the extension. \n Simeon Notes: This assists in troubleshooting any device enrollment errors.",
   "enforceSignatureCheck": false,
   "runAs32Bit": true,
   "runAsAccount": "system"

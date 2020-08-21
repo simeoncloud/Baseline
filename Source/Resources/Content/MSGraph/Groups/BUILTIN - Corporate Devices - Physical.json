@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "This group includes all Physical End User Corporate Devices, i.e. those that represent physical machines as opposed to virtual desktops.",
+  "description": "What is it: A dynamic group that includes all physical corporate devices. \n Simeon Notes: This is used to apply policies and applications that are only applicable to physical devices, e.g. BitLocker encryption.",
   "groupTypes": [
     "DynamicMembership"
   ],

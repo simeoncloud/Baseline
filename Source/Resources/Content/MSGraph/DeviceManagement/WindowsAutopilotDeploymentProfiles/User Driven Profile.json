@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "User Driven Autopilot profile for virtual corporate devices that do not have TPM 2.0.\n\nSelf Deploying mode is not supported on VMs even if they have a virtual TPM, so there is a separate policy for virtual corporate devices.\n\nConverts all targeted devices to use Autopilot. This allows leveraging Autopilot functionality like Autopilot Reset and Fresh Start even if the device was not originally deployed through Autopilot.",
+  "description": "What is it: Creates an Intune autopilot profile for enrolling machines using the user-driven method. \n Simeon Notes: When a device is going to be used by a single user, the user-driven approach ideal. Devices in the Azure AD group 'BUILTIN - Autopilot Devices - User Driven' will be assigned this profile. \n Learn More: https://docs.microsoft.com/en-us/mem/autopilot/user-driven",
   "deviceNameTemplate": "",
   "deviceType": "windowsPc",
   "enableWhiteGlove": false,

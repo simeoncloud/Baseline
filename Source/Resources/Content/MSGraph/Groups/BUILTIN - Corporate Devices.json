@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "This group includes all Corporate Devices, regardless of whether they are physical, virtual, or virtual desktops.",
+  "description": "What is it: A dynamic device group that includes all corporate devices, regardless of whether they are physical, virtual, or virtual desktops. \n Simeon Notes: This group is used to assign apps and policies that should apply to all devices.",
   "groupTypes": [
     "DynamicMembership"
   ],
