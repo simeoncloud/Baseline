@@ -5,7 +5,7 @@
   "locale": "0",
   "signInBackColor": "",
   "signInPageText": "",
-  "signInUserIdLabel": "user",
+  "signInUserIdLabel": "user@${ResourceContext:TenantDomainName}",
   "squareLogoDarkUrl": "",
   "tileLogoUrl": ""
 }
