@@ -145,7 +145,6 @@
     "x-internet-signup"
   ],
   "calendarEnabled": true,
-  "changePasswordEnabled": false,
   "classicAttachmentsEnabled": true,
   "conditionalAccessPolicy": "Off",
   "contactsEnabled": true,
@@ -314,7 +313,5 @@
   "wacViewingOnPrivateComputersEnabled": true,
   "wacViewingOnPublicComputersEnabled": true,
   "weatherEnabled": true,
-  "webPartsFrameOptionsType": "SameOrigin",
-  "wssAccessOnPrivateComputersEnabled": false,
-  "wssAccessOnPublicComputersEnabled": false
+  "webPartsFrameOptionsType": "SameOrigin"
 }
