@@ -156,7 +156,6 @@
   "displayPhotosEnabled": true,
   "explicitLogonEnabled": true,
   "externalImageProxyEnabled": true,
-  "facebookEnabled": false,
   "forceSaveAttachmentFilteringEnabled": false,
   "forceSaveFileTypes": [
     ".ade",
@@ -267,7 +266,6 @@
   "irmEnabled": true,
   "isDefault": true,
   "journalEnabled": true,
-  "linkedInEnabled": false,
   "localEventsEnabled": false,
   "logonAndErrorLanguage": 0,
   "messagePreviewsDisabled": false,
