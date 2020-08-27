@@ -13,24 +13,6 @@
       "definition": {
         "categoryPath": "\\System\\Power Management\\Sleep Settings",
         "classType": "machine",
-        "displayName": "Specify the system sleep timeout (on battery)"
-      },
-      "enabled": true,
-      "presentationValues": [
-        {
-          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
-          "presentation": {
-            "label": "System Sleep Timeout (seconds):"
-          },
-          "value": 1200
-        }
-      ]
-    },
-    {
-      "configurationType": "policy",
-      "definition": {
-        "categoryPath": "\\System\\Power Management\\Sleep Settings",
-        "classType": "machine",
         "displayName": "Specify the system sleep timeout (plugged in)"
       },
       "enabled": true,
@@ -45,5 +27,5 @@
       ]
     }
   ],
-  "description": "What is it: Sets the system sleep timeout for devices to never when plugged in and to 20 minutes when on battery."
+  "description": "What is it: Sets the system sleep timeout for devices to never when plugged in."
 }
