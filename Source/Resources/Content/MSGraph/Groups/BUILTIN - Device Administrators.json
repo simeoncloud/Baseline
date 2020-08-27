@@ -10,12 +10,7 @@
       "displayName": "Device Administrators"
     }
   ],  
-  "members": [
-    {
-      "@odata.type": "#microsoft.graph.user",
-      "displayName": "BUILTIN - Device Local Admin"
-    }
-  ],
+  "members": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true,
