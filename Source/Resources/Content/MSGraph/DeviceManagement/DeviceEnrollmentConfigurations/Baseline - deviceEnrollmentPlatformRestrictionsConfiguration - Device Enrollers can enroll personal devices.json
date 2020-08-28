@@ -14,7 +14,7 @@
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "BUILTIN - Device Enrollers"
+        "groupId": "Baseline - Device Enrollers"
       }
     }
   ],

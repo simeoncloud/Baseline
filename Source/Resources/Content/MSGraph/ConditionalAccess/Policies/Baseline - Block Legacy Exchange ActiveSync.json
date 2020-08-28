@@ -21,7 +21,7 @@
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+        "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
       ],
       "excludeRoles": [],
       "excludeUsers": [],

@@ -3,13 +3,13 @@
     {
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-        "groupId": "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+        "groupId": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
       }
     },
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "BUILTIN - Microsoft 365 Users"
+        "groupId": "Baseline - Microsoft 365 Users"
       }
     }
   ],

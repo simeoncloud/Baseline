@@ -34,8 +34,8 @@
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "BUILTIN - Device Enrollers",
-        "BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+        "Baseline - Device Enrollers",
+        "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
       ],
       "excludeRoles": [
         "Company Administrator",

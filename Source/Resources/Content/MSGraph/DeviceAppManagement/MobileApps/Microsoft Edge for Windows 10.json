@@ -5,7 +5,7 @@
       "intent": "required",
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "BUILTIN - Corporate Devices"
+        "groupId": "Baseline - Corporate Devices"
       }
     }
   ],

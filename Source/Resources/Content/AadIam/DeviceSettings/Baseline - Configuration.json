@@ -3,11 +3,11 @@
   "deviceJoinAzureADIsAdminConfigurable": true,
   "deviceJoinAzureADSelectedUsers": [
     {
-      "id": "BUILTIN - Device Enrollers",
+      "id": "Baseline - Device Enrollers",
       "type": "2"
     },
     {
-      "id": "BUILTIN - Microsoft 365 Users",
+      "id": "Baseline - Microsoft 365 Users",
       "type": "2"
     }
   ],

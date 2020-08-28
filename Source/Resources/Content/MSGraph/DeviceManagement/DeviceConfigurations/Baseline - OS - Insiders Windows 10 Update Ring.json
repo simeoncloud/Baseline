@@ -4,7 +4,7 @@
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "BUILTIN - Corporate Devices - Insiders"
+        "groupId": "Baseline - Corporate Devices - Insiders"
       }
     }
   ],

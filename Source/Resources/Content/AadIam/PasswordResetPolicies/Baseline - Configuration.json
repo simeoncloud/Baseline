@@ -14,7 +14,7 @@
   "numberOfQuestionsToReset": 3,
   "officePhoneOptionEnabled": false,
   "passwordResetEnabledGroupIds": [
-    "BUILTIN - Microsoft 365 Users"
+    "Baseline - Microsoft 365 Users"
   ],
   "passwordResetEnabledGroupName": "",
   "registrationReconfirmIntevalInDays": 180,

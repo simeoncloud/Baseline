@@ -4,13 +4,13 @@
     {
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-        "groupId": "BUILTIN - Corporate Devices - Insiders"
+        "groupId": "Baseline - Corporate Devices - Insiders"
       }
     },
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "BUILTIN - Corporate Devices - Preview"
+        "groupId": "Baseline - Corporate Devices - Preview"
       }
     }
   ],

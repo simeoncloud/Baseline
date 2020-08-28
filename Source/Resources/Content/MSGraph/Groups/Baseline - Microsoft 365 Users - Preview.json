@@ -9,7 +9,7 @@
   "members": [
     {
       "@odata.type": "#microsoft.graph.group",
-      "displayName": "BUILTIN - Microsoft 365 Users - Insiders"
+      "displayName": "Baseline - Microsoft 365 Users - Insiders"
     }
   ],
   "resourceBehaviorOptions": [],
