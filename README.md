@@ -1,5 +1,5 @@
 # Simeon Baseline 
-## AadIam\CompanyBrandings\Default.json 
+## AadIam\CompanyBrandings\Baseline - Default.json 
 *Azure AD > Company branding* 
 
 **What does this do?**
@@ -18,7 +18,7 @@ Users will see the watermark (username hint) on Azure login screens.
 
 [Customize your Azure AD sign-in page](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/customize-branding) 
  
-## AadIam\DeviceSettings\Configuration.json 
+## AadIam\DeviceSettings\Baseline - Configuration.json 
 *Azure AD > Device settings* 
 
 **What does this do?**
@@ -37,7 +37,7 @@ Only specified users may join devices, and those users will be prompted for MFA 
 
 N/A 
  
-## AadIam\ExternalUserDirectorySettings\Configuration.json 
+## AadIam\ExternalUserDirectorySettings\Baseline - Configuration.json 
 *Azure AD > External user directory settings* 
 
  **What does this do?**
@@ -56,26 +56,22 @@ Users will not be able to invite external collaborators unless authorized.
 
 [Configure B2B external collaboration settings](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations) 
  
-## AadIam\ExternalUserGuestSettings\Configuration.json 
+## AadIam\ExternalUserGuestSettings\Baseline - Configuration.json 
 *Azure AD > External user guest settings* 
 
 **What does this do?**
-
-Allows Azure updates to be applied first to a specified group of users before being applied to all users in the tenant. 
+Defines settings for permissions that guests users have in the tenant and to which external tenants guest invitations may be sent. The baseline preserves the Microsoft default settings, which allow invitations to be sent to any domain and restrict the permissions of guest users. 
 
 **Why should you use this?**
-
-If you want to test Azure updates with a subset of users in your environment. The specified users will receive Azure updates before other users.
+If you want to apply Microsoft's default security settings for guest users, which increases security.. 
 
 **What is the end-user impact?**
-
-Specified users will be able to test Azure updates before other users.
+Authorized users may send invitations to any domain, but guest user permissions are restricted. 
 
 **Learn more**
-
-N/A 
+[Configure B2B external collaboration settings](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations#to-configure-external-collaboration-settings) 
  
-## AadIam\FeatureSettings\Configuration.json 
+## AadIam\FeatureSettings\Baseline - Configuration.json 
 *Azure AD > User feature preview settings* 
 
 **What does this do?**
@@ -94,7 +90,7 @@ Specified users will be able to test Azure updates before other users.
 
 N/A 
  
-## AadIam\GroupSettings\Configuration.json 
+## AadIam\GroupSettings\Baseline - Configuration.json 
 *Azure AD > Group settings* 
 
 **What does this do?**
@@ -113,7 +109,7 @@ Owners cannot approve requests, security groups cannot be created, and users can
 
 [Users, groups, and roles](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-self-service-management) 
  
-## AadIam\MdmApplications\Microsoft Intune Enrollment.json 
+## AadIam\MdmApplications\Baseline - Microsoft Intune Enrollment.json 
 *Azure AD > Mobility (MDM and MAM)* 
 
 **What does this do?**
@@ -132,7 +128,7 @@ Users with legacy versions of Intune will be able to use Intune.
 
 [Intune vs. Intune Enrollment](https://github.com/MicrosoftDocs/azure-docs/issues/27017) 
  
-## AadIam\MdmApplications\Microsoft Intune.json 
+## AadIam\MdmApplications\Baseline - Microsoft Intune.json 
 *Azure AD > Mobility (MDM and MAM)* 
 
 What is it: **What does this do?**
@@ -151,7 +147,7 @@ Users will be able to manage devices (e.g. configure their machines) using Intun
 
 [MDM vs. MAM](https://techcommunity.microsoft.com/t5/microsoft-intune/mdm-vs-mam/m-p/90906) 
  
-## AadIam\PasswordResetPolicies\Configuration.json 
+## AadIam\PasswordResetPolicies\Baseline - Configuration.json 
 *Azure AD > Password reset* 
 
 What is it: **What does this do?**
@@ -170,7 +166,7 @@ Users can securely recover and reset their passwords.
 
 [How it works: Azure AD self-service password reset](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks) 
  
-## AadIam\UserSettings\Configuration.json 
+## AadIam\UserSettings\Baseline - Configuration.json 
 *Azure AD > User settings* 
 
 **What does this do?**
@@ -189,7 +185,7 @@ Users may register new applications and access the Azure portal, but not access 
 
 [Default user permissions](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/users-default-permissions#to-restrict-the-default-permissions-for-member-users) 
  
-## AzureManagement\MicrosoftAadIam\DiagnosticSettings\Logging.json 
+## AzureManagement\MicrosoftAadIam\DiagnosticSettings\Baseline - Logging.json 
 *Azure AD > Diagnostic settings* 
 
 **What does this do?**
@@ -208,7 +204,7 @@ N/A
 
 [Analyze Azure AD activity logs with Azure Monitor logs](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-analyze-activity-logs-log-analytics) 
  
-## AzureManagement\MicrosoftIntune\DiagnosticSettings\Logging.json 
+## AzureManagement\MicrosoftIntune\DiagnosticSettings\Baseline - Logging.json 
 *Intune > Diagnostic settings* 
 
 **What does this do?**
@@ -227,7 +223,7 @@ N/A
 
 [Microsoft Intune and Azure Log Analytics](https://techcommunity.microsoft.com/t5/device-management-in-microsoft/microsoft-intune-and-azure-log-analytics/ba-p/463145) 
  
-## AzureManagement\MicrosoftResources\ResourceGroups\m365alertsactiongroup.json 
+## AzureManagement\MicrosoftResources\ResourceGroups\Baseline - m365alertsactiongroup.json 
 *Azure > Resource groups* 
 
 **What does this do?**
@@ -246,7 +242,7 @@ N/A
 
 [Create and manage action groups in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups) 
  
-## AzureManagement\MicrosoftResources\ResourceGroups\m365logging.json 
+## AzureManagement\MicrosoftResources\ResourceGroups\Baseline - m365logging.json 
 *Azure > Resource groups* 
 
 **What does this do?**
@@ -265,7 +261,7 @@ N/A
 
 [Designing your Azure Monitor Logs deployment](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/design-logs-deployment) 
  
-## MSGraph\ConditionalAccess\Policies\Block Legacy Apps.json 
+## MSGraph\ConditionalAccess\Policies\Baseline - Block Legacy Apps.json 
 *Azure AD > Security > Conditional Access > Policies* 
 
 **What does this do?**
@@ -284,7 +280,7 @@ Users may not use legacy protocols (POP, SMTP, IMAP, and MAPI).
 
 [How to: Block legacy authentication to Azure AD with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/block-legacy-authentication) 
  
-## MSGraph\ConditionalAccess\Policies\Block Legacy Exchange ActiveSync.json 
+## MSGraph\ConditionalAccess\Policies\Baseline - Block Legacy Exchange ActiveSync.json 
 *Azure AD > Security > Conditional Access > Policies* 
 
 **What does this do?**
@@ -303,7 +299,7 @@ Users cannot use native mail applications except if specifically allowed.
 
 [Policy recommendations for securing email](https://docs.microsoft.com/en-us/microsoft-365/enterprise/secure-email-recommended-policies?view=o365-worldwide) 
  
-## MSGraph\ConditionalAccess\Policies\Block Platforms Other than iOS or Android from Unmanaged Devices and Untrusted Locations.json 
+## MSGraph\ConditionalAccess\Policies\Baseline - Block Platforms Other than iOS or Android from Unmanaged Devices and Untrusted Locations.json 
 *Azure AD > Security > Conditional Access > Policies* 
 
 **What does this do?**
@@ -322,7 +318,7 @@ Users are restricted to iOS and Android platforms for authenticating devices whe
 
 [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) 
  
-## MSGraph\ConditionalAccess\Policies\Require Approved Client Apps from Unmanaged Devices and Untrusted Locations.json 
+## MSGraph\ConditionalAccess\Policies\Baseline - Require Approved Client Apps from Unmanaged Devices and Untrusted Locations.json 
 *Azure AD > Security > Conditional Access > Policies* 
 
 **What does this do?**
@@ -341,7 +337,7 @@ Users may only connect from off-network via iOS and Android devices.
 
 [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) 
  
-## MSGraph\ConditionalAccess\Policies\Require Compliant Device for Intune Enrollment.json 
+## MSGraph\ConditionalAccess\Policies\Baseline - Require Compliant Device for Intune Enrollment.json 
 *Azure AD > Security > Conditional Access > Policies* 
 
 **What does this do?**
@@ -360,7 +356,7 @@ IT must register devices in Autopilot before a general user can enroll it.
 
 N/A 
  
-## MSGraph\ConditionalAccess\Policies\Require MFA for Admins.json 
+## MSGraph\ConditionalAccess\Policies\Baseline - Require MFA for Admins.json 
 *Azure AD > Security > Conditional Access > Policies* 
 
 **What does this do?**
@@ -379,7 +375,7 @@ Users with privileged access must authenticate using MFA for each log in.
 
 [Protect your Microsoft 365 global administrator accounts](https://docs.microsoft.com/en-us/office365/enterprise/protect-your-global-administrator-accounts) 
  
-## MSGraph\ConditionalAccess\Policies\Require MFA from Unmanaged Devices and Untrusted Locations.json 
+## MSGraph\ConditionalAccess\Policies\Baseline - Require MFA from Unmanaged Devices and Untrusted Locations.json 
 *Azure AD > Security > Conditional Access > Policies* 
 
 **What does this do?**
@@ -398,7 +394,7 @@ Users must authenticate using MFA when accessing Microsoft 365 data from a non-c
 
 [How to: Require MFA for access from untrusted networks with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/untrusted-networks) 
  
-## MSGraph\DeviceAppManagement\AndroidManagedAppProtections\Protect Policy Managed Client Apps on Unmanaged Android Devices.json 
+## MSGraph\DeviceAppManagement\AndroidManagedAppProtections\Baseline - Protect Policy Managed Client Apps on Unmanaged Android Devices.json 
 *Intune > Apps > App protection policies (Platform = Android)* 
 
 **What does this do?**
@@ -417,7 +413,7 @@ Configures the default behavior for managed client applications on unmanaged And
 
 [App protection policies overview](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) 
  
-## MSGraph\DeviceAppManagement\IosManagedAppProtections\Protect Policy Managed Client Apps on Unmanaged iOS Devices.json 
+## MSGraph\DeviceAppManagement\IosManagedAppProtections\Baseline - Protect Policy Managed Client Apps on Unmanaged iOS Devices.json 
 *Intune > Apps > App protection policies (Platform = iOS/iPadOS)* 
 
 **What does this do?**
@@ -481,7 +477,7 @@ Cleans up duplicate desktop shortcuts (ending with - Copy.lnk).
 
 Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. This software is also usable as an advanced text editor. 
  
-## MSGraph\DeviceAppManagement\TargetedManagedAppConfigurations\Configure Policy Managed Client Apps on Unmanaged iOS Devices.json 
+## MSGraph\DeviceAppManagement\TargetedManagedAppConfigurations\Baseline - Configure Policy Managed Client Apps on Unmanaged iOS Devices.json 
 *Intune > Apps > App configuration policies* 
 
 **What does this do?**
@@ -500,7 +496,7 @@ If you want to improve your users' iOS mobile experience by expanding the list o
 
 [Add app configuration policies for managed apps without device enrollment](https://docs.microsoft.com/en-us/mem/intune/apps/app-configuration-policies-managed-app) 
  
-## MSGraph\DeviceAppManagement\WindowsInformationProtectionPolicies\Protect Policy Managed Client Apps on Unmanaged Windows Devices.json 
+## MSGraph\DeviceAppManagement\WindowsInformationProtectionPolicies\Baseline - Protect Policy Managed Client Apps on Unmanaged Windows Devices.json 
 *Intune > Apps > App protection policies (Platform = Windows 10)* 
 
 **What does this do?**
@@ -519,7 +515,7 @@ Configures the default behavior for managed client applications on unmanaged Win
 
 [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) 
  
-## MSGraph\DeviceManagement\DeviceCompliancePolicies\Corporate Devices - Physical - Windows.json 
+## MSGraph\DeviceManagement\DeviceCompliancePolicies\Baseline - Corporate Devices - Physical - Windows.json 
 *Intune > Devices > Compliance policies* 
 
 **What does this do?**
@@ -538,12 +534,12 @@ Users may only access organization data if the device passes the compliance poli
 
 [Use compliance policies to set rules for devices you manage with Intune](https://docs.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started) 
  
-## MSGraph\DeviceManagement\DeviceCompliancePolicies\Corporate Devices - Windows.json 
+## MSGraph\DeviceManagement\DeviceCompliancePolicies\Baseline - Corporate Devices - Windows.json 
 *Intune > Devices > Compliance policies* 
 
 **What does this do?**
 
-Defines the required state that a device (both physical and virtual) must be in to be considered compliant before accessing an organization's data. The baseline requires that a device has Microsoft Defender Antimalware configured. This policy applies to all devices in the Azure AD group 'BUILTIN - Corporate Devices'.
+Defines the required state that a device (both physical and virtual) must be in to be considered compliant before accessing an organization's data. The baseline requires that a device has Microsoft Defender Antimalware configured. This policy applies to all devices in the Azure AD group 'Baseline - Corporate Devices'.
 
 **Why should you use this?**
 
@@ -557,7 +553,7 @@ Users may access an organization's data only if the device has Microsoft Defende
 
 [Use compliance policies to set rules for devices you manage with Intune](https://docs.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\Functionality - Microsoft Store Limited to Private Store Only.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - Functionality - Microsoft Store Limited to Private Store Only.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -576,7 +572,7 @@ Users may only use apps that you deem necessary.
 
 [Distribute apps using your private store](https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\OS - Default Windows 10 Update Ring.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - OS - Default Windows 10 Update Ring.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -595,7 +591,7 @@ Corporate devices outside of the 'Insiders' or 'Preview' rings will receive Wind
 
 [Tactical considerations for creating Windows deployment rings](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\OS - Insiders Windows 10 Update Ring.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - OS - Insiders Windows 10 Update Ring.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -614,7 +610,7 @@ Users in the 'Insiders' ring will receive feature and quality updates 3 days aft
 
 [Tactical considerations for creating Windows deployment rings](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\OS - Local Autopilot Reset Enabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - OS - Local Autopilot Reset Enabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -633,7 +629,7 @@ Users may initiate an Autopilot Reset themselves, which can come in handy if Aut
 
 [Windows Autopilot Reset](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/windows-autopilot-reset-local) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\OS - Preview Windows 10 Update Ring.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - OS - Preview Windows 10 Update Ring.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -652,7 +648,7 @@ Users in the 'Preview' ring will receive updates 7 days after being released by 
 
 [Tactical considerations for creating Windows deployment rings](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\OS - RDP Enabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - OS - RDP Enabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -671,7 +667,7 @@ Users in the 'Remote Desktop Users' local group will be able to connect to remot
 
 [Policy CSP - RemoteDesktopServices](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-remotedesktopservices) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\Security - BitLocker Device Encryption Enabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - Security - BitLocker Device Encryption Enabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -690,7 +686,7 @@ Data on users' hard drives are encrypted.
 
 [Overview of BitLocker Device Encryption in Windows 10](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\Security - IE Site-to-Zone Assignment.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - Security - IE Site-to-Zone Assignment.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -711,7 +707,7 @@ Users will be unable to configure URLs for browser security zones themselves.
 
 [Azure Active Directory Seamless Single Sign-On](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-quick-start) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\Security - NTLMv2 LAN Manager Authentication Level.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - Security - NTLMv2 LAN Manager Authentication Level.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -730,7 +726,7 @@ Windows file sharing will not work with any devices that do not support NTLMv2.
 
 [Network security: LAN Manager authentication level](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\Security - Password Reset Enabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - Security - Password Reset Enabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -749,7 +745,7 @@ Users may reset their passwords from the Windows login screen.
 
 [Enable Azure Active Directory self-service password reset at the Windows sign-in screen](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-windows) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\Security - Personal Microsoft Accounts Blocked.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - Security - Personal Microsoft Accounts Blocked.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -768,7 +764,7 @@ Users cannot connect Windows to personal Microsoft accounts.
 
 [Microsoft accounts configuration](https://docs.microsoft.com/en-us/mem/intune/configuration/device-restrictions-windows-10#cloud-and-storage) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\Security - Simple Passwords Disabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - Security - Simple Passwords Disabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -787,7 +783,7 @@ Users are restricted from creating simple passwords.
 
 [Eliminate bad passwords using Azure Active Directory Password Protection](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\UX - Microsoft Consumer Experience Disabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - UX - Microsoft Consumer Experience Disabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -806,7 +802,7 @@ Users will not see these additional pop-ups, suggestions and notifications.
 
 [Policy CSP - Experience](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsconsumerfeatures) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\UX - Windows First Run Animation Disabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - UX - Windows First Run Animation Disabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -825,7 +821,7 @@ Users may have an improved experience when opting out of First Run Animation.
 
 [Policy CSP - WindowsLogon](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-enablefirstlogonanimation) 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\UX - Windows Hello Disabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - UX - Windows Hello Disabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -844,7 +840,7 @@ Users will not be prompted to sign in with a biometric system.
 
 N/A 
  
-## MSGraph\DeviceManagement\DeviceConfigurations\UX - Windows Spotlight Disabled.json 
+## MSGraph\DeviceManagement\DeviceConfigurations\Baseline - UX - Windows Spotlight Disabled.json 
 *Intune > Devices > Configuration profiles* 
 
 **What does this do?**
@@ -863,7 +859,7 @@ Users will not receive third party marketing materials on the lock screen.
 
 [Configure Windows Spotlight on the lock screen](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight) 
  
-## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\deviceEnrollmentLimitConfiguration - All users and all devices.json 
+## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\Baseline - deviceEnrollmentLimitConfiguration - All users and all devices.json 
 *Intune > Devices > Enrollment restrictions* 
 
 **What does this do?**
@@ -882,7 +878,7 @@ Users will be limited to enrolling 5 devices.
 
 [Create a device limit restriction](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set#create-a-device-limit-restriction) 
  
-## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\deviceEnrollmentPlatformRestrictionsConfiguration - All users and all devices.json 
+## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\Baseline - deviceEnrollmentPlatformRestrictionsConfiguration - All users and all devices.json 
 *Intune > Devices > Enrollment restrictions* 
 
 **What does this do?**
@@ -901,7 +897,7 @@ Users will be restricted to enrolling corporate devices only in Intune.
 
 [Create a device type restriction](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set#create-a-device-type-restriction) 
  
-## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\deviceEnrollmentPlatformRestrictionsConfiguration - Device Enrollers can enroll personal devices.json 
+## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\Baseline - deviceEnrollmentPlatformRestrictionsConfiguration - Device Enrollers can enroll personal devices.json 
 *Intune > Devices > Enrollment restrictions* 
 
 **What does this do?**
@@ -920,7 +916,7 @@ Only certain users will be able to enroll devices to Intune.
 
 [Set enrollment restrictions](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set) 
  
-## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\deviceEnrollmentWindowsHelloForBusinessConfiguration - All users and all devices.json 
+## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\Baseline - deviceEnrollmentWindowsHelloForBusinessConfiguration - All users and all devices.json 
 *Intune > Devices > Enrollment restrictions* 
 
 **What does this do?**
@@ -939,7 +935,7 @@ Users will not be prompted to set up Windows Hello when they log in to a device 
 
 [Windows Hello for Business](https://docs.microsoft.com/en-us/mem/intune/protect/identity-protection-windows-settings) 
  
-## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\windows10EnrollmentCompletionPageConfiguration - All users and all devices.json 
+## MSGraph\DeviceManagement\DeviceEnrollmentConfigurations\Baseline - windows10EnrollmentCompletionPageConfiguration - All users and all devices.json 
 *Intune > Devices > Enrollment restrictions* 
 
 **What does this do?**
@@ -958,7 +954,7 @@ Users will be able to click 'Continue Anyway' when device enrollment enters the 
 
 [Set up the Enrollment Status Page](https://docs.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-status) 
  
-## MSGraph\DeviceManagement\DeviceManagementScripts\Management - Set-IntuneManagementExtensionConfiguration.json 
+## MSGraph\DeviceManagement\DeviceManagementScripts\Baseline - Management - Set-IntuneManagementExtensionConfiguration.json 
 *Intune > Devices > Scripts* 
 
 **What does this do?**
@@ -977,7 +973,7 @@ Users will be able to view installation logs.
 
 N/A 
  
-## MSGraph\DeviceManagement\DeviceManagementScripts\Management - Set-LocalAdminPassword.json 
+## MSGraph\DeviceManagement\DeviceManagementScripts\Baseline - Management - Set-LocalAdminPassword.json 
 *Intune > Devices > Scripts* 
 
 **What does this do?**
@@ -996,7 +992,7 @@ N/A
 
 [View BitLocker recovery keys](https://365adviser.com/azure/how-to-find-the-bitlocker-recovery-key-in-azure-ad) 
  
-## MSGraph\DeviceManagement\DeviceManagementScripts\OS - Enable-TaskSchedulerHistory.json 
+## MSGraph\DeviceManagement\DeviceManagementScripts\Baseline - OS - Enable-TaskSchedulerHistory.json 
 *Intune > Devices > Scripts* 
 
 **What does this do?**
@@ -1015,7 +1011,7 @@ N/A
 
 [Enable Windows task scheduler history](https://medium.com/techygeekshome/enable-windows-task-scheduler-history-996a601a178c) 
  
-## MSGraph\DeviceManagement\DeviceManagementScripts\OS - Set-TimeZone.json 
+## MSGraph\DeviceManagement\DeviceManagementScripts\Baseline - OS - Set-TimeZone.json 
 *Intune > Devices > Scripts* 
 
 **What does this do?**
@@ -1034,7 +1030,7 @@ The time zone will be set automatically based on the device location.
 
 N/A 
  
-## MSGraph\DeviceManagement\DeviceManagementScripts\Security - Add-AuthenticatedUsersToRemoteDesktopUsers.json 
+## MSGraph\DeviceManagement\DeviceManagementScripts\Baseline - Security - Add-AuthenticatedUsersToRemoteDesktopUsers.json 
 *Intune > Devices > Scripts* 
 
 **What does this do?**
@@ -1053,7 +1049,7 @@ Users may connect remotely via Remote Desktop.
 
 N/A 
  
-## MSGraph\DeviceManagement\DeviceManagementScripts\Security - Disable-RdpNetworkLevelAuthentication.json 
+## MSGraph\DeviceManagement\DeviceManagementScripts\Baseline - Security - Disable-RdpNetworkLevelAuthentication.json 
 *Intune > Devices > Scripts* 
 
 **What does this do?**
@@ -1072,7 +1068,7 @@ Users may connect remotely via Remote Desktop.
 
 It is not currently possible to use Network Level Authentication when using Remote Desktop to connect from a non-Azure AD joined device to an Azure AD joined device. Removing the requirement for Network Level Authentication will not prevent clients from trying to negotiate Network Level Authentication if they support it. That means that Windows clients that are not joined to the same Azure AD as the host must explicitly add 'enablecredsspsupport:i:0' in the .rdp file when connecting to prevent attempts to pre-authenticate. 
  
-## MSGraph\DeviceManagement\GroupPolicyConfigurations\Functionality - Microsoft Edge Configuration.json 
+## MSGraph\DeviceManagement\GroupPolicyConfigurations\Baseline - Functionality - Microsoft Edge Configuration.json 
 *Intune > Devices > Configuration profiles (Profile Type = Administrative Templates)* 
 
 **What does this do?**
@@ -1091,7 +1087,7 @@ Users' search history and passwords will be synchronized across devices.
 
 [Microsoft Edge Enterprise Sync](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-enterprise-sync) 
  
-## MSGraph\DeviceManagement\GroupPolicyConfigurations\Functionality - OneDrive Silent Configuration.json 
+## MSGraph\DeviceManagement\GroupPolicyConfigurations\Baseline - Functionality - OneDrive Silent Configuration.json 
 *Intune > Devices > Configuration profiles (Profile Type = Administrative Templates)* 
 
 **What does this do?**
@@ -1110,7 +1106,7 @@ The first time a user logs in to a device, OneDrive will automatically sign in. 
 
 [Sync files with OneDrive Files on Demand](https://support.microsoft.com/en-us/office/sync-files-with-onedrive-files-on-demand-62e8d748-7877-420f-b600-24b56562aa70) 
  
-## MSGraph\DeviceManagement\GroupPolicyConfigurations\Functionality - Windows Known Folders Move to OneDrive.json 
+## MSGraph\DeviceManagement\GroupPolicyConfigurations\Baseline - Functionality - Windows Known Folders Move to OneDrive.json 
 *Intune > Devices > Configuration profiles (Profile Type = Administrative Templates)* 
 
 **What does this do?**
@@ -1129,7 +1125,7 @@ Users may continue using familiar folders while being backed up.
 
 [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders) 
  
-## MSGraph\DeviceManagement\GroupPolicyConfigurations\OS - System Sleep Timeouts.json 
+## MSGraph\DeviceManagement\GroupPolicyConfigurations\Baseline - OS - System Sleep Timeouts.json 
 *Intune > Devices > Configuration profiles (Profile Type = Administrative Templates)* 
 
 **What does this do?**
@@ -1150,7 +1146,7 @@ N/A
 
  
  
-## MSGraph\DeviceManagement\GroupPolicyConfigurations\Security - LinkedIn Features in Office Applications Disabled.json 
+## MSGraph\DeviceManagement\GroupPolicyConfigurations\Baseline - Security - LinkedIn Features in Office Applications Disabled.json 
 *Intune > Devices > Configuration profiles (Profile Type = Administrative Templates)* 
 
 **What does this do?**
@@ -1169,12 +1165,12 @@ Users will not be able to use the LinkedIn Office features.
 
 [Integrate LinkedIn account connections in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/linkedin-integration) 
  
-## MSGraph\DeviceManagement\WindowsAutopilotDeploymentProfiles\Self Deploying Profile.json 
+## MSGraph\DeviceManagement\WindowsAutopilotDeploymentProfiles\Baseline - Self Deploying Profile.json 
 *Intune > Devices > Windows Autopilot deployment profiles* 
 
 **What does this do?**
 
-Creates an Intune autopilot profile for enrolling machines using the self-deploying method, which enables a device to be enrolled into your environment with little to no user interaction. Self-deployment mode comes with restrictions including that the device must have TPM 2.0, and it is not supported on virtual machines even if they have a virtual TPM. Devices in the Azure AD group 'BUILTIN - Autopilot Devices - Self Deploying' will be assigned this profile. 
+Creates an Intune autopilot profile for enrolling machines using the self-deploying method, which enables a device to be enrolled into your environment with little to no user interaction. Self-deployment mode comes with restrictions including that the device must have TPM 2.0, and it is not supported on virtual machines even if they have a virtual TPM. Devices in the Azure AD group 'Baseline - Autopilot Devices - Self Deploying' will be assigned this profile. 
 
 **Why should you use this?**
 
@@ -1188,7 +1184,7 @@ User devices assigned to this profile can be configured using the self-deploymen
 
 [Windows Autopilot Self-Deploying mode](https://docs.microsoft.com/en-us/mem/autopilot/self-deploying) 
  
-## MSGraph\DeviceManagement\WindowsAutopilotDeploymentProfiles\User Driven Profile.json 
+## MSGraph\DeviceManagement\WindowsAutopilotDeploymentProfiles\Baseline - User Driven Profile.json 
 *Intune > Devices > Windows Autopilot deployment profiles* 
 
 **What does this do?**
@@ -1207,7 +1203,7 @@ Devices with this profile can be enrolled by users themselves. The device will b
 
 [Windows Autopilot user-driven mode](https://docs.microsoft.com/en-us/mem/autopilot/user-driven) 
  
-## MSGraph\Groups\BUILTIN - Autopilot Devices - Self Deploying.json 
+## MSGraph\Groups\Baseline - Autopilot Devices - Self Deploying.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1226,7 +1222,7 @@ A device can be enrolled to Intune without end-user input.
 
 [Windows Autopilot Self-Deploying mode](https://docs.microsoft.com/en-us/mem/autopilot/self-deploying) 
  
-## MSGraph\Groups\BUILTIN - Autopilot Devices - User Driven.json 
+## MSGraph\Groups\Baseline - Autopilot Devices - User Driven.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1245,7 +1241,7 @@ Devices with this profile can be enrolled by users themselves. The device will b
 
 [Windows Autopilot User-Driven mode](https://docs.microsoft.com/en-us/mem/autopilot/user-driven) 
  
-## MSGraph\Groups\BUILTIN - Corporate Devices - Insiders.json 
+## MSGraph\Groups\Baseline - Corporate Devices - Insiders.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1264,7 +1260,7 @@ Users of this group will be able to test application installs, policies and Wind
 
 N/A 
  
-## MSGraph\Groups\BUILTIN - Corporate Devices - Physical.json 
+## MSGraph\Groups\Baseline - Corporate Devices - Physical.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1283,7 +1279,7 @@ Users of this group can be assigned applications and policies that should apply 
 
 N/A 
  
-## MSGraph\Groups\BUILTIN - Corporate Devices - Preview.json 
+## MSGraph\Groups\Baseline - Corporate Devices - Preview.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1302,7 +1298,7 @@ User devices in this group will be able to test Windows Updates, application ins
 
 N/A 
  
-## MSGraph\Groups\BUILTIN - Corporate Devices - Virtual.json 
+## MSGraph\Groups\Baseline - Corporate Devices - Virtual.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1321,7 +1317,7 @@ Virtual user devices will be assigned applications and policies that should appl
 
 N/A 
  
-## MSGraph\Groups\BUILTIN - Corporate Devices.json 
+## MSGraph\Groups\Baseline - Corporate Devices.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1340,7 +1336,7 @@ User devices in this group will be assigned all applications and policies.
 
 N/A 
  
-## MSGraph\Groups\BUILTIN - Device Administrators.json 
+## MSGraph\Groups\Baseline - Device Administrators.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1359,7 +1355,7 @@ Members in this group will have administrator access to an end-user's device.
 
 [Device Administrators Role](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#device-administrators) 
  
-## MSGraph\Groups\BUILTIN - Device Enrollers.json 
+## MSGraph\Groups\Baseline - Device Enrollers.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1378,7 +1374,7 @@ Certain users will be able to have devices enrolled that were not Autopiloted.
 
 N/A 
  
-## MSGraph\Groups\BUILTIN - Group Creators.json 
+## MSGraph\Groups\Baseline - Group Creators.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1397,7 +1393,7 @@ Users who are not in this group will be restricted from creating Microsoft 365 g
 
 [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide) 
  
-## MSGraph\Groups\BUILTIN - Microsoft 365 Users - Insiders.json 
+## MSGraph\Groups\Baseline - Microsoft 365 Users - Insiders.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1416,7 +1412,7 @@ Users of this group may receive and test configuration changes before others use
 
 N/A 
  
-## MSGraph\Groups\BUILTIN - Microsoft 365 Users - Preview.json 
+## MSGraph\Groups\Baseline - Microsoft 365 Users - Preview.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1435,7 +1431,7 @@ Users of this group may receive and test configuration changes before others use
 
 N/A 
  
-## MSGraph\Groups\BUILTIN - Microsoft 365 Users.json 
+## MSGraph\Groups\Baseline - Microsoft 365 Users.json 
 *Azure AD > Groups* 
 
 **What does this do?**
@@ -1456,12 +1452,12 @@ Users with a department will be assigned appropriate licenses.
 
 [Editing a user's department](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) 
  
-## MSGraph\Groups\BUILTIN - Unrestricted Access From Unmanaged Devices And Untrusted Locations.json 
+## MSGraph\Groups\Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.json 
 *Azure AD > Groups* 
 
 **What does this do?**
 
-Creates a group that is used to bypass conditional access and mobile application protection policies that ensure content is accessed only from trusted devices, locations, and applications. The 'BUILTIN - Global Admin' account is added to this group.
+Creates a group that is used to bypass conditional access and mobile application protection policies that ensure content is accessed only from trusted devices, locations, and applications. The 'Baseline - Global Admin' account is added to this group.
 
 **Why should you use this?**
 
@@ -1477,7 +1473,7 @@ Users in this group can use any device or application of their choosing to acces
 
 [Protecting content on personal devices using app protection policies](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) 
  
-## MSGraph\Settings\Group.Unified.json 
+## MSGraph\Settings\Baseline - Group.Unified.json 
 *Azure AD > Directory settings* 
 
 **What does this do?**
@@ -1496,7 +1492,7 @@ User who are not in 'Group Creators' will be restricted from creating Azure AD g
 
 [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide) 
  
-## MSGraph\Users\BUILTIN - Global Admin.json 
+## MSGraph\Users\Baseline - Global Admin.json 
 *Azure AD > Users* 
 
 **What does this do?**
@@ -1515,7 +1511,7 @@ N/A
 
 [Administrator role permissions in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) 
  
-## PowerShell\Exchange\ClientAccess\OwaMailboxPolicies\OwaMailboxPolicy-Default.json 
+## PowerShell\Exchange\ClientAccess\OwaMailboxPolicies\Baseline - OwaMailboxPolicy-Default.json 
 *Office 365 > Exchange > Outlook Web App policies* 
 
 **What does this do?**
@@ -1534,7 +1530,7 @@ N/A
 
 [OwaMailboxPolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps) 
  
-## PowerShell\Exchange\Organization\AdminAuditLogConfig\Admin Audit Log Settings.json 
+## PowerShell\Exchange\Organization\AdminAuditLogConfig\Baseline - Admin Audit Log Settings.json 
 *Office 365 > Exchange > AdminAuditLogConfig* 
 
 **What does this do?**
@@ -1553,7 +1549,7 @@ N/A
 
 [Turn audit log search on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide#turn-on-audit-log-search) 
  
-## PowerShell\Exchange\Organization\OrganizationConfig\First Organization.json 
+## PowerShell\Exchange\Organization\OrganizationConfig\Baseline - First Organization.json 
 *Office 365 > Exchange > OrganizationConfig* 
 
 **What does this do?**
@@ -1572,7 +1568,7 @@ N/A
 
 [Set-OrganizationConfig](https://docs.microsoft.com/en-us/powershell/module/exchange/set-organizationconfig?view=exchange-ps) 
  
-## PowerShell\PolicyAndCompliance\Retention\RetentionCompliancePolicies\Default Retention Policy.json 
+## PowerShell\PolicyAndCompliance\Retention\RetentionCompliancePolicies\Baseline - Default Retention Policy.json 
 *Office 365 > Security & Compliance > Information governance > Retention* 
 
 **What does this do?**
@@ -1591,7 +1587,7 @@ Users cannot permanently delete data that is less than one year old.
 
 [Retention policies and labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide) 
  
-## PowerShell\PolicyAndCompliance\Retention\TeamsRetentionCompliancePolicies\Teams Retention Policy.json 
+## PowerShell\PolicyAndCompliance\Retention\TeamsRetentionCompliancePolicies\Baseline - Teams Retention Policy.json 
 *Office 365 > Security & Compliance > Information governance > Retention (Teams)* 
 
 **What does this do?**
@@ -1610,7 +1606,7 @@ Users cannot permanently delete data that is less than one year old.
 
 [Retention policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/retention-policies) 
  
-## TeamsApi\Users\TenantWideAppsSettings\Configuration.json 
+## TeamsApi\Users\TenantWideAppsSettings\Baseline - Configuration.json 
 *Office 365 > Teams > Apps* 
 
 **What does this do?**
@@ -1631,7 +1627,7 @@ Users will be able to add Teams apps.
 
 [Manage your apps in the Microsoft Teams admin center](https://docs.microsoft.com/en-us/microsoftteams/manage-apps) 
  
-## TeamsPSAdmin\TeamsAppPermissionPolicy\Global.json 
+## TeamsPSAdmin\TeamsAppPermissionPolicy\Baseline - Global.json 
 *Office 365 > Teams > Apps > Permission policies* 
 
 **What does this do?**
@@ -1650,7 +1646,7 @@ Users may use only those Teams apps allowed by admins.
 
 [Manage app permission policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-permission-policies) 
  
-## TeamsPSAdmin\TeamsClientConfiguration\Global.json 
+## TeamsPSAdmin\TeamsClientConfiguration\Baseline - Global.json 
 *Office 365 > Teams > Org-wide settings* 
 
 **What does this do?**
