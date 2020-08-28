@@ -1,6 +1,6 @@
 {
   "adminConsentedForUsersIntoTenantIds": [],
-  "description":"What is it: Further defines guests that are allowed to join the tenant by specifying allowed domains. \n Simeon Notes: Allows you to enable specific third parties access into your tenant. This feature is disabled in Simeon's baseline.  Learn More: https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations#to-configure-external-collaboration-settings",
+  "description": "**What does this do?**\nAllows Azure updates to be applied first to a specified group of users before being applied to all users in the tenant. \n\n**Why should you use this?**\nIf you want to test Azure updates with a subset of users in your environment. The specified users will receive Azure updates before other users. @metamenos should we be saying rings instead of subset?\n\n**What is the end-user impact?**\nSpecified users will be able to test Azure updates before other users.\n\n**Learn more**\nN/A",
   "hasListEntries": false,
   "isAllowlist": true,
   "noAADConsentForUsersFromTenantsIds": [],

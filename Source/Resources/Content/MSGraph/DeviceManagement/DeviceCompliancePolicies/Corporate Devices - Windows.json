@@ -15,7 +15,7 @@
   "codeIntegrityEnabled": false,
   "configurationManagerComplianceRequired": false,
   "defenderEnabled": true,
-  "description": "What is it: Defines the required state that a device (both physical and virtual) must be in to be considered compliant and before it can access tenant data. \n Simeon Notes: This policy provides an additional layer of data protection for your Intune managed devices and applies to all devices both physical and virtual. Simeon's baseline requires that a device have Microsoft Defender Antimalware configured. Policy applies to all devices via the Azure AD group 'BUILTIN - Corporate Devices'. \n Learn More: https://docs.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started",
+  "description": "**What does this do?**\nDefines the required state that a device (both physical and virtual) must be in to be considered compliant before accessing an organization's data. The baseline requires that a device has Microsoft Defender Antimalware configured. This policy applies to all devices in the Azure AD group 'BUILTIN - Corporate Devices'.\n\n**Why should you use this?**\nThis provides an additional layer of data protection for your Intune-managed devices, both physical and virtual. \n\n**What is the end-user impact?**\nUsers may access an organization's data only if the device has Microsoft Defender Antimalware configured. \n\n**Learn more**\n[Use compliance policies to set rules for devices you manage with Intune](https://docs.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started)",
   "deviceThreatProtectionEnabled": false,
   "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
   "earlyLaunchAntiMalwareDriverEnabled": false,

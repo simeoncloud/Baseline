@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "What is it: Disables NLA as a requirement for RDP, required to support clients that do not support NLA. \n Simeon Notes: It is not currently possible to pre-authenticate when RDP'ing into an Azure AD joined Windows device unless the client is also joined to that Azure AD. Removing the requirement for NLA will not prevent clients from trying to negotiate NLA if they support it. That means that Windows clients that are not joined to the same Azure AD domain as the host must explicitly add 'enablecredsspsupport:i:0' in the RDP file when connecting to prevent attempts to pre-authenticate.",
+  "description": "**What does this do?**\nDisables Network Level Authentication as a requirement for Remote Desktop. This is required to support clients that do not support Network Level Authentication. \n\n**Why should you use this?**\nTo allow connections via Remote Desktop from non-Azure AD joined devices. \n\n**What is the end-user impact?**\nUsers may connect remotely via Remote Desktop.\n\n**Learn more**\nIt is not currently possible to use Network Level Authentication when using Remote Desktop to connect from a non-Azure AD joined device to an Azure AD joined device. Removing the requirement for Network Level Authentication will not prevent clients from trying to negotiate Network Level Authentication if they support it. That means that Windows clients that are not joined to the same Azure AD as the host must explicitly add 'enablecredsspsupport:i:0' in the .rdp file when connecting to prevent attempts to pre-authenticate.",
   "enforceSignatureCheck": false,
   "runAs32Bit": true,
   "runAsAccount": "system"

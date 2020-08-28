@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "What is it: Allows inbound connections for the Windows Firewall from the Domain and Private network profiles. Allows services like RDP, file sharing, etc. to work. \n Simeon Notes: This policy may show as not applicable on some Windows 10 devices, but it has in fact been applied successfully due to a bug in reporting.",
+  "description": "**What does this do?**\nAllows inbound connections for the Windows Firewall from the Domain and Private network profiles. This allows services such as Remote Desktop and file sharing to function. \n\n**Why should you use this?**\nIf you want to allow inbound network traffic by default on Domain and Private network profiles.\n\n**What is the end-user impact?**\n...\n\n**Learn more**\n[Internet Explorer security zones registry entries for advanced users](https://support.microsoft.com/en-us/help/182569/internet-explorer-security-zones-registry-entries-for-advanced-users) \n\n@metamenos should we include this? Jeff is wondering if we should exclude this because it shows that Windows defender firewall is not using the recommended settings to protect your computer",
   "firewallProfileDomain": {
     "firewallEnabled": "allowed",
     "inboundConnectionsRequired": true,

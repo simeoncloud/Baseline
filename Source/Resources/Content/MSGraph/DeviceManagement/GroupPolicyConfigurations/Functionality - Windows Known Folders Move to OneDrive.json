@@ -62,5 +62,5 @@
       ]
     }
   ],
-  "description": "What is it: Configures Windows Known Folders Move to OneDrive and disables the option to opt out the feature. \n Learn More: https://docs.microsoft.com/en-us/onedrive/redirect-known-folders"
+  "description": "**What does this do?**\nConfigures OneDrive's Known Folders Move, which moves the directories Desktop, Documents, and Pictures to OneDrive and disables the option to opt out of the feature.\n\n**Why should you use this?**\nWhen configured this way, OneDrive backs up user data and enables access from any device.\n\n**What is the end-user impact?**\nUsers may continue using familiar folders while being backed up. \n\n**Learn more**\n[Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders)"
 }

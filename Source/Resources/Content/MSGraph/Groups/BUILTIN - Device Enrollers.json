@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "What is it: A manual group used to determine users that have permissions to enroll a device that is not registered with Autopilot. \n Simeon Notes: This group will be required to enroll new devices into your environment that have not been pre-registered by uploading of the device hardware hash.",
+  "description": "**What does this do?**\nCreates a group of users that have permission to enroll a device that is not registered with Autopilot. If a user is not a member of this group, they cannot enroll a non-autopilot device.\n\n**Why should you use this?**\nIf you want less restrictions for certain users to be able to enroll new devices into your environment that have not been pre-registered by uploading the device hardware hash.\n\n**What is the end-user impact?**\nCertain users will be able to have devices enrolled that were not Autopiloted.\n\n**Learn more**\nN/A",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],

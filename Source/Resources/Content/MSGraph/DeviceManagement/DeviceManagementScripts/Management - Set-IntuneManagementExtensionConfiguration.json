@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "What is it: Configures the IntuneManagementExtension. Disables the recycleScripts setting so that the Content and Policies directories under 'C:\\Program Files (x86)\\Microsoft Intune Management Extension' do not get automatically cleaned out by the extension. \n Simeon Notes: This assists in troubleshooting any device enrollment errors.",
+  "description": "**What does this do?**\nThe baseline configures the IntuneManagementExtension to not delete installation logs from devices. \n\n**Why should you use this?**\nIf you want to have logs available to troubleshoot device management issues.\n\n**What is the end-user impact?**\nUsers will be able to view installation logs.\n\n**Learn more**\nN/A",
   "enforceSignatureCheck": false,
   "runAs32Bit": true,
   "runAsAccount": "system"

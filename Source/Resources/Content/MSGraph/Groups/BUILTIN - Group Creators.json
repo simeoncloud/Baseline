@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "What is it: A manual group used to determine users that have the access to create Microsoft 365 groups. \n Simeon Notes: Simeon's baseline includes the user 'BUILTIN – Global Admin' as a member of this group.",
+  "description": "**What does this do?**\nConfigures restrictions for creating Microsoft 365 groups. The baseline restricts users not in this group from creating Microsoft 365 groups.\n\n**Why should you use this?**\nIf you want to tighten security around Microsoft 365 group creation. \n\n**What is the end-user impact?**\nUsers who are not in this group will be restricted from creating Microsoft 365 groups. \n\n**Learn more**\n[Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide)",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],
