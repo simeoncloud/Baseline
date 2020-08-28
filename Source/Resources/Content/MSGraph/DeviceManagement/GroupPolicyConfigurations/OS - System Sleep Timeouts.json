@@ -27,5 +27,5 @@
       ]
     }
   ],
-  "description": "**What does this do?**\nSets the system sleep timeout for devices to 'Never' when plugged in.\n\n**Why should you use this?**\nIf you want to prevent desktop computers from going to sleep so you can connect remotely at any time.\n\n**What is the end-user impact?**\nUsers' devices will not go to sleep when plugged in, so users may connect remotely at any time.\n\n**Learn more**\nN/A\n"
+  "description": "**What does this do?**\nSets the system sleep timeout for devices to 'Never' when plugged in.\n**Why should you use this?**\nIf you want to prevent desktop computers from going to sleep so you can connect remotely at any time.\n**What is the end-user impact?**\nUsers' devices will not go to sleep when plugged in, so users may connect remotely at any time.\n**Learn more**\nN/A\n"
 }

@@ -8,7 +8,7 @@
     "termsOfUseUrl": "https://portal.manage.microsoft.com/TermsofUse.aspx"
   },
   "appId": "d4ebce55-015a-49b5-a083-c84d1797ae8c",
-  "description":"**What does this do?**\nEnables the legacy version of Microsoft Intune, which is required in some tenants for Intune management.\n\n**Why should you use this?**\nIf you have clients that require the legacy version of Microsoft Intune.\n\n**What is the end-user impact?**\nUsers with legacy versions of Intune will be able to use Intune. \n\n**Learn more**\n[Intune vs. Intune Enrollment](https://github.com/MicrosoftDocs/azure-docs/issues/27017)",
+  "description":"**What does this do?**\nEnables the legacy version of Microsoft Intune, which is required in some tenants for Intune management.\n**Why should you use this?**\nIf you have clients that require the legacy version of Microsoft Intune.\n**What is the end-user impact?**\nUsers with legacy versions of Intune will be able to use Intune. \n**Learn more**\n[Intune vs. Intune Enrollment](https://github.com/MicrosoftDocs/azure-docs/issues/27017)",
   "isOnPrem": false,
   "logoUrl": null,
   "mamAppliesTo": 0,

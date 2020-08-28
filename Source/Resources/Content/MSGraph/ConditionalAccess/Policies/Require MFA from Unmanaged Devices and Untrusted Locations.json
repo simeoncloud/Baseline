@@ -44,7 +44,7 @@
       ]
     }
   },
-  "description": "**What does this do?**\nRequires MFA when authenticating from a non-compliant device that is off-network. The baseline requires MFA from all users except those with the Azure AD role 'Directory Synchronization Accounts.'\n\n**Why should you use this?**\nThis further protects your data by ensuring that a device connecting to your network is compliant. \n\n**What is the end-user impact?**\nUsers must authenticate using MFA when accessing Microsoft 365 data from a non-compliant, off-network device. \n\n**Learn more**\n[How to: Require MFA for access from untrusted networks with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/untrusted-networks)",
+  "description": "**What does this do?**\nRequires MFA when authenticating from a non-compliant device that is off-network. The baseline requires MFA from all users except those with the Azure AD role 'Directory Synchronization Accounts.'\n**Why should you use this?**\nThis further protects your data by ensuring that a device connecting to your network is compliant. \n**What is the end-user impact?**\nUsers must authenticate using MFA when accessing Microsoft 365 data from a non-compliant, off-network device. \n**Learn more**\n[How to: Require MFA for access from untrusted networks with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/untrusted-networks)",
   "grantControls": {
     "builtInControls": [
       "mfa"

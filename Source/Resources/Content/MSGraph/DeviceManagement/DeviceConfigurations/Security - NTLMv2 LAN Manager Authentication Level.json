@@ -8,6 +8,6 @@
       }
     }
   ],
-  "description": "**What does this do?**\nConfigures the Windows LAN Manager Authentication Level to require NTLMv2. \n\n**Why should you use this?**\nThis is recommended by Microsoft to prevent the use of insecure protocols.  \n\n**What is the end-user impact?**\nWindows file sharing will not work with any devices that do not support NTLMv2.\n\n**Learn more**\n[Network security: LAN Manager authentication level](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level)",
+  "description": "**What does this do?**\nConfigures the Windows LAN Manager Authentication Level to require NTLMv2. \n**Why should you use this?**\nThis is recommended by Microsoft to prevent the use of insecure protocols.  \n**What is the end-user impact?**\nWindows file sharing will not work with any devices that do not support NTLMv2.\n**Learn more**\n[Network security: LAN Manager authentication level](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level)",
   "lanManagerAuthenticationLevel": "lmNtlmV2AndNotLm"
 }

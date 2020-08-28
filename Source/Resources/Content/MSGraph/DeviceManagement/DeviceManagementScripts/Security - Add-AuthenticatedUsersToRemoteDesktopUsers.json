@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "**What does this do?**\nAdds the Authenticated Users group to the Remote Desktop Users group so any authenticated user can connect via Remote Desktop. A separate configuration (OS - RDP Enabled) allows users in the 'Remote Desktop Users' group to access devices remotely. \n\n**Why should you use this?**\nIf you want to allow users to connect remotely via Remote Desktop.\n\n**What is the end-user impact?**\nUsers may connect remotely via Remote Desktop.\n\n**Learn more**\nN/A",
+  "description": "**What does this do?**\nAdds the Authenticated Users group to the Remote Desktop Users group so any authenticated user can connect via Remote Desktop. A separate configuration (OS - RDP Enabled) allows users in the 'Remote Desktop Users' group to access devices remotely. \n**Why should you use this?**\nIf you want to allow users to connect remotely via Remote Desktop.\n**What is the end-user impact?**\nUsers may connect remotely via Remote Desktop.\n**Learn more**\nN/A",
   "enforceSignatureCheck": false,
   "runAs32Bit": true,
   "runAsAccount": "system"

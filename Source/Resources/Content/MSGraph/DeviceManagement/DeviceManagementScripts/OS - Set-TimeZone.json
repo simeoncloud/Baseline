@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "**What does this do?**\nConfigures Windows to set time zone automatically based on location. Also sets the default computer time zone based on public IP address, as some computers have issues using the Auto Time Zone Updater because of ISP or network restrictions.\n\n**Why should you use this?**\nIf you want to automatically set the time zone based on location.\n\n**What is the end-user impact?**\nThe time zone will be set automatically based on the device location.\n\n**Learn more**\nN/A",
+  "description": "**What does this do?**\nConfigures Windows to set time zone automatically based on location. Also sets the default computer time zone based on public IP address, as some computers have issues using the Auto Time Zone Updater because of ISP or network restrictions.\n**Why should you use this?**\nIf you want to automatically set the time zone based on location.\n**What is the end-user impact?**\nThe time zone will be set automatically based on the device location.\n**Learn more**\nN/A",
   "enforceSignatureCheck": false,
   "runAs32Bit": false,
   "runAsAccount": "system"

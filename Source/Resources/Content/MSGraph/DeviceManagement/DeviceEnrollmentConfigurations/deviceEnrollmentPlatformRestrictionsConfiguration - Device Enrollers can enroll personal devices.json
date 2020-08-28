@@ -18,7 +18,7 @@
       }
     }
   ],
-  "description": "**What does this do?**\nAllows for specifying users that can enroll devices to Intune. The baseline allows users in the Azure AD group 'Baseline – Device Enrollers' to enroll any Windows device, and allows all other users to only enroll devices that have been previously registered with Autopilot. This limit can be overridden by other configurations with a higher priority.\n\n**Why should you use this?**\nIf you want to restrict general users from enrolling personal Windows devices without Autopilot.\n\n**What is the end-user impact?**\nOnly certain users will be able to enroll devices to Intune.\n\n**Learn more**\n[Set enrollment restrictions](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set)",
+  "description": "**What does this do?**\nAllows for specifying users that can enroll devices to Intune. The baseline allows users in the Azure AD group 'Baseline – Device Enrollers' to enroll any Windows device, and allows all other users to only enroll devices that have been previously registered with Autopilot. This limit can be overridden by other configurations with a higher priority.\n**Why should you use this?**\nIf you want to restrict general users from enrolling personal Windows devices without Autopilot.\n**What is the end-user impact?**\nOnly certain users will be able to enroll devices to Intune.\n**Learn more**\n[Set enrollment restrictions](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set)",
   "iosRestriction": {
     "blockedManufacturers": [],
     "personalDeviceEnrollmentBlocked": true,
