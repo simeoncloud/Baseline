@@ -1,6 +1,6 @@
 {
   "adminConsentedForUsersIntoTenantIds": [],
-  "description": "**What does this do?**\n\nAllows Azure updates to be applied first to a specified group of users before being applied to all users in the tenant. \n\n**Why should you use this?**\n\nIf you want to test Azure updates with a subset of users in your environment. The specified users will receive Azure updates before other users.\n\n**What is the end-user impact?**\n\nSpecified users will be able to test Azure updates before other users.\n\n**Learn more**\n\nN/A",
+  "description": "**What does this do?**\nDefines settings for permissions that guests users have in the tenant and to which external tenants guest invitations may be sent. The baseline preserves the Microsoft default settings, which allow invitations to be sent to any domain and restrict the permissions of guest users. \n\n**Why should you use this?**\nIf you want to apply Microsoft's default security settings for guest users, which increases security.. \n\n**What is the end-user impact?**\nAuthorized users may send invitations to any domain, but guest user permissions are restricted. \n\n**Learn more**\n[Configure B2B external collaboration settings](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations#to-configure-external-collaboration-settings)",
   "hasListEntries": false,
   "isAllowlist": true,
   "noAADConsentForUsersFromTenantsIds": [],
