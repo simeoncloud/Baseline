@@ -1,0 +1,66 @@
+{
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices"
+      }
+    }
+  ],
+  "definitionValues": [
+    {
+      "configurationType": "policy",
+      "definition": {
+        "categoryPath": "\\OneDrive",
+        "classType": "machine",
+        "displayName": "Prevent users from redirecting their Windows known folders to their PC"
+      },
+      "enabled": true,
+      "presentationValues": []
+    },
+    {
+      "configurationType": "policy",
+      "definition": {
+        "categoryPath": "\\OneDrive",
+        "classType": "machine",
+        "displayName": "Prompt users to move Windows known folders to OneDrive "
+      },
+      "enabled": true,
+      "presentationValues": [
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "presentation": {
+            "label": "Tenant ID:"
+          },
+          "value": { "$ref": "AadAuth:TenantId" }
+        }
+      ]
+    },
+    {
+      "configurationType": "policy",
+      "definition": {
+        "categoryPath": "\\OneDrive",
+        "classType": "machine",
+        "displayName": "Silently move Windows known folders to OneDrive"
+      },
+      "enabled": true,
+      "presentationValues": [
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "presentation": {
+            "label": "Show notification to users after folders have been redirected:"
+          },
+          "value": "1"
+        },
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "presentation": {
+            "label": "Tenant ID:"
+          },
+          "value": { "$ref": "AadAuth:TenantId" }
+        }
+      ]
+    }
+  ],
+  "description": "**What does this do?**\n\nConfigures OneDrive's Known Folders Move, which moves the directories Desktop, Documents, and Pictures to OneDrive and disables the option to opt out of the feature.\n\n**Why should you use this?**\n\nWhen configured this way, OneDrive backs up user data and enables access from any device.\n\n**What is the end-user impact?**\n\nUsers may continue using familiar folders while being backed up. \n\n**Learn more**\n\n[Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders)"
+}

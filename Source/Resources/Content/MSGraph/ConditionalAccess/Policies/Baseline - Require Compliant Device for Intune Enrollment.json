@@ -1,0 +1,62 @@
+{
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "d4ebce55-015a-49b5-a083-c84d1797ae8c"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "browser",
+      "mobileAppsAndDesktopClients",
+      "other"
+    ],
+    "devices": {
+      "excludeDeviceStates": [],
+      "includeDeviceStates": [
+        "All"
+      ]
+    },
+    "locations": {
+      "excludeLocations": [],
+      "includeLocations": [
+        "All"
+      ]
+    },
+    "platforms": {
+      "excludePlatforms": [],
+      "includePlatforms": [
+        "windows"
+      ]
+    },
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [
+        "Baseline - Device Enrollers",
+        "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+      ],
+      "excludeRoles": [
+        "Company Administrator",
+        "Directory Synchronization Accounts"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "description": "**What does this do?**\n\nRequires that a device be registered in Autopilot by uploading a hardware hash before it can be enrolled in Intune. To bypass this requirement, a user must be a member of the Azure AD group 'Baseline - Device Enrollers.'\n\n**Why should you use this?**\n\nThis increases security by preventing unauthorized devices from being enrolled into your tenant. \n\n**What is the end-user impact?**\n\nIT must register devices in Autopilot before a general user can enroll it.\n\n**Learn more**\n\nN/A",
+  "grantControls": {
+    "builtInControls": [
+      "compliantDevice"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

@@ -1,0 +1,45 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "activeFirewallRequired": false,
+  "antiSpywareRequired": false,
+  "antivirusRequired": false,
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices"
+      }
+    }
+  ],
+  "bitLockerEnabled": false,
+  "codeIntegrityEnabled": false,
+  "configurationManagerComplianceRequired": false,
+  "defenderEnabled": true,
+  "description": "**What does this do?**\n\nDefines the required state that a device (both physical and virtual) must be in to be considered compliant before accessing an organization's data. The baseline requires that a device has Microsoft Defender Antimalware configured. This policy applies to all devices in the Azure AD group 'Baseline - Corporate Devices'.\n\n**Why should you use this?**\n\nThis provides an additional layer of data protection for your Intune-managed devices, both physical and virtual. \n\n**What is the end-user impact?**\n\nUsers may access an organization's data only if the device has Microsoft Defender Antimalware configured. \n\n**Learn more**\n\n[Use compliance policies to set rules for devices you manage with Intune](https://docs.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started)",
+  "deviceThreatProtectionEnabled": false,
+  "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+  "earlyLaunchAntiMalwareDriverEnabled": false,
+  "passwordBlockSimple": false,
+  "passwordRequired": false,
+  "passwordRequiredToUnlockFromIdle": false,
+  "passwordRequiredType": "deviceDefault",
+  "requireHealthyDeviceReport": false,
+  "rtpEnabled": false,
+  "scheduledActionsForRule": [
+    {
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 24,
+          "notificationMessageCCList": [],
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ],
+  "secureBootEnabled": false,
+  "signatureOutOfDate": false,
+  "storageRequireEncryption": false,
+  "tpmRequired": false,
+  "validOperatingSystemBuildRanges": []
+}

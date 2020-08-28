@@ -1,0 +1,38 @@
+{
+  "description":"**What does this do?**\n\nConfigures logging to capture Intune events, which can then be analyzed using Log Analytics Workspaces. The baseline captures device audit logs, compliance, and operational logs. Logs can be viewed in the Analytics Workspace named 'tenant Name-M365logging' and are stored in the Azure Storage Account named 'tenantNameM365Logging.'\n\n**Why should you use this?**\n\nYou can set up alerts for when an Intune-managed device is marked non-compliant or when a new device is enrolled into the environment. This improves security by providing you with the data needed to monitor Intune events within your tenant. \n\n**What is the end-user impact?**\n\nN/A\n\n**Learn more**\n\n[Microsoft Intune and Azure Log Analytics](https://techcommunity.microsoft.com/t5/device-management-in-microsoft/microsoft-intune-and-azure-log-analytics/ba-p/463145)",
+  "properties": {
+    "eventHubAuthorizationRuleId": "${ResourceContext:LogEventHubAuthorizationRuleId}",
+    "eventHubName": "hub",
+    "logAnalyticsDestinationType": null,
+    "logs": [
+      {
+        "category": "AuditLogs",
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
+        "category": "DeviceComplianceOrg",
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
+        "category": "OperationalLogs",
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      }
+    ],
+    "metrics": [],
+    "serviceBusRuleId": null,
+    "storageAccountId": "${ResourceContext:LogStorageAccountId}",
+    "workspaceId": "${ResourceContext:LogAnalyticsWorkspaceId}"
+  }
+}

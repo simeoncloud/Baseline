@@ -1,0 +1,19 @@
+{
+  "assignedLicenses": {
+    "$ref": "ResourceContext:M365Licenses"
+  },
+  "description": "**What does this do?**\n\nCreates a manually assigned group to which Microsoft 365 licenses are assigned and to which configurations can be deployed before other rings of users. The baseline does not assign this group to any configurations. It is provided as a convenience.\n\n**Why should you use this?**\n\nIf you want to test configuration changes using release rings containing a subset of users before deploying to all users. \n\n**What is the end-user impact?**\n\nUsers of this group may receive and test configuration changes before others users. \n\n**Learn more**\n\nN/A",
+  "groupTypes": [],
+  "mailEnabled": false,
+  "memberOf": [],
+  "members": [
+    {
+      "@odata.type": "#microsoft.graph.group",
+      "displayName": "Baseline - Microsoft 365 Users - Insiders"
+    }
+  ],
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true,
+  "visibility": "Public"
+}

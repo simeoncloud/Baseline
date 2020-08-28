@@ -1,0 +1,95 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "description":"**What does this do?**\n\nCreates an Azure Event Hub, Azure Log Analytics Workspace, and Azure Storage account to capture Azure and Intune logs. The baseline Workspace is named 'tenant Name-M365logging.'\n\n**Why should you use this?**\n\nThis provides the essential resources required to capture logs, analyze trends, and be alerted of suspicious events.\n\n**What is the end-user impact?**\n\nN/A\n\n**Learn more**\n\n[Designing your Azure Monitor Logs deployment](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/design-logs-deployment)",
+  "parameters": {
+    "eventHubMessageRetentionInDays": {
+      "defaultValue": 1,
+      "type": "Int"
+    },
+    "eventHubSku": {
+      "allowedValues": [
+        "Basic",
+        "Standard"
+      ],
+      "defaultValue": "Basic",
+      "metadata": {
+        "description": "Specifies the messaging tier for service bus namespace."
+      },
+      "type": "String"
+    },
+    "logAnalyticsWorkspaceSku": {
+      "allowedValues": [
+        "PerGB2018",
+        "PerNode",
+        "Standalone"
+      ],
+      "defaultValue": "PerGB2018",
+      "metadata": {
+        "description": "Specifies the service tier of the workspace: Standalone, PerNode, Per-GB"
+      },
+      "type": "String"
+    }
+  },
+  "resources": [
+    {
+      "apiVersion": "2015-11-01-preview",
+      "location": "[resourceGroup().location]",
+      "name": "[replace(resourceGroup().name,'Baseline - ','')]",
+      "properties": {
+        "features": {
+          "searchVersion": 1
+        },
+        "sku": {
+          "Name": "[parameters('logAnalyticsWorkspaceSku')]"
+        }
+      },
+      "type": "Microsoft.OperationalInsights/workspaces"
+    },
+    {
+      "apiVersion": "2017-04-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.EventHub/namespaces', replace(resourceGroup().name,'Baseline - ',''))]"
+      ],
+      "location": "[resourceGroup().location]",
+      "name": "[concat(replace(resourceGroup().name,'Baseline - ',''), '/hub')]",
+      "properties": {
+        "messageRetentionInDays": "[parameters('eventHubMessageRetentionInDays')]",
+        "partitionCount": 1
+      },
+      "type": "Microsoft.EventHub/namespaces/eventhubs"
+    },
+    {
+      "apiVersion": "2017-04-01",
+      "location": "[resourceGroup().location]",
+      "name": "[replace(resourceGroup().name,'Baseline - ','')]",
+      "properties": {
+        "isAutoInflateEnabled": false,
+        "maximumThroughputUnits": 0
+      },
+      "sku": {
+        "capacity": 1,
+        "name": "[parameters('eventHubSku')]",
+        "tier": "[parameters('eventHubSku')]"
+      },
+      "type": "Microsoft.EventHub/namespaces"
+    },
+    {
+      "apiVersion": "2019-06-01",
+      "dependsOn": [],
+      "kind": "StorageV2",
+      "location": "[resourceGroup().location]",
+      "name": "[replace(replace(resourceGroup().name,'Baseline - ',''),'-','')]",
+      "properties": {
+        "accessTier": "Hot",
+        "largeFileSharesState": "Disabled",
+        "supportsHttpsTrafficOnly": "true"
+      },
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "tags": {},
+      "type": "Microsoft.Storage/storageAccounts"
+    }
+  ]
+}

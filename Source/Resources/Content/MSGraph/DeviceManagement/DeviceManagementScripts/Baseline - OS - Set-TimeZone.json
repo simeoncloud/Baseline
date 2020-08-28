@@ -1,0 +1,14 @@
+{
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices"
+      }
+    }
+  ],
+  "description": "**What does this do?**\n\nConfigures Windows to set time zone automatically based on location. Also sets the default computer time zone based on public IP address, as some computers have issues using the Auto Time Zone Updater because of ISP or network restrictions.\n\n**Why should you use this?**\n\nIf you want to automatically set the time zone based on location.\n\n**What is the end-user impact?**\n\nThe time zone will be set automatically based on the device location.\n\n**Learn more**\n\nN/A",
+  "enforceSignatureCheck": false,
+  "runAs32Bit": false,
+  "runAsAccount": "system"
+}

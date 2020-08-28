@@ -1,6 +1,7 @@
 {
   "convergedUXV2FeatureValue": 2,
   "convergedUXV2GroupId": null,
+  "description":"**What does this do?**\n\nAllows Azure updates to be applied first to a specified group of users before being applied to all users in the tenant. \n\n**Why should you use this?**\n\nIf you want to test Azure updates with a subset of users in your environment. The specified users will receive Azure updates before other users.\n\n**What is the end-user impact?**\n\nSpecified users will be able to test Azure updates before other users.\n\n**Learn more**\n\nN/A",
   "myAppsFeatureValue": 2,
   "myAppsGroupId": null,
   "myGroupsFeatureValue": 0,

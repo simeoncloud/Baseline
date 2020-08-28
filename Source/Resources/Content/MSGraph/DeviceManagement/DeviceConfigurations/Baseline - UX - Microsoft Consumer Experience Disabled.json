@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices"
+      }
+    }
+  ],
+  "description": "**What does this do?**\n\nDisables Microsoft Consumer Experiences such as Start suggestions, Membership notifications, Post-OOBE app install and redirect tiles.\n\n**Why should you use this?**\n\nIf you want to improve the user experience by eliminating non value-add notifications and suggestions. \n\n**What is the end-user impact?**\n\nUsers will not see these additional pop-ups, suggestions and notifications.\n\n**Learn more**\n\n[Policy CSP - Experience](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsconsumerfeatures)",
+  "omaSettings": [
+    {
+      "@odata.type": "#microsoft.graph.omaSettingInteger",
+      "displayName": "AllowWindowsConsumerFeatures",
+      "isReadOnly": false,
+      "omaUri": "./Vendor/MSFT/Policy/Config/Experience/AllowWindowsConsumerFeatures",
+      "value": 0
+    }
+  ]
+}

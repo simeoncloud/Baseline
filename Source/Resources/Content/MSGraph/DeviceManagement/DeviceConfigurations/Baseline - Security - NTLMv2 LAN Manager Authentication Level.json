@@ -1,0 +1,13 @@
+{
+  "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices"
+      }
+    }
+  ],
+  "description": "**What does this do?**\n\nConfigures the Windows LAN Manager Authentication Level to require NTLMv2. \n\n**Why should you use this?**\n\nThis is recommended by Microsoft to prevent the use of insecure protocols.  \n\n**What is the end-user impact?**\n\nWindows file sharing will not work with any devices that do not support NTLMv2.\n\n**Learn more**\n\n[Network security: LAN Manager authentication level](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level)",
+  "lanManagerAuthenticationLevel": "lmNtlmV2AndNotLm"
+}

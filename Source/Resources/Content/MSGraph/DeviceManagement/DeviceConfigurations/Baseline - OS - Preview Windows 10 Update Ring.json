@@ -1,0 +1,38 @@
+{
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices - Insiders"
+      }
+    },
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices - Preview"
+      }
+    }
+  ],
+  "automaticUpdateMode": "autoInstallAndRebootAtMaintenanceTime",
+  "businessReadyUpdatesOnly": "businessReadyOnly",
+  "deadlineForFeatureUpdatesInDays": 5,
+  "deadlineForQualityUpdatesInDays": 3,
+  "deadlineGracePeriodInDays": 1,
+  "description": "**What does this do?**\n\nCreates a Windows Update configuration for Intune-managed devices in the 'Preview' ring, which receive updates after 'Insiders' but before devices with the default policy. The baseline delays feature and quality updates to the 'Preview' group for 7 days after released by Microsoft. Once the deferral period has expired for a device, users have 3 days to restart (if required). Unattended updates will only be applied outside working hours of 5am to 10pm. Applies to users in the Azure AD group 'Baseline - Corporate Devices – Preview'. \n\n**Why should you use this?**\n\nA Windows update ring is the best way to ensure Windows updates are compatible in your environment by testing the update in rings of users.. \n\n**What is the end-user impact?**\n\nUsers in the 'Preview' ring will receive updates 7 days after being released by Microsoft and after Insiders, but before devices with the default policy. \n\n**Learn more**\n\n[Tactical considerations for creating Windows deployment rings](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979)",
+  "engagedRestartDeadlineInDays": null,
+  "engagedRestartSnoozeScheduleInDays": null,
+  "engagedRestartTransitionScheduleInDays": null,
+  "featureUpdatesDeferralPeriodInDays": 7,
+  "featureUpdatesRollbackWindowInDays": 60,
+  "installationSchedule": {
+    "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall",
+    "activeHoursEnd": "22:00:00",
+    "activeHoursStart": "05:00:00"
+  },
+  "microsoftUpdateServiceAllowed": true,
+  "qualityUpdatesDeferralPeriodInDays": 7,
+  "scheduleImminentRestartWarningInMinutes": 60,
+  "scheduleRestartWarningInHours": 8,
+  "updateWeeks": "everyWeek"
+}

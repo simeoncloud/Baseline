@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "description":"**What does this do?**\n\nCreates an Azure Monitor Action group to notify specified users of an alert. The baseline includes alerting the email address 'alerts@yourtenantname.com.' \n\n**Why should you use this?**\n\nThis keeps your tenant secure by immediately notifying you of suspicious activity.\n\n**What is the end-user impact?**\n\nN/A\n\n**Learn more**\n\n[Create and manage action groups in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups)",
+  "parameters": {
+    "actionGroupName": {
+      "defaultValue": "Alerts Action Group",
+      "metadata": {
+        "description": "Unique name (within the Resource Group) for the Action group."
+      },
+      "type": "String"
+    },
+    "actionGroupShortName": {
+      "defaultValue": "alerts",
+      "metadata": {
+        "description": "Short name (maximum 12 characters) for the Action group."
+      },
+      "type": "String"
+    },
+    "emailReceiverAddress": {
+      "defaultValue": "alerts@${ResourceContext:TenantDomainName}",
+      "metadata": {
+        "description": "Email receiver account Address."
+      },
+      "type": "String"
+    },
+    "emailReceiverName": {
+      "defaultValue": "alerts",
+      "metadata": {
+        "description": "Email receiver account Name."
+      },
+      "type": "String"
+    },
+    "useCommonAlertSchema": {
+      "defaultValue": true,
+      "metadata": {
+        "description": "Indicates whether to use common alert schema."
+      },
+      "type": "Bool"
+    }
+  },
+  "resources": [
+    {
+      "apiVersion": "2018-03-01",
+      "location": "Global",
+      "name": "[parameters('actionGroupName')]",
+      "properties": {
+        "emailReceivers": [
+          {
+            "emailAddress": "[parameters('emailReceiverAddress')]",
+            "name": "[parameters('emailReceiverName')]",
+            "useCommonAlertSchema": "[parameters('useCommonAlertSchema')]"
+          }
+        ],
+        "enabled": true,
+        "groupShortName": "[parameters('actionGroupShortName')]"
+      },
+      "type": "Microsoft.Insights/actionGroups"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "assignedLicenses": [],
+  "description": "**What does this do?**\n\nCreates a group that includes all corporate devices regardless if they are virtual, physical or virtual desktops.  \n\n**Why should you use this?**\n\nThis group can be used to assign applications and policies that should apply to all devices.\n\n**What is the end-user impact?**\n\nUser devices in this group will be assigned all applications and policies. \n\n**Learn more**\n\nN/A",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "mailEnabled": false,
+  "membershipRule": "((device.devicePhysicalIDs -any (_ -contains \"[ZTDId]\")) -or (device.deviceOwnership -eq \"Company\"))",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

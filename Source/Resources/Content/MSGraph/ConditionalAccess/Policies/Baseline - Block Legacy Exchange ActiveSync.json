@@ -1,0 +1,45 @@
+{
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "00000002-0000-0ff1-ce00-000000000000"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "exchangeActiveSync"
+    ],
+    "platforms": {
+      "excludePlatforms": [],
+      "includePlatforms": [
+        "android",
+        "iOS"
+      ]
+    },
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [
+        "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+      ],
+      "excludeRoles": [],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "description": "**What does this do?**\n\nBlocks Exchange ActiveSync, which disables native iOS and Android mail clients. The baseline blocks Exchange Active sync for all users except those in the Azure AD group 'Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.'\n\n**Why should you use this?**\n\nIt is recommended to disable native mail applications since they do not provide the same level of security and functionality as Microsoft Outlook.\n\n**What is the end-user impact?**\n\nUsers cannot use native mail applications except if specifically allowed.\n\n**Learn more**\n\n[Policy recommendations for securing email](https://docs.microsoft.com/en-us/microsoft-365/enterprise/secure-email-recommended-policies?view=o365-worldwide)",
+  "grantControls": {
+    "builtInControls": [
+      "approvedApplication"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

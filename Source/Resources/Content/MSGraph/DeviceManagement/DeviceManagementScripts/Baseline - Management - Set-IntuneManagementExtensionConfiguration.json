@@ -1,0 +1,14 @@
+{
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices"
+      }
+    }
+  ],
+  "description": "**What does this do?**\n\nThe baseline configures the IntuneManagementExtension to not delete installation logs from devices. \n\n**Why should you use this?**\n\nIf you want to have logs available to troubleshoot device management issues.\n\n**What is the end-user impact?**\n\nUsers will be able to view installation logs.\n\n**Learn more**\n\nN/A",
+  "enforceSignatureCheck": false,
+  "runAs32Bit": true,
+  "runAsAccount": "system"
+}

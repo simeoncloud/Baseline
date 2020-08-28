@@ -1,0 +1,12 @@
+{
+  "assignedLicenses": [],
+  "description": "**What does this do?**\n\nCreates a dynamic device group that is used for assigning self-deploying Intune Autopilot profiles to devices. This group contains corporate physical devices with the tag 'Autopilot-SelfDeploying.' Devices can be tagged from the Intune portal or via an automated hardware hash upload. To tag in Intune go to Devices > Windows Enrollment > Devices, then select the required device and add to the 'Group Tag' field to tag via automated hardware hash included with column OrderId. \n\n**Why should you use this?**\n\nIf you want devices to be assigned the self-deployment Autopilot profile for device enrollment.\n\n**What is the end-user impact?**\n\nA device can be enrolled to Intune without end-user input.\n\n**Learn more**\n\n[Windows Autopilot Self-Deploying mode](https://docs.microsoft.com/en-us/mem/autopilot/self-deploying)",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "mailEnabled": false,
+  "membershipRule": "(device.devicePhysicalIDs -any (_ -eq \"[OrderID]:Autopilot-SelfDeploying\")) -and ((device.devicePhysicalIDs -any (_ -contains \"[ZTDId]\")) -or (device.deviceOwnership -eq \"Company\"))",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

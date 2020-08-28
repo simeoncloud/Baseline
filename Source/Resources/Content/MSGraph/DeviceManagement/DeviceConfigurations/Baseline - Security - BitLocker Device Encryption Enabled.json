@@ -1,0 +1,50 @@
+{
+  "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "Baseline - Corporate Devices - Physical"
+      }
+    }
+  ],
+  "bitLockerAllowStandardUserEncryption": true,
+  "bitLockerDisableWarningForOtherDiskEncryption": true,
+  "bitLockerEnableStorageCardEncryptionOnMobile": true,
+  "bitLockerEncryptDevice": true,
+  "bitLockerFixedDrivePolicy": {
+    "recoveryOptions": {
+      "blockDataRecoveryAgent": false,
+      "enableBitLockerAfterRecoveryInformationToStore": true,
+      "enableRecoveryInformationSaveToStore": true,
+      "hideRecoveryOptions": true,
+      "recoveryInformationToStore": "passwordAndKey",
+      "recoveryKeyUsage": "allowed",
+      "recoveryPasswordUsage": "allowed"
+    },
+    "requireEncryptionForWriteAccess": true
+  },
+  "bitLockerRemovableDrivePolicy": {
+    "blockCrossOrganizationWriteAccess": false,
+    "requireEncryptionForWriteAccess": true
+  },
+  "bitLockerSystemDrivePolicy": {
+    "prebootRecoveryEnableMessageAndUrl": true,
+    "recoveryOptions": {
+      "blockDataRecoveryAgent": false,
+      "enableBitLockerAfterRecoveryInformationToStore": true,
+      "enableRecoveryInformationSaveToStore": true,
+      "hideRecoveryOptions": true,
+      "recoveryInformationToStore": "passwordAndKey",
+      "recoveryKeyUsage": "allowed",
+      "recoveryPasswordUsage": "allowed"
+    },
+    "startupAuthenticationBlockWithoutTpmChip": true,
+    "startupAuthenticationRequired": true,
+    "startupAuthenticationTpmKeyUsage": "blocked",
+    "startupAuthenticationTpmPinAndKeyUsage": "blocked",
+    "startupAuthenticationTpmPinUsage": "allowed",
+    "startupAuthenticationTpmUsage": "allowed"
+  },
+  "description": "**What does this do?**\n\nEnables and configures BitLocker device encryption for physical devices. BitLocker requires a machine to have TPM 1.2 or later, which excludes older hardware and virtual machines. \n\n**Why should you use this?**\n\nDevice encryption is essential to protecting data on physical devices.\n\n**What is the end-user impact?**\n\nData on users' hard drives are encrypted.\n\n**Learn more**\n\n[Overview of BitLocker Device Encryption in Windows 10](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)"
+}
