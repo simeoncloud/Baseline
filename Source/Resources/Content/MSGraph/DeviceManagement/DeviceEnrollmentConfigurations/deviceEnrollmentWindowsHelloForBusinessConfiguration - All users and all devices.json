@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "**What does this do?**\n\nThe baseline disables Windows Hello for Business. \n\n**Why should you use this?**\n\nIf you do not want users to be prompted to setup Windows Hello the first time they log into a device.\n\n**What is the end-user impact?**\n\nUsers will not be prompted to set up Windows Hello when they log in to a device for the first time.\n\n**Learn more**\n\n[Windows Hello for Business](https://docs.microsoft.com/en-us/mem/intune/protect/identity-protection-windows-settings)",
+  "description": "#### **What does this do?**\n\nThe baseline disables Windows Hello for Business. \n\n#### **Why should you use this?**\n\nIf you do not want users to be prompted to setup Windows Hello the first time they log into a device.\n\n#### **What is the end-user impact?**\n\nUsers will not be prompted to set up Windows Hello when they log in to a device for the first time.\n\n#### **Learn more**\n\n[Windows Hello for Business](https://docs.microsoft.com/en-us/mem/intune/protect/identity-protection-windows-settings)",
   "enhancedBiometricsState": "enabled",
   "pinExpirationInDays": 41,
   "pinLowercaseCharactersUsage": "disallowed",

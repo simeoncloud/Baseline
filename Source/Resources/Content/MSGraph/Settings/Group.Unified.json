@@ -1,5 +1,5 @@
 {
-  "description":"**What does this do?**\n\nConfigures restrictions for creating Azure AD Groups. The baseline restricts users not in 'Group Creators' from creating groups. \n\n**Why should you use this?**\n\nIf you want to tighten security around group creation, including naming conventions. \n\n**What is the end-user impact?**\n\nUser who are not in 'Group Creators' will be restricted from creating Azure AD groups. \n\n**Learn more**\n\n[Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide)",
+  "description":"#### **What does this do?**\n\nConfigures restrictions for creating Azure AD Groups. The baseline restricts users not in 'Group Creators' from creating groups. \n\n#### **Why should you use this?**\n\nIf you want to tighten security around group creation, including naming conventions. \n\n#### **What is the end-user impact?**\n\nUser who are not in 'Group Creators' will be restricted from creating Azure AD groups. \n\n#### **Learn more**\n\n[Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide)",
   "templateId": "62375ab9-6b52-47ed-826b-58e47e0e304b",
   "values": [
     {

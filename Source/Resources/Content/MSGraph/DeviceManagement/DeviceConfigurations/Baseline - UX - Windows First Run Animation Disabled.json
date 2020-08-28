@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "**What does this do?**\n\nDisables Windows First Run animation, which displays animation and marketing when a user first signs into Windows. \n\n**Why should you use this?**\n\nIf you want to eliminate marketing materials and non-essential animation during initial sign-in.\n\n**What is the end-user impact?**\n\nUsers may have an improved experience when opting out of First Run Animation. \n\n**Learn more**\n\n[Policy CSP - WindowsLogon](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-enablefirstlogonanimation)",
+  "description": "#### **What does this do?**\n\nDisables Windows First Run animation, which displays animation and marketing when a user first signs into Windows. \n\n#### **Why should you use this?**\n\nIf you want to eliminate marketing materials and non-essential animation during initial sign-in.\n\n#### **What is the end-user impact?**\n\nUsers may have an improved experience when opting out of First Run Animation. \n\n#### **Learn more**\n\n[Policy CSP - WindowsLogon](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-enablefirstlogonanimation)",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingInteger",

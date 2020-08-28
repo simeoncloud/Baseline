@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "**What does this do?**\n\nDisables Windows Spotlight, which displays tips and third party marketing materials on users' lock screen. \n\n**Why should you use this?**\n\nIf you want to eliminate marketing materials being displayed to users. \n\n**What is the end-user impact?**\n\nUsers will not receive third party marketing materials on the lock screen.\n\n**Learn more**\n\n[Configure Windows Spotlight on the lock screen](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight)",
+  "description": "#### **What does this do?**\n\nDisables Windows Spotlight, which displays tips and third party marketing materials on users' lock screen. \n\n#### **Why should you use this?**\n\nIf you want to eliminate marketing materials being displayed to users. \n\n#### **What is the end-user impact?**\n\nUsers will not receive third party marketing materials on the lock screen.\n\n#### **Learn more**\n\n[Configure Windows Spotlight on the lock screen](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight)",
   "windowsSpotlightBlocked": true,
   "windowsSpotlightBlockOnActionCenter": true,
   "windowsSpotlightBlockTailoredExperiences": true,

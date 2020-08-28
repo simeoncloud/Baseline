@@ -91,5 +91,5 @@
       "presentationValues": []
     }
   ],
-  "description": "**What does this do?**\n\nConfigures Microsoft Edge for all devices to automatically sign in to the browser and synchronize history and passwords. Also sets Google as the default search engine. \n\n**Why should you use this?**\n\nIf you want to create an optimal user experience for the new Chromium Edge browser.\n\n**What is the end-user impact?**\n\nUsers' search history and passwords will be synchronized across devices.\n\n**Learn more**\n\n[Microsoft Edge Enterprise Sync](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-enterprise-sync)"
+  "description": "#### **What does this do?**\n\nConfigures Microsoft Edge for all devices to automatically sign in to the browser and synchronize history and passwords. Also sets Google as the default search engine. \n\n#### **Why should you use this?**\n\nIf you want to create an optimal user experience for the new Chromium Edge browser.\n\n#### **What is the end-user impact?**\n\nUsers' search history and passwords will be synchronized across devices.\n\n#### **Learn more**\n\n[Microsoft Edge Enterprise Sync](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-enterprise-sync)"
 }

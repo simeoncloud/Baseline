@@ -1,6 +1,6 @@
 {
   "bannerLogoUrl": "",
-  "description": "**What does this do?**\n\nDefines the messages and logos shown to users on Azure login screens. The baseline automatically populates the username watermark with 'user@yourcompanyname.org.' \n\n**Why should you use this?**\n\nIf you want to provide your users with a personalized login screen for added security, familiarity and branding.\n\n**What is the end-user impact?**\n\nUsers will see the watermark (username hint) on Azure login screens.  \n\n**Learn more**\n\n[Customize your Azure AD sign-in page](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/customize-branding)",
+  "description": "#### **What does this do?**\n\nDefines the messages and logos shown to users on Azure login screens. The baseline automatically populates the username watermark with 'user@yourcompanyname.org.' \n\n#### **Why should you use this?**\n\nIf you want to provide your users with a personalized login screen for added security, familiarity and branding.\n\n#### **What is the end-user impact?**\n\nUsers will see the watermark (username hint) on Azure login screens.  \n\n#### **Learn more**\n\n[Customize your Azure AD sign-in page](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/customize-branding)",
   "hideKeepMeSignedIn": false,
   "illustrationUrl": "",
   "locale": "0",

@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "**What does this do?**\n\nCreates a manually assigned device group for testing policies and applications assigned to 'Insiders.' Devices manually assigned to this group will be assigned to the 'Insiders' Windows update ring.\n\n**Why should you use this?**\n\nIf you want to test Windows updates, application installs, and policies with the 'Insiders' group. Devices in this group will be the first to receive and test Windows updates.\n\n**What is the end-user impact?**\n\nUsers of this group will be able to test application installs, policies and Windows updates before other users.\n\n**Learn more**\n\nN/A",
+  "description": "#### **What does this do?**\n\nCreates a manually assigned device group for testing policies and applications assigned to 'Insiders.' Devices manually assigned to this group will be assigned to the 'Insiders' Windows update ring.\n\n#### **Why should you use this?**\n\nIf you want to test Windows updates, application installs, and policies with the 'Insiders' group. Devices in this group will be the first to receive and test Windows updates.\n\n#### **What is the end-user impact?**\n\nUsers of this group will be able to test application installs, policies and Windows updates before other users.\n\n#### **Learn more**\n\nN/A",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],

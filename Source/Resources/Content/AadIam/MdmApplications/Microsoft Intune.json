@@ -8,7 +8,7 @@
     "termsOfUseUrl": "https://portal.manage.microsoft.com/TermsofUse.aspx"
   },
   "appId": "0000000a-0000-0000-c000-000000000000",
-  "description":"What is it: **What does this do?**\n\nTurns on the ability to manage a Windows device using Intune. This is a prerequisite for using Intune to manage devices. \n\n**Why should you use this?**\n\nIf you want to use Intune to manage devices.\n\n**What is the end-user impact?**\n\nUsers will be able to manage devices (e.g. configure their machines) using Intune.  \n\n**Learn more**\n\n[MDM vs. MAM](https://techcommunity.microsoft.com/t5/microsoft-intune/mdm-vs-mam/m-p/90906)",
+  "description":"What is it: #### **What does this do?**\n\nTurns on the ability to manage a Windows device using Intune. This is a prerequisite for using Intune to manage devices. \n\n#### **Why should you use this?**\n\nIf you want to use Intune to manage devices.\n\n#### **What is the end-user impact?**\n\nUsers will be able to manage devices (e.g. configure their machines) using Intune.  \n\n#### **Learn more**\n\n[MDM vs. MAM](https://techcommunity.microsoft.com/t5/microsoft-intune/mdm-vs-mam/m-p/90906)",
   "isOnPrem": false,
   "logoUrl": null,
   "mamAppliesTo": 2,
