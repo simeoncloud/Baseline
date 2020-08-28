@@ -65,7 +65,7 @@ Allows Azure updates to be applied first to a specified group of users before be
 
 **Why should you use this?**
 
-If you want to test Azure updates with a subset of users in your environment. The specified users will receive Azure updates before other users. @metamenos should we be saying rings instead of subset?
+If you want to test Azure updates with a subset of users in your environment. The specified users will receive Azure updates before other users.
 
 **What is the end-user impact?**
 
@@ -684,7 +684,7 @@ Device encryption is essential to protecting data on physical devices.
 
 **What is the end-user impact?**
 
- @metamenos what do we do with this configuration? do users have to enter a pin or something?
+Data on users' hard drives are encrypted.
 
 **Learn more**
 
@@ -710,29 +710,6 @@ Users will be unable to configure URLs for browser security zones themselves.
 [Internet Explorer security zones registry entries for advanced users](https://support.microsoft.com/en-us/help/182569/internet-explorer-security-zones-registry-entries-for-advanced-users) 
 
 [Azure Active Directory Seamless Single Sign-On](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-quick-start) 
- 
-## MSGraph\DeviceManagement\DeviceConfigurations\Security - Inbound Connections From LAN Allowed.json 
-*Intune > Devices > Configuration profiles* 
-
-**What does this do?**
-
-Allows inbound connections for the Windows Firewall from the Domain and Private network profiles. This allows services such as Remote Desktop and file sharing to function. 
-
-**Why should you use this?**
-
-If you want to allow inbound network traffic by default on Domain and Private network profiles.
-
-**What is the end-user impact?**
-
-...
-
-**Learn more**
-
-[Internet Explorer security zones registry entries for advanced users](https://support.microsoft.com/en-us/help/182569/internet-explorer-security-zones-registry-entries-for-advanced-users) 
-
-
-
-@metamenos should we include this? Jeff is wondering if we should exclude this because it shows that Windows defender firewall is not using the recommended settings to protect your computer 
  
 ## MSGraph\DeviceManagement\DeviceConfigurations\Security - NTLMv2 LAN Manager Authentication Level.json 
 *Intune > Devices > Configuration profiles* 
@@ -809,29 +786,6 @@ Users are restricted from creating simple passwords.
 **Learn more**
 
 [Eliminate bad passwords using Azure Active Directory Password Protection](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad) 
- 
-## MSGraph\DeviceManagement\DeviceConfigurations\Security - Windows Firewall Notifications Disabled.json 
-*Intune > Devices > Configuration profiles* 
-
-**What does this do?**
-
-Disables Windows Firewall alerts to the end user for Domain and Private network firewalls.
-
-**Why should you use this?**
-
-...
-
-**What is the end-user impact?**
-
-...
-
-**Learn more**
-
-N/A
-
-
-
-@metamenos do we want to keep this? Jeff feels like anything that's questionable, when we're going against the Microsoft recommendation, shouldn't really be in the baseline. But what're your thoughts? 
  
 ## MSGraph\DeviceManagement\DeviceConfigurations\UX - Microsoft Consumer Experience Disabled.json 
 *Intune > Devices > Configuration profiles* 
