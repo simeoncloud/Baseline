@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "**What does this do?**\nDisables Windows Firewall alerts to the end user for Domain and Private network firewalls.\n**Why should you use this?**\n...\n**What is the end-user impact?**\n...\n**Learn more**\nN/A\n\n@metamenos do we want to keep this? Jeff feels like anything that's questionable, when we're going against the Microsoft recommendation, shouldn't really be in the baseline. But what're your thoughts?",
+  "description": "**What does this do?**\n\nDisables Windows Firewall alerts to the end user for Domain and Private network firewalls.\n\n**Why should you use this?**\n\n...\n\n**What is the end-user impact?**\n\n...\n\n**Learn more**\n\nN/A\n\n\n\n@metamenos do we want to keep this? Jeff feels like anything that's questionable, when we're going against the Microsoft recommendation, shouldn't really be in the baseline. But what're your thoughts?",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingInteger",

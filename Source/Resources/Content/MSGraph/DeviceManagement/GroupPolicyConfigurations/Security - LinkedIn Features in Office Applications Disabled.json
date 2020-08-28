@@ -23,5 +23,5 @@
       "presentationValues": []
     }
   ],
-  "description": "**What does this do?**\nThe baseline turns off LinkedIn features in Office applications. By default, this setting is turned on.  \n**Why should you use this?**\nYou can turn off Office LinkedIn features so that your users are not sharing data externally with LinkedIn. \n**What is the end-user impact?**\nUsers will not be able to use the LinkedIn Office features. \n**Learn more**\n[Integrate LinkedIn account connections in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/linkedin-integration)"
+  "description": "**What does this do?**\n\nThe baseline turns off LinkedIn features in Office applications. By default, this setting is turned on.  \n\n**Why should you use this?**\n\nYou can turn off Office LinkedIn features so that your users are not sharing data externally with LinkedIn. \n\n**What is the end-user impact?**\n\nUsers will not be able to use the LinkedIn Office features. \n\n**Learn more**\n\n[Integrate LinkedIn account connections in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/linkedin-integration)"
 }

@@ -291,7 +291,7 @@
   "contactSyncBlocked": false,
   "customBrowserProtocol": "",
   "dataBackupBlocked": true,
-  "description": "**What does this do?**\nConfigures the default behavior for managed client apps on unmanaged iOS devices. The baseline allows data to flow between protected apps, but prohibits users from copying or saving data outside of the app except for users in the Azure AD group 'Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations'. \n**Why should you use this?**\n If you want to protect your data on users' personal iOS devices by preventing organization data from leaving protected apps.\n**What is the end-user impact?**\n iOS device users cannot copy or save data outside of your managed client apps. \n**Learn more**\n[How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy)",
+  "description": "**What does this do?**\n\nConfigures the default behavior for managed client apps on unmanaged iOS devices. The baseline allows data to flow between protected apps, but prohibits users from copying or saving data outside of the app except for users in the Azure AD group 'Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations'. \n\n**Why should you use this?**\n\n If you want to protect your data on users' personal iOS devices by preventing organization data from leaving protected apps.\n\n**What is the end-user impact?**\n\n iOS device users cannot copy or save data outside of your managed client apps. \n\n**Learn more**\n\n[How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy)",
   "deviceComplianceRequired": true,
   "disableAppPinIfDevicePinIsSet": false,
   "disableProtectionOfManagedOutboundOpenInData": false,

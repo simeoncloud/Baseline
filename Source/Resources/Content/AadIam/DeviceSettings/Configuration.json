@@ -1,5 +1,5 @@
 {
-  "description": "**What does this do?**\nConfigures settings that control joining devices to Azure AD. The baseline allows only the groups 'Baseline - Device Enrollers' and 'Baseline - Microsoft 365 Users' to join up to 100 devices to Azure AD, as well as requires MFA.\n**Why should you use this?**\nTo restrict the ability to join devices to Azure AD to only authorized groups and require MFA.\n**What is the end-user impact?**\nOnly specified users may join devices, and those users will be prompted for MFA to join.\n**Learn more**\nN/A",
+  "description": "**What does this do?**\n\nConfigures settings that control joining devices to Azure AD. The baseline allows only the groups 'Baseline - Device Enrollers' and 'Baseline - Microsoft 365 Users' to join up to 100 devices to Azure AD, as well as requires MFA.\n\n**Why should you use this?**\n\nTo restrict the ability to join devices to Azure AD to only authorized groups and require MFA.\n\n**What is the end-user impact?**\n\nOnly specified users may join devices, and those users will be prompted for MFA to join.\n\n**Learn more**\n\nN/A",
   "deviceJoinAzureADIsAdminConfigurable": true,
   "deviceJoinAzureADSelectedUsers": [
     {

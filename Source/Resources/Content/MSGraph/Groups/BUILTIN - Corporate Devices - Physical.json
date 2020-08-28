@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "**What does this do?**\nCreates a group that includes only physical corporate devices managed by Intune.\n**Why should you use this?**\nThis group is used to assign applications and policies that should apply to only physical devices (e.g. BitLocker encryption).\n**What is the end-user impact?**\nUsers of this group can be assigned applications and policies that should apply to all physical devices. \n**Learn more**\nN/A",
+  "description": "**What does this do?**\n\nCreates a group that includes only physical corporate devices managed by Intune.\n\n**Why should you use this?**\n\nThis group is used to assign applications and policies that should apply to only physical devices (e.g. BitLocker encryption).\n\n**What is the end-user impact?**\n\nUsers of this group can be assigned applications and policies that should apply to all physical devices. \n\n**Learn more**\n\nN/A",
   "groupTypes": [
     "DynamicMembership"
   ],
