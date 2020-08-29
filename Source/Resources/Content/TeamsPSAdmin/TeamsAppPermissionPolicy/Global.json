@@ -1,7 +1,7 @@
 {
   "defaultCatalogApps": [],
   "defaultCatalogAppsType": "BlockedAppList",
-  "description":"#### **What does this do?**\n\nAllows admins to specify approved Teams applications. Another setting (TenantWideAppsSettings) allows for Teams applications in general to be used. \n\n#### **Why should you use this?**\n\nIf you want to be able to restrict users from using unapproved Teams apps. \n\n#### **What is the end-user impact?**\n\nUsers may use only those Teams apps allowed by admins. \n\n#### **Learn more**\n\n[Manage app permission policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-permission-policies)",
+  "description":"#### **What does this do?**\nAllows admins to specify approved Teams applications. Another setting (TenantWideAppsSettings) allows for Teams applications in general to be used. \n\n#### **Why should you use this?**\nIf you want to be able to restrict users from using unapproved Teams apps. \n\n#### **What is the end-user impact?**\nUsers may use only those Teams apps allowed by admins. \n\n#### **Learn more**\n\n[Manage app permission policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-permission-policies)",
   "globalCatalogApps": [],
   "globalCatalogAppsType": "BlockedAppList",
   "privateCatalogApps": [],

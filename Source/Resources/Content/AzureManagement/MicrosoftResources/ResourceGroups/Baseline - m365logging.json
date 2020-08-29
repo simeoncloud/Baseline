@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
-  "description":"#### **What does this do?**\n\nCreates an Azure Event Hub, Azure Log Analytics Workspace, and Azure Storage account to capture Azure and Intune logs. The baseline Workspace is named 'tenant Name-M365logging.'\n\n#### **Why should you use this?**\n\nThis provides the essential resources required to capture logs, analyze trends, and be alerted of suspicious events.\n\n#### **What is the end-user impact?**\n\nN/A\n\n#### **Learn more**\n\n[Designing your Azure Monitor Logs deployment](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/design-logs-deployment)",
+  "description":"#### **What does this do?**\nCreates an Azure Event Hub, Azure Log Analytics Workspace, and Azure Storage account to capture Azure and Intune logs. The baseline Workspace is named 'tenant Name-M365logging.'\n\n#### **Why should you use this?**\nThis provides the essential resources required to capture logs, analyze trends, and be alerted of suspicious events.\n\n#### **What is the end-user impact?**\nN/A\n\n#### **Learn more**\n\n[Designing your Azure Monitor Logs deployment](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/design-logs-deployment)",
   "parameters": {
     "eventHubMessageRetentionInDays": {
       "defaultValue": 1,

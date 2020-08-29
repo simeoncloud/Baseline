@@ -3,7 +3,7 @@
   "assignedLicenses": [],
   "businessPhones": [],
   "country": "US",
-  "description":"#### **What does this do?**\n\nCreates a global administrator account. The baseline creates a global administrator account that does not require a Microsoft 365 license, and the password can be managed in the Azure Portal. \n\n#### **Why should you use this?**\n\nIT can use this dedicated admin user to manage a tenant. \n\n#### **What is the end-user impact?**\n\nN/A\n\n#### **Learn more**\n\n[Administrator role permissions in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator)",
+  "description":"#### **What does this do?**\nCreates a global administrator account. The baseline creates a global administrator account that does not require a Microsoft 365 license, and the password can be managed in the Azure Portal. \n\n#### **Why should you use this?**\nIT can use this dedicated admin user to manage a tenant. \n\n#### **What is the end-user impact?**\nN/A\n\n#### **Learn more**\n\n[Administrator role permissions in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator)",
   "givenName": "-",
   "isDeviceEnrollmentManager": false,
   "jobTitle": "AAD Global Admin account",

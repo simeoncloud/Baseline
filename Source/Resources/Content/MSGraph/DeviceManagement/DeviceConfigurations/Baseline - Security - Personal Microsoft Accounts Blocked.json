@@ -8,6 +8,6 @@
       }
     }
   ],
-  "description": "#### **What does this do?**\n\nDisables the addition of personal Microsoft accounts to devices to ensure Data Loss Prevention. \n\n#### **Why should you use this?**\n\nIf you want to prevent users from adding personal Microsoft accounts to Windows, which would allow them to transfer data outside of your organization. \n\n#### **What is the end-user impact?**\n\nUsers cannot connect Windows to personal Microsoft accounts.\n\n#### **Learn more**\n\n[Microsoft accounts configuration](https://docs.microsoft.com/en-us/mem/intune/configuration/device-restrictions-windows-10#cloud-and-storage)",
+  "description": "#### **What does this do?**\nDisables the addition of personal Microsoft accounts to devices to ensure Data Loss Prevention. \n\n#### **Why should you use this?**\nIf you want to prevent users from adding personal Microsoft accounts to Windows, which would allow them to transfer data outside of your organization. \n\n#### **What is the end-user impact?**\nUsers cannot connect Windows to personal Microsoft accounts.\n\n#### **Learn more**\n\n[Microsoft accounts configuration](https://docs.microsoft.com/en-us/mem/intune/configuration/device-restrictions-windows-10#cloud-and-storage)",
   "microsoftAccountBlocked": true
 }

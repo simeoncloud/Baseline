@@ -1,6 +1,6 @@
 {
   "comment": "Default retention policy that retains content forever.",
-  "description":"#### **What does this do?**\n\nDefines the data retention policy for SharePoint, OneDrive and Exchange Online. The baseline retains this data for one year.\n\n#### **Why should you use this?**\n\nIf you want this data to be retained for one year and to be searchable in Office 365 content search tools. \n\n#### **What is the end-user impact?**\n\nUsers cannot permanently delete data that is less than one year old. \n\n#### **Learn more**\n\n[Retention policies and labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide)",
+  "description":"#### **What does this do?**\nDefines the data retention policy for SharePoint, OneDrive and Exchange Online. The baseline retains this data for one year.\n\n#### **Why should you use this?**\nIf you want this data to be retained for one year and to be searchable in Office 365 content search tools. \n\n#### **What is the end-user impact?**\nUsers cannot permanently delete data that is less than one year old. \n\n#### **Learn more**\n\n[Retention policies and labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide)",
   "enabled": true,
   "exchangeLocation": [
     "All"

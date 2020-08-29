@@ -8,6 +8,6 @@
       }
     }
   ],
-  "description": "#### **What does this do?**\n\nLimits applications available for download in the Microsoft Store via the 'Private Store' functionality. This policy allows you to restrict your users to only those applications that you deem necessary.  \n\n#### **Why should you use this?**\n\nIf you want to limit the applications which users may download to those in your private store.\n\n#### **What is the end-user impact?**\n\nUsers may only use apps that you deem necessary. \n\n#### **Learn more**\n\n[Distribute apps using your private store](https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store)",
+  "description": "#### **What does this do?**\nLimits applications available for download in the Microsoft Store via the 'Private Store' functionality. This policy allows you to restrict your users to only those applications that you deem necessary.  \n\n#### **Why should you use this?**\nIf you want to limit the applications which users may download to those in your private store.\n\n#### **What is the end-user impact?**\nUsers may only use apps that you deem necessary. \n\n#### **Learn more**\n\n[Distribute apps using your private store](https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store)",
   "windowsStoreEnablePrivateStoreOnly": true
 }

@@ -151,7 +151,7 @@
   "defaultClientLanguage": 0,
   "defaultTheme": "",
   "delegateAccessEnabled": true,
-  "description":"#### **What does this do?**\n\nConfigures the default settings for Outlook on the web. The baseline uses the default configurations provided by Microsoft. \n\n#### **Why should you use this?**\n\nIf you want to use the default Outlook on the web policies.\n\n#### **What is the end-user impact?**\n\nN/A\n\n#### **Learn more**\n\n[OwaMailboxPolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps)",
+  "description":"#### **What does this do?**\nConfigures the default settings for Outlook on the web. The baseline uses the default configurations provided by Microsoft. \n\n#### **Why should you use this?**\nIf you want to use the default Outlook on the web policies.\n\n#### **What is the end-user impact?**\nN/A\n\n#### **Learn more**\n\n[OwaMailboxPolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps)",
   "directFileAccessOnPrivateComputersEnabled": true,
   "directFileAccessOnPublicComputersEnabled": true,
   "displayPhotosEnabled": true,

@@ -21,7 +21,7 @@
       }
     }
   ],
-  "description": "#### **What does this do?**\n\nRestricts the type of device that can be enrolled. The baseline allows enrollment of all corporate devices and blocks all personal devices. This limit can be overridden by other configurations with a higher priority.\n\n#### **Why should you use this?**\n\nIf you want to ensure that only corporate devices are enrolled in Intune.\n\n#### **What is the end-user impact?**\n\nUsers will be restricted to enrolling corporate devices only in Intune.\n\n#### **Learn more**\n\n[Create a device type restriction](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set#create-a-device-type-restriction)",
+  "description": "#### **What does this do?**\nRestricts the type of device that can be enrolled. The baseline allows enrollment of all corporate devices and blocks all personal devices. This limit can be overridden by other configurations with a higher priority.\n\n#### **Why should you use this?**\nIf you want to ensure that only corporate devices are enrolled in Intune.\n\n#### **What is the end-user impact?**\nUsers will be restricted to enrolling corporate devices only in Intune.\n\n#### **Learn more**\n\n[Create a device type restriction](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set#create-a-device-type-restriction)",
   "iosRestriction": {
     "blockedManufacturers": [],
     "osMaximumVersion": "",

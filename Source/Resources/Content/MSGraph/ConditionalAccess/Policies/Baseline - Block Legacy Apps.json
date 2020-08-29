@@ -28,7 +28,7 @@
       ]
     }
   },
-  "description": "#### **What does this do?**\n\nBlocks legacy protocols (POP, SMTP, IMAP, and MAPI) which can be used to bypass security controls in your environment. This policy does not apply to users in the Azure AD group 'Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.'\n\n#### **Why should you use this?**\n\nImproves security by prohibiting users from bypassing security controls in your environment.\n\n#### **What is the end-user impact?**\n\nUsers may not use legacy protocols (POP, SMTP, IMAP, and MAPI).\n\n#### **Learn more**\n\n[How to: Block legacy authentication to Azure AD with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/block-legacy-authentication)",
+  "description": "#### **What does this do?**\nBlocks legacy protocols (POP, SMTP, IMAP, and MAPI) which can be used to bypass security controls in your environment. This policy does not apply to users in the Azure AD group 'Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.'\n\n#### **Why should you use this?**\nImproves security by prohibiting users from bypassing security controls in your environment.\n\n#### **What is the end-user impact?**\nUsers may not use legacy protocols (POP, SMTP, IMAP, and MAPI).\n\n#### **Learn more**\n\n[How to: Block legacy authentication to Azure AD with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/block-legacy-authentication)",
   "grantControls": {
     "builtInControls": [
       "block"

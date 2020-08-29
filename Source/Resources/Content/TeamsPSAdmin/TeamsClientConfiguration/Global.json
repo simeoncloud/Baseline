@@ -11,7 +11,7 @@
   "allowShareFile": false,
   "allowShareLocation": null,
   "contentPin": "RequiredOutsideScheduleMeeting",
-  "description":"#### **What does this do?**\n\nDefines global settings for Microsoft Teams. The baseline blocks third party file sharing applications (e.g. Box, DropBox, Google Drive).\n\n#### **Why should you use this?**\n\nTo prevent users from sharing company content externally. \n\n#### **What is the end-user impact?**\n\nUsers will not be able to share content outside of the organization using Microsoft Teams. \n\n#### **Learn more**\n\n[Disable additional cloud storage (DropBox, Box and Google Drive)](https://techcommunity.microsoft.com/t5/microsoft-teams/disable-additional-cloud-storage-dropbox-box-and-google-drive/m-p/253335)",
+  "description":"#### **What does this do?**\nDefines global settings for Microsoft Teams. The baseline blocks third party file sharing applications (e.g. Box, DropBox, Google Drive).\n\n#### **Why should you use this?**\nTo prevent users from sharing company content externally. \n\n#### **What is the end-user impact?**\nUsers will not be able to share content outside of the organization using Microsoft Teams. \n\n#### **Learn more**\n\n[Disable additional cloud storage (DropBox, Box and Google Drive)](https://techcommunity.microsoft.com/t5/microsoft-teams/disable-additional-cloud-storage-dropbox-box-and-google-drive/m-p/253335)",
   "resourceAccountContentAccess": "NoAccess",
   "restrictedSenderList": null
 }
