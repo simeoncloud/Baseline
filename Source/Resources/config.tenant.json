@@ -3,8 +3,8 @@
     "AppsAllowedFromUntrustedLocations": "[ '0000000a-0000-0000-c000-000000000000', '5a0aa725-4958-4b0c-80a9-34562e23f3b7', 'd4ebce55-015a-49b5-a083-c84d1797ae8c', 'fa4345a4-a730-4230-84a8-7d9651b86739' ]", // Windows Virtual Desktop (AME), Windows Virtual Desktop Client, Mirosoft Intune, and Mirosoft Intune Enrollment
     "AllowSiteToZoneAssignmentListDefault": "https://autologon.microsoftazuread-sso.com&#xF000;1&#xF000;https://*.blob.core.windows.net&#xF000;2&#xF000;http://*.${ResourceContext:TenantDomainName}&#xF000;1&#xF000;https://*.microsoft.com&#xF000;2&#xF000;https://*.windows.net&#xF000;2&#xF000;https://*.office365.com&#xF000;2&#xF000;https://*.${ResourceContext:TenantDomainName}&#xF000;1&#xF000;",
     "AllowSiteToZoneAssignmentList": "${ResourceContext:AllowSiteToZoneAssignmentListDefault}",
-    "LogStorageAccountId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-m365logging/providers/Microsoft.Storage/storageAccounts/${ResourceContext:TenantName}m365logging",
-    "LogAnalyticsWorkspaceId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-m365logging/providers/Microsoft.OperationalInsights/workspaces/${ResourceContext:TenantName}-m365logging",
-    "LogEventHubAuthorizationRuleId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-m365logging/providers/Microsoft.EventHub/namespaces/${ResourceContext:TenantName}-m365logging/authorizationrules/RootManageSharedAccessKey"
+    "LogStorageAccountId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-Baseline-m365logging/providers/Microsoft.Storage/storageAccounts/${ResourceContext:TenantName}m365logging",
+    "LogAnalyticsWorkspaceId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-Baseline-m365logging/providers/Microsoft.OperationalInsights/workspaces/${ResourceContext:TenantName}-Baseline-m365logging",
+    "LogEventHubAuthorizationRuleId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-Baseline-m365logging/providers/Microsoft.EventHub/namespaces/${ResourceContext:TenantName}-Baseline-m365logging/authorizationrules/RootManageSharedAccessKey"
   }
 }
