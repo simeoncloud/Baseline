@@ -35,7 +35,7 @@
     {
       "apiVersion": "2015-11-01-preview",
       "location": "[resourceGroup().location]",
-      "name": "[replace(resourceGroup().name,'Baseline - ','')]",
+      "name": "[resourceGroup().name]",
       "properties": {
         "features": {
           "searchVersion": 1
@@ -49,10 +49,10 @@
     {
       "apiVersion": "2017-04-01",
       "dependsOn": [
-        "[resourceId('Microsoft.EventHub/namespaces', replace(resourceGroup().name,'Baseline - ',''))]"
+        "[resourceId('Microsoft.EventHub/namespaces', resourceGroup().name)]"
       ],
       "location": "[resourceGroup().location]",
-      "name": "[concat(replace(resourceGroup().name,'Baseline - ',''), '/hub')]",
+      "name": "[concat(resourceGroup().name, '/hub')]",
       "properties": {
         "messageRetentionInDays": "[parameters('eventHubMessageRetentionInDays')]",
         "partitionCount": 1
@@ -62,7 +62,7 @@
     {
       "apiVersion": "2017-04-01",
       "location": "[resourceGroup().location]",
-      "name": "[replace(resourceGroup().name,'Baseline - ','')]",
+      "name": "[resourceGroup().name]",
       "properties": {
         "isAutoInflateEnabled": false,
         "maximumThroughputUnits": 0
@@ -79,7 +79,7 @@
       "dependsOn": [],
       "kind": "StorageV2",
       "location": "[resourceGroup().location]",
-      "name": "[replace(replace(resourceGroup().name,'Baseline-',''),'-','')]",
+      "name": "[replace(replace(resourceGroup().name,'baseline-',''),'-','')]",
       "properties": {
         "accessTier": "Hot",
         "largeFileSharesState": "Disabled",
