@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "| What does this do? | Creates a manually assigned device group for previewing and testing policies and applications. Devices manually in this group will be assigned to the 'Preview Windows' update ring. |\n| Why should you use this? | If you want to test Windows updates, application installs, and policies with the 'Preview Windows\" device group in your environment. |\n| What is the end-user impact? | User devices in this group will be able to test Windows Updates, application installs, and policies separately from other users. |\n| Learn more | N/A |",
+  "description": "| What does this do? | Creates a manually assigned device group for previewing and testing policies and applications. Devices manually in this group will be assigned to the \"Preview Windows\" update ring. |\n| Why should you use this? | If you want to test Windows updates, application installs, and policies with the \"Preview Windows\" device group in your environment. |\n| What is the end-user impact? | User devices in this group will be able to test Windows Updates, application installs, and policies separately from other users. |\n| Learn more | N/A |",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],
