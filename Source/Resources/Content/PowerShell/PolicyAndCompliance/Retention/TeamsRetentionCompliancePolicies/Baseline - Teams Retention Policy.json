@@ -1,6 +1,6 @@
 {
   "comment": "Microsoft Teams retention policies must be created and managed independently. This policy defines an indefinite retention policy for all Microsoft Teams content.",
-  "description":"#### **What does this do?**\nDefines the data retention policy for Microsoft Teams. The baseline retains Teams data for one year.\n\n#### **Why should you use this?**\nIf you want this data to be retained for one year and to be searchable in Office 365 content search tools. \n\n#### **What is the end-user impact?**\nUsers cannot permanently delete data that is less than one year old. \n\n#### **Learn more**\n\n[Retention policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/retention-policies)",
+  "description": "| What does this do? | Defines the data retention policy for Microsoft Teams. The baseline retains Teams data for one year. |\n| Why should you use this? | If you want this data to be retained for one year and to be searchable in Office 365 content search tools. |\n| What is the end-user impact? | Users cannot permanently delete data that is less than one year old. |\n| Learn more | [Retention policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/retention-policies) |",
   "enabled": true,
   "restrictiveRetention": false,
   "rules": [

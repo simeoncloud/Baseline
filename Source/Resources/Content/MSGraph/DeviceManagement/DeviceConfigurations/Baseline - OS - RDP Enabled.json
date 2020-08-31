@@ -8,7 +8,7 @@
       }
     }
   ],
-  "description": "#### **What does this do?**\nEnables Remote Desktop access to the device for users that are members of the 'Remote Desktop Users' local group. A separate configuration (Add-AuthenticatedUsersToRemoteDesktopUsers) adds the users to the 'Remote Desktop Users' group. \n\n#### **Why should you use this?**\n If you want to allow Remote Desktop access to the device.\n\n#### **What is the end-user impact?**\nUsers in the 'Remote Desktop Users' local group will be able to connect to remote devices. \n\n#### **Learn more**\n\n[Policy CSP - RemoteDesktopServices](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-remotedesktopservices)",
+  "description": "| What does this do? | Enables Remote Desktop access to the device for users that are members of the 'Remote Desktop Users' local group. A separate configuration (Add-AuthenticatedUsersToRemoteDesktopUsers) adds the users to the 'Remote Desktop Users' group. |\n| Why should you use this? |  If you want to allow Remote Desktop access to the device. |\n| What is the end-user impact? | Users in the 'Remote Desktop Users' local group will be able to connect to remote devices. |\n| Learn more | [Policy CSP - RemoteDesktopServices](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-remotedesktopservices) |",
   "omaSettings": [
     {
       "@odata.type": "#microsoft.graph.omaSettingString",

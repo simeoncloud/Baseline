@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "#### **What does this do?**\nCreates a group that includes virtual corporate devices managed by Intune.\n\n#### **Why should you use this?**\nThis group is used to assign applications and policies that should apply to all virtual devices managed by Intune.\n\n#### **What is the end-user impact?**\nVirtual user devices will be assigned applications and policies that should apply only to virtual devices. \n\n#### **Learn more**\n\nN/A",
+  "description": "| What does this do? | Creates a group that includes virtual corporate devices managed by Intune. |\n| Why should you use this? | This group is used to assign applications and policies that should apply to all virtual devices managed by Intune. |\n| What is the end-user impact? | Virtual user devices will be assigned applications and policies that should apply only to virtual devices. |\n| Learn more | N/A |",
   "groupTypes": [
     "DynamicMembership"
   ],
