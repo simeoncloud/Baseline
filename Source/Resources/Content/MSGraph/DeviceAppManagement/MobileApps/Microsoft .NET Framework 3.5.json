@@ -18,7 +18,7 @@
       }
     }
   ],
-  "description": "Microsoft .NET Framework 3.5.",
+  "description": "| What does this do? | Microsoft .NET Framework 3.5 is a vital component of Windows and is used to create and run applications. |\n| Why should you use this? | Microsoft .NET Framework 3.5 is required to run many applications. |\n| What is the end-user impact? | Users will have Microsoft .NET Framework 3.5 installed on their machines. |\n| .NET Framework | [What is .NET Framework?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework)",
   "detectionRules": [
     {
       "@odata.type": "#microsoft.graph.win32LobAppRegistryDetection",

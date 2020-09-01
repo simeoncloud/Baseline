@@ -18,7 +18,7 @@
       }
     }
   ],
-  "description": "AnyDesk remote access for remote administration.",
+  "description": "| What does this do? | AnyDesk is a remote desktop application that provides remote access to computers. |\n| Why should you use this? | If you want to be able to easily remote into computers to help end-users troubleshoot problems. |\n| What is the end-user impact? | Users will have AnyDesk installed on their computer. |\n| Learn more | [AnyDesk](https://anydesk.com/en)",
   "detectionRules": [
     {
       "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
