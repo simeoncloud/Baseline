@@ -1,6 +1,6 @@
 {
   "assignedLicenses": [],
-  "description": "| What does this do? | Configures restrictions for creating Microsoft 365 groups. The baseline restricts users not in this group from creating Microsoft 365 groups. |\n| Why should you use this? | If you want to tighten security around Microsoft 365 group creation. |\n| What is the end-user impact? | Users who are not in this group will be restricted from creating Microsoft 365 groups. |\n| Learn more | [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide) |",
+  "description": "| What does this do? | Creates a manually assigned group whose members are allowed to create Microsoft 365 groups. |\n| Why should you use this? | If you want a user to be able to create Microsoft 365 groups. |\n| What is the end-user impact? | Users in this group will be able to create Microsoft 365 groups. |\n| Learn more | [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide) |",
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],
