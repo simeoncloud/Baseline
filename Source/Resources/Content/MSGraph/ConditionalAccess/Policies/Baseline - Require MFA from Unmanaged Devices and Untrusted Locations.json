@@ -44,7 +44,7 @@
       ]
     }
   },
-  "description": "| What does this do? | Requires MFA when authenticating from an unmanaged device that is off-network. The baseline requires MFA from all users except the Company Administrator and those with the Azure AD role \"Directory Synchronization Accounts.\" |\n| Why should you use this? | This protects your data by requiring MFA from unmanaged devices and when off-network. |\n| What is the end-user impact? | Users must authenticate using MFA when accessing data from unmanaged devices and when off-network. |\n| Learn more | [How to: Require MFA for access from untrusted networks with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/untrusted-networks) |",
+  "description": "| What does this do? | Requires MFA when authenticating from an unmanaged device that is off-network. This policy does not apply to users with the role \"Company Administrator\" or \"Directory Synchronization Accounts.\" |\n| Why should you use this? | This protects your data by requiring MFA from unmanaged devices and when off-network. |\n| What is the end-user impact? | Users must authenticate using MFA when accessing data from unmanaged devices and when off-network. |\n| Learn more | [How to: Require MFA for access from untrusted networks with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/untrusted-networks) |",
   "grantControls": {
     "builtInControls": [
       "mfa"
