@@ -1,0 +1,34 @@
+parameters:    
+  - name: DeployChanges
+    displayName: Deploy changes to tenant - if unchecked, only performs a preview and will not make any changes to the tenant
+    default: true
+    type: boolean
+
+name: $(Date:yyyyMMdd)$(Rev:.r)
+trigger: none
+
+schedules:
+- cron: "0 6 * * *"
+  displayName: Daily run 6am UTC
+  branches:
+    include:
+    - master
+  always: true
+
+pool:
+  vmImage: windows-latest
+
+resources:
+  repositories:
+  - repository: Templates
+    type: github
+    name: simeoncloud/AzurePipelineTemplates
+    ref: refs/heads/master
+    endpoint: simeoncloud
+
+stages:
+- template: Deploy.yml@Templates
+  parameters:
+    DeployChanges: ${{ parameters.DeployChanges }}
+    ExportBeforeDeploy: false
+    UpdateBaseline: false

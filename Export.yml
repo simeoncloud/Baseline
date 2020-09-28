@@ -1,0 +1,31 @@
+parameters:    
+  - name: Comment
+    displayName: Comment - included in Git history
+    default: '-'
+    type: string    
+    
+  - name: MergeChanges
+    displayName: Merge changes - if unchecked, configurations will be left in a Git branch and not used for subsequent deployments until merged
+    default: true
+    type: boolean
+
+name: $(Date:yyyyMMdd)$(Rev:.r)
+trigger: none
+
+pool:
+  vmImage: windows-latest
+
+resources:
+  repositories:
+  - repository: Templates
+    type: github
+    name: simeoncloud/AzurePipelineTemplates
+    ref: refs/heads/master
+    endpoint: simeoncloud
+
+stages:
+- template: Export.yml@Templates
+  parameters:
+    Comment: ${{ parameters.Comment }}
+    MergeChanges: ${{ parameters.MergeChanges }}
+    OverrideBaseline: false
