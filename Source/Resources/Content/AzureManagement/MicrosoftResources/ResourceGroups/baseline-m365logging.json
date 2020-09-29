@@ -79,7 +79,7 @@
       "dependsOn": [],
       "kind": "StorageV2",
       "location": "[resourceGroup().location]",
-      "name": "[replace(replace(resourceGroup().name,'baseline-',''),'-','')]",
+      "name": "[replace(replace(resourceGroup().name,'-baseline-',''),'-','')]",
       "properties": {
         "accessTier": "Hot",
         "largeFileSharesState": "Disabled",
