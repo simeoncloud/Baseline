@@ -11,6 +11,13 @@ parameters:
 
 name: $(Date:yyyyMMdd)$(Rev:.r)
 trigger: none
+schedules:
+- cron: "0 5 * * *"
+  displayName: Daily Run 5AM UTC
+  branches:
+    include:
+    - master
+  always: true
 
 pool:
   vmImage: windows-latest
@@ -27,5 +34,8 @@ stages:
 - template: Export.yml@Templates
   parameters:
     Comment: ${{ parameters.Comment }}
-    MergeChanges: ${{ parameters.MergeChanges }}
+    ${{ if eq(variables['Build.Reason'], 'Schedule') }}:
+      MergeChanges: false
+    ${{ if ne(variables['Build.Reason'], 'Schedule') }}:
+      MergeChanges: ${{ parameters.MergeChanges }}
     OverrideBaseline: false
