@@ -30,6 +30,14 @@
         }
       },
       {
+        "category": "ProvisioningLogs",
+        "enabled": false,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
         "category": "ServicePrincipalSignInLogs",
         "enabled": true,
         "retentionPolicy": {
