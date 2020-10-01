@@ -4,12 +4,7 @@
   "groupTypes": [],
   "mailEnabled": false,
   "memberOf": [],
-  "members": [
-    {
-      "@odata.type": "#microsoft.graph.user",
-      "displayName": "Baseline - Global Admin"
-    }
-  ],
+  "members": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true
