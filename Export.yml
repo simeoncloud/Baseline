@@ -1,6 +1,6 @@
 parameters:    
   - name: Comment
-    displayName: Comment - included in Git history
+    displayName: Comment - included in Git history and build number
     default: '-'
     type: string    
     

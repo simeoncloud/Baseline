@@ -1,4 +1,9 @@
 parameters:    
+  - name: Comment
+    displayName: Comment - included in build number
+    default: '-'
+    type: string
+
   - name: DeployChanges
     displayName: Deploy changes to tenant - if unchecked, only performs a preview and will not make any changes to the tenant
     default: true
@@ -29,6 +34,7 @@ resources:
 stages:
 - template: Deploy.yml@Templates
   parameters:
+    Comment: ${{ parameters.Comment }}
     DeployChanges: ${{ parameters.DeployChanges }}
     ExportBeforeDeploy: false
     UpdateBaseline: false
