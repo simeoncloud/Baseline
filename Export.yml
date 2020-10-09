@@ -34,8 +34,5 @@ stages:
 - template: Export.yml@Templates
   parameters:
     Comment: ${{ parameters.Comment }}
-    ${{ if eq(variables['Build.Reason'], 'Schedule') }}:
-      MergeChanges: false
-    ${{ if ne(variables['Build.Reason'], 'Schedule') }}:
-      MergeChanges: ${{ parameters.MergeChanges }}
+    MergeChanges: ${{ parameters.MergeChanges }}
     OverrideBaseline: false
