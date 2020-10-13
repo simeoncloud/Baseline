@@ -13,7 +13,8 @@
       "definition": {
         "categoryPath": "\\OneDrive",
         "classType": "machine",
-        "displayName": "Prevent users from redirecting their Windows known folders to their PC"
+        "displayName": "Prevent users from redirecting their Windows known folders to their PC",
+        "id": "2ce2f507-aae8-49a1-98ce-dc3faafcd331"
       },
       "enabled": true,
       "presentationValues": []
@@ -23,16 +24,18 @@
       "definition": {
         "categoryPath": "\\OneDrive",
         "classType": "machine",
-        "displayName": "Prompt users to move Windows known folders to OneDrive "
+        "displayName": "Prompt users to move Windows known folders to OneDrive ",
+        "id": "24bec81e-a596-4fc1-867b-0256114a19a4"
       },
       "enabled": true,
       "presentationValues": [
         {
           "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
           "presentation": {
+            "id": "4640c3f7-b89a-41be-948b-e86a2a97cae4",
             "label": "Tenant ID:"
           },
-          "value": { "$ref": "AadAuth:TenantId" }
+          "value": "40eae52b-3861-44da-8898-7b496b5f6ad5"
         }
       ]
     },
@@ -41,13 +44,15 @@
       "definition": {
         "categoryPath": "\\OneDrive",
         "classType": "machine",
-        "displayName": "Silently move Windows known folders to OneDrive"
+        "displayName": "Silently move Windows known folders to OneDrive",
+        "id": "39147fa2-6c5e-437b-8264-19b50b891709"
       },
       "enabled": true,
       "presentationValues": [
         {
           "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
           "presentation": {
+            "id": "35c82072-a93b-4022-be14-8684c2f6fcc2",
             "label": "Show notification to users after folders have been redirected:"
           },
           "value": "1"
@@ -55,6 +60,7 @@
         {
           "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
           "presentation": {
+            "id": "fbefbbdf-5382-477c-8b6c-71f4a06e2805",
             "label": "Tenant ID:"
           },
           "value": { "$ref": "AadAuth:TenantId" }

@@ -13,13 +13,15 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge",
         "classType": "machine",
-        "displayName": "Browser sign-in settings"
+        "displayName": "Browser sign-in settings",
+        "id": "b6224bac-9571-4ff9-b478-9337b898bab9"
       },
       "enabled": true,
       "presentationValues": [
         {
           "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
           "presentation": {
+            "id": "aa36fa17-7a02-48c7-bd3a-c4278e671d57",
             "label": "Browser sign-in settings"
           },
           "value": "2"
@@ -31,13 +33,15 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge\\Default search provider",
         "classType": "machine",
-        "displayName": "Default search provider name"
+        "displayName": "Default search provider name",
+        "id": "5eb1769d-4cea-4bce-87b9-bb549f8288d3"
       },
       "enabled": true,
       "presentationValues": [
         {
           "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
           "presentation": {
+            "id": "068b0640-d70e-40ae-8336-c9324376de1e",
             "label": "Default search provider name"
           },
           "value": "Google"
@@ -49,13 +53,15 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge\\Default search provider",
         "classType": "machine",
-        "displayName": "Default search provider search URL"
+        "displayName": "Default search provider search URL",
+        "id": "8d9348dc-84f7-4e3d-8fd5-e18ce444708c"
       },
       "enabled": true,
       "presentationValues": [
         {
           "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
           "presentation": {
+            "id": "6e02112b-cd96-448b-9c43-2a1b632ad039",
             "label": "Default search provider search URL"
           },
           "value": "{google:baseURL}search?q={searchTerms}&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:searchClient}{google:sourceId}ie={inputEncoding}"
@@ -67,13 +73,15 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge\\Default search provider",
         "classType": "machine",
-        "displayName": "Default search provider URL for suggestions"
+        "displayName": "Default search provider URL for suggestions",
+        "id": "f8324242-18c0-40bf-ae08-52db57201372"
       },
       "enabled": true,
       "presentationValues": [
         {
           "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
           "presentation": {
+            "id": "9dfb796a-ce07-4c9d-9f90-f78149189665",
             "label": "Default search provider URL for suggestions"
           },
           "value": "{google:baseURL}complete/search?output=chrome&q={searchTerms}"
@@ -85,7 +93,8 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge\\Default search provider",
         "classType": "machine",
-        "displayName": "Enable the default search provider"
+        "displayName": "Enable the default search provider",
+        "id": "97b941fd-4e08-4672-9aa0-db0606256a06"
       },
       "enabled": true,
       "presentationValues": []

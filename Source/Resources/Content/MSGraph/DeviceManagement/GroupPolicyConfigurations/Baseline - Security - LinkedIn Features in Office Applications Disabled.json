@@ -17,7 +17,8 @@
       "definition": {
         "categoryPath": "\\Microsoft Office 2016\\Miscellaneous",
         "classType": "user",
-        "displayName": "Show LinkedIn features in Office applications"
+        "displayName": "Show LinkedIn features in Office applications",
+        "id": "624aadc3-7da2-4732-ae95-b458407c554a"
       },
       "enabled": false,
       "presentationValues": []
