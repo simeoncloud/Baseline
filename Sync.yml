@@ -1,0 +1,50 @@
+parameters:   
+- name: Comment
+  displayName: Comment - included in build information
+  type: string
+  default: ' '
+
+- name: Export
+  displayName: Run an Export to save changes from the Azure tenant into the repository
+  type: boolean
+  default: true
+
+- name: Preview
+  displayName: Run a Preview before deploying changes to the Azure tenant
+  type: boolean
+  default: true
+
+- name: Deploy
+  displayName: Deploy changes - if unchecked, the sync will not make any changes to the Azure tenant
+  type: boolean
+  default: true
+
+name: $(Date:yyyyMMdd)$(Rev:.r)
+trigger: none
+
+schedules:
+- cron: "0 6 * * *"
+  displayName: Daily Run 6AM UTC
+  branches:
+    include:
+    - master
+  always: true
+
+pool:
+  vmImage: windows-latest
+
+resources:
+  repositories:
+  - repository: Templates
+    type: github
+    name: simeoncloud/AzurePipelineTemplates
+    ref: refs/heads/master
+    endpoint: simeoncloud
+
+stages:
+- template: Sync.yml@Templates
+  parameters:
+    Comment: ${{ parameters.Comment }}
+    Export: ${{ parameters.Export }}
+    Preview: ${{ parameters.Preview }}
+    Deploy: ${{ parameters.Deploy }}
