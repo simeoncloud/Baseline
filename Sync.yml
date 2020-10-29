@@ -19,7 +19,7 @@ parameters:
   type: boolean
   default: true
 
-name: $(Date:yyyyMMdd)$(Rev:.r)
+name: $(Date:yyyy-MM-dd)$(Rev:.r)
 trigger: none
 
 schedules:
@@ -40,6 +40,12 @@ resources:
     name: simeoncloud/AzurePipelineTemplates
     ref: refs/heads/master
     endpoint: simeoncloud
+
+  - repository: sync
+    type: github
+    name: simeoncloud/sync
+    ref: refs/heads/master
+    endpoint: simeoncloud    
 
 stages:
 - template: Sync.yml@Templates
