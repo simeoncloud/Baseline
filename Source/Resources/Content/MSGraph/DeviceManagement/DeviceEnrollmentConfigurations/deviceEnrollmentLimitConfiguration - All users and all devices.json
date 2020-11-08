@@ -7,7 +7,7 @@
       }
     }
   ],
-  "description": "| What does this do? | Limits the default number of devices that a single user can enroll. The baseline sets this limit to 5, however it can be overwritten by other configurations with a higher priority. |\n| Why should you use this? | If you want to ensure that no more than 5 devices are enrolled by a single user to prevent enrollment of unwanted devices. |\n| What is the end-user impact? | Users will be limited to enrolling 5 devices. |\n| Learn more | [Create a device limit restriction](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set#create-a-device-limit-restriction) |",
+  "description": "| What does this do? | Limits the default number of devices that a single user can enroll. The baseline sets this limit to 5, however it can be overwritten by other configurations with a higher priority. |\n| Why should you use this? | If you want to ensure that no more than 5 devices are enrolled by a single user to prevent enrollment of unwanted devices. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users will be limited to enrolling 5 devices. |\n| Learn more | [Create a device limit restriction](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set#create-a-device-limit-restriction) |",
   "limit": 5,
   "priority": 0
 }
