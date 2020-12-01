@@ -35,7 +35,9 @@
             "id": "4640c3f7-b89a-41be-948b-e86a2a97cae4",
             "label": "Tenant ID:"
           },
-          "value": { "$ref": "AadAuth:TenantId" }
+          "value": {
+            "$ref": "AadAuth:TenantId"
+          }
         }
       ]
     },
@@ -63,7 +65,9 @@
             "id": "fbefbbdf-5382-477c-8b6c-71f4a06e2805",
             "label": "Tenant ID:"
           },
-          "value": { "$ref": "AadAuth:TenantId" }
+          "value": {
+            "$ref": "AadAuth:TenantId"
+          }
         }
       ]
     }

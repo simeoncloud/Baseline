@@ -22,6 +22,14 @@
         }
       },
       {
+        "category": "Devices",
+        "enabled": false,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
         "category": "OperationalLogs",
         "enabled": true,
         "retentionPolicy": {

@@ -1,5 +1,5 @@
 {
-"@odata.type": "#microsoft.graph.deviceEnrollmentLimitConfiguration",
+  "@odata.type": "#microsoft.graph.deviceEnrollmentLimitConfiguration",
   "assignments": [
     {
       "target": {
