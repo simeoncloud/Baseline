@@ -1,4 +1,4 @@
-parameters:   
+parameters:    
   - name: Comment
     displayName: Comment - included in build number
     default: '-'
@@ -19,22 +19,17 @@ parameters:
     default: true
     type: boolean
     
-  - name: UpdateBaseline
-    displayName: Update to use the latest baseline during the deployment - if unchecked, the deployment will use the same version of the baseline as used for the last successful deployment
-    default: true
-    type: boolean
-
 name: $(Date:yyyyMMdd)$(Rev:.r)
 trigger: none
 
 schedules:
-- cron: "0 7 * * *"
-  displayName: Daily Run 7AM UTC
+- cron: "0 6 * * *"
+  displayName: Daily Run 6AM UTC
   branches:
     include:
     - master
   always: true
-
+  
 pool:
   vmImage: windows-latest
 
@@ -53,4 +48,4 @@ stages:
     Deploy: ${{ parameters.Deploy }}
     UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
     Export: ${{ parameters.Export }}
-    UpdateBaseline: ${{ parameters.UpdateBaseline }}
+    UpdateBaseline: false
