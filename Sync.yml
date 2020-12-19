@@ -1,25 +1,25 @@
-parameters:   
-- name: Comment
-  displayName: Comment - included in build information
-  type: string
-  default: ' '
+parameters:    
+  - name: Comment
+    displayName: Comment - included in build number
+    default: '-'
+    type: string
 
-- name: Export
-  displayName: Run an Export to save changes from the Azure tenant into the repository
-  type: boolean
-  default: true
+  - name: Deploy
+    displayName: Deploy changes to tenant - if unchecked, only performs a preview and will not make any changes to the tenant
+    default: true
+    type: boolean
 
-- name: Preview
-  displayName: Run a Preview before deploying changes to the Azure tenant
-  type: boolean
-  default: true
+  - name: UseLastDeployTagForExport
+    displayName: Gets the state of the last deployment, before doing an export - if unchecked, will use latest state of repo
+    default: true
+    type: boolean
 
-- name: Deploy
-  displayName: Deploy changes - if unchecked, the sync will not make any changes to the Azure tenant
-  type: boolean
-  default: true
-
-name: $(Date:yyyy-MM-dd)$(Rev:.r)
+  - name: Export
+    displayName: Run an export operation before running the deployment - this is recommended to prevent any unintentional loss of changes made manually to the tenant
+    default: true
+    type: boolean
+    
+name: $(Date:yyyyMMdd)$(Rev:.r)
 trigger: none
 
 schedules:
@@ -29,7 +29,7 @@ schedules:
     include:
     - master
   always: true
-
+  
 pool:
   vmImage: windows-latest
 
@@ -41,16 +41,11 @@ resources:
     ref: refs/heads/master
     endpoint: simeoncloud
 
-  - repository: sync
-    type: github
-    name: simeoncloud/sync
-    ref: refs/heads/master
-    endpoint: simeoncloud    
-
 stages:
 - template: Sync.yml@Templates
   parameters:
     Comment: ${{ parameters.Comment }}
-    Export: ${{ parameters.Export }}
-    Preview: ${{ parameters.Preview }}
     Deploy: ${{ parameters.Deploy }}
+    UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
+    Export: ${{ parameters.Export }}
+    UpdateBaseline: false
