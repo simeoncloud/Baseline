@@ -38,7 +38,7 @@ resources:
   - repository: Templates
     type: github
     name: simeoncloud/AzurePipelineTemplates
-    ref: refs/heads/feature/sync
+    ref: refs/heads/master
     endpoint: simeoncloud
 
 stages:
