@@ -3,7 +3,7 @@
     "applications": {
       "excludeApplications": [],
       "includeApplications": [
-        "d4ebce55-015a-49b5-a083-c84d1797ae8c"
+        "Microsoft Intune Enrollment"
       ],
       "includeUserActions": []
     },
