@@ -39,8 +39,8 @@
         "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
       ],
       "excludeRoles": [
-        "Company Administrator",
-        "Directory Synchronization Accounts"
+        "Directory Synchronization Accounts",
+        "Global Administrator"
       ],
       "excludeUsers": [],
       "includeGroups": [],
@@ -50,7 +50,7 @@
       ]
     }
   },
-  "description": "| What does this do? | Requires that a device be registered in Autopilot by uploading a hardware hash before it can be enrolled in Intune. This policy does not apply to users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\" or users with the role \"Company Administrator\" or \"Directory Synchronization Accounts.\" |\n| Why should you use this? | This increases security by preventing unauthorized devices from being enrolled into your tenant. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> An administrator must register devices in Autopilot before a general user can enroll it. |\n| Learn more | N/A |",
+  "description": "| What does this do? | Requires that a device be registered in Autopilot by uploading a hardware hash before it can be enrolled in Intune. This policy does not apply to users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\" or users with the role \"Global Administrator\" or \"Directory Synchronization Accounts.\" |\n| Why should you use this? | This increases security by preventing unauthorized devices from being enrolled into your tenant. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> An administrator must register devices in Autopilot before a general user can enroll it. |\n| Learn more | N/A |",
   "grantControls": {
     "builtInControls": [
       "compliantDevice"

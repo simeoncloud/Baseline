@@ -22,9 +22,9 @@
       "includeGroups": [],
       "includeRoles": [
         "Billing Administrator",
-        "Company Administrator",
         "Conditional Access Administrator",
         "Exchange Service Administrator",
+        "Global Administrator",
         "Helpdesk Administrator",
         "Password Administrator",
         "Security Administrator",
