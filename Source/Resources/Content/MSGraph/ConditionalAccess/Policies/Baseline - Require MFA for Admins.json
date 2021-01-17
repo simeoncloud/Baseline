@@ -21,15 +21,15 @@
       "excludeUsers": [],
       "includeGroups": [],
       "includeRoles": [
-        "Billing Administrator",
-        "Conditional Access Administrator",
-        "Exchange Service Administrator",
-        "Global Administrator",
-        "Helpdesk Administrator",
-        "Password Administrator",
-        "Security Administrator",
-        "SharePoint Service Administrator",
-        "User Account Administrator"
+        "194ae4cb-b126-40b2-bd5b-6091b380977d",
+        "29232cdf-9323-42fd-ade2-1d097af3e4de",
+        "62e90394-69f5-4237-9190-012177145e10",
+        "729827e3-9c14-49f7-bb1b-9608f156bbb8",
+        "966707d0-3269-4727-9be2-8c3a10f19b9d",
+        "b0f54661-2d74-4c50-afa3-1ec803f12efe",
+        "b1be1c3e-b65d-4f19-8427-f6fa0d97feb9",
+        "f28a1f50-f6e7-4571-818b-6a12f2af6b6c",
+        "fe930be7-5e62-47db-91af-98c3a49a38b1"
       ],
       "includeUsers": []
     }

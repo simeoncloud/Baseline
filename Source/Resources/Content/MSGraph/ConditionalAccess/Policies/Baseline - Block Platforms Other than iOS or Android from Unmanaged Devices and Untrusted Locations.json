@@ -46,8 +46,8 @@
         "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
       ],
       "excludeRoles": [
-        "Directory Synchronization Accounts",
-        "Global Administrator"
+        "62e90394-69f5-4237-9190-012177145e10",
+        "d29b2b05-8046-44ba-8758-1e26182fcf32"
       ],
       "excludeUsers": [
         "GuestsOrExternalUsers"
