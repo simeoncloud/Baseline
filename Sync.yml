@@ -9,13 +9,13 @@ parameters:
     default: true
     type: boolean
 
-  - name: UseLastDeployTagForExport
-    displayName: Gets the state of the last deployment, before doing an export - if unchecked, will use latest state of repo
-    default: true
-    type: boolean
-
   - name: Export
     displayName: Run an export operation before running the deployment - this is recommended to prevent any unintentional loss of changes made manually to the tenant
+    default: true
+    type: boolean
+    
+  - name: UseLastDeployTagForExport
+    displayName: Gets the state of the last deployment, before doing an export - if unchecked, will use latest state of repo
     default: true
     type: boolean
     
