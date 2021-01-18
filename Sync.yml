@@ -4,18 +4,18 @@ parameters:
     default: '-'
     type: string
 
-  - name: Deploy
-    displayName: Deploy changes to tenant - if unchecked, only performs a preview and will not make any changes to the tenant
-    default: true
-    type: boolean
-
   - name: Export
     displayName: Run an export operation before running the deployment - this is recommended to prevent any unintentional loss of changes made manually to the tenant
     default: true
     type: boolean
-    
+
   - name: UseLastDeployTagForExport
     displayName: Gets the state of the last deployment, before doing an export - if unchecked, will use latest state of repo
+    default: true
+    type: boolean
+
+  - name: Deploy
+    displayName: Deploy changes to tenant - if unchecked, only performs a preview and will not make any changes to the tenant
     default: true
     type: boolean
     
