@@ -45,7 +45,7 @@ stages:
 - template: Sync.yml@Templates
   parameters:
     Comment: ${{ parameters.Comment }}
-    Deploy: ${{ parameters.Deploy }}
-    UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
     Export: ${{ parameters.Export }}
+    UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
     UpdateBaseline: false
+    Deploy: ${{ parameters.Deploy }}
