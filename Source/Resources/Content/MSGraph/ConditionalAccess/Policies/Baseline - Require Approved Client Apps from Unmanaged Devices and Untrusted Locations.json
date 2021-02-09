@@ -13,12 +13,12 @@
       "browser",
       "mobileAppsAndDesktopClients"
     ],
-    "deviceStates": {
-      "excludeStates": [
+    "devices": {
+      "excludeDevices": [
         "Compliant",
         "DomainJoined"
       ],
-      "includeStates": [
+      "includeDevices": [
         "All"
       ]
     },

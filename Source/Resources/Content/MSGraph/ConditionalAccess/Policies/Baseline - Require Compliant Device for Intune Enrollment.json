@@ -13,9 +13,9 @@
       "mobileAppsAndDesktopClients",
       "other"
     ],
-    "deviceStates": {
-      "excludeStates": [],
-      "includeStates": [
+    "devices": {
+      "excludeDevices": [],
+      "includeDevices": [
         "All"
       ]
     },
