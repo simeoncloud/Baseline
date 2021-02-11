@@ -3,7 +3,7 @@
   "allowDropBox": false,
   "allowEmailIntoChannel": true,
   "allowGoogleDrive": false,
-  "allowGuestUser": false,
+  "allowGuestUser": true,
   "allowOrganizationTab": true,
   "allowPrivateTeamsDiscovery": null,
   "allowResourceAccountSendMessage": true,
