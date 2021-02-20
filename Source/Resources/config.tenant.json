@@ -5,6 +5,7 @@
     "AllowSiteToZoneAssignmentList": "${ResourceContext:AllowSiteToZoneAssignmentListDefault}",
     "LogStorageAccountId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-baseline-m365logging/providers/Microsoft.Storage/storageAccounts/${ResourceContext:TenantName}m365logging",
     "LogAnalyticsWorkspaceId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-baseline-m365logging/providers/Microsoft.OperationalInsights/workspaces/${ResourceContext:TenantName}-baseline-m365logging",
-    "LogEventHubAuthorizationRuleId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-baseline-m365logging/providers/Microsoft.EventHub/namespaces/${ResourceContext:TenantName}-baseline-m365logging/authorizationrules/RootManageSharedAccessKey"
+    "LogEventHubAuthorizationRuleId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-baseline-m365logging/providers/Microsoft.EventHub/namespaces/${ResourceContext:TenantName}-baseline-m365logging/authorizationrules/RootManageSharedAccessKey",
+    "M365Licenses": "[]"
   }
 }
