@@ -1,6 +1,5 @@
-* text=auto
-
-*.ps1 text eol=crlf
+# Don't touch line endings on text files
+* -text
 
 ## GRAPHICS
 *.ai	binary
