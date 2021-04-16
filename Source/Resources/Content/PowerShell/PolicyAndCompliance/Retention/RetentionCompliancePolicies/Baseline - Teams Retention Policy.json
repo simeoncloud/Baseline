@@ -1,0 +1,41 @@
+{
+  "comment": "Microsoft Teams retention policies must be created and managed independently. This policy defines an retention policy for all Microsoft Teams content.",
+  "enabled": true,
+  "exchangeLocation": [],
+  "exchangeLocationException": [],
+  "modernGroupLocation": [],
+  "modernGroupLocationException": [],
+  "oneDriveLocation": [],
+  "oneDriveLocationException": [],
+  "publicFolderLocation": [],
+  "restrictiveRetention": false,
+  "rules": [
+    {
+      "applyComplianceTag": null,
+      "comment": "",
+      "contentContainsSensitiveInformation": null,
+      "contentMatchQuery": "",
+      "excludedItemClasses": [],
+      "expirationDateOption": "CreationAgeInDays",
+      "machineLearningModelIDs": [],
+      "name": "Baseline - Teams Retention Policy",
+      "publishComplianceTag": "",
+      "retentionComplianceAction": "Keep",
+      "retentionDuration": "365",
+      "retentionDurationDisplayHint": "Days"
+    }
+  ],
+  "sharePointLocation": [],
+  "sharePointLocationException": [],
+  "skypeLocation": [],
+  "skypeLocationException": [],
+  "teamsChannelLocation": [
+    "All"
+  ],
+  "teamsChannelLocationException": [],
+  "teamsChatLocation": [
+    "All"
+  ],
+  "teamsChatLocationException": [],
+  "teamsPolicy": true
+}

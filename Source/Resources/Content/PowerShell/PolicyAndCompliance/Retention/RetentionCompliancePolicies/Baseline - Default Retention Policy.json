@@ -20,8 +20,15 @@
   "restrictiveRetention": false,
   "rules": [
     {
+      "applyComplianceTag": null,
+      "comment": "",
+      "contentContainsSensitiveInformation": null,
+      "contentMatchQuery": "",
       "excludedItemClasses": [],
+      "expirationDateOption": "",
+      "machineLearningModelIDs": [],
       "name": "Baseline - Default Retention Policy",
+      "publishComplianceTag": "",
       "retentionComplianceAction": "Keep",
       "retentionDuration": "365",
       "retentionDurationDisplayHint": "Days"
@@ -30,5 +37,12 @@
   "sharePointLocation": [
     "All"
   ],
-  "sharePointLocationException": []
+  "sharePointLocationException": [],
+  "skypeLocation": [],
+  "skypeLocationException": [],
+  "teamsChannelLocation": [],
+  "teamsChannelLocationException": [],
+  "teamsChatLocation": [],
+  "teamsChatLocationException": [],
+  "teamsPolicy": false
 }
