@@ -1,12 +1,22 @@
 {
   "description": "| What does this do? | Configures logging to capture Azure sign-in events, which can then be analyzed using Log Analytics Workspaces. The baseline captures all audit logs as well as all sign-in attempts. Logs can be viewed in the log analytics workspace and storage account created by \"baseline-m365logging.\" |\n| Why should you use this? | These settings improve security by providing you with the data needed to monitor and be alerted of log-in activity within your tenant. |\n| What is the end-user impact? | N/A |\n| Learn more | [Analyze Azure AD activity logs with Azure Monitor logs](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-analyze-activity-logs-log-analytics) |",
   "properties": {
-    "eventHubAuthorizationRuleId": null,
-    "eventHubName": null,
+    "eventHubAuthorizationRuleId": "${ResourceContext:LogEventHubAuthorizationRuleId}",
+    "eventHubName": "hub",
     "logAnalyticsDestinationType": null,
     "logs": [
       {
+        "category": "ADFSSignInLogs",
+        "categoryGroup": null,
+        "enabled": true,
+        "retentionPolicy": {
+          "days": 0,
+          "enabled": false
+        }
+      },
+      {
         "category": "AuditLogs",
+        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -15,6 +25,7 @@
       },
       {
         "category": "ManagedIdentitySignInLogs",
+        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -23,6 +34,7 @@
       },
       {
         "category": "NonInteractiveUserSignInLogs",
+        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -31,7 +43,8 @@
       },
       {
         "category": "ProvisioningLogs",
-        "enabled": false,
+        "categoryGroup": null,
+        "enabled": true,
         "retentionPolicy": {
           "days": 0,
           "enabled": false
@@ -39,6 +52,7 @@
       },
       {
         "category": "ServicePrincipalSignInLogs",
+        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -47,6 +61,7 @@
       },
       {
         "category": "SignInLogs",
+        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,

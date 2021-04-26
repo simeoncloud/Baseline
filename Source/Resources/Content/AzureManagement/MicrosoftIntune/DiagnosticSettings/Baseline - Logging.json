@@ -7,6 +7,7 @@
     "logs": [
       {
         "category": "AuditLogs",
+        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -15,6 +16,7 @@
       },
       {
         "category": "DeviceComplianceOrg",
+        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -23,7 +25,8 @@
       },
       {
         "category": "Devices",
-        "enabled": false,
+        "categoryGroup": null,
+        "enabled": true,
         "retentionPolicy": {
           "days": 0,
           "enabled": false
@@ -31,6 +34,7 @@
       },
       {
         "category": "OperationalLogs",
+        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
