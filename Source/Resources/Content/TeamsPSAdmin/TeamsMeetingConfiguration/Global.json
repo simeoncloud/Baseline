@@ -1,0 +1,13 @@
+{
+  "clientAppSharingPort": 50040,
+  "clientAppSharingPortRange": 20,
+  "clientAudioPort": 50000,
+  "clientAudioPortRange": 20,
+  "clientMediaPortRangeEnabled": true,
+  "clientVideoPort": 50020,
+  "clientVideoPortRange": 20,
+  "customFooterText": "",
+  "disableAnonymousJoin": true,
+  "disableAppInteractionForAnonymousUsers": false,
+  "enableQoS": false
+}

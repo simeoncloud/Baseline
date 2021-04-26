@@ -1,0 +1,6 @@
+{
+  "policyDetail": [
+    "{\"SecurityPolicy\":{\"Version\":0,\"SecurityDefaults\":{\"IgnoreBaselineProtectionPolicies\":true,\"IsEnabled\":false},\"StrongAuthenticationPolicies\":[{\"RegistrationExpirationInDays\":0,\"RegistrationWindowInDays\":14,\"IncludeConditions\":[{\"Groups\":[\"Baseline - Microsoft 365 Users\"]}],\"ExcludeConditions\":[],\"Mode\":\"enabled\"}],\"AccountCompromiseRiskPolicies\":[{\"Mode\":\"enabled\",\"RequiredActions\":[\"block\"],\"IncludeConditions\":[{\"Groups\":[\"Baseline - Microsoft 365 Users\"],\"MinAccountScore\":\"medium\"}],\"ExcludeConditions\":[]}]}}"
+  ],
+  "policyType": 10
+}

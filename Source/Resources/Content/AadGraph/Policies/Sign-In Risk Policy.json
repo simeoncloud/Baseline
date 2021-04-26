@@ -1,0 +1,6 @@
+{
+  "policyDetail": [
+    "{\"AuthenticationPolicies\":{\"AccessPolicy\":{\"Mode\":\"enabled\",\"IncludeConditions\":[{\"Groups\":[\"Baseline - Microsoft 365 Users\"],\"MinSessionScore\":\"medium\"}],\"ExcludeConditions\":[],\"RequiredAction\":\"Block\"}}}"
+  ],
+  "policyType": 1
+}
