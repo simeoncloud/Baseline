@@ -19,7 +19,6 @@
   "connectorsEnabledForSharepoint": true,
   "connectorsEnabledForTeams": true,
   "connectorsEnabledForYammer": true,
-  "customerLockboxEnabled": true,
   "defaultGroupAccessType": "Private",
   "defaultPublicFolderDeletedItemRetention": "30.00:00:00",
   "defaultPublicFolderIssueWarningQuota": "1.7 GB (1,825,361,920 bytes)",
