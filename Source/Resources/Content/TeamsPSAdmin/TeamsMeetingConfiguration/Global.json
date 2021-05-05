@@ -7,6 +7,7 @@
   "clientVideoPort": 50020,
   "clientVideoPortRange": 20,
   "customFooterText": "",
+  "description": "| What does this do? | Configures Microsoft Teams meeting policies. The baseline prohibits anonymous users from joining Teams meetings.  |\n| Why should you use this? | The Microsoft default allows all anonymous users to join Teams meetings. Disabling this feature can protect users from unwanted Teams meeting attendees. |\n| What is the end-user impact? | Users without Teams accounts will not be allowed into Teams meetings. |\n| Learn more | [Meeting Settings in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams) |",
   "disableAnonymousJoin": true,
   "disableAppInteractionForAnonymousUsers": false,
   "enableQoS": false
