@@ -1,7 +1,7 @@
 {
   "description": "| What does this do? | Analyzes user sign-ins and calculates a risk score based on the probability that the sign-in was not performed by the user. If a risky sign-in is detected, the user will be prompted for MFA. |\n| Why should you use this? | This protects your tenants from nefarious sign-in attempts. |\n| What is the end-user impact? | When a sign-in attempt is flagged as risky, the user will be required to complete MFA. If a user has not yet registered for MFA on their account, they would be blocked from accessing their account. You must configure the MFA registration policy for all users who are a part of the sign-in risk policy to ensure that they are not locked out of their accounts. |\n| Learn more | [Sign-in risk policy](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-policies#sign-in-risk-policy) |",
   "policyDetail": [
-    "{\"AuthenticationPolicies\":{\"AuthenticationMethodPolicy\":{\"Mode\":\"enabled\",\"IncludeConditions\":[{\"Groups\":[\"Baseline - Microsoft 365 Users\"],\"MinSessionScore\":\"medium\"}],\"ExcludeConditions\":[],\"RequiredUserAuthenticationMethod\":\"mfa\"}}}"
+    "{\"SecurityPolicy\":{\"Version\":0,\"AccountCompromiseRiskPolicies\":[{\"IncludeConditions\":[{\"Groups\":[\"6ff70078-3616-475c-be90-f1189a29496b\"],\"MinAccountScore\":\"high\"}],\"ExcludeConditions\":[],\"RequiredActions\":[\"mfa_pwd_change\"],\"Mode\":\"enabled\"}],\"SecurityDefaults\":{\"IgnoreBaselineProtectionPolicies\":false,\"IsEnabled\":false}}}"
   ],
   "policyType": 1
 }
