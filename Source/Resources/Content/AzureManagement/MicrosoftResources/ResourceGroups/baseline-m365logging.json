@@ -55,7 +55,7 @@
       "name": "[concat(resourceGroup().name, '/hub')]",
       "properties": {
         "messageRetentionInDays": "[parameters('eventHubMessageRetentionInDays')]",
-        "partitionCount": 1
+        "partitionCount": 4
       },
       "type": "Microsoft.EventHub/namespaces/eventhubs"
     },
