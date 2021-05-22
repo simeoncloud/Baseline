@@ -1,0 +1,23 @@
+{
+  "authenticationFailAction": "MoveToJmf",
+  "enabled": true,
+  "enableFirstContactSafetyTips": false,
+  "enableMailboxIntelligence": true,
+  "enableMailboxIntelligenceProtection": false,
+  "enableOrganizationDomainsProtection": false,
+  "enableSimilarDomainsSafetyTips": false,
+  "enableSimilarUsersSafetyTips": false,
+  "enableSpoofIntelligence": true,
+  "enableTargetedDomainsProtection": false,
+  "enableTargetedUserProtection": false,
+  "enableUnauthenticatedSender": true,
+  "enableUnusualCharactersSafetyTips": false,
+  "enableViaTag": true,
+  "impersonationProtectionState": "Automatic",
+  "mailboxIntelligenceProtectionAction": "NoAction",
+  "phishThresholdLevel": 1,
+  "recommendedPolicyType": "Custom",
+  "rules": [],
+  "targetedDomainProtectionAction": "NoAction",
+  "targetedUserProtectionAction": "NoAction"
+}

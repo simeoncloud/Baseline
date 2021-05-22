@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
+  "$description": "| What does this do? | The baseline disables Windows Hello for Business. |\n| Why should you use this? | If you do not want users to be prompted to setup Windows Hello the first time they log into a device. |\n| What is the end-user impact? | Users will not be prompted to set up Windows Hello when they log in to a device for the first time. |\n| Learn more | [Windows Hello for Business](https://docs.microsoft.com/en-us/mem/intune/protect/identity-protection-windows-settings) |",
   "assignments": [
     {
       "target": {
@@ -7,7 +8,7 @@
       }
     }
   ],
-  "description": "| What does this do? | The baseline disables Windows Hello for Business. |\n| Why should you use this? | If you do not want users to be prompted to setup Windows Hello the first time they log into a device. |\n| What is the end-user impact? | Users will not be prompted to set up Windows Hello when they log in to a device for the first time. |\n| Learn more | [Windows Hello for Business](https://docs.microsoft.com/en-us/mem/intune/protect/identity-protection-windows-settings) |",
+  "displayName": "All users and all devices",
   "enhancedBiometricsState": "enabled",
   "pinExpirationInDays": 41,
   "pinLowercaseCharactersUsage": "disallowed",

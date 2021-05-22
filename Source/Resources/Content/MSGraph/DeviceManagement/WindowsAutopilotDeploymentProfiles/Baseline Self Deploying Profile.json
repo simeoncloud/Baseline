@@ -1,0 +1,26 @@
+{
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "$description": "| What does this do? | Creates an Intune Autopilot profile for enrolling machines using the self deploying method, which enables a device to be enrolled into your environment with little to no user interaction. Self deployment mode comes with restrictions including that the device must have TPM 2.0, and it is not supported on virtual machines even if they have a virtual TPM. Devices in the Azure AD group \"Baseline Autopilot Devices Self Deploying\" will be assigned this profile. |",
+  "$name": "Baseline: Self Deploying Profile",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - Self Deploying?$id}"
+      }
+    }
+  ],
+  "deviceNameTemplate": "",
+  "deviceType": "windowsPc",
+  "enableWhiteGlove": false,
+  "extractHardwareHash": true,
+  "language": "en-US",
+  "outOfBoxExperienceSettings": {
+    "deviceUsageType": "shared",
+    "hideEscapeLink": true,
+    "hideEULA": true,
+    "hidePrivacySettings": true,
+    "skipKeyboardSelectionPage": true,
+    "userType": "standard"
+  }
+}

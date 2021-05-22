@@ -1,5 +1,5 @@
 # Don't touch line endings on text files
-* text=auto eol=crlf
+* text=auto
 
 ## GRAPHICS
 *.ai	binary

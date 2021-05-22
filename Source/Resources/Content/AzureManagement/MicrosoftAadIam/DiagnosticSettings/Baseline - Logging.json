@@ -1,13 +1,11 @@
 {
-  "description": "| What does this do? | Configures logging to capture Azure sign-in events, which can then be analyzed using Log Analytics Workspaces. The baseline captures all audit logs as well as all sign-in attempts. Logs can be viewed in the log analytics workspace and storage account created by \"baseline-m365logging.\" |\n| Why should you use this? | These settings improve security by providing you with the data needed to monitor and be alerted of log-in activity within your tenant. |\n| What is the end-user impact? | N/A |\n| Learn more | [Analyze Azure AD activity logs with Azure Monitor logs](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-analyze-activity-logs-log-analytics) |",
+  "$description": "| What does this do? | Configures logging to capture Azure sign-in events, which can then be analyzed using Log Analytics Workspaces. The baseline captures all audit logs as well as all sign-in attempts. Logs can be viewed in the log analytics workspace and storage account created by \"baseline-m365logging.\" |\n| Why should you use this? | These settings improve security by providing you with the data needed to monitor and be alerted of log-in activity within your tenant. |\n| What is the end-user impact? | N/A |\n| Learn more | [Analyze Azure AD activity logs with Azure Monitor logs](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-analyze-activity-logs-log-analytics) |",
   "properties": {
-    "eventHubAuthorizationRuleId": "${ResourceContext:LogEventHubAuthorizationRuleId}",
+    "eventHubAuthorizationRuleId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/baseline-m365logging/providers/Microsoft.EventHub/namespaces/${urn:resource:AzureManagement:MicrosoftResources:ResourceGroups/baseline-m365logging?$data.outputValues.resourceName}/authorizationrules/RootManageSharedAccessKey",
     "eventHubName": "hub",
-    "logAnalyticsDestinationType": null,
     "logs": [
       {
         "category": "ADFSSignInLogs",
-        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -16,7 +14,6 @@
       },
       {
         "category": "AuditLogs",
-        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -25,7 +22,6 @@
       },
       {
         "category": "ManagedIdentitySignInLogs",
-        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -34,7 +30,6 @@
       },
       {
         "category": "NonInteractiveUserSignInLogs",
-        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -43,7 +38,6 @@
       },
       {
         "category": "ProvisioningLogs",
-        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -52,7 +46,6 @@
       },
       {
         "category": "ServicePrincipalSignInLogs",
-        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -61,7 +54,6 @@
       },
       {
         "category": "SignInLogs",
-        "categoryGroup": null,
         "enabled": true,
         "retentionPolicy": {
           "days": 0,
@@ -70,8 +62,7 @@
       }
     ],
     "metrics": [],
-    "serviceBusRuleId": null,
-    "storageAccountId": "${ResourceContext:LogStorageAccountId}",
-    "workspaceId": "${ResourceContext:LogAnalyticsWorkspaceId}"
+    "storageAccountId": "/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/baseline-m365logging/providers/Microsoft.Storage/storageAccounts/${urn:resource:AzureManagement:MicrosoftResources:ResourceGroups/baseline-m365logging?$data.outputValues.resourceName}",
+    "workspaceId": "/subscriptions/${AzureManagement:SubscriptionId}/resourcegroups/baseline-m365logging/providers/microsoft.operationalinsights/workspaces/${urn:resource:AzureManagement:MicrosoftResources:ResourceGroups/baseline-m365logging?$data.outputValues.resourceName}"
   }
 }

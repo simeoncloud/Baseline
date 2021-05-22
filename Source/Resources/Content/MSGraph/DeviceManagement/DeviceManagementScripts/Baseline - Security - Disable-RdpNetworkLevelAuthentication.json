@@ -1,13 +1,13 @@
 {
+  "$description": "| What does this do? | Disables Network Level Authentication as a requirement for Remote Desktop. This is required to support clients that do not support Network Level Authentication. |\n| Why should you use this? | To allow connections via Remote Desktop from non-Azure AD joined devices. |\n| What is the end-user impact? | Users may connect remotely via Remote Desktop. |\n| Learn more | It is not currently possible to use Network Level Authentication when using Remote Desktop to connect from a non-Azure AD joined device to an Azure AD joined device. Removing the requirement for Network Level Authentication will not prevent clients from trying to negotiate Network Level Authentication if they support it. That means that Windows clients that are not joined to the same Azure AD as the host must explicitly add \"enablecredsspsupport:i:0\" in the .rdp file when connecting to prevent attempts to pre-authenticate. |",
   "assignments": [
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "Baseline - Corporate Devices"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
       }
     }
   ],
-  "description": "| What does this do? | Disables Network Level Authentication as a requirement for Remote Desktop. This is required to support clients that do not support Network Level Authentication. |\n| Why should you use this? | To allow connections via Remote Desktop from non-Azure AD joined devices. |\n| What is the end-user impact? | Users may connect remotely via Remote Desktop. |\n| Learn more | It is not currently possible to use Network Level Authentication when using Remote Desktop to connect from a non-Azure AD joined device to an Azure AD joined device. Removing the requirement for Network Level Authentication will not prevent clients from trying to negotiate Network Level Authentication if they support it. That means that Windows clients that are not joined to the same Azure AD as the host must explicitly add \"enablecredsspsupport:i:0\" in the .rdp file when connecting to prevent attempts to pre-authenticate. |",
   "enforceSignatureCheck": false,
   "runAs32Bit": true,
   "runAsAccount": "system"
