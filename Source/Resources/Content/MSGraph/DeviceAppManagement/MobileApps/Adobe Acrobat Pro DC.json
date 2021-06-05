@@ -1,0 +1,64 @@
+{
+  "$manifest": {
+    "$unzip": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_DC_Web_WWMUI.zip"
+  },
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "applicableArchitectures": "x86, x64",
+  "assignments": [],
+  "description": "| What does this do? | Installs Adobe Acrobat Pro DC. |\n| Why should you use this? | If you want users to have Adobe Acrobat Pro DC installed on their computers. |\n| What is the end-user impact? | Users will have Adobe Acrobat Pro DC installed on their computer. |\n| Learn more | [Adobe](https://acrobat.adobe.com/us/en/acrobat/acrobat-pro.html)",
+  "detectionRules": [
+    {
+      "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
+      "check32BitOn64System": true,
+      "detectionType": "version",
+      "detectionValue": "20.13.20074.18474",
+      "fileOrFolderName": "Acrobat.exe",
+      "operator": "greaterThanOrEqual",
+      "path": "%ProgramFiles%\\Adobe\\Acrobat DC\\Acrobat"
+    }
+  ],
+  "developer": "Adobe",
+  "fileName": "01",
+  "installCommandLine": "powershell -ExecutionPolicy Bypass -NonInteractive -NoProfile -Command $ErrorActionPreference = 'Stop'; Start-Process 'Adobe Acrobat/Setup.exe' -ArgumentList '/sAll /rs /l' -NoNewWindow -Wait",
+  "installExperience": {
+    "deviceRestartBehavior": "basedOnReturnCode",
+    "runAsAccount": "system"
+  },
+  "isFeatured": false,
+  "minimumSupportedOperatingSystem": {
+    "v10_1607": true,
+    "v10_1703": false,
+    "v10_1709": false,
+    "v10_1803": false,
+    "v10_1809": false,
+    "v10_1903": false
+  },
+  "notes": "/sAll is flag for silent install, /rs suppresses reboot, and /l is for installation logging.",
+  "owner": "Adobe",
+  "publisher": "Adobe",
+  "relationships": [],
+  "requirementRules": [],
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    }
+  ],
+  "uninstallCommandLine": "start /wait msiexec /qn /x \"Adobe Acrobat/AcroPro.msi\""
+}
