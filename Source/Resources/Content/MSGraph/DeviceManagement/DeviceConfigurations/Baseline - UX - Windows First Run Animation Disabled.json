@@ -13,6 +13,7 @@
     {
       "@odata.type": "#microsoft.graph.omaSettingInteger",
       "displayName": "DisableFirstLogonAnimation",
+      "isEncrypted": false,
       "isReadOnly": false,
       "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnableFirstLogonAnimation",
       "value": 0

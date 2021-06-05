@@ -45,7 +45,10 @@
     "v10_1709": false,
     "v10_1803": false,
     "v10_1809": false,
-    "v10_1903": false
+    "v10_1903": false,
+    "v10_1909": false,
+    "v10_2004": false,
+    "v10_2H20": false
   },
   "notes": "The capital /S in the install/uninstall command lines is case sensitive.",
   "owner": "",

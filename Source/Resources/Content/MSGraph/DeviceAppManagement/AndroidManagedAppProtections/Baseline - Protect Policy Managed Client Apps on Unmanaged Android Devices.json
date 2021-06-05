@@ -14,6 +14,7 @@
   "appActionIfAndroidSafetyNetAppsVerificationFailed": "block",
   "appActionIfAndroidSafetyNetDeviceAttestationFailed": "block",
   "appActionIfDeviceComplianceRequired": "block",
+  "appActionIfDeviceLockNotSet": "block",
   "appActionIfMaximumPinRetriesExceeded": "block",
   "approvedKeyboards": [],
   "apps": [
@@ -270,11 +271,14 @@
       }
     }
   ],
+  "biometricAuthenticationBlocked": false,
+  "blockAfterCompanyPortalUpdateDeferralInDays": 0,
   "blockDataIngestionIntoOrganizationDocuments": false,
   "contactSyncBlocked": false,
   "dataBackupBlocked": true,
   "description": "| What does this do? | Configures the default behavior for managed client applications on unmanaged Android devices. The baseline allows data to flow between allowed applications, but prohibits users from copying or saving data outside of the application except for users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.\" |\n| Why should you use this? |  If you want to protect users' personal Android devices by preventing organization data from leaving allowed apps. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Android device users cannot copy or save data outside of your managed client applications. |\n| Learn more | [App protection policies overview](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
   "deviceComplianceRequired": true,
+  "deviceLockRequired": false,
   "disableAppEncryptionIfDeviceEncryptionIsEnabled": false,
   "disableAppPinIfDevicePinIsSet": false,
   "encryptAppData": true,
@@ -303,8 +307,11 @@
   "printBlocked": true,
   "requiredAndroidSafetyNetAppsVerificationType": "none",
   "requiredAndroidSafetyNetDeviceAttestationType": "none",
+  "requiredAndroidSafetyNetEvaluationType": "basic",
   "saveAsBlocked": true,
   "screenCaptureBlocked": true,
   "simplePinBlocked": false,
-  "targetedAppManagementLevels": "unmanaged"
+  "targetedAppManagementLevels": "unmanaged",
+  "warnAfterCompanyPortalUpdateDeferralInDays": 0,
+  "wipeAfterCompanyPortalUpdateDeferralInDays": 0
 }

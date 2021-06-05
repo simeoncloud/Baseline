@@ -13,6 +13,7 @@
     {
       "@odata.type": "#microsoft.graph.omaSettingString",
       "displayName": "AllowUsersToConnectRemotely",
+      "isEncrypted": false,
       "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/AllowUsersToConnectRemotely",
       "value": "<enabled/>"
     }

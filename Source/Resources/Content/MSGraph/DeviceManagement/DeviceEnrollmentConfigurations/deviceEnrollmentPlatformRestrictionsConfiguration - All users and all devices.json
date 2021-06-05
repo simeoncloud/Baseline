@@ -2,6 +2,7 @@
   "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
   "androidForWorkRestriction": {
     "blockedManufacturers": [],
+    "blockedSkus": [],
     "osMaximumVersion": "",
     "osMinimumVersion": "",
     "personalDeviceEnrollmentBlocked": false,
@@ -9,6 +10,7 @@
   },
   "androidRestriction": {
     "blockedManufacturers": [],
+    "blockedSkus": [],
     "osMaximumVersion": "",
     "osMinimumVersion": "",
     "personalDeviceEnrollmentBlocked": true,
@@ -24,6 +26,7 @@
   "description": "| What does this do? | Restricts the type of device that can be enrolled. The baseline allows enrollment of Autopiloted registered devices only. This limit can be overridden by other configurations with a higher priority. |\n| Why should you use this? | If you want to ensure that only Autopilot registered devices are enrolled in Intune. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users will be restricted to enrolling only Autopilot registered devices in Intune. |\n| Learn more | [Create a device type restriction](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set#create-a-device-type-restriction) |",
   "iosRestriction": {
     "blockedManufacturers": [],
+    "blockedSkus": [],
     "osMaximumVersion": "",
     "osMinimumVersion": "",
     "personalDeviceEnrollmentBlocked": true,
@@ -31,17 +34,26 @@
   },
   "macOSRestriction": {
     "blockedManufacturers": [],
+    "blockedSkus": [],
     "personalDeviceEnrollmentBlocked": true,
     "platformBlocked": false
   },
   "macRestriction": {
     "blockedManufacturers": [],
+    "blockedSkus": [],
     "personalDeviceEnrollmentBlocked": true,
     "platformBlocked": false
   },
   "priority": 0,
+  "windowsHomeSkuRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": false
+  },
   "windowsRestriction": {
     "blockedManufacturers": [],
+    "blockedSkus": [],
     "osMaximumVersion": "",
     "osMinimumVersion": "",
     "personalDeviceEnrollmentBlocked": true,
