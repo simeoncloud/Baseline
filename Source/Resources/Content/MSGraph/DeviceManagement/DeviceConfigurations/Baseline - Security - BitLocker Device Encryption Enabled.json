@@ -25,7 +25,6 @@
     "requireEncryptionForWriteAccess": true
   },
   "bitLockerRemovableDrivePolicy": {
-    "blockCrossOrganizationWriteAccess": false,
     "requireEncryptionForWriteAccess": true
   },
   "bitLockerSystemDrivePolicy": {
@@ -41,8 +40,6 @@
     },
     "startupAuthenticationBlockWithoutTpmChip": true,
     "startupAuthenticationRequired": true,
-    "startupAuthenticationTpmKeyUsage": "blocked",
-    "startupAuthenticationTpmPinAndKeyUsage": "blocked",
     "startupAuthenticationTpmPinUsage": "allowed",
     "startupAuthenticationTpmUsage": "allowed"
   },
