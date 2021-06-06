@@ -19,7 +19,6 @@
   "engagedRestartTransitionScheduleInDays": null,
   "featureUpdatesDeferralPeriodInDays": 3,
   "featureUpdatesRollbackWindowInDays": 60,
-  "featureUpdatesWillBeRolledBack": false,
   "installationSchedule": {
     "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall",
     "activeHoursEnd": "22:00:00",
@@ -27,7 +26,6 @@
   },
   "microsoftUpdateServiceAllowed": true,
   "qualityUpdatesDeferralPeriodInDays": 3,
-  "qualityUpdatesWillBeRolledBack": false,
   "scheduleImminentRestartWarningInMinutes": 60,
   "scheduleRestartWarningInHours": 8,
   "updateWeeks": "everyWeek",
