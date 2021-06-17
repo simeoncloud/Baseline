@@ -5,6 +5,7 @@
     "DynamicMembership"
   ],
   "mailEnabled": false,
+  "mailNickname": "Baseline-AutopilotDevices-UserDriven",
   "membershipRule": "(device.devicePhysicalIDs -all (_ -ne \"[OrderID]:Autopilot-SelfDeploying\")) -and ((device.devicePhysicalIDs -any (_ -contains \"[ZTDId]\")) -or (device.deviceOwnership -eq \"Company\"))",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],

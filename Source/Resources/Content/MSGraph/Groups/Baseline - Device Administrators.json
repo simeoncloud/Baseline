@@ -4,6 +4,7 @@
   "groupTypes": [],
   "isAssignableToRole": true,
   "mailEnabled": false,
+  "mailNickname": "Baseline-DeviceAdministrators",
   "memberOf": [
     {
       "@odata.type": "#microsoft.graph.directoryRole",

@@ -3,6 +3,7 @@
   "bannerLogoUrl": "",
   "hideKeepMeSignedIn": false,
   "illustrationUrl": "",
+  "locale": 0,
   "signInBackColor": "",
   "signInPageText": "",
   "signInUserIdLabel": "user@${ResourceContext:TenantDomainName}",
