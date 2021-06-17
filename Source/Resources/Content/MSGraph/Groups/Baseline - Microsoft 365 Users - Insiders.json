@@ -5,6 +5,7 @@
   },
   "groupTypes": [],
   "mailEnabled": false,
+  "mailNickname": "Baseline-Microsoft365Users-Insiders",
   "memberOf": [],
   "members": [],
   "resourceBehaviorOptions": [],
