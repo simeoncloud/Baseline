@@ -1,11 +1,11 @@
 {
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "$description": "| What does this do? | Installs Adobe Acrobat Pro DC. |\n| Why should you use this? | If you want users to have Adobe Acrobat Pro DC installed on their computers. |\n| What is the end-user impact? | Users will have Adobe Acrobat Pro DC installed on their computer. |\n| Learn more | [Adobe](https://acrobat.adobe.com/us/en/acrobat/acrobat-pro.html)",
   "$manifest": {
     "$unzip": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_DC_Web_WWMUI.zip"
   },
-  "@odata.type": "#microsoft.graph.win32LobApp",
   "applicableArchitectures": "x86, x64",
   "assignments": [],
-  "description": "| What does this do? | Installs Adobe Acrobat Pro DC. |\n| Why should you use this? | If you want users to have Adobe Acrobat Pro DC installed on their computers. |\n| What is the end-user impact? | Users will have Adobe Acrobat Pro DC installed on their computer. |\n| Learn more | [Adobe](https://acrobat.adobe.com/us/en/acrobat/acrobat-pro.html)",
   "detectionRules": [
     {
       "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
@@ -18,6 +18,8 @@
     }
   ],
   "developer": "Adobe",
+  "enableFileNameBasedDetection": false,
+  "enableInstallLogging": true,
   "fileName": "01",
   "installCommandLine": "powershell -ExecutionPolicy Bypass -NonInteractive -NoProfile -Command $ErrorActionPreference = 'Stop'; Start-Process 'Adobe Acrobat/Setup.exe' -ArgumentList '/sAll /rs /l' -NoNewWindow -Wait",
   "installExperience": {
@@ -26,6 +28,7 @@
   },
   "isFeatured": false,
   "minimumSupportedOperatingSystem": {
+    "v10_0": false,
     "v10_1607": true,
     "v10_1703": false,
     "v10_1709": false,
@@ -34,8 +37,12 @@
     "v10_1903": false,
     "v10_1909": false,
     "v10_2004": false,
-    "v10_2H20": false
+    "v10_21H1": false,
+    "v10_2H20": false,
+    "v8_0": false,
+    "v8_1": false
   },
+  "minimumSupportedWindowsRelease": "1607",
   "notes": "/sAll is flag for silent install, /rs suppresses reboot, and /l is for installation logging.",
   "owner": "Adobe",
   "publisher": "Adobe",

@@ -1,24 +1,13 @@
 {
-  "allowedAndroidDeviceModels": [],
-  "allowedDataIngestionLocations": [],
+  "$description": "| What does this do? | Configures the default behavior for managed client applications on unmanaged Android devices. The baseline allows data to flow between allowed applications, but prohibits users from copying or saving data outside of the application except for users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.\" |\n| Why should you use this? |  If you want to protect users' personal Android devices by preventing organization data from leaving allowed apps. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Android device users cannot copy or save data outside of your managed client applications. |\n| Learn more | [App protection policies overview](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
   "allowedDataStorageLocations": [
     "oneDriveForBusiness",
     "sharePoint"
   ],
-  "allowedInboundDataTransferSources": "allApps",
-  "allowedOutboundClipboardSharingExceptionLength": 0,
-  "allowedOutboundClipboardSharingLevel": "managedAppsWithPasteIn",
-  "allowedOutboundDataTransferDestinations": "managedApps",
-  "appActionIfAndroidDeviceManufacturerNotAllowed": "block",
-  "appActionIfAndroidDeviceModelNotAllowed": "block",
-  "appActionIfAndroidSafetyNetAppsVerificationFailed": "block",
-  "appActionIfAndroidSafetyNetDeviceAttestationFailed": "block",
-  "appActionIfDeviceComplianceRequired": "block",
-  "appActionIfDeviceLockNotSet": "block",
-  "appActionIfMaximumPinRetriesExceeded": "block",
-  "approvedKeyboards": [],
+  "appGroupType": "selectedPublicApps",
   "apps": [
     {
+      "id": "com.adobe.reader.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.adobe.reader"
@@ -26,6 +15,7 @@
       "version": "267816930"
     },
     {
+      "id": "com.adobe.reader.intune.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.adobe.reader.intune"
@@ -33,6 +23,7 @@
       "version": "113579739"
     },
     {
+      "id": "com.citrix.sharefile.intune.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.citrix.sharefile.intune"
@@ -40,6 +31,7 @@
       "version": "547408985"
     },
     {
+      "id": "com.microsoft.cortana.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.cortana"
@@ -47,6 +39,7 @@
       "version": "1239242880"
     },
     {
+      "id": "com.microsoft.crm.crmphone.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.crm.crmphone"
@@ -54,6 +47,7 @@
       "version": "-1708416158"
     },
     {
+      "id": "com.microsoft.crm.crmtablet.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.crm.crmtablet"
@@ -61,6 +55,7 @@
       "version": "1872338160"
     },
     {
+      "id": "com.microsoft.dynamics.invoice.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.dynamics.invoice"
@@ -68,6 +63,7 @@
       "version": "1413520457"
     },
     {
+      "id": "com.microsoft.emmx.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.emmx"
@@ -75,6 +71,7 @@
       "version": "-725393251"
     },
     {
+      "id": "com.microsoft.exchange.bookings.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.exchange.bookings"
@@ -82,6 +79,7 @@
       "version": "-1296747733"
     },
     {
+      "id": "com.microsoft.flow.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.flow"
@@ -89,6 +87,7 @@
       "version": "-496779816"
     },
     {
+      "id": "com.microsoft.intune.mam.managedbrowser.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.intune.mam.managedbrowser"
@@ -96,6 +95,7 @@
       "version": "1356606505"
     },
     {
+      "id": "com.microsoft.ipviewer.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.ipviewer"
@@ -103,6 +103,7 @@
       "version": "522412547"
     },
     {
+      "id": "com.microsoft.launcher.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.launcher"
@@ -110,6 +111,7 @@
       "version": "-1429615568"
     },
     {
+      "id": "com.microsoft.mobile.polymer.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.mobile.polymer"
@@ -117,6 +119,7 @@
       "version": "2129189606"
     },
     {
+      "id": "com.microsoft.msapps.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.msapps"
@@ -124,6 +127,7 @@
       "version": "986978680"
     },
     {
+      "id": "com.microsoft.o365smb.connections.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.o365smb.connections"
@@ -131,6 +135,7 @@
       "version": "1379963506"
     },
     {
+      "id": "com.microsoft.office.excel.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.office.excel"
@@ -138,6 +143,7 @@
       "version": "-1789826587"
     },
     {
+      "id": "com.microsoft.office.lync15.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.office.lync15"
@@ -145,6 +151,7 @@
       "version": "-1419864878"
     },
     {
+      "id": "com.microsoft.office.onenote.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.office.onenote"
@@ -152,6 +159,7 @@
       "version": "186482170"
     },
     {
+      "id": "com.microsoft.office.outlook.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.office.outlook"
@@ -159,6 +167,7 @@
       "version": "1146701235"
     },
     {
+      "id": "com.microsoft.office.powerpoint.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.office.powerpoint"
@@ -166,6 +175,7 @@
       "version": "1411665537"
     },
     {
+      "id": "com.microsoft.office.word.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.office.word"
@@ -173,6 +183,7 @@
       "version": "2122351424"
     },
     {
+      "id": "com.microsoft.planner.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.planner"
@@ -180,6 +191,7 @@
       "version": "-1658524342"
     },
     {
+      "id": "com.microsoft.powerbim.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.powerbim"
@@ -187,6 +199,7 @@
       "version": "1564653697"
     },
     {
+      "id": "com.microsoft.sharepoint.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.sharepoint"
@@ -194,6 +207,7 @@
       "version": "84773357"
     },
     {
+      "id": "com.microsoft.skydrive.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.skydrive"
@@ -201,6 +215,7 @@
       "version": "1887770705"
     },
     {
+      "id": "com.microsoft.stream.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.stream"
@@ -208,6 +223,7 @@
       "version": "648128536"
     },
     {
+      "id": "com.microsoft.teams.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.teams"
@@ -215,6 +231,7 @@
       "version": "1900143244"
     },
     {
+      "id": "com.microsoft.todos.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.todos"
@@ -222,6 +239,7 @@
       "version": "1697858135"
     },
     {
+      "id": "com.microsoft.workfolders.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.microsoft.workfolders"
@@ -229,6 +247,7 @@
       "version": "-1290240016"
     },
     {
+      "id": "com.ninefolders.hd3.work.intune.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.ninefolders.hd3.work.intune"
@@ -236,6 +255,7 @@
       "version": "1959187444"
     },
     {
+      "id": "com.printeron.droid.phone.intune.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.printeron.droid.phone.intune"
@@ -243,6 +263,7 @@
       "version": "1984547164"
     },
     {
+      "id": "com.yammer.v1.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "com.yammer.v1"
@@ -250,6 +271,7 @@
       "version": "-1248070370"
     },
     {
+      "id": "ols.microsoft.com.shiftr.android",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.androidMobileAppIdentifier",
         "packageId": "ols.microsoft.com.shiftr"
@@ -261,57 +283,15 @@
     {
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-        "groupId": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
       }
     },
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "Baseline - Microsoft 365 Users"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
       }
     }
   ],
-  "biometricAuthenticationBlocked": false,
-  "blockAfterCompanyPortalUpdateDeferralInDays": 0,
-  "blockDataIngestionIntoOrganizationDocuments": false,
-  "contactSyncBlocked": false,
-  "dataBackupBlocked": true,
-  "description": "| What does this do? | Configures the default behavior for managed client applications on unmanaged Android devices. The baseline allows data to flow between allowed applications, but prohibits users from copying or saving data outside of the application except for users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.\" |\n| Why should you use this? |  If you want to protect users' personal Android devices by preventing organization data from leaving allowed apps. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Android device users cannot copy or save data outside of your managed client applications. |\n| Learn more | [App protection policies overview](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
-  "deviceComplianceRequired": true,
-  "deviceLockRequired": false,
-  "disableAppEncryptionIfDeviceEncryptionIsEnabled": false,
-  "disableAppPinIfDevicePinIsSet": false,
-  "encryptAppData": true,
-  "exemptedAppPackages": [],
-  "fingerprintBlocked": false,
-  "keyboardsRestricted": false,
-  "managedBrowser": "notConfigured",
-  "managedBrowserToOpenLinksRequired": false,
-  "maximumAllowedDeviceThreatLevel": "notConfigured",
-  "maximumPinRetries": 5,
-  "minimumPinLength": 6,
-  "minimumRequiredPatchVersion": "0000-00-00",
-  "minimumWarningPatchVersion": "0000-00-00",
-  "minimumWipePatchVersion": "0000-00-00",
-  "mobileThreatDefenseRemediationAction": "block",
-  "notificationRestriction": "allow",
-  "organizationalCredentialsRequired": false,
-  "periodBeforePinReset": "PT0S",
-  "periodOfflineBeforeAccessCheck": "PT12H",
-  "periodOfflineBeforeWipeIsEnforced": "P60D",
-  "periodOnlineBeforeAccessCheck": "PT4H",
-  "pinCharacterSet": "alphanumericAndSymbol",
-  "pinRequired": true,
-  "pinRequiredInsteadOfBiometricTimeout": "PT4H",
-  "previousPinBlockCount": 0,
-  "printBlocked": true,
-  "requiredAndroidSafetyNetAppsVerificationType": "none",
-  "requiredAndroidSafetyNetDeviceAttestationType": "none",
-  "requiredAndroidSafetyNetEvaluationType": "basic",
-  "saveAsBlocked": true,
-  "screenCaptureBlocked": true,
-  "simplePinBlocked": false,
-  "targetedAppManagementLevels": "unmanaged",
-  "warnAfterCompanyPortalUpdateDeferralInDays": 0,
-  "wipeAfterCompanyPortalUpdateDeferralInDays": 0
+  "pinRequiredInsteadOfBiometricTimeout": "PT4H"
 }

@@ -1,10 +1,11 @@
 {
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "$description": "| What does this do? | 7-Zip is a file archiver with a high compression ratio. |\n| Why should you use this? | 7-Zip is one of the most popular, compatible and fastest file archiving software. |\n| What is the end-user impact? | Users will have 7-Zip installed on their computer. |\n| Learn more | [7-Zip](https://www.7-zip.org/)",
   "$manifest": {
     "Install.bat": "${ResourceContext:MSGraph:DeviceAppManagement:MobileApps:Install.bat}",
-    "Setup.exe": "https://www.7-zip.org/a/7z1805.exe",
-    "Setup-x64.exe": "https://www.7-zip.org/a/7z1805-x64.exe"
+    "Setup-x64.exe": "https://www.7-zip.org/a/7z1805-x64.exe",
+    "Setup.exe": "https://www.7-zip.org/a/7z1805.exe"
   },
-  "@odata.type": "#microsoft.graph.win32LobApp",
   "applicableArchitectures": "x86, x64",
   "assignments": [
     {
@@ -16,11 +17,10 @@
       },
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "Baseline - Corporate Devices"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
       }
     }
   ],
-  "description": "| What does this do? | 7-Zip is a file archiver with a high compression ratio. |\n| Why should you use this? | 7-Zip is one of the most popular, compatible and fastest file archiving software. |\n| What is the end-user impact? | Users will have 7-Zip installed on their computer. |\n| Learn more | [7-Zip](https://www.7-zip.org/)",
   "detectionRules": [
     {
       "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
@@ -32,6 +32,8 @@
     }
   ],
   "developer": "",
+  "enableFileNameBasedDetection": true,
+  "enableInstallLogging": true,
   "fileName": "011",
   "installCommandLine": "Install.bat /S",
   "installExperience": {
@@ -40,6 +42,7 @@
   },
   "isFeatured": false,
   "minimumSupportedOperatingSystem": {
+    "v10_0": false,
     "v10_1607": true,
     "v10_1703": false,
     "v10_1709": false,
@@ -48,8 +51,12 @@
     "v10_1903": false,
     "v10_1909": false,
     "v10_2004": false,
-    "v10_2H20": false
+    "v10_21H1": false,
+    "v10_2H20": false,
+    "v8_0": false,
+    "v8_1": false
   },
+  "minimumSupportedWindowsRelease": "1607",
   "notes": "The capital /S in the install/uninstall command lines is case sensitive.",
   "owner": "",
   "publisher": "7-Zip",

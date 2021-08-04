@@ -1,6 +1,9 @@
 {
+  "$description": "| What does this do? | Configures the default behavior for application settings of managed applications on unmanaged iOS devices. The baseline expands the list of applications that are allowed by Intune and data loss protection policies. |\n| Why should you use this? | If you want to improve your users' iOS mobile experience by expanding the list of allowed applications. |\n| What is the end-user impact? |  If you want to expand the list of applications that can access organization data on iOS devices. |\n| Learn more | [Add app configuration policies for managed apps without device enrollment](https://docs.microsoft.com/en-us/mem/intune/apps/app-configuration-policies-managed-app) |",
+  "appGroupType": "selectedPublicApps",
   "apps": [
     {
+      "id": "com.adobe.acrobatdc.intune.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.adobe.acrobatdc.intune"
@@ -8,6 +11,7 @@
       "version": "1195811135"
     },
     {
+      "id": "com.adobe.adobe-reader.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.adobe.adobe-reader"
@@ -15,6 +19,7 @@
       "version": "536130818"
     },
     {
+      "id": "com.box.mdmios.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.box.mdmios"
@@ -22,6 +27,7 @@
       "version": "-1220619900"
     },
     {
+      "id": "com.microsoft.bing.halseyassistant.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.bing.halseyassistant"
@@ -29,13 +35,7 @@
       "version": "-2071986606"
     },
     {
-      "mobileAppIdentifier": {
-        "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
-        "bundleId": "com.microsoft.dynamics"
-      },
-      "version": "-1579857600"
-    },
-    {
+      "id": "com.microsoft.dynamics.invoice.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.dynamics.invoice"
@@ -43,6 +43,15 @@
       "version": "1155697219"
     },
     {
+      "id": "com.microsoft.dynamics.ios",
+      "mobileAppIdentifier": {
+        "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
+        "bundleId": "com.microsoft.dynamics"
+      },
+      "version": "-1579857600"
+    },
+    {
+      "id": "com.microsoft.dynamics.iphone.moca.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.dynamics.iphone.moca"
@@ -50,6 +59,7 @@
       "version": "49011501"
     },
     {
+      "id": "com.microsoft.intune.managedbrowser.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.intune.managedbrowser"
@@ -57,6 +67,7 @@
       "version": "-1480721402"
     },
     {
+      "id": "com.microsoft.lync2013.iphone.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.lync2013.iphone"
@@ -64,6 +75,7 @@
       "version": "1849821213"
     },
     {
+      "id": "com.microsoft.mobile.polymer.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.mobile.polymer"
@@ -71,6 +83,7 @@
       "version": "1745532580"
     },
     {
+      "id": "com.microsoft.msapps.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.msapps"
@@ -78,6 +91,7 @@
       "version": "408162834"
     },
     {
+      "id": "com.microsoft.msedge.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.msedge"
@@ -85,6 +99,7 @@
       "version": "-2135752869"
     },
     {
+      "id": "com.microsoft.office.excel.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.office.excel"
@@ -92,6 +107,7 @@
       "version": "-1255026913"
     },
     {
+      "id": "com.microsoft.office.outlook.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.office.outlook"
@@ -99,6 +115,7 @@
       "version": "-518090279"
     },
     {
+      "id": "com.microsoft.office.powerpoint.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.office.powerpoint"
@@ -106,6 +123,7 @@
       "version": "-740777841"
     },
     {
+      "id": "com.microsoft.office.word.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.office.word"
@@ -113,6 +131,7 @@
       "version": "922692278"
     },
     {
+      "id": "com.microsoft.office365booker.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.office365booker"
@@ -120,6 +139,7 @@
       "version": "-169796186"
     },
     {
+      "id": "com.microsoft.onenote.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.onenote"
@@ -127,6 +147,7 @@
       "version": "107156768"
     },
     {
+      "id": "com.microsoft.plannermobile.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.plannermobile"
@@ -134,6 +155,7 @@
       "version": "-175532278"
     },
     {
+      "id": "com.microsoft.powerbimobile.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.powerbimobile"
@@ -141,6 +163,7 @@
       "version": "-91595494"
     },
     {
+      "id": "com.microsoft.procsimo.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.procsimo"
@@ -148,6 +171,7 @@
       "version": "-1388599138"
     },
     {
+      "id": "com.microsoft.rms-sharing.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.rms-sharing"
@@ -155,6 +179,7 @@
       "version": "-77957813"
     },
     {
+      "id": "com.microsoft.sharepoint.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.sharepoint"
@@ -162,6 +187,7 @@
       "version": "-585639021"
     },
     {
+      "id": "com.microsoft.shiftr.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.shiftr"
@@ -169,6 +195,7 @@
       "version": "894357160"
     },
     {
+      "id": "com.microsoft.skydrive.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.skydrive"
@@ -176,6 +203,7 @@
       "version": "-108719121"
     },
     {
+      "id": "com.microsoft.skype.teams.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.skype.teams"
@@ -183,6 +211,7 @@
       "version": "-1040529574"
     },
     {
+      "id": "com.microsoft.stream.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.stream"
@@ -190,6 +219,7 @@
       "version": "126860698"
     },
     {
+      "id": "com.microsoft.to-do.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.to-do"
@@ -197,6 +227,7 @@
       "version": "-292160221"
     },
     {
+      "id": "com.microsoft.visio.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.visio"
@@ -204,6 +235,7 @@
       "version": "-387333446"
     },
     {
+      "id": "com.microsoft.workfolders.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.microsoft.workfolders"
@@ -211,6 +243,7 @@
       "version": "-337142390"
     },
     {
+      "id": "com.printeron.printeron.microsoft.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.printeron.printeron.microsoft"
@@ -218,6 +251,7 @@
       "version": "784543330"
     },
     {
+      "id": "com.sharefile.mobile.intune.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.sharefile.mobile.intune"
@@ -225,6 +259,7 @@
       "version": "579650864"
     },
     {
+      "id": "com.veradocs.ios.appstore.intune.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "com.veradocs.ios.appstore.intune"
@@ -232,6 +267,7 @@
       "version": "1753483651"
     },
     {
+      "id": "nl.msi.ibabspro.it.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "nl.msi.ibabspro.it"
@@ -239,6 +275,7 @@
       "version": "1238477955"
     },
     {
+      "id": "nz.co.beweb.speakingemail.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "nz.co.beweb.speakingemail"
@@ -246,6 +283,7 @@
       "version": "722248506"
     },
     {
+      "id": "wefwef.ios",
       "mobileAppIdentifier": {
         "@odata.type": "#microsoft.graph.iosMobileAppIdentifier",
         "bundleId": "wefwef"
@@ -257,13 +295,13 @@
     {
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-        "groupId": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
       }
     },
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "Baseline - Microsoft 365 Users"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
       }
     }
   ],
@@ -281,11 +319,11 @@
       "value": "true"
     },
     {
-      "name": "com.microsoft.outlook.Contacts.LocalSyncEnabled",
+      "name": "com.microsoft.outlook.Contacts.LocalSyncEnabled.UserChangeAllowed",
       "value": "true"
     },
     {
-      "name": "com.microsoft.outlook.Contacts.LocalSyncEnabled.UserChangeAllowed",
+      "name": "com.microsoft.outlook.Contacts.LocalSyncEnabled",
       "value": "true"
     },
     {
@@ -296,6 +334,5 @@
       "name": "com.microsoft.outlook.Mail.FocusedInbox",
       "value": "true"
     }
-  ],
-  "description": "| What does this do? | Configures the default behavior for application settings of managed applications on unmanaged iOS devices. The baseline expands the list of applications that are allowed by Intune and data loss protection policies. |\n| Why should you use this? | If you want to improve your users' iOS mobile experience by expanding the list of allowed applications. |\n| What is the end-user impact? |  If you want to expand the list of applications that can access organization data on iOS devices. |\n| Learn more | [Add app configuration policies for managed apps without device enrollment](https://docs.microsoft.com/en-us/mem/intune/apps/app-configuration-policies-managed-app) |"
+  ]
 }

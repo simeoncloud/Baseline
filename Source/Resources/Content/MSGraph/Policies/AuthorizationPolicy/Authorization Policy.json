@@ -1,14 +1,16 @@
 {
+  "$description": "Used to manage authorization related settings across the company.",
   "allowedToSignUpEmailBasedSubscriptions": true,
   "allowedToUseSSPR": true,
   "allowEmailVerifiedUsersToJoinOrganization": true,
   "allowInvitesFrom": "adminsAndGuestInviters",
+  "blockMsolPowerShell": false,
   "defaultUserRolePermissions": {
     "allowedToCreateApps": false,
     "allowedToCreateSecurityGroups": false,
+    "allowedToReadBitlockerKeysForOwnedDevice": true,
     "allowedToReadOtherUsers": true
   },
-  "description": "Used to manage authorization related settings across the company.",
   "enabledPreviewFeatures": [],
   "guestUserRoleId": "10dae51f-b6af-4016-8d66-8c2a99b929b3",
   "permissionGrantPolicyIdsAssignedToDefaultUserRole": []

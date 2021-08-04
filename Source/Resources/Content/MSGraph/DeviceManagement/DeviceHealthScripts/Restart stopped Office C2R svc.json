@@ -1,0 +1,10 @@
+{
+  "$description": "If service is stopped, try to start it. If not auto-start, change to automatic.\r\nImportant since Win32 OPP won’t launch if C2R isn’t running.",
+  "assignments": [],
+  "detectionScriptParameters": [],
+  "enforceSignatureCheck": false,
+  "publisher": "Microsoft",
+  "remediationScriptParameters": [],
+  "runAs32Bit": true,
+  "runAsAccount": "system"
+}

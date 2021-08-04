@@ -2,10 +2,10 @@
   "conditions": {
     "applications": {
       "excludeApplications": [],
-      "includeApplications": [
-        "0000000a-0000-0000-c000-000000000000", 
-        "d4ebce55-015a-49b5-a083-c84d1797ae8c"
-      ],
+      "includeApplications": {
+        "$ref": "ResourceContext:AppsAllowedFromUntrustedLocations"
+      },
+      "includeAuthenticationContextClassReferences": [],
       "includeUserActions": []
     },
     "clientAppTypes": [
@@ -14,6 +14,7 @@
       "other"
     ],
     "devices": {
+      "deviceFilter": null,
       "excludeDevices": [],
       "includeDevices": [
         "All"
@@ -35,8 +36,8 @@
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "Baseline - Device Enrollers",
-        "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?$id}",
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
       ],
       "excludeRoles": [
         "62e90394-69f5-4237-9190-012177145e10",
@@ -50,7 +51,6 @@
       ]
     }
   },
-  "description": "| What does this do? | Requires that a device be registered in Autopilot by uploading a hardware hash before it can be enrolled in Intune. This policy does not apply to users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\" or users with the role \"Global Administrator\" or \"Directory Synchronization Accounts.\" |\n| Why should you use this? | This increases security by preventing unauthorized devices from being enrolled into your tenant. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> An administrator must register devices in Autopilot before a general user can enroll it. |\n| Learn more | N/A |",
   "grantControls": {
     "builtInControls": [
       "compliantDevice"

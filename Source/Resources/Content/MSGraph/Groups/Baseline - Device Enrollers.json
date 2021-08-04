@@ -1,8 +1,9 @@
 {
+  "$description": "| What does this do? | Creates a group of users that have permission to enroll a device that is not registered with Autopilot. If a user is not a member of this group, they cannot enroll a non-Autopilot device. |",
   "assignedLicenses": [],
-  "description": "| What does this do? | Creates a group of users that have permission to enroll a device that is not registered with Autopilot. If a user is not a member of this group, they cannot enroll a non-Autopilot device. |\n| Why should you use this? | If you want to restrict users from being able to enroll new devices into your environment that have not been pre-registered with Autopilot. |\n| What is the end-user impact? | Users in this group will be able to have enroll devices without using Autopilot. |\n| Learn more | N/A |",
   "groupTypes": [],
   "mailEnabled": false,
+  "mailNickname": "Baseline-DeviceEnrollers",
   "memberOf": [],
   "members": [],
   "resourceBehaviorOptions": [],

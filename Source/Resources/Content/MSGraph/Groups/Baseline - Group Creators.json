@@ -1,8 +1,9 @@
 {
+  "$description": "| What does this do? | Creates a manually assigned group whose members are allowed to create Microsoft 365 groups. |",
   "assignedLicenses": [],
-  "description": "| What does this do? | Creates a manually assigned group whose members are allowed to create Microsoft 365 groups. |\n| Why should you use this? | If you want a user to be able to create Microsoft 365 groups. |\n| What is the end-user impact? | Users in this group will be able to create Microsoft 365 groups. |\n| Learn more | [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/en-us/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide) |",
   "groupTypes": [],
   "mailEnabled": false,
+  "mailNickname": "Baseline-GroupCreators",
   "memberOf": [],
   "members": [],
   "resourceBehaviorOptions": [],

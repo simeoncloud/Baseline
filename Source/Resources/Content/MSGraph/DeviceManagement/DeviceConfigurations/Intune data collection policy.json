@@ -1,0 +1,13 @@
+{
+  "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
+  "$description": "",
+  "allowDeviceHealthMonitoring": "enabled",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
+      }
+    }
+  ],
+  "configDeviceHealthMonitoringScope": "bootPerformance"
+}

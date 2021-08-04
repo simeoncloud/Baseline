@@ -1,14 +1,16 @@
 {
+  "$description": "| What does this do? | Configures OneDrive's Known Folders Move, which moves the directories Desktop, Documents, and Pictures to OneDrive and disables the option to opt out of the feature. |\n| Why should you use this? | When configured this way, OneDrive backs up user data and enables access from any device. |\n| What is the end-user impact? | Users may continue using familiar folders while being backed up. |\n| Learn more | [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders) |",
   "assignments": [
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "Baseline - Corporate Devices"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
       }
     }
   ],
   "definitionValues": [
     {
+      "@odata.type": "microsoft.graph.groupPolicyDefinitionValue",
       "configurationType": "policy",
       "definition": {
         "categoryPath": "\\OneDrive",
@@ -20,6 +22,7 @@
       "presentationValues": []
     },
     {
+      "@odata.type": "microsoft.graph.groupPolicyDefinitionValue",
       "configurationType": "policy",
       "definition": {
         "categoryPath": "\\OneDrive",
@@ -35,13 +38,12 @@
             "id": "4640c3f7-b89a-41be-948b-e86a2a97cae4",
             "label": "Tenant ID:"
           },
-          "value": {
-            "$ref": "AadAuth:TenantId"
-          }
+          "value": "${ResourceContext:TenantId}"
         }
       ]
     },
     {
+      "@odata.type": "microsoft.graph.groupPolicyDefinitionValue",
       "configurationType": "policy",
       "definition": {
         "categoryPath": "\\OneDrive",
@@ -65,12 +67,9 @@
             "id": "fbefbbdf-5382-477c-8b6c-71f4a06e2805",
             "label": "Tenant ID:"
           },
-          "value": {
-            "$ref": "AadAuth:TenantId"
-          }
+          "value": "${ResourceContext:TenantId}"
         }
       ]
     }
-  ],
-  "description": "| What does this do? | Configures OneDrive's Known Folders Move, which moves the directories Desktop, Documents, and Pictures to OneDrive and disables the option to opt out of the feature. |\n| Why should you use this? | When configured this way, OneDrive backs up user data and enables access from any device. |\n| What is the end-user impact? | Users may continue using familiar folders while being backed up. |\n| Learn more | [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders) |"
+  ]
 }

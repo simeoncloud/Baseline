@@ -7,6 +7,7 @@
       "includeApplications": [
         "All"
       ],
+      "includeAuthenticationContextClassReferences": [],
       "includeUserActions": []
     },
     "clientAppTypes": [
@@ -14,6 +15,7 @@
       "mobileAppsAndDesktopClients"
     ],
     "devices": {
+      "deviceFilter": null,
       "excludeDevices": [
         "Compliant",
         "DomainJoined"
@@ -43,7 +45,7 @@
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
       ],
       "excludeRoles": [
         "62e90394-69f5-4237-9190-012177145e10",
@@ -59,7 +61,6 @@
       ]
     }
   },
-  "description": "| What does this do? | Blocks platforms other than iOS and Android from devices that are off-network and not Intune-managed. This policy does not apply to external/guest users, users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\" or users with the role \"Global Administrator\" or \"Directory Synchronization Accounts.\" The policy also excludes applications listed in the config property \"ResourceContext:AppsAllowedFromUntrustedLocations.\" |\n| Why should you use this? | This policy helps protect your data by blocking authentication from untrusted devices and locations. Application protection policies on iOS and Android protect data and provide DLP. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users are restricted to iOS and Android platforms for authenticating devices when connecting from untrusted devices and locations. |\n| Learn more | [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
   "grantControls": {
     "builtInControls": [
       "block"
