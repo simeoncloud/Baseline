@@ -33,12 +33,6 @@
           "gracePeriodHours": 24,
           "notificationMessageCCList": [],
           "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
-        },
-        {
-          "actionType": "notification",
-          "gracePeriodHours": 0,
-          "notificationMessageCCList": [],
-          "notificationTemplateId": "${urn:resource:MSGraph:DeviceManagement:NotificationMessageTemplates/test?$id}"
         }
       ]
     }
