@@ -293,5 +293,11 @@
       }
     }
   ],
+  "exemptedAppPackages": [
+    {
+      "name": "Default",
+      "value": ""
+    }
+  ],
   "pinRequiredInsteadOfBiometricTimeout": "PT4H"
 }
