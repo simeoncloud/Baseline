@@ -3,8 +3,6 @@
   "allUsersGroupEnabled": false,
   "groupsInAccessPanelEnabled": true,
   "office365GroupsEnabled": false,
-  "scopingGroupIdForManagingOfficeGroups": null,
-  "scopingGroupIdForManagingSecurityGroups": null,
   "securityGroupsEnabled": false,
   "selfServiceGroupManagementEnabled": false,
   "usersCanManageOfficeGroups": "all",

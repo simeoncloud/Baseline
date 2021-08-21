@@ -9,6 +9,7 @@
     }
   ],
   "enforceSignatureCheck": false,
+  "fileName": "${$name}.ps1",
   "runAs32Bit": true,
   "runAsAccount": "system"
 }
