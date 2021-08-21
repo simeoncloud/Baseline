@@ -3,5 +3,6 @@
   "policyDetail": [
     "{\"AuthenticationPolicies\":{\"AuthenticationMethodPolicy\":{\"ExcludeConditions\":[],\"IncludeConditions\":[{\"Groups\":[\"${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}\"],\"MinSessionScore\":\"medium\"}],\"Mode\":\"enabled\",\"RequiredUserAuthenticationMethod\":\"mfa\"}}}"
   ],
-  "policyType": 1
+  "policyType": 1,
+  "tenantDefaultPolicy": 1
 }

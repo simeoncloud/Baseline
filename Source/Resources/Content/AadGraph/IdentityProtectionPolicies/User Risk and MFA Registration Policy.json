@@ -3,5 +3,6 @@
   "policyDetail": [
     "{\"SecurityPolicy\":{\"AccountCompromiseRiskPolicies\":[{\"ExcludeConditions\":[],\"IncludeConditions\":[{\"Groups\":[\"${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}\"],\"MinAccountScore\":\"high\"}],\"Mode\":\"enabled\",\"RequiredActions\":[\"mfa_pwd_change\"]}],\"SecurityDefaults\":{\"IgnoreBaselineProtectionPolicies\":false,\"IsEnabled\":false},\"Version\":0}}"
   ],
-  "policyType": 10
+  "policyType": 10,
+  "tenantDefaultPolicy": 10
 }
