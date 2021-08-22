@@ -16,7 +16,7 @@
   "RestrictiveRetention": false,
   "Rules": [
     {
-      "Name": "Baseline - Default Retention Policy",
+      "Name": "${$name}",
       "RetentionComplianceAction": "Keep",
       "RetentionDuration": "365",
       "RetentionDurationDisplayHint": "Days"

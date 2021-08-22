@@ -4,7 +4,7 @@
   "RestrictiveRetention": false,
   "Rules": [
     {
-      "Name": "Baseline - Teams Retention Policy",
+      "Name": "${$name}",
       "RetentionComplianceAction": "Keep",
       "RetentionDuration": "365"
     }
