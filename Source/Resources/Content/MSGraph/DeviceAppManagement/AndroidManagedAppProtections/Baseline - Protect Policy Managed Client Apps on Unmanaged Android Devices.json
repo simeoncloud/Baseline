@@ -293,6 +293,7 @@
       }
     }
   ],
+  "connectToVpnOnLaunch": false,
   "exemptedAppPackages": [
     {
       "name": "Default",
