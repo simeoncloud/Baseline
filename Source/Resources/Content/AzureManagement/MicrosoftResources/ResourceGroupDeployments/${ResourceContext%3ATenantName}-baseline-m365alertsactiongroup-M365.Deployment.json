@@ -1,7 +1,8 @@
 {
-  "$name": "${ResourceContext:TenantName}-baseline-m365alertsactiongroup",
+  "$name": "${ResourceContext:TenantName}-baseline-m365alertsactiongroup-M365.Deployment",
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
+  "deploymentName": "M365.Deployment",
   "parameters": {
     "actionGroupName": {
       "defaultValue": "Alerts Action Group",
@@ -39,6 +40,7 @@
       "type": "Bool"
     }
   },
+  "resourceGroupName": "${ResourceContext:TenantName}-baseline-m365alertsactiongroup",
   "resources": [
     {
       "apiVersion": "2018-03-01",

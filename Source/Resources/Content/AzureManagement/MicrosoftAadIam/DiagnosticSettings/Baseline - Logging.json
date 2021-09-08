@@ -1,6 +1,6 @@
 {
   "properties": {
-    "eventHubAuthorizationRuleId": "${urn:resource:AzureManagement:MicrosoftResources:ResourceGroups/${ResourceContext:TenantName}-baseline-m365logging?$outputs.outputResources['providers/Microsoft.EventHub/namespaces/${ResourceContext:TenantName}-baseline-m365logging']}/authorizationrules/RootManageSharedAccessKey",
+    "eventHubAuthorizationRuleId": "${urn:resource:AzureManagement:MicrosoftResources:ResourceGroupDeployments/${ResourceContext:TenantName}-baseline-m365logging-M365.Deployment?$outputs.outputResources['/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-baseline-m365logging/providers/Microsoft.EventHub/namespaces/${ResourceContext:TenantName}-baseline-m365logging']}/authorizationrules/RootManageSharedAccessKey",
     "eventHubName": "hub",
     "logAnalyticsDestinationType": null,
     "logs": [
@@ -88,7 +88,7 @@
     ],
     "metrics": [],
     "serviceBusRuleId": null,
-    "storageAccountId": "${urn:resource:AzureManagement:MicrosoftResources:ResourceGroups/${ResourceContext:TenantName}-baseline-m365logging?$outputs.outputResources['providers/Microsoft.Storage/storageAccounts/${ResourceContext:TenantName}m365logging']}",
-    "workspaceId": "${urn:resource:AzureManagement:MicrosoftResources:ResourceGroups/${ResourceContext:TenantName}-baseline-m365logging?$outputs.outputResources['providers/Microsoft.OperationalInsights/workspaces/${ResourceContext:TenantName}-baseline-m365logging']}"
+    "storageAccountId": "${urn:resource:AzureManagement:MicrosoftResources:ResourceGroupDeployments/${ResourceContext:TenantName}-baseline-m365logging-M365.Deployment?$outputs.outputResources['/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-baseline-m365logging/providers/Microsoft.Storage/storageAccounts/${ResourceContext:TenantName}m365logging']}",
+    "workspaceId": "${urn:resource:AzureManagement:MicrosoftResources:ResourceGroupDeployments/${ResourceContext:TenantName}-baseline-m365logging-M365.Deployment?$outputs.outputResources['/subscriptions/${AzureManagement:SubscriptionId}/resourceGroups/${ResourceContext:TenantName}-baseline-m365logging/providers/Microsoft.OperationalInsights/workspaces/${ResourceContext:TenantName}-baseline-m365logging']}"
   }
 }

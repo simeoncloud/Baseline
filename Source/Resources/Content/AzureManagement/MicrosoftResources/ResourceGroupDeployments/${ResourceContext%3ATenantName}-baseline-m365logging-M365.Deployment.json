@@ -1,7 +1,8 @@
 {
-  "$name": "${ResourceContext:TenantName}-baseline-m365logging",
+  "$name": "${ResourceContext:TenantName}-baseline-m365logging-M365.Deployment",
   "$schema": "https://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
+  "deploymentName": "M365.Deployment",
   "parameters": {
     "eventHubMessageRetentionInDays": {
       "defaultValue": 1,
@@ -31,6 +32,7 @@
       "type": "String"
     }
   },
+  "resourceGroupName": "${ResourceContext:TenantName}-baseline-m365logging",
   "resources": [
     {
       "apiVersion": "2015-11-01-preview",
