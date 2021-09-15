@@ -1,9 +1,0 @@
-{
-  "$name": "${ResourceContext:TenantDomainName}",
-  "CanHaveCloudCache": false,
-  "Default": true,
-  "DomainType": "Authoritative",
-  "EnableNego2Authentication": false,
-  "MatchSubDomains": false,
-  "OutboundOnly": false
-}
