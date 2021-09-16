@@ -17,6 +17,7 @@
   "AllowUserDeleteMessage": true,
   "AllowUserEditMessage": true,
   "AllowUserTranslation": true,
+  "AllowVideoMessages": true,
   "AudioMessageEnabledType": "ChatsAndChannels",
   "ChannelsInChatListEnabledType": "DisabledUserOverride",
   "ChatPermissionRole": "Restricted",

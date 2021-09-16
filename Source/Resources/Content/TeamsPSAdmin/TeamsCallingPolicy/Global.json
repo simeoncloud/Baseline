@@ -2,6 +2,7 @@
   "AllowCallForwardingToPhone": true,
   "AllowCallForwardingToUser": true,
   "AllowCallGroups": true,
+  "AllowCallRedirect": "Disabled",
   "AllowCloudRecordingForCalls": false,
   "AllowDelegation": true,
   "AllowPrivateCalling": true,

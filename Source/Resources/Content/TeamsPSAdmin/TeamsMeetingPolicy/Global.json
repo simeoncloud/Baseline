@@ -3,6 +3,7 @@
   "AllowAnonymousUsersToStartMeeting": false,
   "AllowBreakoutRooms": true,
   "AllowCarbonSummary": true,
+  "AllowCartCaptionsScheduling": "DisabledUserOverride",
   "AllowChannelMeetingScheduling": true,
   "AllowCloudRecording": true,
   "AllowEngagementReport": "Enabled",
@@ -24,11 +25,13 @@
   "AllowRecordingStorageOutsideRegion": false,
   "AllowScreenContentDigitization": "Enabled",
   "AllowSharedNotes": true,
+  "AllowTasksFromTranscript": "Enabled",
   "AllowTrackingInReport": "Enabled",
   "AllowTranscription": false,
   "AllowUserToJoinExternalMeeting": "Disabled",
   "AllowWhiteboard": true,
   "AutoAdmittedUsers": "EveryoneInCompany",
+  "ChannelRecordingDownload": "Allow",
   "CommaSeparator": [
     ","
   ],
