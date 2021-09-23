@@ -15,9 +15,13 @@
   "EnableViaTag": true,
   "ImpersonationProtectionState": "Automatic",
   "MailboxIntelligenceProtectionAction": "NoAction",
+  "MailboxIntelligenceQuarantineTag": "DefaultFullAccessPolicy",
   "PhishThresholdLevel": 1,
   "RecommendedPolicyType": "Custom",
   "Rules": [],
+  "SpoofQuarantineTag": "DefaultFullAccessPolicy",
   "TargetedDomainProtectionAction": "NoAction",
-  "TargetedUserProtectionAction": "NoAction"
+  "TargetedDomainQuarantineTag": "DefaultFullAccessPolicy",
+  "TargetedUserProtectionAction": "NoAction",
+  "TargetedUserQuarantineTag": "DefaultFullAccessPolicy"
 }
