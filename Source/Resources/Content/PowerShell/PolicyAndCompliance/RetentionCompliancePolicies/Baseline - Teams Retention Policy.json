@@ -1,0 +1,19 @@
+{
+  "$description": "Microsoft Teams retention policies must be created and managed independently. This policy defines an retention policy for all Microsoft Teams content.",
+  "Enabled": true,
+  "RestrictiveRetention": false,
+  "Rules": [
+    {
+      "Name": "${$name}",
+      "RetentionComplianceAction": "Keep",
+      "RetentionDuration": "365"
+    }
+  ],
+  "TeamsChannelLocation": [
+    "All"
+  ],
+  "TeamsChatLocation": [
+    "All"
+  ],
+  "TeamsPolicy": true
+}

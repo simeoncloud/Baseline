@@ -1,0 +1,29 @@
+{
+  "$description": "Default retention policy that retains content.",
+  "Enabled": true,
+  "ExchangeLocation": [
+    "All"
+  ],
+  "ModernGroupLocation": [
+    "All"
+  ],
+  "OneDriveLocation": [
+    "All"
+  ],
+  "PublicFolderLocation": [
+    "All"
+  ],
+  "RestrictiveRetention": false,
+  "Rules": [
+    {
+      "Name": "${$name}",
+      "RetentionComplianceAction": "Keep",
+      "RetentionDuration": "365",
+      "RetentionDurationDisplayHint": "Days"
+    }
+  ],
+  "SharePointLocation": [
+    "All"
+  ],
+  "TeamsPolicy": false
+}
