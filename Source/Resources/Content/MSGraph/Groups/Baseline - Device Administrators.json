@@ -1,12 +1,13 @@
 {
+  "$description": "| What does this do? | Creates a group of users assigned as local administrators on Azure AD joined devices. The baseline grants users in this group the Azure AD role \"Azure AD Joined Device Local Administrator.\" |",
   "assignedLicenses": [],
-  "description": "| What does this do? | Creates a group of users assigned as local administrators on Azure AD joined devices. The baseline grants users in this group the Azure AD role \"Azure AD Joined Device Local Administrator.\" |\n| Why should you use this? | If you want to have a group of users with local administrator permissions on Azure AD joined devices. |\n| What is the end-user impact? | Members in this group will have local administrator access on Azure AD joined devices. |\n| Learn more | [Azure AD Joined Device Local Administrator Role](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#device-administrators) |",
   "groupTypes": [],
   "isAssignableToRole": true,
   "mailEnabled": false,
+  "mailNickname": "Baseline-DeviceAdministrators",
   "memberOf": [
     {
-      "@odata.type": "#microsoft.graph.directoryRole",
+      "@odata.type": "microsoft.graph.directoryRole",
       "roleTemplateId": "9f06204d-73c1-4d4c-880a-6edb90606fd8"
     }
   ],

@@ -1,0 +1,26 @@
+{
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "$description": "| What does this do? | Creates an Intune Autopilot profile for enrolling machines using the user driven method. Devices in the Azure AD group \"Autopilot Devices User Driven\" will be assigned this profile. |",
+  "$name": "Baseline: User Driven Profile",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - User Driven?$id}"
+      }
+    }
+  ],
+  "deviceNameTemplate": "",
+  "deviceType": "windowsPc",
+  "enableWhiteGlove": false,
+  "extractHardwareHash": true,
+  "language": "os-default",
+  "outOfBoxExperienceSettings": {
+    "deviceUsageType": "singleUser",
+    "hideEscapeLink": true,
+    "hideEULA": true,
+    "hidePrivacySettings": true,
+    "skipKeyboardSelectionPage": false,
+    "userType": "standard"
+  }
+}

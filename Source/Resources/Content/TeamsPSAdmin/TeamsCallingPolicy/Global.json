@@ -1,0 +1,20 @@
+{
+  "AllowCallForwardingToPhone": true,
+  "AllowCallForwardingToUser": true,
+  "AllowCallGroups": true,
+  "AllowCallRedirect": "Disabled",
+  "AllowCloudRecordingForCalls": false,
+  "AllowDelegation": true,
+  "AllowPrivateCalling": true,
+  "AllowTranscriptionForCalling": false,
+  "AllowVoicemail": "UserOverride",
+  "AllowWebPSTNCalling": true,
+  "AutoAnswerEnabledType": "Disabled",
+  "BusyOnBusyEnabledType": "Disabled",
+  "CallRecordingExpirationDays": 60,
+  "LiveCaptionsEnabledTypeForCalling": "DisabledUserOverride",
+  "MusicOnHoldEnabledType": "Enabled",
+  "PreventTollBypass": false,
+  "SafeTransferEnabled": "Disabled",
+  "SpamFilteringEnabledType": "Enabled"
+}

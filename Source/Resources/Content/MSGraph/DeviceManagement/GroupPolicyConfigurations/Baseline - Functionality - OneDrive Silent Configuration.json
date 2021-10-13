@@ -1,14 +1,16 @@
 {
+  "$description": "| What does this do? | Automatically and silently configures OneDrive and enables the Files On Demand feature. |\n| Why should you use this? | Allows users to store data in OneDrive and access it without downloading all OneDrive content to the computer. |\n| What is the end-user impact? | The first time a user logs in to a device, OneDrive will automatically sign in. Upon first sign-in the user will be able to see all her files, but not all files need to be downloaded to the computer. Files stored in the cloud will have a cloud icon in the corner, whereas files stored locally will have a green checkmark. |\n| Learn more | [Sync files with OneDrive Files on Demand](https://support.microsoft.com/en-us/office/sync-files-with-onedrive-files-on-demand-62e8d748-7877-420f-b600-24b56562aa70) |",
   "assignments": [
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "Baseline - Corporate Devices"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
       }
     }
   ],
   "definitionValues": [
     {
+      "@odata.type": "microsoft.graph.groupPolicyDefinitionValue",
       "configurationType": "policy",
       "definition": {
         "categoryPath": "\\OneDrive",
@@ -20,6 +22,7 @@
       "presentationValues": []
     },
     {
+      "@odata.type": "microsoft.graph.groupPolicyDefinitionValue",
       "configurationType": "policy",
       "definition": {
         "categoryPath": "\\OneDrive",
@@ -30,6 +33,5 @@
       "enabled": true,
       "presentationValues": []
     }
-  ],
-  "description": "| What does this do? | Automatically and silently configures OneDrive and enables the Files On Demand feature. |\n| Why should you use this? | Allows users to store data in OneDrive and access it without downloading all OneDrive content to the computer. |\n| What is the end-user impact? | The first time a user logs in to a device, OneDrive will automatically sign in. Upon first sign-in the user will be able to see all her files, but not all files need to be downloaded to the computer. Files stored in the cloud will have a cloud icon in the corner, whereas files stored locally will have a green checkmark. |\n| Learn more | [Sync files with OneDrive Files on Demand](https://support.microsoft.com/en-us/office/sync-files-with-onedrive-files-on-demand-62e8d748-7877-420f-b600-24b56562aa70) |"
+  ]
 }

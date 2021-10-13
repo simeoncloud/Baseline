@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+  "$description": "| What does this do? | Configures the page that is displayed to users while a device enrollment is in progress. The baseline allows the user to select the \"Continue Anyway\" option as soon as it is available and times out after 40 minutes. |\n| Why should you use this? | If you want to allow users to click \"Continue Anyway\" during the app installation phase of enrollment or when a single configuration in the enrollment process fails and you do not want users to get stuck indefinitely on the enrollment screen. |\n| What is the end-user impact? | Users will be able to click \"Continue Anyway\" when device enrollment enters the Device Enrollment phase as well as when a single configuration in the enrollment process fails. |\n| Learn more | [Set up the Enrollment Status Page](https://docs.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-status) |",
   "allowDeviceResetOnInstallFailure": false,
   "allowDeviceUseOnInstallFailure": false,
   "allowLogCollectionOnInstallFailure": true,
@@ -12,8 +13,8 @@
   ],
   "blockDeviceSetupRetryByUser": true,
   "customErrorMessage": "",
-  "description": "| What does this do? | Configures the page that is displayed to users while a device enrollment is in progress. The baseline allows the user to select the \"Continue Anyway\" option as soon as it is available and times out after 40 minutes. |\n| Why should you use this? | If you want to allow users to click \"Continue Anyway\" during the app installation phase of enrollment or when a single configuration in the enrollment process fails and you do not want users to get stuck indefinitely on the enrollment screen. |\n| What is the end-user impact? | Users will be able to click \"Continue Anyway\" when device enrollment enters the Device Enrollment phase as well as when a single configuration in the enrollment process fails. |\n| Learn more | [Set up the Enrollment Status Page](https://docs.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-status) |",
   "disableUserStatusTrackingAfterFirstUser": false,
+  "displayName": "All users and all devices",
   "installProgressTimeoutInMinutes": 40,
   "priority": 0,
   "selectedMobileAppIds": [],

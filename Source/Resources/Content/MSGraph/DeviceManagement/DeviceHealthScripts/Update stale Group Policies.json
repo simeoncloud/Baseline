@@ -1,0 +1,10 @@
+{
+  "$description": "If GP refresh was > 7 days ago, then gpupdate. IT can customize the 7 day threshold. Important for reducing network-related helpdesk calls, since many network certs and configurations are delivered via GP.",
+  "assignments": [],
+  "detectionScriptParameters": [],
+  "enforceSignatureCheck": false,
+  "publisher": "Microsoft",
+  "remediationScriptParameters": [],
+  "runAs32Bit": true,
+  "runAsAccount": "system"
+}
