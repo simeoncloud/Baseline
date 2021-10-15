@@ -44,7 +44,6 @@
   "MediaBitRateKb": 50000,
   "MeetingChatEnabledType": "Enabled",
   "MeetingInviteLanguages": "",
-  "MeetingRecordingExpirationDays": 60,
   "PreferredMeetingProviderForIslandsMode": "TeamsAndSfb",
   "RecordingStorageMode": "OneDriveForBusiness",
   "RoomAttributeUserOverride": "Off",
