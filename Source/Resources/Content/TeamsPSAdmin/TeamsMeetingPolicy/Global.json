@@ -1,6 +1,5 @@
 {
   "AllowAnonymousUsersToDialOut": false,
-  "AllowAnonymousUsersToJoinMeeting": false,
   "AllowAnonymousUsersToStartMeeting": false,
   "AllowBreakoutRooms": true,
   "AllowCarbonSummary": true,
