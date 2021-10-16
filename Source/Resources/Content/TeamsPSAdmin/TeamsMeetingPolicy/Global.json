@@ -1,5 +1,6 @@
 {
   "AllowAnonymousUsersToDialOut": false,
+  "AllowAnonymousUsersToJoinMeeting": false,
   "AllowAnonymousUsersToStartMeeting": false,
   "AllowBreakoutRooms": true,
   "AllowCarbonSummary": true,
@@ -44,6 +45,7 @@
   "MediaBitRateKb": 50000,
   "MeetingChatEnabledType": "Enabled",
   "MeetingInviteLanguages": "",
+  "NewMeetingRecordingExpirationDays": 60,
   "PreferredMeetingProviderForIslandsMode": "TeamsAndSfb",
   "RecordingStorageMode": "OneDriveForBusiness",
   "RoomAttributeUserOverride": "Off",
