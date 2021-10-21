@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Creates a dynamic device group that is used to assign the \"Baseline - Self Deploying Profile\" Autopilot profile to devices. This group contains corporate physical devices with the tag \"Autopilot-SelfDeploying.\" Devices can be t",
+  "$description": "| What does this do? | Creates a dynamic device group that is used to assign the \"Baseline - Self Deploying Profile\" Autopilot profile to devices. This group contains corporate physical devices with the tag \"Autopilot-SelfDeploying.\" Devices can be tagged from the Intune portal or via an automated hardware hash upload. To tag in Intune go to Devices > Windows Enrollment > Devices, then select the required device and add to the \"Group Tag\" field. |\n| Why should you use this? | If you want devices to be assigned the \"Baseline - Self Deploying Profile\" Autopilot profile for device enrollment. |\n| What is the end-user impact? | Devices in this group will automatically Autopilot without end-user input. |\n| Learn more | [Windows Autopilot Self-Deploying mode](https://docs.microsoft.com/en-us/mem/autopilot/self-deploying) |",
   "assignedLicenses": [],
   "groupTypes": [
     "DynamicMembership"
