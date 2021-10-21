@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Creates a group that includes virtual corporate devices managed by Intune. |",
+  "$description": "| What does this do? | Creates a group that includes virtual corporate devices managed by Intune. |\n| Why should you use this? | This group is used to assign Intune configurations that should apply to all virtual devices managed by Intune. |\n| What is the end-user impact? | N/A |\n| Learn more | N/A |",
   "assignedLicenses": [],
   "groupTypes": [
     "DynamicMembership"
