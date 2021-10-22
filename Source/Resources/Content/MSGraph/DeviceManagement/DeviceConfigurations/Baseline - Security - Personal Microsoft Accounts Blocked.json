@@ -1,6 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
   "$description": "| What does this do? | Disables the addition of personal Microsoft accounts to devices to ensure Data Loss Prevention. |\n| Why should you use this? | If you want to prevent users from adding personal Microsoft accounts to Windows, which would allow them to transfer data outside of your organization. |\n| What is the end-user impact? | Users cannot connect Windows to personal Microsoft accounts. |\n| Learn more | [Microsoft accounts configuration](https://docs.microsoft.com/en-us/mem/intune/configuration/device-restrictions-windows-10#cloud-and-storage) |",
+  "allowWindows11Upgrade": false,
   "assignments": [
     {
       "target": {

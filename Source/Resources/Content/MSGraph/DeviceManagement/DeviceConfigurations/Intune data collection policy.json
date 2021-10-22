@@ -1,6 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
   "$description": "",
+  "allowWindows11Upgrade": false,
   "allowDeviceHealthMonitoring": "enabled",
   "assignments": [
     {
