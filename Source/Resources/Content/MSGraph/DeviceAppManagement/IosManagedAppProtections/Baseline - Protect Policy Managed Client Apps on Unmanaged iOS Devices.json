@@ -357,6 +357,7 @@
     }
   ],
   "exemptedUniversalLinks": [],
+  "managedUniversalLinks": [],
   "minimumWarningOsVersion": "11.1.3",
   "pinRequiredInsteadOfBiometricTimeout": "P1D"
 }
