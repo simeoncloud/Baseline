@@ -1,7 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
   "$description": "| What does this do? | Enables local Autopilot Reset on Windows 10, which allows an Autopilot Reset to be initiated locally at the device itself. If you do not enable this, you can initiate a reset only from the Azure Portal. |\n| Why should you use this? | In the event that remote Autopilot Reset from the Azure Portal is not possible due to connectivity or other issues, a user may initiate an Autopilot Reset themselves to restore their device to a known good state. |\n| What is the end-user impact? | Users may initiate an Autopilot Reset themselves, which can come in handy if Autopilot Reset from the Azure Portal is not possible. |\n| Learn more | [Windows Autopilot Reset](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/windows-autopilot-reset-local) |",
-  "allowWindows11Upgrade": false,
   "assignments": [
     {
       "target": {
