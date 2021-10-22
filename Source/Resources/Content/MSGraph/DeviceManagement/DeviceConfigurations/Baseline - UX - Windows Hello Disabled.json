@@ -3,11 +3,13 @@
   "$description": "| What does this do? | Disables Windows Hello, a biometric sign-in system for Windows 10 that uses a near infrared (IR) imaging camera or fingerprint reader instead of a password to identify users. |\n| Why should you use this? | If you want to disable Windows Hello and instead use passwords which are more in line with industry best practices. |\n| What is the end-user impact? | Users will not be prompted to sign in with a biometric system. |\n| Learn more | N/A |",
   "assignments": [
     {
+      "intent": "apply",
       "target": {
         "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
       }
     },
     {
+      "intent": "apply",
       "target": {
         "@odata.type": "#microsoft.graph.allLicensedUsersAssignmentTarget"
       }

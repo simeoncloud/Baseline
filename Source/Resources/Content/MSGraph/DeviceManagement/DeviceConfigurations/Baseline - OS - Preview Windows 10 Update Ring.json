@@ -4,12 +4,14 @@
   "allowWindows11Upgrade": false,
   "assignments": [
     {
+      "intent": "apply",
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
         "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Insiders?$id}"
       }
     },
     {
+      "intent": "apply",
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
         "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Preview?$id}"

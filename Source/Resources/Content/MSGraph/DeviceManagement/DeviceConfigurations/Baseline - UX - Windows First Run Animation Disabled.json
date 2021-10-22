@@ -4,6 +4,7 @@
   "assignments": [
     {
       "target": {
+        "intent": "apply",
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
         "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical?$id}"
       }
