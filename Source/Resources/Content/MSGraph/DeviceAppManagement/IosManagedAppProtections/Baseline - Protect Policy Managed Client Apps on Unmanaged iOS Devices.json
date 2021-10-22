@@ -4,7 +4,6 @@
     "oneDriveForBusiness",
     "sharePoint"
   ],
-  "allowWindows11Upgrade": false,
   "appGroupType": "selectedPublicApps",
   "apps": [
     {
