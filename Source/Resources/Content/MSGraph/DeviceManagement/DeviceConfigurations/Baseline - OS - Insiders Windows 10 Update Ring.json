@@ -4,7 +4,6 @@
   "allowWindows11Upgrade": false,
   "assignments": [
     {
-      "intent": "apply",
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
         "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Insiders?$id}"

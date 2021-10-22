@@ -4,7 +4,6 @@
   "allowDeviceHealthMonitoring": "enabled",
   "assignments": [
     {
-      "intent": "apply",
       "target": {
         "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
       }
