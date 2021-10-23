@@ -1,9 +1,9 @@
 {
-  "@odata.type": "#microsoft.graph.win32LobApp",
   "$description": "| What does this do? | Installs Adobe Acrobat Pro DC. |\n| Why should you use this? | If you want users to have Adobe Acrobat Pro DC installed on their computers. |\n| What is the end-user impact? | Users will have Adobe Acrobat Pro DC installed on their computer. |\n| Learn more | [Adobe](https://acrobat.adobe.com/us/en/acrobat/acrobat-pro.html)",
   "$manifest": {
     "$unzip": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_DC_Web_WWMUI.zip"
   },
+  "@odata.type": "#microsoft.graph.win32LobApp",
   "applicableArchitectures": "x86, x64",
   "assignments": [],
   "detectionRules": [

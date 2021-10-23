@@ -1,6 +1,6 @@
 {
-  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
   "$description": "| What does this do? | Disables Windows First Run animation, which displays animation and marketing when a user first signs into Windows. |\n| Why should you use this? | If you want to eliminate marketing materials and non-essential animation during initial sign-in. |\n| What is the end-user impact? | Users may have an improved experience when opting out of First Run Animation. |\n| Learn more | [Policy CSP - WindowsLogon](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-enablefirstlogonanimation) |",
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
   "assignments": [
     {
       "target": {
