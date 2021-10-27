@@ -15,6 +15,7 @@
     ],
     "signInRiskLevels": [],
     "userRiskLevels": [],
+    "servicePrincipalRiskLevels": [],
     "users": {
       "excludeGroups": [],
       "excludeRoles": [
