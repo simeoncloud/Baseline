@@ -20,6 +20,7 @@
       ]
     },
     "signInRiskLevels": [],
+    "servicePrincipalRiskLevels": [],
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
