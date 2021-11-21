@@ -319,11 +319,11 @@
       "value": "true"
     },
     {
-      "name": "com.microsoft.outlook.Contacts.LocalSyncEnabled",
+      "name": "com.microsoft.outlook.Contacts.LocalSyncEnabled.UserChangeAllowed",
       "value": "true"
     },
     {
-      "name": "com.microsoft.outlook.Contacts.LocalSyncEnabled.UserChangeAllowed",
+      "name": "com.microsoft.outlook.Contacts.LocalSyncEnabled",
       "value": "true"
     },
     {
