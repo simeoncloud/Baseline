@@ -9,7 +9,7 @@
     }
   ],
   "enforceSignatureCheck": false,
-  "fileName": "${$name}.ps1",
+  "fileName": "Baseline - OS - Set-TimeZone.ps1",
   "runAs32Bit": false,
   "runAsAccount": "system"
 }

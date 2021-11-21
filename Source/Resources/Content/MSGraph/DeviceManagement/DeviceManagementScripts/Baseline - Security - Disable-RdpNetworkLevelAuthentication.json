@@ -9,7 +9,7 @@
     }
   ],
   "enforceSignatureCheck": false,
-  "fileName": "${$name}.ps1",
+  "fileName": "Baseline - Security - Disable-RdpNetworkLevelAuthentication.ps1",
   "runAs32Bit": true,
   "runAsAccount": "system"
 }
