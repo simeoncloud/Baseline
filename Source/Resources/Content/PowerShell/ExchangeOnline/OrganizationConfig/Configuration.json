@@ -75,6 +75,7 @@
   "RefreshSessionEnabled": false,
   "RequiredCharsetCoverage": 100,
   "SendFromAliasEnabled": false,
+  "SharedDomainEmailAddressFlowEnabled": true,
   "ShortenEventScopeDefault": "None",
   "SmtpActionableMessagesEnabled": true,
   "UnblockUnsafeSenderPromptEnabled": true,

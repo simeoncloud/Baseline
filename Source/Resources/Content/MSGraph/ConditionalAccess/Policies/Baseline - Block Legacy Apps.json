@@ -12,8 +12,8 @@
     "clientAppTypes": [
       "other"
     ],
-    "signInRiskLevels": [],
     "servicePrincipalRiskLevels": [],
+    "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [

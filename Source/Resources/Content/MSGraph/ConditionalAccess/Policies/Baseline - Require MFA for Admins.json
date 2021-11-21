@@ -13,9 +13,9 @@
       "browser",
       "mobileAppsAndDesktopClients"
     ],
+    "servicePrincipalRiskLevels": [],
     "signInRiskLevels": [],
     "userRiskLevels": [],
-    "servicePrincipalRiskLevels": [],
     "users": {
       "excludeGroups": [],
       "excludeRoles": [

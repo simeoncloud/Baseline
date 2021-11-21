@@ -40,8 +40,8 @@
         "iOS"
       ]
     },
-    "signInRiskLevels": [],
     "servicePrincipalRiskLevels": [],
+    "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [

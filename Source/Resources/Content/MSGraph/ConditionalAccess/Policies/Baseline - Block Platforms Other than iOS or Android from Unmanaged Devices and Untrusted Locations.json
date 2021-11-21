@@ -42,8 +42,8 @@
         "all"
       ]
     },
-    "signInRiskLevels": [],
     "servicePrincipalRiskLevels": [],
+    "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
