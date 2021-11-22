@@ -296,10 +296,6 @@
     }
   ],
   "connectToVpnOnLaunch": false,
-  "customBrowserDisplayName": "",
-  "customBrowserPackageId": "",
-  "customDialerAppDisplayName": "",
-  "customDialerAppPackageId": "",
   "dataBackupBlocked": true,
   "deviceComplianceRequired": true,
   "encryptAppData": true,
