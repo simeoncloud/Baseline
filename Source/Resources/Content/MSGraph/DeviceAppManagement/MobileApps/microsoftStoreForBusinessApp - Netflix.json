@@ -1,0 +1,19 @@
+{
+  "@odata.type": "#microsoft.graph.microsoftStoreForBusinessApp",
+  "$description": "Netflix has something for everyone. Watch TV shows and movies recommended just for you, including award-winning Netflix original series, movies, and documentaries. There’s even a safe watching experience just for kids with family-friendly entertainment.\r\n\r\nNow on Windows, you can enjoy every detail of the world’s favorite shows in 4K Ultra HD on Netflix. Download many of your favorite series and movies with the simple click of the download button. You can watch while you’re on the go or without an Internet connection on your PC, tablet or laptop with Windows 10. \r\n\r\nHow does Netflix work?\r\n- Instantly watch TV shows and movies through thousands of internet-connected devices. You can play, pause, and resume watching, all without commercials.\r\n- Netflix adds new content all the time. Browse titles or search for your favorites.\r\n- The more you watch, the better Netflix gets at recommending TV shows and movies that you’ll love — just for you. \r\n- You can create up to five individual profiles within a single Netflix account. Profiles allow different members of your household to have their own personalized Netflix experience built around the movies and TV shows they enjoy. \r\n\r\nIf you decide Netflix isn't for you - no problem. No contract, no cancellation fees, no commitment. Cancel online anytime.\r\n\r\nBy clicking INSTALL, you consent to the installation of the Netflix application and any updates or upgrades thereto.",
+  "assignments": [
+    {
+      "intent": "uninstall",
+      "settings": {
+        "@odata.type": "#microsoft.graph.microsoftStoreForBusinessAppAssignmentSettings",
+        "useDeviceContext": false
+      },
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
+      }
+    }
+  ],
+  "displayName": "Netflix",
+  "productKey": "9WZDNCRFJ3TJ/0016"
+}
