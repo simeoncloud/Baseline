@@ -10,8 +10,8 @@ $block = {
 	try {
 		$pw = Get-BitLockerVolume -MountPoint C: |% { $_.KeyProtector.RecoveryPassword } |? { $_ } | Select -Last 1
 		if ($pw) { 
-			$pw = (($pw -split '-' | Select-Object -First 3) -join '-') + 'X' #Take the first 3 sextets of the key and add a capital letter to pass complexity requirements (those could not be disabled for local accounts)
-			Write-Host "Using BitLocker key starting in *$($pw.Substring(0,6)) for password." 
+			Write-Host "Using BitLocker key ending in $($pw.Substring([Math]::Max(0, $pw.Length - 6))) for password." 
+			$pw = (($pw -split '-' | Select-Object -First 3) -join '-') + 'X' #Take the first 3 sextets of the key and add a capital letter to pass complexity requirements (those could not be disabled for local accounts)			
 		}
 	} 
 	catch {
