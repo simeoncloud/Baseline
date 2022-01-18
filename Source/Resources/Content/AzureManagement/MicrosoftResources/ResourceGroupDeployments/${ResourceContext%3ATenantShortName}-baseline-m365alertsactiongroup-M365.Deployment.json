@@ -1,7 +1,7 @@
 {
-  "$name": "${ResourceContext:TenantName}-baseline-m365alertsactiongroup-M365.Deployment",
+  "$name": "${ResourceContext:TenantShortName}-baseline-m365alertsactiongroup-M365.Deployment",
   "deploymentName": "M365.Deployment",
-  "resourceGroupName": "${ResourceContext:TenantName}-baseline-m365alertsactiongroup",
+  "resourceGroupName": "${ResourceContext:TenantShortName}-baseline-m365alertsactiongroup",
   "template": {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
