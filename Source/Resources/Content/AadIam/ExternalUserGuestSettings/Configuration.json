@@ -4,6 +4,5 @@
   "hasListEntries": false,
   "isAllowlist": true,
   "noAADConsentForUsersFromTenantsIds": [],
-  "otpEnabled": true,
   "targetedDomains": []
 }
