@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Creates an Azure Monitor Action group to notify specified users of an alert. The baseline includes alerting the email address "alerts@yourtenantname.com." |\n| Why should you use this? | This keeps your tenant secure by immediately notifying you of suspicious activity. |\n| What is the end-user impact? | N/A |\n| Learn more | [Create and manage action groups in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups) |",
   "$name": "${ResourceContext:TenantShortName}-baseline-m365alertsactiongroup-M365.Deployment",
   "deploymentName": "M365.Deployment",
   "resourceGroupName": "${ResourceContext:TenantShortName}-baseline-m365alertsactiongroup",
