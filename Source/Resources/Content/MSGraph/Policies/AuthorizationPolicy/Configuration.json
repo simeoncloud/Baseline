@@ -1,5 +1,5 @@
 {
-  "$description": "Used to manage authorization related settings across the company.",
+  "$description": "| What does this do? | Defines Azure Active Directory authorization settings. The baseline preserves the Microsoft default settings which allow users to sign up for email based subscriptions, use Self-Serve Password Reset, and join the tenant by email validation. Only adminstrators and guest inviters can invite external users to the organization. Users are allowed to read other users and BitLocker keys for their owned device. |\n| Why should you use this? | If you want apply Microsoft Default Settings for Azure Active Directory authorization. |\n| What is the end-user impact? | N/A |\n| Learn more | [Authorization Policy](https://docs.microsoft.com/en-us/graph/api/resources/authorizationpolicy?view=graph-rest-1.0)", 
   "allowedToSignUpEmailBasedSubscriptions": true,
   "allowedToUseSSPR": true,
   "allowEmailVerifiedUsersToJoinOrganization": true,
