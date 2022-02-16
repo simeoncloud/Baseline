@@ -1,8 +1,0 @@
-{
-  "AllowClickThrough": false,
-  "AllowSafeDocsOpen": false,
-  "EnableATPForSPOTeamsODB": false,
-  "EnableSafeDocs": false,
-  "EnableSafeLinksForO365Clients": true,  
-  "TrackClicks": false
-}
