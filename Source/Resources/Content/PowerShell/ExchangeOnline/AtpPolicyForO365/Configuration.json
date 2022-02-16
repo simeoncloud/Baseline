@@ -3,7 +3,6 @@
   "AllowSafeDocsOpen": false,
   "EnableATPForSPOTeamsODB": false,
   "EnableSafeDocs": false,
-  "EnableSafeLinksForO365Clients": true,
-  "EnableSafeLinksForWebAccessCompanion": false,
+  "EnableSafeLinksForO365Clients": true,  
   "TrackClicks": false
 }
