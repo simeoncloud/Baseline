@@ -1,6 +1,6 @@
 {
-  "$description": "| What does this do? | Restricts the type of device that can be enrolled. The baseline allows enrollment of Autopiloted registered devices only. This limit can be overridden by other configurations with a higher priority. |\n| Why should you use this? | If you want to ensure that only Autopilot registered devices are enrolled in Intune. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users will be restricted to enrolling only Autopilot registered devices in Intune. |\n| Learn more | [Create a device type restriction](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set#create-a-device-type-restriction) |",
   "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
+  "$description": "This is the default Device Type Restriction applied with the lowest priority to all users regardless of group membership.",
   "androidForWorkRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],
