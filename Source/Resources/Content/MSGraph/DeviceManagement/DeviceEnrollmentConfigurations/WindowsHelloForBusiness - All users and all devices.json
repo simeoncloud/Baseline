@@ -17,7 +17,7 @@
   "pinPreviousBlockCount": 5,
   "pinSpecialCharactersUsage": "disallowed",
   "pinUppercaseCharactersUsage": "disallowed",
-  "priority": 1,
+  "priority": 0,
   "remotePassportEnabled": true,
   "securityDeviceRequired": true,
   "securityKeyForSignIn": "notConfigured",
