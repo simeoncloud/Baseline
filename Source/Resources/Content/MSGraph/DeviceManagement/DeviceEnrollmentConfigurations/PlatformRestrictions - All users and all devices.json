@@ -1,36 +1,35 @@
 {
-  "$description": "| What does this do? | The baseline allows users in the Azure AD group \"Baseline – Device Enrollers\" to enroll any Windows device, even if they have not been previously registered in Autopilot. This can be overridden by other configurations with a higher priority. |\n| Why should you use this? | If you want to allow certain users to register non-Autopilot registered devices. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Only certain users will be able to enroll devices to Intune that are non-Autopilot registered. |\n| Learn more | [Set enrollment restrictions](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set) |",
   "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
+  "$description": "This is the default Device Type Restriction applied with the lowest priority to all users regardless of group membership.",
   "androidForWorkRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
     "personalDeviceEnrollmentBlocked": false,
     "platformBlocked": true
   },
   "androidRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
     "personalDeviceEnrollmentBlocked": true,
-    "platformBlocked": false
-  },
-  "aospRestriction": {
-    "blockedManufacturers": [],
-    "blockedSkus": [],
-    "personalDeviceEnrollmentBlocked": false,
     "platformBlocked": false
   },
   "assignments": [
     {
       "target": {
-        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?$id}"
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
       }
     }
   ],
-  "displayName": "Baseline - Device Enrollers can enroll personal devices",
+  "displayName": "All users and all devices",
   "iosRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
     "personalDeviceEnrollmentBlocked": true,
     "platformBlocked": false
   },
@@ -46,7 +45,7 @@
     "personalDeviceEnrollmentBlocked": true,
     "platformBlocked": false
   },
-  "priority": 1,
+  "priority": 0,
   "windowsHomeSkuRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],
@@ -56,7 +55,9 @@
   "windowsRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],
-    "personalDeviceEnrollmentBlocked": false,
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": true,
     "platformBlocked": false
   }
 }
