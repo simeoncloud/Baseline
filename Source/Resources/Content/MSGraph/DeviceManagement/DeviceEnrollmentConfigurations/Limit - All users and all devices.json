@@ -10,5 +10,5 @@
   ],
   "displayName": "All users and all devices",
   "limit": 5,
-  "priority": 0
+  "priority": 1
 }

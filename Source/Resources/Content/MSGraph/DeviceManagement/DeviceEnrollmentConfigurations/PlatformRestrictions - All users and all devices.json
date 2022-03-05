@@ -45,7 +45,7 @@
     "personalDeviceEnrollmentBlocked": true,
     "platformBlocked": false
   },
-  "priority": 0,
+  "priority": 1,
   "windowsHomeSkuRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],

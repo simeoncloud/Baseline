@@ -16,7 +16,7 @@
   "disableUserStatusTrackingAfterFirstUser": false,
   "displayName": "All users and all devices",
   "installProgressTimeoutInMinutes": 40,
-  "priority": 0,
+  "priority": 1,
   "selectedMobileAppIds": [],
   "showInstallationProgress": true,
   "trackInstallProgressForAutopilotOnly": false
