@@ -24,7 +24,7 @@
       }
     }
   ],
-  "displayName": "All users and all devices",
+  "displayName": "All users",
   "iosRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],
