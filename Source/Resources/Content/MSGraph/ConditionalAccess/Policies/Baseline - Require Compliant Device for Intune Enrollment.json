@@ -15,13 +15,7 @@
       "mobileAppsAndDesktopClients",
       "other"
     ],
-    "devices": {
-      "deviceFilter": null,
-      "excludeDevices": [],
-      "includeDevices": [
-        "All"
-      ]
-    },
+    "devices": null,
     "locations": {
       "excludeLocations": [],
       "includeLocations": [
@@ -36,6 +30,7 @@
     },
     "servicePrincipalRiskLevels": [],
     "signInRiskLevels": [],
+    "times": null,
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
