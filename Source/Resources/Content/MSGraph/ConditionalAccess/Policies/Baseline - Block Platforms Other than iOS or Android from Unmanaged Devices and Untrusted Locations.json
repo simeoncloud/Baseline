@@ -17,14 +17,12 @@
       "mobileAppsAndDesktopClients"
     ],
     "devices": {
-      "deviceFilter": null,
-      "excludeDevices": [
-        "Compliant",
-        "DomainJoined"
-      ],
-      "includeDevices": [
-        "All"
-      ]
+      "deviceFilter": {
+        "mode": "exclude",
+        "rule": "device.trustType -eq \"ServerAD\" -or device.isCompliant -eq True"
+      },
+      "excludeDevices": [],
+      "includeDevices": []
     },
     "locations": {
       "excludeLocations": [
@@ -45,6 +43,7 @@
     },
     "servicePrincipalRiskLevels": [],
     "signInRiskLevels": [],
+    "times": null,
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
