@@ -37,6 +37,7 @@
   "DefaultPublicFolderMovedItemRetention": "7.00:00:00",
   "DefaultPublicFolderProhibitPostQuota": "2 GB (2,147,483,648 bytes)",
   "DirectReportsGroupAutoCreationEnabled": false,
+  "DisablePlusAddressInRecipients": false,
   "ElcProcessingDisabled": false,
   "EnableForwardingAddressSyncForMailboxes": false,
   "EnableOutlookEvents": false,
