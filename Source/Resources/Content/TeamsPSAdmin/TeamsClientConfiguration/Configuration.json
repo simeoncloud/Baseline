@@ -13,6 +13,5 @@
   "AllowShareFile": false,
   "AllowSkypeBusinessInterop": true,
   "ContentPin": "RequiredOutsideScheduleMeeting",
-  "ResourceAccountContentAccess": "NoAccess",
-  "RestrictedSenderList": ""
+  "ResourceAccountContentAccess": "NoAccess"
 }
