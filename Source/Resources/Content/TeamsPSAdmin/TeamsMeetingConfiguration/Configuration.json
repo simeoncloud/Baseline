@@ -7,7 +7,6 @@
   "ClientMediaPortRangeEnabled": true,
   "ClientVideoPort": 50020,
   "ClientVideoPortRange": 20,
-  "CustomFooterText": "",
   "DisableAnonymousJoin": true,
   "DisableAppInteractionForAnonymousUsers": false,
   "EnableQoS": false
