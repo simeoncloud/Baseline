@@ -1,0 +1,13 @@
+{
+  "ESNEnabled": false,
+  "QuarantineRetentionDays": 15,
+  "UserQuarantinePermissions": {
+    "permissionToBlockSender": true,
+    "permissionToDelete": true,
+    "permissionToDownload": true,
+    "permissionToPreview": true,
+    "permissionToRelease": true,
+    "permissionToRequestRelease": false,
+    "permissionToViewHeader": false
+  }
+}
