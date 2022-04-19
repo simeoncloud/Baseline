@@ -15,13 +15,13 @@
   "EnableViaTag": true,
   "ImpersonationProtectionState": "Automatic",
   "MailboxIntelligenceProtectionAction": "NoAction",
-  "MailboxIntelligenceQuarantineTag": "${urn:resource:PowerShell:ExchangeOnline:QuarantinePolicies/DefaultFullAccessPolicy?$id}",
+  "MailboxIntelligenceQuarantineTag": "DefaultFullAccessPolicy",
   "PhishThresholdLevel": 1,
   "RecommendedPolicyType": "Custom",
   "Rules": [],
-  "SpoofQuarantineTag": "${urn:resource:PowerShell:ExchangeOnline:QuarantinePolicies/DefaultFullAccessPolicy?$id}",
+  "SpoofQuarantineTag": "DefaultFullAccessPolicy",
   "TargetedDomainProtectionAction": "NoAction",
-  "TargetedDomainQuarantineTag": "${urn:resource:PowerShell:ExchangeOnline:QuarantinePolicies/DefaultFullAccessPolicy?$id}",
+  "TargetedDomainQuarantineTag": "DefaultFullAccessPolicy",
   "TargetedUserProtectionAction": "NoAction",
-  "TargetedUserQuarantineTag": "${urn:resource:PowerShell:ExchangeOnline:QuarantinePolicies/DefaultFullAccessPolicy?$id}"
+  "TargetedUserQuarantineTag": "DefaultFullAccessPolicy"
 }
