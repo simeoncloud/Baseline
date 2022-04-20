@@ -3,7 +3,6 @@
   "allowedToSignUpEmailBasedSubscriptions": true,
   "allowedToUseSSPR": true,
   "allowEmailVerifiedUsersToJoinOrganization": true,
-  "allowInvitesFrom": "adminsAndGuestInviters",
   "blockMsolPowerShell": false,
   "defaultUserRolePermissions": {
     "allowedToCreateApps": false,
