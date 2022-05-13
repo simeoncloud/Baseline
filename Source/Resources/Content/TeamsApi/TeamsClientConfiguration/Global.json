@@ -1,0 +1,16 @@
+{
+  "AllowBox": false,
+  "AllowDropBox": false,
+  "AllowEgnyte": true,
+  "AllowEmailIntoChannel": true,
+  "AllowGoogleDrive": false,
+  "AllowGuestUser": true,
+  "AllowOrganizationTab": true,
+  "AllowResourceAccountSendMessage": true,
+  "AllowRoleBasedChatPermissions": false,
+  "AllowScopedPeopleSearchandAccess": false,
+  "AllowShareFile": false,
+  "AllowSkypeBusinessInterop": true,
+  "ContentPin": "RequiredOutsideScheduleMeeting",
+  "ResourceAccountContentAccess": "NoAccess"
+}

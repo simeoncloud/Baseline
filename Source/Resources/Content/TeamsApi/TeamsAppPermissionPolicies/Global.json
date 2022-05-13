@@ -1,0 +1,8 @@
+{
+  "DefaultCatalogApps": [],
+  "DefaultCatalogAppsType": "BlockedAppList",
+  "GlobalCatalogApps": [],
+  "GlobalCatalogAppsType": "BlockedAppList",
+  "PrivateCatalogApps": [],
+  "PrivateCatalogAppsType": "BlockedAppList"
+}
