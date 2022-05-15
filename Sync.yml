@@ -20,7 +20,7 @@ variables:
 name: $(Date:yyyyMMdd)$(Rev:.r)
 trigger: none
 schedules:
-- cron: "0 6 * * *"
+- cron: 0 6 * * *
   displayName: Daily Run 6AM UTC
   branches:
     include:
