@@ -1,4 +1,5 @@
 {
+  "AllowCommunicationComplianceEndUserReporting": true,
   "AllowFluidCollaborate": false,
   "AllowFullChatPermissionUserToDeleteAnyMessage": false,
   "AllowGiphy": true,
