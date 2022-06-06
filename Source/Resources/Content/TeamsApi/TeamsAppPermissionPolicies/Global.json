@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Allows admins to specify approved Teams applications. Another setting (TenantWideAppsSettings) allows for Teams applications in general to be used. The baseline uses the default configurations provided by Microsoft. |\n| Why should you use this? | If you want to be able to restrict users from using unapproved Teams apps. |\n| What is the end-user impact? | Users may use only those Teams apps allowed by admins. |\n| Learn more | [Manage app permission policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-permission-policies) |",
   "DefaultCatalogApps": [],
   "DefaultCatalogAppsType": "BlockedAppList",
   "GlobalCatalogApps": [],
