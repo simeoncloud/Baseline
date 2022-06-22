@@ -5,7 +5,6 @@
   "AllowCallRedirect": "Disabled",
   "AllowCloudRecordingForCalls": false,
   "AllowDelegation": true,
-  "AllowNetworkConfigurationSettingsLookup": false,
   "AllowPrivateCalling": true,
   "AllowSIPDevicesCalling": false,
   "AllowTranscriptionForCalling": false,
@@ -17,6 +16,5 @@
   "LiveCaptionsEnabledTypeForCalling": "DisabledUserOverride",
   "MusicOnHoldEnabledType": "Enabled",
   "PreventTollBypass": false,
-  "SafeTransferEnabled": "Disabled",
   "SpamFilteringEnabledType": "Enabled"
 }
