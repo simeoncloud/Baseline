@@ -19,6 +19,7 @@
   "BookingsNotesEntryRestricted": false,
   "BookingsPaymentsEnabled": false,
   "BookingsPhoneNumberEntryRestricted": false,
+  "BookingsSmsMicrosoftEnabled": true,
   "BookingsSocialSharingRestricted": false,
   "ByteEncoderTypeFor7BitCharsets": 0,
   "ComplianceMLBgdCrawlEnabled": false,

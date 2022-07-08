@@ -6,6 +6,7 @@
     "Setup-x64.exe": "https://www.7-zip.org/a/7z1805-x64.exe"
   },
   "@odata.type": "#microsoft.graph.win32LobApp",
+  "allowAvailableUninstall": false,
   "applicableArchitectures": "x86, x64",
   "assignments": [
     {

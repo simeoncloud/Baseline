@@ -4,6 +4,7 @@
     "Install.bat": "dism /Online /Add-Capability /CapabilityName:NetFx3~~~~"
   },
   "@odata.type": "#microsoft.graph.win32LobApp",
+  "allowAvailableUninstall": false,
   "applicableArchitectures": "x86, x64",
   "assignments": [
     {
