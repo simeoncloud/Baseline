@@ -4,6 +4,7 @@
     "$unzip": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_DC_Web_WWMUI.zip"
   },
   "@odata.type": "#microsoft.graph.win32LobApp",
+  "allowAvailableUninstall": false,
   "applicableArchitectures": "x86, x64",
   "assignments": [],
   "detectionRules": [
