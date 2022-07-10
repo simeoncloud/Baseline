@@ -35,6 +35,11 @@ resources:
     name: simeoncloud/AzurePipelineTemplates
     ref: refs/heads/master
     endpoint: simeoncloud
+  - repository: Reporting
+    type: github
+    name: simeoncloud/reporting
+    ref: refs/heads/feature/uploadToPowerBI
+    endpoint: simeoncloud
 stages:
 - template: Sync.yml@Templates
   parameters:
