@@ -48,3 +48,4 @@ stages:
     UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
     UpdateBaseline: false
     Deploy: ${{ parameters.Deploy }}
+    IsReportingRepositoryDeclared: true
