@@ -105,5 +105,6 @@
       "enabled": true,
       "presentationValues": []
     }
-  ]
+  ],
+  "policyConfigurationIngestionType": "builtIn"
 }
