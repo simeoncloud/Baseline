@@ -25,5 +25,6 @@
       "enabled": false,
       "presentationValues": []
     }
-  ]
+  ],
+  "policyConfigurationIngestionType": "builtIn"
 }
