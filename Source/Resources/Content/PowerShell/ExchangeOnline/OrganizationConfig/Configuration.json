@@ -3,7 +3,6 @@
   "ActivityBasedAuthenticationTimeoutEnabled": true,
   "ActivityBasedAuthenticationTimeoutInterval": "06:00:00",
   "ActivityBasedAuthenticationTimeoutWithSingleSignOnEnabled": true,
-  "AllowPlusAddressInRecipients": true,
   "AppsForOfficeEnabled": true,
   "AsyncSendEnabled": true,
   "AuditDisabled": false,
