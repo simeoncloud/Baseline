@@ -34,7 +34,7 @@
   "localesToInstall": [],
   "notes": "",
   "officePlatformArchitecture": "x64",
-  "officeSuiteAppDefaultFileFormat": "notConfigured",
+  "officeSuiteAppDefaultFileFormat": "officeOpenXmlFormat",
   "productIds": [
     "o365ProPlusRetail"
   ],
