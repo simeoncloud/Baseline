@@ -1,11 +1,7 @@
 {
   "settings": {
-    "androidDeviceAdministratorEnrollmentEnabled": null,
-    "derivedCredentialProvider": null,
-    "enableLogCollection": null,
+    "deviceComplianceCheckinThresholdDays": null,
     "enhancedJailBreak": null,
-    "ignoreDevicesForUnsupportedSettingsEnabled": null,
-    "isScheduledActionEnabled": null,
     "secureByDefault": null
   }
 }
