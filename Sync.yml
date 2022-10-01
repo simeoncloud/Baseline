@@ -33,12 +33,12 @@ resources:
   - repository: Templates
     type: github
     name: simeoncloud/AzurePipelineTemplates
-    ref: refs/heads/feature/SD-199
+    ref: refs/heads/master
     endpoint: simeoncloud
   - repository: Reporting
     type: github
     name: simeoncloud/reporting
-    ref: refs/heads/feature/SD-199
+    ref: refs/heads/main
     endpoint: simeoncloud
 stages:
 - template: Sync.yml@Templates
