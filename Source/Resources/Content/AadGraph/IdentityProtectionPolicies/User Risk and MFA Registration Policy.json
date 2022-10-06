@@ -1,7 +1,32 @@
 {
   "$description": "| What does this do? | Blocks users that are deemed risky by Microsoft and requires those users to change their password. |\n| Why should you use this? | This protects your tenants from hijacked user accounts. |\n| What is the end-user impact? | Users deemed risky by Microsoft will be required to perform self-service password reset. Password reset must be configured for all users who are a part of this policy to ensure that they are not locked out of their accounts. |\n| Learn more | [User risk policy](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-policies#user-risk-policy) |",
   "policyDetail": [
-    "{\"SecurityPolicy\":{\"AccountCompromiseRiskPolicies\":[{\"ExcludeConditions\":[],\"IncludeConditions\":[{\"Groups\":[\"${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}\"],\"MinAccountScore\":\"high\"}],\"Mode\":\"enabled\",\"RequiredActions\":[\"mfa_pwd_change\"]}],\"SecurityDefaults\":{\"IgnoreBaselineProtectionPolicies\":false,\"IsEnabled\":false},\"Version\":0}}"
+    {
+      "SecurityPolicy": {
+        "AccountCompromiseRiskPolicies": [
+          {
+            "ExcludeConditions": [],
+            "IncludeConditions": [
+              {
+                "Groups": [
+                  "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
+                ],
+                "MinAccountScore": "high"
+              }
+            ],
+            "Mode": "enabled",
+            "RequiredActions": [
+              "mfa_pwd_change"
+            ]
+          }
+        ],
+        "SecurityDefaults": {
+          "IgnoreBaselineProtectionPolicies": false,
+          "IsEnabled": false
+        },
+        "Version": 0
+      }
+    }
   ],
   "policyType": 10,
   "tenantDefaultPolicy": 10

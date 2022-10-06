@@ -35,6 +35,11 @@ resources:
     name: simeoncloud/AzurePipelineTemplates
     ref: refs/heads/master
     endpoint: simeoncloud
+  - repository: Reporting
+    type: github
+    name: simeoncloud/reporting
+    ref: refs/heads/main
+    endpoint: simeoncloud
 stages:
 - template: Sync.yml@Templates
   parameters:
@@ -43,3 +48,4 @@ stages:
     UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
     UpdateBaseline: false
     Deploy: ${{ parameters.Deploy }}
+    IsReportingRepositoryDeclared: true
