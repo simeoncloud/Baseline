@@ -6,7 +6,7 @@
   ],
   "mailEnabled": false,
   "mailNickname": "Baseline-CorporateDevices-Physical",
-  "membershipRule": "((device.devicePhysicalIDs -any (_ -contains \"[ZTDId]\")) -or (device.deviceOwnership -eq \"Company\")) and (device.deviceManufacturer -notstartswith \"VMWare\") and (device.deviceManufacturer -notstartswith \"Parallels\") and (device.deviceModel -ne \"Virtual Machine\")",
+  "membershipRule": "((device.devicePhysicalIDs -any (_ -contains \"[ZTDId]\")) -or (device.deviceOwnership -eq \"Company\")) and (device.deviceManufacturer -notstartswith \"VMWare\") and (device.deviceManufacturer -notstartswith \"Parallels\") and (device.deviceModel -ne \"Virtual Machine\") and (device.deviceModel -notContains \"Cloud PC\")",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true
