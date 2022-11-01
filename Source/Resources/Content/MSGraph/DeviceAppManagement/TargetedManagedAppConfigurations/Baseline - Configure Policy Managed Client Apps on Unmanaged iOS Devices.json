@@ -334,5 +334,6 @@
       "name": "com.microsoft.outlook.Mail.FocusedInbox",
       "value": "true"
     }
-  ]
+  ],
+  "targetedAppManagementLevels": "unmanaged"
 }
