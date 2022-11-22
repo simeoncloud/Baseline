@@ -11,6 +11,7 @@
       "id": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users - Insiders?$id}"
     }
   ],
+  "owners": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true,
