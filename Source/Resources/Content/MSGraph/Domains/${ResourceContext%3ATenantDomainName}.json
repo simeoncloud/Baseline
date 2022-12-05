@@ -1,0 +1,6 @@
+{
+  "$name": "${ResourceContext:TenantDomainName}",
+  "isDefault": true,
+  "passwordNotificationWindowInDays": 14,
+  "passwordValidityPeriodInDays": 2147483647
+}
