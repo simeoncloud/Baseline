@@ -1,7 +1,0 @@
-{
-  "$description": "| What does this do? | Disables password expiration per Microsoft's recommendation. |\n| Why should you use this? | This is recommended by Microsoft and affects Microsoft secure score. |\n| What is the end-user impact? | Users will not be required to change their passwords. |\n| Learn more | [Dropping the password expiration policies](https://docs.microsoft.com/en-us/archive/blogs/secguide/security-baseline-final-for-windows-10-v1903-and-windows-server-v1903) |",
-  "$name": "${ResourceContext:TenantDomainName}",
-  "isDefault": true,
-  "passwordNotificationWindowInDays": 14,
-  "passwordValidityPeriodInDays": 2147483647
-}
