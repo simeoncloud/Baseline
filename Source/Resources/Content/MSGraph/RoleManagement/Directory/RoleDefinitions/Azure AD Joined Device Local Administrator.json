@@ -1,0 +1,21 @@
+{
+  "$description": "Users assigned to this role are added to the local administrators group on Azure AD-joined devices.",
+  "inheritsPermissionsFrom": [
+    {
+      "id": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Readers?$id}"
+    }
+  ],
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/groupSettings/standard/read",
+        "microsoft.directory/groupSettingTemplates/standard/read"
+      ],
+      "condition": null
+    }
+  ]
+}

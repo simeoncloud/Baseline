@@ -5,12 +5,6 @@
   "isAssignableToRole": true,
   "mailEnabled": false,
   "mailNickname": "Baseline-DeviceAdministrators",
-  "memberOf": [
-    {
-      "@odata.type": "microsoft.graph.directoryRole",
-      "roleTemplateId": "9f06204d-73c1-4d4c-880a-6edb90606fd8"
-    }
-  ],
   "members": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
