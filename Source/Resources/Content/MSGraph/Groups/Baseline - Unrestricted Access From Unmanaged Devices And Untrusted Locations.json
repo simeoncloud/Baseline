@@ -5,6 +5,7 @@
   "mailEnabled": false,
   "mailNickname": "Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat",
   "members": [],
+  "owners": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true

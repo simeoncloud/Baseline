@@ -5,6 +5,7 @@
   "mailEnabled": false,
   "mailNickname": "Baseline-GroupCreators",
   "members": [],
+  "owners": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true

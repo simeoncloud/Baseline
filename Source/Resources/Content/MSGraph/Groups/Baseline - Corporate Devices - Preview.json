@@ -5,6 +5,7 @@
   "mailEnabled": false,
   "mailNickname": "Baseline-CorporateDevices-Preview",
   "members": [],
+  "owners": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true

@@ -5,6 +5,7 @@
   "mailEnabled": false,
   "mailNickname": "Baseline-Microsoft365Users-Insiders",
   "members": [],
+  "owners": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true,

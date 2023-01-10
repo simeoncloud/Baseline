@@ -6,6 +6,7 @@
   "mailEnabled": false,
   "mailNickname": "Baseline-DeviceAdministrators",
   "members": [],
+  "owners": [],
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true,
