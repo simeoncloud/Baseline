@@ -1,0 +1,63 @@
+{
+  "$description": "Only used by Azure AD Connect service.",
+  "inheritsPermissionsFrom": [],
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/applications/appRoles/update",
+        "microsoft.directory/applications/audience/update",
+        "microsoft.directory/applications/authentication/update",
+        "microsoft.directory/applications/basic/update",
+        "microsoft.directory/applications/create",
+        "microsoft.directory/applications/credentials/update",
+        "microsoft.directory/applications/delete",
+        "microsoft.directory/applications/notes/update",
+        "microsoft.directory/applications/owners/update",
+        "microsoft.directory/applications/permissions/update",
+        "microsoft.directory/applications/policies/update",
+        "microsoft.directory/applications/tag/update",
+        "microsoft.directory/authorizationPolicy/standard/read",
+        "microsoft.directory/hybridAuthenticationPolicy/allProperties/allTasks",
+        "microsoft.directory/organization/dirSync/update",
+        "microsoft.directory/passwordHashSync/allProperties/allTasks",
+        "microsoft.directory/policies/basic/update",
+        "microsoft.directory/policies/create",
+        "microsoft.directory/policies/delete",
+        "microsoft.directory/policies/owners/read",
+        "microsoft.directory/policies/owners/update",
+        "microsoft.directory/policies/policyAppliedTo/read",
+        "microsoft.directory/policies/standard/read",
+        "microsoft.directory/policies/tenantDefault/update",
+        "microsoft.directory/servicePrincipals/appRoleAssignedTo/read",
+        "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
+        "microsoft.directory/servicePrincipals/appRoleAssignments/read",
+        "microsoft.directory/servicePrincipals/audience/update",
+        "microsoft.directory/servicePrincipals/authentication/update",
+        "microsoft.directory/servicePrincipals/basic/update",
+        "microsoft.directory/servicePrincipals/create",
+        "microsoft.directory/servicePrincipals/credentials/update",
+        "microsoft.directory/servicePrincipals/delete",
+        "microsoft.directory/servicePrincipals/disable",
+        "microsoft.directory/servicePrincipals/enable",
+        "microsoft.directory/servicePrincipals/getPasswordSingleSignOnCredentials",
+        "microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials",
+        "microsoft.directory/servicePrincipals/memberOf/read",
+        "microsoft.directory/servicePrincipals/notes/update",
+        "microsoft.directory/servicePrincipals/oAuth2PermissionGrants/read",
+        "microsoft.directory/servicePrincipals/ownedObjects/read",
+        "microsoft.directory/servicePrincipals/owners/read",
+        "microsoft.directory/servicePrincipals/owners/update",
+        "microsoft.directory/servicePrincipals/permissions/update",
+        "microsoft.directory/servicePrincipals/policies/read",
+        "microsoft.directory/servicePrincipals/policies/update",
+        "microsoft.directory/servicePrincipals/standard/read",
+        "microsoft.directory/servicePrincipals/tag/update"
+      ],
+      "condition": null
+    }
+  ]
+}

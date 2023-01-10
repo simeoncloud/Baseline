@@ -4,7 +4,6 @@
   "groupTypes": [],
   "mailEnabled": false,
   "mailNickname": "Baseline-Microsoft365Users-Preview",
-  "memberOf": [],
   "members": [
     {
       "@odata.type": "microsoft.graph.group",
