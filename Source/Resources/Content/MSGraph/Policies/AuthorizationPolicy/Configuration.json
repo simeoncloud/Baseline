@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Defines Azure Active Directory authorization settings. The baseline allows users to sign up for email based subscriptions, use Self-Serve Password Reset, and join the tenant by email validation. Only adminstrators and guest inviters can invite external users to the organization. Users are allowed to read other users. |\n| Why should you use this? | If you want to apply Azure Active Directory authorization settings. |\n| What is the end-user impact? | Users are not allowed to read BitLocker keys for their owned device. |\n| Learn more | [Authorization Policy](https://docs.microsoft.com/en-us/graph/api/resources/authorizationpolicy?view=graph-rest-1.0) |", 
+  "$description": "| What does this do? | Defines Azure Active Directory authorization settings. The baseline allows users to sign up for email based subscriptions, use Self-Serve Password Reset, and join the tenant by email validation. Only adminstrators and guest inviters can invite external users to the organization. Users are allowed to read other users. |\n| Why should you use this? | If you want to apply Azure Active Directory authorization settings. |\n| What is the end-user impact? | Users are not allowed to read BitLocker keys for their owned device. |\n| Learn more | [Authorization Policy](https://docs.microsoft.com/en-us/graph/api/resources/authorizationpolicy?view=graph-rest-1.0) |",
   "allowedToSignUpEmailBasedSubscriptions": true,
   "allowedToUseSSPR": true,
   "allowEmailVerifiedUsersToJoinOrganization": true,
@@ -11,6 +11,6 @@
     "allowedToReadOtherUsers": true
   },
   "enabledPreviewFeatures": [],
-  "guestUserRoleId": "10dae51f-b6af-4016-8d66-8c2a99b929b3",
+  "guestUserRoleId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Guest User?$id}",
   "permissionGrantPolicyIdsAssignedToDefaultUserRole": []
 }

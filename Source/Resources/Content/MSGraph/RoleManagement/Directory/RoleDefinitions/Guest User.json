@@ -1,0 +1,56 @@
+{
+  "$description": "Default role for guest users. Can read a limited set of directory information.",
+  "inheritsPermissionsFrom": [],
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/applications/owners/limitedRead",
+        "microsoft.directory/applications/policies/limitedRead",
+        "microsoft.directory/applications/standard/limitedRead",
+        "microsoft.directory/domains/standard/read",
+        "microsoft.directory/groups/appRoleAssignments/limitedRead",
+        "microsoft.directory/groups/memberOf/limitedRead",
+        "microsoft.directory/groups/members/limitedRead",
+        "microsoft.directory/groups/owners/limitedRead",
+        "microsoft.directory/groups/settings/limitedRead",
+        "microsoft.directory/groups/standard/limitedRead",
+        "microsoft.directory/organization/basicProfile/read",
+        "microsoft.directory/servicePrincipals/appRoleAssignedTo/limitedRead",
+        "microsoft.directory/servicePrincipals/appRoleAssignments/limitedRead",
+        "microsoft.directory/servicePrincipals/memberOf/limitedRead",
+        "microsoft.directory/servicePrincipals/oAuth2PermissionGrants/limitedRead",
+        "microsoft.directory/servicePrincipals/ownedObjects/limitedRead",
+        "microsoft.directory/servicePrincipals/owners/limitedRead",
+        "microsoft.directory/servicePrincipals/policies/limitedRead",
+        "microsoft.directory/servicePrincipals/standard/limitedRead",
+        "microsoft.directory/users/guestBasicProfile/limitedRead",
+        "microsoft.directory/users/inviteGuest"
+      ]
+    },
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/users/appRoleAssignments/read",
+        "microsoft.directory/users/deviceForResourceAccount/read",
+        "microsoft.directory/users/directReports/read",
+        "microsoft.directory/users/eligibleMemberOf/read",
+        "microsoft.directory/users/licenseDetails/read",
+        "microsoft.directory/users/manager/read",
+        "microsoft.directory/users/memberOf/read",
+        "microsoft.directory/users/oAuth2PermissionGrants/read",
+        "microsoft.directory/users/ownedDevices/read",
+        "microsoft.directory/users/ownedObjects/read",
+        "microsoft.directory/users/password/update",
+        "microsoft.directory/users/pendingMemberOf/read",
+        "microsoft.directory/users/photo/read",
+        "microsoft.directory/users/registeredDevices/read",
+        "microsoft.directory/users/scopedRoleMemberOf/read",
+        "microsoft.directory/users/standard/read"
+      ],
+      "condition": "$ResourceIsSelf"
+    }
+  ]
+}
