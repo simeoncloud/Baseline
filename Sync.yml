@@ -15,8 +15,8 @@ parameters:
     displayName: Deploy changes to tenant - if unchecked, only performs a preview and will not make any changes to the tenant
     default: true
     type: boolean
-  - name: BackupOnly
-    displayName: Run as backup only - if checked, will only run the Export operation, without validation after export
+  - name: ExportOnly
+    displayName: Run as backup only - if checked, will only run the Export operation without validation after export
     default: false
     type: boolean
 variables:
@@ -49,7 +49,7 @@ stages:
   parameters:
     Comment: ${{ parameters.Comment }}
     Export: ${{ parameters.Export }}
-    BackupOnly: ${{ parameters.BackupOnly }}
+    ExportOnly: ${{ parameters.ExportOnly }}
     UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
     UpdateBaseline: false
     Deploy: ${{ parameters.Deploy }}
