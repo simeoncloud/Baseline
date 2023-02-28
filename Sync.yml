@@ -16,7 +16,7 @@ parameters:
     default: true
     type: boolean
   - name: ExportOnly
-    displayName: Run as backup only - if checked, will only run the Export operation without validation after export
+    displayName: Run as export only - if checked, will only run the Export operation without validation after export
     default: false
     type: boolean
 variables:
