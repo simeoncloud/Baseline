@@ -8,5 +8,6 @@
   "supportedServices": [
     "Email",
     "OfficeCommunicationsOnline"
-  ]
+  ],
+  "verificationMethod": "dnsRecord"
 }
