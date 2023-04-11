@@ -1,3 +1,12 @@
 {
-  "$name": "${ResourceContext:TenantDomainName}"
+  "$name": "${ResourceContext:TenantDomainName}",
+  "authenticationType": "Managed",
+  "isAdminManaged": true,
+  "isInitial": true,
+  "isRoot": true,
+  "isVerified": true,
+  "supportedServices": [
+    "Email",
+    "OfficeCommunicationsOnline"
+  ]
 }
