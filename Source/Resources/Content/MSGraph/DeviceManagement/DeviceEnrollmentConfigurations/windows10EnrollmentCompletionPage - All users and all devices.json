@@ -1,6 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
-  "$description": "This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership.",
+  "$description": "| What does this do? | This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership. |",
   "allowDeviceResetOnInstallFailure": false,
   "allowDeviceUseOnInstallFailure": false,
   "allowLogCollectionOnInstallFailure": true,

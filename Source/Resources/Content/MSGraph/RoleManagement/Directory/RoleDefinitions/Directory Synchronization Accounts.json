@@ -1,5 +1,5 @@
 {
-  "$description": "Only used by Azure AD Connect service.",
+  "$description": "| What does this do? | Only used by Azure AD Connect service. |",
   "inheritsPermissionsFrom": [],
   "isEnabled": true,
   "resourceScopes": [

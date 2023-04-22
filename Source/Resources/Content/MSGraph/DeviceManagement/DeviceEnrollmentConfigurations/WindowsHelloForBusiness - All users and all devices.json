@@ -1,6 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
-  "$description": "This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership.",
+  "$description": "| What does this do? | This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership. |",
   "assignments": [
     {
       "target": {
