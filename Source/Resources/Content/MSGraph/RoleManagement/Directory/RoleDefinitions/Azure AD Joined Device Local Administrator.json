@@ -1,5 +1,6 @@
 {
   "$description": "| What does this do? | Users assigned to this role are added to the local administrators group on Azure AD-joined devices. |",
+  "description": "Users assigned to this role are added to the local administrators group on Azure AD-joined devices.",
   "inheritsPermissionsFrom": [
     {
       "id": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Readers?$id}"
