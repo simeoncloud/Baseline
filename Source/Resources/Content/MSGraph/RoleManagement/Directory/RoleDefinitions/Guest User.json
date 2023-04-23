@@ -1,6 +1,6 @@
 {
   "$description": "| What does this do? | Default role for guest users. Can read a limited set of directory information. |",
-  "description": "What does this do? | Default role for guest users. Can read a limited set of directory information.",
+  "description": "Default role for guest users. Can read a limited set of directory information.",
   "inheritsPermissionsFrom": [],
   "isEnabled": true,
   "resourceScopes": [
