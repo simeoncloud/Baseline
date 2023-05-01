@@ -13,7 +13,7 @@
       "browser",
       "mobileAppsAndDesktopClients"
     ],
-    "servicePrincipalRiskLevels": [],
+    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {

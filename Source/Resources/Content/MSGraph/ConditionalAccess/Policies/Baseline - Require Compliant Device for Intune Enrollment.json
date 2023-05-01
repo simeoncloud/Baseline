@@ -28,7 +28,7 @@
         "windows"
       ]
     },
-    "servicePrincipalRiskLevels": [],
+    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
     "times": null,
     "userRiskLevels": [],

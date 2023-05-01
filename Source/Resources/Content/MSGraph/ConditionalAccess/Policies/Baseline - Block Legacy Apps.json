@@ -12,7 +12,7 @@
     "clientAppTypes": [
       "other"
     ],
-    "servicePrincipalRiskLevels": [],
+    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
