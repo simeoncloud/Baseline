@@ -3,7 +3,7 @@
   "AllowBox": false,
   "AllowDropBox": false,
   "AllowEgnyte": true,
-  "AllowEmailIntoChannel": true,
+  "AllowEmailIntoChannel": false,
   "AllowGoogleDrive": false,
   "AllowGuestUser": true,
   "AllowOrganizationTab": true,

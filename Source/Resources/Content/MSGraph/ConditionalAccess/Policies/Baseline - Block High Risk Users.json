@@ -1,0 +1,47 @@
+{
+    "$description": "| What does this do? | Users who are determined to be high risk are to be blocked from accessing the system via Conditional Access until an administrator remediates their account. |\n| Why should you use this? | Azure AD Identity Protection uses various signals to detect the risk level for each user and determine if an account has likely been compromised. High risk users should not be allowed to sign in until further investigation. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Once a respective conditional access policy is implemented, if a high-risk user attempts to login, the user will receive an error message with instructions to contact the administrator to re-enable their access |\n| Learn more | [Create Risk Policies](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies) |",
+    "conditions": {
+      "applications": {
+        "excludeApplications": [],
+        "includeApplications": [
+          "All"
+        ],
+        "includeAuthenticationContextClassReferences": [],
+        "includeUserActions": []
+      },
+      "clientAppTypes": [
+        "all"
+      ],
+      "platforms": {
+        "excludePlatforms": [],
+        "includePlatforms": [
+        ]
+      },
+      "servicePrincipalRiskLevels": null,
+      "signInRiskLevels": [],
+      "userRiskLevels": [
+        "high"
+      ],
+      "users": {
+        "excludeGroups": [
+            "${urn:resource:MSGraph:Groups/Emergency Access?$id}"
+        ],
+        "excludeRoles": [],
+        "excludeUsers": [],
+        "includeGroups": [],
+        "includeRoles": [],
+        "includeUsers": [
+          "All"
+        ]
+      }
+    },
+    "grantControls": {
+      "builtInControls": [
+        "block"
+      ],
+      "customAuthenticationFactors": [],
+      "operator": "OR",
+      "termsOfUse": []
+    },
+    "state": "enabled"
+  }

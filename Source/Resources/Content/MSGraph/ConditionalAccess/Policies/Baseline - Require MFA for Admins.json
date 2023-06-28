@@ -17,7 +17,9 @@
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
-      "excludeGroups": [],
+      "excludeGroups": [
+        "${urn:resource:MSGraph:Groups/Emergency Access?$id}"
+      ],
       "excludeRoles": [
         "d29b2b05-8046-44ba-8758-1e26182fcf32"
       ],

@@ -1,0 +1,17 @@
+{
+    "$description": "| What does this do? | This policy ensures all Exchange alerts are enabled and are being sent to admins in the tenant when triggered. |\n| Why should you use this? | Alert policies in the new Exchange admin center (EAC) allow you to track events related to mail flow. |\n| What is the end-user impact? | Only Admin users in the tenant receive email notifiations of alert triggers. End-Users are not affectedd. |\n| Learn more | [Alert policies in Exchange Online](https://learn.microsoft.com/en-us/exchange/monitoring/mail-flow-insights/alert-policy-and-its-configuration)|",
+    "$name": "Email messages containing malicious file removed after delivery​",
+    "AggregationType": "None",
+    "Category": "ThreatManagement",
+    "Comment": "Emails with malicious file that were delivered and later removed -V1.0.0.3",
+    "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+    "Disabled": false,
+    "Filter": "(Mail.IsMailZAPSuccessful -eq 1) -and Mail.IsSystemZappedByFiles -eq 1 -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'PhishEdu')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'SecOps')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'ThirdPartyFiltering')) -and (Mail.IsCampaignZapped -ne 1)",
+    "NotificationEnabled": false,
+    "NotifyUser": [
+      "TenantAdmins"
+    ],
+    "NotifyUserOnFilterMatch": false,
+    "Severity": "Informational",
+    "ThreatType": "Malicious"
+  }

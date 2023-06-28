@@ -1,0 +1,106 @@
+{
+    "$description": "| What does this do? | This policy detects the presence of credit card numbers in externally shared documents and emails. End users are notified of the detection with the suggestion to consider either removing the sensitive data or restricting the sharing.|\n| Why should you use this? | Senesitive content should be restricted from being shared inside the organization where it could easily be exfiltrated such as externally sent email messages.|\n| What is the end-user impact? | End users are notified of the detection with the suggestion to consider either removing the sensitive data or restricting the sharing. |\n| Learn more | [Data loss prevention in Exchange Online](https://learn.microsoft.com/en-us/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) |",
+    "ExchangeLocation": [
+      "All"
+    ],
+    "Mode": "Enable",
+    "OneDriveLocation": [
+      "All"
+    ],
+    "Priority": 0,
+    "Rules": [
+      {
+        "AccessScope": "NotInOrganization",
+        "AdvancedRule": "{\"Version\":\"1.0\",\"Condition\":{\"Operator\":\"And\",\"SubConditions\":[{\"ConditionName\":\"AccessScope\",\"Value\":\"NotInOrganization\"},{\"ConditionName\":\"ContentContainsSensitiveInformation\",\"Value\":[{\"id\":\"${urn:resource:PowerShell:SecurityAndComplianceCenter:DlpSensitiveInformationTypes/Credit Card Number?$id}\",\"maxconfidence\":\"100\",\"name\":\"Credit Card Number\",\"maxcount\":\"-1\",\"minconfidence\":\"85\",\"classifiertype\":\"Content\",\"mincount\":\"10\",\"confidencelevel\":\"High\"}]}]}}",
+        "BlockAccess": false,
+        "Comment": "This rule detects credit card numbers in documents & emails that are shared externally. End users are notified of any detection. This rule does NOT block end users from sharing documents and emails with external users. This is a default rule provided by Office 365.",
+        "ContentContainsSensitiveInformation": [
+          {
+            "classifiertype": "Content",
+            "confidencelevel": "High",
+            "id": "${urn:resource:PowerShell:SecurityAndComplianceCenter:DlpSensitiveInformationTypes/Credit Card Number?$id}",
+            "maxconfidence": "100",
+            "maxcount": "-1",
+            "minconfidence": "85",
+            "mincount": "10"
+          }
+        ],
+        "ContentIsNotLabeled": false,
+        "ContentIsShared": false,
+        "Disabled": false,
+        "DocumentIsPasswordProtected": false,
+        "DocumentIsUnsupported": false,
+        "ExceptIfContentIsShared": false,
+        "ExceptIfDocumentIsPasswordProtected": false,
+        "ExceptIfDocumentIsUnsupported": false,
+        "ExceptIfHasSenderOverride": false,
+        "ExceptIfProcessingLimitExceeded": false,
+        "HasSenderOverride": false,
+        "Name": "Items with 10 or more credit card numbers shared externally",
+        "NotifyEmailCustomText": "You shared content that contains 10 or more credit card numbers with people outside your organization. Consider removing the numbers or make sure it's OK that everyone you're sharing with can view them.",
+        "NotifyOverrideRequirements": "None",
+        "NotifyPolicyTipCustomText": "This item contains 10 or more credit card numbers and is being shared with people outside your organization. Consider removing the numbers or make sure it's OK that everyone you're sharing with can view them.",
+        "NotifyPolicyTipDisplayOption": "Tip",
+        "NotifyUser": [
+          "LastModifier",
+          "Owner",
+          "SiteAdmin"
+        ],
+        "Priority": 1,
+        "ProcessingLimitExceeded": false,
+        "Quarantine": false,
+        "RemoveRMSTemplate": false,
+        "ReportSeverityLevel": "Low",
+        "RestrictBrowserAccess": false,
+        "StopPolicyProcessing": false
+      },
+      {
+        "AccessScope": "NotInOrganization",
+        "AdvancedRule": "{\"Version\":\"1.0\",\"Condition\":{\"Operator\":\"And\",\"SubConditions\":[{\"ConditionName\":\"AccessScope\",\"Value\":\"NotInOrganization\"},{\"ConditionName\":\"ContentContainsSensitiveInformation\",\"Value\":[{\"id\":\"${urn:resource:PowerShell:SecurityAndComplianceCenter:DlpSensitiveInformationTypes/Credit Card Number?$id}\",\"maxconfidence\":\"100\",\"name\":\"Credit Card Number\",\"maxcount\":\"9\",\"minconfidence\":\"85\",\"classifiertype\":\"Content\",\"mincount\":\"1\",\"confidencelevel\":\"High\"}]}]}}",
+        "BlockAccess": false,
+        "Comment": "This rule detects credit card numbers in documents & emails that are shared externally. End users are notified of any detection. This rule does NOT block end users from sharing documents and emails with external users. This is a default rule provided by Office 365.",
+        "ContentContainsSensitiveInformation": [
+          {
+            "classifiertype": "Content",
+            "confidencelevel": "High",
+            "id": "${urn:resource:PowerShell:SecurityAndComplianceCenter:DlpSensitiveInformationTypes/Credit Card Number?$id}",
+            "maxconfidence": "100",
+            "maxcount": "9",
+            "minconfidence": "85",
+            "mincount": "1"
+          }
+        ],
+        "ContentIsNotLabeled": false,
+        "ContentIsShared": false,
+        "Disabled": false,
+        "DocumentIsPasswordProtected": false,
+        "DocumentIsUnsupported": false,
+        "ExceptIfContentIsShared": false,
+        "ExceptIfDocumentIsPasswordProtected": false,
+        "ExceptIfDocumentIsUnsupported": false,
+        "ExceptIfHasSenderOverride": false,
+        "ExceptIfProcessingLimitExceeded": false,
+        "HasSenderOverride": false,
+        "Name": "Items containing 1-9 credit card numbers shared externally",
+        "NotifyEmailCustomText": "You shared content that contains 1 or more credit card numbers with people outside your organization. Consider removing the numbers or make sure it's OK that everyone you're sharing with can view them.",
+        "NotifyOverrideRequirements": "None",
+        "NotifyPolicyTipCustomText": "This item contains 1 or more credit card numbers and is being shared with people outside your organization. Consider removing the numbers or make sure it's OK that everyone you're sharing with can view them.",
+        "NotifyPolicyTipDisplayOption": "Tip",
+        "NotifyUser": [
+          "LastModifier",
+          "Owner",
+          "SiteAdmin"
+        ],
+        "Priority": 0,
+        "ProcessingLimitExceeded": false,
+        "Quarantine": false,
+        "RemoveRMSTemplate": false,
+        "ReportSeverityLevel": "Low",
+        "RestrictBrowserAccess": false,
+        "StopPolicyProcessing": false
+      }
+    ],
+    "SharePointLocation": [
+      "All"
+    ]
+  }
