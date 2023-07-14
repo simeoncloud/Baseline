@@ -37,12 +37,12 @@ resources:
     - repository: Templates
       type: github
       name: simeoncloud/AzurePipelineTemplates
-      ref: refs/heads/feature/SD-1559
+      ref: refs/heads/master
       endpoint: simeoncloud
     - repository: Sync
       type: github
       name: simeoncloud/Sync
-      ref: refs/heads/feature/SD-1559
+      ref: refs/heads/master
       endpoint: simeoncloud
 stages:
   - template: SimeonSync.yml@Templates
