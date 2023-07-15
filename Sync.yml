@@ -1,4 +1,4 @@
-parameters:    
+parameters:
   - name: Comment
     displayName: Comment - included in build number
     default: '-'
@@ -24,33 +24,32 @@ variables:
 name: $(Date:yyyyMMdd)$(Rev:.r)
 trigger: none
 schedules:
-- cron: 0 6 * * *
-  displayName: Daily Run 6AM UTC
-  branches:
-    include:
-    - master
-  always: true
+  - cron: 0 6 * * *
+    displayName: Daily Run 6AM UTC
+    branches:
+      include:
+        - master
+    always: true
 pool:
   vmImage: windows-latest
 resources:
   repositories:
-  - repository: Templates
-    type: github
-    name: simeoncloud/AzurePipelineTemplates
-    ref: refs/heads/master
-    endpoint: simeoncloud
-  - repository: Reporting
-    type: github
-    name: simeoncloud/reporting
-    ref: refs/heads/main
-    endpoint: simeoncloud
+    - repository: Templates
+      type: github
+      name: simeoncloud/AzurePipelineTemplates
+      ref: refs/heads/master
+      endpoint: simeoncloud
+    - repository: Sync
+      type: github
+      name: simeoncloud/Sync
+      ref: refs/heads/master
+      endpoint: simeoncloud
 stages:
-- template: Sync.yml@Templates
-  parameters:
-    Comment: ${{ parameters.Comment }}
-    Export: ${{ parameters.Export }}
-    ExportOnly: ${{ parameters.ExportOnly }}
-    UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
-    UpdateBaseline: false
-    Deploy: ${{ parameters.Deploy }}
-    IsReportingRepositoryDeclared: true
+  - template: SimeonSync.yml@Templates
+    parameters:
+      Comment: ${{ parameters.Comment }}
+      Export: ${{ parameters.Export }}
+      ExportOnly: ${{ parameters.ExportOnly }}
+      UseLastDeployTagForExport: ${{ parameters.UseLastDeployTagForExport }}
+      UpdateBaseline: false
+      Deploy: ${{ parameters.Deploy }}
