@@ -1,5 +1,5 @@
 {
-  "$name": "Microsoft Intune-0000000a-0000-0000-c000-000000000000",
+  "$description": "Multi-Tenant App: Microsoft Intune",
   "appId": "0000000a-0000-0000-c000-000000000000",
   "displayName": "Microsoft Intune"
 }
