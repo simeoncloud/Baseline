@@ -1,0 +1,48 @@
+{
+    "$description": "| What does this do? | Requires MFA for all users. Excludes users part of the \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.\" that is part of the baseline. |\n| Why should you use this? | By enforcing MFA within an organization, companies can better protect themselves against cyber threats, such as hacking and identity theft. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users must authenticate using MFA when accessing their account. |\n| Learn more | [How to: Require MFA for all users with Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) |",
+    "conditions": {
+        "userRiskLevels": [],
+        "signInRiskLevels": [],
+        "clientAppTypes": [
+            "all"
+        ],
+        "servicePrincipalRiskLevels": [],
+        "platforms": null,
+        "locations": null,
+        "devices": null,
+        "clientApplications": null,
+        "applications": {
+            "includeApplications": [
+                "All"
+            ],
+            "excludeApplications": [],
+            "includeUserActions": [],
+            "includeAuthenticationContextClassReferences": []
+        },
+        "users": {
+            "includeUsers": [
+                "All"
+            ],
+            "excludeUsers": [
+            ],
+            "includeGroups": [],
+            "excludeGroups": [
+                "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+            ],
+            "includeRoles": [],
+            "excludeRoles": [
+                "d29b2b05-8046-44ba-8758-1e26182fcf32"
+            ],
+            "includeGuestsOrExternalUsers": null,
+            "excludeGuestsOrExternalUsers": null
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": [
+            "mfa"
+        ],
+        "customAuthenticationFactors": [],
+        "termsOfUse": []
+    }
+}

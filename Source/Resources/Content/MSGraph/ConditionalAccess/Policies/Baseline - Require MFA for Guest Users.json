@@ -1,0 +1,53 @@
+{
+    "$description": "| What does this do? | Requries MFA for Guest Users in the organization.  |\n| Why should you use this? | By enforcing MFA within an organization, companies can better protect themselves against cyber threats, such as hacking and identity theft. Guest users are likely accessing corprorate data and should be required to have MFA just like other users in the org. |\n| What is the end-user impact? | <span style='color: yellow'>Medium Impact.</span> Guest users will be prompted for MFA when signing in. They will have to set up MFA when it is their first time logging in to your organization if they do not have it set up already. |\n| Learn more | [Require MFA for Guest Users](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-policy-guest-mfa) |",
+    "conditions": {
+      "applications": {
+        "excludeApplications": [],
+        "includeApplications": [
+            "All"
+        ],
+        "includeAuthenticationContextClassReferences": [],
+        "includeUserActions": [
+        ]
+      },
+      "clientAppTypes": [
+        "all"
+      ],
+      "platforms": {
+        "excludePlatforms": [],
+        "includePlatforms": [
+        ]
+      },
+      "servicePrincipalRiskLevels": null,
+      "signInRiskLevels": [
+      ],
+      "userRiskLevels": [
+
+      ],
+      "users": {
+        "includeUsers": [],
+        "excludeUsers": [],
+        "includeGroups": [],
+        "excludeGroups": [],
+        "includeRoles": [],
+        "excludeRoles": [],
+        "excludeGuestsOrExternalUsers": null,
+        "includeGuestsOrExternalUsers": {
+            "guestOrExternalUserTypes": "internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser",
+            "externalTenants": {
+                "@odata.type": "#microsoft.graph.conditionalAccessAllExternalTenants",
+                "membershipKind": "all"
+            }
+        }
+    }
+    },
+    "grantControls": {
+      "builtInControls": [
+        "mfa"
+      ],
+      "customAuthenticationFactors": [],
+      "operator": "OR",
+      "termsOfUse": []
+    },
+    "state": "enabled"
+  }
