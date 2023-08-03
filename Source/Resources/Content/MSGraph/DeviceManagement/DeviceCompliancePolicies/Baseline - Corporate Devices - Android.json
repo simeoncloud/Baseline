@@ -1,0 +1,30 @@
+{
+  "$description": "| What does this do? | Defines the required state that a device for an Android phone must be in to be considered compliant before accessing an organization's data. The baseline requires that a device is not jailbroken and requires storage encrpytion. This policy applies to all devices in the Azure AD group \"Baseline - Corporate Android Devices\". |\n| Why should you use this? | This ensures your managed Android devices meet a minimum level of security to access data. |\n| What is the end-user impact? | Users may access an organization's data only if the device meets the conditions specified in the policy. |\n| Learn more | [Use compliance policies to set rules for devices you manage with Intune](https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-android-aosp) |",
+  "@odata.type": "#microsoft.graph.aospDeviceOwnerCompliancePolicy",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Android Devices?$id}"
+      }
+    }
+  ],
+  "passwordMinimumLength": 8,
+  "passwordMinutesOfInactivityBeforeLock": 15,
+  "passwordRequired": true,
+  "passwordRequiredType": "alphanumeric",
+  "scheduledActionsForRule": [
+    {
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 24,
+          "notificationMessageCCList": [],
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ],
+  "securityBlockJailbrokenDevices": true,
+  "storageRequireEncryption": true
+}
