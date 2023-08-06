@@ -1,12 +1,12 @@
 {
-    "$description": "| What does this do? | Defines the required state that a macOS device must be in to be considered compliant before accessing an organization's data. The baseline requires that a device blocks simple passwords, has firewall enabled, and storage encryption through FileVault. This policy applies to all devices in the Azure AD group \"Baseline - Corporate Apple Devices\". |\n| Why should you use this? | This ensures your managed macOS devices meet a minimum level of security to access data. |\n| What is the end-user impact? | Users may access an organization's data only if the device meets the requirements defined in this policy. |\n| Learn more | [Use compliance policies to set rules for devices you manage with Intune](https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-mac-os) |",
+    "$description": "| What does this do? | Defines the required state that a macOS device must be in to be considered compliant before accessing an organization's data. The baseline requires that a device blocks simple passwords, has firewall enabled, and storage encryption through FileVault. This policy applies to all devices in the Azure AD group \"Baseline - Corporate Devices - Apple\". |\n| Why should you use this? | This ensures your managed macOS devices meet a minimum level of security to access data. |\n| What is the end-user impact? | Users may access an organization's data only if the device meets the requirements defined in this policy. |\n| Learn more | [Use compliance policies to set rules for devices you manage with Intune](https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-mac-os) |",
     "@odata.type": "#microsoft.graph.macOSCompliancePolicy",
     "advancedThreatProtectionRequiredSecurityLevel": "unavailable",
     "assignments": [
       {
         "target": {
           "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-          "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Apple Devices?$id}"
+          "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Apple?$id}"
         }
       }
     ],
