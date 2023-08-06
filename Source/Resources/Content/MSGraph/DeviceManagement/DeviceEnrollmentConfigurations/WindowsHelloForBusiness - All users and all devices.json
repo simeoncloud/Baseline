@@ -10,10 +10,10 @@
   ],
   "displayName": "All users and all devices",
   "enhancedBiometricsState": "enabled",
-  "pinExpirationInDays": 41,
+  "pinExpirationInDays": 0,
   "pinLowercaseCharactersUsage": "disallowed",
   "pinMaximumLength": 127,
-  "pinMinimumLength": 6,
+  "pinMinimumLength": 8,
   "pinPreviousBlockCount": 5,
   "pinSpecialCharactersUsage": "disallowed",
   "pinUppercaseCharactersUsage": "disallowed",
@@ -21,6 +21,6 @@
   "remotePassportEnabled": true,
   "securityDeviceRequired": true,
   "securityKeyForSignIn": "notConfigured",
-  "state": "disabled",
+  "state": "enabled",
   "unlockWithBiometricsEnabled": true
 }
