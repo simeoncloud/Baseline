@@ -1,0 +1,16 @@
+{
+    "$description": "| What does this do? | This policy ensures all Exchange alerts are enabled and are being sent to admins in the tenant when triggered. |\n| Why should you use this? | Alert policies in the new Exchange admin center (EAC) allow you to track events related to mail flow. |\n| What is the end-user impact? | Only Admin users in the tenant receive email notifiations of alert triggers. End-Users are not affectedd. |\n| Learn more | [Alert policies in Exchange Online](https://learn.microsoft.com/en-us/exchange/monitoring/mail-flow-insights/alert-policy-and-its-configuration)|",
+    "AggregationType": "None",
+    "Category": "ThreatManagement",
+    "Comment": "Emails with phish URLs that were delivered and later removed -V1.0.0.8",
+    "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+    "Disabled": false,
+    "Filter": "Mail.IsSystemZappedPhish -eq 1 -and (-not (Mail.Recipients.Tags -like 'hve')) -and (-not (Mail.Sender.Tags -like 'hve')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'PhishEdu')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'SecOps')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'ThirdPartyFiltering')) -and ((Mail.IsGenericZapped -ne 1) -and (Mail.IsGenericZapped -ne 0)) -and ((Mail.IsCampaignZapped -ne 1) -and (Mail.IsCampaignZapped -ne 0))",
+    "NotificationEnabled": false,
+    "NotifyUser": [
+      "TenantAdmins"
+    ],
+    "NotifyUserOnFilterMatch": false,
+    "Severity": "Informational",
+    "ThreatType": "Phish"
+  }
