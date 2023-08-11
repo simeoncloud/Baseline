@@ -15,7 +15,6 @@
     "appliesTo": 1,
     "isAdminConfigurable": false
   },
-  "description": "Tenant-wide policy that manages initial provisioning controls using quota restrictions, additional authentication and authorization checks",
   "localAdminPassword": {
     "isEnabled": false
   },
