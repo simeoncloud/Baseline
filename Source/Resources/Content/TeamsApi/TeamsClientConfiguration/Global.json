@@ -2,7 +2,7 @@
   "$description": "| What does this do? | Defines global settings for Microsoft Teams. The baseline blocks third party file sharing applications (e.g. Box, DropBox, Google Drive). |\n| Why should you use this? | To prevent users from sharing company content externally. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users will not be able to share content outside of the organization using Microsoft Teams. |\n| Learn more | [Disable additional cloud storage (DropBox, Box and Google Drive)](https://techcommunity.microsoft.com/t5/microsoft-teams/disable-additional-cloud-storage-dropbox-box-and-google-drive/m-p/253335) |",
   "AllowBox": false,
   "AllowDropBox": false,
-  "AllowEgnyte": true,
+  "AllowEgnyte": false,
   "AllowEmailIntoChannel": true,
   "AllowGoogleDrive": false,
   "AllowGuestUser": true,
