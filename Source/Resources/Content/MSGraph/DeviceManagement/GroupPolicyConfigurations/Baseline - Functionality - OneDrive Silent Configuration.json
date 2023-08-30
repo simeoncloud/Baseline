@@ -15,8 +15,7 @@
       "definition": {
         "categoryPath": "\\OneDrive",
         "classType": "machine",
-        "displayName": "Silently sign in users to the OneDrive sync app with their Windows credentials",
-        "id": "81c07ba0-7512-402d-b1f6-00856975cfab"
+        "displayName": "Silently sign in users to the OneDrive sync app with their Windows credentials"
       },
       "enabled": true,
       "presentationValues": []
@@ -27,8 +26,7 @@
       "definition": {
         "categoryPath": "\\OneDrive",
         "classType": "machine",
-        "displayName": "Use OneDrive Files On-Demand",
-        "id": "61b07a01-7e60-4127-b086-f6b32458a5c5"
+        "displayName": "Use OneDrive Files On-Demand"
       },
       "enabled": true,
       "presentationValues": []
