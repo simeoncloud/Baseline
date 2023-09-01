@@ -21,6 +21,7 @@
   "earlyLaunchAntiMalwareDriverEnabled": false,
   "firmwareProtectionEnabled": false,
   "kernelDmaProtectionEnabled": false,
+  "memoryIntegrityEnabled": false,
   "passwordBlockSimple": false,
   "passwordRequired": false,
   "passwordRequiredToUnlockFromIdle": false,
@@ -43,5 +44,6 @@
   "signatureOutOfDate": false,
   "storageRequireEncryption": false,
   "tpmRequired": false,
-  "validOperatingSystemBuildRanges": []
+  "validOperatingSystemBuildRanges": [],
+  "virtualizationBasedSecurityEnabled": false
 }
