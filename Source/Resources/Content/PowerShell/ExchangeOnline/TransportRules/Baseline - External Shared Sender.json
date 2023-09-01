@@ -18,7 +18,7 @@
     "Mode": "Enforce",
     "ModerateMessageByManager": false,
     "PrependSubject": "[External]",
-    "Priority": 5,
+    "Priority": 1,
     "RecipientAddressType": "Resolved",
     "RemoveOME": false,
     "RemoveOMEv2": false,

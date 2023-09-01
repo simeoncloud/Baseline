@@ -10,7 +10,7 @@
     "Rules": [
       {
         "Name": "Default Safe Attachment",
-        "Priority": 1,
+        "Priority": 0,
         "RecipientDomainIs": [
           "${ResourceContext:TenantDomainName}"
         ]
