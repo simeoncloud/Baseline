@@ -12,10 +12,6 @@
     "clientAppTypes": [
       "all"
     ],
-    "platforms": {
-      "excludePlatforms": [],
-      "includePlatforms": []
-    },
     "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
     "userRiskLevels": [],

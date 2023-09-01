@@ -13,10 +13,6 @@
       "exchangeActiveSync",
       "other"
     ],
-    "platforms": {
-      "excludePlatforms": [],
-      "includePlatforms": []
-    },
     "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
     "userRiskLevels": [],
