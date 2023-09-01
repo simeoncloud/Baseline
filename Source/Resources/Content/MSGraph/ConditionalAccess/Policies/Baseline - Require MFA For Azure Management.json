@@ -4,7 +4,7 @@
       "applications": {
         "excludeApplications": [],
         "includeApplications": [
-            "${urn:resource:MSGraph:ServicePrincipals/Windows Azure Service Management API?$data.appId}"
+            "${urn:resource:MSGraph:ServicePrincipals/797f4846-ba00-4fd7-ba43-dac1f8f63013?$data.appId}"
         ],
         "includeAuthenticationContextClassReferences": [],
         "includeUserActions": []
