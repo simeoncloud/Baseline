@@ -19,6 +19,9 @@
   "deviceThreatProtectionEnabled": true,
   "deviceThreatProtectionRequiredSecurityLevel": "medium",
   "earlyLaunchAntiMalwareDriverEnabled": false,
+  "firmwareProtectionEnabled": false,
+  "kernelDmaProtectionEnabled": false,
+  "memoryIntegrityEnabled": false,
   "passwordBlockSimple": false,
   "passwordRequired": false,
   "passwordRequiredToUnlockFromIdle": false,
@@ -41,5 +44,6 @@
   "signatureOutOfDate": false,
   "storageRequireEncryption": true,
   "tpmRequired": true,
-  "validOperatingSystemBuildRanges": []
+  "validOperatingSystemBuildRanges": [],
+  "virtualizationBasedSecurityEnabled": false
 }
