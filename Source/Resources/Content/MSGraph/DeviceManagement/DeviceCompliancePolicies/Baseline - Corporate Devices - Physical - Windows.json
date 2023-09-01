@@ -20,6 +20,7 @@
   "deviceThreatProtectionRequiredSecurityLevel": "medium",
   "earlyLaunchAntiMalwareDriverEnabled": false,
   "firmwareProtectionEnabled": false,
+  "kernelDmaProtectionEnabled": false,
   "passwordBlockSimple": false,
   "passwordRequired": false,
   "passwordRequiredToUnlockFromIdle": false,
