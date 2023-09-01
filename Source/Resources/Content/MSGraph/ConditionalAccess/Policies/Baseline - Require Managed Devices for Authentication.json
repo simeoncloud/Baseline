@@ -16,8 +16,7 @@
       "excludePlatforms": [
         "android",
         "iOS"
-      ],
-      "includePlatforms": []
+      ]
     },
     "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
