@@ -19,6 +19,7 @@
   "deviceThreatProtectionEnabled": false,
   "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
   "earlyLaunchAntiMalwareDriverEnabled": false,
+  "firmwareProtectionEnabled": false,
   "passwordBlockSimple": false,
   "passwordRequired": false,
   "passwordRequiredToUnlockFromIdle": false,
