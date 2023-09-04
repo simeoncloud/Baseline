@@ -83,5 +83,6 @@
       "type": "softReboot"
     }
   ],
+  "setupFilePath": "Install.ps1",
   "uninstallCommandLine": "dism /Online /Remove-Capability /CapabilityName:NetFx3~~~~"
 }
