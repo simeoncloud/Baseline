@@ -81,5 +81,6 @@
       "type": "softReboot"
     }
   ],
+  "setupFilePath": "Install.ps1",
   "uninstallCommandLine": "del \"%ProgramData%\\Microsoft\\IntuneManagementExtension\\CMTrace.exe\" /y"
 }

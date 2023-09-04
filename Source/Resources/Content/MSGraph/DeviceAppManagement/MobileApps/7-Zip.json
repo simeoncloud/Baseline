@@ -85,5 +85,6 @@
       "type": "softReboot"
     }
   ],
+  "setupFilePath": "Install.ps1",
   "uninstallCommandLine": "\"%ProgramFiles%\\7-Zip\\Uninstall.exe\" /S"
 }

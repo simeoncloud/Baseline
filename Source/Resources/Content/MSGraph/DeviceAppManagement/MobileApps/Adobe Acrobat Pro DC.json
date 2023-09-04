@@ -71,5 +71,6 @@
       "type": "softReboot"
     }
   ],
+  "setupFilePath": "Install.ps1",
   "uninstallCommandLine": "start /wait msiexec /qn /x \"Adobe Acrobat/AcroPro.msi\""
 }
