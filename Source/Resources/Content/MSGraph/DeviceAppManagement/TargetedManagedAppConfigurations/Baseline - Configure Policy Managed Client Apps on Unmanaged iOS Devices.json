@@ -334,5 +334,8 @@
       "name": "com.microsoft.outlook.Mail.FocusedInbox",
       "value": "true"
     }
+  ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/test?$id}"
   ]
 }
