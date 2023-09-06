@@ -1,1 +1,1 @@
-net localgroup "Remote Desktop Users" "Authenticated Users" /add 2>&1 | Out-Null
+Add-LocalGroupMember -SID "S-1-5-32-555" -Member 'S-1-5-11'
