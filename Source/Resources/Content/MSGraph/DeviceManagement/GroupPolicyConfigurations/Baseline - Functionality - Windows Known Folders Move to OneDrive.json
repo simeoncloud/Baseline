@@ -65,5 +65,8 @@
         }
       ]
     }
+  ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
   ]
 }
