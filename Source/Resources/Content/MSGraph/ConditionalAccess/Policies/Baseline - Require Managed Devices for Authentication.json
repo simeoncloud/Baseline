@@ -16,6 +16,9 @@
       "excludePlatforms": [
         "android",
         "iOS"
+      ],
+      "includePlatforms": [
+        "all"
       ]
     },
     "servicePrincipalRiskLevels": null,
