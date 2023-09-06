@@ -23,5 +23,8 @@
     "hidePrivacySettings": true,
     "skipKeyboardSelectionPage": true,
     "userType": "standard"
-  }
+  },
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ]
 }
