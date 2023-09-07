@@ -6,7 +6,7 @@
     "DownloadLink": false,
     "EnableLanguageBlockList": false,
     "EnableRegionBlockList": false,
-    "HighConfidencePhishAction": "MoveToJmf",
+    "HighConfidencePhishAction": "Quarantine",
     "HighConfidencePhishQuarantineTag": "AdminOnlyAccessPolicy",
     "HighConfidenceSpamAction": "Quarantine",
     "HighConfidenceSpamQuarantineTag": "DefaultFullAccessPolicy",
