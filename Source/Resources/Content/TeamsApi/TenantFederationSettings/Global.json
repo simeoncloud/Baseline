@@ -1,6 +1,5 @@
 {
     "$description": "| What does this do? | Blocks external access in Teams to all external domains. Domains can be whitelisted in the Teams admin center.  |\n| Why should you use this? | External access allows external users to look up internal users by their email address to initiate chats and calls entirely within Teams. Blocking external access prevents external users from using Teams as an avenue for reconnaissance or phishing. |\n| What is the end-user impact? | This will vary depending on the organization and need for external collaboration. A formal process for adding external domains for collaboration should be established so that end users have a place to request new external participants. |\n| Learn more | [Manage External Chat](https://learn.microsoft.com/en-us/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings) |",
-    "$partial": true,
     "AllowedDomains": {
       "AllowedDomain": [
       ]
