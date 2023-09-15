@@ -38,6 +38,9 @@
   "productIds": [
     "o365ProPlusRetail"
   ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ],
   "shouldUninstallOlderVersionsOfOffice": true,
   "targetVersion": "",
   "updateChannel": "current",

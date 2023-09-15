@@ -27,6 +27,9 @@
   "passwordRequiredToUnlockFromIdle": false,
   "passwordRequiredType": "deviceDefault",
   "requireHealthyDeviceReport": false,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ],
   "rtpEnabled": false,
   "scheduledActionsForRule": [
     {

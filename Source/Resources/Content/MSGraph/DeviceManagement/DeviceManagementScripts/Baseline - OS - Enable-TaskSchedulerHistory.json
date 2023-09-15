@@ -10,6 +10,9 @@
   ],
   "enforceSignatureCheck": false,
   "fileName": "Baseline - OS - Enable-TaskSchedulerHistory.ps1",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ],
   "runAs32Bit": true,
   "runAsAccount": "system"
 }
