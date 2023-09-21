@@ -24,5 +24,8 @@
       "enabled": false,
       "presentationValues": []
     }
+  ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
   ]
 }

@@ -22,5 +22,8 @@
   "notes": "",
   "owner": "Microsoft",
   "privacyInformationUrl": "https://privacy.microsoft.com/en-US/privacystatement",
-  "publisher": "Microsoft"
+  "publisher": "Microsoft",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ]
 }
