@@ -11,6 +11,7 @@
           "conditionalAccess": [],
           "registrationCampaign": []
         },
+        "id": "0",
         "loginPageLayoutConfiguration": {
           "isFooterShown": false,
           "isHeaderShown": true,
