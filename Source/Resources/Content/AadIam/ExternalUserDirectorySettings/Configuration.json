@@ -1,7 +1,0 @@
-{
-  "$description": "| What does this do? | Defines external collaborator (guest user) settings including who can invite external collaborators and whether restrictions will be placed on such users. The baseline allows only authorized users with the \"Guest Inviter\" role to invite external collaborators. |\n| Why should you use this? | The Azure default allows all users and guests to invite external users, so we recommend using the baseline setting to tighten security. |\n| What is the end-user impact? | Users will not be able to invite external collaborators unless authorized. |\n| Learn more | [Configure B2B external collaboration settings](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations) |",
-  "allowInvitations": true,
-  "limitedAccessCanAddExternalUsers": false,
-  "restrictDirectoryAccess": true,
-  "usersCanAddExternalUsers": false
-}

@@ -10,6 +10,9 @@
   ],
   "enforceSignatureCheck": false,
   "fileName": "Baseline - Security - Add-AuthenticatedUsersToRemoteDesktopUsers.ps1",
-  "runAs32Bit": true,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ],
+  "runAs32Bit": false,
   "runAsAccount": "system"
 }

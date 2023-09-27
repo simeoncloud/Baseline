@@ -71,5 +71,9 @@
       "type": "softReboot"
     }
   ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ],
+  "setupFilePath": "Install.ps1",
   "uninstallCommandLine": "start /wait msiexec /qn /x \"Adobe Acrobat/AcroPro.msi\""
 }

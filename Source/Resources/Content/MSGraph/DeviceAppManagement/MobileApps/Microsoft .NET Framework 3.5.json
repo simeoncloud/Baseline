@@ -83,5 +83,9 @@
       "type": "softReboot"
     }
   ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ],
+  "setupFilePath": "Install.ps1",
   "uninstallCommandLine": "dism /Online /Remove-Capability /CapabilityName:NetFx3~~~~"
 }

@@ -81,5 +81,9 @@
       "type": "softReboot"
     }
   ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ],
+  "setupFilePath": "Install.ps1",
   "uninstallCommandLine": "del \"%ProgramData%\\Microsoft\\IntuneManagementExtension\\CMTrace.exe\" /y"
 }

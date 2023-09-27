@@ -28,6 +28,9 @@
   "passwordRequiredToUnlockFromIdle": false,
   "passwordRequiredType": "deviceDefault",
   "requireHealthyDeviceReport": false,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ],
   "rtpEnabled": true,
   "scheduledActionsForRule": [
     {
@@ -45,5 +48,6 @@
   "signatureOutOfDate": true,
   "storageRequireEncryption": true,
   "tpmRequired": true,
-  "validOperatingSystemBuildRanges": []
+  "validOperatingSystemBuildRanges": [],
+  "virtualizationBasedSecurityEnabled": false
 }

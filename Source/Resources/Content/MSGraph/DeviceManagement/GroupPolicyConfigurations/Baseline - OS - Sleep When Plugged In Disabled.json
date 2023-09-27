@@ -15,20 +15,21 @@
       "definition": {
         "categoryPath": "\\System\\Power Management\\Sleep Settings",
         "classType": "machine",
-        "displayName": "Specify the system sleep timeout (plugged in)",
-        "id": "09d1c36f-18fc-4a8b-abe3-09af371d54d2"
+        "displayName": "Specify the system sleep timeout (plugged in)"
       },
       "enabled": true,
       "presentationValues": [
         {
           "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
           "presentation": {
-            "id": "d5a5e7c0-46d8-44ee-9211-4797b3750342",
             "label": "System Sleep Timeout (seconds):"
           },
           "value": 0
         }
       ]
     }
+  ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
   ]
 }
