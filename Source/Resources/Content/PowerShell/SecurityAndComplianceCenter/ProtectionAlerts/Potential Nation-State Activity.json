@@ -1,19 +1,19 @@
 {
-    "$description": "| What does this do? | This policy ensures all Exchange alerts are enabled and are being sent to admins in the tenant when triggered. |\n| Why should you use this? | Alert policies in the new Exchange admin center (EAC) allow you to track events related to mail flow. |\n| What is the end-user impact? | Only Admin users in the tenant receive email notifiations of alert triggers. End-Users are not affectedd. |\n| Learn more | [Alert policies in Exchange Online](https://learn.microsoft.com/en-us/exchange/monitoring/mail-flow-insights/alert-policy-and-its-configuration)|",
-    "AggregationType": "None",
-    "Category": "ThreatManagement",
-    "Comment": "Microsoft Threat Intelligence Center detected an attempt to compromise accounts from your tenant. -V1.0.0.0",
-    "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
-    "Disabled": false,
-    "Filter": "Activity.Operation -eq 'MSTICNationStateNotification'",
-    "NotificationEnabled": true,
-    "NotifyUser": [
-      "TenantAdmins"
-    ],
-    "NotifyUserOnFilterMatch": false,
-    "Operation": [
-      "MSTICNationStateNotification"
-    ],
-    "Severity": "High",
-    "ThreatType": "Activity"
-  }
+  "$description": "| What does this do? | This policy ensures all Exchange alerts are enabled and are being sent to admins in the tenant when triggered. |\n| Why should you use this? | Alert policies in the new Exchange admin center (EAC) allow you to track events related to mail flow. |\n| What is the end-user impact? | Only Admin users in the tenant receive email notifiations of alert triggers. End-Users are not affectedd. |\n| Learn more | [Alert policies in Exchange Online](https://learn.microsoft.com/en-us/exchange/monitoring/mail-flow-insights/alert-policy-and-its-configuration)|",
+  "AggregationType": "None",
+  "Category": "ThreatManagement",
+  "Comment": "Microsoft Threat Intelligence Center detected an attempt to compromise accounts from your tenant. -V1.0.0.0",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "Disabled": false,
+  "Filter": "Activity.Operation -eq 'MSTICNationStateNotification'",
+  "NotificationEnabled": true,
+  "NotifyUser": [
+    "TenantAdmins"
+  ],
+  "NotifyUserOnFilterMatch": false,
+  "Operation": [
+    "MSTICNationStateNotification"
+  ],
+  "Severity": "High",
+  "ThreatType": "Activity"
+}

@@ -22,6 +22,9 @@
     "passcodeRequired": true,
     "passcodeRequiredType": "alphanumeric",
     "restrictedApps": [],
+    "roleScopeTagIds": [
+      "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+    ],
     "scheduledActionsForRule": [
       {
         "scheduledActionConfigurations": [

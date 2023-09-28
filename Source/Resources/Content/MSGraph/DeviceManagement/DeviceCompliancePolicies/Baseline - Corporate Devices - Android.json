@@ -26,5 +26,8 @@
     }
   ],
   "securityBlockJailbrokenDevices": true,
-  "storageRequireEncryption": true
+  "storageRequireEncryption": true,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+  ]
 }

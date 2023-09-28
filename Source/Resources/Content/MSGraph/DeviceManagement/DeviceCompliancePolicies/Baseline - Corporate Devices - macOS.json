@@ -23,6 +23,9 @@
     "passwordPreviousPasswordBlockCount": 5,
     "passwordRequired": true,
     "passwordRequiredType": "deviceDefault",
+    "roleScopeTagIds": [
+      "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+    ],
     "scheduledActionsForRule": [
       {
         "scheduledActionConfigurations": [
