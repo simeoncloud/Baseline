@@ -1,6 +1,6 @@
 {
   "$description": "| What does this do? | Only used by Azure AD Connect service. |",
-  "description": "Only used by Azure AD Connect service.",
+  "description": "Only used by Microsoft Entra Connect service.",
   "inheritsPermissionsFrom": [],
   "isEnabled": true,
   "resourceScopes": [
