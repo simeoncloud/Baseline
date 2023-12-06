@@ -1,23 +1,27 @@
 {
   "$description": "| What does this do? | Configures settings that control joining devices to Azure AD. The baseline allows only the groups \"Baseline - Device Enrollers\" and \"Baseline - Microsoft 365 Users\" to join devices to Azure AD. These groups may join up to 100 devices and are required to perform MFA when joining the device. |\n| Why should you use this? | If you want to restrict the ability to join devices to Azure AD to only authorized groups and require MFA. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Only authorized groups may join devices, and users in those groups will be prompted for MFA to join. |\n| Learn more | N/A |",
   "azureADJoin": {
-    "allowedGroups": [
-      "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?$id}",
-      "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
-    ],
-    "allowedUsers": [],
-    "appliesTo": 2,
+    "allowedToJoin": {
+      "@odata.type": "#microsoft.graph.enumeratedDeviceRegistrationMembership",
+      "groups": [
+        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?$id}",
+        "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
+      ],
+      "users": []
+    },
     "isAdminConfigurable": true
   },
   "azureADRegistration": {
-    "allowedGroups": [],
-    "allowedUsers": [],
-    "appliesTo": 1,
+    "allowedToRegister": {
+      "@odata.type": "#microsoft.graph.allDeviceRegistrationMembership",
+      "groups": [],
+      "users": []
+    },
     "isAdminConfigurable": false
   },
   "localAdminPassword": {
     "isEnabled": false
   },
-  "multiFactorAuthConfiguration": "1",
+  "multiFactorAuthConfiguration": "notRequired",
   "userDeviceQuota": 100
 }
