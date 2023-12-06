@@ -22,6 +22,6 @@
   "localAdminPassword": {
     "isEnabled": false
   },
-  "multiFactorAuthConfiguration": "notRequired",
+  "multiFactorAuthConfiguration": "required",
   "userDeviceQuota": 100
 }
