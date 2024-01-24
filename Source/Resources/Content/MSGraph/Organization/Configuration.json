@@ -1,0 +1,29 @@
+{
+    "$description": "| What does this do? | Defines the messages and logos shown to users on Azure login screens. The baseline automatically populates the username watermark with \"user@yourcompanyname.org.\" |\n| Why should you use this? | If you want to provide your users with a personalized login screen for added security, familiarity, and branding. |\n| What is the end-user impact? | Users will see the watermark (username hint) on Azure login screens. |\n| Learn more | [Customize your Azure AD sign-in page](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/customize-branding) |",
+    "branding": {
+      "@odata.type": "microsoft.graph.organizationalBranding",
+      "localizations": [
+        {
+          "@odata.type": "microsoft.graph.organizationalBrandingLocalization",
+          "contentCustomization": {
+            "adminConsent": [],
+            "attributeCollection": [],
+            "conditionalAccess": [],
+            "registrationCampaign": []
+          },
+          "id": "0",
+          "loginPageLayoutConfiguration": {
+            "isFooterShown": false,
+            "isHeaderShown": true,
+            "layoutTemplateType": "default"
+          },
+          "loginPageTextVisibilitySettings": {},
+          "usernameHintText": "user@${ResourceContext:TenantDomainName}"
+        }
+      ]
+    },
+    "marketingNotificationEmails": [],
+    "securityComplianceNotificationMails": [],
+    "securityComplianceNotificationPhones": [],
+    "technicalNotificationMails": []
+  }
