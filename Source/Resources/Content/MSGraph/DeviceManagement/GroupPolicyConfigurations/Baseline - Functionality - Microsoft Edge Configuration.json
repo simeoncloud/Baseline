@@ -15,7 +15,8 @@
       "definition": {
         "categoryPath": "\\Google\\Google Chrome\\Allow or deny screen capture",
         "classType": "user",
-        "displayName": "Allow Desktop, Window, and Tab capture by these origins"
+        "displayName": "Allow Desktop, Window, and Tab capture by these origins",
+        "version": "1.0"
       },
       "enabled": false,
       "presentationValues": []
@@ -26,7 +27,8 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge",
         "classType": "machine",
-        "displayName": "Browser sign-in settings"
+        "displayName": "Browser sign-in settings",
+        "version": "1"
       },
       "enabled": true,
       "presentationValues": [
@@ -45,7 +47,8 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge\\Default search provider",
         "classType": "machine",
-        "displayName": "Default search provider name"
+        "displayName": "Default search provider name",
+        "version": "1"
       },
       "enabled": true,
       "presentationValues": [
@@ -64,7 +67,8 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge\\Default search provider",
         "classType": "machine",
-        "displayName": "Default search provider search URL"
+        "displayName": "Default search provider search URL",
+        "version": "1"
       },
       "enabled": true,
       "presentationValues": [
@@ -83,7 +87,8 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge\\Default search provider",
         "classType": "machine",
-        "displayName": "Default search provider URL for suggestions"
+        "displayName": "Default search provider URL for suggestions",
+        "version": "1"
       },
       "enabled": true,
       "presentationValues": [
@@ -102,7 +107,8 @@
       "definition": {
         "categoryPath": "\\Microsoft Edge\\Default search provider",
         "classType": "machine",
-        "displayName": "Enable the default search provider"
+        "displayName": "Enable the default search provider",
+        "version": "1"
       },
       "enabled": true,
       "presentationValues": []
