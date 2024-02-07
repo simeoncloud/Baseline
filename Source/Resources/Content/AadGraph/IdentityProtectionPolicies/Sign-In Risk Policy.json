@@ -8,7 +8,7 @@
           "IncludeConditions": [
             {
               "Groups": [
-                "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
+                "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users--Baseline-Microsoft365Users?id}"
               ],
               "MinSessionScore": "medium"
             }
