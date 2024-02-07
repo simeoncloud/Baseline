@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "Retention auto-labeling policy simulation has been completed. -V1.0.0.0",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [

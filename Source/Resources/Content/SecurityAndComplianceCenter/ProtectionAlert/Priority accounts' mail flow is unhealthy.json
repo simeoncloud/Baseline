@@ -3,7 +3,7 @@
   "AggregationType": "CustomAggregation",
   "Category": "MailFlow",
   "Comment": "Office 365 can monitor Priority accounts' mail flow for your organization. This alert is triggered when number of rejected or delayed messages for Priority accounts' exceeds the policy threshold.",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "Filter": "VIPMessage.MessageStatus -eq 'Rejected'",
   "NotificationEnabled": true,

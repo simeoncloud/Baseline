@@ -4,7 +4,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "A Tenant Allow/Block List entry will be removed due to expiration. -V1.0.0.0",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [

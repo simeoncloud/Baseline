@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "This alert is triggered when any Teams message is reported as security risk by users -V1.0.0.0",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "Filter": "Activity.SubmissionType -eq 'SecurityRisk'",
   "NotificationEnabled": false,

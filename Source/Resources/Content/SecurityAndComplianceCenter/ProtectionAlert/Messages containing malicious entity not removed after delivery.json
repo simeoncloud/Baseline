@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "Messages containing a malicious entity were delivered, and we could not remove them after delivery. Manual action is required. Please remove the malicious messages for the affected users. -V1.0.0.0",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "Filter": "(Mail.IsMailZAPFailed -eq 1) -and ((((Mail.IsSystemZappedByFiles -eq 1) -or (Mail.IsSystemZappedByURLs -eq 1)) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'PhishEdu')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'SecOps')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'ThirdPartyFiltering')) -and (Mail.IsCampaignZapped -ne 1)) -or (((Mail.IsGenericZapped -eq 1) -or(Mail.IsCampaignZapped -eq 1)) -and (Mail.TenantPolicyFinalVerdictSource -ne 'PhishEdu') -and (Mail.TenantPolicyFinalVerdictSource -ne 'SecOps') -and (Mail.TenantPolicyFinalVerdictSource -ne 'ThirdPartyFiltering')))",
   "NotificationEnabled": true,

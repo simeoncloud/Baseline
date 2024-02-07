@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ComplianceManager",
   "Comment": "This default policy will generate an alert for events that happen within 60 minutes of alert creation -V1.0.0.2",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [

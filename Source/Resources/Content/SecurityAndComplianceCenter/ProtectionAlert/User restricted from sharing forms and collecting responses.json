@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "Microsoft Forms identified repeated phishing attempts by a user in your tenant. This user is now blocked from sharing forms and collecting responses. -V1.0.0.2",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [

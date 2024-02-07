@@ -3,7 +3,7 @@
   "AggregationType": "CustomAggregation",
   "Category": "MailFlow",
   "Comment": "This alert is triggered when a reply-all storm is detected and at least one reply-all to the mail thread has been blocked. See the Reply-all Storm Protection mail flow report for more information. -V1.0.0.0",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "Filter": "Message.Verdict -eq 'Block'",
   "NotificationEnabled": true,

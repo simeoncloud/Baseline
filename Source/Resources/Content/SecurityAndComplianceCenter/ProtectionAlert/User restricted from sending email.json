@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "User has been restricted from sending messages outside the organization due to potential compromised activity. -V1.0.0.2",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "Filter": "-not (Activity.User.Tags -like 'hve')",
   "NotificationEnabled": true,

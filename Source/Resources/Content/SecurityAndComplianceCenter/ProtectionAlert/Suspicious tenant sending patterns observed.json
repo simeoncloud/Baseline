@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "Suspicious sending patterns have been observed in your tenant, which may lead to your tenant being blocked from sending emails. Investigate any potentially compromised user and admin accounts, new connectors, or open relays to avoid tenant exceed threshold blocks. -V1.0.0.5",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [

@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "This alert fires when message containing phish was not zapped because ZAP is disabled -V1.0.0.4",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "Filter": "(Mail.TimeTravelResult -eq 'AdminPolicy_ZapDisabled') -and (Mail.PhishConfidence -eq 'High') -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'PhishEdu')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'SecOps')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'ThirdPartyFiltering'))",
   "NotificationEnabled": true,

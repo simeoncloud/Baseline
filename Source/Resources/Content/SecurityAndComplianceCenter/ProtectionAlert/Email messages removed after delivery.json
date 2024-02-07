@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "Malicious emails were delivered and later removed -V1.0.0.2",
-  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
   "Disabled": false,
   "Filter": "(Mail.IsMailZAPSuccessful -eq 1) -and (Mail.IsGenericZapped -eq 1) -and (Mail.TenantPolicyFinalVerdictSource -ne 'PhishEdu') -and (Mail.TenantPolicyFinalVerdictSource -ne 'SecOps') -and (Mail.TenantPolicyFinalVerdictSource -ne 'ThirdPartyFiltering')",
   "NotificationEnabled": false,
