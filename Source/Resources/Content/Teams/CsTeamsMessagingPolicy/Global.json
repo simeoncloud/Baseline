@@ -1,13 +1,8 @@
 {
-  "AllowCommunicationComplianceEndUserReporting": true,
-  "AllowFluidCollaborate": false,
-  "AllowFullChatPermissionUserToDeleteAnyMessage": false,
   "AllowGiphy": true,
-  "AllowGiphyDisplay": true,
   "AllowImmersiveReader": true,
   "AllowMemes": true,
   "AllowOwnerDeleteMessage": false,
-  "AllowPasteInternetImage": true,
   "AllowPriorityMessages": true,
   "AllowRemoveUser": true,
   "AllowSmartCompose": true,
@@ -19,10 +14,11 @@
   "AllowUserDeleteMessage": true,
   "AllowUserEditMessage": true,
   "AllowUserTranslation": true,
-  "AllowVideoMessages": true,
   "AudioMessageEnabledType": "ChatsAndChannels",
   "ChannelsInChatListEnabledType": "DisabledUserOverride",
   "ChatPermissionRole": "Restricted",
+  "CreateCustomEmojis": true,
+  "DeleteCustomEmojis": false,
   "GiphyRatingType": "Moderate",
   "ReadReceiptsEnabledType": "UserPreference"
 }

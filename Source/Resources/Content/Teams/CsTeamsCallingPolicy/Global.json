@@ -13,6 +13,8 @@
   "AutoAnswerEnabledType": "Disabled",
   "BusyOnBusyEnabledType": "Disabled",
   "CallRecordingExpirationDays": 60,
+  "InboundFederatedCallRoutingTreatment": "RegularIncoming",
+  "InboundPstnCallRoutingTreatment": "RegularIncoming",
   "LiveCaptionsEnabledTypeForCalling": "DisabledUserOverride",
   "MusicOnHoldEnabledType": "Enabled",
   "PopoutForIncomingPstnCalls": "Disabled",
