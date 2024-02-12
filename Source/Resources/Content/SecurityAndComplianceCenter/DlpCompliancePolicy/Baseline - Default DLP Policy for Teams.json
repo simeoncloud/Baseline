@@ -1,49 +1,28 @@
 {
-    "$description": "| What does this do? | This policy detects the presence of credit card numbers in Teams chats and channel messages. When this sensitive info is detected, admins will receive an alert but policy tips won't be displayed to users. |\n| Why should you use this? | Senesitive content should be restricted from being shared inside the organization where it could easily be exfiltrated such as Teams chats.|\n| What is the end-user impact? | Users will continue to be able to send messages but admins will be alerted to senstive content being shared. |\n| Learn more | [Data loss prevention and Microsoft Teams](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide) |",
-    "Mode": "Enable",
-    "Priority": 1,
-    "Rules": [
-      {
-        "AdvancedRule": "{\"Version\":\"1.0\",\"Condition\":{\"Operator\":\"And\",\"SubConditions\":[{\"ConditionName\":\"ContentContainsSensitiveInformation\",\"Value\":[{\"id\":\"${urn:resource:PowerShell:SecurityAndComplianceCenter:DlpSensitiveInformationTypes/Credit Card Number?$id}\",\"maxconfidence\":\"100\",\"name\":\"Credit Card Number\",\"maxcount\":\"-1\",\"minconfidence\":\"85\",\"classifiertype\":\"Content\",\"mincount\":\"1\",\"confidencelevel\":\"High\"}]}]}}",
-        "BlockAccess": false,
-        "Comment": "This rule detects the presence of one or more credit card numbers. Admins will be alerted in email when 10 or more instances are detected within a 24-hour period for all users.",
-        "ContentContainsSensitiveInformation": [
-          {
-            "classifiertype": "Content",
-            "confidencelevel": "High",
-            "id": "${urn:resource:PowerShell:SecurityAndComplianceCenter:DlpSensitiveInformationTypes/Credit Card Number?$id}",
-            "maxconfidence": "100",
-            "maxcount": "-1",
-            "minconfidence": "85",
-            "mincount": "1"
-          }
-        ],
-        "ContentIsNotLabeled": false,
-        "ContentIsShared": false,
-        "Disabled": false,
-        "DocumentIsPasswordProtected": false,
-        "DocumentIsUnsupported": false,
-        "ExceptIfContentIsShared": false,
-        "ExceptIfDocumentIsPasswordProtected": false,
-        "ExceptIfDocumentIsUnsupported": false,
-        "ExceptIfHasSenderOverride": false,
-        "ExceptIfProcessingLimitExceeded": false,
-        "GenerateIncidentReport": [
-          "SiteAdmin"
-        ],
-        "HasSenderOverride": false,
-        "IncidentReportContent": "Title, DocumentAuthor, DocumentLastModifier, Service, MatchedItem, RulesMatched, Detections, Severity, RetentionLabel, SensitivityLabel",
-        "Name": "Default Teams DLP policy rule",
-        "Priority": 0,
-        "ProcessingLimitExceeded": false,
-        "Quarantine": false,
-        "RemoveRMSTemplate": false,
-        "ReportSeverityLevel": "Low",
-        "RestrictBrowserAccess": false,
-        "StopPolicyProcessing": false
-      }
-    ],
-    "TeamsLocation": [
-      "All"
-    ]
-  }
+  "$description": "| What does this do? | This policy detects the presence of credit card numbers in Teams chats and channel messages. When this sensitive info is detected, admins will receive an alert but policy tips won't be displayed to users. |\n| Why should you use this? | Senesitive content should be restricted from being shared inside the organization where it could easily be exfiltrated such as Teams chats.|\n| What is the end-user impact? | Users will continue to be able to send messages but admins will be alerted to senstive content being shared. |\n| Learn more | [Data loss prevention and Microsoft Teams](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide) |",
+  "EndpointDlpLocation": [],
+  "EndpointDlpLocationException": [],
+  "ExceptIfOneDriveSharedBy": [],
+  "ExceptIfOneDriveSharedByMemberOf": [],
+  "ExchangeLocation": [],
+  "ExchangeSenderMemberOf": [],
+  "ExchangeSenderMemberOfException": [],
+  "Mode": "Enable",
+  "OneDriveLocation": [],
+  "OneDriveLocationException": [],
+  "OneDriveSharedBy": [],
+  "OneDriveSharedByMemberOf": [],
+  "OnPremisesScannerDlpLocation": [],
+  "OnPremisesScannerDlpLocationException": [],
+  "PowerBIDlpLocation": [],
+  "PowerBIDlpLocationException": [],
+  "Priority": 1,
+  "SharePointLocation": [],
+  "SharePointLocationException": [],
+  "TeamsLocation": [
+    "All"
+  ],
+  "TeamsLocationException": [],
+  "ThirdPartyAppDlpLocation": [],
+  "ThirdPartyAppDlpLocationException": []
+}
