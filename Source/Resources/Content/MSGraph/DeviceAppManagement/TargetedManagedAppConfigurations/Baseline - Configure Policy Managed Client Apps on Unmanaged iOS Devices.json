@@ -293,15 +293,19 @@
   ],
   "assignments": [
     {
+      "source": "direct",
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       }
     },
     {
+      "source": "direct",
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users--Baseline-Microsoft365Users?id}"
       }
     }
   ],
@@ -335,7 +339,10 @@
       "value": "true"
     }
   ],
+  "expand": "apps,assignments",
   "roleScopeTagIds": [
-    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
-  ]
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "settings": [],
+  "targetedAppManagementLevels": "unspecified"
 }
