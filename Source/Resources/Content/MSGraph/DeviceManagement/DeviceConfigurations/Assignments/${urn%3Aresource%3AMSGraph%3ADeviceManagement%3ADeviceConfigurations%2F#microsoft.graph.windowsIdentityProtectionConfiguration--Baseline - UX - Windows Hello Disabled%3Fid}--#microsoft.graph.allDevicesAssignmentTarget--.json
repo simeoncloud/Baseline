@@ -1,0 +1,10 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsIdentityProtectionConfiguration--Baseline - UX - Windows Hello Disabled?id}--#microsoft.graph.allDevicesAssignmentTarget--",
+  "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsIdentityProtectionConfiguration--Baseline - UX - Windows Hello Disabled?id}",
+  "intent": "apply",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none"
+  }
+}

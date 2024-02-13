@@ -1,56 +1,52 @@
 {
-    "$description": "| What does this do? | Defines the OS update Policy for macOS updates. You may have to modify the UTC differential depending on your time zone. The baseline notifys the users about updates and installs them during a window of 7pm to 5am during the week. This time is 12am to 5am on the weekend. Critial updates get installed immediately. The policy is installed to the \"Baseline - Corporate Devices - Apple\" Azure AD group. |\n| Why should you use this? | To ensure that devices are being patched properly in the organization.  |\n| Learn more | [Manage macOS software updates](https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-macos#configure-the-policy |",
-    "@odata.type": "#microsoft.graph.macOSSoftwareUpdateConfiguration",
-    "allOtherUpdateBehavior": "notifyOnly",
-    "assignments": [
-      {
-        "target": {
-          "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-          "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Apple?$id}"
-        }
-      }
-    ],
-    "configDataUpdateBehavior": "notifyOnly",
-    "criticalUpdateBehavior": "installASAP",
-    "customUpdateTimeWindows": [
-      {
-        "endDay": "friday",
-        "endTime": "05:00:00",
-        "startDay": "thursday",
-        "startTime": "19:00:00"
-      },
-      {
-        "endDay": "saturday",
-        "endTime": "05:00:00",
-        "startDay": "friday",
-        "startTime": "19:00:00"
-      },
-      {
-        "endDay": "sunday",
-        "endTime": "05:00:00",
-        "startDay": "saturday",
-        "startTime": "00:00:00"
-      },
-      {
-        "endDay": "thursday",
-        "endTime": "05:00:00",
-        "startDay": "wednesday",
-        "startTime": "19:00:00"
-      },
-      {
-        "endDay": "tuesday",
-        "endTime": "05:00:00",
-        "startDay": "monday",
-        "startTime": "19:00:00"
-      },
-      {
-        "endDay": "wednesday",
-        "endTime": "05:00:00",
-        "startDay": "tuesday",
-        "startTime": "19:00:00"
-      }
-    ],
-    "firmwareUpdateBehavior": "notifyOnly",
-    "updateScheduleType": "updateOutsideOfTimeWindows",
-    "updateTimeWindowUtcOffsetInMinutes": -360
-  }
+  "@odata.type": "#microsoft.graph.macOSSoftwareUpdateConfiguration",
+  "$description": "| What does this do? | Defines the OS update Policy for macOS updates. You may have to modify the UTC differential depending on your time zone. The baseline notifys the users about updates and installs them during a window of 7pm to 5am during the week. This time is 12am to 5am on the weekend. Critial updates get installed immediately. The policy is installed to the \"Baseline - Corporate Devices - Apple\" Azure AD group. |\n| Why should you use this? | To ensure that devices are being patched properly in the organization.  |\n| Learn more | [Manage macOS software updates](https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-macos#configure-the-policy |",
+  "allOtherUpdateBehavior": "notifyOnly",
+  "configDataUpdateBehavior": "notifyOnly",
+  "criticalUpdateBehavior": "installASAP",
+  "customUpdateTimeWindows": [
+    {
+      "endDay": "friday",
+      "endTime": "05:00:00.0000000",
+      "startDay": "thursday",
+      "startTime": "19:00:00.0000000"
+    },
+    {
+      "endDay": "saturday",
+      "endTime": "05:00:00.0000000",
+      "startDay": "friday",
+      "startTime": "19:00:00.0000000"
+    },
+    {
+      "endDay": "sunday",
+      "endTime": "05:00:00.0000000",
+      "startDay": "saturday",
+      "startTime": "00:00:00.0000000"
+    },
+    {
+      "endDay": "thursday",
+      "endTime": "05:00:00.0000000",
+      "startDay": "wednesday",
+      "startTime": "19:00:00.0000000"
+    },
+    {
+      "endDay": "tuesday",
+      "endTime": "05:00:00.0000000",
+      "startDay": "monday",
+      "startTime": "19:00:00.0000000"
+    },
+    {
+      "endDay": "wednesday",
+      "endTime": "05:00:00.0000000",
+      "startDay": "tuesday",
+      "startTime": "19:00:00.0000000"
+    }
+  ],
+  "displayName": "Baseline - OS - Default macOS Update Ring",
+  "firmwareUpdateBehavior": "notifyOnly",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "updateScheduleType": "updateOutsideOfTimeWindows",
+  "updateTimeWindowUtcOffsetInMinutes": -360
+}

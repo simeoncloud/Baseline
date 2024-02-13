@@ -1,0 +1,11 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - UX - Microsoft Consumer Experience Disabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices--Baseline-CorporateDevices?id}",
+  "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - UX - Microsoft Consumer Experience Disabled?id}",
+  "intent": "apply",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices--Baseline-CorporateDevices?id}"
+  }
+}
