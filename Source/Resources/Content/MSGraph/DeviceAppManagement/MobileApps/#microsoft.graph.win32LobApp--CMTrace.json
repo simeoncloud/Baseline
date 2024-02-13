@@ -1,23 +1,9 @@
 {
+  "@odata.type": "#microsoft.graph.win32LobApp",
   "$description": "| What does this do? | CMTrace is one of the Configuration Manager tools. It allows you to view and monitor log files including the following types: Log files in Configuration Manager or Client Component Manager (CCM) format, plain ASCII or Unicode text files, such as Intune logs. |\n| Why should you use this? | CMTrace helps to analyze Intune log files by highlighting, filtering, and error lookup. |\n| What is the end-user impact? | N/A |\n| Learn more | [CMTrace](https://docs.microsoft.com/en-us/mem/configmgr/core/support/cmtrace)",
   "$manifest": {},
-  "@odata.type": "#microsoft.graph.win32LobApp",
   "allowAvailableUninstall": false,
   "applicableArchitectures": "x86, x64",
-  "assignments": [
-    {
-      "intent": "required",
-      "settings": {
-        "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
-        "deliveryOptimizationPriority": "notConfigured",
-        "notifications": "showAll"
-      },
-      "target": {
-        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
-      }
-    }
-  ],
   "detectionRules": [
     {
       "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
@@ -29,12 +15,14 @@
     }
   ],
   "developer": "",
+  "displayName": "CMTrace",
   "enableFileNameBasedDetection": false,
   "enableInstallLogging": true,
   "fileName": "010",
   "installCommandLine": "cmd /c copy CMTrace.exe \"%ProgramData%\\Microsoft\\IntuneManagementExtension\"",
   "installExperience": {
     "deviceRestartBehavior": "basedOnReturnCode",
+    "maxRunTimeInMinutes": 60,
     "runAsAccount": "system"
   },
   "isFeatured": false,
@@ -82,7 +70,7 @@
     }
   ],
   "roleScopeTagIds": [
-    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "setupFilePath": "Install.ps1",
   "uninstallCommandLine": "del \"%ProgramData%\\Microsoft\\IntuneManagementExtension\\CMTrace.exe\" /y"
