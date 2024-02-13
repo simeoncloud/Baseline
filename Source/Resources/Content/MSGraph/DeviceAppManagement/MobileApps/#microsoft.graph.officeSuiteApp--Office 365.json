@@ -1,15 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.officeSuiteApp",
   "$description": "| What does this do? | Office 365 is Microsoft’s productivity suite with popular applications such as Word, Excel and PowerPoint. |\n| Why should you use this? | If you want Office 365 desktop applications to be installed on managed devices. |\n| What is the end-user impact? | Users will have Office 365 installed on their devices. |\n| Learn more | N/A",
-  "assignments": [
-    {
-      "intent": "required",
-      "target": {
-        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
-      }
-    }
-  ],
   "autoAcceptEula": true,
   "displayName": "Office 365",
   "excludedApps": {
@@ -38,8 +29,9 @@
   "productIds": [
     "o365ProPlusRetail"
   ],
+  "relationships": [],
   "roleScopeTagIds": [
-    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "shouldUninstallOlderVersionsOfOffice": true,
   "targetVersion": "",
