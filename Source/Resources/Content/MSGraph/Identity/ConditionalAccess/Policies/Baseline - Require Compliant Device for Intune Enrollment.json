@@ -15,7 +15,6 @@
       "mobileAppsAndDesktopClients",
       "other"
     ],
-    "devices": null,
     "locations": {
       "excludeLocations": [],
       "includeLocations": [
@@ -28,14 +27,12 @@
         "windows"
       ]
     },
-    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
-    "times": null,
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?$id}",
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers--Baseline-DeviceEnrollers?id}",
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       ],
       "excludeRoles": [
         "62e90394-69f5-4237-9190-012177145e10",

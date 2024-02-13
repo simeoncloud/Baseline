@@ -12,14 +12,13 @@
     "clientAppTypes": [
       "all"
     ],
-    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
     "userRiskLevels": [
       "high"
     ],
     "users": {
       "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       ],
       "excludeRoles": [],
       "excludeUsers": [],

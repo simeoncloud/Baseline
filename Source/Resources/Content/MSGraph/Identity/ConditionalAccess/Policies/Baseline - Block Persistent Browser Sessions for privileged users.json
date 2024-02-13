@@ -12,30 +12,25 @@
     "clientAppTypes": [
       "all"
     ],
-    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       ],
       "excludeRoles": [],
       "excludeUsers": [],
       "includeGroups": [],
       "includeRoles": [
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?$id}"
+        "62e90394-69f5-4237-9190-012177145e10"
       ],
       "includeUsers": []
     }
   },
   "sessionControls": {
-    "disableResilienceDefaults": null,
-    "applicationEnforcedRestrictions": null,
-    "cloudAppSecurity": null,
-    "signInFrequency": null,
     "persistentBrowser": {
-      "mode": "never",
-      "isEnabled": true
+      "isEnabled": true,
+      "mode": "never"
     }
   },
   "state": "enabled"

@@ -1,5 +1,19 @@
 {
-  "AdvancedRule": "{\r\n  \"Version\": \"1.0\",\r\n  \"Condition\": {\r\n    \"Operator\": \"And\",\r\n    \"SubConditions\": [\r\n      {\r\n        \"ConditionName\": \"SubjectContainsWords\",\r\n        \"Value\": [\r\n          \"Secure\"\r\n        ]\r\n      }\r\n    ]\r\n  }\r\n}",
+  "$description": "| What does this do? | Creates a DLP compliance policy that will automatically encrpyt an email with the word Secure in the subject line. |\n| Why should you use this? | Email message encryption helps ensure that only intended recipients can view message content. This places additional protections on senstive content delivered inside or outside the organization. |\n| What is the end-user impact? | End-Users will likely need some instructions on how to use email encryption within the organization. Depending on how you role it out, they may have to type a specific subject line or leverage a built in plug-in that allows them to encrypt the message on demand. Users will need to open encrypted messages in Outlook on the web vs the email client on the desktop |\n| Learn more | [Message Encrpytion](https://learn.microsoft.com/en-us/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide) |", 
+  "AdvancedRule": {
+    "Condition": {
+      "Operator": "And",
+      "SubConditions": [
+        {
+          "ConditionName": "SubjectContainsWords",
+          "Value": [
+            "Secure"
+          ]
+        }
+      ]
+    },
+    "Version": "1.0"
+  },
   "AnyOfRecipientAddressContainsWords": [],
   "AnyOfRecipientAddressMatchesPatterns": [],
   "BlockAccess": false,
@@ -54,7 +68,7 @@
   "NotifyEmailExchangeIncludeAttachment": true,
   "NotifyPolicyTipCustomTextTranslations": [],
   "NotifyUser": [],
-  "Policy": "${urn:resource:SecurityAndCompliance:DlpCompliancePolicy/Custom policy?Guid}",
+  "Policy": "${urn:resource:SecurityAndCompliance:DlpCompliancePolicy/Baseline - Encrypt Email?Guid}",
   "Priority": 0,
   "ProcessingLimitExceeded": false,
   "Quarantine": false,

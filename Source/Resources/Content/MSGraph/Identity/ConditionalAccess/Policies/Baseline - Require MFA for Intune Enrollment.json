@@ -4,7 +4,7 @@
     "applications": {
       "excludeApplications": [],
       "includeApplications": [
-        "${urn:resource:MSGraph:ServicePrincipals/00000002-0000-0ff1-ce00-000000000000?$data.appId}"
+        "00000002-0000-0ff1-ce00-000000000000"
       ],
       "includeAuthenticationContextClassReferences": [],
       "includeUserActions": []
@@ -12,18 +12,15 @@
     "clientAppTypes": [
       "all"
     ],
-    "servicePrincipalRiskLevels": [],
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       ],
-      "excludeGuestsOrExternalUsers": null,
       "excludeRoles": [],
       "excludeUsers": [],
       "includeGroups": [],
-      "includeGuestsOrExternalUsers": null,
       "includeRoles": [],
       "includeUsers": [
         "All"
@@ -31,7 +28,6 @@
     }
   },
   "grantControls": {
-    "authenticationStrength": null,
     "builtInControls": [
       "mfa"
     ],

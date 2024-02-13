@@ -22,6 +22,7 @@
         "rule": "device.trustType -eq \"ServerAD\" -or device.isCompliant -eq True"
       },
       "excludeDevices": [],
+      "excludeDeviceStates": [],
       "includeDevices": []
     },
     "locations": {
@@ -35,19 +36,17 @@
     "platforms": {
       "excludePlatforms": [
         "android",
-        "iOS"
+        "ios"
       ],
       "includePlatforms": [
         "all"
       ]
     },
-    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
-    "times": null,
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       ],
       "excludeRoles": [
         "62e90394-69f5-4237-9190-012177145e10",

@@ -19,6 +19,7 @@
         "rule": "device.trustType -eq \"ServerAD\" -or device.isCompliant -eq True"
       },
       "excludeDevices": [],
+      "excludeDeviceStates": [],
       "includeDevices": []
     },
     "locations": {
@@ -29,9 +30,7 @@
         "All"
       ]
     },
-    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
-    "times": null,
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [],

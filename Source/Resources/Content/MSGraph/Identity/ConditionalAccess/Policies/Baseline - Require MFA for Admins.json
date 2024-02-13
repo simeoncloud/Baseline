@@ -13,12 +13,11 @@
       "browser",
       "mobileAppsAndDesktopClients"
     ],
-    "servicePrincipalRiskLevels": null,
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
       "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       ],
       "excludeRoles": [
         "d29b2b05-8046-44ba-8758-1e26182fcf32"
