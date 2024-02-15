@@ -1,0 +1,11 @@
+{
+  "$description": "| What does this do? | C |",
+  "displayName": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations",
+  "groupTypes": [],
+  "infoCatalogs": [],
+  "mailEnabled": false,
+  "mailNickname": "Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}
