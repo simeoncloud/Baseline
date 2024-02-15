@@ -1,0 +1,11 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: Self Deploying Profile?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - Self Deploying--Baseline-AutopilotDevices-SelfDeploying?id}",
+  "source": "direct",
+  "sourceId": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: Self Deploying Profile?id}",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - Self Deploying--Baseline-AutopilotDevices-SelfDeploying?id}"
+  },
+  "windowsAutopilotDeploymentProfile-id": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: Self Deploying Profile?id}"
+}
