@@ -1,0 +1,9 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - OneDrive Silent Configuration?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices--Baseline-CorporateDevices?id}",
+  "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - OneDrive Silent Configuration?id}",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices--Baseline-CorporateDevices?id}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - OS - Sleep When Plugged In Disabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical--Baseline-CorporateDevices-Physical?id}",
+  "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - OS - Sleep When Plugged In Disabled?id}",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical--Baseline-CorporateDevices-Physical?id}"
+  }
+}
