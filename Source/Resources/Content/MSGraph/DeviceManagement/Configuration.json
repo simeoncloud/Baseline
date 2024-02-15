@@ -1,0 +1,12 @@
+{
+  "managedDeviceCleanupSettings": {
+    "deviceInactivityBeforeRetirementInDays": "30"
+  },
+  "settings": {
+    "enableAutopilotDiagnostics": true,
+    "enableDeviceGroupMembershipReport": false,
+    "enableEnhancedTroubleshootingExperience": false,
+    "enhancedJailBreak": false,
+    "secureByDefault": false
+  }
+}
