@@ -4,15 +4,18 @@
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices--Baseline-CorporateDevices?id}"
       }
     }
   ],
   "enforceSignatureCheck": false,
+  "expand": "assignments",
   "fileName": "Baseline - Management - Set-IntuneManagementExtensionConfiguration.ps1",
   "roleScopeTagIds": [
-    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "runAs32Bit": true,
-  "runAsAccount": "system"
+  "runAsAccount": "system",
+  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - Management - Set-IntuneManagementExtensionConfiguration?$additionalContentFiles['scriptContent.ps1']}"
 }
