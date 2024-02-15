@@ -1,0 +1,7 @@
+{
+  "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+  "$name": "#microsoft.graph.deviceManagementComplexSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublic--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
+  "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublic",
+  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
+  "valueJson": "{\"policyRulesFromGroupPolicyNotMerged\":true,\"inboundConnectionsBlocked\":true,\"outboundConnectionsRequired\":true,\"inboundNotificationsBlocked\":true,\"firewallEnabled\":\"allowed\",\"incomingTrafficRequired\":true,\"unicastResponsesToMulticastBroadcastsRequired\":true,\"authorizedApplicationRulesFromGroupPolicyMerged\":true,\"globalPortRulesFromGroupPolicyMerged\":true,\"connectionSecurityRulesFromGroupPolicyNotMerged\":true}"
+}

@@ -1,0 +1,7 @@
+{
+  "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+  "$name": "#microsoft.graph.deviceManagementComplexSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerRemovableDrivePolicy--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
+  "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerRemovableDrivePolicy",
+  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
+  "valueJson": "{\"requireEncryptionForWriteAccess\":true,\"encryptionMethod\":\"aesCbc128\"}"
+}

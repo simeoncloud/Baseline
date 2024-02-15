@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--admx--microsoftedge_SmartScreenEnabled--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
+  "definitionId": "admx--microsoftedge_SmartScreenEnabled",
+  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
+  "value": "enabled",
+  "valueJson": "\"enabled\""
+}
