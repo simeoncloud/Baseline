@@ -1,0 +1,23 @@
+{
+  "$description": "Creates and manages compliance content.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.informationProtection/allEntities/allTasks",
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.directory/authorizationPolicy/standard/read",
+        "microsoft.directory/cloudAppSecurity/allProperties/allTasks",
+        "microsoft.office365.complianceManager/allEntities/allTasks",
+        "microsoft.office365.serviceHealth/allEntities/allTasks",
+        "microsoft.office365.supportTickets/allEntities/allTasks",
+        "microsoft.office365.webPortal/allEntities/standard/read"
+      ]
+    }
+  ],
+  "version": "1"
+}

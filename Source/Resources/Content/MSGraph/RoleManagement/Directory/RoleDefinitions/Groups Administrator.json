@@ -1,0 +1,36 @@
+{
+  "$description": "Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.directory/deletedItems.groups/delete",
+        "microsoft.directory/deletedItems.groups/restore",
+        "microsoft.directory/groups/assignLicense",
+        "microsoft.directory/groups/basic/update",
+        "microsoft.directory/groups/classification/update",
+        "microsoft.directory/groups/create",
+        "microsoft.directory/groups/delete",
+        "microsoft.directory/groups/dynamicMembershipRule/update",
+        "microsoft.directory/groups/groupType/update",
+        "microsoft.directory/groups/hiddenMembers/read",
+        "microsoft.directory/groups/members/update",
+        "microsoft.directory/groups/onPremWriteBack/update",
+        "microsoft.directory/groups/owners/update",
+        "microsoft.directory/groups/reprocessLicenseAssignment",
+        "microsoft.directory/groups/restore",
+        "microsoft.directory/groups/settings/update",
+        "microsoft.directory/groups/visibility/update",
+        "microsoft.office365.serviceHealth/allEntities/allTasks",
+        "microsoft.office365.supportTickets/allEntities/allTasks",
+        "microsoft.office365.webPortal/allEntities/standard/read"
+      ]
+    }
+  ],
+  "version": "1"
+}

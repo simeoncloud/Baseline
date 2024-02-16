@@ -1,7 +1,5 @@
 {
   "$description": "| What does this do? | Can read basic directory information. Commonly used to grant directory read access to applications and guests. |",
-  "description": "Can read basic directory information. Commonly used to grant directory read access to applications and guests.",
-  "inheritsPermissionsFrom": [],
   "isEnabled": true,
   "resourceScopes": [
     "/"
@@ -51,6 +49,7 @@
         "microsoft.directory/users/appRoleAssignments/read",
         "microsoft.directory/users/deviceForResourceAccount/read",
         "microsoft.directory/users/directReports/read",
+        "microsoft.directory/users/invitedBy/read",
         "microsoft.directory/users/licenseDetails/read",
         "microsoft.directory/users/manager/read",
         "microsoft.directory/users/memberOf/read",
@@ -60,9 +59,10 @@
         "microsoft.directory/users/photo/read",
         "microsoft.directory/users/registeredDevices/read",
         "microsoft.directory/users/scopedRoleMemberOf/read",
+        "microsoft.directory/users/sponsors/read",
         "microsoft.directory/users/standard/read"
-      ],
-      "condition": null
+      ]
     }
-  ]
+  ],
+  "version": "1"
 }

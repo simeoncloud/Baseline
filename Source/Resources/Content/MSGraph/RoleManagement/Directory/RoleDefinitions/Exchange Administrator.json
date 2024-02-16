@@ -1,0 +1,29 @@
+{
+  "$description": "Can manage all aspects of the Exchange product.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.directory/groups.unified/basic/update",
+        "microsoft.directory/groups.unified/create",
+        "microsoft.directory/groups.unified/delete",
+        "microsoft.directory/groups.unified/members/update",
+        "microsoft.directory/groups.unified/owners/update",
+        "microsoft.directory/groups.unified/restore",
+        "microsoft.directory/groups/hiddenMembers/read",
+        "microsoft.office365.exchange/allEntities/basic/allTasks",
+        "microsoft.office365.network/performance/allProperties/read",
+        "microsoft.office365.serviceHealth/allEntities/allTasks",
+        "microsoft.office365.supportTickets/allEntities/allTasks",
+        "microsoft.office365.usageReports/allEntities/allProperties/read",
+        "microsoft.office365.webPortal/allEntities/standard/read"
+      ]
+    }
+  ],
+  "version": "1"
+}

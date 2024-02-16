@@ -1,0 +1,46 @@
+{
+  "$description": "Can manage the Microsoft Teams service.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/allowedCloudEndpoints/update",
+        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/default/crossCloudMeetings/update",
+        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/default/standard/read",
+        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/partners/create",
+        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/partners/crossCloudMeetings/update",
+        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/partners/standard/read",
+        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/standard/read",
+        "microsoft.directory/authorizationPolicy/standard/read",
+        "microsoft.directory/externalUserProfiles/basic/update",
+        "microsoft.directory/externalUserProfiles/delete",
+        "microsoft.directory/externalUserProfiles/standard/read",
+        "microsoft.directory/groups.unified/basic/update",
+        "microsoft.directory/groups.unified/create",
+        "microsoft.directory/groups.unified/delete",
+        "microsoft.directory/groups.unified/members/update",
+        "microsoft.directory/groups.unified/owners/update",
+        "microsoft.directory/groups.unified/restore",
+        "microsoft.directory/groups/hiddenMembers/read",
+        "microsoft.directory/pendingExternalUserProfiles/basic/update",
+        "microsoft.directory/pendingExternalUserProfiles/create",
+        "microsoft.directory/pendingExternalUserProfiles/delete",
+        "microsoft.directory/pendingExternalUserProfiles/standard/read",
+        "microsoft.directory/permissionGrantPolicies/standard/read",
+        "microsoft.office365.network/performance/allProperties/read",
+        "microsoft.office365.serviceHealth/allEntities/allTasks",
+        "microsoft.office365.skypeForBusiness/allEntities/allTasks",
+        "microsoft.office365.supportTickets/allEntities/allTasks",
+        "microsoft.office365.usageReports/allEntities/allProperties/read",
+        "microsoft.office365.webPortal/allEntities/standard/read",
+        "microsoft.teams/allEntities/allProperties/allTasks"
+      ]
+    }
+  ],
+  "version": "1"
+}

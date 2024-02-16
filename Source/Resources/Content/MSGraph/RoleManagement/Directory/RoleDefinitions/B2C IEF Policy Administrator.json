@@ -1,0 +1,15 @@
+{
+  "$description": "Can create and manage trust framework policies in the Identity Experience Framework (IEF).",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/b2cTrustFrameworkPolicy/allProperties/allTasks"
+      ]
+    }
+  ],
+  "version": "1"
+}

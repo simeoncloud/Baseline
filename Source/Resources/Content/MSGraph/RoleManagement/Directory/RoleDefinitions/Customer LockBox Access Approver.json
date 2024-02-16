@@ -1,0 +1,16 @@
+{
+  "$description": "Can approve Microsoft support requests to access customer organizational data.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.office365.lockbox/allEntities/allTasks",
+        "microsoft.office365.webPortal/allEntities/standard/read"
+      ]
+    }
+  ],
+  "version": "1"
+}

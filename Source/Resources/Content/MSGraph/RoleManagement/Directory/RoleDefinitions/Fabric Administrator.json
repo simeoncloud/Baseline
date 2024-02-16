@@ -1,0 +1,20 @@
+{
+  "$description": "Manages all aspects of Microsoft Fabric.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.office365.serviceHealth/allEntities/allTasks",
+        "microsoft.office365.supportTickets/allEntities/allTasks",
+        "microsoft.office365.webPortal/allEntities/standard/read",
+        "microsoft.powerApps.powerBI/allEntities/allTasks"
+      ]
+    }
+  ],
+  "version": "1"
+}

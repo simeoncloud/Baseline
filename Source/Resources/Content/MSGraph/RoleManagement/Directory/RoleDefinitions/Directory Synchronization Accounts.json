@@ -1,7 +1,5 @@
 {
   "$description": "| What does this do? | Only used by Azure AD Connect service. |",
-  "description": "Only used by Azure AD Connect service.",
-  "inheritsPermissionsFrom": [],
   "isEnabled": true,
   "resourceScopes": [
     "/"
@@ -57,8 +55,8 @@
         "microsoft.directory/servicePrincipals/policies/update",
         "microsoft.directory/servicePrincipals/standard/read",
         "microsoft.directory/servicePrincipals/tag/update"
-      ],
-      "condition": null
+      ]
     }
-  ]
+  ],
+  "version": "1"
 }

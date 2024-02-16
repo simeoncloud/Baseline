@@ -1,0 +1,30 @@
+{
+  "$description": "Limited access to manage devices in Microsoft Entra ID.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.directory/auditLogs/allProperties/read",
+        "microsoft.directory/authorizationPolicy/standard/read",
+        "microsoft.directory/bitlockerKeys/key/read",
+        "microsoft.directory/deletedItems.devices/delete",
+        "microsoft.directory/deletedItems.devices/restore",
+        "microsoft.directory/deviceLocalCredentials/password/read",
+        "microsoft.directory/deviceManagementPolicies/basic/update",
+        "microsoft.directory/deviceManagementPolicies/standard/read",
+        "microsoft.directory/deviceRegistrationPolicy/basic/update",
+        "microsoft.directory/deviceRegistrationPolicy/standard/read",
+        "microsoft.directory/devices/delete",
+        "microsoft.directory/devices/disable",
+        "microsoft.directory/devices/enable",
+        "microsoft.directory/signInReports/allProperties/read",
+        "microsoft.office365.serviceHealth/allEntities/allTasks"
+      ]
+    }
+  ],
+  "version": "1"
+}
