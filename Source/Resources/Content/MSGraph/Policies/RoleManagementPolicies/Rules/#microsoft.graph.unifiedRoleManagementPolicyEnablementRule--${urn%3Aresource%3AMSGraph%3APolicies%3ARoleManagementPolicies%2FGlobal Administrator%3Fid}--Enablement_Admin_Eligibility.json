@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Enablement_Admin_Eligibility",
+  "enabledRules": [],
+  "id": "Enablement_Admin_Eligibility",
+  "target": {
+    "caller": "Admin",
+    "level": "Eligibility",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
+}

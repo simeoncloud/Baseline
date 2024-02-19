@@ -1,0 +1,15 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyAuthenticationContextRule",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyAuthenticationContextRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--AuthenticationContext_EndUser_Assignment",
+  "claimValue": "",
+  "id": "AuthenticationContext_EndUser_Assignment",
+  "isEnabled": false,
+  "target": {
+    "caller": "EndUser",
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
+}
