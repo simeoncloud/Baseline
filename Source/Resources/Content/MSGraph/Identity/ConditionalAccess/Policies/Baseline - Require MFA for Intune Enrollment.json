@@ -4,7 +4,7 @@
     "applications": {
       "excludeApplications": [],
       "includeApplications": [
-        "00000002-0000-0ff1-ce00-000000000000"
+        "${urn:resource:MSGraph:ServicePrincipals/Office 365 Exchange Online?appId}"
       ],
       "includeAuthenticationContextClassReferences": [],
       "includeUserActions": []

@@ -3,8 +3,8 @@
   "conditions": {
     "applications": {
       "excludeApplications": [
-        "0000000a-0000-0000-c000-000000000000",
-        "d4ebce55-015a-49b5-a083-c84d1797ae8c"
+        "${urn:resource:MSGraph:ServicePrincipals/Microsoft Intune Enrollment?appId}",
+        "${urn:resource:MSGraph:ServicePrincipals/Microsoft Intune?appId}"
       ],
       "includeApplications": [
         "All"
@@ -47,8 +47,8 @@
         "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       ],
       "excludeRoles": [
-        "62e90394-69f5-4237-9190-012177145e10",
-        "d29b2b05-8046-44ba-8758-1e26182fcf32"
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
       ],
       "excludeUsers": [
         "GuestsOrExternalUsers"
