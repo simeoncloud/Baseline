@@ -1,11 +1,17 @@
 {
   "$description": "| What does this do? | Configures the default behavior for managed client apps on unmanaged iOS devices. The baseline allows data to flow between protected apps, but prohibits users from copying or saving data outside of the app except for users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\". |\n| Why should you use this? |  If you want to protect your data on users' personal iOS devices by preventing organization data from leaving protected apps. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> iOS device users cannot copy or save data outside of your managed client apps. |\n| Learn more | [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
+  "allowedDataIngestionLocations": [],
   "allowedDataStorageLocations": [
     "oneDriveForBusiness",
     "sharePoint"
   ],
+  "allowedInboundDataTransferSources": "allApps",
+  "allowedOutboundClipboardSharingExceptionLength": 0,
   "allowedOutboundClipboardSharingLevel": "managedAppsWithPasteIn",
   "allowedOutboundDataTransferDestinations": "managedApps",
+  "appActionIfDeviceComplianceRequired": "block",
+  "appActionIfIosDeviceModelNotAllowed": "block",
+  "appActionIfMaximumPinRetriesExceeded": "block",
   "appDataEncryptionType": "whenDeviceLocked",
   "appGroupType": "selectedPublicApps",
   "apps": [
@@ -308,21 +314,31 @@
   ],
   "assignments": [
     {
+      "source": "direct",
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       }
     },
     {
+      "source": "direct",
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users--Baseline-Microsoft365Users?id}"
       }
     }
   ],
+  "blockDataIngestionIntoOrganizationDocuments": false,
+  "contactSyncBlocked": false,
   "customBrowserProtocol": "",
   "dataBackupBlocked": true,
+  "description": "| What does this do? | Configures the default behavior for managed client apps on unmanaged iOS devices. The baseline allows data to flow between protected apps, but prohibits users from copying or saving data outside of the app except for users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\". |\n| Why should you use this? |  If you want to protect your data on users' personal iOS devices by preventing organization data from leaving protected apps. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> iOS device users cannot copy or save data outside of your managed client apps. |\n| Learn more | [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
   "deviceComplianceRequired": true,
+  "dialerRestrictionLevel": "allApps",
+  "disableAppPinIfDevicePinIsSet": false,
+  "disableProtectionOfManagedOutboundOpenInData": false,
   "exemptedAppProtocols": [
     {
       "name": "ADP",
@@ -367,6 +383,11 @@
     "https://facetime.apple.com",
     "https://maps.apple.com"
   ],
+  "expand": "apps,assignments",
+  "faceIdBlocked": false,
+  "filterOpenInToOnlyManagedApps": false,
+  "fingerprintBlocked": false,
+  "managedBrowser": "notConfigured",
   "managedBrowserToOpenLinksRequired": true,
   "managedUniversalLinks": [
     "http://*.appsplatform.us/*",
@@ -420,15 +441,29 @@
     "https://web.microsoftstream.com/video/*",
     "https://zoom.us/*"
   ],
+  "maximumAllowedDeviceThreatLevel": "notConfigured",
+  "maximumPinRetries": 5,
   "minimumPinLength": 6,
   "minimumWarningOsVersion": "11.1.3",
+  "mobileThreatDefenseRemediationAction": "block",
+  "notificationRestriction": "allow",
+  "organizationalCredentialsRequired": false,
+  "periodBeforePinReset": "PT0S",
   "periodOfflineBeforeAccessCheck": "PT12H",
   "periodOfflineBeforeWipeIsEnforced": "P60D",
   "periodOnlineBeforeAccessCheck": "PT4H",
   "pinCharacterSet": "alphanumericAndSymbol",
   "pinRequired": true,
   "pinRequiredInsteadOfBiometricTimeout": "P1D",
+  "previousPinBlockCount": 0,
+  "printBlocked": false,
+  "protectedMessagingRedirectAppType": "anyApp",
+  "protectInboundDataFromUnknownSources": false,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
   "saveAsBlocked": true,
   "simplePinBlocked": true,
-  "targetedAppManagementLevels": "unmanaged"
+  "targetedAppManagementLevels": "unmanaged",
+  "thirdPartyKeyboardsBlocked": false
 }
