@@ -1,12 +1,24 @@
 {
   "$description": "| What does this do? | Configures the default behavior for managed client applications on unmanaged Android devices. The baseline allows data to flow between allowed applications, but prohibits users from copying or saving data outside of the application except for users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.\" |\n| Why should you use this? |  If you want to protect users' personal Android devices by preventing organization data from leaving allowed apps. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Android device users cannot copy or save data outside of your managed client applications. |\n| Learn more | [App protection policies overview](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
+  "allowedAndroidDeviceModels": [],
+  "allowedDataIngestionLocations": [],
   "allowedDataStorageLocations": [
     "oneDriveForBusiness",
     "sharePoint"
   ],
+  "allowedInboundDataTransferSources": "allApps",
+  "allowedOutboundClipboardSharingExceptionLength": 0,
   "allowedOutboundClipboardSharingLevel": "managedAppsWithPasteIn",
   "allowedOutboundDataTransferDestinations": "managedApps",
+  "appActionIfAndroidDeviceManufacturerNotAllowed": "block",
+  "appActionIfAndroidDeviceModelNotAllowed": "block",
+  "appActionIfAndroidSafetyNetAppsVerificationFailed": "block",
+  "appActionIfAndroidSafetyNetDeviceAttestationFailed": "block",
+  "appActionIfDeviceComplianceRequired": "block",
+  "appActionIfDeviceLockNotSet": "block",
+  "appActionIfMaximumPinRetriesExceeded": "block",
   "appGroupType": "selectedPublicApps",
+  "approvedKeyboards": [],
   "apps": [
     {
       "id": "com.adobe.reader.android",
@@ -283,32 +295,72 @@
   ],
   "assignments": [
     {
+      "source": "direct",
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?$id}"
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       }
     },
     {
+      "source": "direct",
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users--Baseline-Microsoft365Users?id}"
       }
     }
   ],
+  "biometricAuthenticationBlocked": false,
+  "blockAfterCompanyPortalUpdateDeferralInDays": 0,
+  "blockDataIngestionIntoOrganizationDocuments": false,
   "connectToVpnOnLaunch": false,
+  "contactSyncBlocked": false,
   "dataBackupBlocked": true,
+  "description": "| What does this do? | Configures the default behavior for managed client applications on unmanaged Android devices. The baseline allows data to flow between allowed applications, but prohibits users from copying or saving data outside of the application except for users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.\" |\n| Why should you use this? |  If you want to protect users' personal Android devices by preventing organization data from leaving allowed apps. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Android device users cannot copy or save data outside of your managed client applications. |\n| Learn more | [App protection policies overview](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
   "deviceComplianceRequired": true,
+  "deviceLockRequired": false,
+  "dialerRestrictionLevel": "allApps",
+  "disableAppEncryptionIfDeviceEncryptionIsEnabled": false,
+  "disableAppPinIfDevicePinIsSet": false,
   "encryptAppData": true,
   "exemptedAppPackages": [],
+  "expand": "apps,assignments",
+  "fingerprintBlocked": false,
+  "keyboardsRestricted": false,
+  "managedBrowser": "notConfigured",
+  "managedBrowserToOpenLinksRequired": false,
+  "maximumAllowedDeviceThreatLevel": "notConfigured",
+  "maximumPinRetries": 5,
   "minimumPinLength": 6,
+  "minimumRequiredPatchVersion": "0000-00-00",
+  "minimumWarningPatchVersion": "0000-00-00",
+  "minimumWipePatchVersion": "0000-00-00",
+  "mobileThreatDefenseRemediationAction": "block",
+  "notificationRestriction": "allow",
+  "organizationalCredentialsRequired": false,
+  "periodBeforePinReset": "PT0S",
   "periodOfflineBeforeAccessCheck": "PT12H",
   "periodOfflineBeforeWipeIsEnforced": "P60D",
   "periodOnlineBeforeAccessCheck": "PT4H",
   "pinCharacterSet": "alphanumericAndSymbol",
   "pinRequired": true,
   "pinRequiredInsteadOfBiometricTimeout": "PT4H",
+  "previousPinBlockCount": 0,
   "printBlocked": true,
+  "protectedMessagingRedirectAppType": "anyApp",
+  "requireClass3Biometrics": false,
+  "requiredAndroidSafetyNetAppsVerificationType": "none",
+  "requiredAndroidSafetyNetDeviceAttestationType": "none",
+  "requiredAndroidSafetyNetEvaluationType": "basic",
+  "requirePinAfterBiometricChange": false,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
   "saveAsBlocked": true,
   "screenCaptureBlocked": true,
-  "targetedAppManagementLevels": "unmanaged"
+  "simplePinBlocked": false,
+  "targetedAppManagementLevels": "unmanaged",
+  "warnAfterCompanyPortalUpdateDeferralInDays": 0,
+  "wipeAfterCompanyPortalUpdateDeferralInDays": 0
 }
