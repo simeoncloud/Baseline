@@ -17,14 +17,9 @@
     "personalDeviceEnrollmentBlocked": true,
     "platformBlocked": false
   },
-  "assignments": [
-    {
-      "target": {
-        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
-      }
-    }
-  ],
+  "deviceEnrollmentConfigurationType": "platformRestrictions",
   "displayName": "All users and all devices",
+  "expand": "assignments",
   "iosRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],
@@ -46,6 +41,7 @@
     "platformBlocked": false
   },
   "priority": 0,
+  "roleScopeTagIds": [],
   "windowsHomeSkuRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],

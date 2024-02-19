@@ -1,22 +1,19 @@
 {
   "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
-  "$description": "| What does this do? | This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership. |",
   "allowDeviceResetOnInstallFailure": false,
   "allowDeviceUseOnInstallFailure": false,
   "allowLogCollectionOnInstallFailure": true,
-  "assignments": [
-    {
-      "target": {
-        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
-      }
-    }
-  ],
+  "allowNonBlockingAppInstallation": false,
   "blockDeviceSetupRetryByUser": true,
   "customErrorMessage": "",
+  "deviceEnrollmentConfigurationType": "windows10EnrollmentCompletionPageConfiguration",
   "disableUserStatusTrackingAfterFirstUser": false,
   "displayName": "All users and all devices",
+  "expand": "assignments",
   "installProgressTimeoutInMinutes": 40,
+  "installQualityUpdates": false,
   "priority": 0,
+  "roleScopeTagIds": [],
   "selectedMobileAppIds": [],
   "showInstallationProgress": true,
   "trackInstallProgressForAutopilotOnly": false

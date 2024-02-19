@@ -1,15 +1,11 @@
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
   "$description": "| What does this do? | This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership. |",
-  "assignments": [
-    {
-      "target": {
-        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
-      }
-    }
-  ],
+  "deviceEnrollmentConfigurationType": "windowsHelloForBusiness",
   "displayName": "All users and all devices",
   "enhancedBiometricsState": "enabled",
+  "enhancedSignInSecurity": 0,
+  "expand": "assignments",
   "pinExpirationInDays": 0,
   "pinLowercaseCharactersUsage": "disallowed",
   "pinMaximumLength": 127,
@@ -19,6 +15,7 @@
   "pinUppercaseCharactersUsage": "disallowed",
   "priority": 0,
   "remotePassportEnabled": true,
+  "roleScopeTagIds": [],
   "securityDeviceRequired": true,
   "securityKeyForSignIn": "notConfigured",
   "state": "enabled",
