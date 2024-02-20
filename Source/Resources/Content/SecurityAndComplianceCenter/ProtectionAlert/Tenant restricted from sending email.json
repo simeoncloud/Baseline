@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "The majority of traffic from this tenant has been detected as suspicious and has resulted in a ban on sending ability for the tenant. Ensure that any compromises or open relays have been resolved, and then contact support through your regular channel. -V1.0.0.1",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [

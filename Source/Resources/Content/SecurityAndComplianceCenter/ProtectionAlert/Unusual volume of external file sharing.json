@@ -6,7 +6,7 @@
   ],
   "Category": "DataGovernance",
   "Comment": "This alert is triggered when the volume of external file sharing activities in your organization becomes unusual -V1.0.0.1",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [

@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "User has been detected as sending suspicious messages outside the organization and will be restricted if this activity continues. -V1.0.0.1",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "Filter": "-not (Activity.User.Tags -like 'hve')",
   "NotificationEnabled": true,

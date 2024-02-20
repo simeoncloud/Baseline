@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "We have detected that one of your users has recently clicked on a link that was found to be malicious. -V1.0.0.5",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "Filter": "(Click.IsLookBack -eq 1)",
   "NotificationEnabled": true,

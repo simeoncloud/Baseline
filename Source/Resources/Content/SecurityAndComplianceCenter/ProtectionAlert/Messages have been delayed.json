@@ -3,7 +3,7 @@
   "AggregationType": "CustomAggregation",
   "Category": "MailFlow",
   "Comment": "When Office 365 can't deliver a message to your on-premises or partner servers via a connector, the message is queued in Office 365. This alert is triggered when the number of queued messages exceeds the policy threshold and have been queued for more than an hour. -V1.0.0.0",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "Filter": "MessagesQueued.QueuedType -eq 'ConnectorBasedMessagesQueued'",
   "NotificationEnabled": true,

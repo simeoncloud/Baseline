@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "The majority of traffic related to unprovisioned domains from this tenant has been detected as suspicious and the tenant has been restricted from sending email with unregistered domains. Investigate any potentially compromised user/admins, new connectors, or open relays and contact support to unblock your tenant. -V1.0.0.0",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [

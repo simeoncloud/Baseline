@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "This alert is triggered when an admin takes remediation action on the selected entity -V1.0.0.0",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "Filter": "(Activity.AirAdminActionType -eq 'MailAction' -or Activity.AirAdminActionType -eq 'BlockUrlAction' -or Activity.AirAdminActionType -eq 'BlockSenderAction')",
   "NotificationEnabled": false,

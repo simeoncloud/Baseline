@@ -3,7 +3,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "This alert fires when message containing phish was delivered due to an ETR override. -V1.0.0.5",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "Filter": "(Mail.DeliveryStatus -eq 'Delivered') -and (Mail.Direction -eq 'Inbound' -or Mail.AntispamDirection -eq 'ToInternalRecipient') -and (Mail.IsOriginalDelivery -eq 1) -and (Mail.PhishConfidence -eq 'High') -and (Mail.FinalVerdictSource -eq 'Tenant') -and (Mail.TenantPolicyFinalVerdict -eq 'Allow') -and (Mail.TenantPolicyFinalVerdictSource -eq 'ETR' -or Mail.TenantPolicyFinalVerdictSource -eq 'ThirdPartyFiltering') -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'PhishEdu')) -and (-not (Mail.TenantPolicyFinalVerdictSource -eq 'SecOps'))",
   "NotificationEnabled": true,
