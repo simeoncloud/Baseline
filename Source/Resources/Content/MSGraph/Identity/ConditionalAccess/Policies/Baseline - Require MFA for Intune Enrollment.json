@@ -4,7 +4,8 @@
     "applications": {
       "excludeApplications": [],
       "includeApplications": [
-        "${urn:resource:MSGraph:ServicePrincipals/Office 365 Exchange Online?appId}"
+        "${urn:resource:MSGraph:ServicePrincipals/Microsoft Intune Enrollment?appId}",
+        "${urn:resource:MSGraph:ServicePrincipals/Microsoft Intune?appId}"
       ],
       "includeAuthenticationContextClassReferences": [],
       "includeUserActions": []
