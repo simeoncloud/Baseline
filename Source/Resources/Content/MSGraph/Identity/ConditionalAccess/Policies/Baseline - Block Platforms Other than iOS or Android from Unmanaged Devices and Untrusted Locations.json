@@ -48,13 +48,18 @@
       "excludeGroups": [
         "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
       ],
+      "excludeGuestsOrExternalUsers": {
+        "externalTenants": {
+          "@odata.type": "#microsoft.graph.conditionalAccessAllExternalTenants",
+          "membershipKind": "all"
+        },
+        "guestOrExternalUserTypes": "unknownFutureValue"
+      },
       "excludeRoles": [
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
       ],
-      "excludeUsers": [
-        "GuestsOrExternalUsers"
-      ],
+      "excludeUsers": [],
       "includeGroups": [],
       "includeRoles": [],
       "includeUsers": [
