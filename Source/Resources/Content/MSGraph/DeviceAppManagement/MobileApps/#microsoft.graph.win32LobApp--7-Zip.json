@@ -7,7 +7,7 @@
     "Setup-x64.exe": "https://www.7-zip.org/a/7z2201-x64.exe"
   },
   "allowAvailableUninstall": false,
-  "applicableArchitectures": "x86, x64",
+  "applicableArchitectures": "x86,x64",
   "detectionRules": [
     {
       "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
