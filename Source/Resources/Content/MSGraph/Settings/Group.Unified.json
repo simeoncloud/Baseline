@@ -44,7 +44,7 @@
     },
     {
       "name": "GroupCreationAllowedGroupId",
-      "value": "${urn:resource:MSGraph:Groups/Baseline - Group Creators?$id}"
+      "value": "${urn:resource:MSGraph:Groups/Baseline - Group Creators--Baseline-GroupCreators?id}"
     },
     {
       "name": "GuestUsageGuidelinesUrl",
