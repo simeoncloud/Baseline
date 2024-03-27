@@ -9,5 +9,6 @@
   "ClientVideoPortRange": 20,
   "DisableAnonymousJoin": true,
   "DisableAppInteractionForAnonymousUsers": false,
-  "EnableQoS": false
+  "EnableQoS": false,
+  "FeedbackSurveyForAnonymousUsers": "Enabled"
 }

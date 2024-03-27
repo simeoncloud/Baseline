@@ -4,6 +4,7 @@
   "AllowPublicUsers": false,
   "AllowTeamsConsumer": false,
   "AllowTeamsConsumerInbound": true,
+  "BlockAllSubdomains": false,
   "BlockedDomains": [],
   "SharedSipAddressSpace": false,
   "TreatDiscoveredPartnersAsUnverified": false

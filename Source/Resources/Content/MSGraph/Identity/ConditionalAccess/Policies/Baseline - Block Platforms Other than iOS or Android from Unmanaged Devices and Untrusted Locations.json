@@ -53,7 +53,7 @@
           "@odata.type": "#microsoft.graph.conditionalAccessAllExternalTenants",
           "membershipKind": "all"
         },
-        "guestOrExternalUserTypes": "unknownFutureValue"
+        "guestOrExternalUserTypes": "internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser,serviceProvider"
       },
       "excludeRoles": [
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}",
