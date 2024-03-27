@@ -9,6 +9,8 @@
   "recipientType": "Approver",
   "target": {
     "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
     "level": "Assignment",
     "operations": [
       "All"

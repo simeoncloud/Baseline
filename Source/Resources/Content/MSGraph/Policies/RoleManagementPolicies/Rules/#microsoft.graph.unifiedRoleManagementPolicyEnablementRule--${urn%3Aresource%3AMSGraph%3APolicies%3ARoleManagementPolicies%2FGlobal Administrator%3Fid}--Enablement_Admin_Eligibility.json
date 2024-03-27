@@ -5,6 +5,8 @@
   "id": "Enablement_Admin_Eligibility",
   "target": {
     "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
     "level": "Eligibility",
     "operations": [
       "All"

@@ -22,7 +22,7 @@
     "platformBlocked": true
   },
   "platformType": "androidForWork",
-  "priority": 2,
+  "priority": 1,
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ]

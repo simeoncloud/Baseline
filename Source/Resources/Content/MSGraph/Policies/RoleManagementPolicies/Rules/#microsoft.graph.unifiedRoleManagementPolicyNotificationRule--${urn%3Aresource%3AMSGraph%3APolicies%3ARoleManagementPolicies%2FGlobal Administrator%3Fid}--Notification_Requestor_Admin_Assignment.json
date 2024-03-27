@@ -9,6 +9,8 @@
   "recipientType": "Requestor",
   "target": {
     "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
     "level": "Assignment",
     "operations": [
       "All"

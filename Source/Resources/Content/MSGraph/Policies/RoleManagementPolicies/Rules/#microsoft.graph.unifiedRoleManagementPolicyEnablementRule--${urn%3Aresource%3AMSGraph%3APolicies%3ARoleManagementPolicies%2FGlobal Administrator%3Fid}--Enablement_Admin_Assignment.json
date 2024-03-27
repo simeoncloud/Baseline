@@ -8,6 +8,8 @@
   "id": "Enablement_Admin_Assignment",
   "target": {
     "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
     "level": "Assignment",
     "operations": [
       "All"

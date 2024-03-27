@@ -26,6 +26,8 @@
   },
   "target": {
     "caller": "EndUser",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
     "level": "Assignment",
     "operations": [
       "All"

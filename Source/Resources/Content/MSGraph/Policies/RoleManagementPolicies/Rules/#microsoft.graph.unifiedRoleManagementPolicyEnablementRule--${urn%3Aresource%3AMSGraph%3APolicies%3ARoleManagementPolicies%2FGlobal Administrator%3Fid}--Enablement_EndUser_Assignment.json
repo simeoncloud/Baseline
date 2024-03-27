@@ -8,6 +8,8 @@
   "id": "Enablement_EndUser_Assignment",
   "target": {
     "caller": "EndUser",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
     "level": "Assignment",
     "operations": [
       "All"

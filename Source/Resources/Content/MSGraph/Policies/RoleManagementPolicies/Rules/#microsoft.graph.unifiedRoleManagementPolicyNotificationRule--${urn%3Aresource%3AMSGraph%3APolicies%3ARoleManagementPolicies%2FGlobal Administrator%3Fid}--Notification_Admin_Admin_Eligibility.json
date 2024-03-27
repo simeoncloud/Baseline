@@ -9,6 +9,8 @@
   "recipientType": "Admin",
   "target": {
     "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
     "level": "Eligibility",
     "operations": [
       "All"
