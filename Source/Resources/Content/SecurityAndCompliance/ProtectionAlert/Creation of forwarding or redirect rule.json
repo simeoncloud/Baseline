@@ -4,7 +4,7 @@
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "This alert is triggered when someone in your organization sets up auto-forwarding, email forwarding, redirect rule or a mail flow rule -V1.0.0.5",
-  "CorrelationPolicyId": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Guid}",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
   "Disabled": false,
   "NotificationEnabled": true,
   "NotifyUser": [
