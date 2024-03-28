@@ -8,8 +8,6 @@
     {
       "allowedResourceActions": [
         "microsoft.azure.serviceHealth/allEntities/allTasks",
-        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read",
-        "microsoft.directory/${urn:resource:MSGraph:Policies:CrossTenantAccessPolicy/CrossTenantAccessPolicy for ${ResourceContext:TenantId}?id}/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read",
         "microsoft.directory/accessReviews/definitions/allProperties/read",
         "microsoft.directory/auditLogs/allProperties/read",
         "microsoft.directory/authorizationPolicy/standard/read",
@@ -17,6 +15,8 @@
         "microsoft.directory/conditionalAccessPolicies/owners/read",
         "microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read",
         "microsoft.directory/conditionalAccessPolicies/standard/read",
+        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read",
+        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read",
         "microsoft.directory/deviceLocalCredentials/standard/read",
         "microsoft.directory/domains/federationConfiguration/standard/read",
         "microsoft.directory/entitlementManagement/allProperties/read",
