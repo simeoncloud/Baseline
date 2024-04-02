@@ -10,7 +10,7 @@ if (!(Test-Path $env:temp\TimeZoneConverter\TimeZoneConverter\lib\net461\TimeZon
 [System.Reflection.Assembly]::LoadFrom("$env:temp\TimeZoneConverter\TimeZoneConverter\lib\net461\TimeZoneConverter.dll") | Out-Null
 $windowsZone = [TimeZoneConverter.TZConvert]::IanaToWindows($ianaZone)
 Write-Host "Setting time zone to $windowsZone."
-Set-TimeZone $windowsZone
+Set-TimeZone -Id $windowsZone
 
 Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Services\tzautoupdate -Name Start -Value 3 # enable Auto Time Zone Updater
 Set-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location -Name VALUE -Value "Allow" # enable location services for device (required for Auto Time Zone Updater)
