@@ -6,7 +6,7 @@
     {
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - User driven?$id}"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - User Driven?$id}"
       }
     }
   ],
