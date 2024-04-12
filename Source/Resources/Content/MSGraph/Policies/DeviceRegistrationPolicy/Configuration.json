@@ -9,7 +9,15 @@
       ],
       "users": []
     },
-    "isAdminConfigurable": true
+    "isAdminConfigurable": true,
+    "localAdmins": {
+      "enableGlobalAdmins": true,
+      "registeringUsers": {
+        "@odata.type": "#microsoft.graph.allDeviceRegistrationMembership",
+        "groups": [],
+        "users": []
+      }
+    }
   },
   "azureADRegistration": {
     "allowedToRegister": {
@@ -22,6 +30,6 @@
   "localAdminPassword": {
     "isEnabled": false
   },
-  "multiFactorAuthConfiguration": "required",
+  "multiFactorAuthConfiguration": "notRequired",
   "userDeviceQuota": 100
 }
