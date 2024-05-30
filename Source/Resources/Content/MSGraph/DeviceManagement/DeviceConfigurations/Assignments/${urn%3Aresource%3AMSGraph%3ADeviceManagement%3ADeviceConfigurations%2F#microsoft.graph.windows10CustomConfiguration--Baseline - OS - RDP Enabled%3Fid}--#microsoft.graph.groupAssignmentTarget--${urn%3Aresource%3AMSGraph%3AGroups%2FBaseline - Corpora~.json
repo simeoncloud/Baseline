@@ -1,11 +1,11 @@
 {
-  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - OS - RDP Enabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices--Baseline-CorporateDevices?id}",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - OS - RDP Enabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - OS - RDP Enabled?id}",
   "intent": "apply",
   "source": "direct",
   "target": {
     "@odata.type": "#microsoft.graph.groupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
-    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices--Baseline-CorporateDevices?id}"
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}"
   }
 }

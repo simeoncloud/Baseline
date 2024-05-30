@@ -7,7 +7,7 @@
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
         "deviceAndAppManagementAssignmentFilterType": "none",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Android--Baseline-CorporateDevices-Android?id}"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Android?id}"
       }
     }
   ],
