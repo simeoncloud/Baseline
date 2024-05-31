@@ -8,7 +8,7 @@
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
         "deviceAndAppManagementAssignmentFilterId": "00000000-0000-0000-0000-000000000000",
         "deviceAndAppManagementAssignmentFilterType": "none",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers--Baseline-DeviceEnrollers?id}"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?id}"
       }
     }
   ],

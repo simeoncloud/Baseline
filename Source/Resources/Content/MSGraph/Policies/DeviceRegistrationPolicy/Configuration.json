@@ -4,8 +4,8 @@
     "allowedToJoin": {
       "@odata.type": "#microsoft.graph.enumeratedDeviceRegistrationMembership",
       "groups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers--Baseline-DeviceEnrollers?id}",
-        "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users--Baseline-Microsoft365Users?id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?id}",
+        "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?id}"
       ],
       "users": []
     },

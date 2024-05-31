@@ -1,11 +1,11 @@
 {
-  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Baseline - OS - Default Windows 10 Update Ring?id}--#microsoft.graph.exclusionGroupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Preview--Baseline-CorporateDevices-Preview?id}",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Baseline - OS - Default Windows 10 Update Ring?id}--#microsoft.graph.exclusionGroupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Preview?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Baseline - OS - Default Windows 10 Update Ring?id}",
   "intent": "apply",
   "source": "direct",
   "target": {
     "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
-    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Preview--Baseline-CorporateDevices-Preview?id}"
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Preview?id}"
   }
 }

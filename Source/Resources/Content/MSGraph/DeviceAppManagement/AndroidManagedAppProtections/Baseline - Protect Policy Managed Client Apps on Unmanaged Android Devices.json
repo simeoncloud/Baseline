@@ -299,7 +299,7 @@
       "target": {
         "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
         "deviceAndAppManagementAssignmentFilterType": "none",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations--Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat?id}"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?id}"
       }
     },
     {
@@ -307,7 +307,7 @@
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
         "deviceAndAppManagementAssignmentFilterType": "none",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users--Baseline-Microsoft365Users?id}"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?id}"
       }
     }
   ],
