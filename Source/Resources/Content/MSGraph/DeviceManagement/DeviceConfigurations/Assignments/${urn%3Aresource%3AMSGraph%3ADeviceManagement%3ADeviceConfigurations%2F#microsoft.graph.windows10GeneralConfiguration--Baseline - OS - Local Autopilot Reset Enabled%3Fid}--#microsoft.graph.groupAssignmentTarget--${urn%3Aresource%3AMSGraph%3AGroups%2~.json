@@ -1,11 +1,11 @@
 {
-  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10GeneralConfiguration--Baseline - OS - Local Autopilot Reset Enabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical--Baseline-CorporateDevices-Physical?id}",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10GeneralConfiguration--Baseline - OS - Local Autopilot Reset Enabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10GeneralConfiguration--Baseline - OS - Local Autopilot Reset Enabled?id}",
   "intent": "apply",
   "source": "direct",
   "target": {
     "@odata.type": "#microsoft.graph.groupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
-    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical--Baseline-CorporateDevices-Physical?id}"
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical?id}"
   }
 }

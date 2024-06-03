@@ -8,7 +8,7 @@
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
         "deviceAndAppManagementAssignmentFilterType": "none",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Apple--Baseline-CorporateDevices-Apple?id}"
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Apple?id}"
       }
     }
   ],
