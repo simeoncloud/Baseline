@@ -16,7 +16,7 @@
       },
       {
         "name": "EnableGroupSpecificConsent",
-        "value": "false"
+        "value": ""
       }
     ]
   }
