@@ -7,7 +7,17 @@
   "displayName": "Baseline: User Driven Profile",
   "enableWhiteGlove": false,
   "extractHardwareHash": true,
+  "hardwareHashExtractionEnabled": true,
   "language": "os-default",
+  "locale": "os-default",
+  "outOfBoxExperienceSetting": {
+    "deviceUsageType": "singleUser",
+    "escapeLinkHidden": true,
+    "eulaHidden": true,
+    "keyboardSelectionPageSkipped": false,
+    "privacySettingsHidden": true,
+    "userType": "standard"
+  },
   "outOfBoxExperienceSettings": {
     "deviceUsageType": "singleUser",
     "hideEscapeLink": true,
@@ -16,6 +26,7 @@
     "skipKeyboardSelectionPage": false,
     "userType": "standard"
   },
+  "preprovisioningAllowed": false,
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ]
