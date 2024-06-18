@@ -8,7 +8,7 @@
     "mamTermsOfUseUrl": "",
     "termsOfUseUrl": "https://portal.manage.microsoft.com/TermsofUse.aspx"
   },
-  "appId": "${urn:resource:MSGraph:ServicePrincipals/Microsoft Intune Enrollment?appId}",
+  "appId": "${urn:resource:MSGraph:ServicePrincipals/d4ebce55-015a-49b5-a083-c84d1797ae8c?appId}",
   "isOnPrem": false,
   "mamAppliesTo": 0,
   "mamAppliesToGroups": [],
