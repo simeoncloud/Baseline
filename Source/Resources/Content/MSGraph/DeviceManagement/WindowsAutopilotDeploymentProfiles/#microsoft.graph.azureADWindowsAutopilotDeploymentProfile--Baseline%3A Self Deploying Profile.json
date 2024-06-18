@@ -7,7 +7,17 @@
   "displayName": "Baseline: Self Deploying Profile",
   "enableWhiteGlove": false,
   "extractHardwareHash": true,
+  "hardwareHashExtractionEnabled": true,
   "language": "en-US",
+  "locale": "en-US",
+  "outOfBoxExperienceSetting": {
+    "deviceUsageType": "shared",
+    "escapeLinkHidden": true,
+    "eulaHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "privacySettingsHidden": true,
+    "userType": "standard"
+  },
   "outOfBoxExperienceSettings": {
     "deviceUsageType": "shared",
     "hideEscapeLink": true,
@@ -16,6 +26,7 @@
     "skipKeyboardSelectionPage": true,
     "userType": "standard"
   },
+  "preprovisioningAllowed": false,
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ]
