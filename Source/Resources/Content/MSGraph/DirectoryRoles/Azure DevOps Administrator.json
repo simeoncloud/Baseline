@@ -1,0 +1,4 @@
+{
+  "$description": "Can manage Azure DevOps organization policy and settings.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Azure DevOps Administrator?id}"
+}

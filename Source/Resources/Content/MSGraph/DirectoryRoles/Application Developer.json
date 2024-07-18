@@ -1,0 +1,4 @@
+{
+  "$description": "Can create application registrations independent of the 'Users can register applications' setting.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Application Developer?id}"
+}

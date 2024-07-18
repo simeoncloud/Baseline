@@ -22,7 +22,7 @@
       "excludeUsers": [],
       "includeGroups": [],
       "includeRoles": [
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
+        "${urn:resource:MSGraph:DirectoryRoles/Global Administrator?roleTemplateId}"
       ],
       "includeUsers": []
     }

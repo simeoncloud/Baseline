@@ -47,8 +47,8 @@
         "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?id}"
       ],
       "excludeRoles": [
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
+        "${urn:resource:MSGraph:DirectoryRoles/Directory Synchronization Accounts?roleTemplateId}",
+        "${urn:resource:MSGraph:DirectoryRoles/Global Administrator?roleTemplateId}"
       ],
       "excludeUsers": [
         "GuestsOrExternalUsers"

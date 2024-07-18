@@ -1,0 +1,4 @@
+{
+  "$description": "Can invite guest users independent of the 'members can invite guests' setting.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Guest Inviter?id}"
+}

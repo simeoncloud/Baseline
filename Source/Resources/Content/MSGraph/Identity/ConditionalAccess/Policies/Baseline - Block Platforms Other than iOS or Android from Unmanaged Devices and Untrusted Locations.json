@@ -56,8 +56,8 @@
         "guestOrExternalUserTypes": "internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser,serviceProvider"
       },
       "excludeRoles": [
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
+        "${urn:resource:MSGraph:DirectoryRoles/Directory Synchronization Accounts?roleTemplateId}",
+        "${urn:resource:MSGraph:DirectoryRoles/Global Administrator?roleTemplateId}"
       ],
       "excludeUsers": [],
       "includeGroups": [],
