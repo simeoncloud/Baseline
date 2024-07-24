@@ -1,0 +1,4 @@
+{
+  "$description": "Can read sign-in and audit reports.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Reports Reader?id}"
+}

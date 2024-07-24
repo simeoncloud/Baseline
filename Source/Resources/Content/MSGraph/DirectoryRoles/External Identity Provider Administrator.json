@@ -1,0 +1,4 @@
+{
+  "$description": "Can configure identity providers for use in direct federation.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/External Identity Provider Administrator?id}"
+}

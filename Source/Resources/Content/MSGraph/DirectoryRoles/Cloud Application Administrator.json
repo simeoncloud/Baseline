@@ -1,0 +1,4 @@
+{
+  "$description": "Can create and manage all aspects of app registrations and enterprise apps except App Proxy.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Cloud Application Administrator?id}"
+}
