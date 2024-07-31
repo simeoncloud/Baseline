@@ -1,0 +1,15 @@
+{
+  "$description": "Can manage secrets for federation and encryption in the Identity Experience Framework (IEF).",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/b2cTrustFrameworkKeySet/allProperties/allTasks"
+      ]
+    }
+  ],
+  "version": "1"
+}

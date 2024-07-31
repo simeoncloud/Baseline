@@ -1,0 +1,33 @@
+{
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "$description": "| What does this do? | Creates an Intune Autopilot profile for enrolling machines using the self deploying method, which enables a device to be enrolled into your environment with little to no user interaction. Self deployment mode comes with restrictions including that the device must have TPM 2.0, and it is not supported on virtual machines even if they have a virtual TPM. Devices in the Azure AD group \"Baseline Autopilot Devices Self Deploying\" will be assigned this profile. |\n| Why should you use this? | This is most useful for devices that will be shared or used as a kiosk. If a device is going to be used by a single user it is best to use the user driven method. |\n| What is the end user impact? | User devices assigned to this profile can be configured using the self deployment method. |",
+  "$name": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: Self Deploying Profile",
+  "deviceNameTemplate": "",
+  "deviceType": "windowsPc",
+  "displayName": "Baseline: Self Deploying Profile",
+  "enableWhiteGlove": false,
+  "extractHardwareHash": true,
+  "hardwareHashExtractionEnabled": true,
+  "language": "en-US",
+  "locale": "en-US",
+  "outOfBoxExperienceSetting": {
+    "deviceUsageType": "shared",
+    "escapeLinkHidden": true,
+    "eulaHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "privacySettingsHidden": true,
+    "userType": "standard"
+  },
+  "outOfBoxExperienceSettings": {
+    "deviceUsageType": "shared",
+    "hideEscapeLink": true,
+    "hideEULA": true,
+    "hidePrivacySettings": true,
+    "skipKeyboardSelectionPage": true,
+    "userType": "standard"
+  },
+  "preprovisioningAllowed": false,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ]
+}

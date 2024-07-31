@@ -1,4 +1,0 @@
-{
-  "$description": "| What does this do? | This removes devices from Intune that have not checked in for over 30 days. In order to ensure an inventory of active authorized devices, device clean-up rules should be configured to automatically delete devices that have not checked in for over 30 days.  |",
-  "DeviceInactivityBeforeRetirementInDays": "30"
-}

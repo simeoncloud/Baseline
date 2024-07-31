@@ -1,0 +1,4 @@
+{
+  "$description": "Manages all aspects of Microsoft Fabric.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Fabric Administrator?id}"
+}

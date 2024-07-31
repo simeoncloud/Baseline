@@ -1,0 +1,4 @@
+{
+  "$description": "Can manage all aspects of users and groups, including resetting passwords for limited admins.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/User Administrator?id}"
+}

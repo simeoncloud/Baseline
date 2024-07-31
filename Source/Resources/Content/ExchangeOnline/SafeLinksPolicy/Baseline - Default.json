@@ -1,0 +1,14 @@
+{
+  "$description": "| What does this do? | Creates a default safe links policy that provides real-time click protection in Teams, Email, and Office Apps. |\n| Why should you use this? | This settings helps prevent users from acccessing malicious links or potential phishing websites. |\n| What is the end-user impact? | With this setting in place, there may be some latency in email flow while the URL is being scanned before delivery. When users click on a link and the link is found to be malicious, users will get a page describing the malicious link and will not be able to proceed to the webpage. |\n| Learn more | [Safe Links Policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links-about?view=o365-worldwide) |",
+  "AllowClickThrough": false,
+  "DeliverMessageAfterScan": true,
+  "DisableUrlRewrite": false,
+  "DoNotRewriteUrls": [],
+  "EnableForInternalSenders": true,
+  "EnableOrganizationBranding": true,
+  "EnableSafeLinksForEmail": true,
+  "EnableSafeLinksForOffice": true,
+  "EnableSafeLinksForTeams": true,
+  "ScanUrls": true,
+  "TrackClicks": true
+}

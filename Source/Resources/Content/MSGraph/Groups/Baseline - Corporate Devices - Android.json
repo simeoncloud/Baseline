@@ -1,13 +1,15 @@
 {
-    "$description": "| What does this do? | Creates a group that includes only Android devices in Azure AD. |\n| Why should you use this? | This group is used to assign Intune configurations that should apply to only Android devices. |\n| What is the end-user impact? | N/A |\n| Learn more | N/A |",
-    "assignedLicenses": [],
-    "groupTypes": [
-      "DynamicMembership"
-    ],
-    "mailEnabled": false,
-    "mailNickname": "Baseline-CorporateDevices-Android",
-    "membershipRule": "(device.deviceOSType -contains \"Android\")",
-    "resourceBehaviorOptions": [],
-    "resourceProvisioningOptions": [],
-    "securityEnabled": true
-  }
+  "$description": "| What does this do? | Creates a group that includes only Android devices in Azure AD. |\n| Why should you use this? | This group is used to assign Intune configurations that should apply to only Android devices. |\n| What is the end-user impact? | N/A |\n| Learn more | N/A |",
+  "displayName": "Baseline - Corporate Devices - Android",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "infoCatalogs": [],
+  "mailEnabled": false,
+  "mailNickname": "Baseline-CorporateDevices-Android",
+  "membershipRule": "(device.deviceOSType -contains \"Android\")",
+  "membershipRuleProcessingState": "On",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

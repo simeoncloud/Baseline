@@ -1,0 +1,4 @@
+{
+  "$description": "Can perform management related tasks on Teams certified devices.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Devices Administrator?id}"
+}

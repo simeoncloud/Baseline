@@ -1,57 +1,55 @@
 {
-    "$description": "| What does this do? | Creates an Access Review Policy for the Global Administrator role. This will notify all Global Admins quarterly and ask to provide a justification reason for maintaining the role. |\n| Why should you use this? | Access reviews should be periodically performed for users with permanent or eligible privileged roles. |\n| What is the end-user impact? | Users assigned the Global Administrator role will receive an email notice quarterly. They will need to provide a justification reason for keeping this role. If the user selects that the role is not longer needed, that Global Administrator role will be removed from the user. |\n| Learn more | [Microsoft Access Reviews](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) |",
-    "additionalNotificationRecipients": [],
-    "backupReviewers": [],
-    "descriptionForAdmins": "",
-    "descriptionForReviewers": "",
-    "displayName": "Global Admin Access Review",
-    "fallbackReviewers": [],
-    "reviewers": [],
-    "scope": {
-      "@odata.type": "#microsoft.graph.accessReviewQueryScope",
-      "query": "/beta/roleManagement/directory/roleEligibilityScheduleInstances?$expand=principal&$filter=(isof(principal,'microsoft.graph.user') and roleDefinitionId eq '${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?$id}')",
-      "queryType": "MicrosoftGraph"
-    },
-    "settings": {
-      "applyActions": [
-        {
-          "@odata.type": "#microsoft.graph.removeAccessApplyAction"
-        }
-      ],
-      "autoApplyDecisionsEnabled": true,
-      "decisionHistoriesForReviewersEnabled": false,
-      "defaultDecision": "None",
-      "defaultDecisionEnabled": false,
-      "instanceDurationInDays": 41,
-      "justificationRequiredOnApproval": true,
-      "mailNotificationsEnabled": true,
-      "recommendationInsightSettings": [
-        {
-          "@odata.type": "#microsoft.graph.userLastSignInRecommendationInsightSetting",
-          "recommendationLookBackDuration": "P30D",
-          "signInScope": "tenant"
-        }
-      ],
-      "recommendationLookBackDuration": null,
-      "recommendationsEnabled": true,
-      "recurrence": {
-        "pattern": {
-          "dayOfMonth": 0,
-          "daysOfWeek": [],
-          "firstDayOfWeek": "sunday",
-          "index": "first",
-          "interval": 3,
-          "month": 0,
-          "type": "absoluteMonthly"
-        },
-        "range": {
-          "endDate": "9999-12-31",
-          "numberOfOccurrences": 0,
-          "startDate": "2023-04-26",
-          "type": "noEnd"
-        }
+  "$description": "| What does this do? | Creates an Access Review Policy for the Global Administrator role. This will notify all Global Admins quarterly and ask to provide a justification reason for maintaining the role. |\n| Why should you use this? | Access reviews should be periodically performed for users with permanent or eligible privileged roles. |\n| What is the end-user impact? | Users assigned the Global Administrator role will receive an email notice quarterly. They will need to provide a justification reason for keeping this role. If the user selects that the role is not longer needed, that Global Administrator role will be removed from the user. |\n| Learn more | [Microsoft Access Reviews](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) |",
+  "additionalNotificationRecipients": [],
+  "backupReviewers": [],
+  "descriptionForAdmins": "",
+  "descriptionForReviewers": "",
+  "fallbackReviewers": [],
+  "reviewers": [],
+  "scope": {
+    "@odata.type": "#microsoft.graph.accessReviewQueryScope",
+    "query": "/beta/roleManagement/directory/roleEligibilityScheduleInstances?$expand=principal&$filter=(isof(principal,'microsoft.graph.user') and roleDefinitionId eq '${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}')",
+    "queryType": "MicrosoftGraph"
+  },
+  "settings": {
+    "applyActions": [
+      {
+        "@odata.type": "#microsoft.graph.removeAccessApplyAction"
+      }
+    ],
+    "autoApplyDecisionsEnabled": true,
+    "decisionHistoriesForReviewersEnabled": false,
+    "defaultDecision": "None",
+    "defaultDecisionEnabled": false,
+    "instanceDurationInDays": 41,
+    "justificationRequiredOnApproval": true,
+    "mailNotificationsEnabled": true,
+    "recommendationInsightSettings": [
+      {
+        "@odata.type": "#microsoft.graph.userLastSignInRecommendationInsightSetting",
+        "recommendationLookBackDuration": "P30D",
+        "signInScope": "tenant"
+      }
+    ],
+    "recommendationLookBackDuration": "P30D",
+    "recommendationsEnabled": true,
+    "recurrence": {
+      "pattern": {
+        "dayOfMonth": 0,
+        "daysOfWeek": [],
+        "firstDayOfWeek": "sunday",
+        "index": "first",
+        "interval": 3,
+        "month": 0,
+        "type": "absoluteMonthly"
       },
-      "reminderNotificationsEnabled": true
+      "range": {
+        "endDate": "9999-12-31",
+        "numberOfOccurrences": 0,
+        "type": "noEnd"
+      }
     },
-    "stageSettings": []
-  }
+    "reminderNotificationsEnabled": true
+  },
+  "stageSettings": []
+}

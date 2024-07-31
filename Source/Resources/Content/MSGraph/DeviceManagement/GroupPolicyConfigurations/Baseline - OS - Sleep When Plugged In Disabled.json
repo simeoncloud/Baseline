@@ -1,35 +1,6 @@
 {
   "$description": "| What does this do? | Sets the system sleep timeout for devices to \"Never\" when plugged in. |\n| Why should you use this? | If you want to prevent desktop computers from going to sleep so you can connect remotely at any time. |\n| What is the end-user impact? | Users' devices will not go to sleep when plugged in, so users may connect remotely at any time. |\n| Learn more | N/A |",
-  "assignments": [
-    {
-      "target": {
-        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical?$id}"
-      }
-    }
-  ],
-  "definitionValues": [
-    {
-      "@odata.type": "microsoft.graph.groupPolicyDefinitionValue",
-      "configurationType": "policy",
-      "definition": {
-        "categoryPath": "\\System\\Power Management\\Sleep Settings",
-        "classType": "machine",
-        "displayName": "Specify the system sleep timeout (plugged in)"
-      },
-      "enabled": true,
-      "presentationValues": [
-        {
-          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
-          "presentation": {
-            "label": "System Sleep Timeout (seconds):"
-          },
-          "value": 0
-        }
-      ]
-    }
-  ],
   "roleScopeTagIds": [
-    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?$id}"
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ]
 }

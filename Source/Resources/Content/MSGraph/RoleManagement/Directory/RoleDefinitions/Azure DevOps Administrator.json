@@ -1,0 +1,15 @@
+{
+  "$description": "Can manage Azure DevOps organization policy and settings.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.devOps/allEntities/allTasks"
+      ]
+    }
+  ],
+  "version": "1"
+}

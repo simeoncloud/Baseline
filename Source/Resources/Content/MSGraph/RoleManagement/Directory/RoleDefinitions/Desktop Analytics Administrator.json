@@ -1,0 +1,18 @@
+{
+  "$description": "Can access and manage Desktop management tools and services.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.directory/authorizationPolicy/standard/read",
+        "microsoft.office365.desktopAnalytics/allEntities/allTasks"
+      ]
+    }
+  ],
+  "version": "1"
+}

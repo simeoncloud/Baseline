@@ -1,0 +1,4 @@
+{
+  "$description": "Can reset passwords for non-administrators and Helpdesk Administrators.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Helpdesk Administrator?id}"
+}

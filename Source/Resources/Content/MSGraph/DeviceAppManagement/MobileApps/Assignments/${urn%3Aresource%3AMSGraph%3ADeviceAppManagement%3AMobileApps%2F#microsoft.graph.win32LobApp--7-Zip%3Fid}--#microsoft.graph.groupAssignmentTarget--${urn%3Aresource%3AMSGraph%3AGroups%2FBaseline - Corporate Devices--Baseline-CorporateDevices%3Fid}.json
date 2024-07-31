@@ -1,0 +1,16 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceAppManagement:MobileApps/#microsoft.graph.win32LobApp--7-Zip?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}",
+  "intent": "required",
+  "mobileApp-id": "${urn:resource:MSGraph:DeviceAppManagement:MobileApps/#microsoft.graph.win32LobApp--7-Zip?id}",
+  "settings": {
+    "@odata.type": "#microsoft.graph.win32LobAppAssignmentSettings",
+    "deliveryOptimizationPriority": "notConfigured",
+    "notifications": "showAll"
+  },
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}"
+  }
+}

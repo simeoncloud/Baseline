@@ -1,0 +1,4 @@
+{
+  "$description": "Can create and manage all aspects of Microsoft Dynamics 365, PowerApps and Microsoft Flow.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Power Platform Administrator?id}"
+}

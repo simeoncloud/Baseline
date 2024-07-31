@@ -1,0 +1,20 @@
+{
+  "$description": "Can troubleshoot communications issues within Teams using advanced tools.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.directory/authorizationPolicy/standard/read",
+        "microsoft.office365.serviceHealth/allEntities/allTasks",
+        "microsoft.office365.skypeForBusiness/allEntities/allTasks",
+        "microsoft.office365.webPortal/allEntities/standard/read",
+        "microsoft.teams/callQuality/allProperties/read"
+      ]
+    }
+  ],
+  "version": "1"
+}

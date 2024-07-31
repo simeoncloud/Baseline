@@ -1,0 +1,12 @@
+{
+  "@odata.type": "#microsoft.graph.securityBaselineTemplate",
+  "$description": "MDM Security Baseline for Windows 10 and later",
+  "displayName": "MDM Security Baseline for Windows 10 and later for November 2021",
+  "intentCount": 1,
+  "isDeprecated": false,
+  "platformType": "windows10AndLater",
+  "publishedDateTime": "2021-10-22T00:00:00Z",
+  "templateSubtype": "none",
+  "templateType": "securityBaseline",
+  "versionInfo": "November 2021"
+}

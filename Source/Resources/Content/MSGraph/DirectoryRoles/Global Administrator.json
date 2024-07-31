@@ -1,0 +1,5 @@
+{
+  "$description": "| What does this do? | Can manage all aspects of Azure AD and Microsoft services that use Azure AD identities. |",
+  "description": "Can manage all aspects of Microsoft Entra ID and Microsoft services that use Microsoft Entra identities.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
+}

@@ -1,0 +1,78 @@
+{
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "$description": "| What does this do? | Microsoft .NET Framework 3.5 is used to create and run applications. |\n| Why should you use this? | Microsoft .NET Framework 3.5 is required to run many applications. |\n| What is the end-user impact? | Users will have Microsoft .NET Framework 3.5 installed on their machines. |\n| .NET Framework | [What is .NET Framework?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework)",
+  "$manifest": {
+    "Install.bat": "dism /Online /Add-Capability /CapabilityName:NetFx3~~~~"
+  },
+  "allowAvailableUninstall": false,
+  "applicableArchitectures": "x86,x64",
+  "detectionRules": [
+    {
+      "@odata.type": "#microsoft.graph.win32LobAppRegistryDetection",
+      "check32BitOn64System": false,
+      "detectionType": "exists",
+      "keyPath": "Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v3.5",
+      "operator": "notConfigured",
+      "valueName": "Install"
+    }
+  ],
+  "developer": "",
+  "displayName": "Microsoft .NET Framework 3.5",
+  "enableInstallLogging": true,
+  "fileName": "011",
+  "installCommandLine": "Install.bat",
+  "installExperience": {
+    "deviceRestartBehavior": "basedOnReturnCode",
+    "maxRunTimeInMinutes": 60,
+    "runAsAccount": "system"
+  },
+  "isFeatured": false,
+  "minimumSupportedOperatingSystem": {
+    "v10_0": false,
+    "v10_1607": true,
+    "v10_1703": false,
+    "v10_1709": false,
+    "v10_1803": false,
+    "v10_1809": false,
+    "v10_1903": false,
+    "v10_1909": false,
+    "v10_2004": false,
+    "v10_21H1": false,
+    "v10_2H20": false,
+    "v8_0": false,
+    "v8_1": false
+  },
+  "minimumSupportedWindowsRelease": "1607",
+  "notes": "",
+  "owner": "",
+  "publisher": "Microsoft",
+  "relationships": [],
+  "requirementRules": [],
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    }
+  ],
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "setupFilePath": "Install.ps1",
+  "uninstallCommandLine": "dism /Online /Remove-Capability /CapabilityName:NetFx3~~~~"
+}

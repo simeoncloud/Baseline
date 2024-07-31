@@ -1,0 +1,10 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Security - LinkedIn Features in Office Applications Disabled?id}--${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/user--\\Microsoft Office 2016\\Miscellaneous--Show LinkedIn features in Office applications--1.0?id}",
+  "configurationType": "policy",
+  "definition": {
+    "id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/user--\\Microsoft Office 2016\\Miscellaneous--Show LinkedIn features in Office applications--1.0?id}"
+  },
+  "enabled": false,
+  "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Security - LinkedIn Features in Office Applications Disabled?id}",
+  "presentationValues": []
+}

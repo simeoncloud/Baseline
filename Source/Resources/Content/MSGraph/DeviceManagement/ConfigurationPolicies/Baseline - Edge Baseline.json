@@ -2,113 +2,20 @@
   "$description": "| What does this do? | Leverages the default Security Baseline in the Intune admin center for Edge configuration settings. This policy applies to all devices in the Azure AD group \"Baseline - Corporate Devices\". |\n| Why should you use this? | This ensures your managed devices meet get the recommended security settings for Microsoft Edge. |\n| What is the end-user impact? | Users will experience the security configurations as defined in the policy. Changes may be required depending on the organization. |\n| Learn more | [Security Baseline Profiles in Intune](https://learn.microsoft.com/en-us/mem/intune/protect/security-baselines-configure#create-the-profile) |",
   "assignments": [
     {
-      "@odata.type": "microsoft.graph.deviceManagementConfigurationPolicyAssignment",
+      "source": "direct",
       "target": {
         "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?$id}"
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}"
       }
     }
   ],
+  "expand": "assignments,settings",
   "platforms": "windows10",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
   "settings": [
-    {
-      "settingInstance": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-        "choiceSettingValue": {
-          "children": [
-            {
-              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-              "choiceSettingValue": {
-                "children": [],
-                "settingValueTemplateReference": {
-                  "settingValueTemplateId": "039c6516-8c69-4305-b20e-da55e79cccd2",
-                  "useTemplateDefault": false
-                },
-                "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_sslversionmin_tls1.2"
-              },
-              "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_sslversionmin",
-              "settingInstanceTemplateReference": {
-                "settingInstanceTemplateId": "476121f9-6568-44a8-8bf8-e2f6e1de7747"
-              }
-            }
-          ],
-          "settingValueTemplateReference": {
-            "settingValueTemplateId": "b9337e91-b3be-41a4-91ed-4f939c8b8f3f",
-            "useTemplateDefault": false
-          },
-          "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_1"
-        },
-        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin",
-        "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "456008a5-c8f9-467b-9ef4-396d27cf4cb4"
-        }
-      }
-    },
-    {
-      "settingInstance": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-        "choiceSettingValue": {
-          "children": [
-            {
-              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
-              "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_extensioninstallblocklistdesc",
-              "settingInstanceTemplateReference": {
-                "settingInstanceTemplateId": "16c2630d-c47f-4b7e-a544-227cc3cc108f"
-              },
-              "simpleSettingCollectionValue": [
-                {
-                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-                  "settingValueTemplateReference": null,
-                  "value": "*"
-                }
-              ]
-            }
-          ],
-          "settingValueTemplateReference": {
-            "settingValueTemplateId": "b131b3e4-022f-47b4-a1df-1536541534a2",
-            "useTemplateDefault": false
-          },
-          "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_1"
-        },
-        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist",
-        "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "57357d5a-90a1-422e-bd60-992af042be68"
-        }
-      }
-    },
-    {
-      "settingInstance": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-        "choiceSettingValue": {
-          "children": [
-            {
-              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-              "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_authschemes",
-              "settingInstanceTemplateReference": {
-                "settingInstanceTemplateId": "17976a48-8ebb-4937-9171-01da0119be9e"
-              },
-              "simpleSettingValue": {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-                "settingValueTemplateReference": {
-                  "settingValueTemplateId": "afb5ebb3-5ed9-4b9b-b790-f96c55976988",
-                  "useTemplateDefault": false
-                },
-                "value": "ntlm,negotiate"
-              }
-            }
-          ],
-          "settingValueTemplateReference": {
-            "settingValueTemplateId": "455865ef-5803-4f3a-9fed-aad45140106d",
-            "useTemplateDefault": false
-          },
-          "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_1"
-        },
-        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes",
-        "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a70b4e50-e1b0-46b5-8e00-4c2568b87ffc"
-        }
-      }
-    },
     {
       "settingInstance": {
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
@@ -380,12 +287,107 @@
           "settingInstanceTemplateId": "04f838c7-d056-44cd-8a9b-044854fc7671"
         }
       }
+    },
+    {
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "choiceSettingValue": {
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "choiceSettingValue": {
+                "children": [],
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "039c6516-8c69-4305-b20e-da55e79cccd2",
+                  "useTemplateDefault": false
+                },
+                "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_sslversionmin_tls1.2"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_sslversionmin",
+              "settingInstanceTemplateReference": {
+                "settingInstanceTemplateId": "476121f9-6568-44a8-8bf8-e2f6e1de7747"
+              }
+            }
+          ],
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "b9337e91-b3be-41a4-91ed-4f939c8b8f3f",
+            "useTemplateDefault": false
+          },
+          "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_1"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "456008a5-c8f9-467b-9ef4-396d27cf4cb4"
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "choiceSettingValue": {
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_extensioninstallblocklistdesc",
+              "settingInstanceTemplateReference": {
+                "settingInstanceTemplateId": "16c2630d-c47f-4b7e-a544-227cc3cc108f"
+              },
+              "simpleSettingCollectionValue": [
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "value": "*"
+                }
+              ]
+            }
+          ],
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "b131b3e4-022f-47b4-a1df-1536541534a2",
+            "useTemplateDefault": false
+          },
+          "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_1"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "57357d5a-90a1-422e-bd60-992af042be68"
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "choiceSettingValue": {
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_authschemes",
+              "settingInstanceTemplateReference": {
+                "settingInstanceTemplateId": "17976a48-8ebb-4937-9171-01da0119be9e"
+              },
+              "simpleSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "afb5ebb3-5ed9-4b9b-b790-f96c55976988",
+                  "useTemplateDefault": false
+                },
+                "value": "ntlm,negotiate"
+              }
+            }
+          ],
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "455865ef-5803-4f3a-9fed-aad45140106d",
+            "useTemplateDefault": false
+          },
+          "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_1"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "a70b4e50-e1b0-46b5-8e00-4c2568b87ffc"
+        }
+      }
     }
   ],
   "technologies": "mdm",
   "templateReference": {
-    "templateDisplayName": "Security Baseline for Microsoft Edge",
-    "templateDisplayVersion": "Version 112",
     "templateFamily": "baseline",
     "templateId": "c66347b7-8325-4954-a235-3bf2233dfbfd_1"
   }

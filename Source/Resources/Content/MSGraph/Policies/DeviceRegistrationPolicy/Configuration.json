@@ -4,18 +4,24 @@
     "allowedToJoin": {
       "@odata.type": "#microsoft.graph.enumeratedDeviceRegistrationMembership",
       "groups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?$id}",
-        "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?id}",
+        "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?id}"
       ],
       "users": []
     },
-    "isAdminConfigurable": true
+    "isAdminConfigurable": true,
+    "localAdmins": {
+      "enableGlobalAdmins": true,
+      "registeringUsers": {
+        "@odata.type": "#microsoft.graph.allDeviceRegistrationMembership",
+        "groups": [],
+        "users": []
+      }
+    }
   },
   "azureADRegistration": {
     "allowedToRegister": {
-      "@odata.type": "#microsoft.graph.allDeviceRegistrationMembership",
-      "groups": [],
-      "users": []
+      "@odata.type": "#microsoft.graph.allDeviceRegistrationMembership"
     },
     "isAdminConfigurable": false
   },

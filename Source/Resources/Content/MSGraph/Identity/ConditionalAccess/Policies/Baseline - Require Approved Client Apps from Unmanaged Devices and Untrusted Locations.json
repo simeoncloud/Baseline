@@ -1,0 +1,72 @@
+{
+  "$description": "| What does this do? | Allows only mobile applications (iOS and Android) that support application protection policies (e.g. Outlook, SharePoint, OneDrive, Excel) to connect from off-network and from unmanaged devices. This policy does not apply to external/guest users, users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\" or users with the role \"Global Administrator\" or \"Directory Synchronization Accounts.\" The policy is assigned to all applications except Microsoft Intune and Microsoft Intune Enrollment. These protection policies do not work from other device types. This policy works in conjunction with the policy \"Block Platforms Other than iOS or Android from Unmanaged Devices and Untrusted Locations\" to restrict non-iOS and Android platforms and unprotected applications. |\n| Why should you use this? | This policy helps protect your data. Application protection policies on iOS and Android protect data and provide DLP. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users may only use applications that support protection policies to access data from iOS and Android devices off-network. |\n| Learn more | [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [
+        "${urn:resource:MSGraph:ServicePrincipals/d4ebce55-015a-49b5-a083-c84d1797ae8c?appId}",
+       "${urn:resource:MSGraph:ServicePrincipals/0000000a-0000-0000-c000-000000000000?appId}"
+      ],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "browser",
+      "mobileAppsAndDesktopClients"
+    ],
+    "devices": {
+      "deviceFilter": {
+        "mode": "exclude",
+        "rule": "device.trustType -eq \"ServerAD\" -or device.isCompliant -eq True"
+      },
+      "excludeDevices": [],
+      "excludeDeviceStates": [],
+      "includeDevices": []
+    },
+    "locations": {
+      "excludeLocations": [
+        "AllTrusted"
+      ],
+      "includeLocations": [
+        "All"
+      ]
+    },
+    "platforms": {
+      "excludePlatforms": [],
+      "includePlatforms": [
+        "android",
+        "ios"
+      ]
+    },
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [
+        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?id}"
+      ],
+      "excludeRoles": [
+        "${urn:resource:MSGraph:DirectoryRoles/Directory Synchronization Accounts?roleTemplateId}",
+        "${urn:resource:MSGraph:DirectoryRoles/Global Administrator?roleTemplateId}"
+      ],
+      "excludeUsers": [
+        "GuestsOrExternalUsers"
+      ],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "approvedApplication"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

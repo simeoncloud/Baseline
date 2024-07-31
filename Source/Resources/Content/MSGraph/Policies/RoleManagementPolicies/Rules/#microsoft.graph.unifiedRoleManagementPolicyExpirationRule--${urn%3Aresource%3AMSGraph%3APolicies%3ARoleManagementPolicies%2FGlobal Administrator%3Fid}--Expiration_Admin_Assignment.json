@@ -1,0 +1,17 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyExpirationRule",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyExpirationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Expiration_Admin_Assignment",
+  "id": "Expiration_Admin_Assignment",
+  "isExpirationRequired": false,
+  "maximumDuration": "P180D",
+  "target": {
+    "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
+}

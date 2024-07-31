@@ -1,0 +1,11 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceAppManagement:MobileApps/#microsoft.graph.officeSuiteApp--Office 365?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}",
+  "intent": "required",
+  "mobileApp-id": "${urn:resource:MSGraph:DeviceAppManagement:MobileApps/#microsoft.graph.officeSuiteApp--Office 365?id}",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}"
+  }
+}

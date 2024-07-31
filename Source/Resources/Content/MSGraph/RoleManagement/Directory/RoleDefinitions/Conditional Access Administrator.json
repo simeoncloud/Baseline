@@ -1,0 +1,27 @@
+{
+  "$description": "Can manage Conditional Access capabilities.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/conditionalAccessPolicies/basic/update",
+        "microsoft.directory/conditionalAccessPolicies/create",
+        "microsoft.directory/conditionalAccessPolicies/delete",
+        "microsoft.directory/conditionalAccessPolicies/owners/read",
+        "microsoft.directory/conditionalAccessPolicies/owners/update",
+        "microsoft.directory/conditionalAccessPolicies/policyAppliedTo/read",
+        "microsoft.directory/conditionalAccessPolicies/standard/read",
+        "microsoft.directory/conditionalAccessPolicies/tenantDefault/update",
+        "microsoft.directory/namedLocations/basic/update",
+        "microsoft.directory/namedLocations/create",
+        "microsoft.directory/namedLocations/delete",
+        "microsoft.directory/namedLocations/standard/read",
+        "microsoft.directory/resourceNamespaces/resourceActions/authenticationContext/update"
+      ]
+    }
+  ],
+  "version": "1"
+}

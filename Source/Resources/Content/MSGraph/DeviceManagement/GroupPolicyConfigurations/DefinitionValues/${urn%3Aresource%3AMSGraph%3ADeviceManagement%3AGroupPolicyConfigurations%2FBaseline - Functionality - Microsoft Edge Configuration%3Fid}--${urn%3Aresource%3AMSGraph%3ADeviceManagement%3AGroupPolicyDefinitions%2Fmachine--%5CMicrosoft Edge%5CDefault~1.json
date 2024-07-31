@@ -1,0 +1,10 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - Microsoft Edge Configuration?id}--${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/machine--\\Microsoft Edge\\Default search provider--Enable the default search provider--1?id}",
+  "configurationType": "policy",
+  "definition": {
+    "id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/machine--\\Microsoft Edge\\Default search provider--Enable the default search provider--1?id}"
+  },
+  "enabled": true,
+  "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - Microsoft Edge Configuration?id}",
+  "presentationValues": []
+}
