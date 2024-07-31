@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsAdministratorElevationPromptBehavior--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
+  "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsAdministratorElevationPromptBehavior",
+  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
+  "value": "promptForConsentOnTheSecureDesktop",
+  "valueJson": "\"promptForConsentOnTheSecureDesktop\""
+}

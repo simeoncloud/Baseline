@@ -1,11 +1,6 @@
 {
   "$description": "| What does this do? | Can manage all aspects of Azure AD and Microsoft services that use Azure AD identities. |",
   "description": "Can manage all aspects of Microsoft Entra ID and Microsoft services that use Microsoft Entra identities.",
-  "inheritsPermissionsFrom": [
-    {
-      "id": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Readers?$id}"
-    }
-  ],
   "isEnabled": true,
   "resourceScopes": [
     "/"
@@ -57,6 +52,12 @@
         "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/create",
         "microsoft.directory/crossTenantAccessPolicy/partners/identitySynchronization/standard/read",
         "microsoft.directory/crossTenantAccessPolicy/partners/standard/read",
+        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/basic/update",
+        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/resetToDefaultSettings",
+        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationIdentitySynchronization/standard/read",
+        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/basic/update",
+        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/resetToDefaultSettings",
+        "microsoft.directory/crossTenantAccessPolicy/partners/templates/multiTenantOrganizationPartnerConfiguration/standard/read",
         "microsoft.directory/crossTenantAccessPolicy/partners/tenantRestrictions/update",
         "microsoft.directory/crossTenantAccessPolicy/standard/read",
         "microsoft.directory/customAuthenticationExtensions/allProperties/allTasks",
@@ -81,8 +82,10 @@
         "microsoft.directory/externalUserProfiles/standard/read",
         "microsoft.directory/groups/allProperties/allTasks",
         "microsoft.directory/groupsAssignableToRoles/allProperties/update",
+        "microsoft.directory/groupsAssignableToRoles/assignLicense",
         "microsoft.directory/groupsAssignableToRoles/create",
         "microsoft.directory/groupsAssignableToRoles/delete",
+        "microsoft.directory/groupsAssignableToRoles/reprocessLicenseAssignment",
         "microsoft.directory/groupsAssignableToRoles/restore",
         "microsoft.directory/groupSettings/allProperties/allTasks",
         "microsoft.directory/groupSettingTemplates/allProperties/allTasks",
@@ -90,6 +93,16 @@
         "microsoft.directory/identityProtection/allProperties/allTasks",
         "microsoft.directory/lifecycleWorkflows/workflows/allProperties/allTasks",
         "microsoft.directory/loginOrganizationBranding/allProperties/allTasks",
+        "microsoft.directory/multiTenantOrganization/basic/update",
+        "microsoft.directory/multiTenantOrganization/create",
+        "microsoft.directory/multiTenantOrganization/joinRequest/organizationDetails/update",
+        "microsoft.directory/multiTenantOrganization/joinRequest/standard/read",
+        "microsoft.directory/multiTenantOrganization/standard/read",
+        "microsoft.directory/multiTenantOrganization/tenants/create",
+        "microsoft.directory/multiTenantOrganization/tenants/delete",
+        "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/read",
+        "microsoft.directory/multiTenantOrganization/tenants/organizationDetails/update",
+        "microsoft.directory/multiTenantOrganization/tenants/standard/read",
         "microsoft.directory/namedLocations/basic/update",
         "microsoft.directory/namedLocations/create",
         "microsoft.directory/namedLocations/delete",
@@ -122,6 +135,12 @@
         "microsoft.directory/servicePrincipalCreationPolicies/standard/read",
         "microsoft.directory/servicePrincipals/allProperties/allTasks",
         "microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin",
+        "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/credentials/manage",
+        "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/jobs/manage",
+        "microsoft.directory/servicePrincipals/synchronization.cloudTenantToCloudTenant/schema/manage",
+        "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/credentials/manage",
+        "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/jobs/manage",
+        "microsoft.directory/servicePrincipals/synchronization.cloudTenantToExternalSystem/schema/manage",
         "microsoft.directory/servicePrincipals/synchronization/standard/read",
         "microsoft.directory/signInReports/allProperties/read",
         "microsoft.directory/subscribedSkus/allProperties/allTasks",
@@ -131,6 +150,7 @@
         "microsoft.directory/users/authenticationMethods/create",
         "microsoft.directory/users/authenticationMethods/delete",
         "microsoft.directory/users/authenticationMethods/standard/read",
+        "microsoft.directory/users/convertExternalToInternalMemberUser",
         "microsoft.directory/verifiableCredentials/configuration/allProperties/read",
         "microsoft.directory/verifiableCredentials/configuration/allProperties/update",
         "microsoft.directory/verifiableCredentials/configuration/contracts/allProperties/read",
@@ -152,6 +172,7 @@
         "microsoft.office365.complianceManager/allEntities/allTasks",
         "microsoft.office365.desktopAnalytics/allEntities/allTasks",
         "microsoft.office365.exchange/allEntities/basic/allTasks",
+        "microsoft.office365.fileStorageContainers/allEntities/allProperties/allTasks",
         "microsoft.office365.knowledge/contentUnderstanding/allProperties/allTasks",
         "microsoft.office365.knowledge/contentUnderstanding/analytics/allProperties/read",
         "microsoft.office365.knowledge/knowledgeNetwork/allProperties/allTasks",
@@ -160,6 +181,7 @@
         "microsoft.office365.lockbox/allEntities/allTasks",
         "microsoft.office365.messageCenter/messages/read",
         "microsoft.office365.messageCenter/securityMessages/read",
+        "microsoft.office365.migrations/allEntities/allProperties/allTasks",
         "microsoft.office365.network/performance/allProperties/read",
         "microsoft.office365.organizationalMessages/allEntities/allProperties/allTasks",
         "microsoft.office365.protectionCenter/allEntities/allProperties/allTasks",
@@ -184,5 +206,6 @@
         "microsoft.windows.updatesDeployments/allEntities/allProperties/allTasks"
       ]
     }
-  ]
+  ],
+  "version": "1"
 }

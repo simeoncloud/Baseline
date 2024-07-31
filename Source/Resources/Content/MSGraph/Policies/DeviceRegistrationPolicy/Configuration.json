@@ -4,8 +4,8 @@
     "allowedToJoin": {
       "@odata.type": "#microsoft.graph.enumeratedDeviceRegistrationMembership",
       "groups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?$id}",
-        "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?$id}"
+        "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?id}",
+        "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?id}"
       ],
       "users": []
     },
@@ -21,15 +21,13 @@
   },
   "azureADRegistration": {
     "allowedToRegister": {
-      "@odata.type": "#microsoft.graph.allDeviceRegistrationMembership",
-      "groups": [],
-      "users": []
+      "@odata.type": "#microsoft.graph.allDeviceRegistrationMembership"
     },
     "isAdminConfigurable": false
   },
   "localAdminPassword": {
     "isEnabled": false
   },
-  "multiFactorAuthConfiguration": "notRequired",
+  "multiFactorAuthConfiguration": "required",
   "userDeviceQuota": 100
 }

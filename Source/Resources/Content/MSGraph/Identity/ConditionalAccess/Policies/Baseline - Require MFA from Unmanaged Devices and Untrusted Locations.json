@@ -1,0 +1,58 @@
+{
+  "$description": "| What does this do? | Requires MFA when authenticating from an unmanaged device that is off-network. This policy does not apply to users with the role \"Global Administrator\" or \"Directory Synchronization Accounts.\" |\n| Why should you use this? | This protects your data by requiring MFA from unmanaged devices and when off-network. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users must authenticate using MFA when accessing data from unmanaged devices and when off-network. |\n| Learn more | [How to: Require MFA for access from untrusted networks with Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/untrusted-networks) |",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "browser",
+      "mobileAppsAndDesktopClients"
+    ],
+    "devices": {
+      "deviceFilter": {
+        "mode": "exclude",
+        "rule": "device.trustType -eq \"ServerAD\" -or device.isCompliant -eq True"
+      },
+      "excludeDevices": [],
+      "excludeDeviceStates": [],
+      "includeDevices": []
+    },
+    "locations": {
+      "excludeLocations": [
+        "AllTrusted"
+      ],
+      "includeLocations": [
+        "All"
+      ]
+    },
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [
+        "${urn:resource:MSGraph:DirectoryRoles/Directory Synchronization Accounts?roleTemplateId}",
+        "${urn:resource:MSGraph:DirectoryRoles/Global Administrator?roleTemplateId}"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

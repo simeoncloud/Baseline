@@ -1,0 +1,23 @@
+{
+  "$description": "Can reset passwords for non-administrators and Helpdesk Administrators.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.directory/bitlockerKeys/key/read",
+        "microsoft.directory/deviceLocalCredentials/standard/read",
+        "microsoft.directory/users/invalidateAllRefreshTokens",
+        "microsoft.directory/users/password/update",
+        "microsoft.office365.serviceHealth/allEntities/allTasks",
+        "microsoft.office365.supportTickets/allEntities/allTasks",
+        "microsoft.office365.webPortal/allEntities/standard/read"
+      ]
+    }
+  ],
+  "version": "1"
+}

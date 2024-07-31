@@ -1,0 +1,17 @@
+{
+  "$description": "| What does this do? | This policy ensures all Exchange alerts are enabled and are being sent to admins in the tenant when triggered. |\n| Why should you use this? | Alert policies in the new Exchange admin center (EAC) allow you to track events related to mail flow. |\n| What is the end-user impact? | Only Admin users in the tenant receive email notifiations of alert triggers. End-Users are not affectedd. |\n| Learn more | [Alert policies in Exchange Online](https://learn.microsoft.com/en-us/exchange/monitoring/mail-flow-insights/alert-policy-and-its-configuration)|",
+  "AggregationType": "CustomAggregation",
+  "Category": "MailFlow",
+  "Comment": "When Office 365 can't deliver a message to your on-premises or partner servers via a connector, the message is queued in Office 365. This alert is triggered when the number of queued messages exceeds the policy threshold and have been queued for more than an hour. -V1.0.0.0",
+  "CorrelationPolicyId": "00000000-0000-0000-0000-000000000000",
+  "Disabled": false,
+  "Filter": "MessagesQueued.QueuedType -eq 'ConnectorBasedMessagesQueued'",
+  "NotificationEnabled": true,
+  "NotifyUser": [
+    "TenantAdmins"
+  ],
+  "NotifyUserOnFilterMatch": false,
+  "Severity": "High",
+  "ThreatType": "MailFlow",
+  "Threshold": 2000
+}

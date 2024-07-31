@@ -1,0 +1,19 @@
+{
+  "$description": "Can register and unregister printers and update printer status.",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.print/connectors/allProperties/read",
+        "microsoft.azure.print/printers/allProperties/read",
+        "microsoft.azure.print/printers/basic/update",
+        "microsoft.azure.print/printers/register",
+        "microsoft.azure.print/printers/unregister"
+      ]
+    }
+  ],
+  "version": "1"
+}

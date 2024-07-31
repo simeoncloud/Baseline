@@ -4,14 +4,16 @@
   "allowedToUseSSPR": true,
   "allowEmailVerifiedUsersToJoinOrganization": true,
   "allowInvitesFrom": "adminsAndGuestInviters",
+  "allowUserConsentForRiskyApps": false,
   "blockMsolPowerShell": false,
   "defaultUserRolePermissions": {
     "allowedToCreateApps": false,
     "allowedToCreateSecurityGroups": false,
+    "allowedToCreateTenants": false,
     "allowedToReadBitlockerKeysForOwnedDevice": false,
     "allowedToReadOtherUsers": true
   },
   "enabledPreviewFeatures": [],
-  "guestUserRoleId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Guest User?$id}",
+  "guestUserRoleId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Guest User?id}",
   "permissionGrantPolicyIdsAssignedToDefaultUserRole": []
 }

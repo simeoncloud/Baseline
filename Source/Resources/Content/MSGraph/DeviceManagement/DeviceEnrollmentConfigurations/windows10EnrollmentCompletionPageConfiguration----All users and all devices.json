@@ -1,0 +1,20 @@
+{
+  "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+  "allowDeviceResetOnInstallFailure": false,
+  "allowDeviceUseOnInstallFailure": false,
+  "allowLogCollectionOnInstallFailure": true,
+  "allowNonBlockingAppInstallation": false,
+  "blockDeviceSetupRetryByUser": true,
+  "customErrorMessage": "",
+  "deviceEnrollmentConfigurationType": "windows10EnrollmentCompletionPageConfiguration",
+  "disableUserStatusTrackingAfterFirstUser": false,
+  "displayName": "All users and all devices",
+  "expand": "assignments",
+  "installProgressTimeoutInMinutes": 40,
+  "installQualityUpdates": false,
+  "priority": 0,
+  "roleScopeTagIds": [],
+  "selectedMobileAppIds": [],
+  "showInstallationProgress": true,
+  "trackInstallProgressForAutopilotOnly": false
+}

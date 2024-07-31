@@ -1,0 +1,4 @@
+{
+  "$description": "Can access to view, set and reset authentication method information for any non-admin user.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Authentication Administrator?id}"
+}

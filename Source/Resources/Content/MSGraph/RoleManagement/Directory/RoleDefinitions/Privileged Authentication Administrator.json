@@ -1,0 +1,34 @@
+{
+  "$description": "Can access to view, set and reset authentication method information for any user (admin or non-admin).",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.directory/deletedItems.users/restore",
+        "microsoft.directory/users/authenticationMethods/basic/update",
+        "microsoft.directory/users/authenticationMethods/create",
+        "microsoft.directory/users/authenticationMethods/delete",
+        "microsoft.directory/users/authenticationMethods/standard/read",
+        "microsoft.directory/users/authorizationInfo/update",
+        "microsoft.directory/users/basic/update",
+        "microsoft.directory/users/delete",
+        "microsoft.directory/users/disable",
+        "microsoft.directory/users/enable",
+        "microsoft.directory/users/invalidateAllRefreshTokens",
+        "microsoft.directory/users/manager/update",
+        "microsoft.directory/users/password/update",
+        "microsoft.directory/users/restore",
+        "microsoft.directory/users/userPrincipalName/update",
+        "microsoft.office365.serviceHealth/allEntities/allTasks",
+        "microsoft.office365.supportTickets/allEntities/allTasks",
+        "microsoft.office365.webPortal/allEntities/standard/read"
+      ]
+    }
+  ],
+  "version": "1"
+}

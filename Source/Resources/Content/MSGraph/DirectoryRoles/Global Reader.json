@@ -1,0 +1,4 @@
+{
+  "$description": "Can read everything that a Global Administrator can, but not update anything.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Reader?id}"
+}

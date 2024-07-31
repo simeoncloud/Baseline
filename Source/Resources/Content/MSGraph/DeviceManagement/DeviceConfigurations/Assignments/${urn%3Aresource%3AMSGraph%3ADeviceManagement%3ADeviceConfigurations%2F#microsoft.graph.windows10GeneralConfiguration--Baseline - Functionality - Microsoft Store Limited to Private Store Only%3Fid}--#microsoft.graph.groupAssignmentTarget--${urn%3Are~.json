@@ -1,0 +1,11 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10GeneralConfiguration--Baseline - Functionality - Microsoft Store Limited to Private Store Only?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}",
+  "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10GeneralConfiguration--Baseline - Functionality - Microsoft Store Limited to Private Store Only?id}",
+  "intent": "apply",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}"
+  }
+}

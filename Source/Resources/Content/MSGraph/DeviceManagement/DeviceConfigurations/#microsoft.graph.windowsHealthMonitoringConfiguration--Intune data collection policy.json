@@ -1,0 +1,10 @@
+{
+  "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
+  "allowDeviceHealthMonitoring": "enabled",
+  "configDeviceHealthMonitoringScope": "bootPerformance",
+  "description": "",
+  "displayName": "Intune data collection policy",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$description": "| What does this do? | Creates a group that includes only Apple devices in Azure AD. |\n| Why should you use this? | This group is used to assign Intune configurations that should apply to only Apple devices (e.g. FileVault encryption). |\n| What is the end-user impact? | N/A |\n| Learn more | N/A |",
+  "displayName": "Baseline - Corporate Devices - Apple",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "infoCatalogs": [],
+  "mailEnabled": false,
+  "mailNickname": "Baseline-CorporateDevices-Apple",
+  "membershipRule": "(device.deviceOSType -eq \"macOS\") -or (device.deviceOSType -eq \"MACMDM\") -or (device.deviceOSType -eq \"iOS\")",
+  "membershipRuleProcessingState": "On",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

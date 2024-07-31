@@ -1,11 +1,6 @@
 {
   "$description": "| What does this do? | Users assigned to this role are added to the local administrators group on Azure AD-joined devices. |",
   "description": "Users assigned to this role are added to the local administrators group on Microsoft Entra joined devices.",
-  "inheritsPermissionsFrom": [
-    {
-      "id": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Readers?$id}"
-    }
-  ],
   "isEnabled": true,
   "resourceScopes": [
     "/"
@@ -15,8 +10,8 @@
       "allowedResourceActions": [
         "microsoft.directory/groupSettings/standard/read",
         "microsoft.directory/groupSettingTemplates/standard/read"
-      ],
-      "condition": null
+      ]
     }
-  ]
+  ],
+  "version": "1"
 }

@@ -1,0 +1,4 @@
+{
+  "$description": "Can read messages and updates for their organization in Office 365 Message Center only.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Message Center Reader?id}"
+}

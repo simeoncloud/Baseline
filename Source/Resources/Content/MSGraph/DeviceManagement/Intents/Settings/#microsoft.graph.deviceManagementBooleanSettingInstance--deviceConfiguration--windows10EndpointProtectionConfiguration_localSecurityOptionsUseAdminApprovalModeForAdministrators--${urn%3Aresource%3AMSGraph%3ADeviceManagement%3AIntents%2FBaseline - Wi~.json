@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+  "$name": "#microsoft.graph.deviceManagementBooleanSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsUseAdminApprovalModeForAdministrators--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
+  "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsUseAdminApprovalModeForAdministrators",
+  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
+  "value": true,
+  "valueJson": "true"
+}

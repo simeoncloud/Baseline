@@ -1,0 +1,40 @@
+{
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "$description": "| What does this do? | Defines the default Windows Update configuration for managed devices. The baseline delays feature updates for 30 days and quality updates for 14 days after released by Microsoft. Once the deferral period has expired for the device, users have 3 days to restart (if required). Unattended updates are only applied outside working hours of 5am to 10pm. The Windows Update configuration applies to all corporate devices except those in the \"Insiders\" or \"Preview\" update rings that will receive updates before they are released to all other corporates devices. |\n| Why should you use this? | If you want to ensure that your devices are kept up-to-date with the latest Windows updates. |\n| What is the end-user impact? | Corporate devices outside of the \"Insiders\" or \"Preview\" rings will receive Windows feature updates 30 days after being released and quality updates 14 days after being released by Microsoft. |\n| Learn more | [Tactical considerations for creating Windows deployment rings](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979) |",
+  "allowWindows11Upgrade": false,
+  "automaticUpdateMode": "autoInstallAndRebootAtMaintenanceTime",
+  "autoRestartNotificationDismissal": "notConfigured",
+  "businessReadyUpdatesOnly": "businessReadyOnly",
+  "deadlineForFeatureUpdatesInDays": 5,
+  "deadlineForQualityUpdatesInDays": 3,
+  "deadlineGracePeriodInDays": 1,
+  "deliveryOptimizationMode": "userDefined",
+  "displayName": "Baseline - OS - Default Windows 10 Update Ring",
+  "driversExcluded": false,
+  "featureUpdatesDeferralPeriodInDays": 30,
+  "featureUpdatesPaused": false,
+  "featureUpdatesPauseExpiryDateTime": "0001-01-01T00:00:00Z",
+  "featureUpdatesRollbackStartDateTime": "0001-01-01T00:00:00Z",
+  "featureUpdatesRollbackWindowInDays": 60,
+  "installationSchedule": {
+    "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall",
+    "activeHoursEnd": "22:00:00.0000000",
+    "activeHoursStart": "05:00:00.0000000"
+  },
+  "microsoftUpdateServiceAllowed": true,
+  "prereleaseFeatures": "userDefined",
+  "qualityUpdatesDeferralPeriodInDays": 14,
+  "qualityUpdatesPaused": false,
+  "qualityUpdatesPauseExpiryDateTime": "0001-01-01T00:00:00Z",
+  "qualityUpdatesRollbackStartDateTime": "0001-01-01T00:00:00Z",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "scheduleImminentRestartWarningInMinutes": 60,
+  "scheduleRestartWarningInHours": 8,
+  "skipChecksBeforeRestart": false,
+  "updateNotificationLevel": "notConfigured",
+  "updateWeeks": "everyWeek",
+  "userPauseAccess": "notConfigured",
+  "userWindowsUpdateScanAccess": "notConfigured"
+}

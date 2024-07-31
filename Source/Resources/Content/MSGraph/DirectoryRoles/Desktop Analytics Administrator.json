@@ -1,0 +1,4 @@
+{
+  "$description": "Can access and manage Desktop management tools and services.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Desktop Analytics Administrator?id}"
+}

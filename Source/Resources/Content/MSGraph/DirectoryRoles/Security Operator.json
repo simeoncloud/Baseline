@@ -1,0 +1,4 @@
+{
+  "$description": "Creates and manages security events.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Operator?id}"
+}

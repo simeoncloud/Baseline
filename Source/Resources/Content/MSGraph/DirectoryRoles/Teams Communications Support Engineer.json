@@ -1,0 +1,4 @@
+{
+  "$description": "Can troubleshoot communications issues within Teams using advanced tools.",
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Communications Support Engineer?id}"
+}

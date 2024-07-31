@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_defenderCloudBlockLevel--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
+  "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderCloudBlockLevel",
+  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
+  "value": "high",
+  "valueJson": "\"high\""
+}

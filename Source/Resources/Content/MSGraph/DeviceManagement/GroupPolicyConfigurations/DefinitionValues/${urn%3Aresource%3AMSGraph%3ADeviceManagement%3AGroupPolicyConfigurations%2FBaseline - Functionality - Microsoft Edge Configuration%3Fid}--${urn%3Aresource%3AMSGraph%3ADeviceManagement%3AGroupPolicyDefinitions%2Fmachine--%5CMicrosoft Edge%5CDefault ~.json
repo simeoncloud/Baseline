@@ -1,0 +1,18 @@
+{
+  "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - Microsoft Edge Configuration?id}--${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/machine--\\Microsoft Edge\\Default search provider--Default search provider search URL--1?id}",
+  "configurationType": "policy",
+  "definition": {
+    "id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/machine--\\Microsoft Edge\\Default search provider--Default search provider search URL--1?id}"
+  },
+  "enabled": true,
+  "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - Microsoft Edge Configuration?id}",
+  "presentationValues": [
+    {
+      "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+      "presentation": {
+        "label": "Default search provider search URL"
+      },
+      "value": "{google:baseURL}search?q={searchTerms}&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:searchClient}{google:sourceId}ie={inputEncoding}"
+    }
+  ]
+}

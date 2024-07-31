@@ -1,0 +1,7 @@
+{
+  "$name": "machine--\\OneDrive--Prevent users from redirecting their Windows known folders to their PC--1.0",
+  "categoryPath": "\\OneDrive",
+  "classType": "machine",
+  "displayName": "Prevent users from redirecting their Windows known folders to their PC",
+  "version": "1.0"
+}
