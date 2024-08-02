@@ -4,5 +4,5 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_connectivityHardenedUncPaths",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "implementationId": "deviceConfiguration--hardenedUncPathEnabled",
-  "valueJson": "{\"$implementationId\":\"deviceConfiguration--hardenedUncPathEnabled\",\"hardenedUncPaths\":[{\"serverPath\":\"\\\\\\\\*\\\\SYSVOL\",\"securityFlags\":[\"requireMutualAuthentication\",\"requireIntegrity\"]},{\"serverPath\":\"\\\\\\\\*\\\\NETLOGON\",\"securityFlags\":[\"requireMutualAuthentication\",\"requireIntegrity\"]}]}"
+  "valueJson": "\\{\"$implementationId\":\"deviceConfiguration--hardenedUncPathEnabled\",\"hardenedUncPaths\":[\\{\"serverPath\":\"\\\\\\\\*\\\\SYSVOL\",\"securityFlags\":[\"requireMutualAuthentication\",\"requireIntegrity\"]\\},\\{\"serverPath\":\"\\\\\\\\*\\\\NETLOGON\",\"securityFlags\":[\"requireMutualAuthentication\",\"requireIntegrity\"]\\}]\\}"
 }

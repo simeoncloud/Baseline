@@ -3,5 +3,5 @@
   "$name": "#microsoft.graph.deviceManagementComplexSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivate--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivate",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "valueJson": "{\"inboundConnectionsBlocked\":true,\"outboundConnectionsRequired\":true,\"inboundNotificationsBlocked\":true,\"firewallEnabled\":\"allowed\"}"
+  "valueJson": "\\{\"inboundConnectionsBlocked\":true,\"outboundConnectionsRequired\":true,\"inboundNotificationsBlocked\":true,\"firewallEnabled\":\"allowed\"\\}"
 }
