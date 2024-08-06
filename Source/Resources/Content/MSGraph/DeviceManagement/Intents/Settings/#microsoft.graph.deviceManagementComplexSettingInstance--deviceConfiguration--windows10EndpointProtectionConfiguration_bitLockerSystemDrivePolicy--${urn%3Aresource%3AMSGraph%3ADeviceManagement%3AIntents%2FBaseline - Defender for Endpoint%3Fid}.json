@@ -3,5 +3,5 @@
   "$name": "#microsoft.graph.deviceManagementComplexSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerSystemDrivePolicy--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_bitLockerSystemDrivePolicy",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
-  "valueJson": "{\"startupAuthenticationRequired\":true,\"encryptionMethod\":null,\"startupAuthenticationTpmPinUsage\":\"allowed\",\"startupAuthenticationBlockWithoutTpmChip\":true,\"startupAuthenticationTpmKeyUsage\":\"required\"}"
+  "valueJson": "\\{\"startupAuthenticationRequired\":true,\"encryptionMethod\":null,\"startupAuthenticationTpmPinUsage\":\"allowed\",\"startupAuthenticationBlockWithoutTpmChip\":true,\"startupAuthenticationTpmKeyUsage\":\"required\"\\}"
 }
