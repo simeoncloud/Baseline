@@ -14,5 +14,6 @@
       },
       "value": "${ResourceContext:TenantId}"
     }
-  ]
+  ],
+  "$friendlyName": "Baseline - Functionality - Windows Known Folders Move to OneDrive--Prompt users to move Windows known folders to OneDrive"
 }

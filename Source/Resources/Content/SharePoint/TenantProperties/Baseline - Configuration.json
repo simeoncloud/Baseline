@@ -120,5 +120,6 @@
   "ViewersCanCommentOnMediaDisabled": false,
   "ViewInFileExplorerEnabled": false,
   "WhoCanShareAllowListInTenant": "",
-  "Workflow2010Disabled": true
+  "Workflow2010Disabled": true,
+  "friendlyName": "Baseline - Configuration"
 }
