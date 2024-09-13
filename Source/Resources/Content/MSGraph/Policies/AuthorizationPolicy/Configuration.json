@@ -16,5 +16,5 @@
   "enabledPreviewFeatures": [],
   "guestUserRoleId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Guest User?id}",
   "permissionGrantPolicyIdsAssignedToDefaultUserRole": [],
-  "friendlyName":"Configuration"
+  "$friendlyName": "Configuration"
 }

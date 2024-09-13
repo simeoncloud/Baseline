@@ -121,5 +121,5 @@
   "ViewInFileExplorerEnabled": false,
   "WhoCanShareAllowListInTenant": "",
   "Workflow2010Disabled": true,
-  "friendlyName": "Baseline - Configuration"
+  "$friendlyName": "Baseline - Configuration"
 }

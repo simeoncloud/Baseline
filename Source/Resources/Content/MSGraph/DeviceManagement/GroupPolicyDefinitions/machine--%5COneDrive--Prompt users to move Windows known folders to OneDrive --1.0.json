@@ -4,5 +4,5 @@
   "classType": "machine",
   "displayName": "Prompt users to move Windows known folders to OneDrive ",
   "version": "1.0",
-  "friendlyName": "Prompt users to move Windows known folders to OneDrive"
+  "$friendlyName": "Prompt users to move Windows known folders to OneDrive"
 }
