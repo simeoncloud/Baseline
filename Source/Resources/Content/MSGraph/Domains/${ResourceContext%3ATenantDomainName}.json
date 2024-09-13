@@ -12,5 +12,6 @@
   "supportedServices": [
     "Email",
     "OfficeCommunicationsOnline"
-  ]
+  ],
+  "$friendlyName": "${ResourceContext:TenantDomainName}"
 }

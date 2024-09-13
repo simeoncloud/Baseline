@@ -14,5 +14,6 @@
     "SuspiciousForwarding"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Suspicious Email Forwarding Activity"
 }

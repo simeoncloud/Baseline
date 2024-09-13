@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderCloudBlockLevel",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "high",
-  "valueJson": "\"high\""
+  "valueJson": "\"high\"",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

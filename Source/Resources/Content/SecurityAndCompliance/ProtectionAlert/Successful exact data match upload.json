@@ -14,5 +14,6 @@
     "UploadDataCompleted"
   ],
   "Severity": "Low",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Successful exact data match upload"
 }

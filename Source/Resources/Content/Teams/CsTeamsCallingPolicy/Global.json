@@ -19,5 +19,6 @@
   "MusicOnHoldEnabledType": "Enabled",
   "PopoutForIncomingPstnCalls": "Disabled",
   "PreventTollBypass": false,
-  "SpamFilteringEnabledType": "Enabled"
+  "SpamFilteringEnabledType": "Enabled",
+  "$friendlyName": "Global"
 }

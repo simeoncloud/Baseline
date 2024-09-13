@@ -61,5 +61,6 @@
       "condition": "$ResourceIsSelf"
     }
   ],
-  "version": "1"
+  "version": "1",
+  "$friendlyName": "Guest User"
 }

@@ -36,5 +36,6 @@
     "NoAction"
   ],
   "TargetedUserQuarantineTag": "${urn:resource:ExchangeOnline:QuarantinePolicy/DefaultFullAccessPolicy?Name}",
-  "TargetedUsersToProtect": []
+  "TargetedUsersToProtect": [],
+  "$friendlyName": "Office365 AntiPhish Default"
 }

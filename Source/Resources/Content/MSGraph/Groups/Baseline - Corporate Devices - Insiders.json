@@ -7,5 +7,6 @@
   "mailNickname": "Baseline-CorporateDevices-Insiders",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true
+  "securityEnabled": true,
+  "$friendlyName": "Baseline - Corporate Devices - Insiders"
 }

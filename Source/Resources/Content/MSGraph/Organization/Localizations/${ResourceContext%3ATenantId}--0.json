@@ -12,5 +12,6 @@
     "layoutTemplateType": "default"
   },
   "organization-id": "${ResourceContext:TenantId}",
-  "usernameHintText": "user@${ResourceContext:TenantDomainName}"
+  "usernameHintText": "user@${ResourceContext:TenantDomainName}",
+  "$friendlyName": null
 }

@@ -10,5 +10,6 @@
   "EnableSafeLinksForOffice": true,
   "EnableSafeLinksForTeams": true,
   "ScanUrls": true,
-  "TrackClicks": true
+  "TrackClicks": true,
+  "$friendlyName": "Baseline - Default"
 }

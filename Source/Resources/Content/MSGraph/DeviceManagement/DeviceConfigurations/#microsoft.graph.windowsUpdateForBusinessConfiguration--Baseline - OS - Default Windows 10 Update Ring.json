@@ -36,5 +36,6 @@
   "updateNotificationLevel": "notConfigured",
   "updateWeeks": "everyWeek",
   "userPauseAccess": "notConfigured",
-  "userWindowsUpdateScanAccess": "notConfigured"
+  "userWindowsUpdateScanAccess": "notConfigured",
+  "$friendlyName": "Baseline - OS - Default Windows 10 Update Ring"
 }

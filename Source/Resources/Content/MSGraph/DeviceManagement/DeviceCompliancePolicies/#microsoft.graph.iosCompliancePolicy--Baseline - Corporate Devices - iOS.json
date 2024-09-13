@@ -41,5 +41,6 @@
       ]
     }
   ],
-  "securityBlockJailbrokenDevices": true
+  "securityBlockJailbrokenDevices": true,
+  "$friendlyName": "Baseline - Corporate Devices - iOS"
 }

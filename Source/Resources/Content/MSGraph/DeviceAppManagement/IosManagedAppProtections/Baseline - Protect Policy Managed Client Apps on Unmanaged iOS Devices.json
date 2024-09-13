@@ -465,5 +465,6 @@
   "saveAsBlocked": true,
   "simplePinBlocked": true,
   "targetedAppManagementLevels": "unmanaged",
-  "thirdPartyKeyboardsBlocked": false
+  "thirdPartyKeyboardsBlocked": false,
+  "$friendlyName": "Baseline - Protect Policy Managed Client Apps on Unmanaged iOS Devices"
 }

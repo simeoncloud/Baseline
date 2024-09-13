@@ -29,5 +29,6 @@
   "preprovisioningAllowed": false,
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ]
+  ],
+  "$friendlyName": "Baseline: User Driven Profile"
 }

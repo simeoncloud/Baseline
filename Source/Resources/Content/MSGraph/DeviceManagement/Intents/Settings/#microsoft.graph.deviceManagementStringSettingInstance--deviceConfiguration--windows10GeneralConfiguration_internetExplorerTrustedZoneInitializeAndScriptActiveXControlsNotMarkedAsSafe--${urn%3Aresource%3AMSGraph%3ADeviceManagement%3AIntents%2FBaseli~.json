@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerTrustedZoneInitializeAndScriptActiveXControlsNotMarkedAsSafe",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "disable",
-  "valueJson": "\"disable\""
+  "valueJson": "\"disable\"",
+  "$friendlyName": "Baseline - Windows"
 }

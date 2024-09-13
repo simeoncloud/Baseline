@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderSignatureUpdateIntervalInHours",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": 4,
-  "valueJson": "4"
+  "valueJson": "4",
+  "$friendlyName": "Baseline - Windows"
 }

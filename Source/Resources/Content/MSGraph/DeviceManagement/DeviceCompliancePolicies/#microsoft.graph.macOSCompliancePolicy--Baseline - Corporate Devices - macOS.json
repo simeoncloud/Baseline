@@ -43,5 +43,6 @@
     }
   ],
   "storageRequireEncryption": true,
-  "systemIntegrityProtectionEnabled": true
+  "systemIntegrityProtectionEnabled": true,
+  "$friendlyName": "Baseline - Corporate Devices - macOS"
 }

@@ -1,4 +1,5 @@
 {
   "$description": "Can create and manage all aspects of Microsoft Search settings.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Search Administrator?id}"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Search Administrator?id}",
+  "$friendlyName": "Search Administrator"
 }

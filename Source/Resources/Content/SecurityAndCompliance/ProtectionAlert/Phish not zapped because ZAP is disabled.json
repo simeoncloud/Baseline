@@ -12,5 +12,6 @@
   ],
   "NotifyUserOnFilterMatch": false,
   "Severity": "Medium",
-  "ThreatType": "Phish"
+  "ThreatType": "Phish",
+  "$friendlyName": "Phish not zapped because ZAP is disabled"
 }

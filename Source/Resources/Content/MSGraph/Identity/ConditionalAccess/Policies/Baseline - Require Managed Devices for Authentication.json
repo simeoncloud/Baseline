@@ -44,5 +44,6 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabledForReportingButNotEnforced"
+  "state": "enabledForReportingButNotEnforced",
+  "$friendlyName": "Baseline - Require Managed Devices for Authentication"
 }

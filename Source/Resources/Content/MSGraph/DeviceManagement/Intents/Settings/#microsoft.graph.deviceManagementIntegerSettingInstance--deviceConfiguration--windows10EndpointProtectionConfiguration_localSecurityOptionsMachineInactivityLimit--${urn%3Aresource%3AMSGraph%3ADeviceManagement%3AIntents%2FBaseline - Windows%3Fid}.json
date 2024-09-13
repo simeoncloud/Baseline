@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsMachineInactivityLimit",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": 15,
-  "valueJson": "15"
+  "valueJson": "15",
+  "$friendlyName": "Baseline - Windows"
 }

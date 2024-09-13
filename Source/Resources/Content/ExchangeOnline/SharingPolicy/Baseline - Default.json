@@ -5,5 +5,6 @@
     "*:CalendarSharingFreeBusySimple",
     "Anonymous:CalendarSharingFreeBusyReviewer"
   ],
-  "Enabled": true
+  "Enabled": true,
+  "$friendlyName": "Baseline - Default"
 }

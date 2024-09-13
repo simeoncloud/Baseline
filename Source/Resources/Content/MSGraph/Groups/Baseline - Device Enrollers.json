@@ -7,5 +7,6 @@
   "mailNickname": "Baseline-DeviceEnrollers",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true
+  "securityEnabled": true,
+  "$friendlyName": "Baseline - Device Enrollers"
 }

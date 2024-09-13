@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderRequireCloudProtection",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": true,
-  "valueJson": "true"
+  "valueJson": "true",
+  "$friendlyName": "Baseline - Windows"
 }

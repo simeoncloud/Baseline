@@ -20,5 +20,6 @@
   "CreateCustomEmojis": true,
   "DeleteCustomEmojis": false,
   "GiphyRatingType": "Moderate",
-  "ReadReceiptsEnabledType": "UserPreference"
+  "ReadReceiptsEnabledType": "UserPreference",
+  "$friendlyName": "Global"
 }

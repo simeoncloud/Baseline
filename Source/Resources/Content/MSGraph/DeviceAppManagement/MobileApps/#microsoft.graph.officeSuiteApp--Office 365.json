@@ -37,5 +37,6 @@
   "targetVersion": "",
   "updateChannel": "current",
   "updateVersion": "",
-  "useSharedComputerActivation": false
+  "useSharedComputerActivation": false,
+  "$friendlyName": "Office 365"
 }

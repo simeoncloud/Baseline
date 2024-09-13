@@ -1,4 +1,5 @@
 {
   "$description": "Detects credit card numbers for American Express, Diner's Club, Discover Card, JCB, BrandSmart, Mastercard, and Visa.",
-  "IsExact": false
+  "IsExact": false,
+  "$friendlyName": "Credit Card Number"
 }

@@ -15,5 +15,6 @@
   ],
   "Severity": "Medium",
   "ThreatType": "Activity",
-  "TimeWindow": 60
+  "TimeWindow": 60,
+  "$friendlyName": "Compliance Manager Default Alert Policy"
 }

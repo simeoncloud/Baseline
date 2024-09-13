@@ -3,5 +3,6 @@
   "$name": "#microsoft.graph.deviceManagementComplexSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomain--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomain",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
-  "valueJson": "\\{\"firewallEnabled\":\"allowed\",\"inboundNotificationsBlocked\":true,\"unicastResponsesToMulticastBroadcastsRequired\":true,\"policyRulesFromGroupPolicyNotMerged\":true,\"authorizedApplicationRulesFromGroupPolicyMerged\":true,\"globalPortRulesFromGroupPolicyMerged\":true,\"connectionSecurityRulesFromGroupPolicyNotMerged\":true\\}"
+  "valueJson": "\\{\"firewallEnabled\":\"allowed\",\"inboundNotificationsBlocked\":true,\"unicastResponsesToMulticastBroadcastsRequired\":true,\"policyRulesFromGroupPolicyNotMerged\":true,\"authorizedApplicationRulesFromGroupPolicyMerged\":true,\"globalPortRulesFromGroupPolicyMerged\":true,\"connectionSecurityRulesFromGroupPolicyNotMerged\":true\\}",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

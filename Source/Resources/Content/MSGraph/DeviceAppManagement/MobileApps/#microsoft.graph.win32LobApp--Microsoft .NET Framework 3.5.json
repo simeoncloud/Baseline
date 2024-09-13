@@ -74,5 +74,6 @@
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "setupFilePath": "Install.ps1",
-  "uninstallCommandLine": "dism /Online /Remove-Capability /CapabilityName:NetFx3~~~~"
+  "uninstallCommandLine": "dism /Online /Remove-Capability /CapabilityName:NetFx3~~~~",
+  "$friendlyName": "Microsoft .NET Framework 3.5"
 }

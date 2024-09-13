@@ -15,5 +15,6 @@
     "AirAdminActionInvestigation"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Remediation action taken by admin on emails or URL or sender"
 }

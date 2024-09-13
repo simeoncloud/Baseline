@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_systemBootStartDriverInitialization",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "goodUnknownAndBadButCritical",
-  "valueJson": "\"goodUnknownAndBadButCritical\""
+  "valueJson": "\"goodUnknownAndBadButCritical\"",
+  "$friendlyName": "Baseline - Windows"
 }

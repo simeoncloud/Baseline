@@ -17,5 +17,6 @@
   ],
   "runAs32Bit": false,
   "runAsAccount": "system",
-  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - OS - Set-TimeZone?$additionalContentFiles['scriptContent.ps1']}"
+  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - OS - Set-TimeZone?$additionalContentFiles['scriptContent.ps1']}",
+  "$friendlyName": "Baseline - OS - Set-TimeZone"
 }

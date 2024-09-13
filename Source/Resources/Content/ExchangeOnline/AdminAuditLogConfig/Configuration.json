@@ -1,4 +1,5 @@
 {
   "$description": "| What does this do? | Configures Exchange logging so that IT users can search Exchange audit logs. The baseline turns on Exchange logging. |\n| Why should you use this? | If you want to identify who made the change, augment your change logs with detailed records of the change as it was implemented, comply with regulatory requirements and requests for discovery, as well as other tracing. |\n| What is the end-user impact? | N/A |\n| Learn more | [Turn audit log search on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide#turn-on-audit-log-search) |",
-  "UnifiedAuditLogIngestionEnabled": true
+  "UnifiedAuditLogIngestionEnabled": true,
+  "$friendlyName": "Configuration"
 }

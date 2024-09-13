@@ -24,5 +24,6 @@
   "TeamsLocation": [],
   "TeamsLocationException": [],
   "ThirdPartyAppDlpLocation": [],
-  "ThirdPartyAppDlpLocationException": []
+  "ThirdPartyAppDlpLocationException": [],
+  "$friendlyName": "Baseline - External Shared Sender"
 }

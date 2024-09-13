@@ -3,5 +3,6 @@
   "AllowBroadcastScheduling": true,
   "AllowBroadcastTranscription": false,
   "BroadcastAttendeeVisibilityMode": "Everyone",
-  "BroadcastRecordingMode": "UserOverride"
+  "BroadcastRecordingMode": "UserOverride",
+  "$friendlyName": "Global"
 }

@@ -344,5 +344,6 @@
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "settings": [],
-  "targetedAppManagementLevels": "unspecified"
+  "targetedAppManagementLevels": "unspecified",
+  "$friendlyName": "Baseline - Configure Policy Managed Client Apps on Unmanaged iOS Devices"
 }

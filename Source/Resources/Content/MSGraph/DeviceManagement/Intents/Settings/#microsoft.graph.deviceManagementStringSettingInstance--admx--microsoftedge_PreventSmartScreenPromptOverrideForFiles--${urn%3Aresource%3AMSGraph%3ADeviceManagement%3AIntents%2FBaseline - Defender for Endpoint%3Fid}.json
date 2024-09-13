@@ -4,5 +4,6 @@
   "definitionId": "admx--microsoftedge_PreventSmartScreenPromptOverrideForFiles",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "enabled",
-  "valueJson": "\"enabled\""
+  "valueJson": "\"enabled\"",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

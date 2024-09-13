@@ -8,5 +8,6 @@
   "publishedDateTime": "2021-10-22T00:00:00Z",
   "templateSubtype": "none",
   "templateType": "securityBaseline",
-  "versionInfo": "November 2021"
+  "versionInfo": "November 2021",
+  "$friendlyName": "MDM Security Baseline for Windows 10 and later for November 2021"
 }

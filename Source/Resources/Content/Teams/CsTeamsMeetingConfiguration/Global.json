@@ -10,5 +10,6 @@
   "DisableAnonymousJoin": true,
   "DisableAppInteractionForAnonymousUsers": false,
   "EnableQoS": false,
-  "FeedbackSurveyForAnonymousUsers": "Enabled"
+  "FeedbackSurveyForAnonymousUsers": "Enabled",
+  "$friendlyName": "Global"
 }

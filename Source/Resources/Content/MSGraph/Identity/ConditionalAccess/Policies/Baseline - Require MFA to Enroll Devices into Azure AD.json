@@ -34,5 +34,6 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled"
+  "state": "enabled",
+  "$friendlyName": "Baseline - Require MFA to Enroll Devices into Azure AD"
 }

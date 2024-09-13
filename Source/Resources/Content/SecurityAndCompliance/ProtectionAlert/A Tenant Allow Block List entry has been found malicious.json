@@ -14,5 +14,6 @@
     "TenantAllowBlockListItemGraderDisagree"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "A Tenant Allow Block List entry has been found malicious"
 }

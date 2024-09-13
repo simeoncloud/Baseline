@@ -48,5 +48,6 @@
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "updateScheduleType": "updateOutsideOfTimeWindows",
-  "updateTimeWindowUtcOffsetInMinutes": -360
+  "updateTimeWindowUtcOffsetInMinutes": -360,
+  "$friendlyName": "Baseline - OS - Default macOS Update Ring"
 }

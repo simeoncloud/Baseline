@@ -33,5 +33,6 @@
     }
   ],
   "securityBlockJailbrokenDevices": true,
-  "storageRequireEncryption": true
+  "storageRequireEncryption": true,
+  "$friendlyName": "Baseline - Corporate Devices - Android"
 }

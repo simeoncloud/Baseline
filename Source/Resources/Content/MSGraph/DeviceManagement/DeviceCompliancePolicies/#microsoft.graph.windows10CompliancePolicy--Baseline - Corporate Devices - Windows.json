@@ -56,5 +56,6 @@
   "storageRequireEncryption": true,
   "tpmRequired": true,
   "validOperatingSystemBuildRanges": [],
-  "virtualizationBasedSecurityEnabled": false
+  "virtualizationBasedSecurityEnabled": false,
+  "$friendlyName": "Baseline - Corporate Devices - Windows"
 }

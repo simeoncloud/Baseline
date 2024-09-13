@@ -13,5 +13,6 @@
   "mamAppliesTo": 0,
   "mamAppliesToGroups": [],
   "mdmAppliesTo": 2,
-  "mdmAppliesToGroups": []
+  "mdmAppliesToGroups": [],
+  "$friendlyName": "Microsoft Intune Enrollment"
 }

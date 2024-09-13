@@ -6,5 +6,6 @@
   "expand": "assignments",
   "limit": 5,
   "priority": 0,
-  "roleScopeTagIds": []
+  "roleScopeTagIds": [],
+  "$friendlyName": "limit--All users and all devices"
 }

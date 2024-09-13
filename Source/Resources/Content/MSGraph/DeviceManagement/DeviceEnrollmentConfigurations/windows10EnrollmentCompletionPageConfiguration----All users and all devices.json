@@ -16,5 +16,6 @@
   "roleScopeTagIds": [],
   "selectedMobileAppIds": [],
   "showInstallationProgress": true,
-  "trackInstallProgressForAutopilotOnly": false
+  "trackInstallProgressForAutopilotOnly": false,
+  "$friendlyName": "windows10EnrollmentCompletionPageConfiguration--All users and all devices"
 }

@@ -15,5 +15,6 @@
     "CompromisedAccount"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "User restricted from sending email"
 }

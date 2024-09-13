@@ -51,5 +51,6 @@
     },
     "reminderNotificationsEnabled": true
   },
-  "stageSettings": []
+  "stageSettings": [],
+  "$friendlyName": "Global Admin Access Review - Global Administrator"
 }

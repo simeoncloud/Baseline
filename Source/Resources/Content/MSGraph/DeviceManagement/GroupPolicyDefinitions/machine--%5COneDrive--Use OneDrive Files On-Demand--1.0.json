@@ -3,5 +3,6 @@
   "categoryPath": "\\OneDrive",
   "classType": "machine",
   "displayName": "Use OneDrive Files On-Demand",
-  "version": "1.0"
+  "version": "1.0",
+  "$friendlyName": "Use OneDrive Files On-Demand"
 }

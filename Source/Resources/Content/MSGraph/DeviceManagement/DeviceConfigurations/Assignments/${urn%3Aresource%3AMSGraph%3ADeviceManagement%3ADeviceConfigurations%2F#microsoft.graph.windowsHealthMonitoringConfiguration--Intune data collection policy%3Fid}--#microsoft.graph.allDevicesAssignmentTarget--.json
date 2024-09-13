@@ -6,5 +6,6 @@
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none"
-  }
+  },
+  "$friendlyName": "Intune data collection policy--"
 }

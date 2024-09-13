@@ -55,5 +55,6 @@
     "osMinimumVersion": "",
     "personalDeviceEnrollmentBlocked": true,
     "platformBlocked": false
-  }
+  },
+  "$friendlyName": "platformRestrictions--All users and all devices"
 }

@@ -12,5 +12,6 @@
     "@odata.type": "#microsoft.graph.groupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
     "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}"
-  }
+  },
+  "$friendlyName": "Microsoft .NET Framework 3.5--Baseline - Corporate Devices"
 }

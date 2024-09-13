@@ -29,5 +29,6 @@
     }
   ],
   "policyType": 10,
-  "tenantDefaultPolicy": 10
+  "tenantDefaultPolicy": 10,
+  "$friendlyName": "User Risk and MFA Registration Policy"
 }

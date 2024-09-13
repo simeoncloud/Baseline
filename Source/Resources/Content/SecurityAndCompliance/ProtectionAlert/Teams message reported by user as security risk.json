@@ -15,5 +15,6 @@
     "UserSubmission"
   ],
   "Severity": "Low",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Teams message reported by user as security risk"
 }

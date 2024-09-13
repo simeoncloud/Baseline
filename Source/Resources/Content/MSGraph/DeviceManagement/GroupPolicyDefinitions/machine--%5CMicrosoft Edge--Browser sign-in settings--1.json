@@ -3,5 +3,6 @@
   "categoryPath": "\\Microsoft Edge",
   "classType": "machine",
   "displayName": "Browser sign-in settings",
-  "version": "1"
+  "version": "1",
+  "$friendlyName": "Browser sign-in settings"
 }

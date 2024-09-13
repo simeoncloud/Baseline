@@ -83,5 +83,6 @@
   "SubjectMatchesPatterns": [],
   "SubjectOrBodyContainsWords": [],
   "SubjectOrBodyMatchesPatterns": [],
-  "UnscannableDocumentExtensionIs": []
+  "UnscannableDocumentExtensionIs": [],
+  "$friendlyName": "Identify external email"
 }

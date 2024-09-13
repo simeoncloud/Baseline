@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderSubmitSamplesConsentType",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "sendSafeSamplesAutomatically",
-  "valueJson": "\"sendSafeSamplesAutomatically\""
+  "valueJson": "\"sendSafeSamplesAutomatically\"",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

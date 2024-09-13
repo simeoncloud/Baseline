@@ -1,4 +1,5 @@
 {
   "$description": "Can manage all aspects of the Intune product.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Intune Administrator?id}"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Intune Administrator?id}",
+  "$friendlyName": "Intune Administrator"
 }

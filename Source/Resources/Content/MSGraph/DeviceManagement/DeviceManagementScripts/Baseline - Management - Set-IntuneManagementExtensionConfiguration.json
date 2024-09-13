@@ -17,5 +17,6 @@
   ],
   "runAs32Bit": true,
   "runAsAccount": "system",
-  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - Management - Set-IntuneManagementExtensionConfiguration?$additionalContentFiles['scriptContent.ps1']}"
+  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - Management - Set-IntuneManagementExtensionConfiguration?$additionalContentFiles['scriptContent.ps1']}",
+  "$friendlyName": "Baseline - Management - Set-IntuneManagementExtensionConfiguration"
 }

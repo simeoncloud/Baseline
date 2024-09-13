@@ -28,5 +28,6 @@
   "TeamsLocation": [],
   "TeamsLocationException": [],
   "ThirdPartyAppDlpLocation": [],
-  "ThirdPartyAppDlpLocationException": []
+  "ThirdPartyAppDlpLocationException": [],
+  "$friendlyName": "Baseline - Default DLP Policy for Office 365"
 }

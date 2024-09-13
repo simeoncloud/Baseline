@@ -343,5 +343,6 @@
   "WacViewingOnPrivateComputersEnabled": true,
   "WacViewingOnPublicComputersEnabled": true,
   "WeatherEnabled": true,
-  "WebPartsFrameOptionsType": "SameOrigin"
+  "WebPartsFrameOptionsType": "SameOrigin",
+  "$friendlyName": "OwaMailboxPolicy-Default"
 }

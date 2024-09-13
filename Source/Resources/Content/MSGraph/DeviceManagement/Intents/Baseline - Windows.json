@@ -13,5 +13,6 @@
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
-  "templateId": "${urn:resource:MSGraph:DeviceManagement:Templates/#microsoft.graph.securityBaselineTemplate--MDM Security Baseline for Windows 10 and later for November 2021?id}"
+  "templateId": "${urn:resource:MSGraph:DeviceManagement:Templates/#microsoft.graph.securityBaselineTemplate--MDM Security Baseline for Windows 10 and later for November 2021?id}",
+  "$friendlyName": "Baseline - Windows"
 }

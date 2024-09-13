@@ -1,5 +1,6 @@
 {
   "$name": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users - Preview?id}--${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users - Insiders?id}",
   "directoryObject-id": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users - Insiders?id}",
-  "group-id": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users - Preview?id}"
+  "group-id": "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users - Preview?id}",
+  "$friendlyName": "Baseline - Microsoft 365 Users - Preview--Baseline - Microsoft 365 Users - Insiders"
 }

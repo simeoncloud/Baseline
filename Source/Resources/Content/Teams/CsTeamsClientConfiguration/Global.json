@@ -13,5 +13,6 @@
   "AllowShareFile": false,
   "AllowSkypeBusinessInterop": true,
   "ContentPin": "RequiredOutsideScheduleMeeting",
-  "ResourceAccountContentAccess": "NoAccess"
+  "ResourceAccountContentAccess": "NoAccess",
+  "$friendlyName": "Global"
 }

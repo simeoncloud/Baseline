@@ -14,5 +14,6 @@
     "ConnectorAbuse"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Suspicious connector activity"
 }

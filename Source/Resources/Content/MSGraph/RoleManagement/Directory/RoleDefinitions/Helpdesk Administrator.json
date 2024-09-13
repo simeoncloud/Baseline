@@ -19,5 +19,6 @@
       ]
     }
   ],
-  "version": "1"
+  "version": "1",
+  "$friendlyName": "Helpdesk Administrator"
 }

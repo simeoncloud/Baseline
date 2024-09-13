@@ -25,5 +25,6 @@
   "priority": 1,
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ]
+  ],
+  "$friendlyName": "singlePlatformRestriction--Baseline - Device Enrollers can enroll any devices"
 }

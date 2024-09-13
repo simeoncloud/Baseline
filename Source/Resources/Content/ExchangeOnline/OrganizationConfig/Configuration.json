@@ -89,5 +89,6 @@
   "VisibleMeetingUpdateProperties": "Location,AllProperties:15",
   "WebPushNotificationsDisabled": false,
   "WebSuggestedRepliesDisabled": false,
-  "WorkspaceTenantEnabled": true
+  "WorkspaceTenantEnabled": true,
+  "$friendlyName": "Configuration"
 }

@@ -142,5 +142,6 @@
   "xboxServicesEnableXboxGameSaveTask": false,
   "xboxServicesLiveAuthManagerServiceStartupMode": "manual",
   "xboxServicesLiveGameSaveServiceStartupMode": "manual",
-  "xboxServicesLiveNetworkingServiceStartupMode": "manual"
+  "xboxServicesLiveNetworkingServiceStartupMode": "manual",
+  "$friendlyName": "Baseline - Security - NTLMv2 LAN Manager Authentication Level"
 }

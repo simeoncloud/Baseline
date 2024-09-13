@@ -1,4 +1,5 @@
 {
   "$description": "Can create and manage all aspects of app registrations and enterprise apps.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Application Administrator?id}"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Application Administrator?id}",
+  "$friendlyName": "Application Administrator"
 }

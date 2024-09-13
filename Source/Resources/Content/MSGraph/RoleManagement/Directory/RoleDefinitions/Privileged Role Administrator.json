@@ -38,5 +38,6 @@
       ]
     }
   ],
-  "version": "1"
+  "version": "1",
+  "$friendlyName": "Privileged Role Administrator"
 }

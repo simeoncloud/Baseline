@@ -8,5 +8,6 @@
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true,
-  "visibility": "Public"
+  "visibility": "Public",
+  "$friendlyName": "Baseline - Microsoft 365 Users - Insiders"
 }

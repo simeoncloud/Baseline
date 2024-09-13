@@ -2,5 +2,6 @@
   "$description": "| What does this do? | Sets the system sleep timeout for devices to \"Never\" when plugged in. |\n| Why should you use this? | If you want to prevent desktop computers from going to sleep so you can connect remotely at any time. |\n| What is the end-user impact? | Users' devices will not go to sleep when plugged in, so users may connect remotely at any time. |\n| Learn more | N/A |",
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ]
+  ],
+  "$friendlyName": "Baseline - OS - Sleep When Plugged In Disabled"
 }

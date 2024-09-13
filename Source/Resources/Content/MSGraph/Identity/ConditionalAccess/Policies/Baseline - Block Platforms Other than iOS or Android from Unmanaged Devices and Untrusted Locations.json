@@ -4,7 +4,7 @@
     "applications": {
       "excludeApplications": [
         "${urn:resource:MSGraph:ServicePrincipals/d4ebce55-015a-49b5-a083-c84d1797ae8c?appId}",
-       "${urn:resource:MSGraph:ServicePrincipals/0000000a-0000-0000-c000-000000000000?appId}"
+        "${urn:resource:MSGraph:ServicePrincipals/0000000a-0000-0000-c000-000000000000?appId}"
       ],
       "includeApplications": [
         "All"
@@ -75,5 +75,6 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled"
+  "state": "enabled",
+  "$friendlyName": "Baseline - Block Platforms Other than iOS or Android from Unmanaged Devices and Untrusted Locations"
 }

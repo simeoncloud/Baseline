@@ -12,5 +12,6 @@
   ],
   "NotifyUserOnFilterMatch": false,
   "Severity": "Medium",
-  "ThreatType": "Malicious"
+  "ThreatType": "Malicious",
+  "$friendlyName": "Messages containing malicious entity not removed after delivery"
 }

@@ -7,5 +7,6 @@
   "BlockAllSubdomains": false,
   "BlockedDomains": [],
   "SharedSipAddressSpace": false,
-  "TreatDiscoveredPartnersAsUnverified": false
+  "TreatDiscoveredPartnersAsUnverified": false,
+  "$friendlyName": "Global"
 }

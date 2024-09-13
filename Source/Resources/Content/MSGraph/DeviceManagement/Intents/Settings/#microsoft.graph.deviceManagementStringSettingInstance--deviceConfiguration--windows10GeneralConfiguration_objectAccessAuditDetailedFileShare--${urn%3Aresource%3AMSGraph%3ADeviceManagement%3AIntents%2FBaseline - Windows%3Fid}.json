@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_objectAccessAuditDetailedFileShare",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "failure",
-  "valueJson": "\"failure\""
+  "valueJson": "\"failure\"",
+  "$friendlyName": "Baseline - Windows"
 }

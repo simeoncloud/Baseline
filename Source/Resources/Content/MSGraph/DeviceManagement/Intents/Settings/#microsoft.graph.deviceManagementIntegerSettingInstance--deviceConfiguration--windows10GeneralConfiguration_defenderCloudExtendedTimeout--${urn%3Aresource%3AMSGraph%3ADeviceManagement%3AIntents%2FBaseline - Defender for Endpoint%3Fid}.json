@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderCloudExtendedTimeout",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": 50,
-  "valueJson": "50"
+  "valueJson": "50",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

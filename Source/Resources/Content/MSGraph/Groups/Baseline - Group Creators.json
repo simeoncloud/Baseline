@@ -7,5 +7,6 @@
   "mailNickname": "Baseline-GroupCreators",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true
+  "securityEnabled": true,
+  "$friendlyName": "Baseline - Group Creators"
 }

@@ -3,5 +3,6 @@
   "categoryPath": "\\Microsoft Edge\\Default search provider",
   "classType": "machine",
   "displayName": "Enable the default search provider",
-  "version": "1"
+  "version": "1",
+  "$friendlyName": "Enable the default search provider"
 }

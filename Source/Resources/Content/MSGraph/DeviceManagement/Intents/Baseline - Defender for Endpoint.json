@@ -13,5 +13,6 @@
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
-  "templateId": "${urn:resource:MSGraph:DeviceManagement:Templates/#microsoft.graph.securityBaselineTemplate--Microsoft Defender for Endpoint baseline?id}"
+  "templateId": "${urn:resource:MSGraph:DeviceManagement:Templates/#microsoft.graph.securityBaselineTemplate--Microsoft Defender for Endpoint baseline?id}",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

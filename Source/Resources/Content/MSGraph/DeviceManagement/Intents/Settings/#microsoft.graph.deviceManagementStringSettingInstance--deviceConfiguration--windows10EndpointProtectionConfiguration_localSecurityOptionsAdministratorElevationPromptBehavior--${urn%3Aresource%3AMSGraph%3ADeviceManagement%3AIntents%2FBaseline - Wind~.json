@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsAdministratorElevationPromptBehavior",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "promptForConsentOnTheSecureDesktop",
-  "valueJson": "\"promptForConsentOnTheSecureDesktop\""
+  "valueJson": "\"promptForConsentOnTheSecureDesktop\"",
+  "$friendlyName": "Baseline - Windows"
 }

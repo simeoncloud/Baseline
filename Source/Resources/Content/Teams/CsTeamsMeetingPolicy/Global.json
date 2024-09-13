@@ -53,5 +53,6 @@
   "TeamsCameraFarEndPTZMode": "Disabled",
   "VideoFiltersMode": "AllFilters",
   "VoiceIsolation": "Enabled",
-  "WhoCanRegister": "Everyone"
+  "WhoCanRegister": "Everyone",
+  "$friendlyName": "Global"
 }

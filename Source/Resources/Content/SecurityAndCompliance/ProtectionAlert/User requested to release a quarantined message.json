@@ -14,5 +14,6 @@
     "QuarantineRequestReleaseMessage"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "User requested to release a quarantined message"
 }

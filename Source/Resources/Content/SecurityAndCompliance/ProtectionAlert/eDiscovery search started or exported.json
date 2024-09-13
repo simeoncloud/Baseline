@@ -14,5 +14,6 @@
     "eDiscoverySearchStartedOrExported"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "eDiscovery search started or exported"
 }

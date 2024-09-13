@@ -33,5 +33,6 @@
       "All"
     ]
   },
-  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}",
+  "$friendlyName": "Global Administrator--Approval_EndUser_Assignment"
 }

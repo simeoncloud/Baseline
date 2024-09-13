@@ -36,5 +36,6 @@
   "updateNotificationLevel": "notConfigured",
   "updateWeeks": "everyWeek",
   "userPauseAccess": "enabled",
-  "userWindowsUpdateScanAccess": "enabled"
+  "userWindowsUpdateScanAccess": "enabled",
+  "$friendlyName": "Baseline - OS - Insiders Windows 10 Update Ring"
 }

@@ -6,5 +6,6 @@
   },
   "enabled": false,
   "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Security - LinkedIn Features in Office Applications Disabled?id}",
-  "presentationValues": []
+  "presentationValues": [],
+  "$friendlyName": "Baseline - Security - LinkedIn Features in Office Applications Disabled--Show LinkedIn features in Office applications"
 }

@@ -5,5 +5,6 @@
     "@odata.type": "#microsoft.graph.groupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
     "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}"
-  }
+  },
+  "$friendlyName": "Baseline - Functionality - OneDrive Silent Configuration--Baseline - Corporate Devices"
 }

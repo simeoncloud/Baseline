@@ -23,5 +23,6 @@
   "TeamsChatLocation": [
     "All"
   ],
-  "TeamsChatLocationException": []
+  "TeamsChatLocationException": [],
+  "$friendlyName": "Baseline - Teams Retention Policy"
 }

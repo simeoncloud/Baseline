@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_rpcUnauthenticatedClientOptions",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "authenticated",
-  "valueJson": "\"authenticated\""
+  "valueJson": "\"authenticated\"",
+  "$friendlyName": "Baseline - Windows"
 }

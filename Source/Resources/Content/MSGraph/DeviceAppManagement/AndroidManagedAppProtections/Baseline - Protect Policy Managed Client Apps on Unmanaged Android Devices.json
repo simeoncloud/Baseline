@@ -362,5 +362,6 @@
   "simplePinBlocked": false,
   "targetedAppManagementLevels": "unmanaged",
   "warnAfterCompanyPortalUpdateDeferralInDays": 0,
-  "wipeAfterCompanyPortalUpdateDeferralInDays": 0
+  "wipeAfterCompanyPortalUpdateDeferralInDays": 0,
+  "$friendlyName": "Baseline - Protect Policy Managed Client Apps on Unmanaged Android Devices"
 }

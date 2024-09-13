@@ -68,5 +68,6 @@
       ]
     }
   ],
-  "version": "1"
+  "version": "1",
+  "$friendlyName": "Hybrid Identity Administrator"
 }

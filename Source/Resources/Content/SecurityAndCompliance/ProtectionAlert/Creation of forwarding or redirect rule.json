@@ -15,5 +15,6 @@
     "MailRedirect"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Creation of forwarding/redirect rule"
 }

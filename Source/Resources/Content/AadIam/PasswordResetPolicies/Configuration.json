@@ -4,5 +4,6 @@
   "passwordResetEnabledGroupIds": [
     "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?id}"
   ],
-  "passwordResetEnabledGroupName": "Baseline - Microsoft 365 Users"
+  "passwordResetEnabledGroupName": "Baseline - Microsoft 365 Users",
+  "$friendlyName": "Configuration"
 }

@@ -9,5 +9,6 @@
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
   "securityEnabled": true,
-  "visibility": "Private"
+  "visibility": "Private",
+  "$friendlyName": "Baseline - Device Administrators"
 }

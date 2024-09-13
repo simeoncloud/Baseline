@@ -7,5 +7,6 @@
     "@odata.type": "#microsoft.graph.groupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
     "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}"
-  }
+  },
+  "$friendlyName": "Baseline - Functionality - Microsoft Store Limited to Private Store Only--Baseline - Corporate Devices"
 }

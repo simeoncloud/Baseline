@@ -54,5 +54,6 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled"
+  "state": "enabled",
+  "$friendlyName": "Baseline - Require MFA from Unmanaged Devices and Untrusted Locations"
 }

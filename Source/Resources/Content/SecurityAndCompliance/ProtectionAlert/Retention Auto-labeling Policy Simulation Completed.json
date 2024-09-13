@@ -14,5 +14,6 @@
     "RetentionAutoLabelSimulationCompletion"
   ],
   "Severity": "Low",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Retention Auto-labeling Policy Simulation Completed"
 }

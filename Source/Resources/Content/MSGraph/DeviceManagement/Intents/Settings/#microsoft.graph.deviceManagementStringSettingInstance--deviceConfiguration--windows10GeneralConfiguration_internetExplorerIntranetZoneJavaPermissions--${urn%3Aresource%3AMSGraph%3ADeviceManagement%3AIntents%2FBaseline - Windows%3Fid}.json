@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerIntranetZoneJavaPermissions",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "highSafety",
-  "valueJson": "\"highSafety\""
+  "valueJson": "\"highSafety\"",
+  "$friendlyName": "Baseline - Windows"
 }

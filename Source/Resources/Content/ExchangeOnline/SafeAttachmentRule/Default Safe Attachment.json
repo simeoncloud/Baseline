@@ -4,5 +4,6 @@
   "RecipientDomainIs": [
     "${ResourceContext:TenantDomainName}"
   ],
-  "SafeAttachmentPolicy": "${urn:resource:ExchangeOnline:SafeAttachmentPolicy/Baseline - Default?Guid}"
+  "SafeAttachmentPolicy": "${urn:resource:ExchangeOnline:SafeAttachmentPolicy/Baseline - Default?Guid}",
+  "$friendlyName": "Default Safe Attachment"
 }

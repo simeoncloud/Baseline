@@ -14,5 +14,6 @@
     "MipAutoLabelSimulationCompletion"
   ],
   "Severity": "Low",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "MIP AutoLabel simulation completed"
 }

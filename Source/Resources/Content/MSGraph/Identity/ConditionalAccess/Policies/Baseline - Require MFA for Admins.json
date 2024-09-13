@@ -92,5 +92,6 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled"
+  "state": "enabled",
+  "$friendlyName": "Baseline - Require MFA for Admins"
 }

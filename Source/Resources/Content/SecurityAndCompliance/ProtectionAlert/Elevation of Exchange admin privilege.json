@@ -14,5 +14,6 @@
     "GrantAdminPermission"
   ],
   "Severity": "Low",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Elevation of Exchange admin privilege"
 }

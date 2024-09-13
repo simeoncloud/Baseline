@@ -37,5 +37,6 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled"
+  "state": "enabled",
+  "$friendlyName": "Baseline - Block High Risk Sign-Ins"
 }

@@ -7,5 +7,6 @@
     "@odata.type": "#microsoft.graph.groupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
     "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical?id}"
-  }
+  },
+  "$friendlyName": "Baseline - UX - Windows First Run Animation Disabled--Baseline - Corporate Devices - Physical"
 }

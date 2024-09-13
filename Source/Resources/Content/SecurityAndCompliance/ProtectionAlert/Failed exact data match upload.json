@@ -14,5 +14,6 @@
     "UploadDataFailed"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Failed exact data match upload"
 }

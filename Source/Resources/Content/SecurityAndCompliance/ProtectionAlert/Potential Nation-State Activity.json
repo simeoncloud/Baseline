@@ -15,5 +15,6 @@
     "MSTICNationStateNotification"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Potential Nation-State Activity"
 }

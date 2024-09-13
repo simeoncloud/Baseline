@@ -17,5 +17,6 @@
   ],
   "runAs32Bit": false,
   "runAsAccount": "system",
-  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - Security - Add-AuthenticatedUsersToRemoteDesktopUsers?$additionalContentFiles['scriptContent.ps1']}"
+  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - Security - Add-AuthenticatedUsersToRemoteDesktopUsers?$additionalContentFiles['scriptContent.ps1']}",
+  "$friendlyName": "Baseline - Security - Add-AuthenticatedUsersToRemoteDesktopUsers"
 }

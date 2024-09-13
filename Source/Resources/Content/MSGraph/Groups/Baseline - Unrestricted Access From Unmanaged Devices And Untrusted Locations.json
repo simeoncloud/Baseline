@@ -7,5 +7,6 @@
   "mailNickname": "Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true
+  "securityEnabled": true,
+  "$friendlyName": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
 }

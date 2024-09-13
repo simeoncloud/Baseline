@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsExecutableContentCreationOrLaunchType",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "block",
-  "valueJson": "\"block\""
+  "valueJson": "\"block\"",
+  "$friendlyName": "Baseline - Windows"
 }

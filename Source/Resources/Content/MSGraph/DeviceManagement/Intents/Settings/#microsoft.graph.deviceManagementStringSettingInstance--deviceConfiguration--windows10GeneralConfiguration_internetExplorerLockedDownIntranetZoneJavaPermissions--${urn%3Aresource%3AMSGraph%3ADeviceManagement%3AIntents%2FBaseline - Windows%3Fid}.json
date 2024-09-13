@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerLockedDownIntranetZoneJavaPermissions",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "disableJava",
-  "valueJson": "\"disableJava\""
+  "valueJson": "\"disableJava\"",
+  "$friendlyName": "Baseline - Windows"
 }

@@ -15,5 +15,6 @@
     "AirManualInvestigation"
   ],
   "Severity": "Medium",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Admin triggered user compromise investigation"
 }

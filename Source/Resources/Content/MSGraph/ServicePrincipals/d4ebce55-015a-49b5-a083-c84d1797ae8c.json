@@ -1,5 +1,6 @@
 {
   "$description": "Multi-Tenant App: Microsoft Intune Enrollment",
   "appId": "d4ebce55-015a-49b5-a083-c84d1797ae8c",
-  "displayName": "Microsoft Intune Enrollment"
+  "displayName": "Microsoft Intune Enrollment",
+  "$friendlyName": "Microsoft Intune Enrollment"
 }

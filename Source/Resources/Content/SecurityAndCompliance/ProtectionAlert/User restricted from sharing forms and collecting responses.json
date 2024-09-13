@@ -14,5 +14,6 @@
     "UserRestrictedByDistributingForms"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "User restricted from sharing forms and collecting responses"
 }

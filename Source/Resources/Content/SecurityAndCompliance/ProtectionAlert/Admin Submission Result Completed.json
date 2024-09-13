@@ -14,5 +14,6 @@
     "AdminSubmission"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Admin Submission Result Completed"
 }

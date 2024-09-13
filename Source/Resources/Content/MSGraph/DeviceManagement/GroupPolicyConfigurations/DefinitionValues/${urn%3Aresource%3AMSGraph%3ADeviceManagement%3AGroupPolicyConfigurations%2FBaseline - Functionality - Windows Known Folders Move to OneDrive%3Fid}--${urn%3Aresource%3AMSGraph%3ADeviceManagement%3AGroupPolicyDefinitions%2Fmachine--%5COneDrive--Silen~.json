@@ -21,5 +21,6 @@
       },
       "value": "${ResourceContext:TenantId}"
     }
-  ]
+  ],
+  "$friendlyName": "Baseline - Functionality - Windows Known Folders Move to OneDrive--Silently move Windows known folders to OneDrive"
 }

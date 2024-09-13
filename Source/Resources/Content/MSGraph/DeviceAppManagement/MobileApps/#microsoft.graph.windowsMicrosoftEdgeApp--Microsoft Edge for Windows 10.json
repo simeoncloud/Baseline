@@ -17,5 +17,6 @@
   "relationships": [],
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ]
+  ],
+  "$friendlyName": "Microsoft Edge for Windows 10"
 }

@@ -14,5 +14,6 @@
     "CompromisedTenantAccount"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Tenant restricted from sending email"
 }

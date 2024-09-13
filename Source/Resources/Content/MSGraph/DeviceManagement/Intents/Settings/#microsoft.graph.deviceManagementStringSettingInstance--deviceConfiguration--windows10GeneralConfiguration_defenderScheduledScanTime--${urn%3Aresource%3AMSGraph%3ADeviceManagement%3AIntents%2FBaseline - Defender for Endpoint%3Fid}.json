@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderScheduledScanTime",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "notConfigured",
-  "valueJson": "\"notConfigured\""
+  "valueJson": "\"notConfigured\"",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerFallbackToSsl3",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "noSites",
-  "valueJson": "\"noSites\""
+  "valueJson": "\"noSites\"",
+  "$friendlyName": "Baseline - Windows"
 }

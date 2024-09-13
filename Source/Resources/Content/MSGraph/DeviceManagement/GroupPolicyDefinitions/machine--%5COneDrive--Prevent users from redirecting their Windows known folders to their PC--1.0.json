@@ -3,5 +3,6 @@
   "categoryPath": "\\OneDrive",
   "classType": "machine",
   "displayName": "Prevent users from redirecting their Windows known folders to their PC",
-  "version": "1.0"
+  "version": "1.0",
+  "$friendlyName": "Prevent users from redirecting their Windows known folders to their PC"
 }

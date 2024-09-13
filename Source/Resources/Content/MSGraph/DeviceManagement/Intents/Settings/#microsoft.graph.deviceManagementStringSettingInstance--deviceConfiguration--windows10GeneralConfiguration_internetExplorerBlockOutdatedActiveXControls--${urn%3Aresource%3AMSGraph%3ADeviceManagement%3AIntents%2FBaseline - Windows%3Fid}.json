@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerBlockOutdatedActiveXControls",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "enabled",
-  "valueJson": "\"enabled\""
+  "valueJson": "\"enabled\"",
+  "$friendlyName": "Baseline - Windows"
 }

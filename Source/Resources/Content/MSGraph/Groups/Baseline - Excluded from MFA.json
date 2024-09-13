@@ -7,5 +7,6 @@
   "mailNickname": "Baseline-ExcludedFrom-MFA",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true
+  "securityEnabled": true,
+  "$friendlyName": "Baseline - Excluded from MFA"
 }

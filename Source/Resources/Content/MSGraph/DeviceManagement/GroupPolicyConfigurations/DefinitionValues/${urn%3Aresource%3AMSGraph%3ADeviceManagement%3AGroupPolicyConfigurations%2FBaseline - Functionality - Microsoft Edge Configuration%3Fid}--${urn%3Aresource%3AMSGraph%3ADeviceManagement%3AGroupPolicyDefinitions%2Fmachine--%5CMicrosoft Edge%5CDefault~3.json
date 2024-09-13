@@ -14,5 +14,6 @@
       },
       "value": "{google:baseURL}complete/search?output=chrome&q={searchTerms}"
     }
-  ]
+  ],
+  "$friendlyName": "Baseline - Functionality - Microsoft Edge Configuration--Default search provider URL for suggestions"
 }

@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallCertificateRevocationListCheckMethod",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "deviceDefault",
-  "valueJson": "\"deviceDefault\""
+  "valueJson": "\"deviceDefault\"",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

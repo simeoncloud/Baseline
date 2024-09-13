@@ -77,5 +77,6 @@
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "setupFilePath": "Install.ps1",
-  "uninstallCommandLine": "\"%ProgramFiles%\\7-Zip\\Uninstall.exe\" /S"
+  "uninstallCommandLine": "\"%ProgramFiles%\\7-Zip\\Uninstall.exe\" /S",
+  "$friendlyName": "7-Zip"
 }

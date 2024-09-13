@@ -15,5 +15,6 @@
     "AirManualInvestigation"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Admin triggered manual investigation of email"
 }

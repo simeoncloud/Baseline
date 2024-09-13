@@ -5,5 +5,6 @@
   "GlobalCatalogApps": [],
   "GlobalCatalogAppsType": "BlockedAppList",
   "PrivateCatalogApps": [],
-  "PrivateCatalogAppsType": "BlockedAppList"
+  "PrivateCatalogAppsType": "BlockedAppList",
+  "$friendlyName": "Global"
 }

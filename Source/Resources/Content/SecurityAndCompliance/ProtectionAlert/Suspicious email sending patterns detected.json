@@ -15,5 +15,6 @@
     "CompromisedWarningAccount"
   ],
   "Severity": "Medium",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Suspicious email sending patterns detected"
 }

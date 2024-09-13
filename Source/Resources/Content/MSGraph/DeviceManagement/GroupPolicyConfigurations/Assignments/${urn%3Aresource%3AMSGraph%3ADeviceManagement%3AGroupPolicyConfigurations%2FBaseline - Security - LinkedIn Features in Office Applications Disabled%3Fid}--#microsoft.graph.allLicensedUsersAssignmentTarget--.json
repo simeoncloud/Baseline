@@ -4,5 +4,6 @@
   "target": {
     "@odata.type": "#microsoft.graph.allLicensedUsersAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none"
-  }
+  },
+  "$friendlyName": "Baseline - Security - LinkedIn Features in Office Applications Disabled--"
 }

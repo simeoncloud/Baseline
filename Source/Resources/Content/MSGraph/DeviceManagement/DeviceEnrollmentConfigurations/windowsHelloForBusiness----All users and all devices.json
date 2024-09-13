@@ -19,5 +19,6 @@
   "securityDeviceRequired": true,
   "securityKeyForSignIn": "notConfigured",
   "state": "enabled",
-  "unlockWithBiometricsEnabled": true
+  "unlockWithBiometricsEnabled": true,
+  "$friendlyName": "windowsHelloForBusiness--All users and all devices"
 }

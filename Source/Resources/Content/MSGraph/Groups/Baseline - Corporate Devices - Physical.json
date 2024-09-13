@@ -11,5 +11,6 @@
   "membershipRuleProcessingState": "On",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true
+  "securityEnabled": true,
+  "$friendlyName": "Baseline - Corporate Devices - Physical"
 }

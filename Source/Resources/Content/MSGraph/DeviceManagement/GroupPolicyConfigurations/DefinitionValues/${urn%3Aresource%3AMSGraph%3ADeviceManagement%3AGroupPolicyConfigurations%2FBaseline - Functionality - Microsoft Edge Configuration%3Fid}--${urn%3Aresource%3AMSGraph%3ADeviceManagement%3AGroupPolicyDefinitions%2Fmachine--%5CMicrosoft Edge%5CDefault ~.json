@@ -14,5 +14,6 @@
       },
       "value": "{google:baseURL}search?q={searchTerms}&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:searchClient}{google:sourceId}ie={inputEncoding}"
     }
-  ]
+  ],
+  "$friendlyName": "Baseline - Functionality - Microsoft Edge Configuration--Default search provider search URL"
 }

@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_remoteAssistanceSolicitedSetting",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "implementationId": "deviceConfiguration--remoteAssistanceSolicitedSettingDisabled",
-  "valueJson": "\\{\"$implementationId\":\"deviceConfiguration--remoteAssistanceSolicitedSettingDisabled\"\\}"
+  "valueJson": "\\{\"$implementationId\":\"deviceConfiguration--remoteAssistanceSolicitedSettingDisabled\"\\}",
+  "$friendlyName": "Baseline - Windows"
 }

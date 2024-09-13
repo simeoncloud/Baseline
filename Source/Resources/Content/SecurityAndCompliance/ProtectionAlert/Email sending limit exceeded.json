@@ -14,5 +14,6 @@
     "EmailSendingLimitExceeded"
   ],
   "Severity": "Medium",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Email sending limit exceeded"
 }

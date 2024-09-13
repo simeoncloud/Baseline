@@ -70,5 +70,6 @@
       ]
     }
   ],
-  "version": "1"
+  "version": "1",
+  "$friendlyName": "Cloud Application Administrator"
 }

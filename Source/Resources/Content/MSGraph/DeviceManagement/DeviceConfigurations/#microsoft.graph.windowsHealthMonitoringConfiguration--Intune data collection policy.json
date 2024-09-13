@@ -6,5 +6,6 @@
   "displayName": "Intune data collection policy",
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ]
+  ],
+  "$friendlyName": "Intune data collection policy"
 }

@@ -241,5 +241,6 @@
   "windowsStoreEnablePrivateStoreOnly": true,
   "wirelessDisplayBlockProjectionToThisDevice": false,
   "wirelessDisplayBlockUserInputFromReceiver": false,
-  "wirelessDisplayRequirePinForPairing": false
+  "wirelessDisplayRequirePinForPairing": false,
+  "$friendlyName": "Baseline - Functionality - Microsoft Store Limited to Private Store Only"
 }

@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallPreSharedKeyEncodingMethod",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "uTF8",
-  "valueJson": "\"uTF8\""
+  "valueJson": "\"uTF8\"",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

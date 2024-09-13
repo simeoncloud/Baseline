@@ -13,5 +13,6 @@
       ]
     }
   ],
-  "version": "1"
+  "version": "1",
+  "$friendlyName": "Azure AD Joined Device Local Administrator"
 }

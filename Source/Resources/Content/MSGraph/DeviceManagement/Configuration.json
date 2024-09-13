@@ -10,5 +10,6 @@
     "enhancedJailBreak": false,
     "m365AppDiagnosticsEnabled": true,
     "secureByDefault": false
-  }
+  },
+  "$friendlyName": "Configuration"
 }

@@ -1,4 +1,5 @@
 {
   "$description": "Can read service health information and manage support tickets.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Service Support Administrator?id}"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Service Support Administrator?id}",
+  "$friendlyName": "Service Support Administrator"
 }

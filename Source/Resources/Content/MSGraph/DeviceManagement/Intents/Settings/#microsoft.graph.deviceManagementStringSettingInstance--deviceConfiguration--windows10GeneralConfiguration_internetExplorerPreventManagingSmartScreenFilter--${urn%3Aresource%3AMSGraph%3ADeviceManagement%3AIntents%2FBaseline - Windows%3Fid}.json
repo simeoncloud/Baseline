@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerPreventManagingSmartScreenFilter",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "enable",
-  "valueJson": "\"enable\""
+  "valueJson": "\"enable\"",
+  "$friendlyName": "Baseline - Windows"
 }

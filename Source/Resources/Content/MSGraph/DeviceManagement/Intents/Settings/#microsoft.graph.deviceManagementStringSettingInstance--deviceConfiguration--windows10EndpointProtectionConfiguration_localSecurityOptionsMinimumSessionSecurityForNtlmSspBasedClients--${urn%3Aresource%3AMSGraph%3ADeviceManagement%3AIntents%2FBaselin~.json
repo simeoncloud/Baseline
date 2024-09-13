@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsMinimumSessionSecurityForNtlmSspBasedClients",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "ntlmV2And128BitEncryption",
-  "valueJson": "\"ntlmV2And128BitEncryption\""
+  "valueJson": "\"ntlmV2And128BitEncryption\"",
+  "$friendlyName": "Baseline - Windows"
 }

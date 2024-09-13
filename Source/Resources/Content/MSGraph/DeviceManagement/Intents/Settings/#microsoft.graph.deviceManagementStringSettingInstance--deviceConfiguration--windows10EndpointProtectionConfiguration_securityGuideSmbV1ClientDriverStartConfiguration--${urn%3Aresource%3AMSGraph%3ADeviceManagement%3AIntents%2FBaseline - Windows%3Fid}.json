@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_securityGuideSmbV1ClientDriverStartConfiguration",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "disableDriver",
-  "valueJson": "\"disableDriver\""
+  "valueJson": "\"disableDriver\"",
+  "$friendlyName": "Baseline - Windows"
 }

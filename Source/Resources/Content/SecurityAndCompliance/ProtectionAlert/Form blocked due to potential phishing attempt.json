@@ -13,5 +13,6 @@
     "AutoBlockedForm"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Form blocked due to potential phishing attempt"
 }

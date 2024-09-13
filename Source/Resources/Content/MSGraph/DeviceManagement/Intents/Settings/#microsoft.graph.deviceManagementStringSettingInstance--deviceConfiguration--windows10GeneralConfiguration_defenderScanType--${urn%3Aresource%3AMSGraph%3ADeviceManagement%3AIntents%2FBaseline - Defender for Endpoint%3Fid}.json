@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderScanType",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "quick",
-  "valueJson": "\"quick\""
+  "valueJson": "\"quick\"",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

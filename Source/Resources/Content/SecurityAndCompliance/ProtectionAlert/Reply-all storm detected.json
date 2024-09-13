@@ -13,5 +13,6 @@
   "NotifyUserOnFilterMatch": false,
   "Severity": "High",
   "ThreatType": "MailFlow",
-  "Threshold": 1
+  "Threshold": 1,
+  "$friendlyName": "Reply-all storm detected"
 }

@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderScheduleScanDay",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "everyday",
-  "valueJson": "\"everyday\""
+  "valueJson": "\"everyday\"",
+  "$friendlyName": "Baseline - Windows"
 }

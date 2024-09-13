@@ -16,5 +16,6 @@
       "All"
     ]
   },
-  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}",
+  "$friendlyName": "Global Administrator--Notification_Admin_Admin_Eligibility"
 }

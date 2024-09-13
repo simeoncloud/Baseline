@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeCommunicationAppsLaunchChildProcess",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "enable",
-  "valueJson": "\"enable\""
+  "valueJson": "\"enable\"",
+  "$friendlyName": "Baseline - Defender for Endpoint"
 }

@@ -13,5 +13,6 @@
   ],
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ]
+  ],
+  "$friendlyName": "Baseline - UX - Windows First Run Animation Disabled"
 }

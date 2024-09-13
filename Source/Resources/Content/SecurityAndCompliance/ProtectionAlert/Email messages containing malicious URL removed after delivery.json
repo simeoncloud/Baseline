@@ -12,5 +12,6 @@
   ],
   "NotifyUserOnFilterMatch": false,
   "Severity": "Informational",
-  "ThreatType": "Malicious"
+  "ThreatType": "Malicious",
+  "$friendlyName": "Email messages containing malicious URL removed after delivery"
 }

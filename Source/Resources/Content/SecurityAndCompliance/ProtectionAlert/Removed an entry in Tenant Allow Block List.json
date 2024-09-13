@@ -16,5 +16,6 @@
     "TenantAllowBlockListItemRemoved"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Removed an entry in Tenant Allow/Block List"
 }

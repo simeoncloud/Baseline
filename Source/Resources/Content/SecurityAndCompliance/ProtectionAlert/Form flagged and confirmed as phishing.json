@@ -14,5 +14,6 @@
     "OSTTakenDownForm"
   ],
   "Severity": "High",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Form flagged and confirmed as phishing"
 }

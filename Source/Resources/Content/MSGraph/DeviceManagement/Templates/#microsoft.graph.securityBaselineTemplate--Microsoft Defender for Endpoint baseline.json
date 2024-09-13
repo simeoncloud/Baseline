@@ -8,5 +8,6 @@
   "publishedDateTime": "2020-12-09T00:00:00Z",
   "templateSubtype": "none",
   "templateType": "advancedThreatProtectionSecurityBaseline",
-  "versionInfo": "Version 6"
+  "versionInfo": "Version 6",
+  "$friendlyName": "Microsoft Defender for Endpoint baseline"
 }

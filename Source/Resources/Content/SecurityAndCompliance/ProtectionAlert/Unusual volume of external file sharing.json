@@ -17,5 +17,6 @@
     "ExternalFileSharing"
   ],
   "Severity": "Medium",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Unusual volume of external file sharing"
 }

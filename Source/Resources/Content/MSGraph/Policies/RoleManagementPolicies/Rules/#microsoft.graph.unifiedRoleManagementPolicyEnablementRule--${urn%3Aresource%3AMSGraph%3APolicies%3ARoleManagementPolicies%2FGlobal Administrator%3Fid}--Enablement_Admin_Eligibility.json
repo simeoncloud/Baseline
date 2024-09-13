@@ -12,5 +12,6 @@
       "All"
     ]
   },
-  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}",
+  "$friendlyName": "Global Administrator--Enablement_Admin_Eligibility"
 }

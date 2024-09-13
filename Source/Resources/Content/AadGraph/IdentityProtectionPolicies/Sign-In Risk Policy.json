@@ -20,5 +20,6 @@
     }
   ],
   "policyType": 1,
-  "tenantDefaultPolicy": 1
+  "tenantDefaultPolicy": 1,
+  "$friendlyName": "Sign-In Risk Policy"
 }

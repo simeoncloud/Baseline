@@ -29,5 +29,6 @@
     "isEnabled": false
   },
   "multiFactorAuthConfiguration": "required",
-  "userDeviceQuota": 100
+  "userDeviceQuota": 100,
+  "$friendlyName": "Configuration"
 }

@@ -15,5 +15,6 @@
     "TenantAllowBlockListItemExpiry"
   ],
   "Severity": "Informational",
-  "ThreatType": "Activity"
+  "ThreatType": "Activity",
+  "$friendlyName": "Tenant Allow/Block List entry is about to expire"
 }

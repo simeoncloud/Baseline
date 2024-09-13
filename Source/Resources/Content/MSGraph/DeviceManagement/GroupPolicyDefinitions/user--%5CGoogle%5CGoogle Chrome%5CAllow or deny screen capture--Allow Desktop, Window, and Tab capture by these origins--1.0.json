@@ -3,5 +3,6 @@
   "categoryPath": "\\Google\\Google Chrome\\Allow or deny screen capture",
   "classType": "user",
   "displayName": "Allow Desktop, Window, and Tab capture by these origins",
-  "version": "1.0"
+  "version": "1.0",
+  "$friendlyName": "Allow Desktop, Window, and Tab capture by these origins"
 }

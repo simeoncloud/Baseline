@@ -12,5 +12,6 @@
   ],
   "NotifyUserOnFilterMatch": false,
   "Severity": "Informational",
-  "ThreatType": "Phish"
+  "ThreatType": "Phish",
+  "$friendlyName": "Phish delivered due to an ETR override"
 }

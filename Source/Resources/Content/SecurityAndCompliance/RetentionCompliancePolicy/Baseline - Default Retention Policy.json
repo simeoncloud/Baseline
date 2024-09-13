@@ -29,5 +29,6 @@
   "TeamsChannelLocation": [],
   "TeamsChannelLocationException": [],
   "TeamsChatLocation": [],
-  "TeamsChatLocationException": []
+  "TeamsChatLocationException": [],
+  "$friendlyName": "Baseline - Default Retention Policy"
 }

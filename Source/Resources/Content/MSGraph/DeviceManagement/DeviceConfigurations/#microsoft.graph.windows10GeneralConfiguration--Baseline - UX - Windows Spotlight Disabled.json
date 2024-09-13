@@ -241,5 +241,6 @@
   "windowsStoreEnablePrivateStoreOnly": false,
   "wirelessDisplayBlockProjectionToThisDevice": false,
   "wirelessDisplayBlockUserInputFromReceiver": false,
-  "wirelessDisplayRequirePinForPairing": false
+  "wirelessDisplayRequirePinForPairing": false,
+  "$friendlyName": "Baseline - UX - Windows Spotlight Disabled"
 }

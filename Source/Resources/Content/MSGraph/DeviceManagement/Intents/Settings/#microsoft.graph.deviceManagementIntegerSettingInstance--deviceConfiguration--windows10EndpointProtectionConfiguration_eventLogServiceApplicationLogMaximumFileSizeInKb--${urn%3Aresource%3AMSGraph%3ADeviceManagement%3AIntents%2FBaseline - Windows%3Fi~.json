@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_eventLogServiceApplicationLogMaximumFileSizeInKb",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": 32768,
-  "valueJson": "32768"
+  "valueJson": "32768",
+  "$friendlyName": "Baseline - Windows"
 }

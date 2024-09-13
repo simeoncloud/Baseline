@@ -48,5 +48,6 @@
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "updateScheduleType": "updateDuringTimeWindows",
-  "updateTimeWindowUtcOffsetInMinutes": -360
+  "updateTimeWindowUtcOffsetInMinutes": -360,
+  "$friendlyName": "Baseline - OS - Default iOS Update Ring"
 }

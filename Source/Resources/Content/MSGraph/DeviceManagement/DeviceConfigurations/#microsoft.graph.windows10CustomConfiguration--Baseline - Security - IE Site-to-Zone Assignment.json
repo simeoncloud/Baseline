@@ -12,5 +12,6 @@
   ],
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ]
+  ],
+  "$friendlyName": "Baseline - Security - IE Site-to-Zone Assignment"
 }

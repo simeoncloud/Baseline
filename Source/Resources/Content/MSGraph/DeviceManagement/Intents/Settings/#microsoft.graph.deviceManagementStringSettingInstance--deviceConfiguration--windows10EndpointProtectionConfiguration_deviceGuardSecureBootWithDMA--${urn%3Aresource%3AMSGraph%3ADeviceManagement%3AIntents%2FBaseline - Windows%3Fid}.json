@@ -4,5 +4,6 @@
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_deviceGuardSecureBootWithDMA",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "withoutDMA",
-  "valueJson": "\"withoutDMA\""
+  "valueJson": "\"withoutDMA\"",
+  "$friendlyName": "Baseline - Windows"
 }

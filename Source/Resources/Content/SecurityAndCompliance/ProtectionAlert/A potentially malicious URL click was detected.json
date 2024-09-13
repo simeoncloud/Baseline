@@ -12,5 +12,6 @@
   ],
   "NotifyUserOnFilterMatch": false,
   "Severity": "High",
-  "ThreatType": "MaliciousUrlClick"
+  "ThreatType": "MaliciousUrlClick",
+  "$friendlyName": "A potentially malicious URL click was detected"
 }
