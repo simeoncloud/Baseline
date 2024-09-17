@@ -1,0 +1,6 @@
+{
+  "$friendlyName": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
+  "configurationPolicyTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}",
+  "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned"
+}

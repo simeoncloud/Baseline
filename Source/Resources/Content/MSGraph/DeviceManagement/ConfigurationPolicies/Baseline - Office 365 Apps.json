@@ -22,14 +22,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "083b0710-96fa-4e2b-b56f-d2c1e0c73bdf",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_blockmacroexecutionfrominternet",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "304839ae-aac3-4870-ad4c-1c50dc52702a"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?settingInstanceTemplateId}"
         }
       }
     },
@@ -39,14 +39,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "09e50862-d35e-421f-bb50-29f5904ab928",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "76824488-d897-41ad-87dc-e59ce16a0218"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork?settingInstanceTemplateId}"
         }
       }
     },
@@ -56,14 +56,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "0aeb0127-1076-41a9-bb48-48a771cac849",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "6db2110a-fbbe-466a-90f2-6556ff2c8431"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook?settingInstanceTemplateId}"
         }
       }
     },
@@ -73,14 +73,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "0b0d8e82-29e8-4c7b-9409-15e9ced7ccfa",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "8d46b02c-c2cb-4ebe-b9e2-5bc98762149d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork?settingInstanceTemplateId}"
         }
       }
     },
@@ -90,14 +90,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "0b72f108-5d03-45af-897b-03dfdf451aec",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "9aa83886-c176-4218-8fc2-e9fda5fc5b14"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork?settingInstanceTemplateId}"
         }
       }
     },
@@ -107,14 +107,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "0decb78b-2ca1-466d-8dce-a24420f3eb2e",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "0138d85b-92cf-49ac-a651-9cdd8ec4adb6"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork?settingInstanceTemplateId}"
         }
       }
     },
@@ -124,14 +124,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "11fbf8e4-cf21-4579-b849-1356b3cd7c28",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_turnofffilevalidation?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_turnofffilevalidation_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_turnofffilevalidation",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a95abfea-5807-4edf-895a-72e235dced21"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_turnofffilevalidation?settingInstanceTemplateId}"
         }
       }
     },
@@ -141,14 +141,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "29dfba04-7be8-4366-8afa-11092180ab83",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "3efbfc25-6075-4077-88bc-570aaa1a0d82"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork?settingInstanceTemplateId}"
         }
       }
     },
@@ -158,14 +158,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "35f10863-a14b-4c1d-9673-44823d6b8b30",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "9086292b-1477-4b81-8c5c-d2c4823cdc05"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook?settingInstanceTemplateId}"
         }
       }
     },
@@ -175,14 +175,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "36418ed2-4718-47fb-ab4c-dceeab396cb0",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_enabledatabasefileprotectedview?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_enabledatabasefileprotectedview_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_enabledatabasefileprotectedview",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "d6e01cef-1021-4898-a1fa-515c588be6a6"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_enabledatabasefileprotectedview?settingInstanceTemplateId}"
         }
       }
     },
@@ -192,14 +192,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "365f468c-8843-486a-a286-1d1b9bd82e54",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security_l_turnofffilevalidation?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security_l_turnofffilevalidation_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security_l_turnofffilevalidation",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "6925f6de-5c65-4f75-81d6-aa86347599ab"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security_l_turnofffilevalidation?settingInstanceTemplateId}"
         }
       }
     },
@@ -209,14 +209,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "3a5256cc-643b-49ed-ae48-0a0d30b62d91",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_disablealltrustbarnotificationsfor?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_disablealltrustbarnotificationsfor_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_disablealltrustbarnotificationsfor",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "f244048d-d077-4f48-a8f4-8d3a026bedcc"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_disablealltrustbarnotificationsfor?settingInstanceTemplateId}"
         }
       }
     },
@@ -226,14 +226,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "3ece0936-ecf3-4e9e-a2cc-1f2c125732d2",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_datarecovery_l_donotshowdataextractionoptionswhenopeningcorruptworkbooks?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_datarecovery_l_donotshowdataextractionoptionswhenopeningcorruptworkbooks_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_datarecovery_l_donotshowdataextractionoptionswhenopeningcorruptworkbooks",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5afa1272-492d-47c9-ab3d-457f39b87004"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_datarecovery_l_donotshowdataextractionoptionswhenopeningcorruptworkbooks?settingInstanceTemplateId}"
         }
       }
     },
@@ -243,14 +243,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "512d076a-609f-47c4-ba35-87b5e79e764b",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "4c82fb55-a597-4da1-bc78-03bd7033f25c"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview?settingInstanceTemplateId}"
         }
       }
     },
@@ -260,14 +260,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "526fc8b5-0050-4fb9-8b9f-41fcb1d62a9b",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c053083c-56de-4389-97f9-8e2ef4e56a4d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?settingInstanceTemplateId}"
         }
       }
     },
@@ -277,14 +277,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "52772d66-5faf-4d09-b6fe-2f7da78b9d7d",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_disablestrictvbarefssecuritypolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_disablestrictvbarefssecuritypolicy_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_disablestrictvbarefssecuritypolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5b6ed8c5-518d-482a-831a-45e24623f03e"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_disablestrictvbarefssecuritypolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -294,14 +294,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "53eba82b-c325-46ef-a970-2b9afbd69762",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_turnofffilevalidation?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_turnofffilevalidation_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_turnofffilevalidation",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "405a095c-e6a2-470f-b2da-b7b7460d28cc"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_turnofffilevalidation?settingInstanceTemplateId}"
         }
       }
     },
@@ -311,14 +311,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "5833a95b-288c-49a7-8edf-416a00fe3965",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policydisablehttpconnect?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policydisablehttpconnect_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policydisablehttpconnect",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "1534eadf-9095-4a9d-8b35-c5876c41db34"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policydisablehttpconnect?settingInstanceTemplateId}"
         }
       }
     },
@@ -328,14 +328,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "5ce04994-c49d-4aa1-a1ee-ab353282887c",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v6~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_xl4killswitchpolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v6~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_xl4killswitchpolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v6~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_xl4killswitchpolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a684c4a5-8a0a-4028-8234-b3b6ee324e8c"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v6~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_xl4killswitchpolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -345,14 +345,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "677c56bb-a432-4971-a3dc-346035486987",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_enableblockunsecurequeryfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_enableblockunsecurequeryfiles_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_enableblockunsecurequeryfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "2d6504b8-8d72-4808-943f-278053b26331"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_enableblockunsecurequeryfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -362,14 +362,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "6955df51-c123-4356-9525-53d3c39f2120",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "f349ed0a-f773-499b-9fcc-1dce6ee9df6d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?settingInstanceTemplateId}"
         }
       }
     },
@@ -379,14 +379,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "754baa3e-b87a-4cef-8ec1-36c360e4806b",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a13cc430-0ee6-4465-95d4-93a577efc264"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview?settingInstanceTemplateId}"
         }
       }
     },
@@ -396,14 +396,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "7935e89e-1557-4150-9a1f-899171da02c6",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c7e85506-c551-493f-b25c-a25ba047799a"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview?settingInstanceTemplateId}"
         }
       }
     },
@@ -413,14 +413,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "87a16f35-0ea8-4ba4-b2eb-22d91c693520",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings~l_trustcenter241_l_allowmixofpolicyanduserlocations?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings~l_trustcenter241_l_allowmixofpolicyanduserlocations_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings~l_trustcenter241_l_allowmixofpolicyanduserlocations",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "51a102fa-60b4-49b2-b27e-88e128f36da8"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings~l_trustcenter241_l_allowmixofpolicyanduserlocations?settingInstanceTemplateId}"
         }
       }
     },
@@ -430,14 +430,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "8d51c575-2732-4890-9b79-299da8b555dc",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_smartdocumentswordexcel_l_disablesmartdocumentsuseofmanifests?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_smartdocumentswordexcel_l_disablesmartdocumentsuseofmanifests_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_smartdocumentswordexcel_l_disablesmartdocumentsuseofmanifests",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "fa21ffe9-5c26-4e00-acc8-6ece3fab7694"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_smartdocumentswordexcel_l_disablesmartdocumentsuseofmanifests?settingInstanceTemplateId}"
         }
       }
     },
@@ -447,14 +447,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "9ac7e56a-a628-445a-b18d-e8e816a0ddd0",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policyenablesiphighsecuritymode?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policyenablesiphighsecuritymode_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policyenablesiphighsecuritymode",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "39973bcf-ea3b-4fa3-99fd-3e776015dfec"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policyenablesiphighsecuritymode?settingInstanceTemplateId}"
         }
       }
     },
@@ -464,14 +464,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "9d83d893-687d-4c16-91db-0c6f52efc32d",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlaunch?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlaunch_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlaunch",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "42047932-14f9-4f0a-b0fd-54a129d2eb6a"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlaunch?settingInstanceTemplateId}"
         }
       }
     },
@@ -481,14 +481,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "9db9478f-efea-4a66-83fd-1d4cdf43b0fe",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "d538a499-dad2-4bbe-b46a-212924e4e3a5"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview?settingInstanceTemplateId}"
         }
       }
     },
@@ -498,14 +498,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "a063b55c-0e75-472b-b26f-68dd37176c74",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "daea87e1-d329-493f-b666-6318b18c6666"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview?settingInstanceTemplateId}"
         }
       }
     },
@@ -515,14 +515,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "a1e25534-d59a-48a2-a7cf-694022ce9689",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c82a6535-bf18-4ca7-a421-bf69e6a2c91e"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview?settingInstanceTemplateId}"
         }
       }
     },
@@ -532,14 +532,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "a1e671c7-1920-4542-baa3-78a7af0fe575",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "da303b58-4eb9-47da-a61f-d75043e39e39"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?settingInstanceTemplateId}"
         }
       }
     },
@@ -549,14 +549,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "a2ad6cc7-c28a-456d-9699-9b8a7b0d0856",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced~l_weboptions~l_general_l_loadpicturesfromwebpagesnotcreatedinexcel?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced~l_weboptions~l_general_l_loadpicturesfromwebpagesnotcreatedinexcel_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced~l_weboptions~l_general_l_loadpicturesfromwebpagesnotcreatedinexcel",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "cb2cc182-58c1-4c38-a5af-c7aff090bf21"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced~l_weboptions~l_general_l_loadpicturesfromwebpagesnotcreatedinexcel?settingInstanceTemplateId}"
         }
       }
     },
@@ -566,14 +566,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "a4cb6fdb-23a2-4cef-b414-c64e43aa2885",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlookup?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlookup_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlookup",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "61ed0bde-d153-448e-88f3-1b20f4e3c40f"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlookup?settingInstanceTemplateId}"
         }
       }
     },
@@ -583,14 +583,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "ade3fac6-5214-4771-bdcc-94cda48822e2",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_serversettings_l_disabletheofficeclientfrompolling?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_serversettings_l_disabletheofficeclientfrompolling_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_serversettings_l_disabletheofficeclientfrompolling",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "b8801c9c-a919-4a50-8ba1-526b1dd05a10"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_serversettings_l_disabletheofficeclientfrompolling?settingInstanceTemplateId}"
         }
       }
     },
@@ -600,14 +600,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "ba994fef-64cf-43e4-b215-07ad64f10d48",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "7ecaa655-84d0-4268-9d9d-c1a4a338a38c"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork?settingInstanceTemplateId}"
         }
       }
     },
@@ -617,14 +617,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "be345468-b011-461e-aaf8-8d786a9e92b6",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_protectdocumentmetadataforrightsmanaged?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_protectdocumentmetadataforrightsmanaged_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_protectdocumentmetadataforrightsmanaged",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "29866121-4024-42ba-aba7-33f0485645af"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_protectdocumentmetadataforrightsmanaged?settingInstanceTemplateId}"
         }
       }
     },
@@ -634,14 +634,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "c6ba8275-143b-4b80-bc86-a594d6e4cd61",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_disableautorepublish?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_disableautorepublish_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_disableautorepublish",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "0bf26c51-925b-4ea4-a2ef-ea838d16fdde"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_disableautorepublish?settingInstanceTemplateId}"
         }
       }
     },
@@ -651,14 +651,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "cb141740-6c79-4475-98f3-b515c8ab1a31",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "ef8278fe-f51b-4533-8f33-b31e6809d164"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?settingInstanceTemplateId}"
         }
       }
     },
@@ -668,14 +668,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "ce037db9-62b6-4964-9e33-97d463e2dc78",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_disabletrustbarnotificationforunsigned?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_disabletrustbarnotificationforunsigned_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_disabletrustbarnotificationforunsigned",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "9d80fe9b-66e4-4305-b26a-c56d504c179c"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_disabletrustbarnotificationforunsigned?settingInstanceTemplateId}"
         }
       }
     },
@@ -685,14 +685,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "d4a48669-a06b-4b24-9ecf-93d5faad1180",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced_l_asktoupdateautomaticlinks?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced_l_asktoupdateautomaticlinks_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced_l_asktoupdateautomaticlinks",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "9a077dc2-d996-48a2-9dbe-b5d9ff1da19e"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced_l_asktoupdateautomaticlinks?settingInstanceTemplateId}"
         }
       }
     },
@@ -702,14 +702,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "e16b8225-4178-41b1-b082-fdfd23243cbc",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "1d039b05-30be-4c39-9a67-b06c9132b030"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet?settingInstanceTemplateId}"
         }
       }
     },
@@ -719,14 +719,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "e17533e9-02e6-4072-8aee-2e1353b03a79",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_allowdde?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_allowdde_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_allowdde",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c3cb1eea-5a6d-4e02-99f1-34377abb2dbe"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_allowdde?settingInstanceTemplateId}"
         }
       }
     },
@@ -736,14 +736,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "f3a17002-cc27-45fd-bcc6-90f6ae29f80b",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "3a15919b-9b49-4a81-a3d0-fc7ab5ec291b"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook?settingInstanceTemplateId}"
         }
       }
     },
@@ -753,14 +753,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "fba5d89c-e239-4ad6-b8ca-2d27c79e6d42",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_donotshowautorepublishwarningalert?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_donotshowautorepublishwarningalert_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_donotshowautorepublishwarningalert",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "8c6dcf6d-9ebb-464d-8f01-415bf95ce6fe"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_donotshowautorepublishwarningalert?settingInstanceTemplateId}"
         }
       }
     },
@@ -770,14 +770,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "fe209d04-2687-47e3-9fea-b08a18e3bcee",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_allowvbaintranetrefs?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_allowvbaintranetrefs_0"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_allowvbaintranetrefs",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "7d2450fe-f8eb-41d9-a391-2df57adf6216"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_allowvbaintranetrefs?settingInstanceTemplateId}"
         }
       }
     },
@@ -1433,14 +1433,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "53bab9a2-197a-4e68-ace1-379dcff0ac7d",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_security~l_securityformsettings_l_outlooksecuritymode?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_security~l_securityformsettings_l_outlooksecuritymode_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_security~l_securityformsettings_l_outlooksecuritymode",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c012528b-628a-4f6b-b75e-48f54e70076a"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_security~l_securityformsettings_l_outlooksecuritymode?settingInstanceTemplateId}"
         }
       }
     },
@@ -1466,14 +1466,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "77c00068-016c-4184-9726-e5a5cf64f8e1",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_vbawarningspolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_vbawarningspolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_vbawarningspolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "592d22bc-9e87-4e8f-aaf6-e64be510ca5d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_vbawarningspolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -1694,14 +1694,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "85ac8af2-fa2e-4df7-b701-ef43255678d7",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictfiledownload?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictfiledownload_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictfiledownload",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "f8f6ce58-6cb5-4d0e-9c25-24db9937540d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictfiledownload?settingInstanceTemplateId}"
         }
       }
     },
@@ -1727,14 +1727,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "45ea78bf-7732-4c7a-9dac-17a0588452cb",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c1bdd2e1-aac3-4371-8fef-5ef930dd7c2f"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?settingInstanceTemplateId}"
         }
       }
     },
@@ -1955,14 +1955,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "3b3bcfe2-3519-4f5f-9556-cd012efe5bb8",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_protectionfromzoneelevation?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_protectionfromzoneelevation_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_protectionfromzoneelevation",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "9716d1d4-8dd0-4c8b-898d-81f3e8f2feb3"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_protectionfromzoneelevation?settingInstanceTemplateId}"
         }
       }
     },
@@ -2183,14 +2183,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "129ce873-4dba-4379-b472-bd68e4cf2c2b",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_navigateurl?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_navigateurl_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_navigateurl",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a574526d-64cb-4a39-b04d-912ec5ac40a4"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_navigateurl?settingInstanceTemplateId}"
         }
       }
     },
@@ -2411,14 +2411,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "830bc0f0-c78d-44ca-bfea-33504dca40eb",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_savedfromurl?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_savedfromurl_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_savedfromurl",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "8465a8f5-b325-4a24-ab55-908f1157cd36"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_savedfromurl?settingInstanceTemplateId}"
         }
       }
     },
@@ -2639,14 +2639,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "c493d47a-833c-4793-b1e4-f89fddc1f9ba",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_localmachinezonelockdownsecurity?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_localmachinezonelockdownsecurity_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_localmachinezonelockdownsecurity",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "49dd5a46-0c9b-4bf7-9fd3-04c7c0fed903"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_localmachinezonelockdownsecurity?settingInstanceTemplateId}"
         }
       }
     },
@@ -2867,14 +2867,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "6dc37f07-bf3e-46b9-90db-25fbf4981b3e",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_scriptedwindowsecurityrestrictions?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_scriptedwindowsecurityrestrictions_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_scriptedwindowsecurityrestrictions",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "2b62a2af-6c91-4c8b-8571-7ca9691ace96"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_scriptedwindowsecurityrestrictions?settingInstanceTemplateId}"
         }
       }
     },
@@ -3095,14 +3095,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "673375c8-df59-49f9-9c59-e4b007c32fe7",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_objectcachingprotection?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_objectcachingprotection_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_objectcachingprotection",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "2650cd36-8cec-45e9-8927-4058d2ebd5cd"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_objectcachingprotection?settingInstanceTemplateId}"
         }
       }
     },
@@ -3323,14 +3323,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "c3af40c9-2bc7-47f2-95bf-6ab5801f9b88",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "f9cf528a-443d-4c80-9b55-5b3789ba47ff"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar?settingInstanceTemplateId}"
         }
       }
     },
@@ -3551,14 +3551,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "a6f9b03f-59eb-4d5e-9cf6-df2648c811b8",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_disableusernameandpassword?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_disableusernameandpassword_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_disableusernameandpassword",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5eb98e83-0d55-464c-98c7-4e41f737cc47"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_disableusernameandpassword?settingInstanceTemplateId}"
         }
       }
     },
@@ -3584,14 +3584,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "52ff1817-30f2-4226-8690-5c563ebd47c4",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_dbaseiiiandivfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_dbaseiiiandivfiles_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_dbaseiiiandivfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "0374a527-387e-411b-b8dd-d412efc77a31"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_dbaseiiiandivfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -3617,14 +3617,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "f2bda128-4792-44ad-ad32-becb3e165fb9",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "cc0ac6ab-9db8-4b4b-a2de-37930a146302"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?settingInstanceTemplateId}"
         }
       }
     },
@@ -3650,14 +3650,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "60faf481-5c7a-4132-aa93-b2bf3f8143c7",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2000files?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2000files_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2000files",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "d71045ba-b8b7-45a6-ba51-bedd7a57eac3"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2000files?settingInstanceTemplateId}"
         }
       }
     },
@@ -3878,14 +3878,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "7895e0bd-9b30-4913-9b92-d373330752e5",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictactivexinstall?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictactivexinstall_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictactivexinstall",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a1fdbd71-362d-48d1-bc9f-2baf2b295e7e"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictactivexinstall?settingInstanceTemplateId}"
         }
       }
     },
@@ -4031,14 +4031,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "c7da9fe6-4abe-4015-a94e-7b36b449e831",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_gloabloptions~l_customize_l_noextensibilitycustomizationfromdocumentpolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_gloabloptions~l_customize_l_noextensibilitycustomizationfromdocumentpolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_gloabloptions~l_customize_l_noextensibilitycustomizationfromdocumentpolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "7a9f5797-5e8f-4f6d-8a6c-c2af5f1da864"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_gloabloptions~l_customize_l_noextensibilitycustomizationfromdocumentpolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -4064,14 +4064,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "ae5f1743-dc59-4eeb-a335-f2937ed7d5c7",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_webcontentwarninglevel?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_webcontentwarninglevel_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_webcontentwarninglevel",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "feab42d5-2089-4d9d-b732-2269ba98381d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_webcontentwarninglevel?settingInstanceTemplateId}"
         }
       }
     },
@@ -4292,14 +4292,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "bf6f7e3a-b1ae-4312-b973-93301e628c66",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_consistentmimehandling?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_consistentmimehandling_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_consistentmimehandling",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5453dd8e-4aa5-4a2c-aa55-df97ab1e94b7"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_consistentmimehandling?settingInstanceTemplateId}"
         }
       }
     },
@@ -4325,14 +4325,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "e03f96d3-fe53-4cb7-b257-88b848ea1afb",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_vbawarningspolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_vbawarningspolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_vbawarningspolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "313b955b-a1a1-448e-a595-e37ce18b0a1f"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_vbawarningspolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -4358,14 +4358,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "f6860587-5fa9-4e65-9a09-d01fa844e95f",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_loadcontrolsinforms3?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_loadcontrolsinforms3_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_loadcontrolsinforms3",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "3262ec7a-261e-4a2e-9d5d-1c3edd25322f"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_loadcontrolsinforms3?settingInstanceTemplateId}"
         }
       }
     },
@@ -4391,14 +4391,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "784e3493-a351-427b-a61a-f334b38eef38",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3macrosheetsandaddinfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3macrosheetsandaddinfiles_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3macrosheetsandaddinfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "00cb0158-d00e-41db-97bc-d0c1dc6fbe12"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3macrosheetsandaddinfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -4424,14 +4424,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "f597b310-3bd6-4597-ad2b-463847a04646",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security_l_publisherautomationsecuritylevel?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security_l_publisherautomationsecuritylevel_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security_l_publisherautomationsecuritylevel",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5aefc2f3-4974-434a-a7aa-9be437e193ca"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security_l_publisherautomationsecuritylevel?settingInstanceTemplateId}"
         }
       }
     },
@@ -4457,14 +4457,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "f43a72d1-a386-4d1b-bad9-854d90981f7d",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio50andearlierfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio50andearlierfiles_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio50andearlierfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "52a1b872-ae04-44c7-ab04-74db00ed3620"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio50andearlierfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -4505,14 +4505,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "eac12606-6732-4973-aab6-a591ff754ce1",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v5~policy~l_microsoftofficesystem~l_securitysettings_l_authenticationfbabehavior?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v5~policy~l_microsoftofficesystem~l_securitysettings_l_authenticationfbabehavior_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v5~policy~l_microsoftofficesystem~l_securitysettings_l_authenticationfbabehavior",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "b64b8a94-e0db-41da-a8b4-185e65b29240"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v5~policy~l_microsoftofficesystem~l_securitysettings_l_authenticationfbabehavior?settingInstanceTemplateId}"
         }
       }
     },
@@ -4733,14 +4733,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "e5361000-fb1a-4643-b90c-1913fd10b1ea",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_mimesniffingsafetyfature?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_mimesniffingsafetyfature_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_mimesniffingsafetyfature",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "48dcc3ef-2bca-4fe4-9dd2-06c4354f1a5f"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_mimesniffingsafetyfature?settingInstanceTemplateId}"
         }
       }
     },
@@ -4766,14 +4766,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "d73d681f-217b-4b2a-bedb-d3eef5d1001f",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3worksheets?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3worksheets_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3worksheets",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "cb123bba-2f7e-4cb5-a629-c10a6c0991e8"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3worksheets?settingInstanceTemplateId}"
         }
       }
     },
@@ -4799,14 +4799,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "fc09b37a-1842-4025-9ec6-3428ef2f0697",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_vbawarningspolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_vbawarningspolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_vbawarningspolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "03b3c336-45ea-42fd-85f2-565751fa8a4e"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_vbawarningspolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -4847,14 +4847,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "1b842839-d7b2-4457-8058-bd7cbffa6fce",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "4c8284be-b44f-40b9-b52b-dd31a90906cc"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails?settingInstanceTemplateId}"
         }
       }
     },
@@ -4880,14 +4880,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "0773012d-2cd0-460f-afb7-9ab79e892b47",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "f74a7eea-6dfe-4c49-897f-c538bfb6a33b"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?settingInstanceTemplateId}"
         }
       }
     },
@@ -4913,14 +4913,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "3f88a1a0-7337-4ade-bafd-2b70f0181e29",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "6a9b8274-a2e9-468d-ba18-a201038ae036"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?settingInstanceTemplateId}"
         }
       }
     },
@@ -5141,14 +5141,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "f4622d92-e2fb-4788-b712-6d2d3bae2f81",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_addonmanagement?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_addonmanagement_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_addonmanagement",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "ad3cc747-edbc-4307-8152-c996d51709b3"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_addonmanagement?settingInstanceTemplateId}"
         }
       }
     },
@@ -5174,14 +5174,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "675858d4-5997-4642-aa96-d52189c900ff",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "27a43771-8520-4721-9c98-5cb44c47518b"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?settingInstanceTemplateId}"
         }
       }
     },
@@ -5207,14 +5207,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "436289a2-c8e5-47c7-888b-9caf25d201a0",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4worksheets?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4worksheets_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4worksheets",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "4d4df7d9-8a6c-432a-84e9-7a28de2cb822"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4worksheets?settingInstanceTemplateId}"
         }
       }
     },
@@ -5240,14 +5240,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "8e1380cb-3159-4a09-b06b-aa8d003b4f21",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_webpagesandexcel2003xmlspreadsheets?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_webpagesandexcel2003xmlspreadsheets_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_webpagesandexcel2003xmlspreadsheets",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a23a3a71-5e9f-44bb-8449-fe4f6ecb2bef"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_webpagesandexcel2003xmlspreadsheets?settingInstanceTemplateId}"
         }
       }
     },
@@ -5273,14 +5273,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "4c62011c-4760-4a46-bbb5-bab966c804df",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4macrosheetsandaddinfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4macrosheetsandaddinfiles_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4macrosheetsandaddinfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "359f0d99-cd5e-4fa7-9b04-ba64322cfc84"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4macrosheetsandaddinfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -5306,14 +5306,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "ab7daccc-5332-45bf-8008-41d591e5b960",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "4b97540c-0073-4bc1-a0da-d4ef6564cd92"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned?settingInstanceTemplateId}"
         }
       }
     },
@@ -5339,14 +5339,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "5dc8c646-42f0-4efd-98eb-07ec0d5f6e9b",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel9597workbooksandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel9597workbooksandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel9597workbooksandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "e7dfe463-4717-48ca-aa04-5e47b27ad9fa"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel9597workbooksandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -5372,14 +5372,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "5f6a5793-e365-465f-8d9c-2882daa77544",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_difandsylkfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_difandsylkfiles_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_difandsylkfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "09e37c5b-c2ee-400b-8efb-e59c4f61cd32"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_difandsylkfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -5405,14 +5405,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "cbea3de1-d752-4411-8b3c-c0f49d89fcbf",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2000binarydocumentsandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2000binarydocumentsandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2000binarydocumentsandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "33a6df2e-2653-41d6-aece-3221c14107cc"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2000binarydocumentsandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -5438,14 +5438,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "9bd63fc2-6324-4ce0-802e-576aa0691d44",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2andearlierbinarydocumentsandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2andearlierbinarydocumentsandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2andearlierbinarydocumentsandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "75d824f6-a23a-452b-b8d0-4b96379ce072"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2andearlierbinarydocumentsandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -5471,14 +5471,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "b07d8c73-eb3c-44b1-b937-bdaaca8ac184",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2003files?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2003files_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2003files",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "399b0145-1fa6-474b-a737-7e3587ce5283"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2003files?settingInstanceTemplateId}"
         }
       }
     },
@@ -5504,14 +5504,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "4c45ac6d-8a6a-4462-ad08-79f5e8ff7bfb",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_automationsecurity?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_automationsecurity_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_automationsecurity",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "1ad5cdc1-7b50-4efa-8da5-758321c96ea4"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_automationsecurity?settingInstanceTemplateId}"
         }
       }
     },
@@ -5537,14 +5537,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "113dbbab-71e1-4e6a-ab57-415e56d3335b",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word95binarydocumentsandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word95binarydocumentsandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word95binarydocumentsandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "7bc026e9-1b0e-4e20-80b2-4f935a235630"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word95binarydocumentsandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -5570,14 +5570,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "f0acf048-6983-48d8-a7a3-c7eb7b580900",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_runprograms?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_runprograms_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_runprograms",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a6a71c05-f9d0-4099-96d5-4f8d49b0fcad"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_runprograms?settingInstanceTemplateId}"
         }
       }
     },
@@ -5603,14 +5603,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "43c7b78b-04c3-40f8-86ab-efd749f5ffa0",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2worksheets?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2worksheets_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2worksheets",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a325095c-8e65-48f9-a896-8e622d07e609"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2worksheets?settingInstanceTemplateId}"
         }
       }
     },
@@ -5636,14 +5636,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "c93c6390-a17b-46d6-8f83-c4c95a25a46c",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_activexcontrolinitialization?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_activexcontrolinitialization_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_activexcontrolinitialization",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "0d4c7cec-d75f-4c3f-b7a5-504379346aad"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_activexcontrolinitialization?settingInstanceTemplateId}"
         }
       }
     },
@@ -5669,14 +5669,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "944aefb3-c224-4a8c-9c40-3893ad5391dd",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2macrosheetsandaddinfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2macrosheetsandaddinfiles_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2macrosheetsandaddinfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "2206d915-b7d3-414e-a20f-af5821340cae"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2macrosheetsandaddinfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -5702,14 +5702,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "3edccdd9-2a59-4edb-be37-a438bfb75751",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_ppt~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_powerpoint972003presentationsshowstemplatesandaddinfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_ppt~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_powerpoint972003presentationsshowstemplatesandaddinfiles_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_ppt~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_powerpoint972003presentationsshowstemplatesandaddinfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "6a8652eb-6278-4b52-8a74-850cbc5f40f9"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_ppt~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_powerpoint972003presentationsshowstemplatesandaddinfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -5735,14 +5735,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "405dd2d5-c0f3-40c7-9fc9-e42d64933780",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5a68f792-1573-4580-8ecf-cebcd8ee0fde"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior?settingInstanceTemplateId}"
         }
       }
     },
@@ -5768,14 +5768,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "d3fdbebe-e6b2-46c0-a1ca-24f1740f405c",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word97binarydocumentsandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word97binarydocumentsandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word97binarydocumentsandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "6004bc86-ff21-4536-92e5-98022997febd"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word97binarydocumentsandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -5801,14 +5801,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "4c1baa6d-425b-4ff6-bfc6-32767e6e1f75",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_determinewhethertoforceencryptedexcel?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_determinewhethertoforceencryptedexcel_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_determinewhethertoforceencryptedexcel",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "b26205ad-648b-4187-8b20-89f60b59586c"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_determinewhethertoforceencryptedexcel?settingInstanceTemplateId}"
         }
       }
     },
@@ -5834,14 +5834,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "bf65fbec-e6a5-4ddb-bf9e-4cf216279acc",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "2a9df63f-ed80-45c6-bb89-d57770554472"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior?settingInstanceTemplateId}"
         }
       }
     },
@@ -5867,14 +5867,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "e33b960f-963b-4b70-8f34-8a0bc9e2b74e",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel95workbooks?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel95workbooks_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel95workbooks",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "88b306fa-47f8-41a6-92e8-3c082d765493"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel95workbooks?settingInstanceTemplateId}"
         }
       }
     },
@@ -5900,14 +5900,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "848d03b1-f0b8-457d-abad-edda92e46eb9",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "58cbca65-05fa-4852-bfac-8a3d607b5c96"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior?settingInstanceTemplateId}"
         }
       }
     },
@@ -5948,14 +5948,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "2573b74e-1fa3-4869-9e64-7aabf52e0e3e",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5ed6ecd5-2bda-4f51-8ea1-f6e93d5cab8d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails?settingInstanceTemplateId}"
         }
       }
     },
@@ -5981,14 +5981,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "9726c422-a0b3-4f4d-930e-529e5473858c",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_vbawarningspolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_vbawarningspolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_vbawarningspolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "eb83ba75-f794-4a14-b5c0-9c2a0f18ac38"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_vbawarningspolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -6014,14 +6014,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "00803471-5304-4ed3-9def-f712691ca1a3",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_vbawarningspolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_vbawarningspolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_vbawarningspolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "3cac6695-6105-4643-98ec-6ae0f13a8289"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_vbawarningspolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -6062,14 +6062,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "69ad22e5-05e4-4d74-a731-3dbbfcaa9394",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "b3d83160-0981-4601-b6f5-548dd032c5cb"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails?settingInstanceTemplateId}"
         }
       }
     },
@@ -6095,14 +6095,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "3ea7e0e6-a874-4dcf-9155-ea03f6d29253",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_a001_block_flash?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_a001_block_flash_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_a001_block_flash",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "eeaf16d6-2d92-4737-9164-7977f6cd9061"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_a001_block_flash?settingInstanceTemplateId}"
         }
       }
     },
@@ -6128,14 +6128,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "b922fcbe-9147-4ad4-944d-959055e6320a",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_determinewhethertoforceencryptedword?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_determinewhethertoforceencryptedword_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_determinewhethertoforceencryptedword",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "8519a064-a772-4a69-9bff-2e2d50d2202e"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_determinewhethertoforceencryptedword?settingInstanceTemplateId}"
         }
       }
     },
@@ -6161,14 +6161,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "aa49e017-b333-4ac4-bf36-0455cba2aa3c",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_forcefileextenstionstomatch?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_forcefileextenstionstomatch_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_forcefileextenstionstomatch",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "32c1ba09-79a4-46a5-a060-a009d69ee9e5"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_forcefileextenstionstomatch?settingInstanceTemplateId}"
         }
       }
     },
@@ -6194,14 +6194,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "49e8d817-09ea-474d-9cd5-50eaeaa424e9",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_vbawarningspolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_vbawarningspolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_vbawarningspolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "7401e403-752b-4268-938e-fea0a687c949"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_vbawarningspolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -6227,14 +6227,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "ee8be36b-1880-423a-a0e2-90d4576d7d07",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel972003workbooksandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel972003workbooksandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel972003workbooksandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5e71714a-93fc-4b6c-abd7-c1962a8b99fb"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel972003workbooksandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -6260,14 +6260,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "b21c608d-6b63-4fb8-a84c-3b65caf20feb",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_vbawarningspolicy?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_vbawarningspolicy_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_vbawarningspolicy",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "b9e1e409-a40e-4039-9ebb-609ef1d7b72c"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_vbawarningspolicy?settingInstanceTemplateId}"
         }
       }
     },
@@ -6293,14 +6293,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "cb21db37-8635-4d00-b16e-f880bf9f94f5",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4workbooks?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4workbooks_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4workbooks",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "67b9f9b5-c22f-4aa6-b653-8c7f544dd825"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4workbooks?settingInstanceTemplateId}"
         }
       }
     },
@@ -6326,14 +6326,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "c102afe6-d009-4255-a2f5-ecacc3fbeae6",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_determinewhethertoforceencryptedppt?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_determinewhethertoforceencryptedppt_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_determinewhethertoforceencryptedppt",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c1463bad-e500-480f-a468-811e8ca15f88"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_determinewhethertoforceencryptedppt?settingInstanceTemplateId}"
         }
       }
     },
@@ -6359,14 +6359,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "a4bb8c0f-fefe-49d6-ad1a-41ad91f1a4fa",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word6pt0binarydocumentsandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word6pt0binarydocumentsandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word6pt0binarydocumentsandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "2a89045b-f44c-403c-b7dc-a454305e8aa5"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word6pt0binarydocumentsandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -6392,14 +6392,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "9b1290e1-a580-4e3f-a2f4-b6747a3384d4",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2003binarydocumentsandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2003binarydocumentsandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2003binarydocumentsandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "fe881237-90fd-4cd5-b5df-a6407ee1a6f6"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2003binarydocumentsandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -6425,14 +6425,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "249260b1-60e0-4c2a-85e5-b01d399fb21a",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_wordxpbinarydocumentsandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_wordxpbinarydocumentsandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_wordxpbinarydocumentsandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "8bb5fe39-ad5a-4073-a317-996c4e4a7d40"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_wordxpbinarydocumentsandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -6458,14 +6458,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "2e253dcd-11b8-46d9-a11c-a6b10e66781e",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_macroruntimescanscope?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_macroruntimescanscope_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_macroruntimescanscope",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "8f44c729-ec49-4940-8900-d0bde71a0c25"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_macroruntimescanscope?settingInstanceTemplateId}"
         }
       }
     },
@@ -6491,14 +6491,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "c895837d-037d-4472-8cf5-d9ab8c37a547",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2007andlaterbinarydocumentsandtemplates?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2007andlaterbinarydocumentsandtemplates_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2007andlaterbinarydocumentsandtemplates",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "d5b6c538-41eb-4abc-bf4d-7de1b164fa38"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2007andlaterbinarydocumentsandtemplates?settingInstanceTemplateId}"
         }
       }
     },
@@ -6644,14 +6644,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "1d95690f-e198-4db0-bdba-b807af626a0d",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_legacy_jscript?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_legacy_jscript_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_legacy_jscript",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "e769e9ab-d767-4d97-b29e-96a27d500a4d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_legacy_jscript?settingInstanceTemplateId}"
         }
       }
     },
@@ -6677,14 +6677,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "e96d696d-2731-40a0-b0a0-70066fbfa15f",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedoffice972003?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedoffice972003_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedoffice972003",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "afebb377-0061-42da-bdd2-fa91b2031cc2"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedoffice972003?settingInstanceTemplateId}"
         }
       }
     },
@@ -6710,14 +6710,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "bf28c7d4-eaf0-44d7-b96b-f3f0cec582d5",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedofficeopen?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedofficeopen_1"
         },
         "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedofficeopen",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "5e950441-9c2e-4eb4-9023-5f7a5e9b0dd0"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedofficeopen?settingInstanceTemplateId}"
         }
       }
     }
@@ -6725,6 +6725,6 @@
   "technologies": "mdm",
   "templateReference": {
     "templateFamily": "baseline",
-    "templateId": "90316f12-246d-44c6-a767-f87692e86083_1"
+    "templateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}"
   }
 }

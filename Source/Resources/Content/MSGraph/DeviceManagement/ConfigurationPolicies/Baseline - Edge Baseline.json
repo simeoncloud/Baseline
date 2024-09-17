@@ -22,14 +22,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "10542a7f-ed92-4e3a-9aa2-3e1e63281e65",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev88.0.705.23~policy~microsoft_edge~httpauthentication_basicauthoverhttpenabled?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev88.0.705.23~policy~microsoft_edge~httpauthentication_basicauthoverhttpenabled_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev88.0.705.23~policy~microsoft_edge~httpauthentication_basicauthoverhttpenabled",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "b7f9550d-022f-4a8a-b289-5f75262ec3fa"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev88.0.705.23~policy~microsoft_edge~httpauthentication_basicauthoverhttpenabled?settingInstanceTemplateId}"
         }
       }
     },
@@ -39,14 +39,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "321857f3-0fb3-40a2-9b2a-79487aabc238",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~passwordmanager_passwordmanagerenabled?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~passwordmanager_passwordmanagerenabled_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~passwordmanager_passwordmanagerenabled",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c896dd1b-8c68-454b-b5c7-b533e910b958"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~passwordmanager_passwordmanagerenabled?settingInstanceTemplateId}"
         }
       }
     },
@@ -56,14 +56,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "3781fbef-b979-4822-9891-37b6490a0d35",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev111~policy~microsoft_edge_sharedarraybufferunrestrictedaccessallowed?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev111~policy~microsoft_edge_sharedarraybufferunrestrictedaccessallowed_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev111~policy~microsoft_edge_sharedarraybufferunrestrictedaccessallowed",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "26ef6cf8-415f-4530-8b04-9395f7b1e960"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev111~policy~microsoft_edge_sharedarraybufferunrestrictedaccessallowed?settingInstanceTemplateId}"
         }
       }
     },
@@ -73,14 +73,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "3f635be2-8fc0-4993-b12a-ecc320851c49",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "c91ec832-be42-4492-9bdd-da9adf42f95d"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles?settingInstanceTemplateId}"
         }
       }
     },
@@ -90,14 +90,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "483f4663-380f-4dfd-858b-a7aa30312910",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "6e76c824-185c-4b5f-8f06-0ad28155c312"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled?settingInstanceTemplateId}"
         }
       }
     },
@@ -107,14 +107,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "48ee8f8d-e889-4d7a-9643-e750cf506c23",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev107~policy~microsoft_edge_websqlaccess?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev107~policy~microsoft_edge_websqlaccess_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev107~policy~microsoft_edge_websqlaccess",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "6ea9c45e-42cc-47e9-8dbc-7f5cb0e333db"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev107~policy~microsoft_edge_websqlaccess?settingInstanceTemplateId}"
         }
       }
     },
@@ -124,14 +124,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "5700cbbc-dc16-49d6-84e2-7d91165bdc9f",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge_internetexplorermodetoolbarbuttonenabled?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge_internetexplorermodetoolbarbuttonenabled_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge_internetexplorermodetoolbarbuttonenabled",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "9ded8781-afa6-4276-b86c-a7d92656bbcf"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge_internetexplorermodetoolbarbuttonenabled?settingInstanceTemplateId}"
         }
       }
     },
@@ -141,14 +141,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "5efa0655-1a70-4449-8449-a6b4a22b2811",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "b8fae2fb-e524-447a-b20f-d7328f7939d9"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride?settingInstanceTemplateId}"
         }
       }
     },
@@ -158,14 +158,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "7b0563dd-0e46-4acf-8659-a4e6f27ad000",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_internetexplorerintegrationreloadiniemodeallowed?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_internetexplorerintegrationreloadiniemodeallowed_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_internetexplorerintegrationreloadiniemodeallowed",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "26ad3c16-7d28-4b3c-ba7e-9e69bb66bfa0"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_internetexplorerintegrationreloadiniemodeallowed?settingInstanceTemplateId}"
         }
       }
     },
@@ -175,14 +175,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "a263097b-7216-4575-937c-6c54f801fd0b",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge~privatenetworkrequestsettings_insecureprivatenetworkrequestsallowed?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge~privatenetworkrequestsettings_insecureprivatenetworkrequestsallowed_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge~privatenetworkrequestsettings_insecureprivatenetworkrequestsallowed",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "2257d38a-d784-4f01-a199-4bd213dc74ca"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge~privatenetworkrequestsettings_insecureprivatenetworkrequestsallowed?settingInstanceTemplateId}"
         }
       }
     },
@@ -192,14 +192,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "ab63e247-4610-464e-bab0-efee4cfe531e",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_siteperprocess?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_siteperprocess_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_siteperprocess",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "77f046d6-a90b-4cab-a701-89c1dd155471"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_siteperprocess?settingInstanceTemplateId}"
         }
       }
     },
@@ -209,14 +209,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "ad5e25ab-6456-49f5-bbd8-812306f92a59",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~nativemessaging_nativemessaginguserlevelhosts?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~nativemessaging_nativemessaginguserlevelhosts_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~nativemessaging_nativemessaginguserlevelhosts",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "e23a1c78-bb46-495d-9126-9fc6b08271b1"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~nativemessaging_nativemessaginguserlevelhosts?settingInstanceTemplateId}"
         }
       }
     },
@@ -226,14 +226,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "b02422b7-d186-4463-ac29-0a927742b7a5",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev95~policy~microsoft_edge_browserlegacyextensionpointsblockingenabled?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev95~policy~microsoft_edge_browserlegacyextensionpointsblockingenabled_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev95~policy~microsoft_edge_browserlegacyextensionpointsblockingenabled",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "58431e2f-b5fd-4736-bed3-48063194d3ad"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev95~policy~microsoft_edge_browserlegacyextensionpointsblockingenabled?settingInstanceTemplateId}"
         }
       }
     },
@@ -243,14 +243,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "b348e569-42f7-4eff-af14-fa80ba4c1aa6",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev97~policy~microsoft_edge_edgeenhanceimagesenabled?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edgev97~policy~microsoft_edge_edgeenhanceimagesenabled_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev97~policy~microsoft_edge_edgeenhanceimagesenabled",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "f6fb74bc-2a2b-4ea4-97a3-6a697194dec0"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edgev97~policy~microsoft_edge_edgeenhanceimagesenabled?settingInstanceTemplateId}"
         }
       }
     },
@@ -260,14 +260,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "d6e83fec-c49c-4452-8ffe-a451bfc83756",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "bb4c2a79-a5ed-4cf4-909f-e146060c677c"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled?settingInstanceTemplateId}"
         }
       }
     },
@@ -277,14 +277,14 @@
         "choiceSettingValue": {
           "children": [],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "f682ed86-4698-45d3-b55f-1507bb5a44b7",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslerroroverrideallowed?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslerroroverrideallowed_0"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslerroroverrideallowed",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "04f838c7-d056-44cd-8a9b-044854fc7671"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslerroroverrideallowed?settingInstanceTemplateId}"
         }
       }
     },
@@ -310,14 +310,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "b9337e91-b3be-41a4-91ed-4f939c8b8f3f",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "456008a5-c8f9-467b-9ef4-396d27cf4cb4"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin?settingInstanceTemplateId}"
         }
       }
     },
@@ -341,14 +341,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "b131b3e4-022f-47b4-a1df-1536541534a2",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "57357d5a-90a1-422e-bd60-992af042be68"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist?settingInstanceTemplateId}"
         }
       }
     },
@@ -374,14 +374,14 @@
             }
           ],
           "settingValueTemplateReference": {
-            "settingValueTemplateId": "455865ef-5803-4f3a-9fed-aad45140106d",
+            "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes?choiceSettingValueTemplate.settingValueTemplateId}",
             "useTemplateDefault": false
           },
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_1"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes",
         "settingInstanceTemplateReference": {
-          "settingInstanceTemplateId": "a70b4e50-e1b0-46b5-8e00-4c2568b87ffc"
+          "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes?settingInstanceTemplateId}"
         }
       }
     }
@@ -389,6 +389,6 @@
   "technologies": "mdm",
   "templateReference": {
     "templateFamily": "baseline",
-    "templateId": "c66347b7-8325-4954-a235-3bf2233dfbfd_1"
+    "templateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}"
   }
 }
