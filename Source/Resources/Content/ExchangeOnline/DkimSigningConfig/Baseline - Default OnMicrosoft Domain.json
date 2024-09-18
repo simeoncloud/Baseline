@@ -4,5 +4,5 @@
   "BodyCanonicalization": "Relaxed",
   "Enabled": true,
   "HeaderCanonicalization": "Relaxed",
-  "$friendlyName": null
+  "$friendlyName": "Baseline - Default OnMicrosoft Domain"
 }
