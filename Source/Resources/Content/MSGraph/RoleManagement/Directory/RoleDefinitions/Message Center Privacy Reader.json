@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Message Center Privacy Reader",
   "$description": "Can read security messages and updates in Office 365 Message Center only.",
+  "$friendlyName": "Message Center Privacy Reader",
   "isEnabled": true,
   "resourceScopes": [
     "/"

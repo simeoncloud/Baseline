@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Compliance Data Administrator",
   "$description": "Creates and manages compliance content.",
+  "$friendlyName": "Compliance Data Administrator",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Compliance Data Administrator?id}"
 }

@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Require MFA for Guest Users",
   "$description": "| What does this do? | Requries MFA for Guest Users in the organization.  |\n| Why should you use this? | By enforcing MFA within an organization, companies can better protect themselves against cyber threats, such as hacking and identity theft. Guest users are likely accessing corprorate data and should be required to have MFA just like other users in the org. |\n| What is the end-user impact? | <span style='color: yellow'>Medium Impact.</span> Guest users will be prompted for MFA when signing in. They will have to set up MFA when it is their first time logging in to your organization if they do not have it set up already. |\n| Learn more | [Require MFA for Guest Users](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-policy-guest-mfa) |",
+  "$friendlyName": "Baseline - Require MFA for Guest Users",
   "conditions": {
     "applications": {
       "excludeApplications": [],

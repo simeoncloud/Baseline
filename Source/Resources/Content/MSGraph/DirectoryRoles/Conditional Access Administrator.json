@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Conditional Access Administrator",
   "$description": "Can manage Conditional Access capabilities.",
+  "$friendlyName": "Conditional Access Administrator",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Conditional Access Administrator?id}"
 }

@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Fabric Administrator",
   "$description": "Manages all aspects of Microsoft Fabric.",
+  "$friendlyName": "Fabric Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

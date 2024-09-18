@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Exchange Administrator",
   "$description": "Can manage all aspects of the Exchange product.",
+  "$friendlyName": "Exchange Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

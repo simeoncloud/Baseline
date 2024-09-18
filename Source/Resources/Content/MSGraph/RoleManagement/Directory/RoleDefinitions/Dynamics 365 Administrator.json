@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Dynamics 365 Administrator",
   "$description": "Can manage all aspects of the Dynamics 365 product.",
+  "$friendlyName": "Dynamics 365 Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

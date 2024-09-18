@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Search Editor",
   "$description": "Can create and manage the editorial content such as bookmarks, Q and As, locations, floorplan.",
+  "$friendlyName": "Search Editor",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Search Editor?id}"
 }

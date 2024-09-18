@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Security Reader",
   "$description": "Can read security information and reports in Microsoft Entra ID and Office 365.",
+  "$friendlyName": "Security Reader",
   "isEnabled": true,
   "resourceScopes": [
     "/"

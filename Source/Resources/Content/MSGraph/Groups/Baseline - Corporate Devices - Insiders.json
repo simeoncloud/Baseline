@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Corporate Devices - Insiders",
   "$description": "| What does this do? | Creates a manually assigned device group to which configurations can be deployed before other rings of devices. Devices added to this group will be assigned to the \"Insiders\" Windows update ring. |\n| Why should you use this? | If you want to test configuration changes using release rings (Insiders > Preview > All Devices) containing a subset of devices before deploying to all devices. |\n| What is the end-user impact? | Devices in this group may receive and test configuration changes before others. |\n| Learn more | N/A |",
+  "$friendlyName": "Baseline - Corporate Devices - Insiders",
   "displayName": "Baseline - Corporate Devices - Insiders",
   "groupTypes": [],
   "infoCatalogs": [],

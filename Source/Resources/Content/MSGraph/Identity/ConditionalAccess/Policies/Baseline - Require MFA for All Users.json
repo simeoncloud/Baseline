@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Require MFA for All Users",
   "$description": "| What does this do? | Requires MFA for all users. Excludes users part of the \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.\" that is part of the baseline. |\n| Why should you use this? | By enforcing MFA within an organization, companies can better protect themselves against cyber threats, such as hacking and identity theft. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users must authenticate using MFA when accessing their account. |\n| Learn more | [How to: Require MFA for all users with Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) |",
+  "$friendlyName": "Baseline - Require MFA for All Users",
   "conditions": {
     "applications": {
       "excludeApplications": [],

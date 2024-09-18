@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Global Admin Access Review - Global Administrator",
   "$description": "| What does this do? | Creates an Access Review Policy for the Global Administrator role. This will notify all Global Admins quarterly and ask to provide a justification reason for maintaining the role. |\n| Why should you use this? | Access reviews should be periodically performed for users with permanent or eligible privileged roles. |\n| What is the end-user impact? | Users assigned the Global Administrator role will receive an email notice quarterly. They will need to provide a justification reason for keeping this role. If the user selects that the role is not longer needed, that Global Administrator role will be removed from the user. |\n| Learn more | [Microsoft Access Reviews](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) |",
+  "$friendlyName": "Global Admin Access Review - Global Administrator",
   "additionalNotificationRecipients": [],
   "backupReviewers": [],
   "descriptionForAdmins": "",

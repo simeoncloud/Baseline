@@ -1,7 +1,7 @@
 {
+  "$description": "| What does this do? | The baseline allows users in the Azure AD group \"Baseline - Device Enrollers\" to enroll any Windows device, even if they have not been previously registered in Autopilot. This can be overridden by other configurations with a higher priority. |\n| Why should you use this? | If you want to allow certain users to register non-Autopilot registered devices. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Only certain users will be able to enroll devices to Intune that are non-Autopilot registered. |\n| Learn more | [Set enrollment restrictions](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set) |",
   "$friendlyName": "singlePlatformRestriction--Baseline - Device Enrollers can enroll any devices",
   "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionConfiguration",
-  "$description": "| What does this do? | The baseline allows users in the Azure AD group \"Baseline - Device Enrollers\" to enroll any Windows device, even if they have not been previously registered in Autopilot. This can be overridden by other configurations with a higher priority. |\n| Why should you use this? | If you want to allow certain users to register non-Autopilot registered devices. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Only certain users will be able to enroll devices to Intune that are non-Autopilot registered. |\n| Learn more | [Set enrollment restrictions](https://docs.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set) |",
   "assignments": [
     {
       "source": "direct",

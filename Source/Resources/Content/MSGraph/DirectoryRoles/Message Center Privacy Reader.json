@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Message Center Privacy Reader",
   "$description": "Can read security messages and updates in Office 365 Message Center only.",
+  "$friendlyName": "Message Center Privacy Reader",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Message Center Privacy Reader?id}"
 }

@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Global",
   "$description": "| What does this do? | Ensures that the Global default Policies for Live Events is set so that only the Organizer can record the session. |\n| Why should you use this? | Live events are recorded by default. Organizations should increase their privacy by changing the policy so that events are only recorded at the organizer’s discretion. |\n| What is the end-user impact? | Only the meeting organizer will be able to record the live session. |\n| Learn more | [Live Events Recording Policies](https://learn.microsoft.com/en-us/microsoftteams/teams-live-events/live-events-recording-policies) |",
+  "$friendlyName": "Global",
   "AllowBroadcastScheduling": true,
   "AllowBroadcastTranscription": false,
   "BroadcastAttendeeVisibilityMode": "Everyone",

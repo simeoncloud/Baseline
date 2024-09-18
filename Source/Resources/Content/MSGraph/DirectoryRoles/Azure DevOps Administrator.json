@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Azure DevOps Administrator",
   "$description": "Can manage Azure DevOps organization policy and settings.",
+  "$friendlyName": "Azure DevOps Administrator",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Azure DevOps Administrator?id}"
 }

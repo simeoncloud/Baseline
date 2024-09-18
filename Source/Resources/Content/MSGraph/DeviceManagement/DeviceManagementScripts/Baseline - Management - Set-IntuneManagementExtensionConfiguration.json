@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Management - Set-IntuneManagementExtensionConfiguration",
   "$description": "| What does this do? | The baseline configures the IntuneManagementExtension to not delete installation logs from devices. |\n| Why should you use this? | If you want to have logs available to troubleshoot device management issues. |\n| What is the end-user impact? | Users will be able to view installation logs. |\n| Learn more | N/A |",
+  "$friendlyName": "Baseline - Management - Set-IntuneManagementExtensionConfiguration",
   "assignments": [
     {
       "target": {

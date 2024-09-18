@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Office365 AntiPhish Default",
   "$description": "| What does this do? | Configures the anti-phishing policies to include impersonation protection, mailbox intelligence, and safety tips. |\n| Why should you use this? |  Impersonation protection checks incoming emails to see if the sender address is similar to the users or domains on an agency-defined list. If the sender address is significantly similar, as to indicate an impersonation attempt, the email is quarantined. Mailbox intelligence is an artificial intelligence (AI)-based tool for identifying potential impersonation attempts|\n| What is the end-user impact? | With this setting in place, users will better protection against spoofing attempts against their email. With additional protections, there is a higher chance of false positives that could negatively impact the user in which they do not receive legitimate mail.|\n| Learn more | [Configure Anti-phishing Policies ](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-phishing-policies-eop-configure?view=o365-worldwide) |",
+  "$friendlyName": "Office365 AntiPhish Default",
   "AuthenticationFailAction": "Quarantine",
   "DmarcQuarantineAction": "Quarantine",
   "DmarcRejectAction": "Reject",

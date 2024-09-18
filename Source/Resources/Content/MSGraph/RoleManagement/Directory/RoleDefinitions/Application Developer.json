@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Application Developer",
   "$description": "Can create application registrations independent of the 'Users can register applications' setting.",
+  "$friendlyName": "Application Developer",
   "isEnabled": true,
   "resourceScopes": [
     "/"

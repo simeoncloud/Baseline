@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Default Teams DLP policy rule",
   "$description": "| What does this do? | This policy detects the presence of credit card numbers in Teams chats and channel messages. When this sensitive info is detected, admins will receive an alert but policy tips won't be displayed to users. |\n| Why should you use this? | Senesitive content should be restricted from being shared inside the organization where it could easily be exfiltrated such as Teams chats.|\n| What is the end-user impact? | Users will continue to be able to send messages but admins will be alerted to senstive content being shared. |\n| Learn more | [Data loss prevention and Microsoft Teams](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide) |",
+  "$friendlyName": "Default Teams DLP policy rule",
   "AdvancedRule": {
     "Condition": {
       "Operator": "And",

@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Teams Communications Administrator",
   "$description": "Can manage calling and meetings features within the Microsoft Teams service.",
+  "$friendlyName": "Teams Communications Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

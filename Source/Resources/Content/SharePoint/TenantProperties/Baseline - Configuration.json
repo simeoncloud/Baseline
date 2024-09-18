@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Configuration",
   "$description": "| What does this do? | File and Folder links default sharing settings are set to Specific People. External sharing is limited to only approved domains. Expiration timers for guest access to shared links is limited to 30 days. |\n| Why should you use this? | Having the settings reduces the chances of data exflitration in your organization. |\n| What is the end-user impact? | The end user impact is high if there is a lot of external collaboration going on with shared documents from SharePoint or OneDrive. Users will not be able to share with users outside the org unless their domain is whitelisted in the SharePoint Admin Center. Guest user links will expire by default in 30 days.  |\n| Learn more | [Manage Sharing Settings](https://learn.microsoft.com/en-us/sharepoint/turn-external-sharing-on-or-off) |",
+  "$friendlyName": "Baseline - Configuration",
   "AllowCommentsTextOnEmailEnabled": true,
   "AllowDownloadingNonWebViewableFiles": true,
   "AllowedDomainListForSyncClient": [],

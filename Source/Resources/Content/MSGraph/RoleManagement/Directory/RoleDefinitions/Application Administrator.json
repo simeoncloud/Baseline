@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Application Administrator",
   "$description": "Can create and manage all aspects of app registrations and enterprise apps.",
+  "$friendlyName": "Application Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

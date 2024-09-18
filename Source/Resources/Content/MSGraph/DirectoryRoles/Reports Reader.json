@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Reports Reader",
   "$description": "Can read sign-in and audit reports.",
+  "$friendlyName": "Reports Reader",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Reports Reader?id}"
 }

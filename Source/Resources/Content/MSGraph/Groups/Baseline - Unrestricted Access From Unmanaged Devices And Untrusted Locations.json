@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations",
   "$description": "| What does this do? | C |",
+  "$friendlyName": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations",
   "displayName": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations",
   "groupTypes": [],
   "infoCatalogs": [],

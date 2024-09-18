@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Authentication Administrator",
   "$description": "Can access to view, set and reset authentication method information for any non-admin user.",
+  "$friendlyName": "Authentication Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

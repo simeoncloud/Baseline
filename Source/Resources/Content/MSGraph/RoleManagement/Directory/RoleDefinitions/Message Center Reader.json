@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Message Center Reader",
   "$description": "Can read messages and updates for their organization in Office 365 Message Center only.",
+  "$friendlyName": "Message Center Reader",
   "isEnabled": true,
   "resourceScopes": [
     "/"

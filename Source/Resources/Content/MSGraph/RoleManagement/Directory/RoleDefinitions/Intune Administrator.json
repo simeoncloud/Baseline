@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Intune Administrator",
   "$description": "Can manage all aspects of the Intune product.",
+  "$friendlyName": "Intune Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

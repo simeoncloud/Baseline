@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Default DLP Policy for Office 365",
   "$description": "| What does this do? | This policy detects the presence of credit card numbers in externally shared documents and emails. End users are notified of the detection with the suggestion to consider either removing the sensitive data or restricting the sharing.|\n| Why should you use this? | Senesitive content should be restricted from being shared inside the organization where it could easily be exfiltrated such as externally sent email messages.|\n| What is the end-user impact? | End users are notified of the detection with the suggestion to consider either removing the sensitive data or restricting the sharing. |\n| Learn more | [Data loss prevention in Exchange Online](https://learn.microsoft.com/en-us/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) |",
+  "$friendlyName": "Baseline - Default DLP Policy for Office 365",
   "EndpointDlpLocation": [],
   "EndpointDlpLocationException": [],
   "ExceptIfOneDriveSharedBy": [],

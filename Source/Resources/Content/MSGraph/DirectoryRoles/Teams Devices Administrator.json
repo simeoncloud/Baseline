@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Teams Devices Administrator",
   "$description": "Can perform management related tasks on Teams certified devices.",
+  "$friendlyName": "Teams Devices Administrator",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Devices Administrator?id}"
 }

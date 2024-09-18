@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Skype for Business Administrator",
   "$description": "Can manage all aspects of the Skype for Business product.",
+  "$friendlyName": "Skype for Business Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

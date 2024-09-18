@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Compliance Administrator",
   "$description": "Can read and manage compliance configuration and reports in Microsoft Entra ID and Microsoft 365.",
+  "$friendlyName": "Compliance Administrator",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Compliance Administrator?id}"
 }

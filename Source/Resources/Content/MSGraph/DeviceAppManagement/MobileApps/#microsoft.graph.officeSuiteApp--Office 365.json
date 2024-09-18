@@ -1,7 +1,7 @@
 {
+  "$description": "| What does this do? | Office 365 is Microsoft’s productivity suite with popular applications such as Word, Excel and PowerPoint. |\n| Why should you use this? | If you want Office 365 desktop applications to be installed on managed devices. |\n| What is the end-user impact? | Users will have Office 365 installed on their devices. |\n| Learn more | N/A",
   "$friendlyName": "Office 365",
   "@odata.type": "#microsoft.graph.officeSuiteApp",
-  "$description": "| What does this do? | Office 365 is Microsoft’s productivity suite with popular applications such as Word, Excel and PowerPoint. |\n| Why should you use this? | If you want Office 365 desktop applications to be installed on managed devices. |\n| What is the end-user impact? | Users will have Office 365 installed on their devices. |\n| Learn more | N/A",
   "autoAcceptEula": true,
   "displayName": "Office 365",
   "excludedApps": {

@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "B2C IEF Policy Administrator",
   "$description": "Can create and manage trust framework policies in the Identity Experience Framework (IEF).",
+  "$friendlyName": "B2C IEF Policy Administrator",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/B2C IEF Policy Administrator?id}"
 }

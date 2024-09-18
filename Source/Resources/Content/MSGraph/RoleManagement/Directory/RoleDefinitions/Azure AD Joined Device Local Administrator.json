@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Azure AD Joined Device Local Administrator",
   "$description": "| What does this do? | Users assigned to this role are added to the local administrators group on Azure AD-joined devices. |",
+  "$friendlyName": "Azure AD Joined Device Local Administrator",
   "description": "Users assigned to this role are added to the local administrators group on Microsoft Entra joined devices.",
   "isEnabled": true,
   "resourceScopes": [

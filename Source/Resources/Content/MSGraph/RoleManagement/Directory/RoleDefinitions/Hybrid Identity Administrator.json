@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Hybrid Identity Administrator",
   "$description": "Can manage Active Directory to Microsoft Entra cloud provisioning, Microsoft Entra Connect, and federation settings.",
+  "$friendlyName": "Hybrid Identity Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

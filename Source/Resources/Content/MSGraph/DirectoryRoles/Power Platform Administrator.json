@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Power Platform Administrator",
   "$description": "Can create and manage all aspects of Microsoft Dynamics 365, PowerApps and Microsoft Flow.",
+  "$friendlyName": "Power Platform Administrator",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Power Platform Administrator?id}"
 }

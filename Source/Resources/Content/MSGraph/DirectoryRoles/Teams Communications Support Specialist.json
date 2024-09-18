@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Teams Communications Support Specialist",
   "$description": "Can troubleshoot communications issues within Teams using basic tools.",
+  "$friendlyName": "Teams Communications Support Specialist",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Communications Support Specialist?id}"
 }

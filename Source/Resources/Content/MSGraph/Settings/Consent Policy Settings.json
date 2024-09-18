@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Consent Policy Settings",
   "$description": "| What does this do? | Prevents users from consenting to 3rd party applications. |\n| Why should you use this? | Ensure that only administrators can consent to third-party applications and only administrators can control which permissions are granted. An admin consent workflow can be configured in Azure AD; otherwise, users will be blocked when they try to access an application that requires permissions to access organizational data.  |\n| What is the end-user impact? | <span style='color: black'>Low Impact.</span> The number of times a user should be trying to consent a 3rd part application should be low but when they do, they will be blocked. If you have configured the admin consent flow, they will be notified accordingly. This setting is not generally something that requires any communication before turning on. |\n| Learn more | [Configure User Consent to Applications](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/configure-user-consent?pivots=portal) |",
+  "$friendlyName": "Consent Policy Settings",
   "templateId": "dffd5d46-495d-40a9-8e21-954ff55e198a",
   "values": [
     {

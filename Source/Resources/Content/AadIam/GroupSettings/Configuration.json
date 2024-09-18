@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Configuration",
   "$description": "| What does this do? | Configures group membership management options. The baseline restricts the following activities to administrators: owners managing group membership requests, access to features in the portal, creation of security groups, and creation of Microsoft 365 groups. |\n| Why should you use this? | If you want to have a more secure group settings environment. |\n| What is the end-user impact? | The following activities will be restricted to administrators: owners managing group membership requests, access to features in the portal, creation of security groups, and creation of Microsoft 365 groups. |\n| Learn more | [Users, groups, and roles](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-self-service-management) |",
+  "$friendlyName": "Configuration",
   "groupsInAccessPanelEnabled": true
 }

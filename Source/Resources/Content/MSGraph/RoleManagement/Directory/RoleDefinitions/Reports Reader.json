@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Reports Reader",
   "$description": "Can read sign-in and audit reports.",
+  "$friendlyName": "Reports Reader",
   "isEnabled": true,
   "resourceScopes": [
     "/"

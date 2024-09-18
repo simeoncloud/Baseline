@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Functionality - Microsoft Edge Configuration",
   "$description": "| What does this do? | Configures Microsoft Edge for all devices to automatically sign in to the browser and synchronize history and passwords. Also sets Google as the default search engine. |\n| Why should you use this? | If you want to create an optimal user experience for the new Chromium Edge browser. |\n| What is the end-user impact? | Users' search history and passwords will be synchronized across devices. |\n| Learn more | [Microsoft Edge Enterprise Sync](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-enterprise-sync) |",
+  "$friendlyName": "Baseline - Functionality - Microsoft Edge Configuration",
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ]

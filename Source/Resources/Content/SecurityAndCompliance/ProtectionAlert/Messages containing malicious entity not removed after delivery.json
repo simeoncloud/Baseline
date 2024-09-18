@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Messages containing malicious entity not removed after delivery",
   "$description": "| What does this do? | This policy ensures all Exchange alerts are enabled and are being sent to admins in the tenant when triggered. |\n| Why should you use this? | Alert policies in the new Exchange admin center (EAC) allow you to track events related to mail flow. |\n| What is the end-user impact? | Only Admin users in the tenant receive email notifiations of alert triggers. End-Users are not affectedd. |\n| Learn more | [Alert policies in Exchange Online](https://learn.microsoft.com/en-us/exchange/monitoring/mail-flow-insights/alert-policy-and-its-configuration)|",
+  "$friendlyName": "Messages containing malicious entity not removed after delivery",
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "Messages containing a malicious entity were delivered, and we could not remove them after delivery. Manual action is required. Please remove the malicious messages for the affected users. -V1.0.0.0",

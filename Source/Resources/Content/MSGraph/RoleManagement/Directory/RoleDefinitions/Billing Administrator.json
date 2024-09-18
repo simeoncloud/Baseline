@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Billing Administrator",
   "$description": "Can perform common billing related tasks like updating payment information.",
+  "$friendlyName": "Billing Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

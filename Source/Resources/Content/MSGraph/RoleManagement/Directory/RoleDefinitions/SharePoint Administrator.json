@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "SharePoint Administrator",
   "$description": "Can manage all aspects of the SharePoint service.",
+  "$friendlyName": "SharePoint Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "Billing Administrator",
   "$description": "Can perform common billing related tasks like updating payment information.",
+  "$friendlyName": "Billing Administrator",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Billing Administrator?id}"
 }

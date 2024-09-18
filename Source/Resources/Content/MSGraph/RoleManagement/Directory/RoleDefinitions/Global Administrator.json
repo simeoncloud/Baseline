@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Global Administrator",
   "$description": "| What does this do? | Can manage all aspects of Azure AD and Microsoft services that use Azure AD identities. |",
+  "$friendlyName": "Global Administrator",
   "description": "Can manage all aspects of Microsoft Entra ID and Microsoft services that use Microsoft Entra identities.",
   "isEnabled": true,
   "resourceScopes": [

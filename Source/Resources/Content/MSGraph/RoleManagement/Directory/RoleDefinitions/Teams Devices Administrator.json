@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Teams Devices Administrator",
   "$description": "Can perform management related tasks on Teams certified devices.",
+  "$friendlyName": "Teams Devices Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"
