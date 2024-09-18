@@ -1,0 +1,6 @@
+{
+  "$friendlyName": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_l_setdocumentbehavioriffilevalidationfailsstr3",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_l_setdocumentbehavioriffilevalidationfailsstr3",
+  "configurationPolicyTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}",
+  "settingDefinitionId": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_l_setdocumentbehavioriffilevalidationfailsstr3"
+}

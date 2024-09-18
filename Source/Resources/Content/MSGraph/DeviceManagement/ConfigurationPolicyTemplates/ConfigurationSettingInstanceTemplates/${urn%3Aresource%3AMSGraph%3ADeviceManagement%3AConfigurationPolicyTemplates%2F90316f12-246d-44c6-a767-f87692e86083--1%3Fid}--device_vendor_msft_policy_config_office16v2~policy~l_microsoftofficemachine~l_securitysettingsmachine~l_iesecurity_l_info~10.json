@@ -1,0 +1,6 @@
+{
+  "$friendlyName": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar_l_pptviewexe116",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}--device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar_l_pptviewexe116",
+  "configurationPolicyTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/90316f12-246d-44c6-a767-f87692e86083--1?id}",
+  "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar_l_pptviewexe116"
+}
