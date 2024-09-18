@@ -1,7 +1,7 @@
 {
+  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
   "$description": "| What does this do? | This is the default Device Type Restriction applied with the lowest priority to all users regardless of group membership. |",
   "$friendlyName": "platformRestrictions--All users and all devices",
-  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
   "androidForWorkRestriction": {
     "blockedManufacturers": [],
     "blockedSkus": [],

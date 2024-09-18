@@ -1,7 +1,7 @@
 {
+  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
   "$description": "| What does this do? | Configures URLs to include in the browser's security zones. The baseline configures the Intranet zone to include necessary Microsoft URLs for Azure Active Directory Seamless Single Sign-On. |\n| Why should you use this? | Improves your users' browsing experience by automatically logging in to sites secured by Azure AD. |\n| What is the end-user impact? | Users will be unable to configure URLs for browser security zones themselves. |\n| Learn more | [Internet Explorer security zones registry entries for advanced users](https://support.microsoft.com/en-us/help/182569/internet-explorer-security-zones-registry-entries-for-advanced-users), [Azure Active Directory Seamless Single Sign-On](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-quick-start) |",
   "$friendlyName": "Baseline - Security - IE Site-to-Zone Assignment",
-  "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
   "displayName": "Baseline - Security - IE Site-to-Zone Assignment",
   "omaSettings": [
     {

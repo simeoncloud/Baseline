@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Defender for Endpoint",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+  "$friendlyName": "Baseline - Defender for Endpoint",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsExecutableContentCreationOrLaunchType--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsExecutableContentCreationOrLaunchType",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",

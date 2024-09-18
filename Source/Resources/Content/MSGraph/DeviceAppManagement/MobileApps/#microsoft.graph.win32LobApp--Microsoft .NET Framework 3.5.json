@@ -1,7 +1,7 @@
 {
+  "@odata.type": "#microsoft.graph.win32LobApp",
   "$description": "| What does this do? | Microsoft .NET Framework 3.5 is used to create and run applications. |\n| Why should you use this? | Microsoft .NET Framework 3.5 is required to run many applications. |\n| What is the end-user impact? | Users will have Microsoft .NET Framework 3.5 installed on their machines. |\n| .NET Framework | [What is .NET Framework?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework)",
   "$friendlyName": "Microsoft .NET Framework 3.5",
-  "@odata.type": "#microsoft.graph.win32LobApp",
   "$manifest": {
     "Install.bat": "dism /Online /Add-Capability /CapabilityName:NetFx3~~~~"
   },

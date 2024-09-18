@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Intune data collection policy",
   "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
+  "$friendlyName": "Intune data collection policy",
   "allowDeviceHealthMonitoring": "enabled",
   "configDeviceHealthMonitoringScope": "bootPerformance",
   "description": "",

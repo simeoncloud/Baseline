@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "windows10EnrollmentCompletionPageConfiguration--All users and all devices",
   "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+  "$friendlyName": "windows10EnrollmentCompletionPageConfiguration--All users and all devices",
   "allowDeviceResetOnInstallFailure": false,
   "allowDeviceUseOnInstallFailure": false,
   "allowLogCollectionOnInstallFailure": true,

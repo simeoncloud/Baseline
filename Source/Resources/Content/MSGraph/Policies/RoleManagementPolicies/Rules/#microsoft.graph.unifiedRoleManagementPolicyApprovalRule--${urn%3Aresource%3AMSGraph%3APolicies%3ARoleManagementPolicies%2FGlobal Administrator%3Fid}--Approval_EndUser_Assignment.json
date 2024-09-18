@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Global Administrator--Approval_EndUser_Assignment",
   "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyApprovalRule",
+  "$friendlyName": "Global Administrator--Approval_EndUser_Assignment",
   "$name": "#microsoft.graph.unifiedRoleManagementPolicyApprovalRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Approval_EndUser_Assignment",
   "id": "Approval_EndUser_Assignment",
   "setting": {

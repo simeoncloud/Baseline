@@ -1,7 +1,7 @@
 {
+  "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
   "$description": "| What does this do? | Limits applications available for download in the Microsoft Store via the \"Private Store\" functionality. This policy allows you to restrict your users to only those applications that you deem necessary. |\n| Why should you use this? | If you want to limit the applications which users may download to those in your private store. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users may only use apps that have been added to the private store. |\n| Learn more | [Distribute apps using your private store](https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store) |",
   "$friendlyName": "Baseline - Functionality - Microsoft Store Limited to Private Store Only",
-  "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
   "accountsBlockAddingNonMicrosoftAccountEmail": false,
   "activateAppsWithVoice": "notConfigured",
   "antiTheftModeBlocked": false,

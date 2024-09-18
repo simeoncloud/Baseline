@@ -1,7 +1,7 @@
 {
+  "@odata.type": "#microsoft.graph.windowsMicrosoftEdgeApp",
   "$description": "| What does this do? | Microsoft Edge is the browser for business with modern and legacy web compatibility, new privacy features such as Tracking prevention, and built-in productivity tools such as enterprise-grade PDF support and access to Office and corporate search right from a new tab. This is the new Chromium based version of Edge and is a viable replacement for Chrome for many organizations. |\n| Why should you use this? | If you want users to have a faster default web browser with more features. |\n| What is the end-user impact? | Users will have Microsoft Edge installed on their machines. |\n| Learn more | [Microsoft Edge](https://www.microsoft.com/en-us/edge)",
   "$friendlyName": "Microsoft Edge for Windows 10",
-  "@odata.type": "#microsoft.graph.windowsMicrosoftEdgeApp",
   "channel": "stable",
   "developer": "Microsoft",
   "displayName": "Microsoft Edge for Windows 10",

@@ -1,7 +1,7 @@
 {
+  "@odata.type": "#microsoft.graph.securityBaselineTemplate",
   "$description": "Microsoft Defender for Endpoint baseline as recommended by Microsoft",
   "$friendlyName": "Microsoft Defender for Endpoint baseline",
-  "@odata.type": "#microsoft.graph.securityBaselineTemplate",
   "displayName": "Microsoft Defender for Endpoint baseline",
   "intentCount": 1,
   "isDeprecated": false,

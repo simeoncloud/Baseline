@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Defender for Endpoint",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+  "$friendlyName": "Baseline - Defender for Endpoint",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--admx--microsoftedge_SmartScreenEnabled--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "admx--microsoftedge_SmartScreenEnabled",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",

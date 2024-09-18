@@ -1,6 +1,6 @@
 {
-  "$friendlyName": "Baseline - Defender for Endpoint",
   "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+  "$friendlyName": "Baseline - Defender for Endpoint",
   "$name": "#microsoft.graph.deviceManagementIntegerSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIdleTimeoutForSecurityAssociationInSeconds--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIdleTimeoutForSecurityAssociationInSeconds",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
