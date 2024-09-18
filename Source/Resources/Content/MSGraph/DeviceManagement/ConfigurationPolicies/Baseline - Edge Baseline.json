@@ -298,14 +298,14 @@
               "choiceSettingValue": {
                 "children": [],
                 "settingValueTemplateReference": {
-                  "settingValueTemplateId": "039c6516-8c69-4305-b20e-da55e79cccd2",
+                  "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_sslversionmin?choiceSettingValueTemplate.settingValueTemplateId}",
                   "useTemplateDefault": false
                 },
                 "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_sslversionmin_tls1.2"
               },
               "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_sslversionmin",
               "settingInstanceTemplateReference": {
-                "settingInstanceTemplateId": "476121f9-6568-44a8-8bf8-e2f6e1de7747"
+                "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslversionmin_sslversionmin?settingInstanceTemplateId}"
               }
             }
           ],
@@ -330,7 +330,7 @@
               "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
               "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_extensioninstallblocklistdesc",
               "settingInstanceTemplateReference": {
-                "settingInstanceTemplateId": "16c2630d-c47f-4b7e-a544-227cc3cc108f"
+                "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_extensioninstallblocklistdesc?settingInstanceTemplateId}"
               },
               "simpleSettingCollectionValue": [
                 {
@@ -361,12 +361,12 @@
               "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
               "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_authschemes",
               "settingInstanceTemplateReference": {
-                "settingInstanceTemplateId": "17976a48-8ebb-4937-9171-01da0119be9e"
+                "settingInstanceTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_authschemes?settingInstanceTemplateId}"
               },
               "simpleSettingValue": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                 "settingValueTemplateReference": {
-                  "settingValueTemplateId": "afb5ebb3-5ed9-4b9b-b790-f96c55976988",
+                  "settingValueTemplateId": "${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates:ConfigurationSettingInstanceTemplates/${urn:resource:MSGraph:DeviceManagement:ConfigurationPolicyTemplates/c66347b7-8325-4954-a235-3bf2233dfbfd--1?id}--device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_authschemes?simpleSettingValueTemplate.settingValueTemplateId}",
                   "useTemplateDefault": false
                 },
                 "value": "ntlm,negotiate"
