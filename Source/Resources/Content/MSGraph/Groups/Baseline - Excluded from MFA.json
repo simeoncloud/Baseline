@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Excluded from MFA",
   "$description": "| What does this do? | Creates a group that is used to exclude breakglass accounts from MFA policies through conditional access. |\n| Why should you use this? | You do not want to lock yourself out of your Microsoft account. |\n| What is the end-user impact? | N/A |\n| Learn more | [Manage emergency access accounts in Azure AD](https://learn.microsoft.com/en-us/azure/active-directory/roles/security-emergency-access)  |",
   "displayName": "Baseline - Excluded from MFA",
   "groupTypes": [],
@@ -7,6 +8,5 @@
   "mailNickname": "Baseline-ExcludedFrom-MFA",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true,
-  "$friendlyName": "Baseline - Excluded from MFA"
+  "securityEnabled": true
 }

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "B2C IEF Policy Administrator",
   "$description": "Can create and manage trust framework policies in the Identity Experience Framework (IEF).",
   "isEnabled": true,
   "resourceScopes": [
@@ -11,6 +12,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "B2C IEF Policy Administrator"
+  "version": "1"
 }

@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_appsMicrosoftAccountsOptional--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_appsMicrosoftAccountsOptional",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "enabled",
-  "valueJson": "\"enabled\"",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\"enabled\""
 }

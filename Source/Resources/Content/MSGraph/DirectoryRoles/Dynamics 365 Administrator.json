@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Dynamics 365 Administrator",
   "$description": "Can manage all aspects of the Dynamics 365 product.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Dynamics 365 Administrator?id}",
-  "$friendlyName": "Dynamics 365 Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Dynamics 365 Administrator?id}"
 }

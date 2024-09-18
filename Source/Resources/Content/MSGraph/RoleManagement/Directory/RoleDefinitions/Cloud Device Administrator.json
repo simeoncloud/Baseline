@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Cloud Device Administrator",
   "$description": "Limited access to manage devices in Microsoft Entra ID.",
   "isEnabled": true,
   "resourceScopes": [
@@ -26,6 +27,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Cloud Device Administrator"
+  "version": "1"
 }

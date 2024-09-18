@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - UX - Windows Spotlight Disabled",
   "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
   "$description": "| What does this do? | Disables Windows Spotlight, which displays tips and third party marketing materials on users' lock screen. |\n| Why should you use this? | If you want to eliminate marketing materials being displayed to users. |\n| What is the end-user impact? | Users will not receive third party marketing materials on the lock screen. |\n| Learn more | [Configure Windows Spotlight on the lock screen](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight) |",
   "accountsBlockAddingNonMicrosoftAccountEmail": false,
@@ -241,6 +242,5 @@
   "windowsStoreEnablePrivateStoreOnly": false,
   "wirelessDisplayBlockProjectionToThisDevice": false,
   "wirelessDisplayBlockUserInputFromReceiver": false,
-  "wirelessDisplayRequirePinForPairing": false,
-  "$friendlyName": "Baseline - UX - Windows Spotlight Disabled"
+  "wirelessDisplayRequirePinForPairing": false
 }

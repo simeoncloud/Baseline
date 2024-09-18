@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "External Identity Provider Administrator",
   "$description": "Can configure identity providers for use in direct federation.",
   "isEnabled": true,
   "resourceScopes": [
@@ -12,6 +13,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "External Identity Provider Administrator"
+  "version": "1"
 }

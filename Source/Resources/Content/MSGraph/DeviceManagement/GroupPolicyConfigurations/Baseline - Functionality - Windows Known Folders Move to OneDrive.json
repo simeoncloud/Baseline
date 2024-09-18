@@ -1,7 +1,7 @@
 {
+  "$friendlyName": "Baseline - Functionality - Windows Known Folders Move to OneDrive",
   "$description": "| What does this do? | Configures OneDrive's Known Folders Move, which moves the directories Desktop, Documents, and Pictures to OneDrive and disables the option to opt out of the feature. |\n| Why should you use this? | When configured this way, OneDrive backs up user data and enables access from any device. |\n| What is the end-user impact? | Users may continue using familiar folders while being backed up. |\n| Learn more | [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders) |",
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ],
-  "$friendlyName": "Baseline - Functionality - Windows Known Folders Move to OneDrive"
+  ]
 }

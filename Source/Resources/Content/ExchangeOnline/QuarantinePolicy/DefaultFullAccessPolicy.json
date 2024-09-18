@@ -1,6 +1,6 @@
 {
+  "$friendlyName": "DefaultFullAccessPolicy",
   "$description": "| What does this do? | Microsoft's default quarantine policy. |\n| Why should you use this? | Quarantine policies allow you to define the user experience for quarantined messages. |\n| What is the end-user impact? | Defines when the user is notified for quarantined emails. |\n| Learn more | [Quarantine policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/quarantine-policies?view=o365-worldwide) |",
   "EndUserQuarantinePermissionsValue": 87,
-  "ESNEnabled": false,
-  "$friendlyName": "DefaultFullAccessPolicy"
+  "ESNEnabled": false
 }

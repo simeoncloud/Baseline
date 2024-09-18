@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "CMTrace",
   "@odata.type": "#microsoft.graph.win32LobApp",
   "$description": "| What does this do? | CMTrace is one of the Configuration Manager tools. It allows you to view and monitor log files including the following types: Log files in Configuration Manager or Client Component Manager (CCM) format, plain ASCII or Unicode text files, such as Intune logs. |\n| Why should you use this? | CMTrace helps to analyze Intune log files by highlighting, filtering, and error lookup. |\n| What is the end-user impact? | N/A |\n| Learn more | [CMTrace](https://docs.microsoft.com/en-us/mem/configmgr/core/support/cmtrace)",
   "$manifest": {},
@@ -73,6 +74,5 @@
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "setupFilePath": "Install.ps1",
-  "uninstallCommandLine": "del \"%ProgramData%\\Microsoft\\IntuneManagementExtension\\CMTrace.exe\" /y",
-  "$friendlyName": "CMTrace"
+  "uninstallCommandLine": "del \"%ProgramData%\\Microsoft\\IntuneManagementExtension\\CMTrace.exe\" /y"
 }

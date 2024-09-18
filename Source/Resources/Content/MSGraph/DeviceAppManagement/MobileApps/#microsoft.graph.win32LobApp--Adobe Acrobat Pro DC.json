@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Adobe Acrobat Pro DC",
   "@odata.type": "#microsoft.graph.win32LobApp",
   "$description": "| What does this do? | Installs Adobe Acrobat Pro DC. |\n| Why should you use this? | If you want users to have Adobe Acrobat Pro DC installed on their computers. |\n| What is the end-user impact? | Users will have Adobe Acrobat Pro DC installed on their computer. |\n| Learn more | [Adobe](https://acrobat.adobe.com/us/en/acrobat/acrobat-pro.html)",
   "$manifest": {
@@ -76,6 +77,5 @@
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "setupFilePath": "Install.ps1",
-  "uninstallCommandLine": "start /wait msiexec /qn /x \"Adobe Acrobat/AcroPro.msi\"",
-  "$friendlyName": "Adobe Acrobat Pro DC"
+  "uninstallCommandLine": "start /wait msiexec /qn /x \"Adobe Acrobat/AcroPro.msi\""
 }

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Block Platforms Other than iOS or Android from Unmanaged Devices and Untrusted Locations",
   "$description": "| What does this do? | Blocks platforms other than iOS and Android from devices that are off-network and not Intune-managed. This policy does not apply to external/guest users, users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\" or users with the role \"Global Administrator\" or \"Directory Synchronization Accounts.\" The policy excludes the applications Microsoft Intune and Microsoft Intune Enrollment. |\n| Why should you use this? | This policy helps protect your data by blocking authentication from untrusted devices and locations. Application protection policies on iOS and Android protect data and provide DLP. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users are restricted to iOS and Android platforms for authenticating devices when connecting from untrusted devices and locations. |\n| Learn more | [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
   "conditions": {
     "applications": {
@@ -75,6 +76,5 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled",
-  "$friendlyName": "Baseline - Block Platforms Other than iOS or Android from Unmanaged Devices and Untrusted Locations"
+  "state": "enabled"
 }

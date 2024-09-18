@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Form blocked due to potential phishing attempt",
   "AggregationType": "None",
   "Category": "ThreatManagement",
   "Comment": "Microsoft Forms detected a potential phishing attempt from a form and blocked it from distribution and response collection. -V1.0.0.2",
@@ -13,6 +14,5 @@
     "AutoBlockedForm"
   ],
   "Severity": "High",
-  "ThreatType": "Activity",
-  "$friendlyName": "Form blocked due to potential phishing attempt"
+  "ThreatType": "Activity"
 }

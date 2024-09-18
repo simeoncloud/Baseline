@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Global Reader",
   "$description": "Can read everything that a Global Administrator can, but not update anything.",
   "isEnabled": true,
   "resourceScopes": [
@@ -101,6 +102,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Global Reader"
+  "version": "1"
 }

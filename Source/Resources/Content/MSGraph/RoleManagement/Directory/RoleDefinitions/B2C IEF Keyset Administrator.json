@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "B2C IEF Keyset Administrator",
   "$description": "Can manage secrets for federation and encryption in the Identity Experience Framework (IEF).",
   "isEnabled": true,
   "resourceScopes": [
@@ -11,6 +12,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "B2C IEF Keyset Administrator"
+  "version": "1"
 }

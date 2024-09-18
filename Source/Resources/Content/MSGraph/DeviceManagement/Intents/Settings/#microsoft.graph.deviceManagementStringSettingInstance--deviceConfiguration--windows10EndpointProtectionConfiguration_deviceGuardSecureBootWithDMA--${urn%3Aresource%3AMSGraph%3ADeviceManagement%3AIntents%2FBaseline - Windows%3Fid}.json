@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_deviceGuardSecureBootWithDMA--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_deviceGuardSecureBootWithDMA",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "withoutDMA",
-  "valueJson": "\"withoutDMA\"",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\"withoutDMA\""
 }

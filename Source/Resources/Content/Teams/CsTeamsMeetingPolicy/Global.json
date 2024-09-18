@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Global",
   "AllowAnonymousUsersToDialOut": false,
   "AllowAnonymousUsersToJoinMeeting": true,
   "AllowAnonymousUsersToStartMeeting": false,
@@ -53,6 +54,5 @@
   "TeamsCameraFarEndPTZMode": "Disabled",
   "VideoFiltersMode": "AllFilters",
   "VoiceIsolation": "Enabled",
-  "WhoCanRegister": "Everyone",
-  "$friendlyName": "Global"
+  "WhoCanRegister": "Everyone"
 }

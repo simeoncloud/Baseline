@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Global Administrator--Enablement_Admin_Assignment",
   "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule",
   "$name": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Enablement_Admin_Assignment",
   "enabledRules": [
@@ -15,6 +16,5 @@
       "All"
     ]
   },
-  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}",
-  "$friendlyName": "Global Administrator--Enablement_Admin_Assignment"
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
 }

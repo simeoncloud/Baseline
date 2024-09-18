@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - OS - Default macOS Update Ring--Baseline - Corporate Devices - Apple",
   "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.macOSSoftwareUpdateConfiguration--Baseline - OS - Default macOS Update Ring?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Apple?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.macOSSoftwareUpdateConfiguration--Baseline - OS - Default macOS Update Ring?id}",
   "intent": "apply",
@@ -7,6 +8,5 @@
     "@odata.type": "#microsoft.graph.groupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
     "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Apple?id}"
-  },
-  "$friendlyName": "Baseline - OS - Default macOS Update Ring--Baseline - Corporate Devices - Apple"
+  }
 }

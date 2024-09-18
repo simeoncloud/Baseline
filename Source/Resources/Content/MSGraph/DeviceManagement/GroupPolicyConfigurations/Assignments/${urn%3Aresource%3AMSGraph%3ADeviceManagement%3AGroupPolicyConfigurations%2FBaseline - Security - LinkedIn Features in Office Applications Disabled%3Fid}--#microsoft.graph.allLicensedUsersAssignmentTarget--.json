@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Security - LinkedIn Features in Office Applications Disabled--",
   "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Security - LinkedIn Features in Office Applications Disabled?id}--#microsoft.graph.allLicensedUsersAssignmentTarget--",
   "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Security - LinkedIn Features in Office Applications Disabled?id}",
   "target": {
     "@odata.type": "#microsoft.graph.allLicensedUsersAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none"
-  },
-  "$friendlyName": "Baseline - Security - LinkedIn Features in Office Applications Disabled--"
+  }
 }

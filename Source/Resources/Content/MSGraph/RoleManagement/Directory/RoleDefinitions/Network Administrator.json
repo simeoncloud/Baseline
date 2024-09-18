@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Network Administrator",
   "$description": "Can manage network locations and review enterprise network design insights for Microsoft 365 Software as a Service applications.",
   "isEnabled": true,
   "resourceScopes": [
@@ -13,6 +14,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Network Administrator"
+  "version": "1"
 }

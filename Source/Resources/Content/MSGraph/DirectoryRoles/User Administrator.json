@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "User Administrator",
   "$description": "Can manage all aspects of users and groups, including resetting passwords for limited admins.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/User Administrator?id}",
-  "$friendlyName": "User Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/User Administrator?id}"
 }

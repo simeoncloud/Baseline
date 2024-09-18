@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - OS - Set-TimeZone",
   "$description": "| What does this do? | Configures Windows to set time zone automatically based on location. Also sets the default computer time zone based on public IP address, as some computers have issues using the Auto Time Zone Updater because of ISP or network restrictions. |\n| Why should you use this? | If you want to automatically set the time zone based on location. |\n| What is the end-user impact? | The time zone will be set automatically based on the device location. |\n| Learn more | N/A |",
   "assignments": [
     {
@@ -17,6 +18,5 @@
   ],
   "runAs32Bit": false,
   "runAsAccount": "system",
-  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - OS - Set-TimeZone?$additionalContentFiles['scriptContent.ps1']}",
-  "$friendlyName": "Baseline - OS - Set-TimeZone"
+  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Baseline - OS - Set-TimeZone?$additionalContentFiles['scriptContent.ps1']}"
 }

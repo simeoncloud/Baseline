@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Configuration",
   "$description": "| What does this do? | Defines various Exchange settings. Microsoft changes these settings frequently as features are added and removed. The baseline uses the default configurations provided by Microsoft. |\n| Why should you use this? | If you want to track configuration changes made in the environment. |\n| What is the end-user impact? | N/A |\n| Learn more | [Set-OrganizationConfig](https://docs.microsoft.com/en-us/powershell/module/exchange/set-organizationconfig?view=exchange-ps) |",
   "ActivityBasedAuthenticationTimeoutEnabled": true,
   "ActivityBasedAuthenticationTimeoutInterval": "06:00:00",
@@ -89,6 +90,5 @@
   "VisibleMeetingUpdateProperties": "Location,AllProperties:15",
   "WebPushNotificationsDisabled": false,
   "WebSuggestedRepliesDisabled": false,
-  "WorkspaceTenantEnabled": true,
-  "$friendlyName": "Configuration"
+  "WorkspaceTenantEnabled": true
 }

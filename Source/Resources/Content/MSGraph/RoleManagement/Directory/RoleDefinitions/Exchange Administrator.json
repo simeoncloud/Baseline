@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Exchange Administrator",
   "$description": "Can manage all aspects of the Exchange product.",
   "isEnabled": true,
   "resourceScopes": [
@@ -25,6 +26,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Exchange Administrator"
+  "version": "1"
 }

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Intune Administrator",
   "$description": "Can manage all aspects of the Intune product.",
   "isEnabled": true,
   "resourceScopes": [
@@ -47,6 +48,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Intune Administrator"
+  "version": "1"
 }

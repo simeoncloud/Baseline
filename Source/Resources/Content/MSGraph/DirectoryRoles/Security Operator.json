@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Security Operator",
   "$description": "Creates and manages security events.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Operator?id}",
-  "$friendlyName": "Security Operator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Operator?id}"
 }

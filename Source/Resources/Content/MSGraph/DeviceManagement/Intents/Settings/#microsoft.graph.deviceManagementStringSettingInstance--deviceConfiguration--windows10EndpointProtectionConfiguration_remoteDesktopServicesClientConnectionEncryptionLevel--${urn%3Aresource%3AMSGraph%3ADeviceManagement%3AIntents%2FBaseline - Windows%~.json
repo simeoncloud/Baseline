@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_remoteDesktopServicesClientConnectionEncryptionLevel--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_remoteDesktopServicesClientConnectionEncryptionLevel",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "high",
-  "valueJson": "\"high\"",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\"high\""
 }

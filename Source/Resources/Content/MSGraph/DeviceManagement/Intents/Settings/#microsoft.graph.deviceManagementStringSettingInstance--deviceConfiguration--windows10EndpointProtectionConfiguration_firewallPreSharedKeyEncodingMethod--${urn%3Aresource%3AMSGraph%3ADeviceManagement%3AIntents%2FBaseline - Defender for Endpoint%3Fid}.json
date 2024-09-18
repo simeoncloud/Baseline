@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Defender for Endpoint",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_firewallPreSharedKeyEncodingMethod--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallPreSharedKeyEncodingMethod",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "uTF8",
-  "valueJson": "\"uTF8\"",
-  "$friendlyName": "Baseline - Defender for Endpoint"
+  "valueJson": "\"uTF8\""
 }

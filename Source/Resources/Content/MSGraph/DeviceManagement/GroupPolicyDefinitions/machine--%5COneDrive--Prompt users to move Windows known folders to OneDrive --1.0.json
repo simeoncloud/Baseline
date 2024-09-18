@@ -1,8 +1,8 @@
 {
+  "$friendlyName": "Prompt users to move Windows known folders to OneDrive",
   "$name": "machine--\\OneDrive--Prompt users to move Windows known folders to OneDrive --1.0",
   "categoryPath": "\\OneDrive",
   "classType": "machine",
   "displayName": "Prompt users to move Windows known folders to OneDrive ",
-  "version": "1.0",
-  "$friendlyName": "Prompt users to move Windows known folders to OneDrive"
+  "version": "1.0"
 }

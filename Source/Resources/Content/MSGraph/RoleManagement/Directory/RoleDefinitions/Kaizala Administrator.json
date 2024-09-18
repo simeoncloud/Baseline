@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Kaizala Administrator",
   "$description": "Can manage settings for Microsoft Kaizala.",
   "isEnabled": true,
   "resourceScopes": [
@@ -14,6 +15,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Kaizala Administrator"
+  "version": "1"
 }

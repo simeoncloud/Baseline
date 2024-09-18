@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Printer Administrator",
   "$description": "Can manage all aspects of printers and printer connectors.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Printer Administrator?id}",
-  "$friendlyName": "Printer Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Printer Administrator?id}"
 }

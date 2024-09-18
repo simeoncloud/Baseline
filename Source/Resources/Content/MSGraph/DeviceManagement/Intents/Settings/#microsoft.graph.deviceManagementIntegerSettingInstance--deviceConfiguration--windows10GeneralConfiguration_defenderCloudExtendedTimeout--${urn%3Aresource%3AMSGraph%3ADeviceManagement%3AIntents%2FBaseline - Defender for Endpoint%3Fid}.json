@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Defender for Endpoint",
   "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
   "$name": "#microsoft.graph.deviceManagementIntegerSettingInstance--deviceConfiguration--windows10GeneralConfiguration_defenderCloudExtendedTimeout--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderCloudExtendedTimeout",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": 50,
-  "valueJson": "50",
-  "$friendlyName": "Baseline - Defender for Endpoint"
+  "valueJson": "50"
 }

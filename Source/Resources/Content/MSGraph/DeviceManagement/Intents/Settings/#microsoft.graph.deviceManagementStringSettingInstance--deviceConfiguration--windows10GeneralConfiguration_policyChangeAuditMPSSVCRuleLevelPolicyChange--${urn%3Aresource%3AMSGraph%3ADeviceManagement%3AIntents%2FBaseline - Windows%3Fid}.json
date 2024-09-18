@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_policyChangeAuditMPSSVCRuleLevelPolicyChange--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_policyChangeAuditMPSSVCRuleLevelPolicyChange",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "successAndFailure",
-  "valueJson": "\"successAndFailure\"",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\"successAndFailure\""
 }

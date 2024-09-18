@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_internetExplorerUsersChangingPolicies--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerUsersChangingPolicies",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "disabled",
-  "valueJson": "\"disabled\"",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\"disabled\""
 }

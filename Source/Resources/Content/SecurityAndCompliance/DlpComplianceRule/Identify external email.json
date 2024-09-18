@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Identify external email",
   "AdvancedRule": {
     "Condition": {
       "Operator": "And",
@@ -83,6 +84,5 @@
   "SubjectMatchesPatterns": [],
   "SubjectOrBodyContainsWords": [],
   "SubjectOrBodyMatchesPatterns": [],
-  "UnscannableDocumentExtensionIs": [],
-  "$friendlyName": "Identify external email"
+  "UnscannableDocumentExtensionIs": []
 }

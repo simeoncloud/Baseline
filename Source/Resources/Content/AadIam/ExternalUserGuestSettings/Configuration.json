@@ -1,6 +1,6 @@
 {
+  "$friendlyName": "Configuration",
   "$description": "| What does this do? | Defines settings for permissions that guest users have in the tenant and to which external tenants guest invitations may be sent. The baseline preserves the Microsoft default settings, which only allows Admins and users in the guest inviter role to send invitations and restricts the permissions of guest users. The baseline also enables one-time passcodes for external users without a Microsoft or Azure AD account. |\n| Why should you use this? | The baseline applies Microsoft's default settings for guest users and provides improved functionality through the use of one time passcodes. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Authorized users may send invitations to any domain, but guest user permissions are restricted. One time passcodes are enabled. |\n| Learn more | [Configure B2B external collaboration settings](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations#to-configure-external-collaboration-settings) |",
   "isAllowlist": true,
-  "targetedDomains": [],
-  "$friendlyName": "Configuration"
+  "targetedDomains": []
 }

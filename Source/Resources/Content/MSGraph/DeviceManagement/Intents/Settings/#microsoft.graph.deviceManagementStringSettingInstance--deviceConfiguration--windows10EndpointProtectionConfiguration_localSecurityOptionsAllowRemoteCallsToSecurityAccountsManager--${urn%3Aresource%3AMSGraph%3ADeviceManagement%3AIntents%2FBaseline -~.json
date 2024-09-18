@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsAllowRemoteCallsToSecurityAccountsManager--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsAllowRemoteCallsToSecurityAccountsManager",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "O:BAG:BAD:(A;;RC;;;BA)",
-  "valueJson": "\"O:BAG:BAD:(A;;RC;;;BA)\"",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\"O:BAG:BAD:(A;;RC;;;BA)\""
 }

@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Privileged Role Administrator",
   "$description": "Can manage role assignments in Microsoft Entra ID, and all aspects of Privileged Identity Management.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Role Administrator?id}",
-  "$friendlyName": "Privileged Role Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Role Administrator?id}"
 }

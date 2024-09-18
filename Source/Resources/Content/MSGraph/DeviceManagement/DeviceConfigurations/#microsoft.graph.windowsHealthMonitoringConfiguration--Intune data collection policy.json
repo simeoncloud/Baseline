@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Intune data collection policy",
   "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
   "allowDeviceHealthMonitoring": "enabled",
   "configDeviceHealthMonitoringScope": "bootPerformance",
@@ -6,6 +7,5 @@
   "displayName": "Intune data collection policy",
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ],
-  "$friendlyName": "Intune data collection policy"
+  ]
 }

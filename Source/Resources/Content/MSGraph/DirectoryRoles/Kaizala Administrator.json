@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Kaizala Administrator",
   "$description": "Can manage settings for Microsoft Kaizala.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Kaizala Administrator?id}",
-  "$friendlyName": "Kaizala Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Kaizala Administrator?id}"
 }

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Global Administrator--AuthenticationContext_EndUser_Assignment",
   "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyAuthenticationContextRule",
   "$name": "#microsoft.graph.unifiedRoleManagementPolicyAuthenticationContextRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--AuthenticationContext_EndUser_Assignment",
   "id": "AuthenticationContext_EndUser_Assignment",
@@ -12,6 +13,5 @@
       "All"
     ]
   },
-  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}",
-  "$friendlyName": "Global Administrator--AuthenticationContext_EndUser_Assignment"
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
 }

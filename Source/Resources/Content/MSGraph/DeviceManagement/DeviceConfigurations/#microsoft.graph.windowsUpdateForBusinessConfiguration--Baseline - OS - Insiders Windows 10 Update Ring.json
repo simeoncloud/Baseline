@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - OS - Insiders Windows 10 Update Ring",
   "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
   "$description": "| What does this do? | Creates a Windows Update configuration for managed devices in the \"Insiders\" ring that receive updates before any other device in your tenant. The baseline delays feature and quality updates to \"Insiders\" for 3 days after released by Microsoft. Once the deferral period has expired for the device, users have 3 days to restart (if required). Unattended updates will be applied outside the working hours of 5am to 10pm. This Windows Update configuration applies to users in the Azure AD group \"Baseline - Corporate Devices – Insiders\". |\n| Why should you use this? | A Windows update ring is the best way to ensure Windows updates are compatible in your environment. The \"Insider\" ring is meant for users that are technical enough to understand when an update is applied and to let you know if that update caused problems. |\n| What is the end-user impact? | Users in the \"Insiders\" ring will receive feature and quality updates 3 days after being released by Microsoft. |\n| Learn more | [Tactical considerations for creating Windows deployment rings](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/tactical-considerations-for-creating-windows-deployment-rings/ba-p/746979) |",
   "allowWindows11Upgrade": false,
@@ -36,6 +37,5 @@
   "updateNotificationLevel": "notConfigured",
   "updateWeeks": "everyWeek",
   "userPauseAccess": "enabled",
-  "userWindowsUpdateScanAccess": "enabled",
-  "$friendlyName": "Baseline - OS - Insiders Windows 10 Update Ring"
+  "userWindowsUpdateScanAccess": "enabled"
 }

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Printer Administrator",
   "$description": "Can manage all aspects of printers and printer connectors.",
   "isEnabled": true,
   "resourceScopes": [
@@ -11,6 +12,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Printer Administrator"
+  "version": "1"
 }

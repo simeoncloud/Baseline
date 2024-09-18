@@ -1,8 +1,8 @@
 {
+  "$friendlyName": "Default search provider name",
   "$name": "machine--\\Microsoft Edge\\Default search provider--Default search provider name--1",
   "categoryPath": "\\Microsoft Edge\\Default search provider",
   "classType": "machine",
   "displayName": "Default search provider name",
-  "version": "1",
-  "$friendlyName": "Default search provider name"
+  "version": "1"
 }

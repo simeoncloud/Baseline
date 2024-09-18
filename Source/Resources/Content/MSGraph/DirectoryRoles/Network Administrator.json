@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Network Administrator",
   "$description": "Can manage network locations and review enterprise network design insights for Microsoft 365 Software as a Service applications.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Network Administrator?id}",
-  "$friendlyName": "Network Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Network Administrator?id}"
 }

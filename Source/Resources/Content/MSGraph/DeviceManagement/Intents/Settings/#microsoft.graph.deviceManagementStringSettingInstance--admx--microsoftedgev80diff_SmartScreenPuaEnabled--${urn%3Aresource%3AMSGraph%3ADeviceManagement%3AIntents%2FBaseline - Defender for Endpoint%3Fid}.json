@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Defender for Endpoint",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--admx--microsoftedgev80diff_SmartScreenPuaEnabled--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "admx--microsoftedgev80diff_SmartScreenPuaEnabled",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "value": "enabled",
-  "valueJson": "\"enabled\"",
-  "$friendlyName": "Baseline - Defender for Endpoint"
+  "valueJson": "\"enabled\""
 }

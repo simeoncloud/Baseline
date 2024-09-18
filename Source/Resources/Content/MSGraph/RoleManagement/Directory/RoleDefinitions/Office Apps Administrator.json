@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Office Apps Administrator",
   "$description": "Can manage Office apps cloud services, including policy and settings management, and manage the ability to select, unselect and publish 'what's new' feature content to end-user's devices.",
   "isEnabled": true,
   "resourceScopes": [
@@ -17,6 +18,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Office Apps Administrator"
+  "version": "1"
 }

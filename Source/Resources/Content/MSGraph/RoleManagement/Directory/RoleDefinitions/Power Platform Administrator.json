@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Power Platform Administrator",
   "$description": "Can create and manage all aspects of Microsoft Dynamics 365, PowerApps and Microsoft Flow.",
   "isEnabled": true,
   "resourceScopes": [
@@ -18,6 +19,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Power Platform Administrator"
+  "version": "1"
 }

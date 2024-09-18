@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Functionality - OneDrive Silent Configuration--Silently sign in users to the OneDrive sync app with their Windows credentials",
   "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - OneDrive Silent Configuration?id}--${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/machine--\\OneDrive--Silently sign in users to the OneDrive sync app with their Windows credentials--1.0?id}",
   "configurationType": "policy",
   "definition": {
@@ -6,6 +7,5 @@
   },
   "enabled": true,
   "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - OneDrive Silent Configuration?id}",
-  "presentationValues": [],
-  "$friendlyName": "Baseline - Functionality - OneDrive Silent Configuration--Silently sign in users to the OneDrive sync app with their Windows credentials"
+  "presentationValues": []
 }

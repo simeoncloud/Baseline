@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Service Support Administrator",
   "$description": "Can read service health information and manage support tickets.",
   "isEnabled": true,
   "resourceScopes": [
@@ -16,6 +17,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Service Support Administrator"
+  "version": "1"
 }

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Printer Technician",
   "$description": "Can register and unregister printers and update printer status.",
   "isEnabled": true,
   "resourceScopes": [
@@ -15,6 +16,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Printer Technician"
+  "version": "1"
 }

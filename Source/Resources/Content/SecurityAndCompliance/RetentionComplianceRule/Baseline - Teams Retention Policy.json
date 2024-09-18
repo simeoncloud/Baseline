@@ -1,10 +1,10 @@
 {
+  "$friendlyName": "Baseline - Teams Retention Policy",
   "ExcludedItemClasses": [],
   "ExpirationDateOption": "CreationAgeInDays",
   "MachineLearningModelIDs": [],
   "Policy": "${urn:resource:SecurityAndCompliance:RetentionCompliancePolicy/Baseline - Teams Retention Policy?Guid}",
   "RetentionComplianceAction": "Keep",
   "RetentionDuration": "365",
-  "RetentionDurationDisplayHint": "Days",
-  "$friendlyName": "Baseline - Teams Retention Policy"
+  "RetentionDurationDisplayHint": "Days"
 }

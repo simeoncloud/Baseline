@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsSmartCardRemovalBehavior--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsSmartCardRemovalBehavior",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "lockWorkstation",
-  "valueJson": "\"lockWorkstation\"",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\"lockWorkstation\""
 }

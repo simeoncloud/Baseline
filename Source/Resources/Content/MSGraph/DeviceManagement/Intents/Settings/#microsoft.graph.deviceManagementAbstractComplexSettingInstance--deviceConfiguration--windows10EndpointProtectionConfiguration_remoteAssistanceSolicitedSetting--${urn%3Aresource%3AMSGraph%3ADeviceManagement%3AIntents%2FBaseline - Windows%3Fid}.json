@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementAbstractComplexSettingInstance",
   "$name": "#microsoft.graph.deviceManagementAbstractComplexSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_remoteAssistanceSolicitedSetting--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_remoteAssistanceSolicitedSetting",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "implementationId": "deviceConfiguration--remoteAssistanceSolicitedSettingDisabled",
-  "valueJson": "\\{\"$implementationId\":\"deviceConfiguration--remoteAssistanceSolicitedSettingDisabled\"\\}",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\\{\"$implementationId\":\"deviceConfiguration--remoteAssistanceSolicitedSettingDisabled\"\\}"
 }

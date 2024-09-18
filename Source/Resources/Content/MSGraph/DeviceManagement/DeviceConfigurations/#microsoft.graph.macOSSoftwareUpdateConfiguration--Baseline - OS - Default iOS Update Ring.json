@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - OS - Default iOS Update Ring",
   "@odata.type": "#microsoft.graph.macOSSoftwareUpdateConfiguration",
   "$description": "| What does this do? | Defines the OS update Policy for iOS updates. You may have to modify the UTC differential depending on your time zone. The baseline notifys the users about updates and installs them during a window of 7pm to 5am during the week. This time is 12am to 5am on the weekend. Critial updates get installed immediately. The policy is installed to the \"Baseline - Corporate Devices - Apple\" Azure AD group. |\n| Why should you use this? | To ensure that devices are being patched properly in the organization.  |\n| Learn more | [Manage iOS/iPadOS software updates](https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-ios#configure-the-policy) |",
   "allOtherUpdateBehavior": "notifyOnly",
@@ -48,6 +49,5 @@
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
   ],
   "updateScheduleType": "updateDuringTimeWindows",
-  "updateTimeWindowUtcOffsetInMinutes": -360,
-  "$friendlyName": "Baseline - OS - Default iOS Update Ring"
+  "updateTimeWindowUtcOffsetInMinutes": -360
 }

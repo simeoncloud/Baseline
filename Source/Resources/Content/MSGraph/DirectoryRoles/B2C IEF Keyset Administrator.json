@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "B2C IEF Keyset Administrator",
   "$description": "Can manage secrets for federation and encryption in the Identity Experience Framework (IEF).",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/B2C IEF Keyset Administrator?id}",
-  "$friendlyName": "B2C IEF Keyset Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/B2C IEF Keyset Administrator?id}"
 }

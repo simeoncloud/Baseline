@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline: Self Deploying Profile--Baseline - Autopilot Devices - Self Deploying",
   "$name": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: Self Deploying Profile?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - Self Deploying?id}",
   "source": "direct",
   "sourceId": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: Self Deploying Profile?id}",
@@ -7,6 +8,5 @@
     "deviceAndAppManagementAssignmentFilterType": "none",
     "groupId": "${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - Self Deploying?id}"
   },
-  "windowsAutopilotDeploymentProfile-id": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: Self Deploying Profile?id}",
-  "$friendlyName": "Baseline: Self Deploying Profile--Baseline - Autopilot Devices - Self Deploying"
+  "windowsAutopilotDeploymentProfile-id": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: Self Deploying Profile?id}"
 }

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Block Persistent Browser Sessions for privileged users",
   "$description": "| What does this do? | Users with the Global Administrator role will have to reauthenticate when they close and reopen the browser. |\n| Why should you use this? | To reduce the risk of credential theft during user sessions, disallow persistent browser sessions for highly privileged users. |\n| What is the end-user impact? | <span style='color: yellow'>Medium Impact.</span> Since this will be only scoped to Global Administrator roles, the impact will be limited. The severity of impact is increased to medium since it does require the scoped users to reauthenticate once every time the user closes and reopens the browser. |\n| Learn more | [Configure Authentication Sesssion Management](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#policy-2-persistent-browser-session) |",
   "conditions": {
     "applications": {
@@ -33,6 +34,5 @@
       "mode": "never"
     }
   },
-  "state": "enabled",
-  "$friendlyName": "Baseline - Block Persistent Browser Sessions for privileged users"
+  "state": "enabled"
 }

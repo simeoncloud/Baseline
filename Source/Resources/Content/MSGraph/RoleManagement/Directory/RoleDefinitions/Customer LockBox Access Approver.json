@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Customer LockBox Access Approver",
   "$description": "Can approve Microsoft support requests to access customer organizational data.",
   "isEnabled": true,
   "resourceScopes": [
@@ -12,6 +13,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Customer LockBox Access Approver"
+  "version": "1"
 }

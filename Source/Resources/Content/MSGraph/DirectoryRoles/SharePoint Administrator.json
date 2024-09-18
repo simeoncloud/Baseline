@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "SharePoint Administrator",
   "$description": "Can manage all aspects of the SharePoint service.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/SharePoint Administrator?id}",
-  "$friendlyName": "SharePoint Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/SharePoint Administrator?id}"
 }

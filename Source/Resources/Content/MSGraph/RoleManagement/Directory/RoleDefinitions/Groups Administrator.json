@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Groups Administrator",
   "$description": "Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",
   "isEnabled": true,
   "resourceScopes": [
@@ -32,6 +33,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Groups Administrator"
+  "version": "1"
 }

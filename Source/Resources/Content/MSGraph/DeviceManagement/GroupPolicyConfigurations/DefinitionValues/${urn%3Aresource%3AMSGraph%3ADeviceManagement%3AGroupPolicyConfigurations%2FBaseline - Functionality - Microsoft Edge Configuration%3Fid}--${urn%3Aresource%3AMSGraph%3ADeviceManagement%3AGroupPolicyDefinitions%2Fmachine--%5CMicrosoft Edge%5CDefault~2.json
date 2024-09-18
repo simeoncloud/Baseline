@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Functionality - Microsoft Edge Configuration--Default search provider name",
   "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - Microsoft Edge Configuration?id}--${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/machine--\\Microsoft Edge\\Default search provider--Default search provider name--1?id}",
   "configurationType": "policy",
   "definition": {
@@ -14,6 +15,5 @@
       },
       "value": "Google"
     }
-  ],
-  "$friendlyName": "Baseline - Functionality - Microsoft Edge Configuration--Default search provider name"
+  ]
 }

@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Default Retention Policy",
   "ExcludedItemClasses": [],
   "MachineLearningModelIDs": [],
   "Policy": "${urn:resource:SecurityAndCompliance:RetentionCompliancePolicy/Baseline - Default Retention Policy?Guid}",
   "RetentionComplianceAction": "Keep",
   "RetentionDuration": "365",
-  "RetentionDurationDisplayHint": "Days",
-  "$friendlyName": "Baseline - Default Retention Policy"
+  "RetentionDurationDisplayHint": "Days"
 }

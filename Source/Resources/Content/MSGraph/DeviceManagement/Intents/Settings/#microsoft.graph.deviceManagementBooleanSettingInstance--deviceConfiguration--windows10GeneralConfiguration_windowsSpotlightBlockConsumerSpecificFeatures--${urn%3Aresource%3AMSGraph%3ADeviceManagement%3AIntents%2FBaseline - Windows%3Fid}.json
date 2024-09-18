@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
   "$name": "#microsoft.graph.deviceManagementBooleanSettingInstance--deviceConfiguration--windows10GeneralConfiguration_windowsSpotlightBlockConsumerSpecificFeatures--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_windowsSpotlightBlockConsumerSpecificFeatures",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": false,
-  "valueJson": "false",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "false"
 }

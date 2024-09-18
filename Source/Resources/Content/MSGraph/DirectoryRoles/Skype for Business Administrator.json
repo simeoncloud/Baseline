@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Skype for Business Administrator",
   "$description": "Can manage all aspects of the Skype for Business product.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Skype for Business Administrator?id}",
-  "$friendlyName": "Skype for Business Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Skype for Business Administrator?id}"
 }

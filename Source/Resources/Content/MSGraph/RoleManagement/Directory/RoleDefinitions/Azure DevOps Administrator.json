@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Azure DevOps Administrator",
   "$description": "Can manage Azure DevOps organization policy and settings.",
   "isEnabled": true,
   "resourceScopes": [
@@ -11,6 +12,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Azure DevOps Administrator"
+  "version": "1"
 }

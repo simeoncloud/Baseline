@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "License Administrator",
   "$description": "Can manage product licenses on users and groups.",
   "isEnabled": true,
   "resourceScopes": [
@@ -19,6 +20,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "License Administrator"
+  "version": "1"
 }

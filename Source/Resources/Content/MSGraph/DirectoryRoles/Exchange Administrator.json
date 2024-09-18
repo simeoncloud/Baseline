@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Exchange Administrator",
   "$description": "Can manage all aspects of the Exchange product.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Exchange Administrator?id}",
-  "$friendlyName": "Exchange Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Exchange Administrator?id}"
 }

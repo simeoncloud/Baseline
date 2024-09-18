@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Desktop Analytics Administrator",
   "$description": "Can access and manage Desktop management tools and services.",
   "isEnabled": true,
   "resourceScopes": [
@@ -14,6 +15,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Desktop Analytics Administrator"
+  "version": "1"
 }

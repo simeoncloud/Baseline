@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Teams Administrator",
   "$description": "Can manage the Microsoft Teams service.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Administrator?id}",
-  "$friendlyName": "Teams Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Administrator?id}"
 }

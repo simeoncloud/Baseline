@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "windowsHelloForBusiness--All users and all devices",
   "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
   "$description": "| What does this do? | This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership. |",
   "deviceEnrollmentConfigurationType": "windowsHelloForBusiness",
@@ -19,6 +20,5 @@
   "securityDeviceRequired": true,
   "securityKeyForSignIn": "notConfigured",
   "state": "enabled",
-  "unlockWithBiometricsEnabled": true,
-  "$friendlyName": "windowsHelloForBusiness--All users and all devices"
+  "unlockWithBiometricsEnabled": true
 }

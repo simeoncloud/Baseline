@@ -1,10 +1,10 @@
 {
+  "$friendlyName": "Baseline - Default",
   "$description": "| What does this do? | Restricts calendar detail sharing with external users to only free/busy information. |\n| Why should you use this? | Users should be restricted on the users they can share their calendar with externally and the level of calendar details. It is recommened to whitelist domains on-demand and leave all others blocked. |\n| What is the end-user impact? | With this setting in place, users will not be able to share calendar or contacts to any external domains unless they are whitelisted. A formal request process should be put into place and evaluated when a user needs to share their calendar details.  |\n| Learn more | [Sharing Policies](https://learn.microsoft.com/en-us/exchange/sharing/sharing-policies/sharing-policies) |",
   "Default": true,
   "Domains": [
     "*:CalendarSharingFreeBusySimple",
     "Anonymous:CalendarSharingFreeBusyReviewer"
   ],
-  "Enabled": true,
-  "$friendlyName": "Baseline - Default"
+  "Enabled": true
 }

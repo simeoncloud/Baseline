@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Configuration",
   "$description": "| What does this do? | Defines Azure's password reset policy and specifies the Azure AD groups to which it applies. This allows users to reset their passwords or unlock their Azure accounts. The baseline applies the password reset policy to members of the group \"Baseline - Microsoft 365 Users.\" |\n| Why should you use this? | If you want users to use self-service password reset instead of contacting IT support. This improves password reset security because it requires that users reset their passwords only via Mobile application code (the authenticator app) or SMS. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users can securely recover and reset their passwords. |\n| Learn more | [How it works: Azure AD self-service password reset](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks)",
   "enablementType": 1,
   "passwordResetEnabledGroupIds": [
     "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?id}"
   ],
-  "passwordResetEnabledGroupName": "Baseline - Microsoft 365 Users",
-  "$friendlyName": "Configuration"
+  "passwordResetEnabledGroupName": "Baseline - Microsoft 365 Users"
 }

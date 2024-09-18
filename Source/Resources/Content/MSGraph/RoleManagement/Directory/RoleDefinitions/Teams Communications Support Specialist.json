@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Teams Communications Support Specialist",
   "$description": "Can troubleshoot communications issues within Teams using basic tools.",
   "isEnabled": true,
   "resourceScopes": [
@@ -16,6 +17,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Teams Communications Support Specialist"
+  "version": "1"
 }

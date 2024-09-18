@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Security - BitLocker Device Encryption Enabled--Baseline - Corporate Devices - Physical",
   "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10EndpointProtectionConfiguration--Baseline - Security - BitLocker Device Encryption Enabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10EndpointProtectionConfiguration--Baseline - Security - BitLocker Device Encryption Enabled?id}",
   "intent": "apply",
@@ -7,6 +8,5 @@
     "@odata.type": "#microsoft.graph.groupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
     "groupId": "${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical?id}"
-  },
-  "$friendlyName": "Baseline - Security - BitLocker Device Encryption Enabled--Baseline - Corporate Devices - Physical"
+  }
 }

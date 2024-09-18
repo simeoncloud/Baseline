@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "OwaMailboxPolicy-Default",
   "$description": "| What does this do? | Configures the default settings for Outlook on the web. The baseline uses the default configurations provided by Microsoft. |\n| Why should you use this? | If you want to use the default Outlook on the web policies. |\n| What is the end-user impact? | N/A |\n| Learn more | [OwaMailboxPolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps) |",
   "ActionForUnknownFileAndMIMETypes": "Allow",
   "ActiveSyncIntegrationEnabled": true,
@@ -343,6 +344,5 @@
   "WacViewingOnPrivateComputersEnabled": true,
   "WacViewingOnPublicComputersEnabled": true,
   "WeatherEnabled": true,
-  "WebPartsFrameOptionsType": "SameOrigin",
-  "$friendlyName": "OwaMailboxPolicy-Default"
+  "WebPartsFrameOptionsType": "SameOrigin"
 }

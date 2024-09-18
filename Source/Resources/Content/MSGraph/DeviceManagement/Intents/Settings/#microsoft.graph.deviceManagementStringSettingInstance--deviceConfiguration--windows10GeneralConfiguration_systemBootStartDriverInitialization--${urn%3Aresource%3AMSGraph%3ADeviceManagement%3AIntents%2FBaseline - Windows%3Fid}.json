@@ -1,9 +1,9 @@
 {
+  "$friendlyName": "Baseline - Windows",
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_systemBootStartDriverInitialization--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_systemBootStartDriverInitialization",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "value": "goodUnknownAndBadButCritical",
-  "valueJson": "\"goodUnknownAndBadButCritical\"",
-  "$friendlyName": "Baseline - Windows"
+  "valueJson": "\"goodUnknownAndBadButCritical\""
 }

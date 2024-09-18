@@ -1,7 +1,7 @@
 {
+  "$friendlyName": "Baseline - Security - LinkedIn Features in Office Applications Disabled",
   "$description": "| What does this do? | The baseline turns off LinkedIn features in Office applications. By default, this setting is turned on. |\n| Why should you use this? | You can turn off Office LinkedIn features so that your users are not sharing data externally with LinkedIn. |\n| What is the end-user impact? | Users will not be able to use the LinkedIn Office features. |\n| Learn more | [Integrate LinkedIn account connections in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/linkedin-integration) |",
   "roleScopeTagIds": [
     "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-  ],
-  "$friendlyName": "Baseline - Security - LinkedIn Features in Office Applications Disabled"
+  ]
 }

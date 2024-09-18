@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Security - NTLMv2 LAN Manager Authentication Level",
   "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
   "$description": "| What does this do? | Configures the Windows LAN Manager Authentication Level to require NTLMv2. |\n| Why should you use this? | This is recommended by Microsoft to prevent the use of insecure protocols. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Windows file sharing will not work with any devices that do not support NTLMv2. |\n| Learn more | [Network security: LAN Manager authentication level](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level) |",
   "applicationGuardAllowFileSaveOnHost": false,
@@ -142,6 +143,5 @@
   "xboxServicesEnableXboxGameSaveTask": false,
   "xboxServicesLiveAuthManagerServiceStartupMode": "manual",
   "xboxServicesLiveGameSaveServiceStartupMode": "manual",
-  "xboxServicesLiveNetworkingServiceStartupMode": "manual",
-  "$friendlyName": "Baseline - Security - NTLMv2 LAN Manager Authentication Level"
+  "xboxServicesLiveNetworkingServiceStartupMode": "manual"
 }

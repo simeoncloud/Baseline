@@ -1,5 +1,5 @@
 {
+  "$friendlyName": "Fabric Administrator",
   "$description": "Manages all aspects of Microsoft Fabric.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Fabric Administrator?id}",
-  "$friendlyName": "Fabric Administrator"
+  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Fabric Administrator?id}"
 }

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Global Administrator--Notification_Requestor_Admin_Eligibility",
   "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule",
   "$name": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Notification_Requestor_Admin_Eligibility",
   "id": "Notification_Requestor_Admin_Eligibility",
@@ -16,6 +17,5 @@
       "All"
     ]
   },
-  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}",
-  "$friendlyName": "Global Administrator--Notification_Requestor_Admin_Eligibility"
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
 }

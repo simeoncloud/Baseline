@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Search Editor",
   "$description": "Can create and manage the editorial content such as bookmarks, Q and As, locations, floorplan.",
   "isEnabled": true,
   "resourceScopes": [
@@ -13,6 +14,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Search Editor"
+  "version": "1"
 }

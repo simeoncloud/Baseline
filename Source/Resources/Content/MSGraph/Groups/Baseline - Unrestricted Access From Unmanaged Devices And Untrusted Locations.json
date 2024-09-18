@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations",
   "$description": "| What does this do? | C |",
   "displayName": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations",
   "groupTypes": [],
@@ -7,6 +8,5 @@
   "mailNickname": "Baseline-UnrestrictedAccessFromUnmanagedDevicesAndUntrustedLocat",
   "resourceBehaviorOptions": [],
   "resourceProvisioningOptions": [],
-  "securityEnabled": true,
-  "$friendlyName": "Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations"
+  "securityEnabled": true
 }

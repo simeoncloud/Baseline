@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Global Administrator--Approval_EndUser_Assignment",
   "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyApprovalRule",
   "$name": "#microsoft.graph.unifiedRoleManagementPolicyApprovalRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Approval_EndUser_Assignment",
   "id": "Approval_EndUser_Assignment",
@@ -33,6 +34,5 @@
       "All"
     ]
   },
-  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}",
-  "$friendlyName": "Global Administrator--Approval_EndUser_Assignment"
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
 }

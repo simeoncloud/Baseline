@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Global",
   "AllowCallForwardingToPhone": true,
   "AllowCallForwardingToUser": true,
   "AllowCallGroups": true,
@@ -19,6 +20,5 @@
   "MusicOnHoldEnabledType": "Enabled",
   "PopoutForIncomingPstnCalls": "Disabled",
   "PreventTollBypass": false,
-  "SpamFilteringEnabledType": "Enabled",
-  "$friendlyName": "Global"
+  "SpamFilteringEnabledType": "Enabled"
 }

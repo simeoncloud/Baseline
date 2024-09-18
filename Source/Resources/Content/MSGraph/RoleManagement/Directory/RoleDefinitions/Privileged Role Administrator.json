@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Privileged Role Administrator",
   "$description": "Can manage role assignments in Microsoft Entra ID, and all aspects of Privileged Identity Management.",
   "isEnabled": true,
   "resourceScopes": [
@@ -38,6 +39,5 @@
       ]
     }
   ],
-  "version": "1",
-  "$friendlyName": "Privileged Role Administrator"
+  "version": "1"
 }

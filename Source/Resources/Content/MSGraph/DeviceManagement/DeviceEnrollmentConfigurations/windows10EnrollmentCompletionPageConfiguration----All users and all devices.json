@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "windows10EnrollmentCompletionPageConfiguration--All users and all devices",
   "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
   "allowDeviceResetOnInstallFailure": false,
   "allowDeviceUseOnInstallFailure": false,
@@ -16,6 +17,5 @@
   "roleScopeTagIds": [],
   "selectedMobileAppIds": [],
   "showInstallationProgress": true,
-  "trackInstallProgressForAutopilotOnly": false,
-  "$friendlyName": "windows10EnrollmentCompletionPageConfiguration--All users and all devices"
+  "trackInstallProgressForAutopilotOnly": false
 }
