@@ -1,5 +1,6 @@
 {
   "$description": "| What does this do? | Adds the Authenticated Users group to the Remote Desktop Users group so any authenticated user can connect via Remote Desktop. A separate configuration (Baseline - OS - RDP Enabled) allows users in the \"Remote Desktop users' group to access devices remotely. |\n| Why should you use this? | If you want to allow users to connect remotely via Remote Desktop. |\n| What is the end-user impact? | Users may connect remotely via Remote Desktop. |\n| Learn more | N/A |",
+  "$friendlyName": "Baseline - Security - Add-AuthenticatedUsersToRemoteDesktopUsers",
   "assignments": [
     {
       "target": {

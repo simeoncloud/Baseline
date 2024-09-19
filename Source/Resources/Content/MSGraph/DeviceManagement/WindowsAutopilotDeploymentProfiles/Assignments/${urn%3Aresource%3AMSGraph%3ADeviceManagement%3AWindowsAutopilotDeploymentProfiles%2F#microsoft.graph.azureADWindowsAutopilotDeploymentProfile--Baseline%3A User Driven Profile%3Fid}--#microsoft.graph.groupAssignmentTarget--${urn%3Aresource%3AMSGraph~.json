@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline: User Driven Profile--Baseline - Autopilot Devices - User Driven",
   "$name": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: User Driven Profile?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Autopilot Devices - User Driven?id}",
   "source": "direct",
   "sourceId": "${urn:resource:MSGraph:DeviceManagement:WindowsAutopilotDeploymentProfiles/#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: User Driven Profile?id}",

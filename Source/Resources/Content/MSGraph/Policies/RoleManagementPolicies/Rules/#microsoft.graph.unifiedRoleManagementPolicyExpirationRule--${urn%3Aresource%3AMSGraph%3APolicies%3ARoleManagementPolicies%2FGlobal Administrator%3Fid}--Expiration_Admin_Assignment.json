@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyExpirationRule",
+  "$friendlyName": "Global Administrator--Expiration_Admin_Assignment",
   "$name": "#microsoft.graph.unifiedRoleManagementPolicyExpirationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Expiration_Admin_Assignment",
   "id": "Expiration_Admin_Assignment",
   "isExpirationRequired": false,

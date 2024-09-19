@@ -1,6 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
   "$description": "| What does this do? | Defines the required state that a device (both physical and virtual) must be in to be considered compliant before accessing an organization's data. The baseline requires that a device has Microsoft Defender Antimalware configured, Bitlocker, Secure Boot, code integrity, TPM, Antivrus software, Antispyware software, and blocks simple passwords. This policy applies to all devices in the Azure AD group \"Baseline - Corporate Devices\". |\n| Why should you use this? | This ensures your managed Windows devices, both physical and virtual, meet a minimum level of security to access data. |\n| What is the end-user impact? | Users may access an organization's data only if the device meets the requiremnets outlined in the policy. |\n| Learn more | [Use compliance policies to set rules for devices you manage with Intune](https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-windows) |",
+  "$friendlyName": "Baseline - Corporate Devices - Windows",
   "activeFirewallRequired": true,
   "antiSpywareRequired": true,
   "antivirusRequired": true,

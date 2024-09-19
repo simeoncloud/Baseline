@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Teams Retention Policy",
   "ExcludedItemClasses": [],
   "ExpirationDateOption": "CreationAgeInDays",
   "MachineLearningModelIDs": [],

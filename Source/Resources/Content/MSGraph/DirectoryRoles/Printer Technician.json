@@ -1,4 +1,5 @@
 {
   "$description": "Can register and unregister printers and update printer status.",
+  "$friendlyName": "Printer Technician",
   "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Printer Technician?id}"
 }

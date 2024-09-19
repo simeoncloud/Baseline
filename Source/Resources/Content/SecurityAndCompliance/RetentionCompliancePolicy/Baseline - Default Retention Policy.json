@@ -1,5 +1,6 @@
 {
   "$description": "| What does this do? | Defines the data retention policy for SharePoint, OneDrive and Exchange Online. The baseline retains this data for one year. |\n| Why should you use this? | If you want this data to be retained for one year and to be searchable in Office 365 content search tools. |\n| What is the end-user impact? | Users cannot permanently delete data that is less than one year old. |\n| Learn more | [Retention policies and labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide) |",
+  "$friendlyName": "Baseline - Default Retention Policy",
   "AdaptiveScopeLocation": [],
   "Applications": [],
   "Enabled": true,

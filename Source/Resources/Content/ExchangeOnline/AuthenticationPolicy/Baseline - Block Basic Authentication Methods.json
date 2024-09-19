@@ -1,15 +1,16 @@
 {
-    "$description": "| What does this do? | Disables Simple Mail Transfer Protocol Authentication and other legacy authentication methods.|\n| Why should you use this? | Only modern authentication methods that support MFA should be used in your environment. SMTP auth should be disabled for Exchange Online but may be enabled on a per-mailbox basis. |\n| What is the end-user impact? | This will vary depending on the organization and what existing mail infrastructure looks like. This can be impactful if you have scanners, printers, or Line-of-business (LOB) applications leveraging SMTP auth for message relay. |\n| Learn more | [Diable STMP Auth](https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization) |",
-    "AllowBasicAuthActiveSync": false,
-    "AllowBasicAuthAutodiscover": false,
-    "AllowBasicAuthImap": false,
-    "AllowBasicAuthMapi": false,
-    "AllowBasicAuthOfflineAddressBook": false,
-    "AllowBasicAuthOutlookService": false,
-    "AllowBasicAuthPop": false,
-    "AllowBasicAuthPowershell": false,
-    "AllowBasicAuthReportingWebServices": false,
-    "AllowBasicAuthRpc": false,
-    "AllowBasicAuthSmtp": false,
-    "AllowBasicAuthWebServices": false
-  }
+  "$description": "| What does this do? | Disables Simple Mail Transfer Protocol Authentication and other legacy authentication methods.|\n| Why should you use this? | Only modern authentication methods that support MFA should be used in your environment. SMTP auth should be disabled for Exchange Online but may be enabled on a per-mailbox basis. |\n| What is the end-user impact? | This will vary depending on the organization and what existing mail infrastructure looks like. This can be impactful if you have scanners, printers, or Line-of-business (LOB) applications leveraging SMTP auth for message relay. |\n| Learn more | [Diable STMP Auth](https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization) |",
+  "$friendlyName": "Baseline - Block Basic Authentication Methods",
+  "AllowBasicAuthActiveSync": false,
+  "AllowBasicAuthAutodiscover": false,
+  "AllowBasicAuthImap": false,
+  "AllowBasicAuthMapi": false,
+  "AllowBasicAuthOfflineAddressBook": false,
+  "AllowBasicAuthOutlookService": false,
+  "AllowBasicAuthPop": false,
+  "AllowBasicAuthPowershell": false,
+  "AllowBasicAuthReportingWebServices": false,
+  "AllowBasicAuthRpc": false,
+  "AllowBasicAuthSmtp": false,
+  "AllowBasicAuthWebServices": false
+}

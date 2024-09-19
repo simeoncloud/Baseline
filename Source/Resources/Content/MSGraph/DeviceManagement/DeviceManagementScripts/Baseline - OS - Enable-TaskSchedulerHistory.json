@@ -1,5 +1,6 @@
 {
   "$description": "| What does this do? | Enables the Windows Task Scheduler to display history of task runs. The baseline enables this setting. It is disabled in Windows by default. |\n| Why should you use this? | This can help with troubleshooting scheduled tasks. |\n| What is the end-user impact? | N/A |\n| Learn more | [Enable Windows task scheduler history](https://medium.com/techygeekshome/enable-windows-task-scheduler-history-996a601a178c) |",
+  "$friendlyName": "Baseline - OS - Enable-TaskSchedulerHistory",
   "assignments": [
     {
       "target": {

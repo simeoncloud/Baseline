@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - OS - Default Windows 10 Update Ring--Baseline - Corporate Devices - Insiders",
   "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Baseline - OS - Default Windows 10 Update Ring?id}--#microsoft.graph.exclusionGroupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Insiders?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Baseline - OS - Default Windows 10 Update Ring?id}",
   "intent": "apply",

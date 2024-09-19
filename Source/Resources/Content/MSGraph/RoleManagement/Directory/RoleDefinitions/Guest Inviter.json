@@ -1,5 +1,6 @@
 {
   "$description": "Can invite guest users independent of the 'members can invite guests' setting.",
+  "$friendlyName": "Guest Inviter",
   "isEnabled": true,
   "resourceScopes": [
     "/"

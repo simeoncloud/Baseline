@@ -1,5 +1,6 @@
 {
   "$description": "| What does this do? | Default role for guest users. Can read a limited set of directory information. |",
+  "$friendlyName": "Guest User",
   "isEnabled": true,
   "resourceScopes": [
     "/"

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Functionality - OneDrive Silent Configuration--Baseline - Corporate Devices",
   "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - OneDrive Silent Configuration?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}",
   "groupPolicyConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - OneDrive Silent Configuration?id}",
   "target": {

@@ -1,6 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
   "$description": "| What does this do? | Enables and configures BitLocker device encryption for physical devices. BitLocker requires a machine to have TPM 1.2 or later, which excludes older hardware and virtual machines. |\n| Why should you use this? | Device encryption is essential to protecting data on physical devices. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Data on users' hard drives are encrypted. |\n| Learn more | [Overview of BitLocker Device Encryption in Windows 10](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10) |",
+  "$friendlyName": "Baseline - Security - BitLocker Device Encryption Enabled",
   "applicationGuardAllowFileSaveOnHost": false,
   "applicationGuardAllowPersistence": false,
   "applicationGuardAllowPrintToLocalPrinters": false,

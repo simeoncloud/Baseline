@@ -1,5 +1,6 @@
 {
   "$description": "Can manage all aspects of users and groups, including resetting passwords for limited admins.",
+  "$friendlyName": "User Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

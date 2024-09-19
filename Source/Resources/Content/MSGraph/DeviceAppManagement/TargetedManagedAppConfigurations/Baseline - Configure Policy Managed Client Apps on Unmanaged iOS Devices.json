@@ -1,5 +1,6 @@
 {
   "$description": "| What does this do? | Configures the default behavior for application settings of managed applications on unmanaged iOS devices. The baseline expands the list of applications that are allowed by Intune and data loss protection policies. |\n| Why should you use this? | If you want to improve your users' iOS mobile experience by expanding the list of allowed applications. |\n| What is the end-user impact? |  If you want to expand the list of applications that can access organization data on iOS devices. |\n| Learn more | [Add app configuration policies for managed apps without device enrollment](https://docs.microsoft.com/en-us/mem/intune/apps/app-configuration-policies-managed-app) |",
+  "$friendlyName": "Baseline - Configure Policy Managed Client Apps on Unmanaged iOS Devices",
   "appGroupType": "selectedPublicApps",
   "apps": [
     {

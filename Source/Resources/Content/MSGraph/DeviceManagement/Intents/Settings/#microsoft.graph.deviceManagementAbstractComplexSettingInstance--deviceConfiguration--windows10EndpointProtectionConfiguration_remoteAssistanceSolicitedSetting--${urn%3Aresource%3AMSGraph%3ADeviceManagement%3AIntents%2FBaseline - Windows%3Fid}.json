@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceManagementAbstractComplexSettingInstance",
+  "$friendlyName": "Baseline - Windows",
   "$name": "#microsoft.graph.deviceManagementAbstractComplexSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_remoteAssistanceSolicitedSetting--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_remoteAssistanceSolicitedSetting",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",

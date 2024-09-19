@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Functionality - Windows Known Folders Move to OneDrive--Prompt users to move Windows known folders to OneDrive",
   "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - Windows Known Folders Move to OneDrive?id}--${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/machine--\\OneDrive--Prompt users to move Windows known folders to OneDrive --1.0?id}",
   "configurationType": "policy",
   "definition": {

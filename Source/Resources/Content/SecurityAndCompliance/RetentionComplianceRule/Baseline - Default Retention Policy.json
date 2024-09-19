@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Default Retention Policy",
   "ExcludedItemClasses": [],
   "MachineLearningModelIDs": [],
   "Policy": "${urn:resource:SecurityAndCompliance:RetentionCompliancePolicy/Baseline - Default Retention Policy?Guid}",

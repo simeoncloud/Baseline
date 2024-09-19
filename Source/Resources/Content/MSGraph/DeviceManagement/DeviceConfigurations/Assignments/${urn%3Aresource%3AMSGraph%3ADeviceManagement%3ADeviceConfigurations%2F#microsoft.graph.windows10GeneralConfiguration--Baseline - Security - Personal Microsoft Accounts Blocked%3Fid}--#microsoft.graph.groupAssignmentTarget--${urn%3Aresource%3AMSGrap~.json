@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Security - Personal Microsoft Accounts Blocked--Baseline - Corporate Devices",
   "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10GeneralConfiguration--Baseline - Security - Personal Microsoft Accounts Blocked?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10GeneralConfiguration--Baseline - Security - Personal Microsoft Accounts Blocked?id}",
   "intent": "apply",

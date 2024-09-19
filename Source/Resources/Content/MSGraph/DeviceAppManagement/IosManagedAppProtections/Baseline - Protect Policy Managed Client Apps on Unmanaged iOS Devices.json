@@ -1,5 +1,6 @@
 {
   "$description": "| What does this do? | Configures the default behavior for managed client apps on unmanaged iOS devices. The baseline allows data to flow between protected apps, but prohibits users from copying or saving data outside of the app except for users in the Azure AD group \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations\". |\n| Why should you use this? |  If you want to protect your data on users' personal iOS devices by preventing organization data from leaving protected apps. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> iOS device users cannot copy or save data outside of your managed client apps. |\n| Learn more | [How you can protect app data](https://docs.microsoft.com/en-us/mem/intune/apps/app-protection-policy) |",
+  "$friendlyName": "Baseline - Protect Policy Managed Client Apps on Unmanaged iOS Devices",
   "allowedDataIngestionLocations": [],
   "allowedDataStorageLocations": [
     "oneDriveForBusiness",

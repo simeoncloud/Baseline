@@ -1,7 +1,8 @@
 {
-    "$description": "| What does this do? | Safe Attachments will scan messages for attachments with malicious content in Teams, Email, and Office Apps. |\n| Why should you use this? | This settings routes all messages and attachments that do not have a virus/malware signature to a special environment. The process then uses machine learning and analysis techniques to detect malicious intent.|\n| What is the end-user impact? |With this setting in place, there may be some latency in email flow while the attachment is being scanned before delivery. If the attachment is found to be malicious, the email will be blocked from sending.|\n| Learn more | [Safe Attachments Policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments-about?view=o365-worldwide#safe-attachments-policy-settings) |",
-    "Action": "Block",
-    "Enable": true,
-    "QuarantineTag": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Name}",
-    "Redirect": false
-  }
+  "$description": "| What does this do? | Safe Attachments will scan messages for attachments with malicious content in Teams, Email, and Office Apps. |\n| Why should you use this? | This settings routes all messages and attachments that do not have a virus/malware signature to a special environment. The process then uses machine learning and analysis techniques to detect malicious intent.|\n| What is the end-user impact? |With this setting in place, there may be some latency in email flow while the attachment is being scanned before delivery. If the attachment is found to be malicious, the email will be blocked from sending.|\n| Learn more | [Safe Attachments Policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments-about?view=o365-worldwide#safe-attachments-policy-settings) |",
+  "$friendlyName": "Baseline - Default",
+  "Action": "Block",
+  "Enable": true,
+  "QuarantineTag": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Name}",
+  "Redirect": false
+}

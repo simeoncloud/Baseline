@@ -1,5 +1,6 @@
 {
   "$description": "Creates and manages security events.",
+  "$friendlyName": "Security Operator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

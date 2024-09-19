@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+  "$friendlyName": "Baseline - Windows",
   "$name": "#microsoft.graph.deviceManagementIntegerSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_eventLogServiceSecurityLogMaximumFileSizeInKb--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_eventLogServiceSecurityLogMaximumFileSizeInKb",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",

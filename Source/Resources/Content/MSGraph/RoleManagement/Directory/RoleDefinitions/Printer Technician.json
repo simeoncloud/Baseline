@@ -1,5 +1,6 @@
 {
   "$description": "Can register and unregister printers and update printer status.",
+  "$friendlyName": "Printer Technician",
   "isEnabled": true,
   "resourceScopes": [
     "/"

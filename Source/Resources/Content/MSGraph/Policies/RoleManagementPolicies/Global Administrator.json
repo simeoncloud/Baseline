@@ -1,3 +1,4 @@
 {
+  "$friendlyName": "Global Administrator",
   "roleDefinitionId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
 }

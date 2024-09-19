@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - UX - Windows First Run Animation Disabled--Baseline - Corporate Devices - Physical",
   "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - UX - Windows First Run Animation Disabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices - Physical?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - UX - Windows First Run Animation Disabled?id}",
   "intent": "apply",

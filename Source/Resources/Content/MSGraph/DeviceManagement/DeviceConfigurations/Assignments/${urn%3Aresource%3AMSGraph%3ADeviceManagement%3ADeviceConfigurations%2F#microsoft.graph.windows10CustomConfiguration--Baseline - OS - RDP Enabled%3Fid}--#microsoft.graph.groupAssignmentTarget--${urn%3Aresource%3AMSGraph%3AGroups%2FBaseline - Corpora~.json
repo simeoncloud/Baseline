@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - OS - RDP Enabled--Baseline - Corporate Devices",
   "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - OS - RDP Enabled?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Baseline - Corporate Devices?id}",
   "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windows10CustomConfiguration--Baseline - OS - RDP Enabled?id}",
   "intent": "apply",

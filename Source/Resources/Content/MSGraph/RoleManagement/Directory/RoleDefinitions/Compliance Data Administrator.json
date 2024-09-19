@@ -1,5 +1,6 @@
 {
   "$description": "Creates and manages compliance content.",
+  "$friendlyName": "Compliance Data Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

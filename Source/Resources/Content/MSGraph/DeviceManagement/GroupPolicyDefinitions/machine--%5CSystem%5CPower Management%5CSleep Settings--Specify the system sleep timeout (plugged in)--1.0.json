@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Specify the system sleep timeout (plugged in)",
   "$name": "machine--\\System\\Power Management\\Sleep Settings--Specify the system sleep timeout (plugged in)--1.0",
   "categoryPath": "\\System\\Power Management\\Sleep Settings",
   "classType": "machine",

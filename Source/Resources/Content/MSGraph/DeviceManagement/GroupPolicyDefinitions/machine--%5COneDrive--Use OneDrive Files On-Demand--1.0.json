@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Use OneDrive Files On-Demand",
   "$name": "machine--\\OneDrive--Use OneDrive Files On-Demand--1.0",
   "categoryPath": "\\OneDrive",
   "classType": "machine",

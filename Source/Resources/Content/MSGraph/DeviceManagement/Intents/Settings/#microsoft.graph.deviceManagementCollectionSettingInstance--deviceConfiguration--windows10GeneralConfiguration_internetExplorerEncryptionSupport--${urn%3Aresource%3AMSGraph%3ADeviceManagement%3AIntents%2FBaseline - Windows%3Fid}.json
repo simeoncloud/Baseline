@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceManagementCollectionSettingInstance",
+  "$friendlyName": "Baseline - Windows",
   "$name": "#microsoft.graph.deviceManagementCollectionSettingInstance--deviceConfiguration--windows10GeneralConfiguration_internetExplorerEncryptionSupport--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerEncryptionSupport",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",

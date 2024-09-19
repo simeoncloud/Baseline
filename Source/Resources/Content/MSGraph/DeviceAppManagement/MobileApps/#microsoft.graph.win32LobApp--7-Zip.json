@@ -1,6 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.win32LobApp",
   "$description": "| What does this do? | 7-Zip is a file archiver with a high compression ratio. |\n| Why should you use this? | 7-Zip is one of the most popular, compatible and fastest file archiving software. |\n| What is the end-user impact? | Users will have 7-Zip installed on their computer. |\n| Learn more | [7-Zip](https://www.7-zip.org/)",
+  "$friendlyName": "7-Zip",
   "$manifest": {
     "Install.bat": "${ResourceContext:MSGraph:DeviceAppManagement:MobileApps:Install.bat}",
     "Setup.exe": "https://www.7-zip.org/a/7z2201.exe",

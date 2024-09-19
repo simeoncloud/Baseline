@@ -1,5 +1,6 @@
 {
   "$description": "| What does this do? | Prohibits users from registering enterprise applications. |\n| Why should you use this? | If you want to prohibit users from registering enterprise applications. |\n| What is the end-user impact? | Users will not be able to register enterprise applications. |\n| Learn more | [Default user permissions](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/users-default-permissions#to-restrict-the-default-permissions-for-member-users) |",
+  "$friendlyName": "Configuration",
   "hideOffice365Apps": false,
   "usersCanAddGalleryApps": false
 }

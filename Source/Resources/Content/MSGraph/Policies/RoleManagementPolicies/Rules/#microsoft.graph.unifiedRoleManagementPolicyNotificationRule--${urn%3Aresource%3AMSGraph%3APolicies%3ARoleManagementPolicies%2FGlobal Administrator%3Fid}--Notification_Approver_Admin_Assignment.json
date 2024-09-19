@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule",
+  "$friendlyName": "Global Administrator--Notification_Approver_Admin_Assignment",
   "$name": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Notification_Approver_Admin_Assignment",
   "id": "Notification_Approver_Admin_Assignment",
   "isDefaultRecipientsEnabled": true,

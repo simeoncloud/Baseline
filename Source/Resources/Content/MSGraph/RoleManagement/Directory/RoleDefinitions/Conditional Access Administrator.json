@@ -1,5 +1,6 @@
 {
   "$description": "Can manage Conditional Access capabilities.",
+  "$friendlyName": "Conditional Access Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

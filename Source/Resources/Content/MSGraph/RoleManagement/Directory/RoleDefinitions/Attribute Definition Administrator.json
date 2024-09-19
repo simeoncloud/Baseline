@@ -1,5 +1,6 @@
 {
   "$description": "Define and manage the definition of custom security attributes.",
+  "$friendlyName": "Attribute Definition Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

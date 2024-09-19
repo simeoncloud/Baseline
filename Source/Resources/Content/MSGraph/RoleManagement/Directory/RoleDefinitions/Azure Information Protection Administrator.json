@@ -1,5 +1,6 @@
 {
   "$description": "Can manage all aspects of the Azure Information Protection product.",
+  "$friendlyName": "Azure Information Protection Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

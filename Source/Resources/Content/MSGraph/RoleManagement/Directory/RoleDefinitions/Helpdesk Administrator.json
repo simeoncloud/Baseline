@@ -1,5 +1,6 @@
 {
   "$description": "Can reset passwords for non-administrators and Helpdesk Administrators.",
+  "$friendlyName": "Helpdesk Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

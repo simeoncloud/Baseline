@@ -1,6 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
   "$description": "| What does this do? | Creates an Intune Autopilot profile for enrolling machines using the user driven method. Devices in the Azure AD group \"Autopilot Devices User Driven\" will be assigned this profile. |\n| Why should you use this? | When a device is going to be used by a single user, this approach is ideal because the device shows as assigned in all relevant Intune pages and reports. It is also the most stable and consistent Autopilot mode. |\n| What is the end user impact? | Devices with this profile can be enrolled by users themselves. The device will be registered to the user and the user will be able to use the company portal application. |",
+  "$friendlyName": "Baseline: User Driven Profile",
   "$name": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile--Baseline: User Driven Profile",
   "deviceNameTemplate": "",
   "deviceType": "windowsPc",

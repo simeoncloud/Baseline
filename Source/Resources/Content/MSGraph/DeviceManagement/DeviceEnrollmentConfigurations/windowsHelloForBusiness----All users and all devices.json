@@ -1,6 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
   "$description": "| What does this do? | This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership. |",
+  "$friendlyName": "windowsHelloForBusiness--All users and all devices",
   "deviceEnrollmentConfigurationType": "windowsHelloForBusiness",
   "displayName": "All users and all devices",
   "enhancedBiometricsState": "enabled",

@@ -1,4 +1,5 @@
 {
+  "$friendlyName": "Baseline - Functionality - Microsoft Edge Configuration--Allow Desktop, Window, and Tab capture by these origins",
   "$name": "${urn:resource:MSGraph:DeviceManagement:GroupPolicyConfigurations/Baseline - Functionality - Microsoft Edge Configuration?id}--${urn:resource:MSGraph:DeviceManagement:GroupPolicyDefinitions/user--\\Google\\Google Chrome\\Allow or deny screen capture--Allow Desktop, Window, and Tab capture by these origins--1.0?id}",
   "configurationType": "policy",
   "definition": {

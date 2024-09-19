@@ -1,5 +1,6 @@
 {
   "$description": "Can access and manage Desktop management tools and services.",
+  "$friendlyName": "Desktop Analytics Administrator",
   "isEnabled": true,
   "resourceScopes": [
     "/"

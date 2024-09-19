@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceManagementComplexSettingInstance",
+  "$friendlyName": "Baseline - Defender for Endpoint",
   "$name": "#microsoft.graph.deviceManagementComplexSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivate--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivate",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
