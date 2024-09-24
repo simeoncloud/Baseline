@@ -1,6 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Windows",
+  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10EndpointProtectionConfiguration_windowsConnectionManagerConnectionToNonDomainNetworks",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_windowsConnectionManagerConnectionToNonDomainNetworks--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_windowsConnectionManagerConnectionToNonDomainNetworks",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",

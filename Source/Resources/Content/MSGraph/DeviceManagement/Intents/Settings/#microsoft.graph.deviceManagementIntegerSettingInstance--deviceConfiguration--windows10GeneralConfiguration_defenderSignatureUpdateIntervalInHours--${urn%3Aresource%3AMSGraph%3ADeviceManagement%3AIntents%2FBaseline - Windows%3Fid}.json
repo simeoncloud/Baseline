@@ -1,6 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
-  "$friendlyName": "Baseline - Windows",
+  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10GeneralConfiguration_defenderSignatureUpdateIntervalInHours",
   "$name": "#microsoft.graph.deviceManagementIntegerSettingInstance--deviceConfiguration--windows10GeneralConfiguration_defenderSignatureUpdateIntervalInHours--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderSignatureUpdateIntervalInHours",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",

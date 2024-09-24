@@ -1,6 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Windows",
+  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10GeneralConfiguration_internetExplorerRestrictedZoneDragContentFromDifferentDomainsAcrossWindows",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_internetExplorerRestrictedZoneDragContentFromDifferentDomainsAcrossWindows--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
   "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerRestrictedZoneDragContentFromDifferentDomainsAcrossWindows",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",

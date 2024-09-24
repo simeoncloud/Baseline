@@ -1,6 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Defender for Endpoint",
+  "$friendlyName": "Baseline - Defender for Endpoint--admx--microsoftedge_PreventSmartScreenPromptOverrideForFiles",
   "$name": "#microsoft.graph.deviceManagementStringSettingInstance--admx--microsoftedge_PreventSmartScreenPromptOverrideForFiles--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
   "definitionId": "admx--microsoftedge_PreventSmartScreenPromptOverrideForFiles",
   "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
