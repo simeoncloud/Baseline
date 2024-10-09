@@ -5,7 +5,6 @@
   "allowedToUseSSPR": true,
   "allowEmailVerifiedUsersToJoinOrganization": true,
   "allowInvitesFrom": "adminsAndGuestInviters",
-  "allowUserConsentForRiskyApps": false,
   "blockMsolPowerShell": false,
   "defaultUserRolePermissions": {
     "allowedToCreateApps": false,
