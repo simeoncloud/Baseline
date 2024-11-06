@@ -36,8 +36,8 @@
     "users": {
       "excludeGroups": [],
       "excludeRoles": [
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?roleTemplateId}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?roleTemplateId}"
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
       ],
       "excludeUsers": [],
       "includeGroups": [],
