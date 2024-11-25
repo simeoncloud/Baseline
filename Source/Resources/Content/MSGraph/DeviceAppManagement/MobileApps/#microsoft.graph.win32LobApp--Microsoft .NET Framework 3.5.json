@@ -28,21 +28,6 @@
     "runAsAccount": "system"
   },
   "isFeatured": false,
-  "minimumSupportedOperatingSystem": {
-    "v10_0": false,
-    "v10_1607": true,
-    "v10_1703": false,
-    "v10_1709": false,
-    "v10_1803": false,
-    "v10_1809": false,
-    "v10_1903": false,
-    "v10_1909": false,
-    "v10_2004": false,
-    "v10_21H1": false,
-    "v10_2H20": false,
-    "v8_0": false,
-    "v8_1": false
-  },
   "minimumSupportedWindowsRelease": "1607",
   "notes": "",
   "owner": "",
