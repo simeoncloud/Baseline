@@ -1,8 +1,0 @@
-{
-  "$friendlyName": "Silently move Windows known folders to OneDrive",
-  "$name": "machine--\\OneDrive--Silently move Windows known folders to OneDrive--2.0",
-  "categoryPath": "\\OneDrive",
-  "classType": "machine",
-  "displayName": "Silently move Windows known folders to OneDrive",
-  "version": "2.0"
-}

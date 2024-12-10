@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsOtherProcessInjectionType",
-  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsOtherProcessInjectionType--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderOfficeAppsOtherProcessInjectionType",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": "block",
-  "valueJson": "\"block\""
-}

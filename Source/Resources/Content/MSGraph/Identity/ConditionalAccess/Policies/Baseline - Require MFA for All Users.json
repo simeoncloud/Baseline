@@ -1,6 +1,7 @@
 {
-  "$description": "| What does this do? | Requires MFA for all users. Excludes users part of the \"Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations.\" that is part of the baseline. |\n| Why should you use this? | By enforcing MFA within an organization, companies can better protect themselves against cyber threats, such as hacking and identity theft. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users must authenticate using MFA when accessing their account. |\n| Learn more | [How to: Require MFA for all users with Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) |",
+  "$description": "| What does this do? | Ensure multifactor authentication is enabled for all users and that all users are MFA capable |\n| Why should you use this? | Requires an additional form of identification for all users, enhancing security. |\n| What is the end-user impact? | All users will be required to enroll in multifactor authentication using phone, SMS, or an authentication application. |\n| Learn more | [All users MFA strength](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-all-users-mfa-strength) |",
   "$friendlyName": "Baseline - Require MFA for All Users",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "conditions": {
     "applications": {
       "excludeApplications": [],
@@ -16,13 +17,12 @@
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
-      "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?id}"
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/break-glass@${ResourceContext:TenantDomainName}?id}",
+        "${urn:resource:MSGraph:Users/emergency-access@${ResourceContext:TenantDomainName}?id}"
       ],
-      "excludeRoles": [
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}"
-      ],
-      "excludeUsers": [],
       "includeGroups": [],
       "includeRoles": [],
       "includeUsers": [
@@ -38,5 +38,5 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled"
+  "state": "enabledForReportingButNotEnforced"
 }

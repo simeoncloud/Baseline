@@ -1,0 +1,59 @@
+{
+  "$description": "| What does this do? | Ensures admin center access is limited to administrative roles |\n| Why should you use this? | Restricts access to Microsoft Admin Portals to specific pre-determined administrative roles. |\n| What is the end-user impact? | None. |\n| Learn more | [Conditional Access admin portals](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#microsoft-admin-portals) |",
+  "$friendlyName": "Baseline - Block Access to Admin Portals",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "MicrosoftAdminPortals"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Application Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Authentication Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Billing Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Cloud Application Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Conditional Access Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Exchange Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Reader?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Helpdesk Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Password Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Authentication Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Role Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/SharePoint Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/User Administrator?id}"
+      ],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/break-glass@${ResourceContext:TenantDomainName}?id}",
+        "${urn:resource:MSGraph:Users/emergency-access@${ResourceContext:TenantDomainName}?id}"
+      ],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabledForReportingButNotEnforced"
+}

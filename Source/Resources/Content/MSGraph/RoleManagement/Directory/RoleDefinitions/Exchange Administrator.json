@@ -10,6 +10,11 @@
       "allowedResourceActions": [
         "microsoft.azure.serviceHealth/allEntities/allTasks",
         "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.backup/exchangeProtectionPolicies/allProperties/allTasks",
+        "microsoft.backup/exchangeRestoreSessions/allProperties/allTasks",
+        "microsoft.backup/restorePoints/userMailboxes/allProperties/allTasks",
+        "microsoft.backup/userMailboxProtectionUnits/allProperties/allTasks",
+        "microsoft.backup/userMailboxRestoreArtifacts/allProperties/allTasks",
         "microsoft.directory/groups.unified/basic/update",
         "microsoft.directory/groups.unified/create",
         "microsoft.directory/groups.unified/delete",

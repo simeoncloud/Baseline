@@ -1,0 +1,66 @@
+{
+  "$description": "| What does this do? | Ensures access reviews for guest users are configured |\n| Why should you use this? | Ensures periodic re-attestation for guest user accounts. |\n| What is the end-user impact? | None. |\n| Learn more | [Access review overview](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) |",
+  "$friendlyName": "Baseline - Review guest access across Microsoft 365 groups",
+  "additionalNotificationRecipients": [],
+  "backupReviewers": [],
+  "descriptionForAdmins": "",
+  "descriptionForReviewers": "",
+  "fallbackReviewers": [],
+  "instanceEnumerationScope": {
+    "@odata.type": "#microsoft.graph.accessReviewQueryScope",
+    "query": "/v1.0/groups?$filter=(groupTypes/any(c:c+eq+'Unified'))&$count=true",
+    "queryType": "MicrosoftGraph"
+  },
+  "reviewers": [
+    {
+      "query": "./owners",
+      "queryType": "MicrosoftGraph"
+    }
+  ],
+  "scope": {
+    "@odata.type": "#microsoft.graph.accessReviewQueryScope",
+    "query": "./members/microsoft.graph.user/?$count=true&$filter=(userType eq 'Guest')",
+    "queryType": "MicrosoftGraph"
+  },
+  "settings": {
+    "applyActions": [
+      {
+        "@odata.type": "#microsoft.graph.removeAccessApplyAction"
+      }
+    ],
+    "autoApplyDecisionsEnabled": true,
+    "decisionHistoriesForReviewersEnabled": false,
+    "defaultDecision": "Deny",
+    "defaultDecisionEnabled": true,
+    "instanceDurationInDays": 3,
+    "justificationRequiredOnApproval": true,
+    "mailNotificationsEnabled": true,
+    "recommendationInsightSettings": [
+      {
+        "@odata.type": "#microsoft.graph.userLastSignInRecommendationInsightSetting",
+        "recommendationLookBackDuration": "P30D",
+        "signInScope": "tenant"
+      }
+    ],
+    "recommendationLookBackDuration": "P30D",
+    "recommendationsEnabled": true,
+    "recurrence": {
+      "pattern": {
+        "dayOfMonth": 0,
+        "daysOfWeek": [],
+        "firstDayOfWeek": "sunday",
+        "index": "first",
+        "interval": 1,
+        "month": 0,
+        "type": "absoluteMonthly"
+      },
+      "range": {
+        "endDate": "9999-12-31",
+        "numberOfOccurrences": 0,
+        "type": "noEnd"
+      }
+    },
+    "reminderNotificationsEnabled": true
+  },
+  "stageSettings": []
+}

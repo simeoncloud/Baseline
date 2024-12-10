@@ -1,0 +1,78 @@
+{
+  "$description": "| What does this do? | Ensures access reviews for Security Administrator roles are configured |\n| Why should you use this? | Ensures periodic re-attestation for user accounts holding administrative roles. |\n| What is the end-user impact? | None. |\n| Learn more | [Access review overview](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) |",
+  "$friendlyName": "Baseline - Access review for Security Administrators",
+  "additionalNotificationRecipients": [],
+  "backupReviewers": [],
+  "descriptionForAdmins": "",
+  "descriptionForReviewers": "",
+  "displayName": "Access review for privileged Azure AD roles",
+  "fallbackReviewers": [],
+  "reviewers": [
+    {
+      "query": "/v1.0/users/${urn:resource:MSGraph:Users/admin@${ResourceContext:TenantDomainName}?id}",
+      "queryType": "MicrosoftGraph"
+    }
+  ],
+  "scope": {
+    "@odata.type": "#microsoft.graph.principalResourceMembershipsScope",
+    "principalScopes": [
+      {
+        "@odata.type": "#microsoft.graph.accessReviewQueryScope",
+        "query": "/v1.0/groups",
+        "queryType": "MicrosoftGraph"
+      },
+      {
+        "@odata.type": "#microsoft.graph.accessReviewQueryScope",
+        "query": "/v1.0/users",
+        "queryType": "MicrosoftGraph"
+      }
+    ],
+    "resourceScopes": [
+      {
+        "@odata.type": "#microsoft.graph.accessReviewQueryScope",
+        "query": "/beta/roleManagement/directory/roleDefinitions/${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Administrator?id}",
+        "queryType": "MicrosoftGraph"
+      }
+    ]
+  },
+  "settings": {
+    "applyActions": [
+      {
+        "@odata.type": "#microsoft.graph.removeAccessApplyAction"
+      }
+    ],
+    "autoApplyDecisionsEnabled": true,
+    "decisionHistoriesForReviewersEnabled": false,
+    "defaultDecision": "None",
+    "defaultDecisionEnabled": false,
+    "instanceDurationInDays": 3,
+    "justificationRequiredOnApproval": true,
+    "mailNotificationsEnabled": true,
+    "recommendationInsightSettings": [
+      {
+        "@odata.type": "#microsoft.graph.userLastSignInRecommendationInsightSetting",
+        "recommendationLookBackDuration": "P30D",
+        "signInScope": "tenant"
+      }
+    ],
+    "recommendationsEnabled": true,
+    "recurrence": {
+      "pattern": {
+        "dayOfMonth": 0,
+        "daysOfWeek": [],
+        "firstDayOfWeek": "sunday",
+        "index": "first",
+        "interval": 1,
+        "month": 0,
+        "type": "weekly"
+      },
+      "range": {
+        "endDate": "9999-12-31",
+        "numberOfOccurrences": 0,
+        "type": "noEnd"
+      }
+    },
+    "reminderNotificationsEnabled": true
+  },
+  "stageSettings": []
+}

@@ -1,0 +1,15 @@
+{
+  "$description": "| What does this do? | Ensure a dynamic group for guest users is created |\n| Why should you use this? | Automatically assigns guest user accounts to a dynamic group, ensuring consistent governance and security controls can be applied to each. |\n| What is the end-user impact? | None |\n| Learn more | [Dynamic group membership](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-dynamic-membership) |",
+  "$friendlyName": "Baseline - Guest Users",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "infoCatalogs": [],
+  "mailEnabled": false,
+  "mailNickname": "3e10c756-5",
+  "membershipRule": "(user.userType -eq \"Guest\")",
+  "membershipRuleProcessingState": "On",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

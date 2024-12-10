@@ -1,6 +1,0 @@
-{
-  "$description": "| What does this do? | Can read basic directory information. Commonly used to grant directory read access to applications and guests. |",
-  "$friendlyName": "Directory Readers",
-  "description": "Can read basic directory information. Commonly used to grant directory read access to applications and guests.",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Readers?id}"
-}

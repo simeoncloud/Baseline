@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10GeneralConfiguration_internetExplorerInternetZoneLessPrivilegedSites",
-  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_internetExplorerInternetZoneLessPrivilegedSites--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerInternetZoneLessPrivilegedSites",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": "disable",
-  "valueJson": "\"disable\""
-}

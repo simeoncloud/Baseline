@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-  "$friendlyName": "Baseline - Defender for Endpoint--deviceConfiguration--windows10GeneralConfiguration_smartScreenBlockPromptOverride",
-  "$name": "#microsoft.graph.deviceManagementBooleanSettingInstance--deviceConfiguration--windows10GeneralConfiguration_smartScreenBlockPromptOverride--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
-  "definitionId": "deviceConfiguration--windows10GeneralConfiguration_smartScreenBlockPromptOverride",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
-  "value": true,
-  "valueJson": "true"
-}

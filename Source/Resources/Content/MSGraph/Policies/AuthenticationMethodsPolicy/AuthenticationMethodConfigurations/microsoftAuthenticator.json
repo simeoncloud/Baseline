@@ -1,0 +1,51 @@
+{
+  "$description": "| What does this do? | Ensures Microsoft Authenticator is configured to protect against MFA fatigue |\n| Why should you use this? | Enhances the configuration of the Microsoft Authenticator to use number matching and provide additional context to users. |\n| What is the end-user impact? | User education is required. |\n| Learn more | [How to MFA number match](https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match) |",
+  "$friendlyName": "microsoftAuthenticator",
+  "@odata.type": "#microsoft.graph.microsoftAuthenticatorAuthenticationMethodConfiguration",
+  "excludeTargets": [],
+  "featureSettings": {
+    "companionAppAllowedState": {
+      "excludeTarget": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "targetType": "group"
+      },
+      "includeTarget": {
+        "id": "all_users",
+        "targetType": "group"
+      },
+      "state": "default"
+    },
+    "displayAppInformationRequiredState": {
+      "excludeTarget": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "targetType": "group"
+      },
+      "includeTarget": {
+        "id": "all_users",
+        "targetType": "group"
+      },
+      "state": "enabled"
+    },
+    "displayLocationInformationRequiredState": {
+      "excludeTarget": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "targetType": "group"
+      },
+      "includeTarget": {
+        "id": "all_users",
+        "targetType": "group"
+      },
+      "state": "enabled"
+    }
+  },
+  "includeTargets": [
+    {
+      "@odata.type": "#microsoft.graph.authenticationMethodTarget",
+      "id": "all_users",
+      "isRegistrationRequired": false,
+      "targetType": "group"
+    }
+  ],
+  "isSoftwareOathEnabled": false,
+  "state": "enabled"
+}

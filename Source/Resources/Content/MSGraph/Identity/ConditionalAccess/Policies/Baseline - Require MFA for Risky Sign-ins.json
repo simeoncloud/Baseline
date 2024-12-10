@@ -1,0 +1,52 @@
+{
+  "$description": "| What does this do? | Enables Azure AD Identity Protection sign-in risk policies |\n| Why should you use this? | Configures a policy to detect sign-in risks, ensuring that suspicious sign-ins are challenged for multi-factor authentication. |\n| What is the end-user impact? | Users with suspicious login activity will be challenged for MFA. |\n| Learn more | [Identity protection MFA policy](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) |",
+  "$friendlyName": "Baseline - Require MFA for Risky Sign-ins",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [
+      "high",
+      "medium"
+    ],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/break-glass@${ResourceContext:TenantDomainName}?id}",
+        "${urn:resource:MSGraph:Users/emergency-access@${ResourceContext:TenantDomainName}?id}"
+      ],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "sessionControls": {
+    "signInFrequency": {
+      "authenticationType": "primaryAndSecondaryAuthentication",
+      "frequencyInterval": "everyTime",
+      "isEnabled": true
+    }
+  },
+  "state": "enabled"
+}

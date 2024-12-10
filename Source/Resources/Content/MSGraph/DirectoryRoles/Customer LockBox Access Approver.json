@@ -1,5 +1,0 @@
-{
-  "$description": "Can approve Microsoft support requests to access customer organizational data.",
-  "$friendlyName": "Customer LockBox Access Approver",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Customer LockBox Access Approver?id}"
-}

@@ -1,0 +1,13 @@
+{
+  "$description": "| What does this do? | Ensure internal phishing protection for Forms is enabled |\n| Why should you use this? | Prevents attackers from using forms for phishing attacks by asking personal or other sensitive information. |\n| What is the end-user impact? | If potential phishing is detected, the form will be blocked. |\n| Learn more | [Microsoft Forms](https://learn.microsoft.com/en-us/microsoft-forms/review-unblock-forms-users-detected-blocked-potential-phishing) |",
+  "$friendlyName": "Configuration",
+  "BingImageSearchEnabled": true,
+  "ExternalCollaborationEnabled": false,
+  "ExternalSendFormEnabled": true,
+  "ExternalShareCollaborationEnabled": true,
+  "ExternalShareResultEnabled": true,
+  "ExternalShareTemplateEnabled": true,
+  "InOrgFormsPhishingScanEnabled": true,
+  "RecordIdentityByDefaultEnabled": true,
+  "ResponderEditResponse": true
+}

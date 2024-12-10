@@ -1,0 +1,24 @@
+{
+  "$description": "| What does this do? | Ensures third party integrated applications are not allowed; restricts non-admin users from creating tenants; Ensures user consent to apps accessing company data on their behalf is not allowed |\n| Why should you use this? | Prevents users from registering custom-developed applications and prevents the unauthorized or uncontrolled deployment of additional Entra resources, ensuring organizational control. Prevents users from granting apps access to data, reducing the threat surface. |\n| What is the end-user impact? | Users will need to use organizationally approved methods to provision new applications and tenants. |\n| Learn more | [How applications are added](https://learn.microsoft.com/en-us/entra/identity-platform/how-applications-are-added) [Users default permissions](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/users-default-permissions#restrict-member-users-default-permissions) [Configure user consent](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/configure-user-consent) |",
+  "$friendlyName": "Authorization Policy",
+  "allowEmailVerifiedUsersToJoinOrganization": true,
+  "allowInvitesFrom": "everyone",
+  "allowUserConsentForRiskyApps": false,
+  "allowedToSignUpEmailBasedSubscriptions": true,
+  "allowedToUseSSPR": true,
+  "blockMsolPowerShell": false,
+  "defaultUserRolePermissions": {
+    "allowedToCreateApps": false,
+    "allowedToCreateSecurityGroups": false,
+    "allowedToCreateTenants": false,
+    "allowedToReadBitlockerKeysForOwnedDevice": true,
+    "allowedToReadOtherUsers": true
+  },
+  "enabledPreviewFeatures": [],
+  "guestUserRoleId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Restricted Guest User?id}",
+  "permissionGrantPolicyIdsAssignedToDefaultUserRole": [
+    "ManagePermissionGrantsForOwnedResource.microsoft-dynamically-managed-permissions-for-chat",
+    "ManagePermissionGrantsForOwnedResource.microsoft-dynamically-managed-permissions-for-team",
+    "ManagePermissionGrantsForSelf.microsoft-user-default-low"
+  ]
+}

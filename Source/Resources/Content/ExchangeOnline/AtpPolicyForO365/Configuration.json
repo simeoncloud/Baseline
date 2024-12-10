@@ -1,7 +1,7 @@
 {
-  "$description": "| What does this do? | Defines Azure Active Directory authorization settings. The baseline allows users to sign up for email based subscriptions, use Self-Serve Password Reset, and join the tenant by email validation. Only adminstrators and guest inviters can invite external users to the organization. Users are allowed to read other users. |\n| Why should you use this? | If you want to apply Azure Active Directory authorization settings. |\n| What is the end-user impact? | Users are not allowed to read BitLocker keys for their owned device. |\n| Learn more | [Authorization Policy](https://docs.microsoft.com/en-us/graph/api/resources/authorizationpolicy?view=graph-rest-1.0) |",
+  "$description": "| What does this do? | Ensure Safe Attachments for SharePoint, OneDrive, and Microsoft Teams is Enabled |\n| Why should you use this? | Protects users from malware in files shared via SharePoint Online, OneDrive for Business or Teams by detonating the file in a sandbox environment before allowing access. |\n| What is the end-user impact? | Minimal impact, some user education is advised. |\n| Learn more | [Safe attachments policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments-policies-configure?view=o365-worldwide) |",
   "$friendlyName": "Configuration",
   "AllowSafeDocsOpen": false,
-  "EnableATPForSPOTeamsODB": false,
-  "EnableSafeDocs": false
+  "EnableATPForSPOTeamsODB": true,
+  "EnableSafeDocs": true
 }

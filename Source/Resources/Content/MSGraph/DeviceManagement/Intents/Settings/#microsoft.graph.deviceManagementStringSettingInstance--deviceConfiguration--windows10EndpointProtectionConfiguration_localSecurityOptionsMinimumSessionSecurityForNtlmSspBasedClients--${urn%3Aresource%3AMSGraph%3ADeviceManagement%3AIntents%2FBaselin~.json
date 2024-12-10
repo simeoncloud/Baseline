@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsMinimumSessionSecurityForNtlmSspBasedClients",
-  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsMinimumSessionSecurityForNtlmSspBasedClients--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsMinimumSessionSecurityForNtlmSspBasedClients",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": "ntlmV2And128BitEncryption",
-  "valueJson": "\"ntlmV2And128BitEncryption\""
-}

@@ -1,0 +1,10 @@
+{
+  "$description": "| What does this do? | Ensure 'External sharing' of calendars is not available |\n| Why should you use this? | Prevents external calendar sharing, reducing the risk of attackers learning about organizational relationships. |\n| What is the end-user impact? | Users may experience a minor inconvenience when scheduling meetings or synchronizing calendars with people outside the tenant. |\n| Learn more | [Share calendars with external users](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/share-calendars-with-external-users?view=o365-worldwide) |",
+  "$friendlyName": "Default Sharing Policy",
+  "Default": true,
+  "Domains": [
+    "*:CalendarSharingFreeBusySimple",
+    "Anonymous:CalendarSharingFreeBusyReviewer"
+  ],
+  "Enabled": false
+}

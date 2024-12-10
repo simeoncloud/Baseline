@@ -1,8 +1,0 @@
-{
-  "$description": "| What does this do? | Enables DomainKeys Identified Mail (DKIM) for the default domain in the tenant. |\n| Why should you use this? | DomainKeys Identified Mail (DKIM) allows digital signatures to be added to email messages in the message header, providing a layer of both authenticity and integrity to emails.|\n| What is the end-user impact? | While there is no direct impact to end-users, they should experience better outbound mail flow delivery with DKIM in place. |\n| Learn more | [Using DKIM](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide) |",
-  "$friendlyName": "${ResourceContext:TenantDomainName}",
-  "$name": "${ResourceContext:TenantDomainName}",
-  "BodyCanonicalization": "Relaxed",
-  "Enabled": true,
-  "HeaderCanonicalization": "Relaxed"
-}

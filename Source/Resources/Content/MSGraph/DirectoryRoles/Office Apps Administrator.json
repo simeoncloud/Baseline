@@ -1,5 +1,0 @@
-{
-  "$description": "Can manage Office apps cloud services, including policy and settings management, and manage the ability to select, unselect and publish 'what's new' feature content to end-user's devices.",
-  "$friendlyName": "Office Apps Administrator",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Office Apps Administrator?id}"
-}

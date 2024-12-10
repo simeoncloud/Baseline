@@ -1,8 +1,63 @@
 {
     "name": "CIS Baseline",
-    "description": "This policy is a baseline for Microsoft 365 that aligns with the Center for Internet Security (CIS) Microsoft 365 Foundations Benchmark v1.1.0.",
+    "description": "This baseline aligns with the Center for Internet Security (CIS) Microsoft 365 Foundations Benchmark v3.1.0.",
     "label": "CIS",
     "tags": [
+      {
+        "path": "Source/Resources/Content/AadIam/ExternalUserGuestSettings/Configuration.json",
+        "description": [
+          "5.1.6.1 (L2) Ensure that collaboration invitations are sent to allowed domains only (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/AadIam/PasswordResetPolicies/Configuration.json",
+        "description": [
+          "5.2.4.1 (L1) Ensure 'Self service password reset enabled' is set to 'All' (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/AadIam/UserSettings/Configuration.json",
+        "description": [
+          "5.1.2.4 (L1) Ensure 'Restrict access to the Azure AD administration portal' is set to 'Yes'  (Manual)",
+          "5.1.2.6 (L2) Ensure 'LinkedIn account connections' is disabled (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/AdminAuditLogConfig/Configuration.json",
+        "description": [
+          "3.1.1 (L1) Ensure Microsoft 365 audit log search is Enabled (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/AntiPhishPolicy/Office365 AntiPhish Default.json",
+        "description": [
+          "2.1.7 (L1) Ensure that an anti-phishing policy has been created (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/AtpPolicyForO365/Configuration.json",
+        "description": [
+          "2.1.5 (L2) Ensure Safe Attachments for SharePoint, OneDrive, and Microsoft Teams is Enabled (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/ExternalInOutlook/Configuration.json",
+        "description": [
+          "6.2.3 (L1) Ensure email from external senders is identified (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/HostedOutboundSpamFilterPolicy/Default.json",
+        "description": [
+          "2.1.6 (L1) Ensure Exchange Online Spam Policies are set to notify administrators (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/HostedOutboundSpamFilterPolicy/Default.json",
+        "description": [
+          "6.2.1 (L1) Ensure all forms of mail forwarding are blocked and/or disabled (Automated)"
+        ]
+      },
       {
         "path": "Source/Resources/Content/ExchangeOnline/MalwareFilterPolicy/Default.json",
         "description": [
@@ -20,12 +75,256 @@
         ]
       },
       {
+        "path": "Source/Resources/Content/ExchangeOnline/OwaMailboxPolicy/OwaMailboxPolicy-Default.json",
+        "description": [
+          "6.5.3 (L2) Ensure additional storage providers are restricted in Outlook on the web (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/SafeAttachmentPolicy/Baseline - Safe Attachments Policy.json",
+        "description": [
+          "2.1.4 (L2) Ensure Safe Attachments policy is enabled (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/SafeLinksPolicy/Built-In Protection Policy.json",
+        "description": [
+          "2.1.1 (L2) Ensure Safe Links for Office Applications is Enabled (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/SharingPolicy/Default Sharing Policy.json",
+        "description": [
+          "1.3.3 (L2) Ensure 'External sharing' of calendars is not available (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Domains/${ResourceContext%3ATenantDomainName}.json",
+        "description": [
+          "1.3.1 (L1) Ensure the 'Password expiration policy' is set to 'Set passwords to never expire (recommended)' (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Groups/Baseline - Guest Users.json",
+        "description": [
+          "5.1.3.1 (L1) Ensure a dynamic group for guest users is created (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Block access to admin portals.json",
+        "description": [
+          "5.2.2.8 (L1) Ensure admin center access is limited to administrative roles (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Block Legacy Authentication.json",
+        "description": [
+          "5.2.2.3 (L1) Enable Conditional Access policies to block legacy authentication (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - No persistent admin sessions.json",
+        "description": [
+          "5.2.2.4 (L1) Ensure Sign-in frequency is enabled and browser sessions are not persistent for Administrative users (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA for Admins.json",
+        "description": [
+          "5.2.2.1 (L1) Ensure multifactor authentication is enabled for all users in administrative roles (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA for all users.json",
+        "description": [
+          "5.2.2.2 (L1) Ensure multifactor authentication is enabled for all users (Manual)",
+          "5.2.3.4 (L1) Ensure all member users are 'MFA capable' (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA for risky sign-ins.json",
+        "description": [
+          "5.2.2.7 (L2) Enable Azure AD Identity Protection sign-in risk policies (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require password change for high-risk users.json",
+        "description": [
+          "5.2.2.6 (L2) Enable Azure AD Identity Protection user risk policies (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require phishing-resistant MFA for admins.json",
+        "description": [
+          "5.2.2.5 (L2) Ensure 'Phishing-resistant MFA strength' is required for Administrators (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/IdentityGovernance/AccessReviews/Definitions/Baseline - Access review for Exchange Administrators.json",
+        "description": [
+          "5.3.3 (L1) Ensure 'Access reviews' for high privileged Azure AD roles are configured (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/IdentityGovernance/AccessReviews/Definitions/Baseline - Access review for Global Administrators.json",
+        "description": [
+          "5.3.3 (L1) Ensure 'Access reviews' for high privileged Azure AD roles are configured (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/IdentityGovernance/AccessReviews/Definitions/Baseline - Access review for Security Administrators.json",
+        "description": [
+          "5.3.3 (L1) Ensure 'Access reviews' for high privileged Azure AD roles are configured (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/IdentityGovernance/AccessReviews/Definitions/Baseline - Access review for SharePoint Administrators.json",
+        "description": [
+          "5.3.3 (L1) Ensure 'Access reviews' for high privileged Azure AD roles are configured (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/IdentityGovernance/AccessReviews/Definitions/Baseline - Access review for Teams Administrators.json",
+        "description": [
+          "5.3.3 (L1) Ensure 'Access reviews' for high privileged Azure AD roles are configured (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/IdentityGovernance/AccessReviews/Definitions/Baseline - Review guest access across Microsoft 365 groups.json",
+        "description": [
+          "5.3.2 (L1) Ensure 'Access reviews' for Guest Users are configured (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/microsoftAuthenticator.json",
+        "description": [
+          "5.2.3.1 (L1) Ensure Microsoft Authenticator is configured to protect against MFA fatigue (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Policies/AuthorizationPolicy/Authorization Policy.json",
+        "description": [
+          "5.1.2.2 (L2) Ensure third party integrated applications are not allowed (Automated)",
+          "5.1.2.3 (L1) Ensure 'Restrict non-admin users from creating tenants' is set to 'Yes'  (Automated)",
+          "5.1.5.2 (L2) Ensure user consent to apps accessing company data on their behalf is not allowed (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Settings/Consent Policy Settings.json",
+        "description": [
+          "5.1.5.3 (L1) Ensure the admin consent workflow is enabled (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Settings/Password Rule Settings.json",
+        "description": [
+          "5.2.3.2 (L1) Ensure custom banned passwords lists are used (Manual)",
+          "5.2.3.3 (L1) Ensure password protection is enabled for on-prem Active Directory (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Users/break-glass@${ResourceContext%3ATenantDomainName}.json",
+        "description": [
+          "1.1.2 (L1) Ensure two emergency access accounts have been defined (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Users/emergency-access@${ResourceContext%3ATenantDomainName}.json",
+        "description": [
+          "1.1.2 (L1) Ensure two emergency access accounts have been defined (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/O365Portal/Settings/Apps/OfficeForms/Configuration.json",
+        "description": [
+          "1.3.5 (L1) Ensure internal phishing protection for Forms is enabled (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/O365Portal/Settings/Security/ActivityBasedTimeout/Configuration.json",
+        "description": [
+          "1.3.2 (L1) Ensure 'Idle session timeout' is set to '3 hours (or less)' for unmanaged devices (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/O365Portal/Settings/UserOwnedAppAndServices/AccessOfficeStore/Configuration.json",
+        "description": [
+          "1.3.4 (L1) Ensure 'User owned apps and services' is restricted"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/O365Portal/Settings/UserOwnedAppAndServices/StartTrialOnBehalfOrg/Configuration.json",
+        "description": [
+          "1.3.4 (L1) Ensure 'User owned apps and services' is restricted"
+        ]
+      },
+      {
         "path": "Source/Resources/Content/SecurityAndCompliance/DlpCompliancePolicy/Baseline - Default DLP Policy for Office 365.json",
         "description": [
-          "3.2.1 (L1) Ensure DLP policies are enabled (Manual)",
+          "3.2.1 (L1) Ensure DLP policies are enabled (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/SecurityAndCompliance/DlpCompliancePolicy/Baseline - Default DLP Policy for Teams.json",
+        "description": [
           "3.2.2 (L1) Ensure DLP policies are enabled for Microsoft Teams (Manual)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/SharePoint/Sites/https%3A%2F%2F${ResourceContext%3ASharePointDomainName}.json",
+        "description": [
+          "7.3.4 (L1) Ensure custom script execution is restricted on site collections (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/SharePoint/TenantProperties/Configuration.json",
+        "description": [
+          "7.2.1 (L1) Ensure modern authentication for SharePoint applications is required (Automated)",
+          "7.2.2 (L1) Ensure SharePoint and OneDrive integration with Azure AD B2B is enabled (Automated)",
+          "7.2.3 (L1) Ensure external content sharing is restricted (Automated)",
+          "7.2.4 (L2) Ensure OneDrive content sharing is restricted (Automated)",
+          "7.2.5 (L2) Ensure that SharePoint guest users cannot share items they don't own (Automated)",
+          "2.1.5 (L2) Ensure Safe Attachments for SharePoint, OneDrive, and Microsoft Teams is Enabled (Automated)",
+          "7.2.6 (L2) Ensure SharePoint external sharing is managed through domain whitelist/blacklists",
+          "7.2.7 (L1) Ensure link sharing is restricted in SharePoint and OneDrive (Automated)",
+          "7.2.9 (L1) Ensure guest access to a site or OneDrive will expire automatically (Automated)",
+          "7.2.10 (L1) Ensure reauthentication with verification code is restricted (Automated)",
+          "7.3.1 (L2) Ensure Office 365 SharePoint infected files are disallowed for download (Automated)",
+          "7.3.2 (L2) Ensure OneDrive sync is restricted for unmanaged devices (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/Teams/CsTeamsClientConfiguration/Global.json",
+        "description": [
+          "8.1.1 (L2) Ensure external file sharing in Teams is enabled for only approved cloud storage services (Automated)",
+          "8.1.2 (L1) Ensure users can't send emails to a channel email address (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/Teams/CsTeamsMeetingPolicy/Global.json",
+        "description": [
+          "8.5.1 (L2) Ensure anonymous users can't join a meeting (Automated)",
+          "8.5.2 (L1) Ensure anonymous users and dial-in callers can't start a meeting (Automated)",
+          "8.5.3 (L1) Ensure only people in my org can bypass the lobby (Automated)",
+          "8.5.4 (L1) Ensure users dialing in can't bypass the lobby (Automated)",
+          "8.5.5 (L2) Ensure meeting chat does not allow anonymous users (Automated)",
+          "8.5.6 (L2) Ensure only organizers and co-organizers can present (Automated)",
+          "8.5.7 (L1) Ensure external participants can't give or request control (Automated)",
+          "8.5.8 (L2) Ensure external meeting chat is off (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/Teams/CsTeamsMessagingPolicy/Global.json",
+        "description": [
+          "8.6.1 (L1) Ensure users can report security concerns in Teams (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/Teams/CsTenantFederationConfiguration/Global.json",
+        "description": [
+          "8.2.1 (L1) Ensure 'external access' is restricted in the Teams admin center (Automated)"
         ]
       }
     ]
-  }
+}
   

@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Test Windows 10--deviceConfiguration--windows10GeneralConfiguration_internetExplorerInternetZoneRunDotNetFrameworkReliantComponentsSignedWithAuthenticode",
-  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_internetExplorerInternetZoneRunDotNetFrameworkReliantComponentsSignedWithAuthenticode--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerInternetZoneRunDotNetFrameworkReliantComponentsSignedWithAuthenticode",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": "disable",
-  "valueJson": "\"disable\""
-}

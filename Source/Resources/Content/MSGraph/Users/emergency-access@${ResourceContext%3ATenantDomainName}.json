@@ -1,0 +1,10 @@
+{
+  "$description": "| What does this do? | Along with Baseline - Break Glass, ensures two emergency access accounts have been defined |\n| Why should you use this? | Ensures emergency access/break-glass accounts are available in the event of losing access to administrative functions. |\n| What is the end-user impact? | None. |\n| Learn more | [Security emergency access](https://learn.microsoft.com/en-us/azure/active-directory/roles/security-emergency-access) |",
+  "$friendlyName": "Baseline - Emergency Access",
+  "$name": "emergency-access@${ResourceContext:TenantDomainName}",
+  "accountEnabled": true,
+  "displayName": "Baseline - Emergency Access",
+  "isDeviceEnrollmentManager": false,
+  "mailNickname": "emergency-access",
+  "userType": "Member"
+}

@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | This policy detects the presence of credit card numbers in externally shared documents and emails. End users are notified of the detection with the suggestion to consider either removing the sensitive data or restricting the sharing.|\n| Why should you use this? | Senesitive content should be restricted from being shared inside the organization where it could easily be exfiltrated such as externally sent email messages.|\n| What is the end-user impact? | End users are notified of the detection with the suggestion to consider either removing the sensitive data or restricting the sharing. |\n| Learn more | [Data loss prevention in Exchange Online](https://learn.microsoft.com/en-us/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) |",
+  "$description": "| What does this do? | Ensure DLP policies are enabled that will allow sensitive data in Exchange Online and SharePoint Online to be detected or blocked |\n| Why should you use this? | Ensures that at least one DLP policy is active within the tenant. |\n| What is the end-user impact? | Users will need to use organizationally approved methods to share sensitive data. |\n| Learn more | [Learn about DLP](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-learn-about-dlp?view=o365-worldwide) |",
   "$friendlyName": "Baseline - Default DLP Policy for Office 365",
   "EndpointDlpLocation": [],
   "EndpointDlpLocationException": [],
@@ -11,14 +11,14 @@
   "ExchangeSenderMemberOf": [],
   "ExchangeSenderMemberOfException": [],
   "Mode": "Enable",
+  "OnPremisesScannerDlpLocation": [],
+  "OnPremisesScannerDlpLocationException": [],
   "OneDriveLocation": [
     "All"
   ],
   "OneDriveLocationException": [],
   "OneDriveSharedBy": [],
   "OneDriveSharedByMemberOf": [],
-  "OnPremisesScannerDlpLocation": [],
-  "OnPremisesScannerDlpLocationException": [],
   "PowerBIDlpLocation": [],
   "PowerBIDlpLocationException": [],
   "Priority": 0,

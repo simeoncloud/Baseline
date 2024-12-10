@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementAbstractComplexSettingInstance",
-  "$friendlyName": "Baseline - Defender for Endpoint--deviceConfiguration--windows10GeneralConfiguration_hardwareDeviceInstallationBySetupClasses",
-  "$name": "#microsoft.graph.deviceManagementAbstractComplexSettingInstance--deviceConfiguration--windows10GeneralConfiguration_hardwareDeviceInstallationBySetupClasses--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
-  "definitionId": "deviceConfiguration--windows10GeneralConfiguration_hardwareDeviceInstallationBySetupClasses",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Defender for Endpoint?id}",
-  "implementationId": "deviceConfiguration--hardwareDeviceInstallationBlocked",
-  "valueJson": "{\"$implementationId\":\"deviceConfiguration--hardwareDeviceInstallationBlocked\",\"removeMatchingHardwareDevices\":true,\"identifiers\":[\"{d48179be-ec20-11d1-b6b8-00c04fa372a7}\"]}"
-}

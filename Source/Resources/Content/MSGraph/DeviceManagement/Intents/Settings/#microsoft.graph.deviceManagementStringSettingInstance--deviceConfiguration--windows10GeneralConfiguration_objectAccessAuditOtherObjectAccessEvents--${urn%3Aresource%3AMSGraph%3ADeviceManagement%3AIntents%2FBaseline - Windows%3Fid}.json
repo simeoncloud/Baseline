@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10GeneralConfiguration_objectAccessAuditOtherObjectAccessEvents",
-  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_objectAccessAuditOtherObjectAccessEvents--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10GeneralConfiguration_objectAccessAuditOtherObjectAccessEvents",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": "successAndFailure",
-  "valueJson": "\"successAndFailure\""
-}

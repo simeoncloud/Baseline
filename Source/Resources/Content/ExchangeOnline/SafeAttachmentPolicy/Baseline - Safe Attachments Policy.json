@@ -1,0 +1,8 @@
+{
+  "$description": "| What does this do? | Ensure Safe Attachments policy is enabled |\n| Why should you use this? | Protects users from malware in email attachments by detonating any attachments in a sandbox before releasing the message. |\n| What is the end-user impact? | Some delay in delivery of email with attachments may be observed. |\n| Learn more | [Safe attachments policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments-policies-configure?view=o365-worldwide) |",
+  "$friendlyName": "Baseline - Safe Attachments Policy",
+  "Action": "Block",
+  "Enable": true,
+  "QuarantineTag": "${urn:resource:ExchangeOnline:QuarantinePolicy/AdminOnlyAccessPolicy?Name}",
+  "Redirect": false
+}

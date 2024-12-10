@@ -9,6 +9,7 @@
     {
       "allowedResourceActions": [
         "microsoft.azure.serviceHealth/allEntities/allTasks",
+        "microsoft.backup/allEntities/allProperties/read",
         "microsoft.cloudPC/allEntities/allProperties/read",
         "microsoft.commerce.billing/allEntities/allProperties/read",
         "microsoft.commerce.billing/purchases/standard/read",
@@ -77,6 +78,7 @@
         "microsoft.directory/verifiableCredentials/configuration/contracts/allProperties/read",
         "microsoft.directory/verifiableCredentials/configuration/contracts/cards/allProperties/read",
         "microsoft.edge/allEntities/allProperties/read",
+        "microsoft.graph.dataConnect/allEntities/allProperties/read",
         "microsoft.hardware.support/shippingAddress/allProperties/read",
         "microsoft.hardware.support/shippingStatus/allProperties/read",
         "microsoft.hardware.support/warrantyClaims/allProperties/read",

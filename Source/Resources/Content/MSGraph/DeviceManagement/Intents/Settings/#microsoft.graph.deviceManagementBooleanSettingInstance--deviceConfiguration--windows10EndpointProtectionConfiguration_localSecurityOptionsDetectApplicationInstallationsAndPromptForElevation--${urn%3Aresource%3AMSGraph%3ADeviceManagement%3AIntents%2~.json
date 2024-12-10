@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-  "$friendlyName": "Test Windows 10--deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsDetectApplicationInstallationsAndPromptForElevation",
-  "$name": "#microsoft.graph.deviceManagementBooleanSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsDetectApplicationInstallationsAndPromptForElevation--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_localSecurityOptionsDetectApplicationInstallationsAndPromptForElevation",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": true,
-  "valueJson": "true"
-}

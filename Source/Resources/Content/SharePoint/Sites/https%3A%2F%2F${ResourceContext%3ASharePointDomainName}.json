@@ -1,0 +1,37 @@
+{
+  "$description": "| What does this do? | Ensures custom script execution is restricted on site collections |\n| Why should you use this? | Prevents users from running custom scripts on site collections. |\n| What is the end-user impact? | None. |\n| Learn more | [SharePoint custom scripts](https://learn.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script) |",
+  "$friendlyName": "The Landing",
+  "$name": "https://${ResourceContext:SharePointDomainName}",
+  "AllowEditing": true,
+  "AllowSelfServiceUpgrade": true,
+  "BlockDownloadLinksFileType": "WebPreviewableFiles",
+  "DenyAddAndCustomizePages": "Enabled",
+  "DisableAppViews": "NotDisabled",
+  "DisableCompanyWideSharingLinks": "NotDisabled",
+  "DisableFlows": "NotDisabled",
+  "IBMode": "",
+  "Lcid": 1033,
+  "LimitedAccessFileType": "WebPreviewableFiles",
+  "LockState": "Unlock",
+  "Members": [
+    "c:0-.f|rolemanager|spo-grid-all-users/${ResourceContext:TenantId}",
+    "i:0#.f|membership|${urn:resource:MSGraph:Users/admin@${ResourceContext:TenantDomainName}?userPrincipalName}"
+  ],
+  "Owner": "${urn:resource:MSGraph:DirectoryRoles/Global Administrator?id}",
+  "Owners": [
+    "c:0t.c|tenant|${urn:resource:MSGraph:DirectoryRoles/Global Administrator?id}",
+    "SHAREPOINT\\system"
+  ],
+  "PWAEnabled": "Disabled",
+  "RestrictedToRegion": "Unknown",
+  "SecondaryAdmins": [
+    "c:0t.c|tenant|${urn:resource:MSGraph:DirectoryRoles/SharePoint Administrator?id}"
+  ],
+  "SharingAllowedDomainList": "",
+  "SharingBlockedDomainList": "",
+  "SharingCapability": "ExternalUserSharingOnly",
+  "Template": "SITEPAGEPUBLISHING#0",
+  "TimeZoneId": "UTCMINUS0800_PACIFIC_TIME_US_AND_CANADA",
+  "Title": "The Landing",
+  "Visitors": []
+}

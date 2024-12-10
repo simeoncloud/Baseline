@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10GeneralConfiguration_internetExplorerRestrictedZoneProtectedMode",
-  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10GeneralConfiguration_internetExplorerRestrictedZoneProtectedMode--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10GeneralConfiguration_internetExplorerRestrictedZoneProtectedMode",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": "enable",
-  "valueJson": "\"enable\""
-}

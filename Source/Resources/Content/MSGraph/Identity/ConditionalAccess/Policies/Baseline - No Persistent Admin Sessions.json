@@ -1,0 +1,67 @@
+{
+  "$description": "| What does this do? | Ensure Sign-in frequency is enabled and browser sessions are not persistent for Administrative users |\n| Why should you use this? | Enforces sign-in frequency requirements for administrative users and ensures that sessions are not kept alive for an indefinitely. |\n| What is the end-user impact? | Users with Administrative roles will be prompted to reauthenticate more often. |\n| Learn more | [Conditional Access session lifetime](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) |",
+  "$friendlyName": "Baseline - No Persistent Admin Sessions",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Application Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Authentication Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Billing Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Cloud Application Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Conditional Access Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Exchange Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Reader?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Helpdesk Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Password Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Authentication Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Role Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/SharePoint Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/User Administrator?id}"
+      ],
+      "includeUsers": []
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "sessionControls": {
+    "persistentBrowser": {
+      "isEnabled": true,
+      "mode": "never"
+    },
+    "signInFrequency": {
+      "authenticationType": "primaryAndSecondaryAuthentication",
+      "frequencyInterval": "timeBased",
+      "isEnabled": true,
+      "type": "hours",
+      "value": 4
+    }
+  },
+  "state": "enabledForReportingButNotEnforced"
+}
