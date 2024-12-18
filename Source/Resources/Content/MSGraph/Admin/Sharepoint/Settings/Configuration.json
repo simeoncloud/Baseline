@@ -27,10 +27,7 @@
   "isSyncButtonHiddenOnPersonalSite": false,
   "isUnmanagedSyncAppForTenantRestricted": true,
   "personalSiteDefaultStorageLimitInMB": 1048576,
-  "sharingAllowedDomainList": [
-    "domain1.com",
-    "domain2.com"
-  ],
+  "sharingAllowedDomainList": [],
   "sharingBlockedDomainList": [],
   "sharingCapability": "externalUserSharingOnly",
   "sharingDomainRestrictionMode": "allowList",
