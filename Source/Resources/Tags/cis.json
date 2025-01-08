@@ -111,7 +111,7 @@
         ]
       },
       {
-        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Block access to admin portals.json",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Block Access to Admin Portals.json",
         "description": [
           "5.2.2.8 (L1) Ensure admin center access is limited to administrative roles (Manual)"
         ]
@@ -123,7 +123,7 @@
         ]
       },
       {
-        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - No persistent admin sessions.json",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - No Persistent Admin Sessions.json",
         "description": [
           "5.2.2.4 (L1) Ensure Sign-in frequency is enabled and browser sessions are not persistent for Administrative users (Manual)"
         ]
@@ -135,26 +135,26 @@
         ]
       },
       {
-        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA for all users.json",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA for All Users.json",
         "description": [
           "5.2.2.2 (L1) Ensure multifactor authentication is enabled for all users (Manual)",
           "5.2.3.4 (L1) Ensure all member users are 'MFA capable' (Manual)"
         ]
       },
       {
-        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA for risky sign-ins.json",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA for Risky Sign-ins.json",
         "description": [
           "5.2.2.7 (L2) Enable Azure AD Identity Protection sign-in risk policies (Manual)"
         ]
       },
       {
-        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require password change for high-risk users.json",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require Password Change for High-risk Users.json",
         "description": [
           "5.2.2.6 (L2) Enable Azure AD Identity Protection user risk policies (Manual)"
         ]
       },
       {
-        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require phishing-resistant MFA for admins.json",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require Phishing-resistant MFA for Admins.json",
         "description": [
           "5.2.2.5 (L2) Ensure 'Phishing-resistant MFA strength' is required for Administrators (Manual)"
         ]
