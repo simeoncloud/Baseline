@@ -49,12 +49,7 @@
       {
         "path": "Source/Resources/Content/ExchangeOnline/HostedOutboundSpamFilterPolicy/Default.json",
         "description": [
-          "2.1.6 (L1) Ensure Exchange Online Spam Policies are set to notify administrators (Automated)"
-        ]
-      },
-      {
-        "path": "Source/Resources/Content/ExchangeOnline/HostedOutboundSpamFilterPolicy/Default.json",
-        "description": [
+          "2.1.6 (L1) Ensure Exchange Online Spam Policies are set to notify administrators (Automated)",
           "6.2.1 (L1) Ensure all forms of mail forwarding are blocked and/or disabled (Automated)"
         ]
       },
