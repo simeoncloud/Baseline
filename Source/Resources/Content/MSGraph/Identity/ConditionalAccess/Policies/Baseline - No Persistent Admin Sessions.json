@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure Sign-in frequency is enabled and browser sessions are not persistent for Administrative users |\n| Why should you use this? | Enforces sign-in frequency requirements for administrative users and ensures that sessions are not kept alive for an indefinitely. |\n| What is the end-user impact? | Users with Administrative roles will be prompted to reauthenticate more often. |\n| Learn more | [Conditional Access session lifetime](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) |",
+  "$description": "| What does this do? | Enforces sign-in frequency for admin sessions and blocks persistent sessions for admins. |\n| Why should you use this? | Enforces sign-in frequency requirements for administrative users and ensures that sessions are not kept alive indefinitely. |\n| What is the end-user impact? | Users with Administrative roles will be prompted to reauthenticate more often. |\n| Learn more | [Conditional Access session lifetime](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) |",
   "$friendlyName": "Baseline - No Persistent Admin Sessions",
   "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "conditions": {

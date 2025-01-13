@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure that an anti-phishing policy has been created |\n| Why should you use this? | Fine-tunes the anti-phishing protection to offer better protection. |\n| What is the end-user impact? | Minimal impact, some user education is advised. |\n| Learn more | [Anti-phishing policies](https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-mdo-configure) |",
+  "$description": "| What does this do? | Establishes an anti-phishing policy in the tenant. |\n| Why should you use this? | Fine-tunes the anti-phishing posture of the tenant to offer improved protection. |\n| What is the end-user impact? | Minimal impact, some user education is advised. |\n| Learn more | [Anti-phishing policies](https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-mdo-configure) |",
   "$friendlyName": "Office365 AntiPhish Default",
   "AuthenticationFailAction": "MoveToJmf",
   "DmarcQuarantineAction": "Quarantine",

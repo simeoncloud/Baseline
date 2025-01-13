@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensures Microsoft Authenticator is configured to protect against MFA fatigue |\n| Why should you use this? | Enhances the configuration of the Microsoft Authenticator to use number matching and provide additional context to users. |\n| What is the end-user impact? | User education is required. |\n| Learn more | [How to MFA number match](https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match) |",
+  "$description": "| What does this do? | Ensures Microsoft Authenticator is configured to protect against MFA fatigue. |\n| Why should you use this? | Enhances the configuration of the Microsoft Authenticator to use number matching and provide additional context to users. |\n| What is the end-user impact? | User education is required. |\n| Learn more | [How to MFA number match](https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-number-match) |",
   "$friendlyName": "microsoftAuthenticator",
   "@odata.type": "#microsoft.graph.microsoftAuthenticatorAuthenticationMethodConfiguration",
   "excludeTargets": [],

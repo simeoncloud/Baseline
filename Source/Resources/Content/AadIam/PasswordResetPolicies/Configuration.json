@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensures Self-service password rese is enabled for all users |\n| Why should you use this? | Ensures all member users can reset their own passwords in Entra ID. |\n| What is the end-user impact? | Users will be required to provide additional contact information to enroll in self-service password reset. |\n| Learn more | [Enable self-service password reset](https://learn.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-sspr) |",
+  "$description": "| What does this do? | Ensures self-service password reset is enabled for all users |\n| Why should you use this? | Ensures all member users can reset their own passwords in Entra ID. |\n| What is the end-user impact? | Users will be required to provide additional contact information to enroll in self-service password reset. |\n| Learn more | [Enable self-service password reset](https://learn.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-sspr) |",
   "$friendlyName": "Configuration",
   "enablementType": 2,
   "passwordResetEnabledGroupIds": [

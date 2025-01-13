@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure multifactor authentication is enabled for all users in administrative roles |\n| Why should you use this? | Ensures user accounts holding administrative roles are secured with multi-factor authentication. |\n| What is the end-user impact? | None. |\n| Learn more | [All users MFA strength](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-all-users-mfa-strength) |",
+  "$description": "| What does this do? | Enforces multi-factor authentication for all users in an administrative role. |\n| Why should you use this? | Protects priviliged accounts from unauthorized access by ensuring user accounts holding administrative roles are secured with multi-factor authentication. |\n| What is the end-user impact? | None. |\n| Learn more | [All users MFA strength](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-all-users-mfa-strength) |",
   "$friendlyName": "Baseline - Require MFA for Admins",
   "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "conditions": {

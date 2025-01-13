@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure that collaboration invitations are sent to allowed domains only |\n| Why should you use this? | Ensures proper governance controls for guest users by configuring a list of allowed domains. |\n| What is the end-user impact? | Users will only be able to invite guests from organizationally approved list of partner organizations/domains. |\n| Learn more | [Allow/deny list](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/allow-deny-list) |",
+  "$description": "| What does this do? | Ensures that collaboration invitations are sent to allowed domains only |\n| Why should you use this? | Ensures proper governance controls for guest users by configuring a list of allowed domains. |\n| What is the end-user impact? | Users will only be able to invite guests from organizationally approved list of partner organizations/domains. |\n| Learn more | [Allow/deny list](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/allow-deny-list) |",
   "$friendlyName": "Configuration",
   "isAllowlist": true,
   "targetedDomains": [

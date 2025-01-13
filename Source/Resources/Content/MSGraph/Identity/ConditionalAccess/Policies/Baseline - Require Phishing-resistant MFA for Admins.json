@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure 'Phishing-resistant MFA strength' is required for Administrators |\n| Why should you use this? | Ensures user accounts holding administrative roles are secured with Phishing-resistant MFA. |\n| What is the end-user impact? | None. |\n| Learn more | [Admin phish-resistant MFA](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) |",
+  "$description": "| What does this do? | Ensures administrator accounts are required to use Phishing-resistant MFA strength. |\n| Why should you use this? | Ensures user accounts holding administrative roles are secured with Phishing-resistant MFA. |\n| What is the end-user impact? | None. |\n| Learn more | [Admin phish-resistant MFA](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) |",
   "$friendlyName": "Baseline - Require Phishing-resistant MFA for Admins",
   "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "conditions": {

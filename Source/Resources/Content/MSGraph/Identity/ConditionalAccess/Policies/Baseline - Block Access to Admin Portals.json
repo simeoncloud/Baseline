@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensures admin center access is limited to administrative roles |\n| Why should you use this? | Restricts access to Microsoft Admin Portals to specific pre-determined administrative roles. |\n| What is the end-user impact? | None. |\n| Learn more | [Conditional Access admin portals](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#microsoft-admin-portals) |",
+  "$description": "| What does this do? | Blocks access to administrative portals for users without an administrative role. |\n| Why should you use this? | Restricts access to Microsoft Admin Portals to specific pre-determined administrative roles. |\n| What is the end-user impact? | None. |\n| Learn more | [Conditional Access admin portals](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#microsoft-admin-portals) |",
   "$friendlyName": "Baseline - Block Access to Admin Portals",
   "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "conditions": {

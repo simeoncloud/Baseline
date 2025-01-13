@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure Safe Links for Office Applications is Enabled |\n| Why should you use this? | Extends protection to documents and emails that contain hyperlinks. |\n| What is the end-user impact? | Users may experience a short delay when clicking on URLs in Office documents. |\n| Learn more | [Safe links policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links-policies-configure?view=o365-worldwide) |",
+  "$description": "| What does this do? | Enables Safe Links for Office Applications in the tenant to protect against malicious Office documents. |\n| Why should you use this? | Extends protection to documents and emails that contain hyperlinks. |\n| What is the end-user impact? | Users may experience a short delay when clicking on URLs in Office documents. |\n| Learn more | [Safe links policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links-policies-configure?view=o365-worldwide) |",
   "$friendlyName": "Built-In Protection Policy",
   "AllowClickThrough": true,
   "DeliverMessageAfterScan": true,

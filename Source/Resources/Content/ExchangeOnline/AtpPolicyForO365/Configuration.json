@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure Safe Attachments for SharePoint, OneDrive, and Microsoft Teams is Enabled |\n| Why should you use this? | Protects users from malware in files shared via SharePoint Online, OneDrive for Business or Teams by detonating the file in a sandbox environment before allowing access. |\n| What is the end-user impact? | Minimal impact, some user education is advised. |\n| Learn more | [Safe attachments policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments-policies-configure?view=o365-worldwide) |",
+  "$description": "| What does this do? | Ensures Safe Attachments for SharePoint, OneDrive, and Microsoft Teams is enabled. |\n| Why should you use this? | Protects users from malware in files shared via SharePoint Online, OneDrive for Business, or Teams by detonating the file in a sandbox environment before allowing access. |\n| What is the end-user impact? | Minimal impact, some user education is advised. |\n| Learn more | [Safe attachments policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments-policies-configure?view=o365-worldwide) |",
   "$friendlyName": "Configuration",
   "AllowSafeDocsOpen": false,
   "EnableATPForSPOTeamsODB": true,

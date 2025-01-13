@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure Microsoft 365 audit log search is enabled |\n| Why should you use this? | Records user and admin activity within the organization, retaining it for a minimum of 90 days. |\n| What is the end-user impact? | None. |\n| Learn more | [Audit log](https://learn.microsoft.com/en-us/purview/audit-log-enable-disable?view=o365-worldwide&tabs=microsoft-purview-portal) |",
+  "$description": "| What does this do? | Ensures Microsoft 365 audit log search is enabled. |\n| Why should you use this? | Records user and admin activity within the organization, retaining it for a minimum of 90 days. |\n| What is the end-user impact? | None. |\n| Learn more | [Audit log](https://learn.microsoft.com/en-us/purview/audit-log-enable-disable?view=o365-worldwide&tabs=microsoft-purview-portal) |",
   "$friendlyName": "Configuration",
   "UnifiedAuditLogIngestionEnabled": true
 }

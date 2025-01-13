@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure DLP policies are enabled for Microsoft Teams |\n| Why should you use this? | Prevents accidental sharing of sensitive information in Teams conversations and channels. |\n| What is the end-user impact? | Users will need to use organizationally approved methods to share sensitive data. |\n| Learn more | [DLP Teams default policy](https://learn.microsoft.com/en-us/purview/dlp-teams-default-policy) |",
+  "$description": "| What does this do? | Enables data loss prevention (DLP) for Microsoft Teams that will detect and block sensitive data shared across the platform. |\n| Why should you use this? | Prevents accidental sharing of sensitive information in Teams conversations and channels. |\n| What is the end-user impact? | Users will need to use organizationally approved methods to share sensitive data. |\n| Learn more | [DLP Teams default policy](https://learn.microsoft.com/en-us/purview/dlp-teams-default-policy) |",
   "$friendlyName": "Baseline - Default DLP Policy for Teams",
   "EndpointDlpLocation": [],
   "EndpointDlpLocationException": [],

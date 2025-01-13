@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensures access reviews for Global Administrator roles are configured |\n| Why should you use this? | Ensures periodic re-attestation for user accounts holding administrative roles. |\n| What is the end-user impact? | None. |\n| Learn more | [Access review overview](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) |",
+  "$description": "| What does this do? | Ensures access reviews for Global Administrator roles are configured. |\n| Why should you use this? | Ensures periodic re-attestation for user accounts holding administrative roles. |\n| What is the end-user impact? | None. |\n| Learn more | [Access review overview](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) |",
   "$friendlyName": "Baseline - Access review for Global Administrators",
   "additionalNotificationRecipients": [],
   "backupReviewers": [],

@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensure the admin consent workflow is enabled |\n| Why should you use this? | Ensures proper governance controls for managing applications access to organizational data are in place. |\n| What is the end-user impact? | Users will need to use organizationally approved methods to provision new third-party applications. |\n| Learn more | [Admin consent workflow](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/configure-admin-consent-workflow) |",
+  "$description": "| What does this do? | Enables the admin consent workflow and blocks user consent for risky apps. |\n| Why should you use this? | Ensures proper governance controls for managing applications access to organizational data are in place. |\n| What is the end-user impact? | Users will need to use organizationally approved methods to provision new third-party applications. |\n| Learn more | [Admin consent workflow](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/configure-admin-consent-workflow) |",
   "$friendlyName": "Consent Policy Settings",
   "templateId": "dffd5d46-495d-40a9-8e21-954ff55e198a",
   "values": [

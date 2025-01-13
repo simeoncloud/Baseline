@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensures custom script execution is restricted on site collections |\n| Why should you use this? | Prevents users from running custom scripts on site collections. |\n| What is the end-user impact? | None. |\n| Learn more | [SharePoint custom scripts](https://learn.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script) |",
+  "$description": "| What does this do? | Ensures custom script execution is restricted on site collections. |\n| Why should you use this? | Prevents users from running custom scripts on site collections. |\n| What is the end-user impact? | None. |\n| Learn more | [SharePoint custom scripts](https://learn.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script) |",
   "$friendlyName": "The Landing",
   "$name": "https://${ResourceContext:SharePointDomainName}",
   "AllowEditing": true,

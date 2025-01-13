@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensures users can report security concerns in Teams. |\n| Why should you use this? | Enables users to report suspicious or offensive messages in Teams. |\n| What is the end-user impact? | User education is required. |\n| Learn more | [Office 365 worldwide](https://learn.microsoft.com/en-us/defender-office-365/submissions-teams?view=o365-worldwide) |",
+  "$description": "| What does this do? | Enables users to report suspicious or offensive messages in Teams. |\n| Why should you use this? | User reporting of suspicious activity in Teams reduces the time to identify and mitigate threats. |\n| What is the end-user impact? | User education is required. |\n| Learn more | [Office 365 worldwide](https://learn.microsoft.com/en-us/defender-office-365/submissions-teams?view=o365-worldwide) |",
   "$friendlyName": "Global",
   "AllowChatWithGroup": true,
   "AllowCommunicationComplianceEndUserReporting": true,

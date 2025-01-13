@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Ensures additional storage providers are restricted in Outlook on the web. |\n| Why should you use this? | Restricts users from adding external storage providers in Outlook on the web. |\n| What is the end-user impact? | Users will need to use organizationally approved methods for external storage integration. |\n| Learn more | [OWA mailbox policy](https://learn.microsoft.com/en-us/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps) |",
+  "$description": "| What does this do? | Restricts the use of additional storage providers in Outlook on the web. |\n| Why should you use this? | Restricts users from adding external storage providers in Outlook on the web, retaining organizational control over Outlook data security and storage. |\n| What is the end-user impact? | Users will need to use organizationally approved methods for external storage integration. |\n| Learn more | [OWA mailbox policy](https://learn.microsoft.com/en-us/powershell/module/exchange/set-owamailboxpolicy?view=exchange-ps) |",
   "$friendlyName": "OwaMailboxPolicy-Default",
   "ActionForUnknownFileAndMIMETypes": "Allow",
   "ActiveSyncIntegrationEnabled": true,

@@ -1,5 +1,5 @@
 {
-  "$description": "| What does this do? | Enable Conditional Access policies to block legacy authentication |\n| Why should you use this? | Blocks legacy authentication protocols that do not support multi-factor authentication. |\n| What is the end-user impact? | Users will be prevented from connecting with older versions of Office, ActiveSync or using protocols like IMAP, POP or SMTP. |\n| Learn more | [Block legacy authentication](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-block-legacy-authentication) |",
+  "$description": "| What does this do? | Restricts the use of legacy authenticaiton protocols. |\n| Why should you use this? | Blocks legacy authentication protocols that do not support multi-factor authentication. |\n| What is the end-user impact? | Users will be prevented from connecting with older versions of Office, ActiveSync or using protocols like IMAP, POP or SMTP. |\n| Learn more | [Block legacy authentication](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-block-legacy-authentication) |",
   "$friendlyName": "Baseline - Block Legacy Authentication",
   "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "conditions": {
