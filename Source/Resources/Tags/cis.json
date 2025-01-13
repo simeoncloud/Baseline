@@ -319,7 +319,156 @@
         "description": [
           "8.2.1 (L1) Ensure 'external access' is restricted in the Teams admin center (Automated)"
         ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/QuarantinePolicy/DefaultFullAccessPolicy.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/QuarantinePolicy/AdminOnlyAccessPolicy.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Application Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Authentication Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Billing Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Cloud Application Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Conditional Access Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Exchange Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Global Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Global Reader.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Helpdesk Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Password Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Privileged Authentication Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Privileged Role Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Security Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/SharePoint Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Teams Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/User Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Users/break-glass%40%24%7BResourceContext%253ATenantDomainName%7D.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Users/emergency-access%40%24%7BResourceContext%253ATenantDomainName%7D.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/AuthenticationStrength/Policies/Phishing-resistant MFA.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Users/admin%40%24%7BResourceContext%253ATenantDomainName%7D.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Restricted Guest User.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/DirectoryRoles/Global Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/DirectoryRoles/SharePoint Administrator.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
       }
     ]
 }
-  
