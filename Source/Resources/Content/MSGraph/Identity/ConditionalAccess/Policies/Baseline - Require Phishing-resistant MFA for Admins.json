@@ -1,0 +1,56 @@
+{
+  "$description": "| What does this do? | Ensures administrator accounts are required to use Phishing-resistant MFA strength. |\n| Why should you use this? | Ensures user accounts holding administrative roles are secured with Phishing-resistant MFA. |\n| What is the end-user impact? | None. |\n| Learn more | [Admin phish-resistant MFA](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) |",
+  "$friendlyName": "Baseline - Require Phishing-resistant MFA for Admins",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/break-glass@${ResourceContext:TenantDomainName}?id}",
+        "${urn:resource:MSGraph:Users/emergency-access@${ResourceContext:TenantDomainName}?id}"
+      ],
+      "includeGroups": [],
+      "includeRoles": [
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Application Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Authentication Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Billing Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Cloud Application Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Conditional Access Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Exchange Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Helpdesk Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Password Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Authentication Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Role Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/SharePoint Administrator?id}",
+        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/User Administrator?id}"
+      ],
+      "includeUsers": []
+    }
+  },
+  "grantControls": {
+    "authenticationStrength": {
+      "id": "${urn:resource:MSGraph:Identity:ConditionalAccess:AuthenticationStrength:Policies/Phishing-resistant MFA?id}"
+    },
+    "builtInControls": [],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabledForReportingButNotEnforced"
+}

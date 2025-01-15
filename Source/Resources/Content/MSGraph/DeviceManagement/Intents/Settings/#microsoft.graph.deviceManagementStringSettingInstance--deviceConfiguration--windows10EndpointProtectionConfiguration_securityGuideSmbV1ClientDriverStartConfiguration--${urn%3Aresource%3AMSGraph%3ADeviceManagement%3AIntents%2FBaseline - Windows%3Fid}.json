@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10EndpointProtectionConfiguration_securityGuideSmbV1ClientDriverStartConfiguration",
-  "$name": "#microsoft.graph.deviceManagementStringSettingInstance--deviceConfiguration--windows10EndpointProtectionConfiguration_securityGuideSmbV1ClientDriverStartConfiguration--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_securityGuideSmbV1ClientDriverStartConfiguration",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": "disableDriver",
-  "valueJson": "\"disableDriver\""
-}

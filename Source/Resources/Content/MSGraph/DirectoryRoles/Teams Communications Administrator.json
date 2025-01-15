@@ -1,5 +1,0 @@
-{
-  "$description": "Can manage calling and meetings features within the Microsoft Teams service.",
-  "$friendlyName": "Teams Communications Administrator",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Communications Administrator?id}"
-}

@@ -1,0 +1,5 @@
+{
+  "$description": "| What does this do? | Sets a timeout for idle sessions to 3 hours or less on unmanaged devices. |\n| Why should you use this? | Enforces a timeout for idle sessions, ensuring unattended systems are not used by unauthorized individuals. |\n| What is the end-user impact? | Users on trusted devices may need to sign in more frequently. |\n| Learn more | [Idle session timeout](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/idle-session-timeout-web-apps?view=o365-worldwide) |",
+  "$friendlyName": "Configuration",
+  "TimeoutValue": 180
+}

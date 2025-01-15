@@ -1,7 +1,6 @@
 {
-  "$description": "| What does this do? | Can manage all aspects of Azure AD and Microsoft services that use Azure AD identities. |",
+  "$description": "Can manage all aspects of Microsoft Entra ID and Microsoft services that use Microsoft Entra identities.",
   "$friendlyName": "Global Administrator",
-  "description": "Can manage all aspects of Microsoft Entra ID and Microsoft services that use Microsoft Entra identities.",
   "isEnabled": true,
   "resourceScopes": [
     "/"
@@ -13,6 +12,7 @@
         "microsoft.azure.informationProtection/allEntities/allTasks",
         "microsoft.azure.serviceHealth/allEntities/allTasks",
         "microsoft.azure.supportTickets/allEntities/allTasks",
+        "microsoft.backup/allEntities/allProperties/allTasks",
         "microsoft.cloudPC/allEntities/allProperties/allTasks",
         "microsoft.commerce.billing/allEntities/allProperties/allTasks",
         "microsoft.commerce.billing/purchases/standard/read",
@@ -164,6 +164,7 @@
         "microsoft.dynamics365/allEntities/allTasks",
         "microsoft.edge/allEntities/allProperties/allTasks",
         "microsoft.flow/allEntities/allTasks",
+        "microsoft.graph.dataConnect/allEntities/allProperties/allTasks",
         "microsoft.hardware.support/shippingAddress/allProperties/allTasks",
         "microsoft.hardware.support/shippingStatus/allProperties/read",
         "microsoft.hardware.support/warrantyClaims/allProperties/allTasks",

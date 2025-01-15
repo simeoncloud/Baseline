@@ -1,5 +1,0 @@
-{
-  "$description": "Can manage all aspects of the Azure Information Protection product.",
-  "$friendlyName": "Azure Information Protection Administrator",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Azure Information Protection Administrator?id}"
-}

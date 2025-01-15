@@ -1,0 +1,17 @@
+{
+  "$description": "| What does this do? | Ensures spam policies in Exchange Online are set to notifiy administrators when users send or forward spam. All forms of mail forwarding are blocked or disabled. |\n| Why should you use this? | Notifies administrators when a sender in the organization has been blocked for sending spam emails. Ensures all forms of automatic email forwarding are disabled. |\n| What is the end-user impact? | Users will need to use organizationally approved methods to forward messages. |\n| Learn more | [Anti-spam policies](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-policies-configure?view=o365-worldwide) [Automatic email forwarding](https://techcommunity.microsoft.com/t5/exchange-team-blog/all-you-need-to-know-about-automatic-email-forwarding-in/ba-p/2074888)|",
+  "$friendlyName": "Default",
+  "ActionWhenThresholdReached": "BlockUserForToday",
+  "AutoForwardingMode": "Off",
+  "BccSuspiciousOutboundAdditionalRecipients": [
+    "admin@${ResourceContext:TenantDomainName}"
+  ],
+  "BccSuspiciousOutboundMail": true,
+  "NotifyOutboundSpam": true,
+  "NotifyOutboundSpamRecipients": [
+    "admin@${ResourceContext:TenantDomainName}"
+  ],
+  "RecipientLimitExternalPerHour": 0,
+  "RecipientLimitInternalPerHour": 0,
+  "RecipientLimitPerDay": 0
+}

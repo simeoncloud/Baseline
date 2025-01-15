@@ -1,0 +1,6 @@
+{
+  "$description": "| What does this do? | Ensures email from external senders is identified in Outlook. |\n| Why should you use this? | Emails from external senders are tagged and end users are informed about the origin of the email. |\n| What is the end-user impact? | Users will see emails from external senders tagged in their inbox. User education is required. |\n| Learn more | [Native external sender callouts](https://techcommunity.microsoft.com/t5/exchange-team-blog/native-external-sender-callouts-on-email-in-outlook/ba-p/2250098) |",
+  "$friendlyName": "Configuration",
+  "AllowList": [],
+  "Enabled": true
+}

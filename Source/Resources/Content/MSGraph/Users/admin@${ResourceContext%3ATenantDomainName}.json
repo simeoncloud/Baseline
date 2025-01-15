@@ -1,0 +1,17 @@
+{
+  "$friendlyName": "MOD Administrator",
+  "$name": "admin@${ResourceContext:TenantDomainName}",
+  "accountEnabled": true,
+  "companyName": "aaaa",
+  "country": "US",
+  "displayName": "MOD Administrator",
+  "givenName": "MOD",
+  "isDeviceEnrollmentManager": false,
+  "mail": "admin@${ResourceContext:TenantDomainName}",
+  "mailNickname": "admin",
+  "mobilePhone": "425-555-0101",
+  "preferredLanguage": "en",
+  "surname": "Administrator",
+  "usageLocation": "US",
+  "userType": "Member"
+}

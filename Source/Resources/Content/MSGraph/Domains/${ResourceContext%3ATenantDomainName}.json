@@ -1,6 +1,5 @@
 {
-  "$description": "| What does this do? | Disables password expiration per Microsoft's recommendation. |\n| Why should you use this? | This is recommended by Microsoft and affects Microsoft secure score. |\n| What is the end-user impact? | Users will not be required to change their passwords. |\n| Learn more | [Dropping the password expiration policies](https://docs.microsoft.com/en-us/archive/blogs/secguide/security-baseline-final-for-windows-10-v1903-and-windows-server-v1903) |",
-  "$friendlyName": "${ResourceContext:TenantDomainName}",
+  "$description": "| What does this do? | Establishes a policy that prevents passwords from expiring. |\n| Why should you use this? | Microsoft and NIST recommend not rotating passwords unless there is evidence that the password is compromised or the user forgot it. |\n| What is the end-user impact? | Users will not be required to periodically change their passwords. |\n| Learn more | [Password policy recommendations](https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations?view=o365-worldwide) |",
   "$name": "${ResourceContext:TenantDomainName}",
   "authenticationType": "Managed",
   "isAdminManaged": true,

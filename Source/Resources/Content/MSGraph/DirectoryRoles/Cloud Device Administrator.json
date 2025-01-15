@@ -1,5 +1,0 @@
-{
-  "$description": "Limited access to manage devices in Microsoft Entra ID.",
-  "$friendlyName": "Cloud Device Administrator",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Cloud Device Administrator?id}"
-}

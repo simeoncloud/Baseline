@@ -1,6 +1,7 @@
 {
-  "$description": "| What does this do? | Requires that users with privileged administrator roles authenticate using MFA. The baseline includes all users except those with the Azure AD role \"Directory Synchronization Accounts.\" |\n| Why should you use this? | If you want to protect your tenant by requiring MFA for accounts that have privileged access. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users with privileged access must authenticate using MFA. |\n| Learn more | [Protect your Microsoft 365 global administrator accounts](https://docs.microsoft.com/en-us/office365/enterprise/protect-your-global-administrator-accounts) |",
+  "$description": "| What does this do? | Enforces multi-factor authentication for all users in an administrative role. |\n| Why should you use this? | Protects priviliged accounts from unauthorized access by ensuring user accounts holding administrative roles are secured with multi-factor authentication. |\n| What is the end-user impact? | None. |\n| Learn more | [All users MFA strength](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-all-users-mfa-strength) |",
   "$friendlyName": "Baseline - Require MFA for Admins",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "conditions": {
     "applications": {
       "excludeApplications": [],
@@ -11,75 +12,33 @@
       "includeUserActions": []
     },
     "clientAppTypes": [
-      "browser",
-      "mobileAppsAndDesktopClients"
+      "all"
     ],
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
-      "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?id}"
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/break-glass@${ResourceContext:TenantDomainName}?id}",
+        "${urn:resource:MSGraph:Users/emergency-access@${ResourceContext:TenantDomainName}?id}"
       ],
-      "excludeRoles": [
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}"
-      ],
-      "excludeUsers": [],
       "includeGroups": [],
       "includeRoles": [
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Application Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Application Developer?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Authentication Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Azure DevOps Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Azure Information Protection Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/B2C IEF Keyset Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/B2C IEF Policy Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Billing Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Cloud Application Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Cloud Device Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Compliance Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Compliance Data Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Conditional Access Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Customer LockBox Access Approver?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Desktop Analytics Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Readers?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Dynamics 365 Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Exchange Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/External Identity Provider Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Fabric Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Reader?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Groups Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Guest Inviter?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Helpdesk Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Hybrid Identity Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Intune Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Kaizala Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/License Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Message Center Privacy Reader?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Message Center Reader?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Network Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Office Apps Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Password Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Power Platform Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Printer Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Printer Technician?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Authentication Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Privileged Role Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Reports Reader?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Search Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Search Editor?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Operator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Reader?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Service Support Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/SharePoint Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Skype for Business Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Communications Administrator?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Communications Support Engineer?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Communications Support Specialist?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Teams Devices Administrator?id}",
         "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/User Administrator?id}"
       ],
       "includeUsers": []
@@ -93,5 +52,5 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled"
+  "state": "enabledForReportingButNotEnforced"
 }

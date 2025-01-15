@@ -1,9 +1,0 @@
-{
-  "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-  "$friendlyName": "Baseline - Windows--deviceConfiguration--windows10GeneralConfiguration_defenderScanArchiveFiles",
-  "$name": "#microsoft.graph.deviceManagementBooleanSettingInstance--deviceConfiguration--windows10GeneralConfiguration_defenderScanArchiveFiles--${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "definitionId": "deviceConfiguration--windows10GeneralConfiguration_defenderScanArchiveFiles",
-  "deviceManagementIntent-id": "${urn:resource:MSGraph:DeviceManagement:Intents/Baseline - Windows?id}",
-  "value": true,
-  "valueJson": "true"
-}

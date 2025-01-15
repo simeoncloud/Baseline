@@ -1,5 +1,0 @@
-{
-  "$description": "Can read security information and reports in Microsoft Entra ID and Office 365.",
-  "$friendlyName": "Security Reader",
-  "roleTemplateId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Security Reader?id}"
-}

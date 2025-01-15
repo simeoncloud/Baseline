@@ -1,10 +1,10 @@
 {
-  "$description": "| What does this do? | Defines Azure's password reset policy and specifies the Azure AD groups to which it applies. This allows users to reset their passwords or unlock their Azure accounts. The baseline applies the password reset policy to members of the group \"Baseline - Microsoft 365 Users.\" |\n| Why should you use this? | If you want users to use self-service password reset instead of contacting IT support. This improves password reset security because it requires that users reset their passwords only via Mobile application code (the authenticator app) or SMS. |\n| What is the end-user impact? | <span style='color: red'>High Impact.</span> Users can securely recover and reset their passwords. |\n| Learn more | [How it works: Azure AD self-service password reset](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks)",
+  "$description": "| What does this do? | Ensures self-service password reset is enabled for all users |\n| Why should you use this? | Ensures all member users can reset their own passwords in Entra ID. |\n| What is the end-user impact? | Users will be required to provide additional contact information to enroll in self-service password reset. |\n| Learn more | [Enable self-service password reset](https://learn.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-sspr) |",
   "$friendlyName": "Configuration",
   "customHelpdeskEmailOrUrl": "",
   "customizeHelpdeskLink": false,
   "emailOptionEnabled": false,
-  "enablementType": 1,
+  "enablementType": 2,
   "mobileAppCodeEnabled": true,
   "mobileAppNotificationEnabled": false,
   "mobilePhoneOptionEnabled": true,
@@ -15,9 +15,9 @@
   "numberOfQuestionsToReset": 3,
   "officePhoneOptionEnabled": false,
   "passwordResetEnabledGroupIds": [
-    "${urn:resource:MSGraph:Groups/Baseline - Microsoft 365 Users?id}"
+    "00000000-0000-0000-0000-000000000000"
   ],
-  "passwordResetEnabledGroupName": "Baseline - Microsoft 365 Users",
+  "passwordResetEnabledGroupName": "00000000-0000-0000-0000-000000000000",
   "registrationReconfirmIntevalInDays": 180,
   "registrationRequiredOnSignIn": true,
   "securityQuestions": [],

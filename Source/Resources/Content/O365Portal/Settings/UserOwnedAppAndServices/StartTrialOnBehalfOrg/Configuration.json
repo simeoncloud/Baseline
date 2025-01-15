@@ -1,0 +1,5 @@
+{
+  "$description": "| What does this do? | Disable user's ability to initiate self-service purchases of product licenses, subscriptions, or trials within the organization. |\n| Why should you use this? | Ensures organization admins maintain control over the software used within the organization, reducing opportunities for malicious or vulnerable software to be accessed. |\n| What is the end-user impact? | End users will not be able to purchase or initiate trials for apps that they may want to install. |\n| Learn more | [Manage self-service purchases and trials](https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide) |",
+  "$friendlyName": "Configuration",
+  "Enabled": false
+}

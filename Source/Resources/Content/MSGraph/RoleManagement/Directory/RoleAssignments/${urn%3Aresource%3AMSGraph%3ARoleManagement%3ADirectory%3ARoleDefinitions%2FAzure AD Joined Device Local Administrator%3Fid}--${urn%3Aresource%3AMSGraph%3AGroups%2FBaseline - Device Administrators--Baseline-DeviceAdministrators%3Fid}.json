@@ -1,9 +1,0 @@
-{
-  "$friendlyName": "Azure AD Joined Device Local Administrator--Baseline - Device Administrators",
-  "$name": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Azure AD Joined Device Local Administrator?id}--${urn:resource:MSGraph:Groups/Baseline - Device Administrators?id}",
-  "directoryScopeId": "/",
-  "principalId": "${urn:resource:MSGraph:Groups/Baseline - Device Administrators?id}",
-  "principalOrganizationId": "${ResourceContext:TenantId}",
-  "resourceScope": "/",
-  "roleDefinitionId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Azure AD Joined Device Local Administrator?id}"
-}

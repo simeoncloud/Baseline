@@ -1,0 +1,5 @@
+{
+  "$description": "| What does this do? | Restricts future user's ability to install add-ins in Microsoft Word, Excel, or PowerPoint. |\n| Why should you use this? | Attackers commonly use vulnerable and custom-built add-ins to access data in user applications. |\n| What is the end-user impact? | End users will not be able to install add-ins that they may want to install. |\n| Learn more | [Manage self-service purchases and trials](https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?view=o365-worldwide) |",
+  "$friendlyName": "Configuration",
+  "Enabled": false
+}

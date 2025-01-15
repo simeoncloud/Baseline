@@ -1,37 +1,37 @@
 {
-  "$description": "| What does this do? | Ensures modern authentication for SharePoint applications is required; external content sharing is restricted; SharePoint guest users cannot share items they don't own; SharePoint external sharing is managed through domain whitelist/blacklists; OneDrive sync is restricted for unmanaged devices. |\n| Why should you use this? | Having these settings reduces the chances of data exfiltration in your organization. |\n| What is the end-user impact? | Users will only be able to share SharePoint Online content with guest users that already exist in the organization; users will only be able to share content with guests from organizationally approved list of partner organizations/domains; users will only be able to synchronize on devices joined to allowed AD domains. |\n| Learn more | [Turn external sharing off](https://learn.microsoft.com/en-us/sharepoint/turn-external-sharing-on-or-off) [Allow syncing only on specific domains](https://learn.microsoft.com/en-us/sharepoint/allow-syncing-only-on-specific-domains) |",
-  "$friendlyName": "Configuration",
-  "allowedDomainGuidsForSyncApp": [],
-  "deletedUserPersonalSiteRetentionPeriodInDays": 30,
-  "excludedFileExtensionsForSyncApp": [
-    "*."
-  ],
-  "idleSessionSignOut": {
-    "isEnabled": false,
-    "signOutAfterInSeconds": 0,
-    "warnAfterInSeconds": 0
-  },
-  "imageTaggingOption": "basic",
-  "isCommentingOnSitePagesEnabled": true,
-  "isFileActivityNotificationEnabled": true,
-  "isLegacyAuthProtocolsEnabled": false,
-  "isLoopEnabled": false,
-  "isMacSyncAppEnabled": false,
-  "isResharingByExternalUsersEnabled": false,
-  "isSharePointMobileNotificationEnabled": true,
-  "isSharePointNewsfeedEnabled": false,
-  "isSiteCreationEnabled": true,
-  "isSiteCreationUIEnabled": true,
-  "isSitePagesCreationEnabled": true,
-  "isSitesStorageLimitAutomatic": true,
-  "isSyncButtonHiddenOnPersonalSite": false,
-  "isUnmanagedSyncAppForTenantRestricted": true,
-  "personalSiteDefaultStorageLimitInMB": 1048576,
-  "sharingAllowedDomainList": [],
-  "sharingBlockedDomainList": [],
-  "sharingCapability": "externalUserSharingOnly",
-  "sharingDomainRestrictionMode": "allowList",
-  "siteCreationDefaultManagedPath": "/sites/",
-  "siteCreationDefaultStorageLimitInMB": 26214400,
-  "tenantDefaultTimezone": "(UTC-08:00) Pacific Time (US and Canada)"
-}
+    "$description": "| What does this do? | Ensures modern authentication for SharePoint applications is required; external content sharing is restricted; SharePoint guest users cannot share items they don't own; SharePoint external sharing is managed through domain whitelist/blacklists; OneDrive sync is restricted for unmanaged devices. |\n| Why should you use this? | Having these settings reduces the chances of data exfiltration in your organization. |\n| What is the end-user impact? | Users will only be able to share content with guests from organizationally approved list of partner organizations/domains; users will only be able to synchronize on devices joined to allowed AD domains. |\n| Learn more | [Sharepoint Online](https://learn.microsoft.com/en-us/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) [Allow syncing only on specific domains](https://learn.microsoft.com/en-us/sharepoint/allow-syncing-only-on-specific-domains) |",
+    "$friendlyName": "Configuration",
+    "allowedDomainGuidsForSyncApp": [],
+    "deletedUserPersonalSiteRetentionPeriodInDays": 30,
+    "excludedFileExtensionsForSyncApp": [
+      "*."
+    ],
+    "idleSessionSignOut": {
+      "isEnabled": false,
+      "signOutAfterInSeconds": 0,
+      "warnAfterInSeconds": 0
+    },
+    "imageTaggingOption": "basic",
+    "isCommentingOnSitePagesEnabled": true,
+    "isFileActivityNotificationEnabled": true,
+    "isLegacyAuthProtocolsEnabled": false,
+    "isLoopEnabled": false,
+    "isMacSyncAppEnabled": false,
+    "isResharingByExternalUsersEnabled": false,
+    "isSharePointMobileNotificationEnabled": true,
+    "isSharePointNewsfeedEnabled": false,
+    "isSiteCreationEnabled": true,
+    "isSiteCreationUIEnabled": true,
+    "isSitePagesCreationEnabled": true,
+    "isSitesStorageLimitAutomatic": true,
+    "isSyncButtonHiddenOnPersonalSite": false,
+    "isUnmanagedSyncAppForTenantRestricted": true,
+    "personalSiteDefaultStorageLimitInMB": 1048576,
+    "sharingAllowedDomainList": [],
+    "sharingBlockedDomainList": [],
+    "sharingCapability": "externalUserSharingOnly",
+    "sharingDomainRestrictionMode": "allowList",
+    "siteCreationDefaultManagedPath": "/sites/",
+    "siteCreationDefaultStorageLimitInMB": 26214400,
+    "tenantDefaultTimezone": "(UTC-08:00) Pacific Time (US and Canada)"
+  }

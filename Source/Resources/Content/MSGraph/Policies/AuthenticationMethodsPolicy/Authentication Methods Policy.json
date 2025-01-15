@@ -1,0 +1,43 @@
+{
+  "$description": "The tenant-wide policy that controls which authentication methods are allowed in the tenant, authentication method registration requirements, and self-service password reset settings",
+  "$friendlyName": "Authentication Methods Policy",
+  "microsoftAuthenticatorPlatformSettings": {
+    "enforceAppPIN": {
+      "excludeTargets": [],
+      "includeTargets": []
+    }
+  },
+  "registrationEnforcement": {
+    "authenticationMethodsRegistrationCampaign": {
+      "enforceRegistrationAfterAllowedSnoozes": true,
+      "excludeTargets": [],
+      "includeTargets": [
+        {
+          "id": "all_users",
+          "targetedAuthenticationMethod": "microsoftAuthenticator",
+          "targetType": "group"
+        }
+      ],
+      "snoozeDurationInDays": 1,
+      "state": "default"
+    }
+  },
+  "reportSuspiciousActivitySettings": {
+    "includeTarget": {
+      "id": "all_users",
+      "targetType": "group"
+    },
+    "state": "default",
+    "voiceReportingCode": 0
+  },
+  "systemCredentialPreferences": {
+    "excludeTargets": [],
+    "includeTargets": [
+      {
+        "id": "all_users",
+        "targetType": "group"
+      }
+    ],
+    "state": "default"
+  }
+}

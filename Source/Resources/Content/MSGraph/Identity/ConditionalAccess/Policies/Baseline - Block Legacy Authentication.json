@@ -1,6 +1,7 @@
 {
-  "$description": "| What does this do? | Blocks all legacy authentication in the tenant. |\n| Why should you use this? | Due to the increased risk associated with legacy authentication protocols, Microsoft recommends that organizations block authentication requests using these protocols and require modern authentication. |\n| What is the end-user impact? | <span style='color: yellow'>Medium Impact.</span> The level of impact will vary by organization depending on the use of legacy authentication. It is possible there will be no impact at all if no legacy authentication protocols are in use. If there are some in use like IMAP/POP there would be significant end-user impact as they would not be able to authenticate to their account. |\n| Learn more | [Block Legacy Authentication](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy) |",
+  "$description": "| What does this do? | Restricts the use of legacy authenticaiton protocols. |\n| Why should you use this? | Blocks legacy authentication protocols that do not support multi-factor authentication. |\n| What is the end-user impact? | Users will be prevented from connecting with older versions of Office, ActiveSync or using protocols like IMAP, POP or SMTP. |\n| Learn more | [Block legacy authentication](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-block-legacy-authentication) |",
   "$friendlyName": "Baseline - Block Legacy Authentication",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "conditions": {
     "applications": {
       "excludeApplications": [],
@@ -17,14 +18,12 @@
     "signInRiskLevels": [],
     "userRiskLevels": [],
     "users": {
-      "excludeGroups": [
-        "${urn:resource:MSGraph:Groups/Baseline - Unrestricted Access From Unmanaged Devices And Untrusted Locations?id}"
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/break-glass@${ResourceContext:TenantDomainName}?id}",
+        "${urn:resource:MSGraph:Users/emergency-access@${ResourceContext:TenantDomainName}?id}"
       ],
-      "excludeRoles": [
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Directory Synchronization Accounts?id}",
-        "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Global Administrator?id}"
-      ],
-      "excludeUsers": [],
       "includeGroups": [],
       "includeRoles": [],
       "includeUsers": [
@@ -40,5 +39,5 @@
     "operator": "OR",
     "termsOfUse": []
   },
-  "state": "enabled"
+  "state": "enabledForReportingButNotEnforced"
 }
