@@ -1,9 +1,27 @@
 {
   "$description": "| What does this do? | Ensures self-service password reset is enabled for all users |\n| Why should you use this? | Ensures all member users can reset their own passwords in Entra ID. |\n| What is the end-user impact? | Users will be required to provide additional contact information to enroll in self-service password reset. |\n| Learn more | [Enable self-service password reset](https://learn.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-sspr) |",
   "$friendlyName": "Configuration",
+  "customHelpdeskEmailOrUrl": "",
+  "customizeHelpdeskLink": false,
+  "emailOptionEnabled": false,
   "enablementType": 2,
+  "mobileAppCodeEnabled": true,
+  "mobileAppNotificationEnabled": false,
+  "mobilePhoneOptionEnabled": true,
+  "notifyOnAdminPasswordReset": false,
+  "notifyUsersOnPasswordReset": true,
+  "numberOfAuthenticationMethodsRequired": 1,
+  "numberOfQuestionsToRegister": 5,
+  "numberOfQuestionsToReset": 3,
+  "officePhoneOptionEnabled": false,
   "passwordResetEnabledGroupIds": [
     "00000000-0000-0000-0000-000000000000"
   ],
-  "passwordResetEnabledGroupName": "00000000-0000-0000-0000-000000000000"
+  "passwordResetEnabledGroupName": "00000000-0000-0000-0000-000000000000",
+  "registrationReconfirmIntevalInDays": 180,
+  "registrationRequiredOnSignIn": true,
+  "securityQuestions": [],
+  "securityQuestionsOptionEnabled": false,
+  "skipRegistrationAllowed": true,
+  "skipRegistrationMaxAllowedDays": 7
 }
