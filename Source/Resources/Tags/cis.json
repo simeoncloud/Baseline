@@ -200,13 +200,13 @@
         "path": "Source/Resources/Content/MSGraph/Policies/AuthorizationPolicy/Authorization Policy.json",
         "description": [
           "5.1.2.2 (L2) Ensure third party integrated applications are not allowed (Automated)",
-          "5.1.2.3 (L1) Ensure 'Restrict non-admin users from creating tenants' is set to 'Yes'  (Automated)",
-          "5.1.5.2 (L2) Ensure user consent to apps accessing company data on their behalf is not allowed (Automated)"
+          "5.1.2.3 (L1) Ensure 'Restrict non-admin users from creating tenants' is set to 'Yes'  (Automated)"
         ]
       },
       {
         "path": "Source/Resources/Content/MSGraph/Settings/Consent Policy Settings.json",
         "description": [
+          "5.1.5.2 (L2) Ensure user consent to apps accessing company data on their behalf is not allowed (Automated)",
           "5.1.5.3 (L1) Ensure the admin consent workflow is enabled (Manual)"
         ]
       },
