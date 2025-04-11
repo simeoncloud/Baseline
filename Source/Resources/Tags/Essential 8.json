@@ -1,0 +1,38 @@
+{
+  "name": "Essential 8",
+  "description": "This baseline aligns with the Australian Cyber Security Centre (ACSC) Essential Eight Maturity Model 3.",
+  "label": "Essential 8",
+  "tags": [
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/ACSC Windows Hardening Guidelines.json",
+      "description": [
+        "ISM 1488 Microsoft Office macros in files originating from the internet are blocked",
+        "ISM 1672 Microsoft Office macro antivirus scanning is enabled",
+        "ISM 1675 Microsoft Office macros digitally signed by an untrusted publisher can't be enabled via the Message Bar or Backstage View"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/Templates/#microsoft.graph.securityBaselineTemplate--Attack surface reduction rules.json",
+      "description": [
+        "ISM 1673 Microsoft Office macros are blocked from making Win32 API calls"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/All Macros Disabled.json",
+      "description": [
+        "$description - All Office users by default are targeted with a policy that blocks the execution of macros. Users assigned to the group Allow macro execution - Trusted Publisher are excluded from this policy.",
+        "ISM 1671 Microsoft Office macros are disabled for users that don't have a demonstrated business requirement",
+        "ISM 1489 Microsoft Office macro security settings can't be changed by users"
+      ]
+    },
+    {
+      "path": "ASource/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/Macros Enabled for Trusted Publishers.json",
+      "description": [
+        "$description - After importing the Trusted Publisher policy, you'll need to specify one or more Trusted Publishers. To add a Trusted Publisher, follow the instructions for adding a certificate to the Trusted Publishers certificate store using Intune: Adding a Certificate to Trusted Publishers using Intune - Microsoft Tech Community https://techcommunity.microsoft.com/blog/intunecustomersuccess/adding-a-certificate-to-trusted-publishers-using-microsoft-intune/1974488#:%7E:text=To%20add%20a%20certificate%20to%20the%20Trusted%20Publishers,a%20new%2C%20custom%2C%20Windows%2010%20device%20configuration%20profile",
+        "ISM 1674 Only Microsoft Office macros running from within a sandboxed environment, a Trusted Location or that are digitally signed by a Trusted Publisher are allowed to execute",
+        "ISM 1487 Only privileged users responsible for checking that Microsoft Office macros are free of malicious code can write to and modify content within Trusted Locations",
+        "ISM 1890 Microsoft Office macros are checked to ensure they're free of malicious code before being digitally signed or placed within Trusted Locations"
+      ]
+    }
+  ]
+}
