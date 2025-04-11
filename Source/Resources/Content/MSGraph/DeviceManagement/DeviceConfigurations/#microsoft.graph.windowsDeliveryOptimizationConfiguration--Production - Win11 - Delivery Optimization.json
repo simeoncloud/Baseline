@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.windowsDeliveryOptimizationConfiguration",
+  "$friendlyName": "Production - Win11 - Delivery Optimization",
+  "backgroundDownloadFromHttpDelayInSeconds": 60,
+  "cacheServerBackgroundDownloadFallbackToHttpDelayInSeconds": 0,
+  "cacheServerForegroundDownloadFallbackToHttpDelayInSeconds": 0,
+  "cacheServerHostNames": [],
+  "deliveryOptimizationMode": "httpWithPeeringNat",
+  "displayName": "Production - Win11 - Delivery Optimization",
+  "foregroundDownloadFromHttpDelayInSeconds": 60,
+  "maximumCacheAgeInDays": 7,
+  "minimumBatteryPercentageAllowedToUpload": 60,
+  "minimumDiskSizeAllowedToPeerInGigabytes": 32,
+  "minimumFileSizeToCacheInMegabytes": 10,
+  "minimumRamAllowedToPeerInGigabytes": 4,
+  "restrictPeerSelectionBy": "notConfigured",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "vpnPeerCaching": "disabled"
+}
