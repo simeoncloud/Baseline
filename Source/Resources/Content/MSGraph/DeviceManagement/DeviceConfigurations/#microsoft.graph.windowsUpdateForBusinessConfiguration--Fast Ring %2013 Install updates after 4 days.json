@@ -1,0 +1,40 @@
+{
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "$friendlyName": "Fast Ring – Install updates after 4 days",
+  "$name": "#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring – Install updates after 4 days",
+  "allowWindows11Upgrade": false,
+  "automaticUpdateMode": "autoInstallAtMaintenanceTime",
+  "autoRestartNotificationDismissal": "notConfigured",
+  "businessReadyUpdatesOnly": "userDefined",
+  "deadlineForFeatureUpdatesInDays": 2,
+  "deadlineForQualityUpdatesInDays": 2,
+  "deadlineGracePeriodInDays": 2,
+  "deliveryOptimizationMode": "userDefined",
+  "description": "",
+  "displayName": "Fast Ring – Install updates after 4 days",
+  "driversExcluded": false,
+  "featureUpdatesDeferralPeriodInDays": 30,
+  "featureUpdatesPaused": false,
+  "featureUpdatesPauseExpiryDateTime": "0001-01-01T00:00:00Z",
+  "featureUpdatesRollbackStartDateTime": "0001-01-01T00:00:00Z",
+  "featureUpdatesRollbackWindowInDays": 30,
+  "installationSchedule": {
+    "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall",
+    "activeHoursEnd": "19:00:00.0000000",
+    "activeHoursStart": "07:00:00.0000000"
+  },
+  "microsoftUpdateServiceAllowed": true,
+  "postponeRebootUntilAfterDeadline": false,
+  "prereleaseFeatures": "userDefined",
+  "qualityUpdatesDeferralPeriodInDays": 4,
+  "qualityUpdatesPaused": false,
+  "qualityUpdatesPauseExpiryDateTime": "0001-01-01T00:00:00Z",
+  "qualityUpdatesRollbackStartDateTime": "0001-01-01T00:00:00Z",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "skipChecksBeforeRestart": false,
+  "updateNotificationLevel": "defaultNotifications",
+  "userPauseAccess": "disabled",
+  "userWindowsUpdateScanAccess": "enabled"
+}

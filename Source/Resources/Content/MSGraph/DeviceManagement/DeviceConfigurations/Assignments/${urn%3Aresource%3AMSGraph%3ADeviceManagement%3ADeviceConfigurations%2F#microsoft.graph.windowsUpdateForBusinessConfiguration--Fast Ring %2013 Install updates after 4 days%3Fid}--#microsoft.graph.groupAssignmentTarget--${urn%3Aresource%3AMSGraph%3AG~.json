@@ -1,0 +1,12 @@
+{
+  "$friendlyName": "Fast Ring – Install updates after 4 days--Windows Update - Fast Ring",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring – Install updates after 4 days?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Windows Update - Fast Ring?id}",
+  "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring – Install updates after 4 days?id}",
+  "intent": "apply",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Windows Update - Fast Ring?id}"
+  }
+}
