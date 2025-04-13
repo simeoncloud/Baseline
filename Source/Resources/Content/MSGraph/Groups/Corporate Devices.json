@@ -1,0 +1,15 @@
+{
+  "$description": "| What does this do? | Creates a group that includes all corporate devices regardless if they are virtual or physical. |\n| Why should you use this? | This group can be used to assign Intune configurations that should apply to all devices. |\n| What is the end-user impact? | N/A |\n| Learn more | N/A |",
+  "$friendlyName": "Corporate Devices",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "infoCatalogs": [],
+  "mailEnabled": false,
+  "mailNickname": "CorporateDevices",
+  "membershipRule": "((device.devicePhysicalIDs -any (_ -contains \"[ZTDId]\")) -or (device.deviceOwnership -eq \"Company\"))",
+  "membershipRuleProcessingState": "On",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

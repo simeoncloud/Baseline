@@ -1,0 +1,19 @@
+{
+    "$friendlyName": "Windows Driver Updates",
+    "approvalType": "automatic",
+    "assignments": [
+      {
+        "target": {
+          "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+          "deviceAndAppManagementAssignmentFilterType": "none",
+          "groupId": "${urn:resource:MSGraph:Groups/Corporate Devices?id}"
+        }
+      }
+    ],
+    "deploymentDeferralInDays": 7,
+    "description": "",
+    "expand": "assignments",
+    "roleScopeTagIds": [
+      "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+    ]
+  }
