@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule",
+  "$friendlyName": "Intune Administrator--Notification_Admin_Admin_Eligibility",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Intune Administrator?id}--Notification_Admin_Admin_Eligibility",
+  "id": "Notification_Admin_Admin_Eligibility",
+  "isDefaultRecipientsEnabled": true,
+  "notificationLevel": "All",
+  "notificationRecipients": [],
+  "notificationType": "Email",
+  "recipientType": "Admin",
+  "target": {
+    "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Eligibility",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Intune Administrator?id}"
+}

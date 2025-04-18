@@ -126,10 +126,10 @@
       ]
     },
     {
-      "path": "CA POLICIES",
+      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/ACSC Essential Eight MFA - Maturity Level 1.json",
       "description": [
-        "$description - ",
-        "ISM 0974 Multifactor authentication is used to authenticate unprivileged users of systems",
+        "$description - In report only, must be turned on!",
+        "ISM 0974 (ML 3) - Multifactor authentication is used to authenticate unprivileged users of systems",
         "ISM 1173 Multifactor authentication is used to authenticate privileged users of systems",
         "ISM 1401 Multifactor authentication uses either: something users have and something users know, or something users have that be unlocked with something users know or are",
         "ISM 1504 Multifactor authentication is used to authenticate users to their organization's online services that process, store, or communicate their organization's sensitive data",
@@ -141,6 +141,78 @@
         "ISM 1892 Multifactor authentication is used to authenticate users to their organization's online customer services that process, store, or communicate their organization's sensitive customer data",
         "ISM 1893 Multifactor authentication is used to authenticate users to third-party online customer services that process, store, or communicate their organization's sensitive customer data",
         "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/ACSC Essential Eight MFA - Maturity Level 2 & 3.json",
+      "description": [
+        "$description - In report only, must be turned on!",
+        "ISM 0974 (ML 3) - Multifactor authentication is used to authenticate unprivileged users of systems",
+        "ISM 1173 Multifactor authentication is used to authenticate privileged users of systems",
+        "ISM 1401 Multifactor authentication uses either: something users have and something users know, or something users have that be unlocked with something users know or are",
+        "ISM 1504 Multifactor authentication is used to authenticate users to their organization's online services that process, store, or communicate their organization's sensitive data",
+        "ISM 1505 Multifactor authentication is used to authenticate users of data repositories",
+        "ISM 1682 Multifactor authentication used for authenticating users of systems is phishing-resistant",
+        "ISM 1679 Multifactor authentication is used to authenticate users to third-party online services that process, store, or communicate their organization's sensitive data",
+        "ISM 1680 Multifactor authentication (where available) is used to authenticate users to third-party online services that process, store, or communicate their organization's nonsensitive data",
+        "ISM 1872 Multifactor authentication used for authenticating users of online services is phishing-resistant",
+        "ISM 1892 Multifactor authentication is used to authenticate users to their organization's online customer services that process, store, or communicate their organization's sensitive customer data",
+        "ISM 1893 Multifactor authentication is used to authenticate users to third-party online customer services that process, store, or communicate their organization's sensitive customer data",
+        "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Global Administrator.json",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org.",
+        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Identity Governance Administrator.json",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org.",
+        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Intune Administrator.json",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org.",
+        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Security Administrator.json",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org.",
+        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Privileged Role Administrator.json",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org.",
+        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/User Administrator.json",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org.",
+        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     }
   ]

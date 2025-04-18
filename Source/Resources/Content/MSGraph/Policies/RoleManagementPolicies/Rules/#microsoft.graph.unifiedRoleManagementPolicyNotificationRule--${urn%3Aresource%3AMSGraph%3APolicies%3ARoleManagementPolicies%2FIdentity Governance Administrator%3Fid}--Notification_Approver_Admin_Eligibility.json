@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule",
+  "$friendlyName": "Identity Governance Administrator--Notification_Approver_Admin_Eligibility",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Identity Governance Administrator?id}--Notification_Approver_Admin_Eligibility",
+  "id": "Notification_Approver_Admin_Eligibility",
+  "isDefaultRecipientsEnabled": true,
+  "notificationLevel": "All",
+  "notificationRecipients": [],
+  "notificationType": "Email",
+  "recipientType": "Approver",
+  "target": {
+    "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Eligibility",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Identity Governance Administrator?id}"
+}

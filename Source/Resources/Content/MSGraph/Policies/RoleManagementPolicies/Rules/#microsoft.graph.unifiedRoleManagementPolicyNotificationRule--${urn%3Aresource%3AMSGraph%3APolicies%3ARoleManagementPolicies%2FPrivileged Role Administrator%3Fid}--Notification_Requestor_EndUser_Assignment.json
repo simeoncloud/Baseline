@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule",
+  "$friendlyName": "Privileged Role Administrator--Notification_Requestor_EndUser_Assignment",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Privileged Role Administrator?id}--Notification_Requestor_EndUser_Assignment",
+  "id": "Notification_Requestor_EndUser_Assignment",
+  "isDefaultRecipientsEnabled": true,
+  "notificationLevel": "All",
+  "notificationRecipients": [],
+  "notificationType": "Email",
+  "recipientType": "Requestor",
+  "target": {
+    "caller": "EndUser",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Privileged Role Administrator?id}"
+}

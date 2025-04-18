@@ -1,0 +1,4 @@
+{
+  "$friendlyName": "Identity Governance Administrator",
+  "roleDefinitionId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Identity Governance Administrator?id}"
+}

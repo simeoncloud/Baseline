@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule",
+  "$friendlyName": "User Administrator--Notification_Requestor_Admin_Assignment",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyNotificationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/User Administrator?id}--Notification_Requestor_Admin_Assignment",
+  "id": "Notification_Requestor_Admin_Assignment",
+  "isDefaultRecipientsEnabled": true,
+  "notificationLevel": "All",
+  "notificationRecipients": [],
+  "notificationType": "Email",
+  "recipientType": "Requestor",
+  "target": {
+    "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/User Administrator?id}"
+}

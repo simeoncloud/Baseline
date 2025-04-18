@@ -1,0 +1,20 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule",
+  "$friendlyName": "Security Administrator--Enablement_EndUser_Assignment",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Security Administrator?id}--Enablement_EndUser_Assignment",
+  "enabledRules": [
+    "Justification",
+    "MultiFactorAuthentication"
+  ],
+  "id": "Enablement_EndUser_Assignment",
+  "target": {
+    "caller": "EndUser",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Security Administrator?id}"
+}

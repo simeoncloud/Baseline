@@ -1,0 +1,19 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule",
+  "$friendlyName": "Identity Governance Administrator--Enablement_EndUser_Assignment",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Identity Governance Administrator?id}--Enablement_EndUser_Assignment",
+  "enabledRules": [
+    "Justification"
+  ],
+  "id": "Enablement_EndUser_Assignment",
+  "target": {
+    "caller": "EndUser",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Identity Governance Administrator?id}"
+}

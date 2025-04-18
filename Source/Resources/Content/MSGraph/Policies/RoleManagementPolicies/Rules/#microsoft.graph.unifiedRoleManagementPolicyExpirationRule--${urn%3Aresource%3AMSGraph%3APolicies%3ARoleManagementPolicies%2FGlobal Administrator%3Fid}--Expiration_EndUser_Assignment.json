@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyExpirationRule",
+  "$friendlyName": "Global Administrator--Expiration_EndUser_Assignment",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyExpirationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Expiration_EndUser_Assignment",
+  "id": "Expiration_EndUser_Assignment",
+  "isExpirationRequired": true,
+  "maximumDuration": "PT8H",
+  "target": {
+    "caller": "EndUser",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
+}

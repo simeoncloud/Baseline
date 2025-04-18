@@ -1,0 +1,40 @@
+{
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "$friendlyName": "ACSC Essential Eight MFA - Maturity Level 2 & 3",
+  "$name": "ACSC Essential Eight MFA - Maturity Level 2 & 3",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "authenticationStrength": {
+      "id": "${urn:resource:MSGraph:Identity:ConditionalAccess:AuthenticationStrength:Policies/Essential 8 Maturity level 2,3?id}"
+    },
+    "builtInControls": [],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabledForReportingButNotEnforced"
+}

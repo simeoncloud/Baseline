@@ -1,0 +1,17 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule",
+  "$friendlyName": "Identity Governance Administrator--Enablement_Admin_Eligibility",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Identity Governance Administrator?id}--Enablement_Admin_Eligibility",
+  "enabledRules": [],
+  "id": "Enablement_Admin_Eligibility",
+  "target": {
+    "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Eligibility",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Identity Governance Administrator?id}"
+}

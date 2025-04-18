@@ -1,0 +1,13 @@
+{
+  "$friendlyName": "Essential 8 Maturity level 2,3",
+  "allowedCombinations": [
+    "fido2",
+    "temporaryAccessPassMultiUse",
+    "temporaryAccessPassOneTime",
+    "windowsHelloForBusiness",
+    "x509CertificateMultiFactor"
+  ],
+  "description": "",
+  "policyType": "custom",
+  "requirementsSatisfied": "mfa"
+}

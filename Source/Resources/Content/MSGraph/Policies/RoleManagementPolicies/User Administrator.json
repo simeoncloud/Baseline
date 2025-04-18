@@ -1,0 +1,4 @@
+{
+  "$friendlyName": "User Administrator",
+  "roleDefinitionId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/User Administrator?id}"
+}
