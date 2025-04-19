@@ -1,0 +1,9 @@
+{
+  "$friendlyName": "Default Retention Policy",
+  "ExcludedItemClasses": [],
+  "MachineLearningModelIDs": [],
+  "Policy": "${urn:resource:SecurityAndCompliance:RetentionCompliancePolicy/Default Retention Policy?Guid}",
+  "RetentionComplianceAction": "Keep",
+  "RetentionDuration": "365",
+  "RetentionDurationDisplayHint": "Days"
+}

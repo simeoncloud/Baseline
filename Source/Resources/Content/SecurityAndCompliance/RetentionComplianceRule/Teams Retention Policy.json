@@ -1,0 +1,10 @@
+{
+  "$friendlyName": "Teams Retention Policy",
+  "ExcludedItemClasses": [],
+  "ExpirationDateOption": "CreationAgeInDays",
+  "MachineLearningModelIDs": [],
+  "Policy": "${urn:resource:SecurityAndCompliance:RetentionCompliancePolicy/Teams Retention Policy?Guid}",
+  "RetentionComplianceAction": "Keep",
+  "RetentionDuration": "365",
+  "RetentionDurationDisplayHint": "Days"
+}

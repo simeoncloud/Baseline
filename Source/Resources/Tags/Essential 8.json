@@ -8,13 +8,18 @@
       "description": [
         "ISM 1488 Microsoft Office macros in files originating from the internet are blocked",
         "ISM 1672 Microsoft Office macro antivirus scanning is enabled",
-        "ISM 1675 Microsoft Office macros digitally signed by an untrusted publisher can't be enabled via the Message Bar or Backstage View"
+        "ISM 1675 Microsoft Office macros digitally signed by an untrusted publisher can't be enabled via the Message Bar or Backstage View",
+        "ISM 1859 Web browser, Microsoft Office and PDF software security settings can't be changed by users"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/Templates/#microsoft.graph.securityBaselineTemplate--Attack surface reduction rules.json",
       "description": [
-        "ISM 1673 Microsoft Office macros are blocked from making Win32 API calls"
+        "ISM 1673 Microsoft Office macros are blocked from making Win32 API calls",
+        "ISM 1667 Microsoft Office is blocked from creating child processes",
+        "ISM 1668 Microsoft Office is blocked from creating executable content",
+        "ISM 1669 Microsoft Office is blocked from injecting code into other processes",
+        "ISM 1670 PDF software is blocked from creating child processes"
       ]
     },
     {
@@ -22,7 +27,8 @@
       "description": [
         "$description - All Office users by default are targeted with a policy that blocks the execution of macros. Users assigned to the group Allow macro execution - Trusted Publisher are excluded from this policy.",
         "ISM 1671 Microsoft Office macros are disabled for users that don't have a demonstrated business requirement",
-        "ISM 1489 Microsoft Office macro security settings can't be changed by users"
+        "ISM 1489 Microsoft Office macro security settings can't be changed by users",
+        "ISM 1859 Microsoft Apps for Enterprise hardened with the recommended settings"
       ]
     },
     {
@@ -165,54 +171,103 @@
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Global Administrator.json",
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Identity Governance Administrator.json",
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Intune Administrator.json",
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Security Administrator.json",
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Privileged Role Administrator.json",
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/User Administrator.json",
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM-1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM-1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM-1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/ACSC Edge Hardening Guidelines.json",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org",
+        "ISM 1485 Web browsers don't process web advertisements from the internet",
+        "ISM 1412 Deploy the Microsoft Edge Security Baseline",
+        "ISM 1860 Deploy the ACSC Microsoft Edge Hardening Guidance"
+      ]
+    },
+    {
+      "path": "IE Disabled",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org",
+        "ISM 1666 Internet Explorer 11 is disabled or removed"
+      ]
+    },
+    {
+      "path": "OfficeMacroHardening-PreventActivationofOLE",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org",
+        "ISM 1542 Microsoft Office is configured to prevent activation of OLE packages"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/User Application Hardening Remove Features.json",
+      "description": [
+        "$description - Consider adding approvals and additional roles commonly used in the org",
+        "ISM 1655 .NET Framework 3.5 (includes .NET 2.0 and 3.0) is disabled or removed",
+        "ISM 1612 Windows PowerShell 2.0 is Disabled or Removed"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/SecurityAndCompliance/RetentionComplianceRule/Baseline - Default Retention Policy.json",
+      "description": [
+        "$description - Defaults to 365, should be updated according to business requirements",
+        "ISM 1511 Backups of data, applications, and settings are performed and retained in accordance with business criticality and business continuity requirements",
+        "ISM 1810 Backups of data, applications, and settings are synchronized to enable restoration to a common point in time",
+        "ISM 1811 Backups of data, applications, and settings are retained in a secure and resilient manner"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/SecurityAndCompliance/RetentionComplianceRule/Baseline - Teams Retention Policy.json",
+      "description": [
+        "$description - Defaults to 365, should be updated according to business requirements",
+        "ISM 1511 Backups of data, applications, and settings are performed and retained in accordance with business criticality and business continuity requirements",
+        "ISM 1810 Backups of data, applications, and settings are synchronized to enable restoration to a common point in time",
+        "ISM 1811 Backups of data, applications, and settings are retained in a secure and resilient manner"
       ]
     }
   ]

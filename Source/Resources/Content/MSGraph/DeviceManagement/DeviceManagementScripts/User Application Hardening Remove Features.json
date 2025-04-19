@@ -1,0 +1,14 @@
+{
+  "$friendlyName": "User Application Hardening Remove Features",
+  "assignments": [],
+  "description": "",
+  "enforceSignatureCheck": false,
+  "expand": "assignments",
+  "fileName": "UserApplicationHardening-RemoveFeatures.ps1",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "runAs32Bit": true,
+  "runAsAccount": "system",
+  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/User Application Hardening Remove Features?$additionalContentFiles['scriptContent.ps1']}"
+}
