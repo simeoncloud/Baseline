@@ -1,0 +1,44 @@
+{
+  "@odata.type": "#microsoft.graph.macOSCompliancePolicy",
+  "$description": "This should be periodically updated so the latest release, or the previous release, of operating systems are used.",
+  "$friendlyName": "MacOS - Latest version",
+  "advancedThreatProtectionRequiredSecurityLevel": "unavailable",
+  "assignments": [
+    {
+      "source": "direct",
+      "target": {
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterType": "none"
+      }
+    }
+  ],
+  "deviceThreatProtectionEnabled": false,
+  "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+  "displayName": "MacOS - Latest version",
+  "expand": "assignments,scheduledActionsForRule($expand=scheduledActionConfigurations)",
+  "firewallBlockAllIncoming": false,
+  "firewallEnabled": false,
+  "firewallEnableStealthMode": false,
+  "gatekeeperAllowedAppSource": "notConfigured",
+  "osMinimumVersion": "15.4",
+  "passwordBlockSimple": false,
+  "passwordRequired": false,
+  "passwordRequiredType": "deviceDefault",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "scheduledActionsForRule": [
+    {
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 0,
+          "notificationMessageCCList": [],
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ],
+  "storageRequireEncryption": false,
+  "systemIntegrityProtectionEnabled": false
+}

@@ -1,0 +1,58 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "$description": "This should be updated such that the latest release, or the previous release, of operating systems are used.",
+  "$friendlyName": "Windows - Lastest version",
+  "activeFirewallRequired": false,
+  "antiSpywareRequired": false,
+  "antivirusRequired": false,
+  "assignments": [
+    {
+      "source": "direct",
+      "target": {
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterType": "none"
+      }
+    }
+  ],
+  "bitLockerEnabled": false,
+  "codeIntegrityEnabled": false,
+  "configurationManagerComplianceRequired": false,
+  "defenderEnabled": false,
+  "deviceThreatProtectionEnabled": false,
+  "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+  "displayName": "Windows - Lastest version",
+  "earlyLaunchAntiMalwareDriverEnabled": false,
+  "expand": "assignments,scheduledActionsForRule($expand=scheduledActionConfigurations)",
+  "firmwareProtectionEnabled": false,
+  "kernelDmaProtectionEnabled": false,
+  "memoryIntegrityEnabled": false,
+  "osMinimumVersion": "26100.3781",
+  "passwordBlockSimple": false,
+  "passwordRequired": false,
+  "passwordRequiredToUnlockFromIdle": false,
+  "passwordRequiredType": "deviceDefault",
+  "requireHealthyDeviceReport": false,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "rtpEnabled": false,
+  "scheduledActionsForRule": [
+    {
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 0,
+          "notificationMessageCCList": [],
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ],
+  "secureBootEnabled": false,
+  "signatureOutOfDate": false,
+  "storageRequireEncryption": false,
+  "tpmRequired": false,
+  "validOperatingSystemBuildRanges": [],
+  "virtualizationBasedSecurityEnabled": false,
+  "wslDistributions": []
+}

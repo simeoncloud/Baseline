@@ -28,7 +28,8 @@
         "$description - All Office users by default are targeted with a policy that blocks the execution of macros. Users assigned to the group Allow macro execution - Trusted Publisher are excluded from this policy.",
         "ISM 1671 Microsoft Office macros are disabled for users that don't have a demonstrated business requirement",
         "ISM 1489 Microsoft Office macro security settings can't be changed by users",
-        "ISM 1859 Microsoft Apps for Enterprise hardened with the recommended settings"
+        "ISM 1859 Microsoft Apps for Enterprise hardened with the recommended settings",
+        "ISM 1823 Office productivity suite security settings cannot be changed by users"
       ]
     },
     {
@@ -49,7 +50,7 @@
       ]
     },
     {
-      "path": "/Users/ltobias/Library/CloudStorage/OneDrive-CoreViewInc/Desktop/dev/tenants/8qszgrsssd/Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Critical Ring %2013 Install updates after 10 days.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Critical Ring %2013 Install updates after 10 days.json",
       "description": [
         "$description - WUfB has the concept of Rings. Rings are a collection of WUfB settings and policies targeted to a specific group of devices. Organizations can use as many rings as required, although most organizations have settled on fewer rings than they may have previously used with other patching tools such as Microsoft Endpoint Configuration Manager. A recommended number of Rings to start with is between 3 to 5 Rings. https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings",
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
@@ -57,7 +58,7 @@
       ]
     },
     {
-      "path": "/Users/ltobias/Library/CloudStorage/OneDrive-CoreViewInc/Desktop/dev/tenants/8qszgrsssd/Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring %2013 Install updates after 4 days.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring %2013 Install updates after 4 days.json",
       "description": [
         "$description - WUfB has the concept of Rings. Rings are a collection of WUfB settings and policies targeted to a specific group of devices. Organizations can use as many rings as required, although most organizations have settled on fewer rings than they may have previously used with other patching tools such as Microsoft Endpoint Configuration Manager. A recommended number of Rings to start with is between 3 to 5 Rings. https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings",
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
@@ -227,18 +228,20 @@
         "$description - Consider adding approvals and additional roles commonly used in the org",
         "ISM 1485 Web browsers don't process web advertisements from the internet",
         "ISM 1412 Deploy the Microsoft Edge Security Baseline",
-        "ISM 1860 Deploy the ACSC Microsoft Edge Hardening Guidance"
+        "ISM 1860 Deploy the ACSC Microsoft Edge Hardening Guidance",
+        "ISM 1585 Web browser, Microsoft Office and PDF software security settings can't be changed by users",
+        "ISM 1824 PDF software security settings cannot be changed by users"
       ]
     },
     {
-      "path": "IE Disabled",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/Disable Internet Explorer.json",
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org",
-        "ISM 1666 Internet Explorer 11 is disabled or removed"
+        "ISM 1654 Internet Explorer 11 is disabled or removed"
       ]
     },
     {
-      "path": "OfficeMacroHardening-PreventActivationofOLE",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE.json",
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org",
         "ISM 1542 Microsoft Office is configured to prevent activation of OLE packages"
@@ -249,7 +252,7 @@
       "description": [
         "$description - Consider adding approvals and additional roles commonly used in the org",
         "ISM 1655 .NET Framework 3.5 (includes .NET 2.0 and 3.0) is disabled or removed",
-        "ISM 1612 Windows PowerShell 2.0 is Disabled or Removed"
+        "ISM 1621 Windows PowerShell 2.0 is Disabled or Removed"
       ]
     },
     {
@@ -268,6 +271,22 @@
         "ISM 1511 Backups of data, applications, and settings are performed and retained in accordance with business criticality and business continuity requirements",
         "ISM 1810 Backups of data, applications, and settings are synchronized to enable restoration to a common point in time",
         "ISM 1811 Backups of data, applications, and settings are retained in a secure and resilient manner"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/#microsoft.graph.macOSCompliancePolicy--MacOS - Latest version.json",
+      "description": [
+        "$description - should be updated to latest version",
+        "ISM-1407 The latest release, or the previous release, of operating systems are used",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/#microsoft.graph.windows10CompliancePolicy--Windows - Lastest version.json",
+      "description": [
+        "$description - should be updated to latest version",
+        "ISM-1407 The latest release, or the previous release, of operating systems are used",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
     }
   ]

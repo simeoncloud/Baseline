@@ -1,0 +1,22 @@
+{
+  "$friendlyName": "Office Macro Hardening - Prevent Activation of OLE",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/All Office Users?id}"
+      }
+    }
+  ],
+  "description": "",
+  "enforceSignatureCheck": false,
+  "expand": "assignments",
+  "fileName": "OfficeMacroHardening-PreventActivationofOLE.ps1",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "runAs32Bit": true,
+  "runAsAccount": "user",
+  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE?$additionalContentFiles['scriptContent.ps1']}"
+}
