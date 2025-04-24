@@ -2,10 +2,9 @@
   "$friendlyName": "ACSC Windows Hardening Guidelines",
   "assignments": [
     {
-      "source": "policySets",
-      "sourceId": "${urn:resource:MSGraph:DeviceAppManagement:PolicySets/Microsoft 365 Apps and ACSC Hardening?id}",
+      "source": "direct",
       "target": {
-        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
         "deviceAndAppManagementAssignmentFilterType": "none",
         "groupId": "${urn:resource:MSGraph:Groups/All Office Users?id}"
       }
