@@ -288,6 +288,102 @@
         "ISM-1407 The latest release, or the previous release, of operating systems are used",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Groups/All Office Users.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/RoleScopeTags/Default.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Groups/Allow macro execution - Trusted Publisher.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Groups/Corporate Devices.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/AuthenticationStrength/Policies/Essential 8 Maturity level 1.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/AuthenticationStrength/Policies/Essential 8 Maturity level 2,3.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Global Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Identity Governance Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Intune Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Security Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Privileged Role Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/User Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/User Application Hardening Remove Features.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/SecurityAndCompliance/RetentionCompliancePolicy/Default Retention Policy.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/SecurityAndCompliance/RetentionCompliancePolicy/Teams Retention Policy.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
     }
   ]
 }
