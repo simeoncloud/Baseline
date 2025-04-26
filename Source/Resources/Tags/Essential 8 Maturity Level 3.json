@@ -25,7 +25,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/All Macros Disabled.json",
       "description": [
-        "$description - All Office users by default are targeted with a policy that blocks the execution of macros. Users assigned to the group Allow macro execution - Trusted Publisher are excluded from this policy.",
         "ISM 1671 Microsoft Office macros are disabled for users that don't have a demonstrated business requirement",
         "ISM 1489 Microsoft Office macro security settings can't be changed by users",
         "ISM 1859 Microsoft Apps for Enterprise hardened with the recommended settings",
@@ -35,7 +34,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/Macros Enabled for Trusted Publishers.json",
       "description": [
-        "$description - After importing the Trusted Publisher policy, you'll need to specify one or more Trusted Publishers. To add a Trusted Publisher, follow the instructions for adding a certificate to the Trusted Publishers certificate store using Intune: Adding a Certificate to Trusted Publishers using Intune - Microsoft Tech Community https://techcommunity.microsoft.com/blog/intunecustomersuccess/adding-a-certificate-to-trusted-publishers-using-microsoft-intune/1974488#:%7E:text=To%20add%20a%20certificate%20to%20the%20Trusted%20Publishers,a%20new%2C%20custom%2C%20Windows%2010%20device%20configuration%20profile",
         "ISM 1674 Only Microsoft Office macros running from within a sandboxed environment, a Trusted Location or that are digitally signed by a Trusted Publisher are allowed to execute",
         "ISM 1487 Only privileged users responsible for checking that Microsoft Office macros are free of malicious code can write to and modify content within Trusted Locations",
         "ISM 1890 Microsoft Office macros are checked to ensure they're free of malicious code before being digitally signed or placed within Trusted Locations"
@@ -44,7 +42,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Broad Ring - Install updates after 7 days.json",
       "description": [
-        "$description - WUfB has the concept of Rings. Rings are a collection of WUfB settings and policies targeted to a specific group of devices. Organizations can use as many rings as required, although most organizations have settled on fewer rings than they may have previously used with other patching tools such as Microsoft Endpoint Configuration Manager. A recommended number of Rings to start with is between 3 to 5 Rings. https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings",
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
@@ -52,7 +49,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Critical Ring - Install updates after 10 days.json",
       "description": [
-        "$description - WUfB has the concept of Rings. Rings are a collection of WUfB settings and policies targeted to a specific group of devices. Organizations can use as many rings as required, although most organizations have settled on fewer rings than they may have previously used with other patching tools such as Microsoft Endpoint Configuration Manager. A recommended number of Rings to start with is between 3 to 5 Rings. https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings",
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
@@ -60,7 +56,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring - Install updates after 4 days.json",
       "description": [
-        "$description - WUfB has the concept of Rings. Rings are a collection of WUfB settings and policies targeted to a specific group of devices. Organizations can use as many rings as required, although most organizations have settled on fewer rings than they may have previously used with other patching tools such as Microsoft Endpoint Configuration Manager. A recommended number of Rings to start with is between 3 to 5 Rings. https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings",
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
@@ -68,7 +63,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Pilot Ring - Install updates after 2 days.json",
       "description": [
-        "$description - WUfB has the concept of Rings. Rings are a collection of WUfB settings and policies targeted to a specific group of devices. Organizations can use as many rings as required, although most organizations have settled on fewer rings than they may have previously used with other patching tools such as Microsoft Endpoint Configuration Manager. A recommended number of Rings to start with is between 3 to 5 Rings. https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings",
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
@@ -76,7 +70,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Test Ring - Install updates immediately.json",
       "description": [
-        "$description - WUfB has the concept of Rings. Rings are a collection of WUfB settings and policies targeted to a specific group of devices. Organizations can use as many rings as required, although most organizations have settled on fewer rings than they may have previously used with other patching tools such as Microsoft Endpoint Configuration Manager. A recommended number of Rings to start with is between 3 to 5 Rings. https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings",
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
@@ -84,7 +77,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsDeliveryOptimizationConfiguration--Production - Win11 - Delivery Optimization.json",
       "description": [
-        "$description - WUfB has the concept of Rings. Rings are a collection of WUfB settings and policies targeted to a specific group of devices. Organizations can use as many rings as required, although most organizations have settled on fewer rings than they may have previously used with other patching tools such as Microsoft Endpoint Configuration Manager. A recommended number of Rings to start with is between 3 to 5 Rings. https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings",
         "ISM 1697 Patches, updates or other vendor mitigations for vulnerabilities in drivers are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1903 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within 48 hours of release when vulnerabilities are assessed as critical by vendors or when working exploits exist",
         "ISM 1904 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist"

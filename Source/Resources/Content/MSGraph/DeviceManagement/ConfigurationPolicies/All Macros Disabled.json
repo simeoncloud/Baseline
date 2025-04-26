@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Disables all Office macros except for excluded users/groups, enhancing security against macro-based attacks. |\n| Why should you use this? | Reduces risk of malicious macro execution organization-wide. |\n| What is the end-user impact? | Only uses in the 'Allow macro execution - Trusted Publisher' group will be able to excute macros. |",
   "$friendlyName": "All Macros Disabled",
   "assignments": [
     {

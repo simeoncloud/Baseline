@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "$description": "| What does this do? | Defines the Fast Ring assignment for Windows Updates. |\n| Why should you use this? | Assigns select devices to receive updates before the majority, but after Test/Pilot. |\n| What is the end-user impact? | Devices in this group may see updates sooner, and act as an additional validation tier. |\n| Learn more | [Configure Windows Update for business rings](https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings) |",  
   "$friendlyName": "Fast Ring - Install updates after 4 days",
   "$name": "#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring - Install updates after 4 days",
   "allowWindows11Upgrade": false,

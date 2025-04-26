@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Applies ACSC (Australian Cyber Security Centre) recommended Windows security configuration to devices in the All Office Users group. |\n| Why should you use this? | Ensures compliance with strong government-grade Windows security recommendations. |\n| What is the end-user impact? | Users may be prevented from changing security/compliance settings and experience additional controls. |\n| Learn more | [Essential Eight user application hardening](https://learn.microsoft.com/en-us/compliance/anz/e8-app-harden)|",
   "$friendlyName": "ACSC Windows Hardening Guidelines",
   "assignments": [
     {

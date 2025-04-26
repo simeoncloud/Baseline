@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Enables use of trusted Office macros for a defined group of users, blocks untrusted. |\n| Why should you use this? | Allows only digitally signed and organizationally approved macros to be executed. |\n| What is the end-user impact? | Users in the 'Allow macro execution - Trusted Publisher' group can use signed macros; others are blocked from execution. |\n| Learn more | [Adding a Certificate to Trusted Publishers using Microsoft Intune](https://techcommunity.microsoft.com/blog/intunecustomersuccess/adding-a-certificate-to-trusted-publishers-using-microsoft-intune/1974488#:%7E:text=To%20add%20a%20certificate%20to%20the%20Trusted%20Publishers,a%20new%2C%20custom%2C%20Windows%2010%20device%20configuration%20profile )|",
   "$friendlyName": "Macros Enabled for Trusted Publishers",
   "assignments": [
     {

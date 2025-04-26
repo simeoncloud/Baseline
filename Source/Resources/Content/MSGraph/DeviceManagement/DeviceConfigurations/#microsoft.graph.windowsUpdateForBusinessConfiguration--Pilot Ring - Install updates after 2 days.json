@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "$description": "| What does this do? | Defines the Pilot Ring for Windows Updates assignments. |\n| Why should you use this? | Assigns devices for early deployment to validate update deployment in your environment. |\n| What is the end-user impact? | These workstations receive updates soon after the Test Ring. |\n| Learn more | [Configure Windows Update for business rings](https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings) |",
   "$friendlyName": "Pilot Ring - Install updates after 2 days",
   "$name": "#microsoft.graph.windowsUpdateForBusinessConfiguration--Pilot Ring - Install updates after 2 days",
   "allowWindows11Upgrade": false,

@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "$description": "| What does this do? | Defines the Test Ring for Windows Updates assignments. |\n| Why should you use this? | Assigns devices to the Test Ring for early deployment and testing of Windows and security updates. |\n| What is the end-user impact? | Devices in this group receive updates first and may encounter issues sooner. |\n| Learn more | [Configure Windows Update for business rings](https://learn.microsoft.com/en-us/compliance/anz/e8-patchos-configure-wufb-rings) |",
   "$friendlyName": "Test Ring - Install updates immediately",
   "$name": "#microsoft.graph.windowsUpdateForBusinessConfiguration--Test Ring - Install updates immediately",
   "allowWindows11Upgrade": false,
