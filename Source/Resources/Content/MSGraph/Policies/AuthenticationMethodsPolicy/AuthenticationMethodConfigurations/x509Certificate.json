@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.x509CertificateAuthenticationMethodConfiguration",
+  "$description": "| What does this do? | Enables and configures certificate-based authentication for all users. |\n| Why should you use this? | Supports secure authentication using x509 digital certificates. |\n| What is the end-user impact? | Users can use certificates to authenticate to Microsoft services. |",
   "$friendlyName": "x509Certificate",
   "authenticationModeConfiguration": {
     "rules": [],

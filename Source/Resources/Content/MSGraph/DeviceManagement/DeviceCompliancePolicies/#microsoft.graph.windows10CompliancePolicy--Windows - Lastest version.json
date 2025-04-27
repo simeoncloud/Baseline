@@ -1,6 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
-  "$description": "This should be updated such that the latest release, or the previous release, of operating systems are used.",
+  "$description": "| What does this do? | Defines compliance requirements and enforces a minimum operating system version for Windows 10 devices. | Why should you use this? | This should be periodically updated so the latest release, or the previous release, of operating systems are used. Keeping devices updated protects against known vulnerabilities and ensures device security and compatibility with enterprise tools. | What is the end-user impact? | Users on non-compliant or unsupported versions of Windows may lose access to corporate resources until their devices are updated and brought back into compliance.",
   "$friendlyName": "Windows - Lastest version",
   "activeFirewallRequired": false,
   "antiSpywareRequired": false,

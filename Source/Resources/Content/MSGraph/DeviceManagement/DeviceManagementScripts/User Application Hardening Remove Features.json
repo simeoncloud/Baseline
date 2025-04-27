@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Disables legacy or insecure features, such as PowerShell 2.0, Internet Explorer, and .NET 3.5 on targeted Windows devices. |\n| Why should you use this? | Reduces attack surface by removing components with known vulnerabilities. |\n| What is the end-user impact? | Users cannot use older, less secure Windows features. |",
   "$friendlyName": "User Application Hardening Remove Features",
   "assignments": [],
   "description": "",

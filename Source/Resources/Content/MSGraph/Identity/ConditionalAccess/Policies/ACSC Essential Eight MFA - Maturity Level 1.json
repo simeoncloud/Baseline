@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "$description": "| What does this do? | **This policy is in Report Only mode. Before enabaling, all accounts should hvae completed MFA regisration. Consider excluding break glass accounts. This must be enabled to be compilant with Essential 8** Implements ACSC Essential Eight Maturity Level 1 multi-factor authentication requirements across all users. |\n| Why should you use this? | Ensures compliance with ACSC Essential Eight guidelines for basic MFA. |\n| What is the end-user impact? | All users included in the policy must use at least one of the allowed combinations for MFA. |",
   "$friendlyName": "ACSC Essential Eight MFA - Maturity Level 1",
   "$name": "ACSC Essential Eight MFA - Maturity Level 1",
   "conditions": {

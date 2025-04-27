@@ -1,19 +1,20 @@
 {
-    "$friendlyName": "Windows Driver Updates",
-    "approvalType": "automatic",
-    "assignments": [
-      {
-        "target": {
-          "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-          "deviceAndAppManagementAssignmentFilterType": "none",
-          "groupId": "${urn:resource:MSGraph:Groups/Corporate Devices?id}"
-        }
+  "$description": "| What does this do? | Defines driver update deployment policy for all corporate Windows devices. |\n| Why should you use this? | Ensures timely driver updates for stability and security across your device fleet. |\n| What is the end-user impact? | Users receive drivers automatically with minimal delay. |",
+  "$friendlyName": "Windows Driver Updates",
+  "approvalType": "automatic",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/Corporate Devices?id}"
       }
-    ],
-    "deploymentDeferralInDays": 7,
-    "description": "",
-    "expand": "assignments",
-    "roleScopeTagIds": [
-      "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
-    ]
-  }
+    }
+  ],
+  "deploymentDeferralInDays": 7,
+  "description": "",
+  "expand": "assignments",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ]
+}

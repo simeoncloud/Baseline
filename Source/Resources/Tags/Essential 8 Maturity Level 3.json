@@ -85,7 +85,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/WindowsDriverUpdateProfiles/Windows Driver Updates.json",
       "description": [
-        "$description - Automatic driver updates after 7 days assigned to all corporate devices",
         "ISM 1697 Patches, updates or other vendor mitigations for vulnerabilities in drivers are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1903 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within 48 hours of release when vulnerabilities are assessed as critical by vendors or when working exploits exist",
         "ISM 1904 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist"
@@ -94,13 +93,12 @@
     {
       "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/microsoftAuthenticator.json",
       "description": [
-        "$description - This only meets maturity level 1, does NOT meet maturity level 2 and 3. Does not meet any controls for M2, M3"
+        "This only meets maturity level 1, does NOT meet maturity level 2 and 3."
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/fido2.json",
       "description": [
-        "$description - ",
         "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant",
         "ISM 1682 Multifactor authentication used for authenticating users of systems is phishing-resistant",
         "ISM 1872 Multifactor authentication used for authenticating users of online services is phishing-resistant"
@@ -109,7 +107,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/temporaryAccessPass.json",
       "description": [
-        "$description - TAP is not a phishing resistant authentication method, however it is required to bootstrap a user's access to set up a permitted authentication method",
         "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant",
         "ISM 1682 Multifactor authentication used for authenticating users of systems is phishing-resistant",
         "ISM 1872 Multifactor authentication used for authenticating users of online services is phishing-resistant"
@@ -118,7 +115,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/x509Certificate.json",
       "description": [
-        "$description - ",
         "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant",
         "ISM 1682 Multifactor authentication used for authenticating users of systems is phishing-resistant",
         "ISM 1872 Multifactor authentication used for authenticating users of online services is phishing-resistant"
@@ -127,8 +123,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/ACSC Essential Eight MFA - Maturity Level 1.json",
       "description": [
-        "$description - In report only, must be turned on!",
-        "ISM 0974 (ML 3) - Multifactor authentication is used to authenticate unprivileged users of systems",
         "ISM 1173 Multifactor authentication is used to authenticate privileged users of systems",
         "ISM 1401 Multifactor authentication uses either: something users have and something users know, or something users have that be unlocked with something users know or are",
         "ISM 1504 Multifactor authentication is used to authenticate users to their organization's online services that process, store, or communicate their organization's sensitive data",
@@ -145,8 +139,7 @@
     {
       "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/ACSC Essential Eight MFA - Maturity Level 2 & 3.json",
       "description": [
-        "$description - In report only, must be turned on!",
-        "ISM 0974 (ML 3) - Multifactor authentication is used to authenticate unprivileged users of systems",
+        "ISM 0974 Multifactor authentication is used to authenticate unprivileged users of systems",
         "ISM 1173 Multifactor authentication is used to authenticate privileged users of systems",
         "ISM 1401 Multifactor authentication uses either: something users have and something users know, or something users have that be unlocked with something users know or are",
         "ISM 1504 Multifactor authentication is used to authenticate users to their organization's online services that process, store, or communicate their organization's sensitive data",
@@ -163,61 +156,60 @@
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Global Administrator.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Identity Governance Administrator.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Intune Administrator.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Security Administrator.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Privileged Role Administrator.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/User Administrator.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org.",
-        "ISM 1507 (ML 1,2,3) Requests for privileged access to systems, applications, and data repositories are validated when first requested",
-        "ISM 1508 (ML 3) Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
-        "ISM 1647 (ML 2,3) Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/ACSC Edge Hardening Guidelines.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org",
         "ISM 1485 Web browsers don't process web advertisements from the internet",
         "ISM 1412 Deploy the Microsoft Edge Security Baseline",
         "ISM 1860 Deploy the ACSC Microsoft Edge Hardening Guidance",
@@ -228,21 +220,18 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/Disable Internet Explorer.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org",
         "ISM 1654 Internet Explorer 11 is disabled or removed"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org",
         "ISM 1542 Microsoft Office is configured to prevent activation of OLE packages"
       ]
     },
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/User Application Hardening Remove Features.json",
       "description": [
-        "$description - Consider adding approvals and additional roles commonly used in the org",
         "ISM 1655 .NET Framework 3.5 (includes .NET 2.0 and 3.0) is disabled or removed",
         "ISM 1621 Windows PowerShell 2.0 is Disabled or Removed"
       ]
@@ -250,7 +239,6 @@
     {
       "path": "Source/Resources/Content/SecurityAndCompliance/RetentionComplianceRule/Default Retention Policy.json",
       "description": [
-        "$description - Defaults to 365, should be updated according to business requirements",
         "ISM 1511 Backups of data, applications, and settings are performed and retained in accordance with business criticality and business continuity requirements",
         "ISM 1810 Backups of data, applications, and settings are synchronized to enable restoration to a common point in time",
         "ISM 1811 Backups of data, applications, and settings are retained in a secure and resilient manner"
@@ -259,7 +247,6 @@
     {
       "path": "Source/Resources/Content/SecurityAndCompliance/RetentionComplianceRule/Teams Retention Policy.json",
       "description": [
-        "$description - Defaults to 365, should be updated according to business requirements",
         "ISM 1511 Backups of data, applications, and settings are performed and retained in accordance with business criticality and business continuity requirements",
         "ISM 1810 Backups of data, applications, and settings are synchronized to enable restoration to a common point in time",
         "ISM 1811 Backups of data, applications, and settings are retained in a secure and resilient manner"
@@ -268,7 +255,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/#microsoft.graph.macOSCompliancePolicy--MacOS - Latest version.json",
       "description": [
-        "$description - should be updated to latest version",
         "ISM-1407 The latest release, or the previous release, of operating systems are used",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
@@ -276,7 +262,6 @@
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/#microsoft.graph.windows10CompliancePolicy--Windows - Lastest version.json",
       "description": [
-        "$description - should be updated to latest version",
         "ISM-1407 The latest release, or the previous release, of operating systems are used",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]

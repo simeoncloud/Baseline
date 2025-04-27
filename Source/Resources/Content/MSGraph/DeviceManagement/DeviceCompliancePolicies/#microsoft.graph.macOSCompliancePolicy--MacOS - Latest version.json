@@ -1,6 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.macOSCompliancePolicy",
-  "$description": "This should be periodically updated so the latest release, or the previous release, of operating systems are used.",
+  "$description": "| What does this do? | Defines compliance requirements and enforces a minimum operating system version for macOS devices. | Why should you use this? | This should be periodically updated so the latest release, or the previous release, of operating systems are used. Mandating up-to-date devices helps ensure that only secure, supported versions are used to access organizational resources, reducing risk from vulnerabilities. | What is the end-user impact? | Devices running unsupported or outdated versions of macOS may be restricted from accessing company data and may be required to update their OS to regain compliance and access.",
   "$friendlyName": "MacOS - Latest version",
   "advancedThreatProtectionRequiredSecurityLevel": "unavailable",
   "assignments": [

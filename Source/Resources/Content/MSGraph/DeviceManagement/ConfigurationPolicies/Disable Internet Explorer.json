@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Disables or blocks the use of Internet Explorer on Windows devices. |\n| Why should you use this? | Prevents use of an outdated and insecure browser within the organization. |\n| What is the end-user impact? | Users cannot launch or use Internet Explorer. |",
   "$friendlyName": "Disable Internet Explorer",
   "assignments": [
     {

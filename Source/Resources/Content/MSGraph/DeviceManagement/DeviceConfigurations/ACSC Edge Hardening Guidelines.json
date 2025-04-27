@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Applies ACSC guidelines to Microsoft Edge browser security settings via Windows policy. |\n| Why should you use this? | Hardens the default configuration of Microsoft Edge to defend against web threats. |\n| What is the end-user impact? | Users may find some browser features restricted or disabled. |",
   "$friendlyName": "ACSC Edge Hardening Guidelines",
   "assignments": [],
   "description": "",

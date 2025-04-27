@@ -1,5 +1,6 @@
 {
   "@odata.type": "#microsoft.graph.fido2AuthenticationMethodConfiguration",
+  "$description": "| What does this do? | Configures FIDO2 authentication method for users in the tenant. |\n| Why should you use this? | Allows secure, passwordless sign-in experiences via FIDO2-compliant devices. |\n| What is the end-user impact? | Users can register and use FIDO2 devices for authentication. |",
   "$friendlyName": "fido2",
   "excludeTargets": [],
   "includeTargets": [
