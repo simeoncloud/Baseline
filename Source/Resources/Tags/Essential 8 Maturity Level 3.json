@@ -1,7 +1,7 @@
 {
-  "name": "Essential 8",
+  "name": "Essential 8 Maturity Level 3",
   "description": "This baseline aligns with the Australian Cyber Security Centre (ACSC) Essential Eight Maturity Model 3.",
-  "label": "Essential 8",
+  "label": "Essential 8 ML 3",
   "tags": [
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/ACSC Windows Hardening Guidelines.json",

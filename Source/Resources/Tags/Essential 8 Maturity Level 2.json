@@ -1,7 +1,7 @@
 {
-  "name": "Essential 8",
+  "name": "Essential 8 2Maturity Level 2",
   "description": "This baseline aligns with the Australian Cyber Security Centre (ACSC) Essential Eight Maturity Model 3.",
-  "label": "Essential 8",
+  "label": "Essential 8 ML 2",
   "tags": [
     {
       "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/ACSC Windows Hardening Guidelines.json",
@@ -29,14 +29,6 @@
         "ISM 1489 Microsoft Office macro security settings can't be changed by users",
         "ISM 1859 Microsoft Apps for Enterprise hardened with the recommended settings",
         "ISM 1823 Office productivity suite security settings cannot be changed by users"
-      ]
-    },
-    {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/Macros Enabled for Trusted Publishers.json",
-      "description": [
-        "ISM 1674 Only Microsoft Office macros running from within a sandboxed environment, a Trusted Location or that are digitally signed by a Trusted Publisher are allowed to execute",
-        "ISM 1487 Only privileged users responsible for checking that Microsoft Office macros are free of malicious code can write to and modify content within Trusted Locations",
-        "ISM 1890 Microsoft Office macros are checked to ensure they're free of malicious code before being digitally signed or placed within Trusted Locations"
       ]
     },
     {
@@ -208,13 +200,6 @@
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/User Application Hardening Remove Features.json",
-      "description": [
-        "ISM 1655 .NET Framework 3.5 (includes .NET 2.0 and 3.0) is disabled or removed",
-        "ISM 1621 Windows PowerShell 2.0 is Disabled or Removed"
-      ]
-    },
-    {
       "path": "Source/Resources/Content/SecurityAndCompliance/RetentionComplianceRule/Default Retention Policy.json",
       "description": [
         "ISM 1511 Backups of data, applications, and settings are performed and retained in accordance with business criticality and business continuity requirements",
@@ -306,12 +291,6 @@
     },
     {
       "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/User Administrator.json",
-      "description": [
-        "This configuration is a dependency for other industry baseline configurations."
-      ]
-    },
-    {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE.json",
       "description": [
         "This configuration is a dependency for other industry baseline configurations."
       ]
