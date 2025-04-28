@@ -91,6 +91,12 @@
       ]
     },
     {
+      "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/microsoftAuthenticator.json",
+      "description": [
+        "This only meets maturity level 1, does NOT meet maturity level 2 and 3."
+      ]
+    },
+    {
       "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/fido2.json",
       "description": [
         "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant",
@@ -115,9 +121,8 @@
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/ACSC Essential Eight MFA - Maturity Level 2 & 3.json",
+      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/ACSC Essential Eight MFA - Maturity Level 1.json",
       "description": [
-        "ISM 0974 Multifactor authentication is used to authenticate unprivileged users of systems",
         "ISM 1173 Multifactor authentication is used to authenticate privileged users of systems",
         "ISM 1401 Multifactor authentication uses either: something users have and something users know, or something users have that be unlocked with something users know or are",
         "ISM 1504 Multifactor authentication is used to authenticate users to their organization's online services that process, store, or communicate their organization's sensitive data",
@@ -269,7 +274,7 @@
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/AuthenticationStrength/Policies/Essential 8 Maturity level 2,3.json",
+      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/AuthenticationStrength/Policies/Essential 8 Maturity level 1.json",
       "description": [
         "This configuration is a dependency for other industry baseline configurations."
       ]
