@@ -312,6 +312,18 @@
       "description": [
         "This configuration is a dependency for other industry baseline configurations."
       ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE/scriptContent.ps1",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/User Application Hardening Remove Features/scriptContent.ps1",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
     }
   ]
 }
