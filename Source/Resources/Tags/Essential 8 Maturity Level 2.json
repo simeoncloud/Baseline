@@ -13,7 +13,7 @@
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/Templates/%23microsoft.graph.securityBaselineTemplate--Attack surface reduction rules.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/Templates/#microsoft.graph.securityBaselineTemplate--Attack surface reduction rules.json",
       "description": [
         "ISM 1673 Microsoft Office macros are blocked from making Win32 API calls",
         "ISM 1667 Microsoft Office is blocked from creating child processes",
@@ -32,42 +32,42 @@
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/%23microsoft.graph.windowsUpdateForBusinessConfiguration--Broad Ring - Install updates after 7 days.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Broad Ring - Install updates after 7 days.json",
       "description": [
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/%23microsoft.graph.windowsUpdateForBusinessConfiguration--Critical Ring - Install updates after 10 days.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Critical Ring - Install updates after 10 days.json",
       "description": [
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/%23microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring - Install updates after 4 days.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring - Install updates after 4 days.json",
       "description": [
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/%23microsoft.graph.windowsUpdateForBusinessConfiguration--Pilot Ring - Install updates after 2 days.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Pilot Ring - Install updates after 2 days.json",
       "description": [
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/%23microsoft.graph.windowsUpdateForBusinessConfiguration--Test Ring - Install updates immediately.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Test Ring - Install updates immediately.json",
       "description": [
         "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/%23microsoft.graph.windowsDeliveryOptimizationConfiguration--Production - Win11 - Delivery Optimization.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsDeliveryOptimizationConfiguration--Production - Win11 - Delivery Optimization.json",
       "description": [
         "ISM 1697 Patches, updates or other vendor mitigations for vulnerabilities in drivers are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
         "ISM 1903 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within 48 hours of release when vulnerabilities are assessed as critical by vendors or when working exploits exist",
@@ -216,14 +216,14 @@
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/%23microsoft.graph.macOSCompliancePolicy--MacOS - Latest version.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/#microsoft.graph.macOSCompliancePolicy--MacOS - Latest version.json",
       "description": [
         "ISM-1407 The latest release, or the previous release, of operating systems are used",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/%23microsoft.graph.windows10CompliancePolicy--Windows - Lastest version.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/#microsoft.graph.windows10CompliancePolicy--Windows - Lastest version.json",
       "description": [
         "ISM-1407 The latest release, or the previous release, of operating systems are used",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
