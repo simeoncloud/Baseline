@@ -1,0 +1,32 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyApprovalRule",
+  "$friendlyName": "User Administrator--Approval_EndUser_Assignment",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyApprovalRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/User Administrator?id}--Approval_EndUser_Assignment",
+  "id": "Approval_EndUser_Assignment",
+  "setting": {
+    "approvalMode": "SingleStage",
+    "approvalStages": [
+      {
+        "approvalStageTimeOutInDays": 1,
+        "escalationApprovers": [],
+        "escalationTimeInMinutes": 0,
+        "isApproverJustificationRequired": true,
+        "isEscalationEnabled": false,
+        "primaryApprovers": []
+      }
+    ],
+    "isApprovalRequired": false,
+    "isApprovalRequiredForExtension": false,
+    "isRequestorJustificationRequired": true
+  },
+  "target": {
+    "caller": "EndUser",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/User Administrator?id}"
+}

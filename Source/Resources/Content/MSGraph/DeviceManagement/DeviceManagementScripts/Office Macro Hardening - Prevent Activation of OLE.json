@@ -1,0 +1,23 @@
+{
+  "$description": "| What does this do? | Prevents users from activating OLE packages in Office Macros, reducing risk of embedded object attacks. |\n| Why should you use this? | Hardens macro security by disabling common attack vectors. |\n| What is the end-user impact? | Users will be unable to launch OLE packages from macros. |",
+  "$friendlyName": "Office Macro Hardening - Prevent Activation of OLE",
+  "assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "${urn:resource:MSGraph:Groups/All Office Users?id}"
+      }
+    }
+  ],
+  "description": "",
+  "enforceSignatureCheck": false,
+  "expand": "assignments",
+  "fileName": "OfficeMacroHardening-PreventActivationofOLE.ps1",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "runAs32Bit": true,
+  "runAsAccount": "user",
+  "scriptContent": "${urn:resource:MSGraph:DeviceManagement:DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE?$additionalContentFiles['scriptContent.ps1']}"
+}

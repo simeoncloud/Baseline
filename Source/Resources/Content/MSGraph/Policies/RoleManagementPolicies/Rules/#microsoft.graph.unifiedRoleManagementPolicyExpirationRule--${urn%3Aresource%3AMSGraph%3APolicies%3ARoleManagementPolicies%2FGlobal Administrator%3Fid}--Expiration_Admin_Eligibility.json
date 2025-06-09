@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyExpirationRule",
+  "$friendlyName": "Global Administrator--Expiration_Admin_Eligibility",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyExpirationRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}--Expiration_Admin_Eligibility",
+  "id": "Expiration_Admin_Eligibility",
+  "isExpirationRequired": true,
+  "maximumDuration": "P365D",
+  "target": {
+    "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Eligibility",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/Global Administrator?id}"
+}

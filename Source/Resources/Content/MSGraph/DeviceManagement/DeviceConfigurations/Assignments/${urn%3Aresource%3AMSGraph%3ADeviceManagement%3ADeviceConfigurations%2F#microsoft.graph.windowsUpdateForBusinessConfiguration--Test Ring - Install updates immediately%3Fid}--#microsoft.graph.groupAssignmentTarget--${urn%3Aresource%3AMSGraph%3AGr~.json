@@ -1,0 +1,12 @@
+{
+  "$friendlyName": "Test Ring - Install updates immediately--Windows Update - Test Ring",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Test Ring - Install updates immediately?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Windows Update - Test Ring?id}",
+  "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Test Ring - Install updates immediately?id}",
+  "intent": "apply",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Windows Update - Test Ring?id}"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "@odata.type": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule",
+  "$friendlyName": "User Administrator--Enablement_Admin_Assignment",
+  "$name": "#microsoft.graph.unifiedRoleManagementPolicyEnablementRule--${urn:resource:MSGraph:Policies:RoleManagementPolicies/User Administrator?id}--Enablement_Admin_Assignment",
+  "enabledRules": [
+    "Justification"
+  ],
+  "id": "Enablement_Admin_Assignment",
+  "target": {
+    "caller": "Admin",
+    "enforcedSettings": [],
+    "inheritableSettings": [],
+    "level": "Assignment",
+    "operations": [
+      "All"
+    ]
+  },
+  "unifiedRoleManagementPolicy-id": "${urn:resource:MSGraph:Policies:RoleManagementPolicies/User Administrator?id}"
+}

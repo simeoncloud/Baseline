@@ -1,0 +1,12 @@
+{
+  "$friendlyName": "Critical Ring - Install updates after 10 days--Windows Update - Critical Ring",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Critical Ring - Install updates after 10 days?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Windows Update - Critical Ring?id}",
+  "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Critical Ring - Install updates after 10 days?id}",
+  "intent": "apply",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Windows Update - Critical Ring?id}"
+  }
+}

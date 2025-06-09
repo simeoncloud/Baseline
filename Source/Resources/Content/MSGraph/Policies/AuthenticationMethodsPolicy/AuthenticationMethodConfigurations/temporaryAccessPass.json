@@ -1,0 +1,20 @@
+{
+  "@odata.type": "#microsoft.graph.temporaryAccessPassAuthenticationMethodConfiguration",
+  "$description": "| What does this do? | Enables Temporary Access Pass (TAP) authentication for users. TAP is not a phishing resistant authentication method, however it is required to bootstrap a user's access to set up a permitted authentication method. |\n| Why should you use this? | Allows users to register additional authentication methods or access their account when locked out of other factors. |\n| What is the end-user impact? | Users can use TAP as a temporary MFA factor to regain or bootstrap access. |",
+  "$friendlyName": "temporaryAccessPass",
+  "defaultLength": 8,
+  "defaultLifetimeInMinutes": 60,
+  "excludeTargets": [],
+  "includeTargets": [
+    {
+      "@odata.type": "#microsoft.graph.authenticationMethodTarget",
+      "id": "all_users",
+      "isRegistrationRequired": false,
+      "targetType": "group"
+    }
+  ],
+  "isUsableOnce": false,
+  "maximumLifetimeInMinutes": 480,
+  "minimumLifetimeInMinutes": 60,
+  "state": "enabled"
+}

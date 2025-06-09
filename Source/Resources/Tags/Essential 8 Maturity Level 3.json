@@ -1,0 +1,338 @@
+{
+  "name": "Essential 8 Maturity Level 3",
+  "description": "This baseline aligns with the Australian Cyber Security Centre (ACSC) Essential Eight Maturity Model 3.",
+  "label": "Essential 8 ML 3",
+  "tags": [
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/ACSC Windows Hardening Guidelines.json",
+      "description": [
+        "ISM 1488 Microsoft Office macros in files originating from the internet are blocked",
+        "ISM 1672 Microsoft Office macro antivirus scanning is enabled",
+        "ISM 1675 Microsoft Office macros digitally signed by an untrusted publisher can't be enabled via the Message Bar or Backstage View",
+        "ISM 1859 Web browser, Microsoft Office and PDF software security settings can't be changed by users"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/Templates/#microsoft.graph.securityBaselineTemplate--Attack surface reduction rules.json",
+      "description": [
+        "ISM 1673 Microsoft Office macros are blocked from making Win32 API calls",
+        "ISM 1667 Microsoft Office is blocked from creating child processes",
+        "ISM 1668 Microsoft Office is blocked from creating executable content",
+        "ISM 1669 Microsoft Office is blocked from injecting code into other processes",
+        "ISM 1670 PDF software is blocked from creating child processes"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/All Macros Disabled.json",
+      "description": [
+        "ISM 1671 Microsoft Office macros are disabled for users that don't have a demonstrated business requirement",
+        "ISM 1489 Microsoft Office macro security settings can't be changed by users",
+        "ISM 1859 Microsoft Apps for Enterprise hardened with the recommended settings",
+        "ISM 1823 Office productivity suite security settings cannot be changed by users"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/Macros Enabled for Trusted Publishers.json",
+      "description": [
+        "ISM 1674 Only Microsoft Office macros running from within a sandboxed environment, a Trusted Location or that are digitally signed by a Trusted Publisher are allowed to execute",
+        "ISM 1487 Only privileged users responsible for checking that Microsoft Office macros are free of malicious code can write to and modify content within Trusted Locations",
+        "ISM 1890 Microsoft Office macros are checked to ensure they're free of malicious code before being digitally signed or placed within Trusted Locations"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Broad Ring - Install updates after 7 days.json",
+      "description": [
+        "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Critical Ring - Install updates after 10 days.json",
+      "description": [
+        "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Fast Ring - Install updates after 4 days.json",
+      "description": [
+        "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Pilot Ring - Install updates after 2 days.json",
+      "description": [
+        "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Test Ring - Install updates immediately.json",
+      "description": [
+        "ISM 1694 Patches, updates or other vendor mitigations for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices are applied within two weeks of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceConfigurations/#microsoft.graph.windowsDeliveryOptimizationConfiguration--Production - Win11 - Delivery Optimization.json",
+      "description": [
+        "ISM 1697 Patches, updates or other vendor mitigations for vulnerabilities in drivers are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
+        "ISM 1903 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within 48 hours of release when vulnerabilities are assessed as critical by vendors or when working exploits exist",
+        "ISM 1904 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/WindowsDriverUpdateProfiles/Windows Driver Updates.json",
+      "description": [
+        "ISM 1697 Patches, updates or other vendor mitigations for vulnerabilities in drivers are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist",
+        "ISM 1903 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within 48 hours of release when vulnerabilities are assessed as critical by vendors or when working exploits exist",
+        "ISM 1904 Patches, updates or other vendor mitigations for vulnerabilities in firmware are applied within one month of release when vulnerabilities are assessed as noncritical by vendors and no working exploits exist"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/fido2.json",
+      "description": [
+        "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant",
+        "ISM 1682 Multifactor authentication used for authenticating users of systems is phishing-resistant",
+        "ISM 1872 Multifactor authentication used for authenticating users of online services is phishing-resistant"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/temporaryAccessPass.json",
+      "description": [
+        "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant",
+        "ISM 1682 Multifactor authentication used for authenticating users of systems is phishing-resistant",
+        "ISM 1872 Multifactor authentication used for authenticating users of online services is phishing-resistant"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/x509Certificate.json",
+      "description": [
+        "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant",
+        "ISM 1682 Multifactor authentication used for authenticating users of systems is phishing-resistant",
+        "ISM 1872 Multifactor authentication used for authenticating users of online services is phishing-resistant"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/ACSC Essential Eight MFA - Maturity Level 2 & 3.json",
+      "description": [
+        "ISM 0974 Multifactor authentication is used to authenticate unprivileged users of systems",
+        "ISM 1173 Multifactor authentication is used to authenticate privileged users of systems",
+        "ISM 1401 Multifactor authentication uses either: something users have and something users know, or something users have that be unlocked with something users know or are",
+        "ISM 1504 Multifactor authentication is used to authenticate users to their organization's online services that process, store, or communicate their organization's sensitive data",
+        "ISM 1505 Multifactor authentication is used to authenticate users of data repositories",
+        "ISM 1682 Multifactor authentication used for authenticating users of systems is phishing-resistant",
+        "ISM 1679 Multifactor authentication is used to authenticate users to third-party online services that process, store, or communicate their organization's sensitive data",
+        "ISM 1680 Multifactor authentication (where available) is used to authenticate users to third-party online services that process, store, or communicate their organization's nonsensitive data",
+        "ISM 1872 Multifactor authentication used for authenticating users of online services is phishing-resistant",
+        "ISM 1892 Multifactor authentication is used to authenticate users to their organization's online customer services that process, store, or communicate their organization's sensitive customer data",
+        "ISM 1893 Multifactor authentication is used to authenticate users to third-party online customer services that process, store, or communicate their organization's sensitive customer data",
+        "ISM 1894 Multifactor authentication used for authenticating users of data repositories is phishing-resistant"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Global Administrator.json",
+      "description": [
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Identity Governance Administrator.json",
+      "description": [
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Intune Administrator.json",
+      "description": [
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Security Administrator.json",
+      "description": [
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Privileged Role Administrator.json",
+      "description": [
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/User Administrator.json",
+      "description": [
+        "Consider adding role management settings for additional roles commonly used in the org.",
+        "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
+        "ISM 1508 Privileged access to systems, applications, and data repositories is limited to only what is required for users and services to undertake their duties",
+        "ISM 1647 Privileged access to systems, applications, and data repositories is disabled after 12 months unless revalidated"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/ACSC Edge Hardening Guidelines.json",
+      "description": [
+        "ISM 1485 Web browsers don't process web advertisements from the internet",
+        "ISM 1412 Deploy the Microsoft Edge Security Baseline",
+        "ISM 1860 Deploy the ACSC Microsoft Edge Hardening Guidance",
+        "ISM 1585 Web browser, Microsoft Office and PDF software security settings can't be changed by users",
+        "ISM 1824 PDF software security settings cannot be changed by users"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/Disable Internet Explorer.json",
+      "description": [
+        "ISM 1654 Internet Explorer 11 is disabled or removed"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE.json",
+      "description": [
+        "ISM 1542 Microsoft Office is configured to prevent activation of OLE packages"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/User Application Hardening Remove Features.json",
+      "description": [
+        "ISM 1655 .NET Framework 3.5 (includes .NET 2.0 and 3.0) is disabled or removed",
+        "ISM 1621 Windows PowerShell 2.0 is Disabled or Removed"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/SecurityAndCompliance/RetentionComplianceRule/Default Retention Policy.json",
+      "description": [
+        "ISM 1511 Backups of data, applications, and settings are performed and retained in accordance with business criticality and business continuity requirements",
+        "ISM 1810 Backups of data, applications, and settings are synchronized to enable restoration to a common point in time",
+        "ISM 1811 Backups of data, applications, and settings are retained in a secure and resilient manner"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/SecurityAndCompliance/RetentionComplianceRule/Teams Retention Policy.json",
+      "description": [
+        "ISM 1511 Backups of data, applications, and settings are performed and retained in accordance with business criticality and business continuity requirements",
+        "ISM 1810 Backups of data, applications, and settings are synchronized to enable restoration to a common point in time",
+        "ISM 1811 Backups of data, applications, and settings are retained in a secure and resilient manner"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/#microsoft.graph.macOSCompliancePolicy--MacOS - Latest version.json",
+      "description": [
+        "ISM-1407 The latest release, or the previous release, of operating systems are used",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceCompliancePolicies/#microsoft.graph.windows10CompliancePolicy--Windows - Lastest version.json",
+      "description": [
+        "ISM-1407 The latest release, or the previous release, of operating systems are used",
+        "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Groups/All Office Users.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/RoleScopeTags/Default.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Groups/Allow macro execution - Trusted Publisher.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Groups/Corporate Devices.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/AuthenticationStrength/Policies/Essential 8 Maturity level 2,3.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Global Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Identity Governance Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Intune Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Security Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Privileged Role Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/User Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/SecurityAndCompliance/RetentionCompliancePolicy/Default Retention Policy.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/SecurityAndCompliance/RetentionCompliancePolicy/Teams Retention Policy.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/Office Macro Hardening - Prevent Activation of OLE/scriptContent.ps1",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/DeviceManagementScripts/User Application Hardening Remove Features/scriptContent.ps1",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    }
+  ]
+}

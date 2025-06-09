@@ -1,0 +1,11 @@
+{
+  "$friendlyName": "Production - Win11 - Delivery Optimization--",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsDeliveryOptimizationConfiguration--Production - Win11 - Delivery Optimization?id}--#microsoft.graph.allDevicesAssignmentTarget--",
+  "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsDeliveryOptimizationConfiguration--Production - Win11 - Delivery Optimization?id}",
+  "intent": "apply",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$description": "| What does this do? | Retains all Exchange, OneDrive, and SharePoint data for one year before allowing permanent deletion. The default is 365 days, should be updated to meet retention needs of organization. |\n| Why should you use this? | Assists with compliance and data governance requirements. |\n| What is the end-user impact? | Users may not be able to permanently delete data within the retention period. |",
+  "$friendlyName": "Default Retention Policy",
+  "ExcludedItemClasses": [],
+  "MachineLearningModelIDs": [],
+  "Policy": "${urn:resource:SecurityAndCompliance:RetentionCompliancePolicy/Default Retention Policy?Guid}",
+  "RetentionComplianceAction": "Keep",
+  "RetentionDuration": "365",
+  "RetentionDurationDisplayHint": "Days"
+}

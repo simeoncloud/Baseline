@@ -1,0 +1,4 @@
+{
+  "$friendlyName": "Intune Administrator",
+  "roleDefinitionId": "${urn:resource:MSGraph:RoleManagement:Directory:RoleDefinitions/Intune Administrator?id}"
+}

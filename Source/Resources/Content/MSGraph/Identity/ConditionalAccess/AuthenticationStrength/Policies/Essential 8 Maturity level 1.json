@@ -1,0 +1,25 @@
+{
+  "$friendlyName": "Essential 8 Maturity level 1",
+  "allowedCombinations": [
+    "deviceBasedPush",
+    "federatedMultiFactor",
+    "fido2",
+    "hardwareOath,federatedSingleFactor",
+    "microsoftAuthenticatorPush,federatedSingleFactor",
+    "password,hardwareOath",
+    "password,microsoftAuthenticatorPush",
+    "password,sms",
+    "password,softwareOath",
+    "password,voice",
+    "sms,federatedSingleFactor",
+    "softwareOath,federatedSingleFactor",
+    "temporaryAccessPassMultiUse",
+    "temporaryAccessPassOneTime",
+    "voice,federatedSingleFactor",
+    "windowsHelloForBusiness",
+    "x509CertificateMultiFactor"
+  ],
+  "description": "",
+  "policyType": "custom",
+  "requirementsSatisfied": "mfa"
+}

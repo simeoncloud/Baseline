@@ -1,0 +1,25 @@
+{
+  "$description": "Manage access using Microsoft Entra ID for identity governance scenarios.",
+  "$friendlyName": "Identity Governance Administrator",
+  "isEnabled": true,
+  "resourceScopes": [
+    "/"
+  ],
+  "rolePermissions": [
+    {
+      "allowedResourceActions": [
+        "microsoft.directory/accessReviews/allProperties/allTasks",
+        "microsoft.directory/accessReviews/definitions.applications/allProperties/allTasks",
+        "microsoft.directory/accessReviews/definitions.entitlementManagement/allProperties/allTasks",
+        "microsoft.directory/accessReviews/definitions.groups/allProperties/read",
+        "microsoft.directory/accessReviews/definitions.groups/allProperties/update",
+        "microsoft.directory/accessReviews/definitions.groups/create",
+        "microsoft.directory/accessReviews/definitions.groups/delete",
+        "microsoft.directory/entitlementManagement/allProperties/allTasks",
+        "microsoft.directory/groups/members/update",
+        "microsoft.directory/servicePrincipals/appRoleAssignedTo/update"
+      ]
+    }
+  ],
+  "version": "1"
+}

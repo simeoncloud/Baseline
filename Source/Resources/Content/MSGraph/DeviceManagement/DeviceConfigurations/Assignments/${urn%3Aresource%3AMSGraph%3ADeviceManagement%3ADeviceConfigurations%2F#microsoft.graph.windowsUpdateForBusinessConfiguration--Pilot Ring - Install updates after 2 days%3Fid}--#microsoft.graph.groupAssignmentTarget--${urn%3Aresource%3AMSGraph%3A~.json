@@ -1,0 +1,12 @@
+{
+  "$friendlyName": "Pilot Ring - Install updates after 2 days--Windows Update - Pilot Ring",
+  "$name": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Pilot Ring - Install updates after 2 days?id}--#microsoft.graph.groupAssignmentTarget--${urn:resource:MSGraph:Groups/Windows Update - Pilot Ring?id}",
+  "deviceConfiguration-id": "${urn:resource:MSGraph:DeviceManagement:DeviceConfigurations/#microsoft.graph.windowsUpdateForBusinessConfiguration--Pilot Ring - Install updates after 2 days?id}",
+  "intent": "apply",
+  "source": "direct",
+  "target": {
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "${urn:resource:MSGraph:Groups/Windows Update - Pilot Ring?id}"
+  }
+}

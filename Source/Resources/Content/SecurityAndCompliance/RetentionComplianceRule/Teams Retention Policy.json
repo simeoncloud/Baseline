@@ -1,0 +1,11 @@
+{
+  "$description": "| What does this do? | Retains chat and channel message data in Microsoft Teams for 365 days before allowing deletion. The default is 365 days, should be updated to meet retention needs of organization. |\n| Why should you use this? | Satisfies organizational, legal, or regulatory retention requirements for Teams communications. |\n| What is the end-user impact? | Teams data cannot be permanently deleted within the retention period. |",
+  "$friendlyName": "Teams Retention Policy",
+  "ExcludedItemClasses": [],
+  "ExpirationDateOption": "CreationAgeInDays",
+  "MachineLearningModelIDs": [],
+  "Policy": "${urn:resource:SecurityAndCompliance:RetentionCompliancePolicy/Teams Retention Policy?Guid}",
+  "RetentionComplianceAction": "Keep",
+  "RetentionDuration": "365",
+  "RetentionDurationDisplayHint": "Days"
+}

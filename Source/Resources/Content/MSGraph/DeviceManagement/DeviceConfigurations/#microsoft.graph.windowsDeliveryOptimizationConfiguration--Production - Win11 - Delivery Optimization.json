@@ -1,0 +1,22 @@
+{
+  "@odata.type": "#microsoft.graph.windowsDeliveryOptimizationConfiguration",
+  "$description": "| What does this do? | Configures delivery optimization for Windows 11 updates, including peering and cache settings. |\n| Why should you use this? | Reduces WAN consumption and accelerates update delivery to endpoints by using peer-to-peer distribution and caching. |\n| What is the end-user impact? | Update downloads are faster and network-friendly. |",
+  "$friendlyName": "Production - Win11 - Delivery Optimization",
+  "backgroundDownloadFromHttpDelayInSeconds": 60,
+  "cacheServerBackgroundDownloadFallbackToHttpDelayInSeconds": 0,
+  "cacheServerForegroundDownloadFallbackToHttpDelayInSeconds": 0,
+  "cacheServerHostNames": [],
+  "deliveryOptimizationMode": "httpWithPeeringNat",
+  "displayName": "Production - Win11 - Delivery Optimization",
+  "foregroundDownloadFromHttpDelayInSeconds": 60,
+  "maximumCacheAgeInDays": 7,
+  "minimumBatteryPercentageAllowedToUpload": 60,
+  "minimumDiskSizeAllowedToPeerInGigabytes": 32,
+  "minimumFileSizeToCacheInMegabytes": 10,
+  "minimumRamAllowedToPeerInGigabytes": 4,
+  "restrictPeerSelectionBy": "notConfigured",
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "vpnPeerCaching": "disabled"
+}

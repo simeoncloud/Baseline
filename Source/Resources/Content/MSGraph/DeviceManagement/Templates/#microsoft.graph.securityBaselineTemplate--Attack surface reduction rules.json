@@ -1,0 +1,13 @@
+{
+  "@odata.type": "#microsoft.graph.securityBaselineTemplate",
+  "$description": "| What does this do? | Defines and enforces attack surface reduction (ASR) rules to limit behaviors commonly used by malware and malicious apps, such as restricting suspicious scripts and executable content in Office apps or web mail. |\n| Why should you use this? | Attack surface reduction rules proactively block and reduce common exploitation avenues used by threat actors, helping to prevent infection and unauthorized code execution in your environment. |\n| What is the end-user impact? | Users may find certain file downloads, scripts, or macros blocked in Office and email applications, and suspicious or non-standard behaviors may be prevented. Some legitimate actions may require approval or adjustment to comply with security rules. |\n| Learn more | [Attack surface reduction rules](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction?view=o365-worldwide) |",
+  "$friendlyName": "Attack surface reduction rules",
+  "displayName": "Attack surface reduction rules",
+  "intentCount": 1,
+  "isDeprecated": false,
+  "platformType": "windows10AndLater",
+  "publishedDateTime": "2020-08-05T00:00:00Z",
+  "templateSubtype": "attackSurfaceReduction",
+  "templateType": "securityTemplate",
+  "versionInfo": "2009"
+}

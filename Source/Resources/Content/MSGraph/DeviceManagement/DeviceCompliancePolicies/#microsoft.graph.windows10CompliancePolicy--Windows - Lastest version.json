@@ -1,0 +1,58 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "$description": "| What does this do? | Defines compliance requirements and enforces a minimum operating system version for Windows 10 devices. | Why should you use this? | This should be periodically updated so the latest release, or the previous release, of operating systems are used. Keeping devices updated protects against known vulnerabilities and ensures device security and compatibility with enterprise tools. | What is the end-user impact? | Users on non-compliant or unsupported versions of Windows may lose access to corporate resources until their devices are updated and brought back into compliance.",
+  "$friendlyName": "Windows - Lastest version",
+  "activeFirewallRequired": false,
+  "antiSpywareRequired": false,
+  "antivirusRequired": false,
+  "assignments": [
+    {
+      "source": "direct",
+      "target": {
+        "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterType": "none"
+      }
+    }
+  ],
+  "bitLockerEnabled": false,
+  "codeIntegrityEnabled": false,
+  "configurationManagerComplianceRequired": false,
+  "defenderEnabled": false,
+  "deviceThreatProtectionEnabled": false,
+  "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+  "displayName": "Windows - Lastest version",
+  "earlyLaunchAntiMalwareDriverEnabled": false,
+  "expand": "assignments,scheduledActionsForRule($expand=scheduledActionConfigurations)",
+  "firmwareProtectionEnabled": false,
+  "kernelDmaProtectionEnabled": false,
+  "memoryIntegrityEnabled": false,
+  "osMinimumVersion": "26100.3781",
+  "passwordBlockSimple": false,
+  "passwordRequired": false,
+  "passwordRequiredToUnlockFromIdle": false,
+  "passwordRequiredType": "deviceDefault",
+  "requireHealthyDeviceReport": false,
+  "roleScopeTagIds": [
+    "${urn:resource:MSGraph:DeviceManagement:RoleScopeTags/Default?id}"
+  ],
+  "rtpEnabled": false,
+  "scheduledActionsForRule": [
+    {
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 0,
+          "notificationMessageCCList": [],
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ],
+  "secureBootEnabled": false,
+  "signatureOutOfDate": false,
+  "storageRequireEncryption": false,
+  "tpmRequired": false,
+  "validOperatingSystemBuildRanges": [],
+  "virtualizationBasedSecurityEnabled": false,
+  "wslDistributions": []
+}
