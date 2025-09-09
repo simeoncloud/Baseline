@@ -118,7 +118,7 @@
       {
         "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Block Access to Admin Portals.json",
         "description": [
-          "5.2.2.8 (L1) Ensure admin center access is limited to administrative roles (Manual)"
+          "5.2.2.8 (L2) Ensure 'sign-in risk' is blocked for medium and high risk (Manual)"
         ]
       },
       {
@@ -149,13 +149,13 @@
       {
         "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA for Risky Sign-ins.json",
         "description": [
-          "5.2.2.7 (L2) Enable Azure AD Identity Protection sign-in risk policies (Manual)"
+          "5.2.2.7 (L1) Enable Identity Protection sign-in risk policies (Manual)"
         ]
       },
       {
         "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require Password Change for High-risk Users.json",
         "description": [
-          "5.2.2.6 (L2) Enable Azure AD Identity Protection user risk policies (Manual)"
+          "5.2.2.6 (L1) Enable Identity Protection user risk policies (Manual)"
         ]
       },
       {
@@ -216,8 +216,8 @@
       {
         "path": "Source/Resources/Content/MSGraph/Settings/Consent Policy Settings.json",
         "description": [
-          "5.1.5.2 (L2) Ensure user consent to apps accessing company data on their behalf is not allowed (Automated)",
-          "5.1.5.3 (L1) Ensure the admin consent workflow is enabled (Manual)"
+          "5.1.5.1 (L2) Ensure user consent to apps accessing company data on their behalf is not allowed (Automated)",
+          "5.1.5.2 (L1) Ensure the admin consent workflow is enabled (Manual)"
         ]
       },
       {
@@ -248,7 +248,7 @@
       {
         "path": "Source/Resources/Content/O365Portal/Settings/Security/ActivityBasedTimeout/Configuration.json",
         "description": [
-          "1.3.2 (L1) Ensure 'Idle session timeout' is set to '3 hours (or less)' for unmanaged devices (Manual)"
+          "1.3.2 (L2) Ensure 'Idle session timeout' is set to '3 hours (or less)' for unmanaged devices (Manual)"
         ]
       },
       {
@@ -323,6 +323,30 @@
         "path": "Source/Resources/Content/Teams/CsTenantFederationConfiguration/Global.json",
         "description": [
           "8.2.1 (L1) Ensure 'external access' is restricted in the Teams admin center (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/AzureManagement/Providers/Microsoft/CustomerLockbox/Configuration.json",
+        "description": [
+          "1.3.6 (L2) Ensure the customer lockbox feature is enabled (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/MalwareFilterPolicy/CIS L2 Attachment Policy.json",
+        "description": [
+          "2.1.11 (L2) Ensure comprehensive attachment filtering is applied (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/MalwareFilterRule/CIS L2 Attachment Policy.json",
+        "description": [
+          "2.1.11 (L2) Ensure comprehensive attachment filtering is applied (Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
         ]
       },
       {
