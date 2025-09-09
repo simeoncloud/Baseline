@@ -344,6 +344,43 @@
         ]
       },
       {
+        "path": "Source/Resources/Content/ExchangeOnline/HostedConnectionFilterPolicy/Default.json",
+        "description": [
+          "2.1.12 (L1) Ensure the connection filter IP allow list is not used (Automated)",
+          "2.1.13 (L1) Ensure the connection filter IP allow list is not used (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/ExchangeOnline/EmailTenantSettings/Configuration.json",
+        "description": [
+          "2.4.1 (L1) Ensure Priority account protection is enabled and configured (Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
         "path": "",
         "description": [
           "(Automated)"
