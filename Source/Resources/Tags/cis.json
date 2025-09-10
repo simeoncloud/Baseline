@@ -357,15 +357,15 @@
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/SecurityAndCompliance/Label/Confidential Data--.json",
         "description": [
-          "(Automated)"
+          "3.3.1 (L1) Ensure Information Protection sensitivity label policies are published (Manual)"
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/SecurityAndCompliance/Label/Highly Confidential Data--.json",
         "description": [
-          "(Automated)"
+          "3.3.1 (L1) Ensure Information Protection sensitivity label policies are published (Manual)"
         ]
       },
       {

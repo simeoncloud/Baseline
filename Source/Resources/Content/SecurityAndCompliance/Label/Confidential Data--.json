@@ -1,0 +1,102 @@
+{
+  "$description": "This is a parent label which is meant to classify the document. As general data is the most used data during work, we need to treat it according to what it is meant for. To protect it accordingly we use sublabels.",
+  "$friendlyName": "Confidential Data",
+  "Conditions": [],
+  "ContentType": "File, Email",
+  "DisplayName": "Confidential Data",
+  "LabelActions": [
+    {
+      "Settings": [
+        {
+          "Key": "alignment",
+          "Value": "Left"
+        },
+        {
+          "Key": "disabled",
+          "Value": "false"
+        },
+        {
+          "Key": "fontcolor",
+          "Value": "#000000"
+        },
+        {
+          "Key": "fontsize",
+          "Value": "10"
+        },
+        {
+          "Key": "margin",
+          "Value": "5"
+        },
+        {
+          "Key": "placement",
+          "Value": "Footer"
+        }
+      ],
+      "SubType": "footer",
+      "Type": "applycontentmarking"
+    },
+    {
+      "Settings": [
+        {
+          "Key": "contentexpiredondateindaysornever",
+          "Value": "Never"
+        },
+        {
+          "Key": "disabled",
+          "Value": "false"
+        },
+        {
+          "Key": "offlineaccessdays",
+          "Value": "-1"
+        },
+        {
+          "Key": "protectiontype",
+          "Value": "template"
+        },
+        {
+          "Key": "rightsdefinitions",
+          "Value": "[\\{\"Identity\":\"${ResourceContext:TenantDomainName}\",\"Rights\":\"VIEW,VIEWRIGHTSDATA,DOCEDIT,EDIT,PRINT,EXTRACT,REPLY,REPLYALL,FORWARD,OBJMODEL\"\\}]"
+        }
+      ],
+      "Type": "encrypt"
+    }
+  ],
+  "LocaleSettings": [
+    {
+      "LocaleKey": "displayName",
+      "Settings": [
+        {
+          "Key": "de-DE",
+          "Value": "Vertrauliche Daten"
+        },
+        {
+          "Key": "default",
+          "Value": "Confidential Data"
+        },
+        {
+          "Key": "en-US",
+          "Value": "Confidential Data"
+        }
+      ]
+    },
+    {
+      "LocaleKey": "tooltip",
+      "Settings": [
+        {
+          "Key": "default",
+          "Value": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information.\r\n\r\n[Note]:\r\nPublication of this data may entail financial or business-damaging risks!\r\n\r\n[Examples]:\r\nInformation subject to company secrecy\r\nProjects won with customer and order data\r\nBids and contracts\r\nAll customer-related data, including. including a customer's infrastructure concerning\r\nLists or evaluations with customer data \r\nDocuments intended for or originating from customers or suppliers\r\nBusiness data, including balance sheets and profit figures, legal documents, audit reports"
+        },
+        {
+          "Key": "en-US",
+          "Value": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information.\r\n\r\n[Note]:\r\nPublication of this data may entail financial or business-damaging risks!\r\n\r\n[Examples]:\r\nInformation subject to company secrecy\r\nProjects won with customer and order data\r\nBids and contracts\r\nAll customer-related data, including. including a customer's infrastructure concerning\r\nLists or evaluations with customer data \r\nDocuments intended for or originating from customers or suppliers\r\nBusiness data, including balance sheets and profit figures, legal documents, audit reports"
+        }
+      ]
+    }
+  ],
+  "Name": "ConfidentialData",
+  "Priority": 2,
+  "Settings": [
+    "[displayname, Confidential Data]"
+  ],
+  "Tooltip": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information.\n\n[Note]:\nPublication of this data may entail financial or business-damaging risks!\n\n[Examples]:\nInformation subject to company secrecy\nProjects won with customer and order data\nBids and contracts\nAll customer-related data, including. including a customer's infrastructure concerning\nLists or evaluations with customer data \nDocuments intended for or originating from customers or suppliers\nBusiness data, including balance sheets and profit figures, legal documents, audit reports"
+}

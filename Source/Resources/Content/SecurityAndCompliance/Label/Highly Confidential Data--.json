@@ -1,0 +1,42 @@
+{
+  "$description": "This classification allows only certain users to open highly confidential documents. There is no predefined group of users and the user needs to set the allowed users explicitly. This needs to be set according to the sensitivity and the least privilege principle.",
+  "$friendlyName": "Highly Confidential Data",
+  "Conditions": [],
+  "ContentType": "File, Email",
+  "DisplayName": "Highly Confidential Data",
+  "LabelActions": [],
+  "LocaleSettings": [
+    {
+      "LocaleKey": "displayName",
+      "Settings": [
+        {
+          "Key": "default",
+          "Value": "Highly Confidential Data"
+        },
+        {
+          "Key": "en-US",
+          "Value": "Highly Confidential Data"
+        }
+      ]
+    },
+    {
+      "LocaleKey": "tooltip",
+      "Settings": [
+        {
+          "Key": "default",
+          "Value": "Highly confidential data is intended only for an extremely restricted group of people in accordance with the 'need-to-know' principle. The users of this information must be named. Transmission or forwarding is also only to named recipients and requires the consent of the person responsible for the information.\r\n\r\n[Note]:\r\nA leak of this data would cause considerable damage to the company! \r\n\r\n[Examples]:\r\nInformation that enables access to or sabotage of customer data and infrastructures Information about business strategy or important company developments (e.g., planning data)\r\nOwn as well as customer-related security-relevant data such as passwords, private PGP keys, etc.\r\nClassified information from authorities and government organizations\r\npersonal data like religion or health data"
+        },
+        {
+          "Key": "en-US",
+          "Value": "Highly confidential data is intended only for an extremely restricted group of people in accordance with the 'need-to-know' principle. The users of this information must be named. Transmission or forwarding is also only to named recipients and requires the consent of the person responsible for the information.\r\n\r\n[Note]:\r\nA leak of this data would cause considerable damage to the company! \r\n\r\n[Examples]:\r\nInformation that enables access to or sabotage of customer data and infrastructures Information about business strategy or important company developments (e.g., planning data)\r\nOwn as well as customer-related security-relevant data such as passwords, private PGP keys, etc.\r\nClassified information from authorities and government organizations\r\npersonal data like religion or health data"
+        }
+      ]
+    }
+  ],
+  "Name": "HighlyConfidentialData",
+  "Priority": 1,
+  "Settings": [
+    "[displayname, Highly Confidential Data]"
+  ],
+  "Tooltip": "Highly confidential data is intended only for an extremely restricted group of people in accordance with the 'need-to-know' principle. The users of this information must be named. Transmission or forwarding is also only to named recipients and requires the consent of the person responsible for the information.\n\n[Note]:\nA leak of this data would cause considerable damage to the company! \n\n[Examples]:\nInformation that enables access to or sabotage of customer data and infrastructures Information about business strategy or important company developments (e.g., planning data)\nOwn as well as customer-related security-relevant data such as passwords, private PGP keys, etc.\nClassified information from authorities and government organizations\npersonal data like religion or health data"
+}
