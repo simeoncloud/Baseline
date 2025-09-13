@@ -382,15 +382,15 @@
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require Managed Device to Register Security Information.json",
         "description": [
-          "(Automated)"
+          "5.2.2.10 (L1) Ensure a managed device is required to register security information (Automated)"
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Requrie Compliant Device.json",
         "description": [
-          "(Automated)"
+          "5.2.2.9 (L1) Ensure a managed device is required for authentication (Automated)"
         ]
       },
       {
