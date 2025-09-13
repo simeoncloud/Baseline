@@ -369,6 +369,49 @@
         ]
       },
       {
+        "path": "Source/Resources/Content/MSGraph/Policies/AuthorizationPolicy/Authorization Policy.json",
+        "description": [
+          "5.1.6.2 (L1) Ensure that guest user access is restricted (Automated)",
+          "5.1.6.3 (L2) Ensure guest user invitations are limited to the Guest Inviter role (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/DeviceManagement/Configuration.json",
+        "description": [
+          "4.1 (L2) Ensure devices without a compliance policy are marked 'not compliant' (Automated) - Note the only required property for CIS is secureByDefault set as true."
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "(Automated)"
+        ]
+      },
+      {
         "path": "",
         "description": [
           "(Automated)"

@@ -1,0 +1,12 @@
+{
+  "$friendlyName": "Configuration",
+  "settings": {
+    "deviceComplianceCheckinThresholdDays": 30,
+    "enableAutopilotDiagnostics": true,
+    "enableDeviceGroupMembershipReport": false,
+    "enableEnhancedTroubleshootingExperience": false,
+    "enhancedJailBreak": false,
+    "m365AppDiagnosticsEnabled": true,
+    "secureByDefault": true
+  }
+}
