@@ -394,15 +394,15 @@
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Block Device Code Auth.json",
         "description": [
-          "(Automated)"
+          "5.2.2.10 (L1) Ensure the device code sign-in flow is blocked (Automated)"
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Require MFA to Enroll Device.json",
         "description": [
-          "(Automated)"
+          "5.2.2.11 (L1) Ensure sign-in frequency for Intune Enrollment is set to 'Every time' (Automated)"
         ]
       },
       {

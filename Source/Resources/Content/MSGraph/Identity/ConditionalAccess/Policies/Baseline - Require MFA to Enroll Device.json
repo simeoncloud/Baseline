@@ -1,0 +1,45 @@
+{
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "$friendlyName": "Baseline - Require MFA to Enroll Device",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "${urn:resource:MSGraph:ServicePrincipals/d4ebce55-015a-49b5-a083-c84d1797ae8c?appId}"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "sessionControls": {
+    "signInFrequency": {
+      "authenticationType": "primaryAndSecondaryAuthentication",
+      "frequencyInterval": "everyTime",
+      "isEnabled": true
+    }
+  },
+  "state": "enabledForReportingButNotEnforced"
+}
