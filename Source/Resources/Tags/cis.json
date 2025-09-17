@@ -203,7 +203,8 @@
       {
         "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/microsoftAuthenticator.json",
         "description": [
-          "5.2.3.1 (L1) Ensure Microsoft Authenticator is configured to protect against MFA fatigue (Manual)"
+          "5.2.3.1 (L1) Ensure Microsoft Authenticator is configured to protect against MFA fatigue (Manual)",
+          "5.2.3.6 (L1) Ensure system-preferred multifactor authentication is enabled (Manual)"
         ]
       },
       {
