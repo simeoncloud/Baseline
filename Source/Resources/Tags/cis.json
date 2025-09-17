@@ -406,9 +406,21 @@
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/email.json",
         "description": [
-          "(Automated)"
+          "5.2.3.5 (L1) Ensure weak authentication methods are disabled (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/sms.json",
+        "description": [
+          "5.2.3.5 (L1) Ensure weak authentication methods are disabled (Automated)"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/voice.json",
+        "description": [
+          "5.2.3.5 (L1) Ensure weak authentication methods are disabled (Automated)"
         ]
       },
       {

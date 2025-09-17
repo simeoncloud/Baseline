@@ -1,0 +1,15 @@
+{
+  "@odata.type": "#microsoft.graph.voiceAuthenticationMethodConfiguration",
+  "$friendlyName": "voice",
+  "excludeTargets": [],
+  "includeTargets": [
+    {
+      "@odata.type": "#microsoft.graph.authenticationMethodTarget",
+      "id": "all_users",
+      "isRegistrationRequired": false,
+      "targetType": "group"
+    }
+  ],
+  "isOfficePhoneAllowed": false,
+  "state": "disabled"
+}
