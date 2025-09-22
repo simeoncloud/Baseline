@@ -132,7 +132,7 @@
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Global Administrator.json",
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Rules/#microsoft.graph.unifiedRoleManagementPolicyApprovalRule--${urn%3Aresource%3AMSGraph%3APolicies%3ARoleManagementPolicies%2FGlobal Administrator%3Fid}--Approval_EndUser_Assignment.json",
       "description": [
         "Consider adding role management settings for additional roles commonly used in the org.",
         "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
@@ -275,7 +275,20 @@
       ]
     },
     {
+      "path": "Source/Resources/Content/MSGraph/Groups/Baseline - PIM Approvers.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
       "path": "Source/Resources/Content/MSGraph/RoleManagement/Directory/RoleDefinitions/Global Administrator.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    }
+    ,
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Global Administrator.json",
       "description": [
         "This configuration is a dependency for other industry baseline configurations."
       ]

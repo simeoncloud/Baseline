@@ -1,0 +1,11 @@
+{
+  "$description": "| What does this do? | Creates a manually assigned group whose members are allowed to approve PIM request for activiating the Global Administrator Role. |\n| Why should you use this? | To have a formal group that approvers for users elevating their priviledges temporarily. |\n| What is the end-user impact? | Users in this group will be able approve Privileged Identity Management Request for the Global Admin Role |\n| Learn more | [Plan a Privileged Identity Management Deployment]( https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-deployment-plan)|",
+  "$friendlyName": "Baseline - PIM Approvers",
+  "groupTypes": [],
+  "infoCatalogs": [],
+  "mailEnabled": false,
+  "mailNickname": "Baseline-PIM-Approvers",
+  "resourceBehaviorOptions": [],
+  "resourceProvisioningOptions": [],
+  "securityEnabled": true
+}

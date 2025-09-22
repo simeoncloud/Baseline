@@ -119,7 +119,7 @@
       ]
     },
     {
-      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Global Administrator.json",
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Rules/#microsoft.graph.unifiedRoleManagementPolicyApprovalRule--${urn%3Aresource%3AMSGraph%3APolicies%3ARoleManagementPolicies%2FGlobal Administrator%3Fid}--Approval_EndUser_Assignment.json",
       "description": [
         "Consider adding role management settings for additional roles commonly used in the org.",
         "ISM 1507 Requests for privileged access to systems, applications, and data repositories are validated when first requested",
@@ -206,6 +206,19 @@
       "description": [
         "ISM-1407 The latest release, or the previous release, of operating systems are used",
         "ISM 1501 Operating systems that are no longer supported by vendors are replaced"
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Groups/Baseline - PIM Approvers.json",
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
+      ]
+    },
+    {
+      "path": "Source/Resources/Content/MSGraph/Policies/RoleManagementPolicies/Global Administrator.json",
+
+      "description": [
+        "This configuration is a dependency for other industry baseline configurations."
       ]
     },
     {
