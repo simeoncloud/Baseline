@@ -449,21 +449,10 @@
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/Teams/CsTenantFederationConfiguration/Global.json",
         "description": [
-          "(Automated)"
-        ]
-      },
-      {
-        "path": "",
-        "description": [
-          "(Automated)"
-        ]
-      },
-      {
-        "path": "",
-        "description": [
-          "(Automated)"
+          "8.2.2 (L1) Ensure communication with unmanaged Teams users is disabled (Automated)",
+          "8.2.3 (L1) Ensure external Teams users cannot initiate conversations (Automated)"
         ]
       },
       {
