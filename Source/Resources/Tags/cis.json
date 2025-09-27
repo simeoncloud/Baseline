@@ -443,9 +443,9 @@
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/Teams/CsTeamsMeetingPolicy/Global.json",
         "description": [
-          "(Automated)"
+          "8.5.9 (L2) Ensure meeting recording is off by default (Automated)"
         ]
       },
       {

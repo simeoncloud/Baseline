@@ -7,7 +7,7 @@
   "AllowBreakoutRooms": true,
   "AllowCartCaptionsScheduling": "DisabledUserOverride",
   "AllowChannelMeetingScheduling": true,
-  "AllowCloudRecording": true,
+  "AllowCloudRecording": false,
   "AllowEngagementReport": "Enabled",
   "AllowExternalNonTrustedMeetingChat": false,
   "AllowExternalParticipantGiveRequestControl": false,
