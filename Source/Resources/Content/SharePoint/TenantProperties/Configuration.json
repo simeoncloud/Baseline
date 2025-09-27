@@ -28,7 +28,7 @@
   "ConditionalAccessPolicyErrorHelpLink": "",
   "ContentTypeSyncSiteTemplatesList": [],
   "CustomizedExternalSharingServiceUrl": "",
-  "DefaultLinkPermission": "Edit",
+  "DefaultLinkPermission": "View",
   "DefaultODBMode": "Explicit",
   "DefaultSharingLinkType": "Direct",
   "DisableAddToOneDrive": false,

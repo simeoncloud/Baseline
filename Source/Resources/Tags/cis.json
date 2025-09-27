@@ -437,9 +437,9 @@
         ]
       },
       {
-        "path": "",
+        "path": "Source/Resources/Content/SharePoint/TenantProperties/Configuration.json",
         "description": [
-          "(Automated)"
+          "7.2.11 (L1) Ensure the SharePoint default sharing link permission is set (Automated)"
         ]
       },
       {
