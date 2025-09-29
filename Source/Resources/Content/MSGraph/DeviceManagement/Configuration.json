@@ -1,4 +1,5 @@
 {
+  "$description": "| What does this do? | Configures Intune to mark devices that have no assigned compliance policy as Not compliant, ensuring unmanaged or unconfigured devices are evaluated as non-compliant. |\n| Why should you use this? | Helps enforce a baseline of device compliance and, when combined with Conditional Access, reduces the attack surface by preventing unmanaged or non-compliant devices from accessing corporate resources. |\n| What is the end-user impact? | Devices without a compliance policy will be treated as non-compliant and may be blocked or limited by Conditional Access; staging changes with report-only policies is recommended to avoid unexpected disruption. |\n| Learn more | [Device compliance - Get started](https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started) |",
   "$friendlyName": "Configuration",
   "settings": {
     "deviceComplianceCheckinThresholdDays": 30,

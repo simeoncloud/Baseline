@@ -397,7 +397,7 @@
       {
         "path": "Source/Resources/Content/MSGraph/Identity/ConditionalAccess/Policies/Baseline - Block Device Code Auth.json",
         "description": [
-          "5.2.2.10 (L1) Ensure the device code sign-in flow is blocked (Automated)"
+          "5.2.2.12 (L1) Ensure the device code sign-in flow is blocked (Automated)"
         ]
       },
       {

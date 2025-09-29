@@ -1,4 +1,5 @@
 {
+"$description": "| What does this do? | **This policy is in Report Only mode. Before enabaling, consider excluding break glass accounts and account for any guest users in the tenant. This must be enabled to be compilant** Applies a Conditional Access session control to force users to sign in again each time they perform an Intune enrollment action. |\n| Why should you use this? | Limits the time window an attacker can reuse stolen credentials to enroll a device. |\n| What is the end-user impact? | Users may be prompted to sign in multiple times during device enrollment. |\n| Learn more | [Require reauthentication every time (Sign-in frequency)](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-session-lifetime#require-reauthentication-every-time) |",
   "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
   "$friendlyName": "Baseline - Require MFA to Enroll Device",
   "conditions": {

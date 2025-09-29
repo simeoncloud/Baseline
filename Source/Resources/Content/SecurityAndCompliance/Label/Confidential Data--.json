@@ -1,6 +1,6 @@
 {
-  "$description": "This is a parent label which is meant to classify the document. As general data is the most used data during work, we need to treat it according to what it is meant for. To protect it accordingly we use sublabels.",
-  "$friendlyName": "Confidential Data",
+"$description": "| What does this do? | Publishes sensitivity label policies in Microsoft Purview so labels are available to classify and protect content across Microsoft 365. |\n| Why should you use this? | Enables consistent classification and enforcement (encryption, access restrictions, watermarks, and auto-labeling) to reduce the risk of data loss, support regulatory compliance, and improve visibility and control over sensitive information. |\n| What is the end-user impact? | Users may see labels in Office apps and may experience access restrictions or encryption when interacting with labeled content. Labels should be tested and deployed carefully. |\n| Learn more | [Sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels) |",
+"$friendlyName": "Confidential Data",
   "Conditions": [],
   "ContentType": "File, Email",
   "DisplayName": "Confidential Data",
