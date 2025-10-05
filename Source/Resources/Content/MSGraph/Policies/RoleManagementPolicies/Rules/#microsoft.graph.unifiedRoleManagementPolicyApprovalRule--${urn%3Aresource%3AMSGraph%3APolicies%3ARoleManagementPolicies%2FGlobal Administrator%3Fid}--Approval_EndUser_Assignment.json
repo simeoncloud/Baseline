@@ -15,7 +15,7 @@
         "primaryApprovers": [
           {
             "@odata.type": "#microsoft.graph.groupMembers",
-            "id": "$ {urn:resource:MSGraph:Groups/Baseline - PIM Approvers?id}",
+            "id": "${urn:resource:MSGraph:Groups/Baseline - PIM Approvers?id}",
             "isBackup": false
           }
         ]
