@@ -610,6 +610,12 @@
         "description": [
           "This configuration is a dependency for other industry baseline configurations."
         ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/ServicePrincipals/d4ebce55-015a-49b5-a083-c84d1797ae8c.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
+        ]
       }
     ]
 }
