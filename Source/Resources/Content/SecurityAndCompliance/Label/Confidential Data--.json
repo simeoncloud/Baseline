@@ -66,15 +66,7 @@
       "LocaleKey": "displayName",
       "Settings": [
         {
-          "Key": "de-DE",
-          "Value": "Vertrauliche Daten"
-        },
-        {
           "Key": "default",
-          "Value": "Confidential Data"
-        },
-        {
-          "Key": "en-US",
           "Value": "Confidential Data"
         }
       ]
@@ -84,11 +76,7 @@
       "Settings": [
         {
           "Key": "default",
-          "Value": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information.\r\n\r\n[Note]:\r\nPublication of this data may entail financial or business-damaging risks!\r\n\r\n[Examples]:\r\nInformation subject to company secrecy\r\nProjects won with customer and order data\r\nBids and contracts\r\nAll customer-related data, including. including a customer's infrastructure concerning\r\nLists or evaluations with customer data \r\nDocuments intended for or originating from customers or suppliers\r\nBusiness data, including balance sheets and profit figures, legal documents, audit reports"
-        },
-        {
-          "Key": "en-US",
-          "Value": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information.\r\n\r\n[Note]:\r\nPublication of this data may entail financial or business-damaging risks!\r\n\r\n[Examples]:\r\nInformation subject to company secrecy\r\nProjects won with customer and order data\r\nBids and contracts\r\nAll customer-related data, including. including a customer's infrastructure concerning\r\nLists or evaluations with customer data \r\nDocuments intended for or originating from customers or suppliers\r\nBusiness data, including balance sheets and profit figures, legal documents, audit reports"
+          "Value": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information."
         }
       ]
     }
@@ -98,5 +86,5 @@
   "Settings": [
     "[displayname, Confidential Data]"
   ],
-  "Tooltip": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information.\n\n[Note]:\nPublication of this data may entail financial or business-damaging risks!\n\n[Examples]:\nInformation subject to company secrecy\nProjects won with customer and order data\nBids and contracts\nAll customer-related data, including. including a customer's infrastructure concerning\nLists or evaluations with customer data \nDocuments intended for or originating from customers or suppliers\nBusiness data, including balance sheets and profit figures, legal documents, audit reports"
+  "Tooltip": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information."
 }
