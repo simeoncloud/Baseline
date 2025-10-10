@@ -1,66 +1,10 @@
 {
-"$description": "| What does this do? | Publishes sensitivity label policies in Microsoft Purview so labels are available to classify and protect content across Microsoft 365. |\n| Why should you use this? | Enables consistent classification and enforcement (encryption, access restrictions, watermarks, and auto-labeling) to reduce the risk of data loss, support regulatory compliance, and improve visibility and control over sensitive information. |\n| What is the end-user impact? | Users may see labels in Office apps and may experience access restrictions or encryption when interacting with labeled content. Labels should be tested and deployed carefully. |\n| Learn more | [Sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels) |",
-"$friendlyName": "Confidential Data",
+  "$description": "| What does this do? | Publishes sensitivity label policies in Microsoft Purview so labels are available to classify and protect content across Microsoft 365. |\n| Why should you use this? | Enables consistent classification and enforcement (encryption, access restrictions, watermarks, and auto-labeling) to reduce the risk of data loss, support regulatory compliance, and improve visibility and control over sensitive information. |\n| What is the end-user impact? | Users may see labels in Office apps and may experience access restrictions or encryption when interacting with labeled content. Labels should be tested and deployed carefully. |\n| Learn more | [Sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels) |",
+  "$friendlyName": "Confidential Data",
   "Conditions": [],
   "ContentType": "File, Email",
   "DisplayName": "Confidential Data",
-  "LabelActions": [
-    {
-      "Settings": [
-        {
-          "Key": "alignment",
-          "Value": "Left"
-        },
-        {
-          "Key": "disabled",
-          "Value": "false"
-        },
-        {
-          "Key": "fontcolor",
-          "Value": "#000000"
-        },
-        {
-          "Key": "fontsize",
-          "Value": "10"
-        },
-        {
-          "Key": "margin",
-          "Value": "5"
-        },
-        {
-          "Key": "placement",
-          "Value": "Footer"
-        }
-      ],
-      "SubType": "footer",
-      "Type": "applycontentmarking"
-    },
-    {
-      "Settings": [
-        {
-          "Key": "contentexpiredondateindaysornever",
-          "Value": "Never"
-        },
-        {
-          "Key": "disabled",
-          "Value": "false"
-        },
-        {
-          "Key": "offlineaccessdays",
-          "Value": "-1"
-        },
-        {
-          "Key": "protectiontype",
-          "Value": "template"
-        },
-        {
-          "Key": "rightsdefinitions",
-          "Value": "[\\{\"Identity\":\"${ResourceContext:TenantDomainName}\",\"Rights\":\"VIEW,VIEWRIGHTSDATA,DOCEDIT,EDIT,PRINT,EXTRACT,REPLY,REPLYALL,FORWARD,OBJMODEL\"\\}]"
-        }
-      ],
-      "Type": "encrypt"
-    }
-  ],
+  "LabelActions": [],
   "LocaleSettings": [
     {
       "LocaleKey": "displayName",
