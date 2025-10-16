@@ -1,7 +1,7 @@
 {
-  "name": "CIS Baseline",
+  "name": "CIS M365 Foundations 3.1.0",
   "description": "This baseline aligns with the Center for Internet Security (CIS) Microsoft 365 Foundations Benchmark v3.1.0.",
-  "label": "CIS",
+  "label": "CIS M365 Foundations 3.1.0",
   "tags": [
     {
       "path": "Source/Resources/Content/AadIam/ExternalUserGuestSettings/Configuration.json",
