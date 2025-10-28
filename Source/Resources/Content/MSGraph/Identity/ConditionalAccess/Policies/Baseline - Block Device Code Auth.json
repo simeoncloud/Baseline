@@ -1,0 +1,44 @@
+{
+"$description": "| What does this do? | **This policy is in Report Only mode. Before enabaling, consider excluding break glass accounts and account for any guest users in the tenant. This must be enabled to be compilant** Blocks the OAuth2 device code authentication flow via Conditional Access, preventing devices that rely on browser-based approval on another device from obtaining tokens. |\n| Why should you use this? | Mitigates device-code phishing attacks. Blocking this flow reduces that attack surface. |\n| What is the end-user impact? | Users of input constrained devices that rely on the device code flow will be unable to authenticate using that method; administrators may need to allow or manage a small set of trusted devices or provide alternative onboarding paths. |\n| Learn more | [Device code flow (OAuth 2.0)](https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code) [Authentication flows (Conditional Access)](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-authentication-flows) |",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "$friendlyName": "Baseline - Block Device Code Auth",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "authenticationFlows": {
+      "transferMethods": "deviceCodeFlow"
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/admin@${ResourceContext:TenantDomainName}?id}"
+      ],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabledForReportingButNotEnforced"
+}

@@ -1,0 +1,6 @@
+{
+  "$description": "| What does this do? | Ensures the Connection filter IP Allow list (Default Hosted Connection Filter Policy) contains no entries so inbound mail is subject to spam filtering and sender authentication checks. |\n| Why should you use this? | Prevents bypassing of spam and authentication checks (SPF, DKIM, DMARC) that can occur when IP addresses are allow-listed, reducing the risk of malicious or spoofed messages being delivered to user inboxes and supporting a zero-trust posture. |\n| What is the end-user impact? | Minimal for most users; some previously allow-listed senders may be flagged by spam filters and require remediation (for example, updating sender authentication or using approved transport methods). |\n| Learn more | [Connection filter policies - Configure](https://learn.microsoft.com/en-us/defender-office-365/connection-filter-policies-configure) |",
+  "$friendlyName": "Default",
+  "IPAllowList": [],
+  "IPBlockList": []
+}

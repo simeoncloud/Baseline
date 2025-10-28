@@ -12,10 +12,16 @@
         "escalationTimeInMinutes": 0,
         "isApproverJustificationRequired": true,
         "isEscalationEnabled": false,
-        "primaryApprovers": []
+        "primaryApprovers": [
+          {
+            "@odata.type": "#microsoft.graph.groupMembers",
+            "id": "${urn:resource:MSGraph:Groups/Baseline - PIM Approvers?id}",
+            "isBackup": false
+          }
+        ]
       }
     ],
-    "isApprovalRequired": false,
+    "isApprovalRequired": true,
     "isApprovalRequiredForExtension": false,
     "isRequestorJustificationRequired": true
   },

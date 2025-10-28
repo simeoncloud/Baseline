@@ -1,0 +1,5 @@
+{
+  "$description": "| What does this do? | Enables Customer Lockbox, requires explicit administrator approval for Microsoft support to access tenant data and provides an auditable approval trail. |\n| Why should you use this? | Protects organizational data from inadvertent or unauthorized access and data spillage, and provides governance and compliance evidence by enforcing an approval workflow and audit logs. |\n| What is the end-user impact? | Administrators must approve Microsoft support access requests which may introduce minor delays during troubleshooting; there is no direct impact on normal user operations. |\n| Learn more | [Customer Lockbox overview](https://learn.microsoft.com/en-us/azure/security/fundamentals/customer-lockbox-overview) |",
+  "$friendlyName": "Configuration",
+  "IsOptedIn": true
+  }

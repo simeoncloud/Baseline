@@ -1,0 +1,5 @@
+{
+  "$description": "| What does this do? | Enables Priority account protection in Microsoft 365 Defender to identify high-value users, apply enhanced detections and sign-in protections, tag accounts, and create alerting for faster incident response. |\n| Why should you use this? | Provides focused protection for accounts that are frequently targeted (executives, IT, finance, etc.), reduces the risk of spear-phishing and account compromise, and improves detection and response for high-impact incidents. |\n| What is the end-user impact? | Priority accounts may be subject to additional monitoring, stricter sign-in and conditional access controls, and targeted alerting; administrators must tag users or groups and configure alerts, which may introduce minimal sign-in changes for protected users. |\n| Learn more | [Priority accounts (setup)](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/priority-accounts) [Priority account security recommendations](https://learn.microsoft.com/en-us/defender-office-365/priority-accounts-security-recommendations) |",
+  "$friendlyName": "Configuration",
+  "EnablePriorityAccountProtection": true
+}

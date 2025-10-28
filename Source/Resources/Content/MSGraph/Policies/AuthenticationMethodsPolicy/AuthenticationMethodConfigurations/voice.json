@@ -1,0 +1,16 @@
+{
+  "$description": "| What does this do? | Disables weak authentication methods (SMS, Voice Call, and Email OTP) to prevent use of less secure verification channels for MFA and guest sign-in. |\n| Why should you use this? | SMS and voice are vulnerable to SIM-swapping and interception, and Email OTP can allow unauthenticated guest access; disabling them reduces account takeover risk and enforces stronger, more reliable authentication methods. |\n| What is the end-user impact? | Users who currently rely on SMS, voice calls, or Email OTP must enroll stronger methods. Guest users who rely on Email OTP may need alternative identity providers or be invited as guests in the tenant. |\n| Learn more | [Manage authentication methods](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods-manage) [Email one-time passcode (OTP) for B2B](https://learn.microsoft.com/en-us/entra/external-id/one-time-passcode) [What is SIM swapping](https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/what-is-sim-swapping) |",
+  "@odata.type": "#microsoft.graph.voiceAuthenticationMethodConfiguration",
+  "$friendlyName": "voice",
+  "excludeTargets": [],
+  "includeTargets": [
+    {
+      "@odata.type": "#microsoft.graph.authenticationMethodTarget",
+      "id": "all_users",
+      "isRegistrationRequired": false,
+      "targetType": "group"
+    }
+  ],
+  "isOfficePhoneAllowed": false,
+  "state": "disabled"
+}

@@ -1,0 +1,34 @@
+{
+  "$description": "| What does this do? | Publishes sensitivity label policies in Microsoft Purview so labels are available to classify and protect content across Microsoft 365. |\n| Why should you use this? | Enables consistent classification and enforcement (encryption, access restrictions, watermarks, and auto-labeling) to reduce the risk of data loss, support regulatory compliance, and improve visibility and control over sensitive information. |\n| What is the end-user impact? | Users may see labels in Office apps and may experience access restrictions or encryption when interacting with labeled content. Labels should be tested and deployed carefully. |\n| Learn more | [Sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels) |",
+  "$friendlyName": "Confidential Data",
+  "Conditions": [],
+  "ContentType": "File, Email",
+  "DisplayName": "Confidential Data",
+  "LabelActions": [],
+  "LocaleSettings": [
+    {
+      "LocaleKey": "displayName",
+      "Settings": [
+        {
+          "Key": "default",
+          "Value": "Confidential Data"
+        }
+      ]
+    },
+    {
+      "LocaleKey": "tooltip",
+      "Settings": [
+        {
+          "Key": "default",
+          "Value": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information."
+        }
+      ]
+    }
+  ],
+  "Name": "ConfidentialData",
+  "Priority": 2,
+  "Settings": [
+    "[displayname, Confidential Data]"
+  ],
+  "Tooltip": "Confidential data is classified as all business information that poses a risk to the company if it is made generally public. Confidential information should only be accessible to a restricted group of people. In addition to internal information, this also applies to all customer-related information."
+}
