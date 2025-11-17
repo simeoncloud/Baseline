@@ -5,7 +5,7 @@
   "backupReviewers": [],
   "descriptionForAdmins": "",
   "descriptionForReviewers": "",
-  "displayName": "Access review for privileged Azure AD roles",
+  "displayName": "Baseline - Access review for Teams Administrators",
   "fallbackReviewers": [],
   "reviewers": [
     {
