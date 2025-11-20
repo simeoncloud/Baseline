@@ -84,7 +84,7 @@
   "PublicFolderShowClientControl": false,
   "PublicFoldersEnabled": "Local",
   "ReadTrackingEnabled": false,
-  "RejectDirectSend": false,
+  "RejectDirectSend": true,
   "RemotePublicFolderMailboxes": [],
   "SendFromAliasEnabled": false,
   "SharedDomainEmailAddressFlowEnabled": true,
