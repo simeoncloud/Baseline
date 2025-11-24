@@ -45,7 +45,7 @@
     "decisionHistoriesForReviewersEnabled": false,
     "defaultDecision": "None",
     "defaultDecisionEnabled": false,
-    "instanceDurationInDays": 3,
+    "instanceDurationInDays": 14,
     "justificationRequiredOnApproval": true,
     "mailNotificationsEnabled": true,
     "recommendationInsightSettings": [
