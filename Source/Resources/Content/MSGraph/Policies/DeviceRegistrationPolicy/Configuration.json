@@ -1,0 +1,35 @@
+{
+    "$description": "| What does this do? | Limits the maximum number of Entra joined/registered devices per user (recommended ≤20) and prevents the Global Administrator role from being added as a local administrator during Entra join. |\n| Why should you use this? | Reduces attacker persistence via excessive device registrations and enforces least privilege on devices to lower compromise impact. |\n| What is the end-user impact? | Users cannot register more devices after reaching the quota; admins must use Device Enrollment Manager for bulk enrollments and use designated local admin accounts instead of Global Admins (minor administrative overhead). |\n| Learn more | [Manage device settings in Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/active-directory/devices/manage-device-settings) [Manage local administrators on Azure AD joined devices](https://learn.microsoft.com/en-us/azure/active-directory/devices/manage-local-accounts) |",
+    "$friendlyName": "Configuration",
+    "azureADJoin": {
+      "allowedToJoin": {
+        "@odata.type": "#microsoft.graph.enumeratedDeviceRegistrationMembership",
+        "groups": [
+            "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?id}"
+        ],
+        "users": []
+      },
+      "isAdminConfigurable": true,
+      "localAdmins": {
+        "enableGlobalAdmins": false,
+        "registeringUsers": {
+          "@odata.type": "#microsoft.graph.enumeratedDeviceRegistrationMembership",
+          "groups": [
+            "${urn:resource:MSGraph:Groups/Baseline - Device Enrollers?id}"
+        ],
+          "users": []
+        }
+      }
+    },
+    "azureADRegistration": {
+      "allowedToRegister": {
+        "@odata.type": "#microsoft.graph.allDeviceRegistrationMembership"
+      },
+      "isAdminConfigurable": false
+    },
+    "localAdminPassword": {
+      "isEnabled": true
+    },
+    "multiFactorAuthConfiguration": "notRequired",
+    "userDeviceQuota": 20
+  }

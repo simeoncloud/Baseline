@@ -1,7 +1,7 @@
 {
-    "name": "CIS M365 Foundations 5.0.0",
-    "description": "This baseline aligns with the Center for Internet Security (CIS) Microsoft 365 Foundations Benchmark v5.0.0.",
-    "label": "CIS M365 Foundations 5.0.0",
+    "name": "CIS M365 Foundations 6.0.0",
+    "description": "This baseline aligns with the Center for Internet Security (CIS) Microsoft 365 Foundations Benchmark v6.0.0.",
+    "label": "CIS M365 Foundations 6.0.0",
     "tags": [
       {
         "path": "Source/Resources/Content/AadIam/ExternalUserGuestSettings/Configuration.json",
@@ -50,6 +50,7 @@
         "path": "Source/Resources/Content/ExchangeOnline/HostedOutboundSpamFilterPolicy/Default.json",
         "description": [
           "2.1.6 (L1) Ensure Exchange Online Spam Policies are set to notify administrators (Automated)",
+          "2.1.15 (L1) Ensure outbound anti-spam message limits are in place (Automated)",
           "6.2.1 (L1) Ensure all forms of mail forwarding are blocked and/or disabled (Automated)"
         ]
       },
@@ -64,9 +65,11 @@
       {
         "path": "Source/Resources/Content/ExchangeOnline/OrganizationConfig/Configuration.json",
         "description": [
+          "1.3.9 (L1) Ensure shared bookings paged are restricted to select users (Automated)",
           "6.1.1 (L1) Ensure 'AuditDisabled' organizationally is set to 'False' (Automated)",
           "6.5.1 (L1) Ensure modern authentication for Exchange Online is enabled (Automated)",
-          "6.5.2 (L1) Ensure MailTips are enabled for end users (Automated)"
+          "6.5.2 (L1) Ensure MailTips are enabled for end users (Automated)",
+          "6.5.5 (L2) Ensure Direct Send submissions are rejected (Automated)"
         ]
       },
       {
@@ -99,7 +102,7 @@
           "7.2.1 (L1) Ensure modern authentication for SharePoint applications is required (Automated)",
           "7.2.3 (L1) Ensure external content sharing is restricted (Automated)",
           "7.2.5 (L2) Ensure that SharePoint guest users cannot share items they don't own (Automated)",
-          "7.2.6 (L2) Ensure SharePoint external sharing is managed through domain whitelist/blacklists",
+          "7.2.6 (L2) Ensure SharePoint external sharing is restricted (Automated)",
           "7.3.2 (L2) Ensure OneDrive sync is restricted for unmanaged devices (Automated)"
         ]
       },
@@ -211,7 +214,8 @@
         "path": "Source/Resources/Content/MSGraph/Policies/AuthorizationPolicy/Authorization Policy.json",
         "description": [
           "5.1.2.2 (L2) Ensure third party integrated applications are not allowed (Automated)",
-          "5.1.2.3 (L1) Ensure 'Restrict non-admin users from creating tenants' is set to 'Yes'  (Automated)"
+          "5.1.2.3 (L1) Ensure 'Restrict non-admin users from creating tenants' is set to 'Yes'  (Automated)",
+          "5.1.3.2 (L1) Ensure users cannot create security groups (Automated)"
         ]
       },
       {
@@ -277,12 +281,6 @@
         ]
       },
       {
-        "path": "Source/Resources/Content/SharePoint/Sites/https%3A%2F%2F${ResourceContext%3ASharePointDomainName}.json",
-        "description": [
-          "7.3.4 (L1) Ensure custom script execution is restricted on site collections (Automated)"
-        ]
-      },
-      {
         "path": "Source/Resources/Content/SharePoint/TenantProperties/Configuration.json",
         "description": [          
           "7.2.2 (L1) Ensure SharePoint and OneDrive integration with Azure AD B2B is enabled (Automated)",          
@@ -323,7 +321,8 @@
       {
         "path": "Source/Resources/Content/Teams/CsTenantFederationConfiguration/Global.json",
         "description": [
-          "8.2.1 (L1) Ensure 'external access' is restricted in the Teams admin center (Automated)"
+          "8.2.1 (L1) Ensure 'external access' is restricted in the Teams admin center (Automated)",
+          "8.2.4 (L1) Ensure the organization cannot communicate with accounts in trial Teams tenants (Automated)"
         ]
       },
       {
@@ -409,7 +408,7 @@
       {
         "path": "Source/Resources/Content/MSGraph/Policies/AuthenticationMethodsPolicy/AuthenticationMethodConfigurations/email.json",
         "description": [
-          "5.2.3.5 (L1) Ensure weak authentication methods are disabled (Automated)"
+          "5.2.3.7 (L2) Ensure the email OTP authentication method is disabled (Automated)"
         ]
       },
       {
@@ -453,6 +452,23 @@
         "description": [
           "8.2.2 (L1) Ensure communication with unmanaged Teams users is disabled (Automated)",
           "8.2.3 (L1) Ensure external Teams users cannot initiate conversations (Automated)"
+        ]
+      },
+      {
+        "path": "",
+        "description": [
+          "5.1.4.1 (L2) Ensure the ability to join devices to Entra is restricted",
+          "5.1.4.2 (L2) Ensure the maximum number of devices per user is limited",
+          "5.1.4.3 (L1) Ensure the GA role is not added as a local administrator during Entra join",
+          "5.1.4.4 (L1) Ensure local administrator assignment is limited during Entra join",
+          "5.1.4.5 (L1) Ensure Local Administrator Password Solution is enabled",
+          "5.1.4.6 (L2) Ensure users are restricted from recovering BitLocker keys"
+        ]
+      },
+      {
+        "path": "Source/Resources/Content/MSGraph/Groups/Baseline - Device Enrollers.json",
+        "description": [
+          "This configuration is a dependency for other industry baseline configurations."
         ]
       },
       {
