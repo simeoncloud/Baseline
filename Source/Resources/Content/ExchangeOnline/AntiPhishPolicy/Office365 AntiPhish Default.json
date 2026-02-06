@@ -7,7 +7,7 @@
   "EnableFirstContactSafetyTips": false,
   "EnableMailboxIntelligence": true,
   "EnableMailboxIntelligenceProtection": true,
-  "EnableOrganizationDomainsProtection": false,
+  "EnableOrganizationDomainsProtection": true,
   "EnableSimilarDomainsSafetyTips": false,
   "EnableSimilarUsersSafetyTips": false,
   "EnableSpoofIntelligence": true,
