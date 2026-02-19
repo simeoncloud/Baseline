@@ -24,7 +24,7 @@
   "MailboxIntelligenceProtectionAction": "NoAction",
   "MailboxIntelligenceProtectionActionRecipients": [],
   "MailboxIntelligenceQuarantineTag": "${urn:resource:ExchangeOnline:QuarantinePolicy/DefaultFullAccessPolicy?Name}",
-  "PhishThresholdLevel": 2,
+  "PhishThresholdLevel": 3,
   "SpoofQuarantineTag": "${urn:resource:ExchangeOnline:QuarantinePolicy/DefaultFullAccessPolicy?Name}",
   "TargetedDomainActionRecipients": [],
   "TargetedDomainProtectionAction": [
