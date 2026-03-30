@@ -4,12 +4,9 @@
   "label": "Essential 8 ML 1",
   "tags": [
     {
-      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/ACSC Windows Hardening Guidelines.json",
+      "path": "Source/Resources/Content/MSGraph/DeviceManagement/ConfigurationPolicies/ACSC Windows Hardening Guidelines level 1.json",
       "description": [
-        "ISM 1488 Microsoft Office macros in files originating from the internet are blocked",
-        "ISM 1672 Microsoft Office macro antivirus scanning is enabled",
-        "ISM 1675 Microsoft Office macros digitally signed by an untrusted publisher can't be enabled via the Message Bar or Backstage View",
-        "ISM 1859 Web browser, Microsoft Office and PDF software security settings can't be changed by users"
+        "ISM 1488 Microsoft Office macros in files originating from the internet are blocked"
       ]
     },
     {
