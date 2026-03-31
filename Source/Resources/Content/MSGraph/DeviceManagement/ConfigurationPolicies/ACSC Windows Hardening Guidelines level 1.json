@@ -1,5 +1,5 @@
 {
-  "$friendlyName": "M1 - ACSC Office Hardening Guidelines (Level 1)",
+  "$friendlyName": "M1 - ACSC Office Hardening Guidelines Level 1",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "assignments": [],
   "description": "Level 1 - Block macros from the internet only",
