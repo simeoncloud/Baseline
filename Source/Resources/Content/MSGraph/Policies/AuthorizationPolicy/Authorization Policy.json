@@ -10,7 +10,7 @@
     "allowedToCreateApps": false,
     "allowedToCreateSecurityGroups": false,
     "allowedToCreateTenants": false,
-    "allowedToReadBitlockerKeysForOwnedDevice": true,
+    "allowedToReadBitlockerKeysForOwnedDevice": false,
     "allowedToReadOtherUsers": true
   },
   "enabledPreviewFeatures": [],
