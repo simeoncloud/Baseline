@@ -1,0 +1,45 @@
+{
+  "$description": "| What does this do? | Blocks the authentication transfer flow so users cannot transfer an existing sign-in session to another client in a way that bypasses your controls. |\n| Why should you use this? | Reduces risk from token/session transfer abuse and helps ensure each client completes its own authentication. |\n| What is the end-user impact? | Users cannot use authentication transfer between clients where this flow would apply; excluded break-glass and designated admin accounts remain usable for recovery. |\n| Learn more | [Authentication flows in Conditional Access](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-authentication-flows) |",
+  "$friendlyName": "Ensure authentication transfer is blocked",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "authenticationFlows": {
+      "transferMethods": "authenticationTransfer"
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/admin@${ResourceContext:TenantDomainName}?id}",
+        "${urn:resource:MSGraph:Users/break-glass@${ResourceContext:TenantDomainName}?id}"
+      ],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabledForReportingButNotEnforced"
+}

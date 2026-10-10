@@ -1,0 +1,42 @@
+{
+  "$description": "| What does this do? | Requires users to reauthenticate on a fixed interval (every 7 days) for cloud apps, using primary and secondary authentication. Excludes the break-glass account. |\n| Why should you use this? | Limits how long a compromised session can remain valid if credentials or tokens are stolen. |\n| What is the end-user impact? | Users are prompted to sign in again at least every seven days during normal use. |\n| Learn more | [Conditional Access session lifetime](https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-session-lifetime) |",
+  "$friendlyName": "Periodic reauthentication is required for all users",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeAuthenticationContextClassReferences": [],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeGroups": [],
+      "excludeRoles": [],
+      "excludeUsers": [
+        "${urn:resource:MSGraph:Users/break-glass@${ResourceContext:TenantDomainName}?id}"
+      ],
+      "includeGroups": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "sessionControls": {
+    "signInFrequency": {
+      "authenticationType": "primaryAndSecondaryAuthentication",
+      "frequencyInterval": "timeBased",
+      "isEnabled": true,
+      "type": "days",
+      "value": 7
+    }
+  },
+  "state": "enabledForReportingButNotEnforced"
+}

@@ -10,7 +10,7 @@
   "mobilePhoneOptionEnabled": true,
   "notifyOnAdminPasswordReset": false,
   "notifyUsersOnPasswordReset": true,
-  "numberOfAuthenticationMethodsRequired": 1,
+  "numberOfAuthenticationMethodsRequired": 2,
   "numberOfQuestionsToRegister": 5,
   "numberOfQuestionsToReset": 3,
   "officePhoneOptionEnabled": false,
